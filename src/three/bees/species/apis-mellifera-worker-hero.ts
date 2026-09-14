@@ -173,16 +173,40 @@ export async function createWesternHoneyBeeHero(
     const p = nodePosition(name);
     return [p.x + dx, p.y + dy, p.z + dz];
   };
+  // 部分部件节点的原点不在部件几何上:触角/六足是恒等变换(原点=蜂根原点)、
+  // 腹部原点在腰部动画枢轴。这些锚点若用节点原点,圆点会落到双足之间
+  // 或悬在背上方空中(2026-09-14 用户报告的"触角点漂移"即此)——
+  // 必须从几何包围盒取点,与节点枢轴无关,对所有物种/职型通用。
+  const partBox = (name: string): THREE.Box3 => {
+    const node = byName.get(name);
+    if (!node) throw new Error(`bee-hero.glb is missing node '${name}'.`);
+    return new THREE.Box3().setFromObject(node);
+  };
+  /** 包围盒内取相对位置点(fx/fy/fz:0=min 面,1=max 面,可略越界取表面外浮点) */
+  const boxPoint = (
+    box: THREE.Box3,
+    fx: number,
+    fy: number,
+    fz: number,
+  ): THREE.Vector3Tuple => [
+    THREE.MathUtils.lerp(box.min.x, box.max.x, fx),
+    THREE.MathUtils.lerp(box.min.y, box.max.y, fy),
+    THREE.MathUtils.lerp(box.min.z, box.max.z, fz),
+  ];
+  const legsBox = ["foreLegL", "foreLegR", "midLegL", "midLegR", "hindLegL", "hindLegR"]
+    .map(partBox)
+    .reduce((a, b) => a.union(b));
 
   const anchorPositions: Record<BeeAnchorId, THREE.Vector3Tuple> = {
     whole: [0, 0, 0],
     head: surface("head", 0.03, 0.14, 0),
     thorax: surface("thorax", 0, 0.28, 0),
-    abdomen: surface("abdomen", 0, 0.31, -0.05),
+    // 腹背面中点略上浮(fy 1.1 = 盒顶外 10% 高度,浮出绒毛壳)
+    abdomen: boxPoint(partBox("abdomen"), 0.5, 1.1, 0.5),
     compoundEyeL: surface("compoundEyeL", 0.04, 0.04, -0.1),
     compoundEyeR: surface("compoundEyeR", 0.04, 0.04, 0.1),
-    antennaL: surface("antennaL", 0.02, 0.04, -0.03),
-    antennaR: surface("antennaR", 0.02, 0.04, 0.03),
+    antennaL: boxPoint(partBox("antennaL"), 0.5, 0.55, 0.5),
+    antennaR: boxPoint(partBox("antennaR"), 0.5, 0.55, 0.5),
     // the hero asset has no sculpted proboscis yet; anchor sits at the lower
     // face so focus/labels still have a sensible target (noted in content data)
     proboscis: surface("head", 0.18, -0.15, 0),
@@ -190,13 +214,16 @@ export async function createWesternHoneyBeeHero(
     foreWingR: surface("foreWingR", 0, 0.06, 0.03),
     hindWingL: surface("hindWingL", 0, 0.04, -0.04),
     hindWingR: surface("hindWingR", 0, 0.04, 0.04),
-    foreLegL: surface("foreLegL", 0.03, -0.05, -0.08),
-    foreLegR: surface("foreLegR", 0.03, -0.05, 0.08),
-    midLegL: surface("midLegL", 0, -0.05, -0.08),
-    midLegR: surface("midLegR", 0, -0.05, 0.08),
-    hindLegL: surface("hindLegL", 0, -0.05, -0.1),
-    hindLegR: surface("hindLegR", 0, -0.05, 0.1),
-    leg: surface("hindLegL", 0, -0.15, -0.08),
+    // 足:取盒中低处偏外侧(L 外侧 = z min 向,R 外侧 = z max 向);
+    // 前足点近清洁器(基跗节)、后足点近花粉筐(胫节)高度
+    foreLegL: boxPoint(partBox("foreLegL"), 0.5, 0.35, 0.25),
+    foreLegR: boxPoint(partBox("foreLegR"), 0.5, 0.35, 0.75),
+    midLegL: boxPoint(partBox("midLegL"), 0.5, 0.4, 0.25),
+    midLegR: boxPoint(partBox("midLegR"), 0.5, 0.4, 0.75),
+    hindLegL: boxPoint(partBox("hindLegL"), 0.5, 0.45, 0.25),
+    hindLegR: boxPoint(partBox("hindLegR"), 0.5, 0.45, 0.75),
+    // "六足"聚焦看点 = 六足联合盒中心(略低),镜头框住全部足
+    leg: boxPoint(legsBox, 0.5, 0.4, 0.5),
     // 雄蜂无螫针(资产中无 sting 节点),锚点回退到腹部末端
     sting: byName.has("sting")
       ? surface("sting", -0.1, 0, 0)
