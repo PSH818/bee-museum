@@ -79,7 +79,7 @@ function About() {
           <p>
             <b>站在开源社区的肩膀上:</b>React、Three.js、React Three Fiber、drei、React Router、
             Zod、Vite(均为 MIT 协议),模型压缩用 glTF-Transform 与 meshoptimizer(MIT),
-            测试用 Playwright(Apache-2.0)与 Vitest(MIT);字体为思源宋体(Noto Serif SC)与
+            测试用 Playwright(Apache-2.0)与 Vitest(MIT);字体为 Noto Serif SC(与思源宋体同源)与
             Manrope(SIL OFL 1.1)。
           </p>
           <p>

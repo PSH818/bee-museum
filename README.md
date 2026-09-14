@@ -98,7 +98,7 @@ M0–M6 全部完成,五馆开放,收官状态见 [docs/LAUNCH-CHECKLIST.md](./d
 | 构建 | [Vite](https://vite.dev)、TypeScript | MIT / Apache-2.0 |
 | 模型压缩 | [glTF-Transform](https://gltf-transform.dev)、[meshoptimizer](https://github.com/zeux/meshoptimizer) | MIT |
 | 测试 | [Playwright](https://playwright.dev)、[Vitest](https://vitest.dev) | Apache-2.0 / MIT |
-| 字体 | 思源宋体 Noto Serif SC、Manrope(经 Google Fonts) | SIL OFL 1.1 |
+| 字体 | Noto Serif SC(与思源宋体同源)、Manrope(经 Google Fonts) | SIL OFL 1.1 |
 
 **资料来源:**全部科普事实参考公开来源(维基百科、机构资料、学术论文)独立改写,未复制原文;98 条来源逐条列于站内"来源与审校"页,每条展出内容注明出处与审校状态。
 
