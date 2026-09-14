@@ -1,0 +1,152 @@
+<title>蜜蜂标本台</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&family=Noto+Sans+SC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#efe5cf;
+  --bg-glow:#faf3e1;
+  --ink:#2c2114;
+  --muted:#8a7a5f;
+  --accent:#b3720c;
+  --accent-ink:#1f1503;
+  --panel:rgba(255,252,244,.72);
+  --line:rgba(90,70,35,.22);
+  --btn:rgba(255,252,244,.85);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f0b06;
+    --bg-glow:#291d0d;
+    --ink:#f0e6cf;
+    --muted:#9c8c6c;
+    --accent:#eeb63d;
+    --accent-ink:#1f1503;
+    --panel:rgba(24,18,10,.62);
+    --line:rgba(240,214,150,.18);
+    --btn:rgba(30,23,12,.85);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f0b06;
+  --bg-glow:#291d0d;
+  --ink:#f0e6cf;
+  --muted:#9c8c6c;
+  --accent:#eeb63d;
+  --accent-ink:#1f1503;
+  --panel:rgba(24,18,10,.62);
+  --line:rgba(240,214,150,.18);
+  --btn:rgba(30,23,12,.85);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  overflow:hidden;
+  color:var(--ink);
+  background:radial-gradient(1100px 700px at 50% 38%, var(--bg-glow), var(--bg) 75%) fixed, var(--bg);
+  font-family:'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size:15px;
+  line-height:1.6;
+}
+.stage{position:fixed;inset:0}
+.stage canvas{display:block;width:100%;height:100%;touch-action:none;cursor:grab}
+.stage canvas:active{cursor:grabbing}
+.overlay{position:fixed;pointer-events:none;z-index:2}
+.masthead{top:clamp(16px,4vh,40px);left:clamp(16px,4vw,48px);max-width:min(420px,80vw)}
+.eyebrow{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;letter-spacing:.22em;
+  color:var(--accent);
+  text-transform:uppercase;
+  margin:0 0 10px;
+}
+h1{
+  font-family:'Noto Serif SC',serif;
+  font-weight:900;
+  font-size:clamp(30px,5vw,52px);
+  line-height:1.15;
+  margin:0 0 12px;
+  text-wrap:balance;
+}
+.masthead p{margin:0;color:var(--muted);font-size:13.5px;max-width:34em}
+.masthead p b{color:var(--ink);font-weight:700}
+.stats{
+  bottom:clamp(14px,3.5vh,32px);left:clamp(16px,4vw,48px);
+  font-family:'IBM Plex Mono',monospace;
+  font-size:12px;
+  font-variant-numeric:tabular-nums;
+  color:var(--muted);
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:10px 14px;
+  backdrop-filter:blur(8px);
+  display:flex;flex-wrap:wrap;gap:4px 18px;
+  max-width:min(560px,calc(100vw - 32px));
+}
+.stats b{color:var(--ink);font-weight:500}
+.stats .acc{color:var(--accent)}
+.controls{
+  bottom:clamp(14px,3.5vh,32px);right:clamp(16px,4vw,48px);
+  display:flex;gap:10px;align-items:flex-end;flex-direction:column;
+}
+.controls .row{display:flex;gap:10px}
+.hint{
+  font-family:'IBM Plex Mono',monospace;
+  font-size:11px;letter-spacing:.08em;
+  color:var(--muted);
+  text-align:right;
+}
+button{
+  pointer-events:auto;
+  font-family:'Noto Sans SC',sans-serif;
+  font-size:14px;font-weight:500;
+  color:var(--ink);
+  background:var(--btn);
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:9px 22px;
+  cursor:pointer;
+  backdrop-filter:blur(8px);
+  transition:border-color .15s, transform .1s;
+}
+button:hover{border-color:var(--accent)}
+button:active{transform:scale(.97)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent;font-weight:700}
+@media (max-width:640px){
+  .masthead p{display:none}
+  .stats{font-size:11px;gap:2px 12px;padding:8px 12px;bottom:auto;top:clamp(120px,22vh,180px);left:16px;right:auto}
+  .controls{left:16px;right:16px;flex-direction:row;justify-content:space-between;align-items:center}
+  .hint{display:none}
+}
+@media (prefers-reduced-motion: reduce){
+  button{transition:none}
+}
+</style>
+
+<div class="stage"><canvas id="c" aria-label="程序化生成的三维蜜蜂,可拖动旋转"></canvas></div>
+
+<header class="overlay masthead">
+  <p class="eyebrow">Zero Model Files · 打开即生成</p>
+  <h1>蜜蜂标本台</h1>
+  <p>这只蜜蜂没有用到任何 3D 模型文件——身体、绒毛、条纹、翅脉,都是页面打开的这一瞬间由代码<b>现场"画"出来</b>的。换个种子,就是另一只。</p>
+</header>
+
+<div class="overlay stats" id="stats" role="status">
+  <span>三角面 <b id="stTri">—</b></span>
+  <span>生成 <b id="stMs">—</b> ms</span>
+  <span>模型文件 <b class="acc">0 个</b></span>
+  <span>第 <b id="stN">1</b> 只</span>
+</div>
+
+<div class="overlay controls">
+  <p class="hint">拖动旋转 · 滚轮缩放</p>
+  <div class="row">
+    <button id="btnNew">再画一只</button>
+    <button id="btnFly" class="primary">起飞</button>
+  </div>
+</div>
+
+<script>
