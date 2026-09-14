@@ -40,6 +40,7 @@
     "@playwright/test": "^1.62.1",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "gifenc": "^1.0.3",
     "meshoptimizer": "^1.2.0",
     "vite-node": "^6.0.0",
     "vitest": "^4.1.11"
