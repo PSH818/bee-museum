@@ -1,0 +1,16 @@
+{
+  "scientific_name": "Apis cerana",
+  "caste": "worker",
+  "mesh_objects": 202,
+  "triangles": 255596,
+  "glb_units": "meters",
+  "blend_units": "millimeters",
+  "glb_dimensions_meters_xyz": [
+    0.01092649158090353,
+    0.01147387083619833,
+    0.004548401273495983
+  ],
+  "external_assets": false,
+  "rigged": false,
+  "notes": "Static educational model. GLB includes modeled hairs and constant PBR materials; procedural micro-bump and thin-film look are retained in the Blender master."
+}

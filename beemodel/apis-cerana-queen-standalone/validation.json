@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    "queen caste",
+    "no worker pollen baskets",
+    "abdomen extends beyond wing tips",
+    "four wings",
+    "six legs and ordinary tibiae",
+    "three ocelli",
+    "six abdominal tergites and sternites",
+    "twenty flagellomeres",
+    "thirty tarsomeres",
+    "finite geometry",
+    "no external image dependencies",
+    "valid self-contained GLB",
+    "transparent membrane retained",
+    "no studio exported",
+    "GLB successfully re-imported",
+    "meter scale verified"
+  ],
+  "abdomen_past_wingtip_mm": 4.013000965118408,
+  "imported_mesh_count": 206,
+  "imported_dimensions_m": [
+    0.015556491911411285,
+    0.009015909396111965,
+    0.004730408440082101
+  ]
+}

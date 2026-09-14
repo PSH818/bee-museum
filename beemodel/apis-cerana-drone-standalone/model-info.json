@@ -1,0 +1,22 @@
+{
+  "scientific_name": "Apis cerana",
+  "caste": "drone",
+  "sex": "male",
+  "life_stage": "adult male (interpretive)",
+  "body_length_mm": 11.4,
+  "corbiculae": false,
+  "sting": false,
+  "antenna_segments_per_side": 13,
+  "mesh_objects": 214,
+  "triangles": 359412,
+  "glb_units": "meters",
+  "blend_units": "millimeters",
+  "glb_dimensions_meters_xyz": [
+    0.01297051040455699,
+    0.011699913069605827,
+    0.005328833951352863
+  ],
+  "external_assets": false,
+  "rigged": false,
+  "notes": "Static educational model. GLB includes modeled hairs and constant PBR materials; procedural micro-bump and thin-film look are retained in the Blender master."
+}

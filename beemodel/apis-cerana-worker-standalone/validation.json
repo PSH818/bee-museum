@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    "four wings",
+    "six legs",
+    "three ocelli",
+    "six abdominal tergites",
+    "twenty flagellomeres",
+    "thirty tarsomeres",
+    "finite geometry",
+    "no external image dependencies",
+    "valid self-contained GLB",
+    "transparent membrane retained",
+    "no studio exported",
+    "GLB successfully re-imported",
+    "meter scale verified"
+  ],
+  "imported_mesh_count": 202,
+  "imported_dimensions_m": [
+    0.01092649158090353,
+    0.01147387083619833,
+    0.004548401273495983
+  ]
+}

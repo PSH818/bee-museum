@@ -1,0 +1,20 @@
+{
+  "scientific_name": "Apis cerana",
+  "caste": "queen",
+  "sex": "female",
+  "life_stage": "adult laying queen (interpretive)",
+  "body_length_mm": 14.4,
+  "corbiculae": false,
+  "mesh_objects": 206,
+  "triangles": 263560,
+  "glb_units": "meters",
+  "blend_units": "millimeters",
+  "glb_dimensions_meters_xyz": [
+    0.015556491911411285,
+    0.009015909396111965,
+    0.004730408440082101
+  ],
+  "external_assets": false,
+  "rigged": false,
+  "notes": "Static educational model. GLB includes modeled hairs and constant PBR materials; procedural micro-bump and thin-film look are retained in the Blender master."
+}

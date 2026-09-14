@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    "male drone",
+    "no sting or worker pollen baskets",
+    "large eyes approach dorsal midline",
+    "compact abdomen with blunt terminal cap",
+    "four wings",
+    "six legs and ordinary tibiae",
+    "three ocelli",
+    "seven abdominal tergites and ventral plates",
+    "twenty-two flagellomeres",
+    "thirty tarsomeres",
+    "finite geometry",
+    "no external image dependencies",
+    "valid self-contained GLB",
+    "transparent membrane retained",
+    "no studio exported",
+    "GLB successfully re-imported",
+    "meter scale verified"
+  ],
+  "dorsal_eye_seam_gap_mm": 0.05004965886473656,
+  "abdomen_past_wingtip_mm": 0.609520435333252,
+  "imported_mesh_count": 214,
+  "imported_dimensions_m": [
+    0.01297051040455699,
+    0.011699913069605827,
+    0.005328833951352863
+  ]
+}
