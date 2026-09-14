@@ -33,12 +33,15 @@ const SCENES = {
   },
   fine: {
     url: "/museum/bees/apis-cerana?motion=1",
-    ready: (p) => p.waitForFunction(() => window.__specimenReady === true, undefined, { timeout: 40000 }),
+    ready: async (p) => {
+      await p.waitForFunction(() => window.__specimenReady === true, undefined, { timeout: 40000 });
+      await p.waitForTimeout(2600); // 等加载海报完全淡出
+    },
     clip: { x: 322, y: 88, width: 1100, height: 730 },
     frames: 34,
     intervalMs: 300,
     async act(p) {
-      await p.waitForTimeout(1500);
+      await p.waitForTimeout(2000);
       await p.locator(".wb-tools button", { hasText: "精模" }).click();
       await p.waitForFunction(() => window.__fineReady === true, undefined, { timeout: 30000 });
     },
@@ -89,8 +92,9 @@ for (const name of names) {
     }
   })();
   for (let i = 0; i < scene.frames; i++) {
-    const buf = await page.locator(".wb-stage").screenshot().catch(() => null);
+    const buf = await page.locator(".wb-stage").screenshot({ timeout: 4000 }).catch(() => null);
     if (buf) frames.push(PNG.sync.read(buf));
+    else if (frames.length) frames.push(frames[frames.length - 1]); // 加载抖动时复用上一帧
     await page.waitForTimeout(scene.intervalMs);
   }
   await actDone;
