@@ -1,0 +1,11 @@
+# 缓存策略(Cloudflare Pages / Netlify)
+# 构建产物带内容哈希,可长期缓存;GLB 模型文件名不带哈希,缓存一天
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/models/*
+  Cache-Control: public, max-age=86400
+/images/*
+  Cache-Control: public, max-age=86400
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
