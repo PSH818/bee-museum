@@ -1,0 +1,187 @@
+{
+  "lens": "refutation",
+  "round": 27,
+  "reviewedAt": "2026-09-08T01:14:33.000Z",
+  "verdicts": [
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "外勤蜂把喙伸进花冠,吸取花蜜——蜂蜜的唯一原料。",
+          "problem": "被甘露蜜(honeydew honey)直接击穿:蜂蜜也可以由蚜虫、蚧壳虫等半翅目昆虫分泌的甘露酿成,欧洲的冷杉蜜、松蜜即是大宗商品蜜种。条目自引的 en.wikipedia Honey 开篇原文即为 'refining the sugary secretions of plants (primarily floral nectar) or the secretions of other insects, like the honeydew of aphids'——自引来源直接反驳'唯一原料'。",
+          "suggestion": "改为'蜂蜜最主要的原料'或'绝大多数蜂蜜的原料',并可加一句边界:'少数蜜种来自蚜虫等昆虫分泌的甘露(甘露蜜),不在本馆流程之内'。"
+        },
+        {
+          "claim": "花蜜是花朵分泌的含糖液体",
+          "problem": "次要问题:植物也有花外蜜腺(extrafloral nectaries),蜜蜂确会采集(如棉花的苞叶蜜腺)。'花朵分泌'作为定义略窄,但在本条语境下危害有限。",
+          "suggestion": "可改为'主要由花朵蜜腺分泌',或保留原文但不要在别处引申为全称定义。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "蜜胃与消化道之间有阀门隔开,采回的花蜜和蜂自己的食物互不相混。",
+          "problem": "'互不相混'是过强的全称断言,且被本条 detail 自相矛盾地否定:detail 承认'真正被这只蜂吃掉的,只有经阀门进入消化道的一小部分'——蜂自己的食物正是经阀门放行的蜜胃内容物,二者本来就是同一批液体。此外前胃(proventriculus)的功能之一是主动从蜜胃内容物中滤取花粉粒送入中肠,即蜜胃里的东西持续有选择地进入消化道,不是'隔开互不相混'。依据:Snodgrass《Anatomy of the Honey Bee》对 proventriculus 过滤功能的经典描述。",
+          "suggestion": "改为'蜜胃与消化道之间有一个阀门(前胃)把关:大部分花蜜留在蜜胃里带回巢,只有蜂自己取食的一小部分和被滤出的花粉经阀门进入消化道'。删去'互不相混'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-handoff",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "回巢后,外勤蜂把蜜胃里的花蜜口对口吐给内勤蜂,这种传递叫交哺。",
+          "problem": "进攻未击穿,两点说明:(1) 试图以'交哺还传递信息素、幼虫食物'攻击——但条目只说这次传递'叫交哺',未断言交哺仅用于花蜜,不构成误导;(2) 试图以'流蜜期外勤蜂有时把花蜜直接存入巢房'攻击——条目描述的是典型路径,未用'总是/必须'等全称词,勉强站得住。",
+          "suggestion": "可选优化:detail 里补半句'交哺同时也是蜂群传递气味与信息的渠道',把知识面补全并预防误读。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "这两步让蜜变得偏酸、高渗,微生物难以存活——蜂蜜能长期保存,靠的是化学,不是防腐剂。",
+          "problem": "'难以存活'以偏概全,混淆了'存活'与'生长繁殖'。著名反例:肉毒杆菌(Clostridium botulinum)芽孢能在蜂蜜中长期休眠存活,这正是各国卫生机构(WHO、CDC、加州公卫局等)警告一岁以下婴儿不得食用蜂蜜的原因——芽孢在蜂蜜里不萌发不产毒,但进入婴儿肠道后可萌发致婴儿肉毒中毒。耐渗透压酵母也能存活并在含水量偏高时发酵。en.wikipedia Honey 的措辞是 'many microorganisms cannot grow in it'(不能生长),而非不能存活。对一个面向公众的展馆,这个差别涉及食品安全,必须改。",
+          "suggestion": "改为'微生物难以在其中生长繁殖'。建议顺带加一句边界:'个别细菌芽孢(如肉毒杆菌)仍可休眠存活,因此一岁以下婴儿不应食用蜂蜜'——这是展馆应尽的提示。"
+        },
+        {
+          "claim": "蜂蜜能长期保存,靠的是化学,不是防腐剂",
+          "problem": "次要问题:防腐的第一因素是高糖低水分带来的低水活度(物理化学的渗透效应),酸和过氧化氢是辅助。本条把保存归因于'这两步'(酶促反应),而脱水在下一步'浓缩'才发生,归因顺序略有误导。",
+          "suggestion": "措辞改为'偏酸、高渗再加上下一步的脱水,共同让微生物无法生长'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刚采回的花蜜一半以上是水",
+          "problem": "进攻部分命中但被条目自己的 boundary 挡住:多数花蜜确实含水 70–80%(en.wikipedia Honey),但存在含水不足一半的浓花蜜反例——本馆洋槐条目所引德文维基给出刺槐花蜜含糖 34–59%(上限时含水仅 41%),草木樨花蜜平均含糖约 52%。boundary 已声明'花蜜的初始含水量随花种与天气差别更大',全称断言被自限定兜住,故不判 fail。'降到大约五分之一以下'与 Codex(≤20%)及维基口径(15.5–18%,>20% 不宜储存)相容,且 boundary 已注明 17%–20% 出入。",
+          "suggestion": "把 summary 的'一半以上是水'软化为'通常一半以上是水',与 boundary 完全对齐。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "封盖之下的蜂蜜是蜂群的存粮:蜜蜂属靠它撑过没有花的冬天。",
+          "problem": "对'蜜蜂属'(Apis)的全称断言被热带成员击穿:大蜜蜂(A. dorsata)、小蜜蜂(A. florea)及热带种群的东方蜜蜂生活在没有冬天的地区,它们储蜜是为了撑过旱季/雨季的缺花期,且常以迁飞弃巢应对蜜源枯竭,而不是抱团越冬。'撑过冬天'只适用于温带蜜蜂。",
+          "suggestion": "改为'蜜蜂属靠它撑过缺花的季节——温带是冬天,热带则是旱季或雨季的断蜜期',或把主语收窄为'本馆展出的西方蜜蜂与东方蜜蜂(温带种群)'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至乳黄,味微辛,结晶极快。",
+          "problem": "进攻未击穿:结晶极快(高葡萄糖)与色泽有德国养蜂教学资料及广泛文献支撑。'味微辛'是感官描述,中文产区资料常见'略带辛辣/青草气'的说法,德语资料多描述为 mild(温和)——存在地区口径差异,但'微辛'程度轻微、不构成事实错误。",
+          "suggestion": "如求稳,可写'常被描述为味淡微辛',标明是感官通说而非理化事实。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科引用的养蜂资料估算,一株成年树一个花季分泌的花蜜可供酿出接近 1 公斤蜂蜜。",
+          "problem": "进攻未击穿:实测核对德文维基 Gewöhnliche Robinie 'Bienenweide' 一节原文为 'Durchschnittlich lassen sich je Baum und Blühsaison Honigerträge zwischen 0,66 und 1,44 Kilogramm erzielen'(每树每花季平均 0.66–1.44 公斤)。'接近 1 公斤'落在区间中值附近,且已明示转引来源,归因诚实。'槐花蜜的槐花指洋槐而非国槐'符合中国市场事实(商品槐花蜜为刺槐蜜,国槐花期更晚且非其原料)。",
+          "suggestion": "可把'接近 1 公斤'改为'约 0.7–1.4 公斤',更贴近原始区间。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-sunflower",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "浅黄,葡萄糖比例高,结晶快。",
+          "problem": "进攻未击穿:向日葵蜜葡萄糖占比高、结晶迅速是各国文献一致口径;色泽浅黄至金黄,'浅黄'在合理范围内。regionNote 措辞克制,无全称断言。",
+          "suggestion": ""
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-blueberry",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+          "problem": "对编辑自限定做了名实核查:检索可见的蓝莓蜜描述(浅琥珀至中琥珀色、圆润果香)几乎全部来自蜂蜜商与行业推广文案(Bee Inspired、Saratoga Tea & Honey、美国蜂蜜局一类),同行评议的系统感官/理化表征确实稀少;条目自引来源中已包含一篇标注'非权威'的农技文章,说明馆方确实检索过而非装作没找到。自限定名实相符,进攻未击穿。",
+          "suggestion": "若想充实,可写'业界通常描述为浅琥珀色、带果香(商业口径,未经系统研究证实)',把现有低权威信息带出处地展出。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "它主要来自白车轴草等几种车轴草属牧草。",
+          "problem": "对北美市场构成张冠李戴式收窄:美国商品'clover honey'的主要蜜源除车轴草属(Trifolium,白车轴草、杂三叶等)外,还长期大量来自完全不同属的草木樨属(Melilotus,白花/黄花草木樨)——Penn State《Beekeeping Basics》、密歇根州立大学蜜源植物资料均将 sweet clover 列为北美主要蜜粉源,单产可达每英亩数百磅;多份 monofloral honey 资料明确把 Melilotus 计入 clover honey 来源。条目前半句恰以'北美'立论,后半句却把来源限定在车轴草属,自相冲突。",
+          "suggestion": "改为'主要来自白车轴草等车轴草属牧草,在北美还大量来自近缘的草木樨属(sweet clover)',或删去属级限定只说'来自车轴草及其近缘牧草'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-lavender",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "“薰衣草蜜”主产于地中海周边。/ regionNote: 地中海周边薰衣草产区。",
+          "problem": "就全球产量而言'主产于地中海周边'(法国普罗旺斯、西班牙)站得住,进攻未击穿。但存在以偏概全的尾巴:中国新疆伊犁是重要薰衣草种植区并出产薰衣草蜜,馆方源列表里甚至有伊犁薰衣草花期预报,面向中文观众却只字不提本国产区,取舍上名实略有不符。",
+          "suggestion": "regionNote 补'中国新疆伊犁亦有出产',与馆内已引用的伊犁资料呼应。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至特浅琥珀色,味淡雅。/ 在美国西部,紫花苜蓿是最重要的蜜源植物之一。",
+          "problem": "进攻未击穿:'white to extra light amber'与'最重要蜜源之一'均与 McGregor(USDA, 1976)口径一致;regionNote 用'之一'避免了全称断言。",
+          "suggestion": ""
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "所有蜜蜂幼虫头三天都吃它;被选作蜂王的幼虫整个幼虫期、以及成年蜂王的一生,都以它为食。",
+          "problem": "进攻未击穿,一点学理提醒:部分文献区分头三天喂给工蜂/雄蜂幼虫的'worker jelly / 蜂子浆'与真正的 royal jelly(成分比例不同),但'所有幼虫头三天吃蜂王浆'是包括 en.wikipedia Royal jelly 在内的主流口径,展馆粒度下不算错。'不是蜂蜜的原料或浓缩版'的辨析正确;'本馆的边界'一条自限定(不谈对人功效)名实相符,条目确实未夹带任何功效暗示。",
+          "suggestion": "如求严谨,'头三天都吃它'可改为'头三天都吃这类腺体分泌的浆状食物'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "熊蜂蜂群一年一代,秋末解散,只有新蜂王越冬,不需要过冬存粮。",
+          "problem": "对'熊蜂'整体的全称断言被两类反例击穿:(1) 新热带熊蜂如 Bombus atratus 在热带/亚热带分布区可维持多年生蜂群,群体不解散(Apidologie 等文献有系统记录);(2) 引入新西兰及英国南部暖冬地区的欧洲熊蜂(B. terrestris)已被观察到冬季活跃、甚至冬季再起一代(PLoS ONE 2010 'Winter Active Bumblebees (Bombus terrestris) Achieve High Foraging Rates in Urban Britain')。'一年一代、秋末解散'只是温带典型模式。尤其注意:本条 related 恰好挂的是 B. terrestris,而它正是最著名的例外物种之一。",
+          "suggestion": "限定范围:'在温带,熊蜂蜂群通常一年一代,秋末解散,只有新蜂王越冬,因此不需要大量过冬存粮;热带熊蜂和暖冬地区的欧洲熊蜂群体可以更长寿'。"
+        },
+        {
+          "claim": "也会把花蜜存进巢里的蜡罐,但存量小、不封盖,也不像蜂蜜那样浓缩",
+          "problem": "进攻未击穿:熊蜂蜜罐存蜜少、含水高、不封盖是标准描述,此句无误。",
+          "suggestion": ""
+        }
+      ]
+    }
+  ]
+}

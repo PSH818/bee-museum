@@ -1,0 +1,314 @@
+{
+  "lens": "fact-check",
+  "round": 3,
+  "reviewedAt": "2026-08-25T02:17:38Z",
+  "sourceAccess": [
+    { "sourceId": "src-snodgrass-anatomy", "fetched": false, "note": "书籍无 URL,未抓取;按任务规则以教科书级昆虫解剖常识判定,超出常识的具体数字判 uncertain。" },
+    { "sourceId": "src-britannica-honeybee", "fetched": false, "note": "HTTP 403 Forbidden;仅依赖它的断言按规则判 uncertain,除非另一被引来源支持。" },
+    { "sourceId": "src-britannica-bumblebee", "fetched": false, "note": "HTTP 403 Forbidden;本轮无 entry 单独依赖它。" },
+    { "sourceId": "src-wikipedia-worker-bee", "fetched": true, "note": "支持工蜂雌性/职型/花粉筐/倒钩螫针脱落致死/体长 12–15 mm;未提及蜂王与雄蜂体长。" },
+    { "sourceId": "src-wikipedia-honey-bee", "fetched": true, "note": "支持一群一王、雄蜂无螫针、雄蜂来自未受精卵、蜂王螫针不像工蜂带倒钩、热球围困胡蜂、A. cerana 为亚洲传统蜜蜂;单倍二倍性仅就蜜蜂而言;未比较 cerana/mellifera 体型。对模糊项做了第二次定向查询(命中缓存)。" },
+    { "sourceId": "src-wikipedia-pollen-basket", "fetched": true, "note": "支持胫节外侧光滑凹面、边缘长毛、花粉压实;花粉筐限于 Apidae 四族(蜜蜂、熊蜂、无刺蜂、兰花蜂);仅说'female of certain species',未按职型区分。" },
+    { "sourceId": "src-wikipedia-hamulus", "fetched": true, "note": "支持后翅前缘一排翅钩钩住前翅后缘褶,膜翅目(如蜜蜂)通用;未提飞行效率。" },
+    { "sourceId": "src-wikipedia-western-honey-bee", "fetched": true, "note": "支持蜂王腹部更长、雄蜂不采集、无产卵器故无螫针、来自未受精卵、雄蜂体型为工蜂 1.5 倍、原产非洲/中东/欧洲、养蜂主要蜂种;未提翅尺寸比较、雄蜂复眼、体长数字。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-apis-cerana", "fetched": true, "note": "支持四条黄色环纹、33–35.5°C 巢温、A. c. cerana 中华蜜蜂、热球、6000–7000 工蜂、更多迁飞、雄蜂大眼无螫针钝腹、10–11 mm、树洞;称两种蜜蜂'both are medium-sized bees (10-11mm)',未支持 cerana 更小;未提中国传统饲养、岩缝。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-bombus-terrestris", "fetched": true, "note": "支持胸宽 2.3–6.9 mm、体重 68–754 mg、蜂王 buff 尾/工蜂白尾、分布、温室引种、300–400 只、鼠洞、工蜂 11–17 mm、番茄;仅提'yellowish bands'与白尾,未描述前胸黄领;未提舌长、盗蜜、翅钩。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-buzz-pollination", "fetched": true, "note": "支持熊蜂与 Xylocopa 振动授粉、飞行肌机制、番茄/蓝莓、蜜蜂不能振动授粉、温室每公顷 50 群。" },
+    { "sourceId": "src-wikipedia-bumblebee", "fetched": true, "note": "支持绒毛保温、黑黄警戒色、振动授粉、咬孔盗蜜与舌长、体型差异、飞行误解与动态失速、蜂王与工蜂花粉筐、无倒钩可重复螫、不主动攻击、一年生 50–400 只、巢室不规则;未把 B. terrestris 标为短舌种,未提 B. hortorum,未提翅钩。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-nectar-robbing", "fetched": true, "note": "支持短舌熊蜂在花基咬孔取蜜,图注 Bombus terrestris stealing nectar;未提 B. hortorum。" },
+    { "sourceId": "src-wikipedia-osmia-cornifrons", "fetched": true, "note": "支持独居、原产日本/韩国/中国/俄罗斯、日本超过半数苹果园(约 50 年间,无具体年代)、1977 引入美国东北、泥封巢室与花粉球、下脸角状突起、6AM–8PM、130 m、四月雄蜂先出;未提大颚功能、腹面集粉毛、体长。" },
+    { "sourceId": "src-wikipedia-mason-bee", "fetched": true, "note": "支持 mason 之名来自泥筑巢、花粉花蜜供粮团;提及 O. cornifrons;未提大颚。" },
+    { "sourceId": "src-wikipedia-megachile-rotundata", "fetched": true, "note": "支持 6–9 mm、深灰白毛、独居不储蜜、圆叶片顶针巢室、原产欧洲、引入 NZ 1971/AU 1987、约 15 片叶、先花蜜后花粉、苜蓿胡萝卜、龙骨瓣与 scopa、雄蜂白黄斑点更小、纸管与钻孔木块;未提'成千上万'巢孔。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-megachile", "fetched": true, "note": "支持 neatly cut 叶片、M. rotundata 商业授粉、雄蜂更小;未提花园叶缘缺口、白毛、腹面 scopa。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-scopa", "fetched": true, "note": "支持 scopa 为密集刚毛、Megachilidae 唯一将 scopa 置于腹面的科、多数蜂类在后足、花粉筐为更特化结构。" },
+    { "sourceId": "src-wikipedia-xylocopa-violacea", "fetched": true, "note": "支持欧洲最大蜂类之一、独居、欧洲至中国中部、北纬 30 度以北、夏末羽化越冬四五月活动、枯木钻洞、巢室配花粉团;正文几乎无颜色/光泽描述。做了第二次定向查询。" },
+    { "sourceId": "src-wikipedia-carpenter-bee", "fetched": true, "note": "支持钻木筑巢、不吃木头、木屑做隔板、每室花粉团与卵、常与熊蜂混淆、腹部光滑无毛、后足全毛无花粉筐、独居;未提振动授粉、结构色、足部粗壮。" },
+    { "sourceId": "src-dewiki-blaue-holzbiene", "fetched": true, "note": "德文页;支持 20–28 mm、中欧最大蜂类之一、身体深黑/胸部蓝黑、翅膀深色带显著蓝色光泽(Schiller 特指翅)、8 月起活动越冬后 3–7 月、枯木自钻巢、唾液木屑隔墙、独居、外形似熊蜂;分布仅写南欧中欧。做了第二次定向查询。" },
+    { "sourceId": "src-exotic-bee-id", "fetched": true, "note": "URL 指向 idtools.org 首页,不含 Osmia cornifrons 任何内容(无体长、无分布);无法支撑任何断言,建议改为该工具的物种 fact sheet URL。" }
+  ],
+  "verdicts": [
+    { "key": "focus:apis-mellifera-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "东方蜜蜂工蜂体型比西方蜜蜂小",
+          "problem": "两个被引来源均未作两种体型比较;Apis cerana 页反而把两种并列为同一体型段。",
+          "evidence": "Apis cerana 页:'both are medium-sized bees (10-11mm)';Honey bee 页未比较体型。",
+          "fix": "改为'东方蜜蜂工蜂体型一般略小于西方蜜蜂(约 10–11 mm 对 12–15 mm)',并为 12–15 mm 一侧补引 src-wikipedia-worker-bee;或补引一个直接比较两种体型的来源。"
+        }
+      ]
+    },
+    { "key": "focus:apis-cerana-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂由未受精卵发育而来——这一点在蜜蜂属乃至绝大多数蜂类中都是如此",
+          "problem": "'绝大多数蜂类'的外推未被任何被引来源提及;被引页面只就蜜蜂属讨论单倍二倍性。",
+          "evidence": "Honey bee 页:'Drones develop from unfertilised eggs and are haploid'(仅限蜜蜂);Apis cerana 页与 Western honey bee 页同样只谈本种。",
+          "fix": "补引 Wikipedia 'Haplodiploidy' 页(说明膜翅目普遍为单倍二倍性),或把后半句改为'蜜蜂属都是如此'。"
+        }
+      ]
+    },
+    { "key": "focus:apis-cerana-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "黑底之上,前胸一圈黄领、腹部一道黄带、尾端一撮白毛",
+          "problem": "被引来源只提到'yellowish bands'和白色尾端,未说明黄带位置(前胸黄领、腹部一道)。",
+          "evidence": "Bombus terrestris 页:'Workers have white-ended abdomens ... the yellowish bands of B. terrestris being darker in direct comparison';Bumblebee 页无 B. terrestris 具体色型。",
+          "fix": "补引一个给出色型分部位描述的来源(如 Bumblebee Conservation Trust 或 NatureSpot 的 B. terrestris 页),或简化为'黑底之上有黄色带纹,尾端白色'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "欧洲熊蜂属于短舌熊蜂,偏好开放或浅冠筒的花",
+          "problem": "三个被引来源均未把 B. terrestris 标为短舌种,也未描述其花型偏好;Nectar robbing 页仅以图注显示 B. terrestris 盗蜜。",
+          "evidence": "Bombus terrestris 页:'forage on a large variety of flower species'(无舌长);Bumblebee 页:'The longer the tongue, the deeper the bumblebee can probe'(未点名种);Nectar robbing 页图注:'Bombus terrestris stealing nectar',正文举例为 B. pratorum。",
+          "fix": "补引明确将 B. terrestris 归为短舌种的来源(如 Goulson《Bumblebees》或 BWARS 物种页),或改为'欧洲熊蜂舌较短,遇深冠筒花时常在花冠基部咬孔取蜜'。"
+        },
+        {
+          "claim": "真正能探入深花的是长舌熊蜂,如 Bombus hortorum",
+          "problem": "B. hortorum 未在任何被引来源中出现。",
+          "evidence": "Nectar robbing 页仅提及 B. terrestris、B. pratorum、B. appositus、B. occidentalis;Bumblebee 页未点名 B. hortorum。",
+          "fix": "补引 Wikipedia 'Bombus hortorum' 页(garden bumblebee,长舌),或删去该示例。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "前后翅同样以翅钩联动;依靠灵活的翅角控制维持飞行",
+          "problem": "本条只引 Bumblebee 与 Bombus terrestris 两页,二者均未提及翅钩(hamuli)或翅角控制。",
+          "evidence": "两页对翅钩的判定均为'未提及';Bumblebee 页只支持约 200 次/秒的扇翅频率与动态失速产生升力。",
+          "fix": "为翅钩一句补引 src-wikipedia-hamulus(膜翅目通用);'灵活的翅角控制'改为来源支持的表述'翅在每个拍动周期中经历动态失速而产生额外升力',或删去。"
+        }
+      ]
+    },
+    { "key": "focus:bombus-terrestris-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "20 世纪后半叶,日本超过一半的苹果园曾用它授粉",
+          "problem": "来源只给出'约 50 年间',没有指明是 20 世纪后半叶。",
+          "evidence": "Osmia cornifrons 页:'Over a 50-year time period, more than half of the apple orchards in Japan utilized this species'。",
+          "fix": "改为'在约五十年间,日本超过一半的苹果园曾用它授粉',或补引给出具体年代的来源。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "大颚用于衔运和塑形筑巢的泥土",
+          "problem": "两个被引来源都未描述大颚的用途。",
+          "evidence": "Osmia cornifrons 页:'页面未讨论大颚的具体功能';Mason bee 页:'未提及大颚用于衔泥筑巢'。",
+          "fix": "补引描述壁蜂用大颚运泥的来源(如 Wikipedia 'Osmia' 属页或 Xerces Society 壁蜂资料),或改为'它用泥土封闭巢室'(该句被来源支持)。"
+        }
+      ]
+    },
+    { "key": "focus:osmia-cornifrons-worker/wing", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "花粉松散地夹在毛间带回巢中",
+          "problem": "'松散'这一携粉状态未被 Scopa 页或 Osmia cornifrons 页提及;仅 Pollen basket 页(本条未引)说明花粉筐内花粉被压实,可作对比。",
+          "evidence": "Scopa 页:'a dense mass of elongated, often branched, hairs ... form a pollen-carrying apparatus',未描述花粉松散与否。",
+          "fix": "改为'花粉刷附在毛间带回巢中',或补引 src-wikipedia-pollen-basket 以支撑'不像花粉筐那样压实'的对比。"
+        }
+      ]
+    },
+    { "key": "focus:osmia-cornifrons-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/abdomen", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "人们提供成千上万个人工巢孔板",
+          "problem": "来源只说明用纸管或钻孔木块诱使雌蜂筑巢,没有'成千上万'这一数量表述。",
+          "evidence": "Megachile rotundata 页:'When managed for pollination, the females are induced to nest in paper cylinders similar to drinking straws or drilled blocks of wood.'",
+          "fix": "改为'人们提供纸管或钻孔木块等人工巢材,雌蜂会自行进驻筑巢',或补引给出巢孔数量级的来源。"
+        }
+      ]
+    },
+    { "key": "focus:xylocopa-violacea-worker/whole", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "木蜂头部宽大",
+          "problem": "三个被引来源均未描述头部形态。",
+          "evidence": "Xylocopa violacea 页正文几乎无外形描述;Carpenter bee 页与德文页只描述腹部光滑、身体黑色、翅有光泽。",
+          "fix": "删去'头部宽大',保留来源支持的'大颚极为强壮,在枯木中啃出隧道'(Carpenter bee 页:'rasp their mandibles against hardwood')。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "在特定角度下反射出蓝紫虹彩(薄膜干涉形成的结构色)",
+          "problem": "'薄膜干涉形成的结构色'在本条未加限定,而四个被引来源都只描述光泽现象,未说明成因;同馆的 abdomen 条与 organ-xylocopa-integument 已用'一般认为'限定。",
+          "evidence": "德文页:'Auch die Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf';Carpenter bee 页与 X. violacea 页均'未提及结构色'。",
+          "fix": "改为'(一般认为是薄膜干涉形成的结构色)',与 abdomen 条保持一致;或补引论述昆虫翅膜结构色的来源。"
+        }
+      ]
+    },
+    { "key": "focus:xylocopa-violacea-worker/abdomen", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "木蜂足部粗壮;强健的足也帮助它在钻洞时撑住身体",
+          "problem": "三个被引来源均未描述足部粗壮或钻洞时足的支撑作用。",
+          "evidence": "Carpenter bee 页:'页面未特别强调足部粗壮特征';X. violacea 页与德文页未提足部。",
+          "fix": "删去'粗壮'与'撑住身体'的推断,保留来源支持的'后足密布集粉毛,没有光滑花粉筐'(Carpenter bee 页:'females lack the bare corbicula of bumblebees; the hind leg is entirely hairy')。"
+        }
+      ]
+    },
+    { "key": "organ:organ-compound-eye", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-ocelli", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-antenna", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-proboscis", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-thorax", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-forewing", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-hindwing", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-abdomen", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-sting", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-foreleg-cleaner", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-fur", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-flight-muscle", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-sting", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-osmia-scopa", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-osmia-horns", "verdict": "pass", "issues": [] },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "大颚用于衔泥筑巢和封闭巢室",
+          "problem": "两个被引来源都支持用泥封闭巢室,但均未把这一行为归于大颚。",
+          "evidence": "Osmia cornifrons 页:'the female bee closes off the cell with mud';Mason bee 页:'named for their habit of using mud ... in constructing their nests';二者均未提 mandibles。",
+          "fix": "补引描述壁蜂以大颚搬运泥土的来源,或改为'雌蜂用泥土分隔并封闭巢室'。"
+        }
+      ]
+    },
+    { "key": "organ:organ-megachile-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-scopa", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-hair-bands", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-integument", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-wing", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-body-length", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-sting", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-eyes", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-role", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-sting", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-eyes", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-colony", "verdict": "pass", "issues": [] },
+    { "key": "species:apis-mellifera", "verdict": "pass", "issues": [] },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "体型比西方蜜蜂小",
+          "problem": "两个被引来源均未比较两种体型;Apis cerana 页把两种并列为同一体型段。",
+          "evidence": "Apis cerana 页:'both are medium-sized bees (10-11mm)';Honey bee 页未比较。",
+          "fix": "改为'工蜂体型一般略小于西方蜜蜂',并补引给出西方蜜蜂 12–15 mm 的 src-wikipedia-worker-bee,或补引直接比较两种的来源。"
+        },
+        {
+          "claim": "中国本土传统饲养的主要蜂种",
+          "problem": "被引来源只说 A. cerana 是亚洲南部与东部的传统蜜蜂、亚种 A. c. indica 被养在蜂箱中,未提中国的传统饲养。",
+          "evidence": "Honey bee 页:'traditional honey bee of southern and eastern Asia';'A. c. indica ... has been domesticated and kept in hives in a fashion similar to A. mellifera';Apis cerana 页未涉及养蜂。",
+          "fix": "补引说明中蜂在中国传统养蜂中地位的来源(如中文维基'中华蜜蜂'或农业部门资料),或改为'亚洲南部与东部的传统饲养蜂种'。"
+        },
+        {
+          "claim": "树洞、岩缝等隐蔽腔体内营蜡巢",
+          "problem": "来源只提树洞与'各类自然及人工环境',未提岩缝。",
+          "evidence": "Apis cerana 页:'tree cavity';'found in a wide range of external environments'。",
+          "fix": "改为'树洞等隐蔽腔体内营多脾蜡巢',或补引提及岩缝的来源。"
+        }
+      ]
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "黑底绒毛配前胸黄领、腹部黄带和白色尾端",
+          "problem": "被引来源只提到黄色带纹与白色尾端,未给出'前胸黄领、腹部一道黄带'的分部位描述。",
+          "evidence": "Bombus terrestris 页:'Workers have white-ended abdomens ... yellowish bands of B. terrestris being darker';Bumblebee 页无 B. terrestris 具体色型。",
+          "fix": "补引给出色型分部位描述的来源,或简化为'黑底绒毛带黄色带纹,尾端白色'。"
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm 8–12",
+          "problem": "三个被引来源都没有体长数字:Osmia cornifrons 页无体长;Scopa 页与本种无关;src-exotic-bee-id 指向 idtools.org 首页,不含该物种任何内容。",
+          "evidence": "Osmia cornifrons 页:'页面未给出体长数据';idtools.org/id/bees/exotic/ 首页:'页面未提及 Osmia cornifrons ... 无任何尺寸数据'。",
+          "fix": "把 src-exotic-bee-id 的 URL 改为 Exotic Bee ID 中 Osmia cornifrons 的物种 fact sheet 页面(其中给出体长),并据其校正数字;找不到时改为'约 8–12 mm(不同资料差异较大)'。"
+        }
+      ]
+    },
+    { "key": "species:megachile-rotundata", "verdict": "pass", "issues": [] },
+    { "key": "species:xylocopa-violacea", "verdict": "pass", "issues": [] }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lens": "refutation",
+  "round": 19,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "螫针发育成熟后,一部分工蜂在巢门口值守",
+          "problem": "把守卫阶段的生理前提归因于“螫针发育成熟”不够准确:螫针器官在出房时结构已完整,随年龄变化的是毒液储备——刚出房工蜂毒囊几乎无毒液,毒液在成蜂前两周逐渐积累,约 2–3 周龄(恰在守卫/外勤转换期)达到峰值。所引维基百科“Worker bee”确有 “when their stinger is mature” 一句,但属通俗简化;这一表述在科普语境下尚可接受,但更精确的说法是“毒液储备充足”。",
+          "evidence": "Wikipedia “Worker bee”:Guard bee (days 18–21) “Worker bees can perform guard duty at the front entrance, when their stinger is mature.” https://en.wikipedia.org/wiki/Worker_bee ;FAO “Value-added products from beekeeping” 第 7 章:毒液产量在成蜂前两周内增加,在参与巢防与采集时达到最大,刚出房工蜂几乎无毒液 https://www.fao.org/4/w0076e/w0076e18.htm ;Bees for Development “Bee venom” https://resources.beesfordevelopment.org/rc/bee-venom/",
+          "fix": "改为“毒囊里的毒液储备在出房后两周左右积累充足,此时一部分工蜂开始在巢门口值守……”,或至少写成“螫针与毒液储备成熟后”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

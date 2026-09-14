@@ -1,0 +1,88 @@
+{
+  "lens": "fact-check",
+  "round": 15,
+  "reviewedAt": "2026-08-25T08:05:00.000Z",
+  "sourceAccess": [
+    { "id": "src-wikipedia-bee-brood", "ok": true },
+    { "id": "src-wikipedia-worker-bee", "ok": true },
+    { "id": "src-wikipedia-western-honey-bee", "ok": true },
+    { "id": "src-wikipedia-osmia-cornifrons", "ok": true },
+    { "id": "src-wikipedia-mason-bee", "ok": true },
+    { "id": "src-exotic-bee-id", "ok": true }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "从封盖到出房约 12 天(其中蛹期约 10 天)",
+          "problem": "非否定,仅提示:Worker bee 发育表把工蜂蛹期记为“Day 10 until emergence”(至第 21 天,约 11 天),Bee brood 表则给出封盖第 9 天、出房第 21 天。“约 10 天”在“约”的限定内,与来源不矛盾;其余断言(封盖第 9 天/出房第 21 天、吐丝作茧后化蛹、咬破蜡盖出房、蜂王 16/工蜂 21/雄蜂 24 天、封盖段为最长一段)均被支持。",
+          "evidence": "Worker bee 表:Worker — Egg up to Day 3 | Larva up to Day 9 | Cell capped Day 9 | Pupa: Day 10 until emergence (Day 11 or 12 last moult) | 21 days (range: 18–22 days);“After this 21 day developmental period, the adult bee will chew through its wax cap”。Bee brood 表:Worker until day 9 (capped) / from day 21 on;Queen from day 16 on;Drone from day 24 on;“they begin to spin a cocoon … as they go into the pupal stage”。",
+          "fix": "可保留;若想与来源更贴合,可写“其中蛹期约 10–11 天”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "哺育蜂用头部腺体分泌的乳状食物(与蜂王浆同源,常称“工蜂浆”)喂养幼虫",
+          "problem": "“头部腺体”未被所列来源提及:Worker bee 只说 worker jelly 由“产生蜂王浆的腺体”分泌,Western honey bee 未写腺体位置。“与蜂王浆同源,常称工蜂浆”已恰当限定并被支持。其余断言(哺育蜂第 3–12 天、随蜂第 7–11 天喂食梳理蜂王、幼虫期约 6 天、前三天所有幼虫吃蜂王浆之后仅蜂王幼虫继续)均被支持。",
+          "evidence": "Worker bee:“Nurse bees (days 3–12)”;“Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.”;“Queen attendants (days 7-11) … take care of the queen by feeding and grooming her.”;表中 Larva up to Day 9(自第 3 天孵化起约 6 天)。Western honey bee:“Workers and queen larvae are both fed royal jelly … during the first three days. After that, larval prospective workers are switched to a diet of mixed pollen and nectar”。",
+          "fix": "把“头部腺体”改为“腺体”,或为该句补充说明下咽腺位于头部的来源(如维基百科 Royal jelly 条目:“secreted from the glands in the hypopharynx of nurse bees”)。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 13–18 天……并把外勤蜂带回的花蜜和花粉接手储存",
+          "problem": "非否定,仅提示:Western honey bee 把“接收并储存花蜜花粉”记在第 16–20 天,与本阶段 13–18 天部分重叠而非完全一致;蜡腺(第 13–18 天、位于腹部)、花蜜经酶分解与脱水酿蜜均被支持。",
+          "evidence": "Worker bee:“Wax production (days 13–18) … Four sets of wax glands … produce wax”;“Enzymes proceed to break down the nectar into simple sugars … honey is produced by being further dehydrated”。Western honey bee:“Mature worker bees secrete beeswax from glands on their abdomen, using it to form the walls and caps of the comb.”;“On days 16 through 20, workers receive nectar and pollen from older workers and store it.”",
+          "fix": "可保留;如需更精确可写“并在此前后(约第 16–20 天)接手储存外勤蜂带回的花蜜和花粉”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "越冬的成蜂咬破茧和泥隔,从巢管里钻出来",
+          "problem": "三个来源都只说成蜂在茧内越冬、春季出巢,未描述“咬破茧和泥隔”这一出巢方式(Mason bee 仅提到雌蜂用泥封堵巢口)。未提及且未限定。其余断言均被支持:雄蜂约 4 月先出并在雌蜂巢口等待、雌蜂 2–3 天后出巢并交配(“不同资料”已限定范围)、原产地含日本/朝鲜/中国并引入美国、出巢恰在苹果开花前、用于苹果园授粉、美国飞行记录 3–6 月且以 4 月最多。",
+          "evidence": "Mason bee:“the adult matures either in the fall or winter, hibernating inside its insulatory cocoon”;“Once a bee has finished with a nest, she plugs the entrance”;“the males exit first … When the females emerge, they mate”。Osmia cornifrons:“Males emerge from their nests around April, just prior to the blooming of apple orchards”;“Females arise from their nests 2–3 days later”;“A male will wait outside of a female's nest”;“indigenous to Northern Asia … recorded in multiple locations, including Japan, Korea, China, and Russia”。Exotic Bee ID:“recorded in flight in the U.S from March to June, with the majority of occurrences through April”;“commonly used commercially for the pollination of apple orchards”。",
+          "fix": "改为“越冬的成蜂在春天破茧、穿过泥隔,从巢管里钻出来”并弱化“咬破”,或补充一条描述壁蜂咬破茧与泥隔出巢的来源。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

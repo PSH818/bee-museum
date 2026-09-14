@@ -1,0 +1,66 @@
+{
+  "lens": "refutation",
+  "round": 6,
+  "reviewedAt": "2026-08-25T03:30:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "同一巢的工蜂胸部长度可差两三倍,体重可差十倍以上。",
+          "problem": "两处细节存疑。(1) 量度名称:该数据(2.3–6.9 mm、68–754 mg)出自 Goulson et al. 2002,原文及熊蜂研究惯例测量的是胸宽(thorax width),英文维基误写为 length,词条沿用了这一错误,写成\"胸部长度\";(2) 倍数:维基/Goulson 数据折算约 11 倍,但 bumblebee.org 与 Environmental Entomology 2022 综述均给出 B. terrestris 单巢工蜂体重 0.05–0.40 g(约 8 倍),\"十倍以上\"这一无限定的绝对表述与后者冲突。",
+          "evidence": "https://en.wikipedia.org/wiki/Bombus_terrestris(thorax sizes 2.3–6.9 mm, masses 68–754 mg);https://www.bumblebee.org/terr.htm(workers range 0.05–0.40 g);https://academic.oup.com/ee/article/51/6/1055/6826992(B. terrestris 单巢工蜂 0.05–0.40 g,约 8 倍);https://besjournals.onlinelibrary.wiley.com/doi/10.1111/j.0269-8463.2005.00946.x(up to a tenfold variation in mass);https://www.researchgate.net/publication/222536222(Goulson 2002 以 thorax width 为量度)",
+          "fix": "改为:\"熊蜂个体间体型差异很大:据报道,同一巢的工蜂胸宽可差约三倍,体重可差近十倍(不同资料约 8–11 倍)。\""
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "distribution:\"亚洲南部与东部的传统饲养蜂种;中华蜜蜂为其分布于中国的亚种\"",
+          "problem": "\"分布于中国的亚种\"有两层可疑:(1) 暗示中华蜜蜂 A. c. cerana 仅分布于中国,但该亚种的记录范围包括阿富汗、巴基斯坦、印度北部、越南北部、朝鲜半岛及俄罗斯滨海边疆区;(2) 暗示中国境内只有这一亚种,而中国学者通常在国内划分多个亚种/生态型(A. c. cerana、A. c. skorikovi/himalaya、A. c. abaensis、A. c. hainanensis、A. c. indica 等)。此外原生分布还涵盖东南亚(直至印度尼西亚东部),\"亚洲南部与东部\"略窄。此为表述精度问题,非确凿反证,故判 uncertain。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana(A. c. cerana 分布:Afghanistan, Pakistan, northern India, northern Vietnam, southern and coastal China, Taiwan, South Korea and North Korea;原生范围 from Russia to eastern Indonesia);https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11767041/(中国划分 5 个亚种/10 个地理亚种);https://www.tandfonline.com/doi/full/10.1080/00218839.2023.2205670",
+          "fix": "改为:\"亚洲南部、东南部与东部的传统饲养蜂种;中华蜜蜂(A. c. cerana)是其在中国最主要的亚种,分布亦及朝鲜半岛、南亚北部等地\"。"
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

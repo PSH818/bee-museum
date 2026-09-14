@@ -1,0 +1,35 @@
+{
+  "lens": "refutation",
+  "round": 20,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "秋天出生的越冬蜂在巢内结团过冬,可活到约 20 周。",
+          "problem": "“可活到约 20 周”把越冬蜂寿命的上限定在约 4.5 个月,仅与英文维基“up to 20 weeks”一致;多份养蜂科普与研究资料记载越冬蜂(diutinus bees)通常可活 4–6 个月,个体记录超过 250 天(约 8 个月)。20 周更像是下限而非上限,读者会把它当作寿命天花板。",
+          "evidence": "英文维基 Worker bee:winter workers can survive up to 20 weeks(https://en.wikipedia.org/wiki/Worker_bee);Scientific Beekeeping“The Regulation of Bee Longevity”:summer bees 25–40 days,winter bees over 250 days(https://scientificbeekeeping.com/understanding-colony-buildup-and-decline-part-9b/);PerfectBee:winter bees can live up to 8 months(https://www.perfectbee.com/learn-about-bees/the-science-of-bees/why-do-winter-bees-live-so-much-longer-than-summer-bees);The Apiarist“Diutinus bees”(https://theapiarist.org/diutinus-bees/)",
+          "fix": "改为“秋天出生的越冬蜂在巢内结团过冬,可活数月(不同资料记载为 20 周至半年以上)”,避免把 20 周写成上限。"
+        },
+        {
+          "claim": "夏季工蜂通常只活 2–6 周……出房后第 21 天起成为外勤蜂。",
+          "problem": "同一条目内部存在张力:若夏季工蜂只活 2 周(14 天)即死亡,则永远到不了“出房后第 21 天”开始外勤;常见资料给出的夏季工蜂寿命多为 4–6 周(25–40 天)。“2 周”下限来自维基的宽泛表述,与本条时间轴组合后会让读者困惑。",
+          "evidence": "英文维基 Worker bee:summer workers live two to six weeks;foraging days 21–42(https://en.wikipedia.org/wiki/Worker_bee);Scientific Beekeeping:summer bees average lifespan 25–40 days(https://scientificbeekeeping.com/understanding-colony-buildup-and-decline-part-9b/)",
+          "fix": "改为“夏季工蜂通常只活 4–6 周(约 25–40 天),蜜源繁忙时可能更短”;或保留 2–6 周但补一句“分工天数会随寿命和蜂群需要压缩”。"
+        }
+      ]
+    }
+  ]
+}

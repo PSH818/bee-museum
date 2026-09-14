@@ -1,0 +1,43 @@
+{
+  "lens": "compliance",
+  "round": 29,
+  "reviewedAt": "2026-09-08T01:44:49.327Z",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉丰富,色黄。",
+          "problem": "[可选] pollen 字段已按上轮建议改为\"色黄\",本卡无问题;但同一朵花的分项卡 flower-entry:flower-brassica-napus/stamen 的 description 仍写\"花粉量大、呈饱黄色\",\"饱黄色\"这一生造词在馆内仍残留一处,与主卡口径不一致(该分项卡不在本轮送审清单内,仅作提示)。",
+          "suggestion": "[可选] 将 stamen 分项卡中的\"呈饱黄色\"同步改为\"色黄\"或\"黄色鲜亮\",与主卡统一。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

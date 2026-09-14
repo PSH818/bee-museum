@@ -1,0 +1,242 @@
+{
+  "lens": "fact-check",
+  "reviewedAt": "2026-08-25T03:20:00Z",
+  "sourceAccess": [
+    {"sourceId": "src-snodgrass-anatomy", "fetched": false, "note": "书籍无 URL,未抓取;仅对教科书级昆虫解剖常识判 pass,并在 evidence 中标注'教科书常识(书籍未抓取)'"},
+    {"sourceId": "src-britannica-honeybee", "fetched": false, "note": "HTTP 403 Forbidden,来源不可达;仅依赖它的断言判 uncertain"},
+    {"sourceId": "src-britannica-bumblebee", "fetched": false, "note": "HTTP 403 Forbidden,来源不可达;仅依赖它的断言判 uncertain"},
+    {"sourceId": "src-wikipedia-honey-bee", "fetched": true, "note": "已抓取两次(初核+补核)。页面无任何体长毫米数字,未提及翅脉、偏振光、雄蜂胸部"},
+    {"sourceId": "src-wikipedia-worker-bee", "fetched": true, "note": "已抓取。含表格 'Body Length: 12–15 mm'"},
+    {"sourceId": "src-wikipedia-western-honey-bee", "fetched": true, "note": "已抓取。无体长数字;支持蜂王腹部更长、雄蜂单亲、螫针倒钩差异"},
+    {"sourceId": "src-wikipedia-apis-cerana", "fetched": true, "note": "已抓取两次。支持 10–11 mm、6000–7000 工蜂、热杀胡蜂、更多弃巢;未提及传统养蜂、零星蜜源、条纹更清晰"},
+    {"sourceId": "src-wikipedia-pollen-basket", "fetched": true, "note": "已抓取。只说 'female of certain species',未区分蜂王/雄蜂,未提及熊蜂蜂王"},
+    {"sourceId": "src-wikipedia-hamulus", "fetched": true, "note": "已抓取。仅 3 句短文:后翅前缘翅钩钩住前翅后缘褶;未提及'连成翼面'、效率、职型差异"},
+    {"sourceId": "src-wikipedia-bombus-terrestris", "fetched": true, "note": "已抓取两次。支持体色、体长 11–17 mm、分布、鼠洞筑巢、300–400 只群体;全文不含 tongue/buzz/sting/insulation/aposematic 字样"},
+    {"sourceId": "src-wikipedia-buzz-pollination", "fetched": true, "note": "已抓取。支持熊蜂机制、'Honeybees cannot perform buzz pollination'、温室每公顷 50 群、番茄/蓝莓、Xylocopa frontalis 例"},
+    {"sourceId": "src-wikipedia-osmia-cornifrons", "fetched": true, "note": "已抓取两次。支持 1977 年引入美国东北部、日本苹果园过半、6AM–8PM、四月雄蜂先羽化、竹管/芦苇、泥封;无体长、无 scopa、无大颚、无 clypeus"},
+    {"sourceId": "src-wikipedia-megachile-rotundata", "fetched": true, "note": "已抓取两次。支持 6–9 mm、深灰白毛、15 片叶、先蜜后粉、雄蜂斑点;未提及腹部毛带、'撬开'龙骨瓣(原文为 insert proboscis into the keel)、运叶方式"},
+    {"sourceId": "src-wikipedia-xylocopa-violacea", "fetched": true, "note": "已抓取两次。页面很短:支持欧洲最大蜂之一、分布至中国中部且限北纬 30° 以北、夏末羽化越冬、枯木钻巢、每室花粉球;无体色/翅色描述、无体长、无振动授粉、无集粉毛"},
+    {"sourceId": "src-wikipedia-scopa", "fetched": true, "note": "已抓取。明确 'In most species of bees, the scopa is ... on the hind leg';Megachilidae 'lack modified leg hairs, but have an extensive scopa on the underside of the abdomen'"},
+    {"sourceId": "(补充,非引用) en.wikipedia.org/wiki/Bumblebee", "fetched": true, "note": "仅用于给 fix 提供可核来源:螫针无倒钩、绒毛保温、警戒色、飞行误解、200 Hz、蜂王与工蜂有花粉筐、振动授粉"},
+    {"sourceId": "(补充,非引用) en.wikipedia.org/wiki/Carpenter_bee", "fetched": true, "note": "仅用于给 fix 提供可核来源:不吃木头、腹部光亮与熊蜂区别、后足全毛无花粉筐、大颚刮木"}
+  ],
+  "verdicts": [
+    {"key": "focus:apis-mellifera-worker/whole", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-worker/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "两个引用来源均未提及职型间翅体比差异;'更适合婚飞'是解释性推断,超出教科书解剖常识", "evidence": "Hamulus 页面仅 3 句,未提及职型;Snodgrass 未抓取,该断言超出常识范围", "fix": "改为可核的描述性措辞:'蜂王翅长与工蜂相近,因腹部更长而显得翅短'并补引 Western honey bee 页面('rounder, longer abdomen');删去'更适合婚飞'或补引具体文献"},
+      {"claim": "前翅与后翅通过翅钩联动(连成一个翼面)", "problem": "Hamulus 页面只说钩住前翅后缘褶,未说'连成一个翼面'", "evidence": "'The hooks attach to a fold on the posterior edge of the mesothoracic (front) wings'(判定为教科书常识,不单独扣分)", "fix": "可保留;如需严格对应来源,可补引 Wikipedia 'Insect wing' 的 wing coupling 段"}
+    ]},
+    {"key": "focus:apis-mellifera-worker/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-worker/leg", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-queen/whole", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部更长", "problem": "引用的 Honey bee 页面只说蜂王体型更大,未提腹部更长;Britannica 不可达", "evidence": "Honey bee: 'In addition to the greater size of the queen, she has a functional set of ovaries, and a spermatheca';Western honey bee(未引用)支持:'has a characteristic rounder, longer abdomen'", "fix": "在 sourceIds 中补引 src-wikipedia-western-honey-bee"}
+    ]},
+    {"key": "focus:apis-mellifera-queen/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-queen/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "同 worker/wing:来源未提及,'更适合婚飞'为推断", "evidence": "未提及", "fix": "同 focus:apis-mellifera-worker/wing"}
+    ]},
+    {"key": "focus:apis-mellifera-queen/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-queen/leg", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王没有工蜂式花粉筐", "problem": "Pollen basket 页面只说'female of certain species',未区分蜂王;Britannica 不可达", "evidence": "Pollen basket: 'part of the tibia on the hind legs of the female of certain species of bees';Honey bee(未引用)可作支持:'Workers have morphological specializations, including the pollen basket (corbicula)'", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:apis-mellifera-drone/whole", "verdict": "uncertain", "issues": [
+      {"claim": "雄蜂胸部粗壮", "problem": "Honey bee 页面未描述雄蜂胸部;Britannica 不可达", "evidence": "Honey bee 仅有:'Drones have large eyes used to locate queens during mating flights ... do not have a stinger'", "fix": "补引 src-snodgrass-anatomy(雄蜂胸部形态属教科书内容)或删去'胸部粗壮'"},
+      {"claim": "也没有工蜂式花粉筐", "problem": "来源仅间接支持(花粉筐列为工蜂特化结构)", "evidence": "Honey bee: 'Workers have morphological specializations, including the pollen basket (corbicula)'", "fix": "可接受;如需更直接来源可补引 Wikipedia 'Drone (bee)'"}
+    ]},
+    {"key": "focus:apis-mellifera-drone/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-drone/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "同 worker/wing", "evidence": "未提及", "fix": "同 focus:apis-mellifera-worker/wing"}
+    ]},
+    {"key": "focus:apis-mellifera-drone/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-mellifera-drone/leg", "verdict": "uncertain", "issues": [
+      {"claim": "雄蜂没有工蜂式花粉筐;雄蜂无螫针", "problem": "Pollen basket 页面未提雄蜂,也不涉及螫针;Britannica 不可达。断言本身正确但当前引用无法支撑", "evidence": "Western honey bee(未引用):'Since they do not have ovipositors, they do not have stingers';Honey bee(未引用):'Workers have morphological specializations, including the pollen basket'", "fix": "补引 src-wikipedia-western-honey-bee 与 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:apis-cerana-worker/whole", "verdict": "uncertain", "issues": [
+      {"claim": "腹部环纹更均匀清晰", "problem": "Apis cerana 页面只说有四条黄色腹纹,无与西方蜜蜂的清晰度比较", "evidence": "'Adult Apis cerana are black in color, with four yellow abdominal stripes.'", "fix": "改为'腹部有四条黄色环纹'或补引养蜂学教材中的形态比较"},
+      {"claim": "耐低温、善于利用零星蜜源", "problem": "页面只说其在 12–36 °C 环境下能维持体温 33–35.5 °C,未提及耐低温优于西方蜜蜂或利用零星蜜源", "evidence": "'A. cerana maintain body temperatures in a range of 33–35.5 °C even while ambient temperatures vary between 12 and 36 °C';零星蜜源:未提及", "fix": "补引 FAO 或中国养蜂学文献(如《中国蜂业》/《中华蜜蜂》专著)或删去"},
+      {"claim": "是亚洲本土传统养蜂的主角", "problem": "页面未提及传统养蜂", "evidence": "未提及(Honey bee 页面有 'the traditional honey bee of southern and eastern Asia' 可作弱支持,但该页未被本条引用)", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:apis-cerana-worker/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "同 apis-mellifera-worker/wing", "evidence": "未提及", "fix": "同 focus:apis-mellifera-worker/wing"}
+    ]},
+    {"key": "focus:apis-cerana-worker/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-worker/leg", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-queen/whole", "verdict": "uncertain", "issues": [
+      {"claim": "东方蜜蜂比西方蜜蜂更容易分蜂和迁飞", "problem": "来源仅支持'迁飞/弃巢(absconding)更多',对'分蜂(swarming)更容易'无比较", "evidence": "'A. cerana has more absconding behavior than A. mellifera'", "fix": "改为'东方蜜蜂比西方蜜蜂更容易迁飞(弃巢)',或为分蜂频率补引专门来源"}
+    ]},
+    {"key": "focus:apis-cerana-queen/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-queen/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "同 apis-mellifera-worker/wing", "evidence": "未提及", "fix": "同 focus:apis-mellifera-worker/wing"}
+    ]},
+    {"key": "focus:apis-cerana-queen/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-queen/leg", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王后足没有工蜂式的花粉筐", "problem": "Pollen basket 与 Western honey bee 页面都未提及蜂王是否有花粉筐", "evidence": "未提及;Honey bee(未引用)可作支持:'Workers have morphological specializations, including the pollen basket (corbicula)'", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:apis-cerana-drone/whole", "verdict": "uncertain", "issues": [
+      {"claim": "东方蜜蜂雄蜂胸部粗壮", "problem": "两个引用来源均未描述雄蜂胸部", "evidence": "Apis cerana: 'Drones ... defined by larger eyes, lack of a stinger ... only function is to mate'", "fix": "删去'胸部粗壮'或补引 Snodgrass"},
+      {"claim": "也没有花粉筐", "problem": "未提及", "evidence": "未提及", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:apis-cerana-drone/head", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-drone/wing", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞", "problem": "同 apis-mellifera-worker/wing", "evidence": "未提及", "fix": "同 focus:apis-mellifera-worker/wing"}
+    ]},
+    {"key": "focus:apis-cerana-drone/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:apis-cerana-drone/leg", "verdict": "uncertain", "issues": [
+      {"claim": "雄蜂没有工蜂式花粉筐", "problem": "Pollen basket 与 Western honey bee 均未提及雄蜂花粉筐(无螫针一点已由 Western honey bee 支持)", "evidence": "Western honey bee: 'Since they do not have ovipositors, they do not have stingers';花粉筐:未提及", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "focus:bombus-terrestris-worker/whole", "verdict": "uncertain", "issues": [
+      {"claim": "厚厚的毛被有助于保温,让它在较凉的天气也能出勤访花", "problem": "Bombus terrestris 页面全文无 insulation/pile/thermoregulation 相关内容", "evidence": "未提及;Wikipedia 'Bumblebee'(未引用)支持:'The thick pile created by long setae (bristles) acts as insulation to keep bumblebees warm in cold weather'", "fix": "补引 Wikipedia 'Bumblebee' 页面"}
+    ]},
+    {"key": "focus:bombus-terrestris-worker/head", "verdict": "uncertain", "issues": [
+      {"claim": "中舌相对较长,配合粗壮身体,能利用一些蜜蜂够不到的深冠筒花朵", "problem": "疑似事实错误。两个引用来源均未提及舌长(Britannica 不可达);而在熊蜂学通行分类中 Bombus terrestris 是典型短舌种(short-tongued),以咬穿花冠基部'偷蜜'著称,并不以深冠筒花朵取蜜见长。Wikipedia 'Bumblebee' 只说'some bumblebee species have long tongues',并非指 B. terrestris", "evidence": "Bombus terrestris 页面:全文无 tongue/proboscis;Bumblebee 页面:'some bumblebee species have long tongues and collect nectar from flowers that are closed into a tube' 与 'Many species of bumblebees also exhibit nectar robbing'", "fix": "改写为'欧洲熊蜂属于短舌熊蜂,遇到深冠筒花朵时常直接咬穿花冠基部取蜜(偷蜜)',并补引 Wikipedia 'Bumblebee' 或 Goulson《Bumblebees: Behaviour, Ecology, and Conservation》"},
+      {"claim": "同一巢的工蜂可以差出近一倍", "problem": "来源支持(工蜂 11–17 mm,胸宽 2.3–6.9 mm,体重 68–754 mg)", "evidence": "'thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg';'workers from 11 to 17 mm'", "fix": "无需修改"}
+    ]},
+    {"key": "focus:bombus-terrestris-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "翅显得偏小;依靠高频扇动与灵活的翅角控制维持飞行,前后翅同样以翅钩联动", "problem": "Bombus terrestris 页面未涉及翅形态、扇动频率或翅钩;Britannica 不可达", "evidence": "未提及;Bumblebee(未引用):'Bees beat their wings about 200 times a second'", "fix": "补引 Wikipedia 'Bumblebee' Flight 段,并给出'约 200 Hz'"},
+      {"claim": "'按空气动力学熊蜂不会飞'是个流传已久的误解——非定常涡流升力早已解释了它的飞行", "problem": "两个引用来源均未提及该误解;Bumblebee 页面解释用的是 dynamic stall,而非'涡流升力'一词", "evidence": "Bumblebee(未引用):'a widely believed falsehood holds that scientists proved bumblebees to be incapable of flight' ... dynamic stall 'briefly produces several times the lift of the aerofoil in regular flight'", "fix": "补引 Wikipedia 'Bumblebee',并把'非定常涡流升力'改为'非定常空气动力学(动态失速产生的前缘涡)'"}
+    ]},
+    {"key": "focus:bombus-terrestris-worker/abdomen", "verdict": "pass", "issues": []},
+    {"key": "focus:bombus-terrestris-worker/leg", "verdict": "uncertain", "issues": [
+      {"claim": "工蜂和蜂王后足胫节同样特化出光滑的花粉筐", "problem": "Pollen basket 页面支持熊蜂族有花粉筐,但未区分蜂王;Britannica 不可达", "evidence": "Pollen basket: 'Bees in four tribes of the family Apidae ... have corbiculae';Bumblebee(未引用):'In queens and workers this is then groomed into the corbiculae (pollen baskets) on the hind legs'", "fix": "补引 Wikipedia 'Bumblebee'"},
+      {"claim": "熊蜂访花速度快、耐低温,单位时间授粉效率常高于蜜蜂", "problem": "两个引用来源均未做此比较;Bumblebee 页面也未直接比较效率", "evidence": "未提及(Bumblebee 仅有 'bumblebees can reach ground speeds of up to 15 m/s')", "fix": "补引授粉效率比较文献(如 Willmer et al. 1994 或 Velthuis & van Doorn 2006)或改为'能在较低温度下出勤,是重要的作物授粉者'"}
+    ]},
+    {"key": "focus:osmia-cornifrons-worker/whole", "verdict": "pass", "issues": []},
+    {"key": "focus:osmia-cornifrons-worker/head", "verdict": "uncertain", "issues": [
+      {"claim": "雌蜂下脸(唇基)长有一对角状突起,学名 cornifrons 意为'有角的额'", "problem": "来源支持'下脸有角状突起',但未点明唇基(clypeus),也未解释词源", "evidence": "'this species of bee is recognized for its horn-like extensions originating from its lower face'", "fix": "可接受;如需精确到唇基可补引 Discover Life / BugGuide 的 O. cornifrons 形态描述"},
+      {"claim": "强壮的大颚用于搬运和塑形筑巢的泥土", "problem": "页面全文未提及 mandible", "evidence": "未提及", "fix": "补引 Wikipedia 'Mason bee' 或删去'强壮'等形态定语,改为'雌蜂用泥土封闭巢室'"}
+    ]},
+    {"key": "focus:osmia-cornifrons-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "壁蜂通常在巢址附近几十米内往返采集", "problem": "来源给出的是巢址到作物田的距离(130 m 内,有的达 700 m),不是'几十米'的采集半径;数字量级不符", "evidence": "'Both males and females will create a nest within 130 meters of a crop field; however, nest locations have been noted to exceed this distance; some being situated 700 meters away.'", "fix": "改为'壁蜂多在巢址附近一二百米范围内采集(巢址通常建在作物田 130 m 以内)'"},
+      {"claim": "前后翅以翅钩联动", "problem": "本条未引用翅钩来源,属通用膜翅目常识", "evidence": "教科书常识", "fix": "可补引 src-wikipedia-hamulus"}
+    ]},
+    {"key": "focus:osmia-cornifrons-worker/abdomen", "verdict": "uncertain", "issues": [
+      {"claim": "访花时干燥的花粉直接刷附在腹部下方;花粉不被唾液或花蜜粘成团,松散地夹在毛间——这让它在果树间传粉的效率很高", "problem": "Scopa 页面支持切叶蜂科腹面集粉毛,但两个来源都未提及花粉干燥/不粘团,更未提及由此带来的传粉效率", "evidence": "Scopa: 'the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen';干燥/效率:未提及", "fix": "为'干燥松散花粉→传粉效率高'的因果链补引来源(如 Bosch & Kemp 2001《How to Manage the Blue Orchard Bee》),或改为'花粉干燥地夹在毛间带回巢中'并去掉效率推论"}
+    ]},
+    {"key": "focus:osmia-cornifrons-worker/leg", "verdict": "fail", "issues": [
+      {"claim": "腹面集粉毛才是多数蜂类的携粉方式", "problem": "与来源相反。Scopa 页面明确指出多数蜂类的集粉毛位于后足,腹面集粉毛只是切叶蜂科的特征", "evidence": "Scopa: 'In most species of bees, the scopa is simply a dense mass of elongated, often branched, hairs (or setae) on the hind leg' 与 'the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen'", "fix": "改为'多数蜂类用后足集粉毛携粉;切叶蜂科(壁蜂、切叶蜂)则把集粉毛长在腹面;而光滑的花粉筐只见于蜜蜂科少数几族'"},
+      {"claim": "花粉筐(corbicula)只见于蜜蜂科少数几族", "problem": "来源支持", "evidence": "Pollen basket: 'Bees in four tribes of the family Apidae ... have corbiculae'", "fix": "无需修改"}
+    ]},
+    {"key": "focus:megachile-rotundata-worker/whole", "verdict": "pass", "issues": []},
+    {"key": "focus:megachile-rotundata-worker/head", "verdict": "uncertain", "issues": [
+      {"claim": "切叶蜂头部相对宽大,大颚强壮而边缘锋利", "problem": "来源只说用大颚剪下圆形叶片,未描述头部宽大或大颚锋利", "evidence": "'Each cell is made from circular disks cut from plant leaves using the bee's mandibles, hence the name leafcutter'", "fix": "删去'头部相对宽大',或补引 Wikipedia 'Megachile' 属页面的形态描述"}
+    ]},
+    {"key": "focus:megachile-rotundata-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "雌蜂用足夹着剪下的叶片飞行", "problem": "页面未描述运叶方式", "evidence": "未提及", "fix": "补引 Wikipedia 'Megachile'(切叶蜂属)或删去"},
+      {"claim": "访花时会'撬开'苜蓿花的龙骨瓣", "problem": "来源描述为把喙插入龙骨瓣,并未说'撬开/触发(trip)';苜蓿花的弹开(tripping)是真实现象,但本来源不支持该措辞", "evidence": "'During feeding, the bee will insert its proboscis into the keel of the plant. In the process, pollen is brushed onto its scopa.'", "fix": "改为'取食时把喙插入苜蓿花的龙骨瓣,花粉随之刷到集粉毛上',或为'触发龙骨瓣'补引 Pitts-Singer & Cane 2011(Annual Review of Entomology)"}
+    ]},
+    {"key": "focus:megachile-rotundata-worker/abdomen", "verdict": "uncertain", "issues": [
+      {"claim": "腹部背面各节后缘有一道白色毛带", "problem": "两个来源均未提及腹部毛带,页面只说雌蜂全身有白毛", "evidence": "'Megachile rotundata bees are a dark grey color. Females have white hairs all over their bodies, including on their scopae.'", "fix": "改为'深灰底色上覆白色细毛,腹面为密集集粉毛',或补引 Discover Life / BugGuide 对 M. rotundata 腹部 fasciae 的描述"}
+    ]},
+    {"key": "focus:megachile-rotundata-worker/leg", "verdict": "pass", "issues": []},
+    {"key": "focus:xylocopa-violacea-worker/whole", "verdict": "uncertain", "issues": [
+      {"claim": "通体黑色,在阳光下泛出蓝紫色金属光泽,翅膀也是烟紫色", "problem": "Xylocopa violacea 页面没有任何体色/翅色描述,只有'violet'出现在俗名中", "evidence": "未提及(页面 Description 段仅讲越冬、羽化、筑巢)", "fix": "补引带形态描述的来源,如 Wikipedia 'Carpenter bee' 或 NatureSpot / iNaturalist 物种页"},
+      {"claim": "欧亚大陆最大的蜂类之一", "problem": "来源说的是'欧洲'最大蜂之一,措辞略扩大", "evidence": "'one of the largest bees in Europe'", "fix": "改为'欧洲最大的蜂类之一'"}
+    ]},
+    {"key": "focus:xylocopa-violacea-worker/head", "verdict": "uncertain", "issues": [
+      {"claim": "头部宽大,大颚极为强壮;它不吃木头,只是钻洞;木屑会被推出洞口", "problem": "Xylocopa violacea 页面未提及大颚、头部或木屑", "evidence": "未提及;Wikipedia 'Carpenter bee'(未引用)支持:'Carpenter bees do not eat wood; they discard the bits of wood, or reuse particles to build partitions between cells' 及 'rasp their mandibles against hardwood'", "fix": "补引 Wikipedia 'Carpenter bee';并可补充'木屑或被推出,或被用来隔间'"}
+    ]},
+    {"key": "focus:xylocopa-violacea-worker/wing", "verdict": "uncertain", "issues": [
+      {"claim": "木蜂的翅膜呈烟褐色,在特定角度下折射出蓝紫虹彩", "problem": "来源无翅色描述", "evidence": "未提及", "fix": "补引形态描述来源(同 whole)"},
+      {"claim": "木蜂属被认为能进行振动授粉", "problem": "Buzz pollination 页面以 Xylocopa frontalis 为例,支持属级'被认为能',但未涉及 X. violacea 本种", "evidence": "'Xylocopa frontalis' 列于 'Examples of buzz pollinating bee species'", "fix": "可接受;建议措辞保留'木蜂属'而不写成'紫木蜂能'"}
+    ]},
+    {"key": "focus:xylocopa-violacea-worker/abdomen", "verdict": "uncertain", "issues": [
+      {"claim": "木蜂腹部几乎无毛,光滑坚硬的甲壳", "problem": "本种页面未提及;仅 Carpenter bee 属页面(未引用)支持", "evidence": "Carpenter bee(未引用):'most carpenter bees have a shiny abdomen, whereas bumblebee abdomens are completely covered with dense hair'", "fix": "补引 Wikipedia 'Carpenter bee'"},
+      {"claim": "这种结构色来自甲壳表面的微结构,而非色素", "problem": "任何来源均未提及结构色机理;这是具体科学论断,需专门来源", "evidence": "未提及", "fix": "补引昆虫结构色文献(如 Seago et al. 2009 J. R. Soc. Interface 'Gold bugs and beyond'),或改为'蓝紫光泽随观察角度变化,属于结构色的表现'并标注待核"}
+    ]},
+    {"key": "focus:xylocopa-violacea-worker/leg", "verdict": "uncertain", "issues": [
+      {"claim": "后足有集粉毛用于携粉", "problem": "本种页面未提及;Carpenter bee 属页面(未引用)说后足全毛、无花粉筐,可作间接支持", "evidence": "Carpenter bee(未引用):'females lack the bare corbicula of bumblebees; the hind leg is entirely hairy'", "fix": "补引 Wikipedia 'Carpenter bee'"},
+      {"claim": "飞行声音低沉,常被误认为大型熊蜂或蝇类", "problem": "声音低沉:任何来源未提及;误认为熊蜂:仅 Carpenter bee 属页面间接提及与熊蜂的区别", "evidence": "未提及", "fix": "删去'飞行声音低沉'或补引可核来源;'常被误认为熊蜂'可补引 Wikipedia 'Carpenter bee'"}
+    ]},
+    {"key": "organ:organ-compound-eye", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-ocelli", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-antenna", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-proboscis", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-thorax", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-forewing", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-hindwing", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-abdomen", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-sting", "verdict": "uncertain", "issues": [
+      {"claim": "由产卵器特化而来的防御器官;雄蜂无螫针", "problem": "Worker bee 页面未提及产卵器来源和雄蜂无螫针;Britannica 不可达。倒钩与脱落致死已被支持", "evidence": "Worker bee: 'Bee stings against mammals and birds typically leave the stinger embedded in the victim...The bee will die after losing its stinger';Western honey bee(未引用):'Since they do not have ovipositors, they do not have stingers'", "fix": "补引 src-wikipedia-western-honey-bee(同时覆盖产卵器来源与雄蜂无螫针)"}
+    ]},
+    {"key": "organ:organ-corbicula", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-foreleg-cleaner", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-bombus-fur", "verdict": "uncertain", "issues": [
+      {"claim": "黑黄白的分带是警戒色;厚毛被帮助熊蜂在凉爽天气维持飞行所需的体温", "problem": "Bombus terrestris 页面全文无 aposematic/insulation 内容;Britannica 不可达", "evidence": "未提及;Wikipedia 'Bumblebee'(未引用)支持:'The black-and-yellow coloration of bumblebees acts as an aposematic (warning) signal to predators' 与 'The thick pile ... acts as insulation to keep bumblebees warm in cold weather'", "fix": "补引 Wikipedia 'Bumblebee'"}
+    ]},
+    {"key": "organ:organ-bombus-flight-muscle", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-bombus-corbicula", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-bombus-sting", "verdict": "uncertain", "issues": [
+      {"claim": "熊蜂螫针光滑无倒钩,可以重复螫刺而不致自身死亡;熊蜂性情温和,极少主动攻击", "problem": "Bombus terrestris 页面全文无 sting/barb/aggressive 内容;Britannica 不可达", "evidence": "未提及;Wikipedia 'Bumblebee'(未引用)支持:'a bumblebee's stinger lacks barbs, so the bee can sting repeatedly without leaving the stinger in the wound' 与 'Bumblebee species are not normally aggressive, but may sting in defence of their nest, or if harmed'", "fix": "补引 Wikipedia 'Bumblebee'"}
+    ]},
+    {"key": "organ:organ-osmia-scopa", "verdict": "uncertain", "issues": [
+      {"claim": "访花时把干燥花粉刷附其上", "problem": "Scopa 页面未讨论花粉干湿状态;其余断言(腹面成排刚毛、切叶蜂科共同特征、与花粉筐是两条路线)均被支持", "evidence": "Scopa: 'the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen';干燥:未提及", "fix": "补引 Bosch & Kemp 2001 或删去'干燥'"}
+    ]},
+    {"key": "organ:organ-osmia-horns", "verdict": "uncertain", "issues": [
+      {"claim": "推测与搬运和加工泥土有关", "problem": "页面未提及角突功能推测", "evidence": "仅支持存在角突:'horn-like extensions originating from its lower face'", "fix": "删去功能推测,或补引壁蜂形态功能文献(如 Rust 1974 等)"}
+    ]},
+    {"key": "organ:organ-osmia-mandible", "verdict": "uncertain", "issues": [
+      {"claim": "大颚用于衔泥筑巢和封闭巢室;口器吸取花蜜,与花粉一同调制成巢室内的花粉球", "problem": "页面支持用泥封巢和放置花粉球,但未提及大颚,也未提及花蜜与花粉混合", "evidence": "'the female bee closes off the cell with mud';'disperse the pollen as a pollen ball. Eggs are placed on top of the pollen ball';大颚、花蜜:未提及", "fix": "补引 Wikipedia 'Mason bee' 或 Bosch & Kemp 2001"}
+    ]},
+    {"key": "organ:organ-megachile-mandible", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-megachile-scopa", "verdict": "uncertain", "issues": [
+      {"claim": "访花时刷附干燥花粉", "problem": "两个来源均未讨论花粉干燥状态;先吐蜜再抖花粉、供幼虫食用已被支持", "evidence": "Megachile rotundata: 'females first regurgitate the nectar they have provisioned into the cell and then transfer the pollen ... on top of the nectar';干燥:未提及", "fix": "删去'干燥'或补引来源(同 organ-osmia-scopa)"}
+    ]},
+    {"key": "organ:organ-megachile-hair-bands", "verdict": "uncertain", "issues": [
+      {"claim": "腹部各背板后缘的白色细毛带,与深灰底色形成条带外观,是野外辨识切叶蜂属的常见线索", "problem": "页面未提及毛带(band/stripe/fasciae),只说雌蜂全身白毛", "evidence": "'Females have white hairs all over their bodies, including on their scopae'", "fix": "补引 Discover Life 或 BugGuide 的 Megachile 形态说明(腹部 tergal fasciae),否则改写为'腹部覆白色细毛'"}
+    ]},
+    {"key": "organ:organ-xylocopa-integument", "verdict": "uncertain", "issues": [
+      {"claim": "黑色甲壳表面的微结构对光产生干涉,呈现随角度变化的蓝紫金属光泽;这是结构色,不是色素;可能兼具体温调节意义", "problem": "Xylocopa violacea 页面没有任何体色、结构色或体温调节内容", "evidence": "未提及", "fix": "补引昆虫结构色文献(如 Seago et al. 2009)及形态描述来源;'体温调节意义'若无来源应删去"}
+    ]},
+    {"key": "organ:organ-xylocopa-mandible", "verdict": "pass", "issues": []},
+    {"key": "organ:organ-xylocopa-wing", "verdict": "uncertain", "issues": [
+      {"claim": "深色翅膜带蓝紫虹彩", "problem": "本种页面无翅色描述", "evidence": "未提及", "fix": "补引形态描述来源"},
+      {"claim": "木蜂属能以飞行肌高频震动进行振动授粉", "problem": "Buzz pollination 页面以 Xylocopa frontalis 为例支持属级论断", "evidence": "'Xylocopa frontalis' 列于 'Examples of buzz pollinating bee species'", "fix": "无需修改"}
+    ]},
+    {"key": "compare:row-body-length", "verdict": "uncertain", "issues": [
+      {"claim": "工蜂约 12–15 mm;蜂王约 18–20 mm;雄蜂约 15–17 mm", "problem": "引用的 Honey bee 页面没有任何体长数字;Britannica 不可达。工蜂 12–15 mm 可由 Worker bee 页面(本条未引用)支持;蜂王与雄蜂数字目前无可达来源", "evidence": "Honey bee: 无体长数字;Worker bee(未引用)表格:'Body Length: 12–15 mm'", "fix": "补引 src-wikipedia-worker-bee 覆盖工蜂;为蜂王 18–20 mm、雄蜂 15–17 mm 补引养蜂学教材(如 Winston 1987《The Biology of the Honey Bee》)或改用带来源的区间"}
+    ]},
+    {"key": "compare:row-corbicula", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王:无;雄蜂:无", "problem": "Pollen basket 页面只说'female of certain species',未区分蜂王与雄蜂", "evidence": "'part of the tibia on the hind legs of the female of certain species of bees';Honey bee(未引用):'Workers have morphological specializations, including the pollen basket (corbicula)'", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "compare:row-sting", "verdict": "pass", "issues": []},
+    {"key": "compare:row-eyes", "verdict": "uncertain", "issues": [
+      {"claim": "工蜂常规比例;蜂王相对较小;雄蜂显著增大,向头顶靠拢", "problem": "唯一来源 Britannica 不可达;'蜂王复眼相对较小'尚无可达来源", "evidence": "来源不可达;Honey bee(未引用)可支持雄蜂:'Drones have large eyes used to locate queens during mating flights'", "fix": "补引 src-wikipedia-honey-bee(雄蜂)与 src-snodgrass-anatomy(蜂王小眼数少于工蜂,属教科书内容)"}
+    ]},
+    {"key": "compare:row-role", "verdict": "pass", "issues": []},
+    {"key": "compare:row-cerana-corbicula", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王:无;雄蜂:无", "problem": "Apis cerana 页面只说工蜂后足有 pollen press,未提蜂王/雄蜂;Pollen basket 亦未区分", "evidence": "'Worker bees are characterized by a pollen press on the hind leg to transport pollen'", "fix": "补引 src-wikipedia-honey-bee"}
+    ]},
+    {"key": "compare:row-cerana-sting", "verdict": "pass", "issues": []},
+    {"key": "compare:row-cerana-eyes", "verdict": "uncertain", "issues": [
+      {"claim": "蜂王:相对较小", "problem": "两个来源均未提及蜂王复眼大小;雄蜂增大已被支持", "evidence": "Apis cerana: 'Drones ... defined by larger eyes';蜂王:未提及", "fix": "补引 src-snodgrass-anatomy 或改为'与工蜂相近'"}
+    ]},
+    {"key": "compare:row-cerana-colony", "verdict": "pass", "issues": []},
+    {"key": "species:apis-mellifera", "verdict": "uncertain", "issues": [
+      {"claim": "workerBodyLengthMm 12–15", "problem": "三个引用来源中可达的两个 Wikipedia 页面都没有体长数字;Britannica 不可达", "evidence": "Worker bee(未引用)表格:'Body Length: 12–15 mm'", "fix": "补引 src-wikipedia-worker-bee"},
+      {"claim": "原产欧洲、非洲与西亚", "problem": "来源措辞为非洲/亚洲起源并自然扩散至非洲、中东与欧洲,可视为支持", "evidence": "Western honey bee: 'believed to have originated in Africa or Asia, and it spread naturally through Africa, the Middle East and Europe'", "fix": "无需修改"}
+    ]},
+    {"key": "species:apis-cerana", "verdict": "uncertain", "issues": [
+      {"claim": "中国本土传统饲养的主要蜂种", "problem": "Apis cerana 页面未提及传统养蜂;Britannica 不可达", "evidence": "未提及(Honey bee 页面有 'the traditional honey bee of southern and eastern Asia' 但未被本条引用)", "fix": "补引 src-wikipedia-honey-bee"},
+      {"claim": "耐低温、善于利用零星蜜源", "problem": "页面只说能在 12–36 °C 环境维持体温,未提零星蜜源", "evidence": "'A. cerana maintain body temperatures in a range of 33–35.5 °C even while ambient temperatures vary between 12 and 36 °C'", "fix": "补引中国养蜂学文献或删去"},
+      {"claim": "腹部环纹更均匀清晰", "problem": "无比较依据", "evidence": "'black in color, with four yellow abdominal stripes'", "fix": "改为'腹部有四条黄色环纹'"}
+    ]},
+    {"key": "species:bombus-terrestris", "verdict": "uncertain", "issues": [
+      {"claim": "能进行振动授粉,番茄等温室作物高度依赖它", "problem": "本条引用的 Bombus terrestris 页面只说它是温室授粉主力,全文不含 buzz;Britannica 不可达。Buzz pollination 页面可支持但未被本条引用", "evidence": "Bombus terrestris: 'one of the main species used in greenhouse pollination';Buzz pollination(未引用):'In greenhouses worldwide, up to 50 bumblebee colonies are used per hectare'", "fix": "在 sourceIds 中补引 src-wikipedia-buzz-pollination"},
+      {"claim": "巢内为不规则蜡罐", "problem": "来源只说巢多在地下鼠洞,巢结构描述为 comb-like,未说'不规则蜡罐'", "evidence": "'Nests are usually found underground, such as in abandoned rodent dens'", "fix": "改为'巢内为不规则排列的蜡质育幼室和蜜罐'并补引 Wikipedia 'Bumblebee' Nests 段"}
+    ]},
+    {"key": "species:osmia-cornifrons", "verdict": "uncertain", "issues": [
+      {"claim": "workerBodyLengthMm 11–13", "problem": "两个来源均无体长数字", "evidence": "Osmia cornifrons 页面只有卵长 'typically 1/10 the length of the female body'", "fix": "补引带体长的来源(如 Penn State Extension 'Japanese Orchard Bee' 或 Bosch & Kemp 2001),核对 11–13 mm"}
+    ]},
+    {"key": "species:megachile-rotundata", "verdict": "uncertain", "issues": [
+      {"claim": "深灰体色配白色毛带", "problem": "来源只说全身白毛,未提毛带", "evidence": "'Megachile rotundata bees are a dark grey color. Females have white hairs all over their bodies'", "fix": "改为'深灰体色覆白色细毛'或补引形态来源"}
+    ]},
+    {"key": "species:xylocopa-violacea", "verdict": "uncertain", "issues": [
+      {"claim": "workerBodyLengthMm 20–23", "problem": "两个来源均无体长数字", "evidence": "未提及", "fix": "补引带体长的来源(如 Wikipedia 德文/意文版或 NatureSpot 物种页),核对 20–23 mm"},
+      {"claim": "黑色身体泛蓝紫金属光泽,翅呈烟紫色", "problem": "来源无体色描述", "evidence": "未提及", "fix": "补引形态描述来源"},
+      {"claim": "欧亚最大的蜂类之一", "problem": "来源为'欧洲最大'", "evidence": "'one of the largest bees in Europe'", "fix": "改为'欧洲最大的蜂类之一'"},
+      {"claim": "分布:欧洲向东横跨亚洲至中国中部,主要分布于北纬 30° 以北;夏末羽化越冬,春季活动;能进行振动授粉", "problem": "均被支持", "evidence": "'extends from Europe eastward across Asia as far as central China, restricted to latitudes above 30 degrees';'The adults emerge in late summer then hibernate';Buzz pollination 列 Xylocopa frontalis", "fix": "无需修改"}
+    ]}
+  ]
+}

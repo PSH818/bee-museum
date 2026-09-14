@@ -1,0 +1,35 @@
+{
+  "lens": "refutation",
+  "round": 16,
+  "reviewedAt": "2026-08-25T08:05:00Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "detail:“工蜂幼虫三天后改吃花粉和花蜜调成的蜂粮。”",
+          "problem": "“蜂粮”(bee bread)专指巢房里贮存、发酵过的花粉,工蜂幼虫并不是“改吃蜂粮”。按 Haydak(1970)及 Winston 的描述,3 天后哺育蜂停掉上颚腺成分,继续投喂下咽腺分泌的浆液,并在其中掺入花粉与蜂蜜——幼虫全程仍靠哺育蜂口对口投喂腺体分泌物,只是配方变“粗”。馆方引用的 Wikipedia 也只说“pollen and honey”,并未出现 bee bread。“改吃…蜂粮”会让观众以为幼虫直接吃贮存花粉、不再吃腺体分泌物,与前一句“哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫”在逻辑上也有张力。",
+          "evidence": "Honey Bee Suite(据 Winston): “At day 3 the mandibular portion is dropped from the diet of larvae destined to be workers… the clear hypopharyngeal portion of their diet is supplemented with pollen and honey” https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/ ;Haydak 1970 转引:“worker larvae are fed with jelly mixed with pollen and honey” https://pmc.ncbi.nlm.nih.gov/articles/PMC11163459/ ;Wikipedia Worker bee:“Nurse bees feed it royal jelly for three days, followed by pollen and honey” https://en.wikipedia.org/wiki/Worker_bee ;Wikipedia Bee brood:“then they are fed nectar or diluted honey and pollen” https://en.wikipedia.org/wiki/Bee_brood",
+          "fix": "改为:“约三天后,哺育蜂喂给工蜂幼虫的浆液里开始掺入花粉和蜂蜜,食谱变得更‘粗’,与一直吃蜂王浆的蜂王幼虫分道扬镳。”避免使用“蜂粮”一词。"
+        },
+        {
+          "claim": "spanText:“出房后第 3–12 天(第 23–33 天)”与 span {from:23,to:33}",
+          "problem": "两套天数换算不自洽:第 3 天→第 23 天用的是“出房日(第 21 天)算第 1 天”的口径(21+3-1=23),第 12 天→第 33 天则用的是“出房日算第 0 天”的口径(21+12=33);同一口径下应为 23–32 或 24–33。属内部一致性问题,不影响科学结论,但时间轴上会与相邻阶段错位一天。",
+          "evidence": "工蜂从卵到出房约 21 天(卵 3 天、未封盖幼虫约 6 天、封盖后约 12 天):https://en.wikipedia.org/wiki/Western_honey_bee ;https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/",
+          "fix": "统一口径。若出房日记为第 21 天且算成年第 1 天,则写“出房后第 3–12 天(第 23–32 天)”,span 改为 {from:23,to:32};并与本 story 其余成年阶段的换算保持一致。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "lens": "fact-check",
+  "round": 21,
+  "reviewedAt": "2026-08-25T08:10:00Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "status": "ok",
+      "note": "WebFetch 抓取一次(第二次询问命中 15 分钟缓存,未重复请求站点)。关键原句:章节标题 'Foraging bees (days 21–42)';'The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water.';'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks.';'After this 21 day developmental period, the adult bee will chew through its wax cap and cocoon and emerge into the hive as a fully grown bee.'"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "status": "ok",
+      "note": "WebFetch 抓取一次。关键原句(Individual bee life cycle):'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.';夏季工蜂 'live only a few weeks',秋季出生者 'remain inside for several months as the colony clusters';'Except for the queen, all of a colony's workers are replaced about every four months.' 未给出采集距离数字。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "可飞到约 3 公里外(据记载有时更远)采集花蜜、花粉、蜂胶和水",
+          "problem": "'约 3 公里'与四类采集物均被 Worker bee 原文支持;'据记载有时更远'两来源均未提及,但已用'据记载有时'限定,按已恰当限定处理,不构成否定。",
+          "evidence": "Worker bee › Foraging bees (days 21–42): 'The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water.'",
+          "fix": "可选:若希望每句都能落到引用来源,可删去括注'(据记载有时更远)',或为其补充一条明确给出更远采集距离的来源;不改亦可。"
+        },
+        {
+          "claim": "出房后第 21 天起(自产卵起第 41 天起)成为外勤蜂,直到生命结束",
+          "problem": "被支持。Worker bee 的外勤阶段标题为 days 21–42(出房后计日,第 1 天=出房当日,故对应时间轴第 21+21−1=41 天,与 span.from=41 一致);Western honey bee 写'After the 20th day'即第 21 天起,并明确'余生皆为外勤'。",
+          "evidence": "Worker bee 标题 'Foraging bees (days 21–42)';Western honey bee: 'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.'",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "夏季工蜂出房后通常只活几周(常见文献约 2–6 周);越冬蜂结团过冬可活数月(不同资料约 20 周或更长);全群工蜂约每四个月整体更替一遍",
+          "problem": "全部被支持或已恰当限定:'2–6 周'与'20 周'对应 Worker bee 原句;'几周''数月''结团'与'每四个月更替'对应 Western honey bee 原句;'或更长'以'不同资料约'限定。",
+          "evidence": "Worker bee: 'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks.'; Western honey bee: summer workers 'live only a few weeks', autumn-born workers 'remain inside for several months as the colony clusters', 'Except for the queen, all of a colony's workers are replaced about every four months.'",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

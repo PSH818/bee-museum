@@ -1,0 +1,266 @@
+{
+  "lens": "fact-check",
+  "round": 6,
+  "reviewedAt": "2026-08-25T03:30:00.000Z",
+  "sourceAccess": [
+    {"id": "src-snodgrass-anatomy", "status": "book-no-url", "note": "书籍来源,无法在线核对;仅用于教科书级昆虫头部解剖常识(复眼/单眼/触角/口器),按规则可 pass。"},
+    {"id": "src-britannica-honeybee", "status": "not-fetched", "note": "已知 403;本轮无 entry 依赖它,未抓取。"},
+    {"id": "src-britannica-bumblebee", "status": "not-fetched", "note": "已知 403;本轮无 entry 依赖它,未抓取。"},
+    {"id": "src-wikipedia-apis-cerana", "status": "ok", "note": "抓取成功。关键句:'both are medium-sized bees (10-11mm)'、'four yellow abdominal stripes'、'maintains internal hive temperatures with a precision similar to that of A. mellifera'、'Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee)'、heat-balling 47 °C。未提及传统养蜂。"},
+    {"id": "src-wikipedia-honey-bee", "status": "ok", "note": "抓取成功。'Apis cerana ... is the traditional honey bee of southern and eastern Asia'、'The only domesticated species of honey bee are A. mellifera and A. cerana'、A. cerana japonica 热杀胡蜂图注。"},
+    {"id": "src-wikipedia-worker-bee", "status": "ok", "note": "抓取成功。'Body Length: 12–15 mm'(西方蜜蜂工蜂)、巢温 34–36 °C。未涉及 A. cerana。"},
+    {"id": "src-wikipedia-bombus-terrestris", "status": "ok", "note": "抓取成功。'thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg'。未提及盗蜜。"},
+    {"id": "src-wikipedia-bumblebee", "status": "ok", "note": "抓取成功。'Many species of bumblebees also exhibit nectar robbing ... bite directly through the base of the corolla'。工蜂 11–17 mm(体长,与胸长断言不冲突)。"},
+    {"id": "src-wikipedia-nectar-robbing", "status": "ok", "note": "抓取成功。定义句 'feeding from holes bitten in flowers';图注 'Bombus terrestris stealing nectar';短舌熊蜂够不到长花花蜜而咬孔;木蜂亦盗蜜。"},
+    {"id": "src-wikipedia-osmia-cornifrons", "status": "ok", "note": "抓取成功。'solitary bee indigenous to Northern Asia ... Japan, Korea, China, and Russia'、'first introduced in Japan in the 1940s ... Over a 50-year time period ... more than half of the apple orchards in Japan'、'In 1977 ... introduced in the northeastern United States'、'use bamboo, reeds, and previously existing holes in trees'、'lay a single egg'、'closes off the cell with mud'。无体长;无 Aomori;无 mason 名称由来;无中西部。"},
+    {"id": "src-exotic-bee-id", "status": "ok", "note": "抓取成功(idtools.org)。'Female body length ranges from 8–12 mm'、'native to eastern Asia ... Japan and Korea as well as the southeast coast of Russia'、'intentionally introduced to the eastern U.S. from Japan in the 1970s'、'can be found on the East Coast and the Midwest'、'nests can be found in reeds, bamboo, holes within trees'、'Nest cells are constructed of mud and leaf pulp'、'Female scopa reddish-brown'。"},
+    {"id": "src-wikipedia-megachile-rotundata", "status": "ok", "note": "抓取成功。'6–9 mm in length'、'dark grey color. Females have white hairs all over their bodies'、'does not build colonies or store honey'、'a European bee'、'accidentally introduced into the United States during the 1940s' 与 'deliberately imported' 并存、'New Zealand in 1971 and Australia in 1987'、'about 15 leaves per cell'、'first regurgitate the nectar ... then transfer the pollen ... on top of the nectar'、'increases in seed production'。"},
+    {"id": "src-wikipedia-xylocopa-violacea", "status": "ok", "note": "抓取成功。'one of the largest bees in Europe'、'extends from Europe eastward across Asia as far as central China, restricted to latitudes above 30 degrees'、'emerge in the spring, usually around April or May'、'The adults emerge in late summer then hibernate until the following year'、'bore tunnels in dead wood'、'the female creates the nest alone'。无体长、无体色/翅色描述。"},
+    {"id": "src-wikipedia-carpenter-bee", "status": "ok", "note": "抓取成功。'traditionally considered solitary bees'、'burrow into hard plant material such as dead wood'、'most species are all black'、'shiny abdomen'、Family Apidae、X. violacea 为模式种。无越冬、无振动授粉。"},
+    {"id": "src-dewiki-blaue-holzbiene", "status": "ok", "note": "抓取成功(德文)。'Mit 20 bis 28 Millimeter Körperlänge zählen die Tiere zu den größten Vertretern der Bienen in Mitteleuropa'、'Ihr Körper ist tiefschwarz ... Auch die Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf'、'Als Einsiedlerbiene ... im April/Mai ... in selbstgenagten Hohlräumen in Totholz'、'fliegt die Art ab August und nach der Überwinterung von März bis Juli'、分布仅 'Süd- und Mitteleuropa'。"},
+    {"id": "src-wikipedia-scopa", "status": "ok", "note": "抓取成功。'the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen'、'Honey bees and bumblebees have ... the corbicula, or pollen basket'、图注 'Abdominal scopa of Megachile'。"},
+    {"id": "src-wikipedia-buzz-pollination", "status": "ok", "note": "抓取成功。'Bees from Bombus and Xylocopa are thought to pollinate ...'、物种表列 Xylocopa frontalis 与 Bombus terrestris;未点名 X. violacea。"},
+    {"id": "src-wikipedia-mason-bee", "status": "ok", "note": "本轮 entry 未引用,仅为给出修复建议而抓取:'Mason bees are named for their habit of using mud or other masonry products in constructing their nests';点名 O. cornifrons。"},
+    {"id": "src-wikipedia-pollen-basket", "status": "not-needed", "note": "本轮无 entry 引用。"},
+    {"id": "src-wikipedia-hamulus", "status": "not-needed", "note": "本轮无 entry 引用。"},
+    {"id": "src-wikipedia-western-honey-bee", "status": "not-needed", "note": "本轮无 entry 引用。"},
+    {"id": "src-wikipedia-megachile", "status": "not-needed", "note": "本轮无 entry 引用。"},
+    {"id": "src-wikipedia-haplodiploidy", "status": "not-needed", "note": "本轮无 entry 引用。"}
+  ],
+  "verdicts": [
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "东方蜜蜂工蜂体长约 10–11 mm(西方蜜蜂工蜂约 12–15 mm;不同资料略有差异)",
+          "problem": "无问题,记录证据。",
+          "evidence": "Apis cerana 页:'both are medium-sized bees (10-11mm)';Worker bee 页:'Body Length: 12–15 mm'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "能在较大的环境温差下维持稳定的巢温",
+          "problem": "无问题,记录证据。",
+          "evidence": "Apis cerana 页:'A. cerana maintains internal hive temperatures with a precision similar to that of A. mellifera';'maintain body temperatures in a range of 33–35.5 °C even while ambient temperatures vary between 12 and 36 °C'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "是亚洲本土传统养蜂的主角",
+          "problem": "Apis cerana 页未提及养蜂,但 Honey bee 页支持。",
+          "evidence": "Honey bee 页:'Apis cerana, the eastern honey bee proper, is the traditional honey bee of southern and eastern Asia';'The only domesticated species of honey bee are A. mellifera and A. cerana'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "中华蜜蜂(中蜂)是东方蜜蜂的亚种;面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死",
+          "problem": "无问题,记录证据。",
+          "evidence": "Apis cerana 页:'Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee)';'about 500 Japanese honey bees surround the hornet and vibrate their flight muscles until the temperature is raised to 47 °C, heating the hornet to death'。Honey bee 页图注:'The body heat trapped by the ball will overheat and kill the hornets'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂头部同样由复眼、单眼、触角和口器构成",
+          "problem": "在线来源未逐项列出,依赖 Snodgrass 书籍;属教科书级昆虫头部解剖常识,按规则 pass。",
+          "evidence": "Bumblebee 页仅提到 'long hairy tongues'/'proboscis';Snodgrass《Anatomy of the Honey Bee》为书籍,无法在线核对。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "遇到深冠筒的花,欧洲熊蜂常在花冠基部咬孔取蜜,这种行为叫\"盗蜜\"",
+          "problem": "Bombus terrestris 专页未提盗蜜;由 Bumblebee 页与 Nectar robbing 页共同支持(B. terrestris 本种的盗蜜证据来自 Nectar robbing 页图注)。'常'为频率表述,来源未量化,属轻微措辞问题,不影响裁决。",
+          "evidence": "Bumblebee 页:'Many species of bumblebees also exhibit nectar robbing: instead of inserting the mouthparts into the flower in the normal way, these bees bite directly through the base of the corolla to extract nectar';Nectar robbing 页:'long flowers with tubular corollas are prone to robbing'、'Short-tongued bees ... are unable to reach the nectar located at the base of long flowers ... enter the flower through a hole bitten at the base',图注 'Bombus terrestris stealing nectar'。",
+          "fix": "可选:将'常在'改为'会在',更贴合来源措辞。"
+        },
+        {
+          "claim": "同一巢的工蜂胸部长度可差两三倍,体重可差十倍以上",
+          "problem": "无问题,数字一致。",
+          "evidence": "Bombus terrestris 页:'workers exhibit a wide variation in worker size, with thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg'(6.9/2.3≈3 倍;754/68≈11 倍)。Bumblebee 页工蜂体长 11–17 mm 为全长数据,与胸长断言不冲突。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "它的英文名 mason bee(泥匠蜂)由此而来(因用泥土分隔巢室)",
+          "problem": "名称由来在该条两个来源中均未提及,且未加限定。Osmia cornifrons 页仅把属名标注为 Mason bee 并记述 'closes off the cell with mud',未解释词源;Exotic Bee ID 页亦无。",
+          "evidence": "Osmia cornifrons 页:'closes off the cell with mud'(无词源说明);Exotic Bee ID:'Nest cells are constructed of mud and leaf pulp'(无词源说明)。仓库内 src-wikipedia-mason-bee(本条未引用)可支持:'Mason bees are named for their habit of using mud or other masonry products in constructing their nests'。",
+          "fix": "把 src-wikipedia-mason-bee 加入该条 sourceIds;或将句尾改为'壁蜂属的英文俗名 mason bee(泥匠蜂)即指这种用泥习性'。"
+        },
+        {
+          "claim": "据报道,自 1940 年代起的约五十年间,日本(尤其青森等主产区)半数以上的苹果园曾用它授粉",
+          "problem": "主干断言被支持;但'尤其青森等主产区'在两个来源中均未出现。因整句已用'据报道'限定,按规则不作否决,仅作提示。",
+          "evidence": "Osmia cornifrons 页:'first introduced in Japan in the 1940s ... Over a 50-year time period, use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species'。两页均无 'Aomori'。",
+          "fix": "建议删去括注'(尤其青森等主产区)',或补充能支持青森的来源。"
+        },
+        {
+          "claim": "1977 年它被引入美国东部,此后在美国东部与中西部定殖",
+          "problem": "无问题,两来源互补。",
+          "evidence": "Osmia cornifrons 页:'In 1977, O. cornifrons was introduced in the northeastern United States';Exotic Bee ID:'intentionally introduced to the eastern U.S. from Japan in the 1970s'、'can be found on the East Coast and the Midwest'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "独居蜂;原产东亚;用泥土在竹管或芦苇管里隔出巢室,每室一个花粉球和一枚卵",
+          "problem": "无问题,记录证据。",
+          "evidence": "Osmia cornifrons 页:'a species of solitary bee indigenous to Northern Asia ... Japan, Korea, China, and Russia'、'use bamboo, reeds, and previously existing holes in trees as nesting sites'、'create individual cells in which they lay a single egg'、'Eggs are placed on top of the pollen ball';Exotic Bee ID:'native to eastern Asia'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "体长仅 6–9 mm,深灰色身体披白色细毛;独居蜂,不筑群、不储蜜;用大颚剪下圆片卷成顶针状巢室",
+          "problem": "无问题,记录证据。",
+          "evidence": "Megachile rotundata 页:'they are 6–9 mm (0.24–0.35 in) in length'、'bees are a dark grey color. Females have white hairs all over their bodies'、'As a solitary bee species, it does not build colonies or store honey'、'circular disks cut from plant leaves using the bee's mandibles ... thimble-shaped cell'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "原产欧洲(部分资料认为其原产地延伸至西亚);传入北美后被用于给生产种子的苜蓿田授粉(是否为有意引入各资料说法不一)",
+          "problem": "来源仅称 'a European bee',西亚为已限定表述;来源自身对引入方式说法矛盾,条目已恰当限定。'生产种子的苜蓿田'由 seed production 与 M. sativa 授粉两句合并支持。",
+          "evidence": "'Megachile rotundata, the alfalfa leafcutting bee, is a European bee';'accidentally introduced into the United States during the 1940s' 与 'In North America, the species was deliberately imported to assist in the pollination of food crops' 并存;'its management as a pollinator leads to increases in seed production of some crops in the U.S.';'efficient pollination of M. sativa'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "并被有意引入新西兰和澳大利亚;一间巢室大约用 15 片叶子;先吐入花蜜,再抖入花粉,最后产卵封室",
+          "problem": "无问题,记录证据。",
+          "evidence": "'introduced to New Zealand in 1971 and Australia in 1987 to assist in the pollination';'Females use about 15 leaves per cell';'females first regurgitate the nectar they have provisioned into the cell and then transfer the pollen that is attached to their scopa on top of the nectar';'Each cell contains one pollen and nectar ball, and one egg'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "紫木蜂是欧洲最大的蜂类之一,通体黑色、带微弱光泽;标志性的蓝紫色虹彩主要来自它烟紫色的翅膀",
+          "problem": "英文专页无体色描述,由德文维基与 Carpenter bee 页支持;'烟紫色'与德文'sehr dunkel ... blauen Schiller'(极暗、蓝色闪光)略有色彩措辞差异,不构成否定。",
+          "evidence": "Xylocopa violacea 页:'one of the largest bees in Europe';德文维基:'Mit 20 bis 28 Millimeter Körperlänge zählen die Tiere zu den größten Vertretern der Bienen in Mitteleuropa'、'Ihr Körper ist tiefschwarz ... Auch die Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf';Carpenter bee 页:'most species are all black'、'most carpenter bees have a shiny abdomen'。",
+          "fix": "可选:'烟紫色的翅膀'改为'深暗、泛蓝紫闪光的翅膀'以贴合来源。"
+        },
+        {
+          "claim": "独居蜂,分布以欧洲为主,向东延伸至亚洲(东界各资料不一,英文资料称达中国中部)",
+          "problem": "无问题;东界差异已恰当限定(德文维基仅记南欧与中欧)。",
+          "evidence": "Xylocopa violacea 页:'Like other solitary bees, the female creates the nest alone'、'The range of Xylocopa violacea extends from Europe eastward across Asia as far as central China';德文维基:'Die Art kommt in Süd- und Mitteleuropa ... vor'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "成蜂夏末羽化后越冬,次年春季(约三至五月,因地区而异)出来活动;雌蜂独自在枯木中钻洞筑巢",
+          "problem": "无问题;月份差异已限定(英文 4–5 月,德文 3 月起)。",
+          "evidence": "Xylocopa violacea 页:'The adults emerge in late summer then hibernate until the following year'、'emerge in the spring, usually around April or May'、'the gravid females bore tunnels in dead wood';德文维基:'nach der Überwinterung von März bis Juli'、'in selbstgenagten Hohlräumen in Totholz'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英文名 Eastern honey bee;蜜蜂科 Apidae;亚洲南部与东部的传统饲养蜂种;中华蜜蜂为其分布于中国的亚种",
+          "problem": "无问题,记录证据。",
+          "evidence": "Apis cerana 页:'the eastern honey bee, Asiatic honey bee or Asian honey bee'、'Family: Apidae'、'Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee) ... China, Taiwan, South Korea and North Korea';Honey bee 页:'the traditional honey bee of southern and eastern Asia'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "高度社会性,群体结构与西方蜜蜂相近;在树洞等隐蔽空腔内筑巢,巢由多片平行悬挂的蜡质巢脾组成",
+          "problem": "无问题;'平行悬挂'为多脾巢的常规描述,来源称 multiple combs in cavities。",
+          "evidence": "Apis cerana 页:'known for its highly social behavior ... several thousand female worker bees, one queen bee, and several hundred male drone bees'、'building nests consisting of multiple combs in cavities'、'constructed inside beeswax combs inside a tree cavity'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "workerBodyLengthMm 10–11;summary '工蜂体长约 10–11 mm(不同资料约 9–12 mm),腹部有四条黄色环纹;对胡蜂等天敌有独特的集体防御行为'",
+          "problem": "10–11 mm 与来源一致;'9–12 mm'为已限定的补充范围,来源未给出但不冲突。",
+          "evidence": "Apis cerana 页:'both are medium-sized bees (10-11mm)'、'four yellow abdominal stripes'、heat-balling 段落。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "原产东亚(日本、朝鲜半岛、中国、俄罗斯远东);1977 年引入美国东部,此后在美国东部与中西部定殖",
+          "problem": "无问题;两来源互补(Wikipedia 给 1977 与中国,Exotic Bee ID 给俄罗斯东南沿海与中西部)。",
+          "evidence": "Osmia cornifrons 页:'indigenous to Northern Asia ... Japan, Korea, China, and Russia'、'In 1977, O. cornifrons was introduced in the northeastern United States';Exotic Bee ID:'native to eastern Asia ... Japan and Korea as well as the southeast coast of Russia'、'can be found on the East Coast and the Midwest'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "独居;利用竹管、芦苇及树木现成孔洞,以泥土分隔巢室并封口;体长 8–12 mm;Megachilidae · Osmia;英文名 Hornfaced bee",
+          "problem": "无问题,数字一致。",
+          "evidence": "Exotic Bee ID:'a solitary bee that nests in preexisting cavities'、'nests can be found in reeds, bamboo, holes within trees'、'Female body length ranges from 8–12 mm'、'Common name: Japanese hornfaced bees'、'Family: Megachilidae, Genus: Osmia';Osmia cornifrons 页:'closes off the cell with mud'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "曾是日本苹果园的主力授粉蜂之一;花粉粘附在腹面的集粉毛上,而不是像蜜蜂那样装在后足花粉筐里",
+          "problem": "无问题,记录证据。",
+          "evidence": "Osmia cornifrons 页:'more than half of the apple orchards in Japan utilized this species';Scopa 页:'the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen'、'Honey bees and bumblebees have ... the corbicula, or pollen basket';Exotic Bee ID:'Female scopa reddish-brown'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "原产欧洲(部分资料认为延伸至西亚);传入北美后成为苜蓿制种的授粉蜂,并被有意引入新西兰、澳大利亚",
+          "problem": "无问题;西亚为已限定表述。",
+          "evidence": "Megachile rotundata 页:'is a European bee'、'increases in seed production of some crops in the U.S.'、'efficient pollination of M. sativa'、'introduced to New Zealand in 1971 and Australia in 1987'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "独居:不筑群、不储蜜;在现成孔洞内用大颚剪下的叶片圆片卷成顶针状巢室;体长 6–9 mm",
+          "problem": "无问题,数字一致。",
+          "evidence": "'does not build colonies or store honey'、'tubular nests in a variety of sites, including rotting wood, flower stems, reeds, and soda straws'、'available cracks/crevices in trees or buildings'、'circular disks cut from plant leaves using the bee's mandibles ... thimble-shaped cell'、'6–9 mm (0.24–0.35 in) in length'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "深灰体色覆白色细毛,腹面集粉毛携粉;Megachilidae · Megachile;Alfalfa leafcutter bee",
+          "problem": "无问题;腹面位置由 Scopa 页支持。",
+          "evidence": "'dark grey color. Females have white hairs all over their bodies, including on their scopae';Scopa 页:'Megachilidae ... extensive scopa on the underside of the abdomen',图注 'Abdominal scopa of Megachile';分类框 Megachilidae / Megachile;'the alfalfa leafcutting bee'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "分布以欧洲为主,向东延伸至亚洲(东界各资料不一,英文资料称达中国中部);主要分布于北纬 30 度以北",
+          "problem": "无问题;东界已限定。",
+          "evidence": "Xylocopa violacea 页:'extends from Europe eastward across Asia as far as central China, restricted to latitudes above 30 degrees';德文维基:'Die Art kommt in Süd- und Mitteleuropa ... vor'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "独居;在枯木中用大颚啃出隧道状巢穴;体长 20–28 mm;Apidae · Xylocopa;Violet carpenter bee",
+          "problem": "无问题,数字一致(英文页无体长,由德文维基支持)。",
+          "evidence": "德文维基:'Mit 20 bis 28 Millimeter Körperlänge'、'in selbstgenagten Hohlräumen in Totholz';Xylocopa violacea 页:'the female creates the nest alone'、'bore tunnels in dead wood'、Family Apidae、'violet carpenter bee'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "欧洲最大的蜂类之一:黑色身体带微弱光泽,翅呈烟紫色并带蓝紫虹彩;夏末羽化越冬,春季活动",
+          "problem": "无问题;'烟紫色'与来源'sehr dunkel ... blauen Schiller'措辞略异,不冲突。",
+          "evidence": "'one of the largest bees in Europe';德文维基:'Ihr Körper ist tiefschwarz ... Flügel ... sehr dunkel ... auffälligen blauen Schiller';Carpenter bee 页:'shiny abdomen';'The adults emerge in late summer then hibernate until the following year'。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "被认为能进行振动授粉",
+          "problem": "来源仅在属级别称 Xylocopa 被认为可振动授粉,列表点名的是 X. frontalis,未点名 X. violacea;条目已用'被认为'限定,属可接受的属级外推,仅作提示。",
+          "evidence": "Buzz pollination 页:'Bees from Bombus and Xylocopa are thought to pollinate ...';物种表列 'Xylocopa frontalis',无 X. violacea。",
+          "fix": "可选:改为'木蜂属被认为能进行振动授粉'以贴合来源层级。"
+        }
+      ]
+    }
+  ]
+}

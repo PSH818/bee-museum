@@ -1,0 +1,99 @@
+{
+  "lens": "fact-check",
+  "round": 16,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "status": "ok",
+      "note": "抓取成功。关键原句:\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.\"(哺育蜂 days 3–12 小节);\"Queen attendants take care of the queen by feeding and grooming her.\"(days 7–11 小节);\"Nurse bees feed it royal jelly for three days, followed by pollen and honey for about two more days until the cell is capped by worker bees.\""
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "status": "ok",
+      "note": "抓取成功。关键原句:\"Workers and queen larvae are both fed royal jelly ... during the first three days. After that, larval prospective workers are switched to a diet of mixed pollen and nectar (often called 'bee bread')\";\"After about a week, the larva is sealed in its cell by the nurse bees and begins its pupal stage.\";\"For the first 10 days of their lives, worker bees clean the hive and feed the larvae.\" 未提及幼虫体重增长。"
+    },
+    {
+      "sourceId": "src-wikipedia-osmia-cornifrons",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "status": "ok",
+      "note": "抓取成功。关键原句:\"Populations of O. cornifrons have been recorded in multiple locations, including Japan, Korea, China, and Russia.\";\"In 1977, O. cornifrons was introduced in the northeastern United States in an attempt to increase pollination productivity of fruit crops.\";\"Males emerge from their nests around April, just prior to the blooming of apple orchards.\";\"Females arise from their nests 2–3 days later.\";\"Eggs are placed on top of the pollen ball.\";\"The wintering period is when bees are enclosed in cocoons\""
+    },
+    {
+      "sourceId": "src-wikipedia-mason-bee",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "status": "ok",
+      "note": "抓取成功。关键原句:\"When the bees emerge from their cocoons, the males exit first.\"(雄蜂留在巢附近等待雌蜂);\"When the females emerge, they mate with one or several males.\";\"Once a provision mass is complete, the bee backs into the hole and lays an egg on top of the mass.\";\"Within weeks of hatching, the larva has probably consumed all of its provisions and begins spinning a cocoon around itself.\";\"The adult matures either in the fall or winter, hibernating inside its insulatory cocoon.\";\"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist.\""
+    },
+    {
+      "sourceId": "src-exotic-bee-id",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "status": "ok",
+      "note": "抓取成功。关键原句:\"O. cornifrons is native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\";\"intentionally introduced to the eastern U.S. from Japan in the 1970s to increase crop pollination\";\"O. cornifrons have been recorded in flight in the U.S from March to June, with the majority of occurrences through April.\";\"commonly used commercially for the pollination of apple orchards\"。未提及雄蜂先出天数、卵与花粉团。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "幼虫在约 6 天的幼虫期里体重增长极快",
+          "problem": "低severity·未提及。两个来源均未给出幼虫体重增长的表述;\"约 6 天\"已用\"约\"限定,且与 Worker bee(3 天王浆 + 约 2 天花粉蜂蜜后封盖)及 Western honey bee(\"After about a week, the larva is sealed\")大致相符。\"体重增长极快\"属通用科普性描述,不改变裁决。",
+          "evidence": "Worker bee:\"Nurse bees feed it royal jelly for three days, followed by pollen and honey for about two more days until the cell is capped by worker bees.\";Western honey bee:\"After about a week, the larva is sealed in its cell by the nurse bees and begins its pupal stage.\"",
+          "fix": "可保留;若想完全落地到来源,可改为\"幼虫在约 6 天的幼虫期里被反复投喂,长得极快\",或补一条给出幼虫增重倍数的来源。"
+        },
+        {
+          "claim": "哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫(常称\"工蜂浆\",与蜂王浆来自同一类腺体);约出房后第 7–11 天也会给蜂王喂食、梳理体表;出房后第 3–12 天;工蜂幼虫三天后改吃花粉和花蜜调成的蜂粮",
+          "problem": "已核对,全部被支持(记录用)。",
+          "evidence": "Worker bee(Nurse bees, days 3–12 小节):\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.\";(Queen attendants, days 7–11 小节):\"Queen attendants take care of the queen by feeding and grooming her.\";Western honey bee:\"Workers and queen larvae are both fed royal jelly ... during the first three days. After that, larval prospective workers are switched to a diet of mixed pollen and nectar (often called 'bee bread')\"",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "雌蜂晚几天出来(不同资料从两三天到约一周)",
+          "problem": "低severity·部分未提及但已限定。Osmia cornifrons 词条明确给出 2–3 天;\"约一周\"在三个来源中均未出现,但已用\"不同资料\"限定,按已恰当限定处理。",
+          "evidence": "Osmia cornifrons:\"Females arise from their nests 2–3 days later.\";Mason bee:\"When the bees emerge from their cocoons, the males exit first.\"",
+          "fix": "可保留;若希望全部落地,可改为\"雌蜂晚 2–3 天出来\",或在来源列表中补入给出\"约一周\"的资料。"
+        },
+        {
+          "claim": "在原产地东亚(日本、朝鲜半岛、中国等)与引入地北美,出巢时间大致在 4 月",
+          "problem": "低severity·来源关于 4 月出巢的句子未区分产地与引入地(Osmia cornifrons 词条是泛述,idtools 的 3–6 月飞行记录仅限美国);\"大致\"已限定,产地列表与引入北美均被支持。",
+          "evidence": "Osmia cornifrons:\"Males emerge from their nests around April, just prior to the blooming of apple orchards.\";\"Populations of O. cornifrons have been recorded in multiple locations, including Japan, Korea, China, and Russia.\";\"In 1977, O. cornifrons was introduced in the northeastern United States\";Exotic Bee ID:\"native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\"",
+          "fix": "可保留;更稳妥的写法:\"出巢时间大致在 4 月(美国的记录如此,原产地大体相近)\"。"
+        },
+        {
+          "claim": "恰在苹果开花之前——这是它被用来给苹果园授粉的主要原因之一;美国的飞行记录从 3 月到 6 月都有,以 4 月最多;越冬的成蜂破茧而出;雄蜂先出在巢口附近徘徊;随即交配",
+          "problem": "已核对,全部被支持(记录用)。",
+          "evidence": "Osmia cornifrons:\"just prior to the blooming of apple orchards\";Exotic Bee ID:\"recorded in flight in the U.S from March to June, with the majority of occurrences through April.\";\"commonly used commercially for the pollination of apple orchards\";Mason bee:\"The adult matures either in the fall or winter, hibernating inside its insulatory cocoon.\";\"the males exit first\"(并在巢附近等待雌蜂);\"When the females emerge, they mate with one or several males.\"",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "spanText \"5 月\"(span 1–1.4 月)",
+          "problem": "低severity·来源未直接给出产卵月份;但由 4 月出巢、交配后随即筑巢供粮,以及美国 3–6 月的飞行记录推断,5 月产卵为合理定位,不构成矛盾。",
+          "evidence": "Osmia cornifrons:\"Males emerge from their nests around April\";Exotic Bee ID:\"recorded in flight in the U.S from March to June, with the majority of occurrences through April.\"",
+          "fix": "可改为\"4–5 月\"或\"5 月前后\"以体现时间弹性。"
+        },
+        {
+          "claim": "卵产在花粉团上;孵化后幼虫趴在这团食物上开吃;独居蜂幼虫没有哺育蜂照料;雌蜂留下的一团花粉和花蜜是它从孵化到结茧的全部食物",
+          "problem": "已核对,被支持。\"花蜜\"成分在本次抓取摘录的原句中仅以\"provision mass\"出现(Osmia cornifrons 词条称\"pollen ball\"),属壁蜂供粮的通用科普解释,不影响裁决。",
+          "evidence": "Osmia cornifrons:\"Eggs are placed on top of the pollen ball.\";Mason bee:\"Once a provision mass is complete, the bee backs into the hole and lays an egg on top of the mass.\";\"Within weeks of hatching, the larva has probably consumed all of its provisions and begins spinning a cocoon around itself.\";\"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist.\"",
+          "fix": "无需修改;若求措辞与来源一致,可写\"这一团以花粉为主、混有花蜜的蜂粮\"。"
+        }
+      ]
+    }
+  ]
+}

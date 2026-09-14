@@ -1,0 +1,19 @@
+{
+  "lens": "refutation",
+  "round": 21,
+  "reviewedAt": "2026-08-25T08:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "一个蜂群的工蜂大约每四个月就整体更替一遍。",
+          "problem": "该句照搬英文维基 Western honey bee 条目中一句无季节限定、近乎孤证的表述(\"all of a colony's workers are replaced about every four months\")。与同段前文自相矛盾:若夏季工蜂出房后只活 2–6 周,则活跃季工蜂群体约 6 周即完成一轮更替;而越冬蜂 4–6 个月(部分文献 6–8 个月)不更替。\"每四个月\"至多是全年粗略平均,读者会误以为是固定周期。检索养蜂推广资料(PSU Extension、MAAREC、Bee Health extension)均只给出季节性寿命与春秋两次\"世代更替\",未见\"四个月整体更替\"的独立支持。",
+          "evidence": "维基 Western honey bee:\"Except for the queen, all of a colony's workers are replaced about every four months.\"(https://en.wikipedia.org/wiki/Western_honey_bee);维基 Worker bee:夏季工蜂活 2–6 周,冬季可达 20 周(https://en.wikipedia.org/wiki/Worker_bee);Bee Health extension:活跃季工蜂 5–6 周,越冬蜂 4–6 个月(https://bee-health.extension.org/how-long-do-worker-honey-bees-live/);Scientific Beekeeping 越冬蜂 6–8 个月(https://scientificbeekeeping.com/understanding-colony-buildup-and-decline-part-9a/);MAAREC 季节周期只述春秋世代更替(https://canr.udel.edu/maarec/honey-bee-biology/seasonal-cycles-of-activities-in-colonies/)",
+          "fix": "改为与前文一致且有季节限定的表述,例如:\"因此在活跃季,蜂群中的工蜂大约每一个多月就几乎全部换成新一代;只有越冬蜂能把同一批个体维持数月。\"若坚持保留\"四个月\",须注明\"按全年粗略平均\"并交代该数字仅见于维基条目;或直接删去此句。"
+        }
+      ]
+    }
+  ]
+}

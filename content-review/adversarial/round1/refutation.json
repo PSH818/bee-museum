@@ -1,0 +1,680 @@
+{
+  "lens": "refutation",
+  "reviewedAt": "2026-08-25T01:46:48Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "一个成熟蜂群通常只有约 6000–7000 只工蜂",
+          "problem": "数字过窄且偏低。6000–7000 只是 Wikipedia 转引的单一数据,其他资料给出 6000–10000 只,中国饲养的中蜂强群可达一两万只;亚种与季节差异很大,写成'通常只有 6000–7000'以偏概全。",
+          "evidence": "Wikipedia《Apis cerana》: 'around 6,000 to 7,000 workers'(https://en.wikipedia.org/wiki/Apis_cerana);Bees for Development / HoneyBee & Co.: 'Typical managed colonies of Apis cerana contain 6,000 to 10,000 workers'(https://resources.beesfordevelopment.org/rc/apis-cerana-group/ , https://honeybeeandco.uk/eastern-honeybee/)。",
+          "fix": "改为'通常数千至一万余只,明显小于西方蜜蜂群体',并注明随亚种与季节变化。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "唯一职能是与新蜂王交配",
+          "problem": "绝对化。雄蜂的主要职能是交配,但有研究认为雄蜂在巢内参与子脾保温(thermoregulation),'唯一'说不住。",
+          "evidence": "Wikipedia《Western honey bee》: 'it is believed that drones may play a significant role in thermoregulation'(https://en.wikipedia.org/wiki/Western_honey_bee)。",
+          "fix": "改为'主要职能是与新蜂王交配'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "靠近头部,可以看到大颚、下颚须和可伸出的中唇舌。",
+          "problem": "蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》及通行蜜蜂形态学:honey bee maxillary palps are vestigial/minute; the labial palps are elongate and sheath the glossa。参考 https://bees.msu.edu/honey-bee-anatomy/",
+          "fix": "改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂的翅体比则更适合婚飞。",
+          "problem": "目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。",
+          "evidence": "Wikipedia《Western honey bee》与 Britannica 只描述雄蜂体大、复眼大,未给出翅体比或婚飞适应性的结论;相关翅形态差异研究(如 ResearchGate: Size and Shape Differences in Fore Wings of Honey Bee Queens, Workers and Drones)仅记录雄蜂前翅更大,不做功能推断。",
+          "fix": "改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "中舌相对较长,配合粗壮身体,能利用一些蜜蜂够不到的深冠筒花朵。",
+          "problem": "事实错误。欧洲熊蜂(Bombus terrestris)是典型的短舌熊蜂,舌长约 6–8 mm,恰恰够不到深冠筒花的花蜜,因而以'盗蜜'(在花冠基部咬孔)著称;长舌种是 B. hortorum 等。这里把长舌熊蜂的特征套到了本种上。",
+          "evidence": "bumblebee.org: 'Bombus terrestris and lucorum with their short tongues ... became thieves and nectar robbing'(https://www.bumblebee.org/terr.htm);Nectar robbing by the invasive bumblebee Bombus terrestris(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12553366/);The advantage of short tongues in bumble bees(https://www.cambridge.org/core/journals/canadian-entomologist/article/abs/advantage-of-short-tongues-in-bumble-bees-bombus-analyses-of-species-distributions-according-to-flower-corolla-depth-and-of-working-speeds-on-white-clover/A0C6D8DC302A7BCE6F621C0E7ADAEC3C)。",
+          "fix": "改为'欧洲熊蜂属短舌熊蜂,偏好开放或浅冠筒花;遇到深冠筒花时常在花冠基部咬孔盗蜜。真正能合法探入深花的是长舌熊蜂(如 Bombus hortorum)。'"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "熊蜂访花速度快、耐低温,单位时间授粉效率常高于蜜蜂。",
+          "problem": "泛化结论。熊蜂单花访问效率高于蜜蜂的证据集中在番茄、蓝莓、红三叶等特定作物;对多数作物并无普适结论,且 B. terrestris 采集偏好约 25 °C 的环境。",
+          "evidence": "Wikipedia《Bombus terrestris》: 'foragers prefer ambient temperatures of around 25 °C during nectar and pollen collection'(https://en.wikipedia.org/wiki/Bombus_terrestris);Wikipedia《Buzz pollination》仅就管状花药植物比较。",
+          "fix": "改为'在番茄、蓝莓等作物上,熊蜂的单花访问效率常高于蜜蜂;它也能在蜜蜂不出勤的凉爽阴天工作'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "是日本苹果园超过一半果园倚赖的授粉蜂",
+          "problem": "时态与量词偏差。来源说的是自 1940 年代起的约 50 年间'超过一半的日本苹果园曾使用过'该蜂,写成现在时的'倚赖'是把历史累计比例当成现状。",
+          "evidence": "Wikipedia《Osmia cornifrons》: over a 50-year period from the 1940s 'more than half of the apple orchards in Japan utilized this species'(https://en.wikipedia.org/wiki/Osmia_cornifrons)。",
+          "fix": "改为'20 世纪后半叶,日本超过一半的苹果园曾用它授粉'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "壁蜂通常在巢址附近几十米内往返采集",
+          "problem": "距离数字偏小且无来源。所引 Wikipedia 给出的是巢与作物田的距离通常在 130 m 以内、个别达 700 m;'几十米'低估了活动半径。",
+          "evidence": "Wikipedia《Osmia cornifrons》: 'create a nest within 130 meters of a crop field; ... some being situated 700 meters away'(https://en.wikipedia.org/wiki/Osmia_cornifrons)。",
+          "fix": "改为'通常在巢址一两百米范围内采集,是典型的短距离采集者'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "花粉筐(corbicula)只见于蜜蜂科少数几族,腹面集粉毛才是多数蜂类的携粉方式。",
+          "problem": "后半句事实错误。腹面(腹部腹面)集粉毛是切叶蜂科 Megachilidae 独有的特征;地蜂科、隧蜂科、分舌蜂科以及蜜蜂科中非花粉筐类群等绝大多数蜂类都把花粉携在后足(胫节/基跗节/股节)的集粉毛上。'多数蜂类用腹面集粉毛'与事实相反。",
+          "evidence": "Minnesota Native Bees: 'carry pollen only on the underside of the abdomen, never on the hind legs. This trait is unique to the family Megachilidae; nest-building bees in the remaining five families ... carry pollen on their hind legs'(https://www.beesmn.org/megachilidae);Wikipedia《Scopa (biology)》(https://en.wikipedia.org/wiki/Scopa_(biology))。",
+          "fix": "改为'花粉筐只见于蜜蜂科的少数几族(蜜蜂、熊蜂、无刺蜂、兰花蜂);多数其他蜂类用后足的集粉毛携粉,而把花粉带在腹面则是切叶蜂科的独门方式'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "紫木蜂是欧亚大陆最大的蜂类之一",
+          "problem": "范围扩大。来源只说它是'欧洲最大的蜂类之一';亚洲有体长 4 cm 级的华莱士巨蜂(Megachile pluto)及更大的热带木蜂,'欧亚最大之一'难以成立。",
+          "evidence": "Wikipedia《Xylocopa violacea》: 'one of the largest bees in Europe'(https://en.wikipedia.org/wiki/Xylocopa_violacea)。",
+          "fix": "改为'欧洲最大的蜂类之一'。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "光滑坚硬的甲壳呈黑色并带蓝紫金属光泽——这种结构色来自甲壳表面的微结构,而非色素。",
+          "problem": "无来源的机理断言。X. violacea 的标志性蓝紫虹彩主要在翅膜(薄膜干涉),身体基本是黑色、仅有微弱光泽;所引 Wikipedia 页面完全没有讨论体表颜色成因。把'结构色/非色素'写成定论超出证据。",
+          "evidence": "Wikipedia《Xylocopa violacea》对体色成因无任何描述(https://en.wikipedia.org/wiki/Xylocopa_violacea);多处科普来源描述为 'robust jet-black body' 与 'metallic violet-blue wings'(https://www.buzzaboutbees.net/violet-carpenter-bee.html)。",
+          "fix": "把结构色的表述限定在翅膜,身体改为'黑色,带微弱金属光泽';若保留结构色说法,加'一般认为'并补引昆虫结构色文献。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-antenna",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-thorax",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-forewing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "腹部……容纳蜜胃、消化道、蜡腺与螫针等结构(castes: worker/queen/drone)",
+          "problem": "该条目挂在三种职型下,但蜡腺仅工蜂具有功能性发育,螫针雄蜂完全没有;在雄蜂视图里讲'腹部含蜡腺与螫针'是张冠李戴。",
+          "evidence": "Britannica《Honeybee》与 Wikipedia《Worker bee》: wax glands are on worker abdominal sternites; drones lack a sting(https://en.wikipedia.org/wiki/Worker_bee)。",
+          "fix": "改为'腹部容纳蜜胃与消化道;工蜂腹面另有蜡腺,雌性末端有螫针(雄蜂无)',或按职型分别显示。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "functionNote: 保温、拟态警示与携粉",
+          "problem": "术语混用。黑黄白分带是警戒色(aposematism),'拟态'(mimicry)指模仿他种;熊蜂之间的相似属缪勒拟态,但 functionNote 里'拟态警示'四字把两个概念糊在一起。",
+          "evidence": "Wikipedia《Bombus terrestris》/Britannica《Bumblebee》使用 aposematic coloration 描述;缪勒拟态需另行说明。",
+          "fix": "改为'保温、警戒色与携粉',如需提拟态则写'与其他熊蜂形成缪勒拟态环'。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "光滑坚硬的甲壳呈黑色并带蓝紫金属光泽——这种结构色来自甲壳表面的微结构,而非色素。",
+          "problem": "无来源的机理断言。X. violacea 的标志性蓝紫虹彩主要在翅膜(薄膜干涉),身体基本是黑色、仅有微弱光泽;所引 Wikipedia 页面完全没有讨论体表颜色成因。把'结构色/非色素'写成定论超出证据。",
+          "evidence": "Wikipedia《Xylocopa violacea》对体色成因无任何描述(https://en.wikipedia.org/wiki/Xylocopa_violacea);多处科普来源描述为 'robust jet-black body' 与 'metallic violet-blue wings'(https://www.buzzaboutbees.net/violet-carpenter-bee.html)。",
+          "fix": "把结构色的表述限定在翅膜,身体改为'黑色,带微弱金属光泽';若保留结构色说法,加'一般认为'并补引昆虫结构色文献。"
+        },
+        {
+          "claim": "functionNote: 可能兼具体温调节意义",
+          "problem": "推测无出处。所引来源没有讨论金属光泽的热学功能。",
+          "evidence": "Wikipedia《Xylocopa violacea》无相关内容(https://en.wikipedia.org/wiki/Xylocopa_violacea)。",
+          "fix": "删去,或改为'功能尚不清楚'。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-body-length",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "worker: 约 12–15 mm",
+          "problem": "下限偏高。多数权威资料给工蜂体长 10–15 mm(Britannica 给约 12 mm 的典型值),12–15 mm 把范围收窄了。",
+          "evidence": "Animal Diversity Web《Apis mellifera》: 'workers ... 10-15 mm long; queens 18-20 mm; drones 15-17 mm'(https://animaldiversity.org/accounts/Apis_mellifera/)。",
+          "fix": "改为'约 10–15 mm'(蜂王 18–20、雄蜂 15–17 可保留)。"
+        }
+      ]
+    },
+    {
+      "key": "compare:row-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-sting",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "queen: 有,无倒钩",
+          "problem": "过度简化。蜂王螫针并非无倒钩,而是倒钩更小、更少,因此可以拔出重复使用;'无倒钩'是熊蜂螫针的特征,套到蜂王身上不准确。",
+          "evidence": "Honey Bee Suite: queen 'stinger has smaller, smoother barbs' allowing repeated stinging(https://www.honeybeesuite.com/nine-facts-about-bee-stingers/);Wikipedia《Western honey bee》: worker stingers are barbed 'unlike those of ... queen stingers'(仅说不同,未说无)。",
+          "fix": "改为'有,倒钩细小,可重复螫刺'。"
+        }
+      ]
+    },
+    {
+      "key": "compare:row-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-role",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "queen: 有,无倒钩",
+          "problem": "过度简化。蜂王螫针并非无倒钩,而是倒钩更小、更少,因此可以拔出重复使用;'无倒钩'是熊蜂螫针的特征,套到蜂王身上不准确。",
+          "evidence": "Honey Bee Suite: queen 'stinger has smaller, smoother barbs' allowing repeated stinging(https://www.honeybeesuite.com/nine-facts-about-bee-stingers/);Wikipedia《Western honey bee》: worker stingers are barbed 'unlike those of ... queen stingers'(仅说不同,未说无)。",
+          "fix": "改为'有,倒钩细小,可重复螫刺'。"
+        }
+      ]
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "一个成熟蜂群通常只有约 6000–7000 只工蜂",
+          "problem": "数字过窄且偏低。6000–7000 只是 Wikipedia 转引的单一数据,其他资料给出 6000–10000 只,中国饲养的中蜂强群可达一两万只;亚种与季节差异很大,写成'通常只有 6000–7000'以偏概全。",
+          "evidence": "Wikipedia《Apis cerana》: 'around 6,000 to 7,000 workers'(https://en.wikipedia.org/wiki/Apis_cerana);Bees for Development / HoneyBee & Co.: 'Typical managed colonies of Apis cerana contain 6,000 to 10,000 workers'(https://resources.beesfordevelopment.org/rc/apis-cerana-group/ , https://honeybeeandco.uk/eastern-honeybee/)。",
+          "fix": "改为'通常数千至一万余只,明显小于西方蜜蜂群体',并注明随亚种与季节变化。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-mellifera",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "worker: 约 12–15 mm",
+          "problem": "下限偏高。多数权威资料给工蜂体长 10–15 mm(Britannica 给约 12 mm 的典型值),12–15 mm 把范围收窄了。",
+          "evidence": "Animal Diversity Web《Apis mellifera》: 'workers ... 10-15 mm long; queens 18-20 mm; drones 15-17 mm'(https://animaldiversity.org/accounts/Apis_mellifera/)。",
+          "fix": "改为'约 10–15 mm'(蜂王 18–20、雄蜂 15–17 可保留)。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm: 11–13",
+          "problem": "数字与权威鉴定资料不符。USDA/APHIS Exotic Bee ID 给出雌蜂 8–12 mm、雄蜂 8–10 mm;11–13 mm 超出了雌蜂上限,且无来源(所引 Wikipedia 页面根本没有体长数据)。",
+          "evidence": "Exotic Bee ID《Osmia cornifrons》: 'Female body length ranges from 8–12 mm ... male body length ranges from 8–10 mm'(https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062);Wikipedia《Osmia cornifrons》未给体长。",
+          "fix": "改为 min 8 / max 12(雌蜂),并把来源换成 Exotic Bee ID。"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "紫木蜂是欧亚大陆最大的蜂类之一",
+          "problem": "范围扩大。来源只说它是'欧洲最大的蜂类之一';亚洲有体长 4 cm 级的华莱士巨蜂(Megachile pluto)及更大的热带木蜂,'欧亚最大之一'难以成立。",
+          "evidence": "Wikipedia《Xylocopa violacea》: 'one of the largest bees in Europe'(https://en.wikipedia.org/wiki/Xylocopa_violacea)。",
+          "fix": "改为'欧洲最大的蜂类之一'。"
+        },
+        {
+          "claim": "workerBodyLengthMm: 20–23",
+          "problem": "上限偏低且无来源。所引 Wikipedia 页面无体长数据;其他资料给 20–28 mm、'可达 3 cm'或 20–22 mm,各来源不一致。",
+          "evidence": "Wikipedia《Xylocopa violacea》无体长(https://en.wikipedia.org/wiki/Xylocopa_violacea);biocommunication.org 'A shiny giant' 与 pollinatorflowers.com 给 20–28 mm(https://biocommunication.org/en/insects360/amazing-pollinators/a-shiny-giant-the-violet-carpenter-bee/)。",
+          "fix": "改为约 20–28 mm,并补一个给出体长的来源。"
+        }
+      ]
+    }
+  ]
+}

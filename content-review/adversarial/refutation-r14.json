@@ -1,0 +1,139 @@
+{
+  "lens": "refutation",
+  "round": 14,
+  "reviewedAt": "2026-08-25T08:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "cycle:cycle-apis-mellifera-worker",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-egg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-larva",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "飞行可达约 3 公里",
+          "problem": "“可达”把 3 公里说成了上限。3 公里只是常见的“一般活动范围”,并非飞行极限:Beekman & Ratnieks (2000) 用舞蹈解码得到 8 月采集均值 5.5 km、95% 活动圈半径 6 km、个别超过 10 km;多种资料给出“通常 3 公里内,可飞至 5–12 公里”。所引 Wikipedia Worker bee 的“up to 3 km”本身即是被简化的说法。",
+          "evidence": "Beekman & Ratnieks 2000, Functional Ecology “Long-range foraging by the honey-bee” https://besjournals.onlinelibrary.wiley.com/doi/10.1046/j.1365-2435.2000.00443.x ;综合数据(通常 3 km 内、可达 12 km)https://www.buzzaboutbees.net/foraging-range-of-bees.html ;Wikipedia Worker bee “travel up to 3 kilometres” https://en.wikipedia.org/wiki/Worker_bee",
+          "fix": "改为“通常在巢周围约 3 公里内采集,蜜源稀少时可飞得更远(有记录超过 10 公里)”。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-queen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-drone",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-winter",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "cycle:cycle-osmia-cornifrons",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雌蜂晚两三天出来",
+          "problem": "“两三天”只见于 Wikipedia 词条,未见原始依据;其他资料给出的雌雄出巢间隔更宽:SARE 管理手册仅说“雄蜂总先出,雌蜂首只出巢前通常已有至少 50% 雄蜂出巢”;Matsumoto 等在日本苹果园的观察中,雄蜂与雌蜂分别比富士苹果开花早约两周与一周出现,即种群水平相差约一周。数字过于确定。",
+          "evidence": "Wikipedia Osmia cornifrons “Females arise from their nests 2–3 days later” https://en.wikipedia.org/wiki/Osmia_cornifrons ;SARE Managing Alternative Pollinators, Mason bee lifecycle https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ;Matsumoto et al. 2010, Psyche “Several New Aspects of the Foraging Behavior of Osmia cornifrons in an Apple Orchard” https://www.hindawi.com/journals/psyche/2010/384371/",
+          "fix": "改为“雌蜂晚几天(据不同记载约 2 天到一周)出来,随即交配”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-nest",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-larva",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "condition:据报道,约 12–18 °C 时能正常发育;极端低温会致死。",
+          "problem": "该区间出自 Wikipedia 一句“Adequate development occurs between 12 °C and 18 °C”,与原始文献相悖:恒温实验中卵与幼虫的发育下限约 12.7 °C(即 12 °C 根本不发育),13 °C 下卵可孵化但幼虫全部不能存活,幼虫仅在 21、29 °C 存活;另一研究给出发育下限约 9.8 °C、最适约 26 °C、上限约 30 °C,15–27 °C 间温度越高发育越快,25 °C 恒温可完成从卵到成虫的全程。把 12–18 °C 说成“正常发育”温度,既在低端为假,又会让读者误以为壁蜂夏季发育需要凉爽环境;“据报道”的限定不能弥补与实测数据的直接冲突。",
+          "evidence": "McKinney & Park 2017, J. Apicultural Research “Thermal biology of Osmia cornifrons eggs and larvae”(5/13/21/29/37/45 °C;下限 12.73 °C;幼虫仅 21、29 °C 存活)https://www.tandfonline.com/doi/full/10.1080/00218839.2017.1327935 与 https://www.researchgate.net/publication/318072715 ;Development and mating behavior of Osmia cornifrons in the constant temperature(25 °C 全程 123.5/124.1 天)https://www.sciencedirect.com/science/article/abs/pii/S1226861516300346 ;Wikipedia 原句 https://en.wikipedia.org/wiki/Osmia_cornifrons",
+          "fix": "改为“实验室中约 15–27 °C 均可完成发育,温度越高越快(25 °C 恒温下从卵到成虫约 4 个月);低于约 10–13 °C 卵和幼虫无法正常发育,30 °C 以上蛹难以存活”。"
+        },
+        {
+          "claim": "夏天里,蛹在茧内逐渐变成成虫的模样(阶段 6–9 月)",
+          "problem": "非否决性提示:多种资料指出壁蜂结茧后先以预蛹在夏季大部分时间休眠,化蛹发生在夏末,成虫在秋前羽化;summary 把整个夏天描述为“蛹在逐渐变成成虫”略去了预蛹休眠期。detail 已用“据记载…秋季或冬季之前”限定,时间区间本身站得住。",
+          "evidence": "SARE Mason bee lifecycle “the bee will remain in this dormant prepupal stage throughout much of the summer” https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ;Wikipedia Mason bee “The adult matures either in the fall or winter” https://en.wikipedia.org/wiki/Mason_bee",
+          "fix": "summary 可改为“吃完口粮的幼虫吐丝作茧,先在茧里以预蛹休眠一段时间,夏末化蛹,并在入秋前后变成成虫的模样”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-overwinter",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-next-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "lens": "refutation",
+  "round": 23,
+  "reviewedAt": "2026-08-31T07:19:07.000Z",
+  "verdicts": [
+    {
+      "key": "region:region-china-east",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "region:region-central-europe",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "大部分地区属暖夏型湿润大陆性气候",
+          "problem": "对首列的德国不成立:按 Köppen 常用口径(0°C 等温线),德国大部属海洋性温带气候(Cfb),仅东部/东南部渐趋大陆性;'暖夏型湿润大陆性(Dfb)为主'更适用于波兰与捷克东部。卡片把德奥波捷打包后说'大部分地区属 Dfb',以德国为首例读者会被误导。",
+          "fix": "改为'西部(德国大部)受大西洋影响属海洋性温带气候,向东(波兰、捷克等)渐变为暖夏型湿润大陆性气候',或删去'大部分地区属……'一句只保留'离海越远大陆性越强'。",
+          "evidence": "Wikipedia Geography of Germany(转述):德国大部为温带气候,北部和西部为海洋性,向东、东南渐趋大陆性,https://en.wikipedia.org/wiki/Geography_of_Germany;Wikipedia Oceanic climate 将德国大部划入 Cfb,https://en.wikipedia.org/wiki/Oceanic_climate"
+        }
+      ]
+    },
+    {
+      "key": "region:region-north-america-east",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花蜜藏在花的基部,没有深花冠管,几乎所有蜂都够得着",
+          "problem": "非否决性提示:'几乎所有蜂'虽有'几乎'兜底,仍属概括;未找到权威反例(油菜蜜腺确实浅置、短舌蜂和食蚜蝇均可利用,Zou 2017 在中国油菜田记录到 60 种传粉昆虫),故不否决。",
+          "fix": "可选:改为'短舌的蜂也够得着'。不改亦可。",
+          "evidence": "Zou et al. 2017(中国油菜田记录 60 种传粉者、包括大量短舌野生蜂),https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "有蜂类传粉时结实率与产量会明显提高(引 Zou 2017)",
+          "problem": "非否决性提示:数字方向与来源一致(排除传粉者后结实率降 38%、单株产量降 12%),但该研究强调增益主要来自野生蜂,蜜蜂丰度与产量无显著关联;'蜂类'一词涵盖野生蜂,故表述站得住,不否决。",
+          "fix": "可选:在 fact 中补'其中野生蜂贡献最大'。",
+          "evidence": "Zou et al. 2017:'Oilseed rape plants from which insect pollinators were excluded had on average 38% lower seed set, 17% lower fruit set and 12% lower yield per plant';蜜蜂丰度与产量参数无显著关联,https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "sourceIds 含 src-dewiki-sonnenblume(德文维基'向日葵')",
+          "problem": "非否决性提示:油菜花序条目挂了向日葵的德文维基来源,属张冠李戴的引用;正文内容本身由 rapeseed/FRPS/honigmacher 支持,故不否决内容。",
+          "fix": "从该条 sourceIds 中删去 src-dewiki-sonnenblume。",
+          "evidence": "content-dump-r23.json 中该条 sourceIds 第四项为 src-dewiki-sonnenblume,对应 https://de.wikipedia.org/wiki/Sonnenblume,与油菜无关"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "18 世纪末从欧洲引入青岛",
+          "problem": "该句照抄《中国植物志》('我国于18世纪末从欧洲引入青岛栽培'),但与史实矛盾:青岛 1891 年才设置、1898 年德国强租后才由德方在青岛一带大规模引种刺槐;更早的引入记录是 1877-1878 年随出使日本副使张斯桂植于南京。'18世纪末'(1790 年代)当为'19世纪末'之误,原始来源即有此笔误。",
+          "fix": "改为'19 世纪末引入中国(一说 1877-78 年先至南京,1898 年德占后在青岛大规模栽植)',或笼统写'19 世纪末引入中国'并对 FRPS 该句加存疑标注。",
+          "evidence": "FRPS 原句'我国于18世纪末从欧洲引入青岛栽培',https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia;大众新闻《刺槐传入中国——外国人笔下的青岛系列》:1877-1878 年随张斯桂至南京、《黄岛村落》载 1898 年德军占领青岛后令南屯村引种刺槐,https://m.dzplus.dzng.com/share/general/0/NEWS1595894WOLZKULRMUNHP;网易(刺槐入侵史,1898 德占后引种),https://www.163.com/dy/article/FVHMITG00542IRLL.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "花蜜含糖在中午前后最高",
+          "problem": "把'泌蜜量/泌蜜活动在中午前后达峰'误写成'含糖(浓度)在中午前后最高'。Raja 2025 原句说的是 nectar secretion(泌蜜)峰值在 12:00-14:00;PMC 向日葵综述只说时间会影响花蜜量与糖浓度,并未给出'中午浓度最高'的结论。",
+          "fix": "改为'泌蜜在中午前后最旺'或'中午前后蜂访最集中'。",
+          "evidence": "Raja et al. 2025:'nectar secretion peaks between 12.00 and 2.00 PM coinciding with maximum bee foraging activity',https://indianentomology.org/index.php/ije/article/download/3523/1957;PMC 向日葵营养综述仅称时间等因素'can impact nectar volume and/or sugar concentration',无正午浓度峰值结论,https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "花蜜含糖在中午前后达到峰值(约 35%)",
+          "problem": "'约 35%'在两个所引来源中都找不到:Raja 2025 只说泌蜜峰值在 12:00-14:00,通篇的 35% 是'加蜂网罩比无虫处理增产 35%'(Kasina 2007、Du Toit 1990 的增产数),不是含糖浓度;PMC 综述给出的是糖分中葡萄糖/果糖的占比(46-54%),也不是总含糖 35%。数字疑为转述走样。",
+          "fix": "删去'(约 35%)',改为'泌蜜在中午前后最旺';若要给浓度需另找直接测定花蜜含糖的来源。",
+          "evidence": "Raja et al. 2025:'nectar secretion peaks between 12.00 and 2.00 PM';同文 35% 出处为'plants netted with insect pollinators produced 35% more seeds'(Kasina et al. 2007)与 Du Toit 1990 'improved seed set of 35%',https://indianentomology.org/index.php/ije/article/download/3523/1957;PMC 综述:葡萄糖 46.0-50.1%、果糖 49.9-54.0% 为糖组成占比,https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/"
+        },
+        {
+          "claim": "有蜂传粉时结实率仍能从一两成提高到九成左右(印度研究)",
+          "problem": "所引印度研究(Raja 2025)没有这一数字:其结果是罩网加意蜂群比开放授粉增产 33.82%、加中蜂群增产 20.23%(种子克重),百粒重 4.69→5.50 g;通篇未出现'结实率 10-20% 提高到 90%'。该句数字无出处,疑为编造或与他文混淆。",
+          "fix": "改为'印度的罩网试验显示,加蜂群授粉比开放授粉增产两到三成',或删去具体数字。",
+          "evidence": "Raja et al. 2025 Table 3:'The yield increase over open pollination was 33.82% in A. mellifera pollination and 20.23% in A. cerana indica pollination',https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "这让熊蜂、壁蜂这些会振动授粉的蜂在蓝莓园里特别重要",
+          "problem": "把壁蜂列为'会振动授粉的蜂'缺乏依据:声振采粉(sonication)在壁蜂所属的切叶蜂科长期几无记录,2014 年 Osmia brevis 声振钓钟柳才被作为'该科新记录的行为'报道;蓝莓上常用的角额壁蜂(O. cornifrons)等靠频繁接触花药柱头传粉,评估报告并未描述其振动授粉。壁蜂对蓝莓重要是真的,但归因'会振动授粉'很可能不对。",
+          "fix": "改为'熊蜂这类会振动授粉的蜂,以及每次访花都接触花药柱头的壁蜂,在蓝莓园里特别重要',避免把壁蜂归入振动授粉者。",
+          "evidence": "Apidologie 2014 标题即称壁蜂声振为'a newly documented behavior for the Megachilidae',https://link.springer.com/article/10.1007/s13592-014-0286-1;SARE 角额壁蜂蓝莓评估仅记录'每次访花都接触花药与柱头',未提振动授粉,https://projects.sare.org/project-reports/one05-049/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "高丛蓝莓是四倍体植物,普遍认为需要异花授粉才能结出又大又多的果",
+          "problem": "'需要异花授粉'与本轮引用的密歇根州立大学资料直接相左:MSU 明确说北高丛的多数主栽品种用自己的花粉即可良好授粉(可成片单植),只有部分品种从异花授粉中获益明显。'四倍体'没问题,错在把'异花授粉有益'夸大成'需要异花授粉'。",
+          "fix": "改为'多数北高丛品种自花可孕,但异花授粉常能提高坐果、果个并提早成熟'。",
+          "evidence": "MSU 蓝莓授粉资料:'Most common cultivars of northern highbush can be well pollinated by their own pollen and are planted in large blocks. Others benefit greatly from cross-pollination and should be interplanted.',https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "有的木蜂和蜜蜂会在花筒侧面咬个孔直接取蜜",
+          "problem": "蜜蜂不会自己咬孔:MSU 资料写明是木蜂在蓝莓花侧咬缝,蜜蜂随后利用现成的缝取蜜(二次盗蜜);蜜蜂口器咬不开花冠。把'咬孔'同时安到蜜蜂头上与来源相左。",
+          "fix": "改为'有的木蜂会在花筒侧面咬个缝直接取蜜,蜜蜂随后也从这些现成的缝里取蜜'。",
+          "evidence": "MSU 蓝莓授粉资料:'Carpenter bees often cut a slit in the side of blueberry flowers in order to access the nectar, allowing honey bees to do the same in later visits.',https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+        },
+        {
+          "claim": "它们拿走了花蜜,却不一定帮花传粉",
+          "problem": "非否决性提示:'不一定'有兜底,但同一 MSU 来源强调盗蜜蜂仍会转移部分花粉、总体可为授粉加分,只有当蜜蜂盗蜜比例接近其访花的一半时坐果才受损;现表述偏负面。因有'不一定'缓冲,不单独否决。",
+          "fix": "可选:补一句'盗蜜的蜂也会带走一些花粉,少量盗蜜并不减产'。",
+          "evidence": "MSU:'Nectar robbing bees still transfer some pollen between flowers... can contribute to rather than take away from total pollination; however, when nectar robbing by honey bees begins to approach half of all honey bee visits, blueberry seed and fruit set are reduced.',https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "corollaDepthMm 7-12(花冠深度 7-12 毫米)",
+          "problem": "与本卡自己的 nectar 文案('花蜜在雄蕊管基部,舌短的蜂也够得着')自相矛盾:蜜蜂工蜂吻长约 6 毫米上下,若取蜜深度真是 7-12 毫米,短舌蜂就够不着。7-12 毫米实为 FRPS 的小花全长(花长 7-12 毫米),不是到蜜的有效深度;白车轴草花萼仅 3 毫米左右、蜜蜂可正常取蜜是各来源公认的(这正是它与红车轴草的区别)。字段口径把'花长'当成了'花冠深'。",
+          "fix": "corollaDepthMm 改用到蜜的有效深度(约 2-4 毫米量级,需据来源核定)或删除该字段,把 7-12 毫米明确标注为'小花全长'。",
+          "evidence": "BSBI 白车轴草种账与英文维基均称其为蜜蜂重要蜜源、蜜蜂常规采集(https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l;https://en.wikipedia.org/wiki/Trifolium_repens);对照红车轴草花冠管约 9-10 毫米、蜜蜂难以正常取蜜的通行记载,若白车轴草蜜深 7-12 毫米则不可能是'舌短的蜂也够得着'的主要蜜源"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "bloom.region-china-east 6-7 月(中国东部花期 6-7 月)",
+          "problem": "支撑这一花期的唯一中国来源是新疆伊犁州气象局的花期预报,而伊犁在中国西北,不属于'中国东部温带'切片;本卡 stamen 条目自己也承认'中国的主产区在新疆伊犁,并不在东部'。给中国东部标 6-7 月花期没有东部依据,狭叶薰衣草在东部湿热区栽培表现差,这一格会误导。",
+          "fix": "删去 region-china-east 的 bloom 数据(或改为在'中国(伊犁)'的备注性说明,不进入中国东部地区卡)。",
+          "evidence": "伊犁州气象局薰衣草花期预报(地点为新疆伊犁),https://xj.weather.com.cn/xjsy/tqyw/3624924.shtml;本子集内 flower-entry:flower-lavandula-angustifolia/stamen 的 fact 原文'中国的主产区在新疆伊犁,并不在东部'"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "英国的研究发现,熊蜂在一朵薰衣草上只停 1.1-1.4 秒,蜜蜂要 3.5 秒(置于 Lavandula angustifolia 卡片下)",
+          "problem": "物种张冠李戴:Sussex/Balfour 研究用的薰衣草是杂交薰衣草(lavandin,Lavandula × intermedia 'Grosso'),论文标题也只写 Lavandula spp.,并非本卡的狭叶薰衣草 L. angustifolia;'Grosso'花冠管更长,处理时间数字不能直接安在狭叶薰衣草(花冠 8-10 毫米)头上。",
+          "fix": "把 fact 改为'在杂交薰衣草(Grosso)上的英国研究发现……',或移到不指定种的'薰衣草属'语境;并与前句 8-10 毫米的花冠数据脱钩。",
+          "evidence": "Sussex 大学新闻稿图注为 lavender 'Grosso',文中数字'1.1-1.4 seconds per lavender flower'(熊蜂)、'3.5 seconds per flower'(蜜蜂),https://archive.sussex.ac.uk/broadcast/read/19067;Balfour, Garbuzov & Ratnieks 2013 标题'...forage on lavender (Lavandula spp.)?',https://doi.org/10.1111/een.12019"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "隔绝传粉者的花结实率为零,对照约 86%;观察到的访花者几乎都是蜂类",
+          "problem": "非否决性提示:数字核对无误(0%,N=683;对照 85.9%,N=64),但对照仅 1 个花序 64 朵花、作者自称初步研究;且种植园样点除蜂外还记录到 6 种蝶蛾、蜂虻与甲虫(活动指数合计约 0.56,远低于蜂的 12.3),'几乎都是蜂类'成立但非'只有蜂'。不否决。",
+          "fix": "可选:'对照约 86%'后加'(初步试验,对照仅一个花序)'。",
+          "evidence": "Valchev/Kozuharova et al. 2022:'the fruit-set of all flowers from which pollinators were excluded (N = 683) was 0% while that of the control (N = 64) was 85.9%';Table 2 记录 Lepidoptera/Diptera/Coleoptera 少量访花,https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "据研究,薰衣草精油的产量也和授粉有关:没有授粉的花会提前脱落",
+          "problem": "'据研究'言过其实:所引 Kozuharova 2022 中,'油量与授粉相关、未授粉的花脱落'一句注明出自精油生产商的 personal communication(生产者经验),并非研究结论;该文实证部分只证明了无自发自花授粉。经证实的是'花期末端油量最高、油质与花发育阶段有关'(Détár 2021)。",
+          "fix": "改为'据薰衣草油生产者的经验,未授粉的花会提前脱落,油量与授粉有关(尚待研究证实)',或删去'据研究'。",
+          "evidence": "Valchev/Kozuharova et al. 2022:'the oil quantity correlates with the pollination as unpollinated flowers drop down (Pavlovi Food Industries Ltd. and S. Stanev, personal communication)',https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "给苜蓿留种,靠的是切叶蜂",
+          "problem": "非否决性提示:北美苜蓿制种除苜蓿切叶蜂外还大量使用碱蜂(Nomia melanderi),加州等地也用高密度蜜蜂群制种;'靠的是切叶蜂'略绝对。因切叶蜂确为最主要的管理传粉者,不否决。",
+          "fix": "可选:改为'主要靠切叶蜂(部分产区也用碱蜂)'。",
+          "evidence": "McGregor 1976 苜蓿章(碱蜂与切叶蜂并列为苜蓿制种管理传粉者;蜜蜂采粉个体亦弹花),https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "田里没被弹开的花几乎不结籽,自己弹开的不到 1%",
+          "problem": "对 McGregor 原句的错误转写:原文是'自行弹开的花中能结籽的不到 1%,未弹开的花大多也不结籽'(less than 1 percent of the self-tripped flowers produce seed),'不到 1%'说的是自弹花的结籽率,不是'自行弹开的花占比不到 1%'。自动弹花率并非恒低于 1%——文献记载高温强风等条件下可明显升高,原文亦述及日晒、强风致弹。前半句('没被弹开的花几乎不结籽')正确。",
+          "fix": "改为'没被弹开的花几乎不结籽;即使自行弹开(无蜂经手),能结籽的也不到 1%——苜蓿留种必须有传粉者'。",
+          "evidence": "McGregor 1976 苜蓿章:'less than 1 percent of the self-tripped flowers produce seed, and most nontripped flowers fail to do so';另载烈日聚焦、强风可致部分花在暖时段自弹,https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "西方蜜蜂会从花的侧面吸蜜……几乎不带走花粉、不传粉",
+          "problem": "非否决性提示:此说适用于采蜜工蜂;McGregor 指出采粉的蜜蜂个体会正常弹花传粉,且新手蜜蜂在'学会'侧吸前会弹开 7-85% 的花(Tucker 1956),故加州等地高密度蜜蜂群仍被用于苜蓿制种。'几乎'有兜底,不否决。",
+          "fix": "可选:补'(采花粉的蜜蜂个体仍会弹花)'。",
+          "evidence": "McGregor 1976:'Honey bees collecting pollen from alfalfa were differentiated from nectar-collecting bees, which frequently take nectar from the flower without tripping it';'Tucker (1956) showed that bees learn to avoid tripping flowers but trip 7 to 85 percent of them during the learning process',https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国 6-7 月(对应本花卡中欧 bloom 6-7 月)",
+          "problem": "非否决性提示:中欧花期数据实际取自英国资料(PFAF),英国不属中欧;正文明写'英国',尚算诚实,但花卡 bloom.region-central-europe 6-7 由此外推。不否决,建议换源。",
+          "fix": "可选:为中欧另找德奥波捷本地花期来源。",
+          "evidence": "PFAF Medicago sativa(英国口径花期),https://pfaf.org/user/Plant.aspx?LatinName=Medicago+sativa"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "传粉者能提高油菜产量(用于支撑 relation=pollination)",
+          "problem": "非否决性提示:Zou 2017 确记录到 A. cerana 访花,但其产量增益归因于野生蜂,蜜蜂丰度与产量无显著关联;好在 Liu 2017 以中蜂促成油菜基因流,直接证明其携粉传粉,relation=pollination 仍站得住。不否决。",
+          "fix": "可选:note 中补'产量增益主要归因野生蜂;中蜂传粉证据来自基因流研究'。",
+          "evidence": "Zou et al. 2017(蜜蜂丰度与产量参数无显著关联),https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/;Liu et al. 2017(中蜂采集行为与油菜基因流),https://www.cambridge.org/core/journals/journal-of-agricultural-science/article/abs/effects-of-chinese-honeybee-foraging-on-oilseed-rape-gene-flow-and-honey-ingredients/8036AF6224BB902330AFC1D3DDDBA31B"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者",
+          "problem": "非否决性提示:与 Harris 2024 相符(二者合计 90%),但按原文蜜蜂占 71%、熊蜂仅 19%,且熊蜂记录为 Bombus sp.(属级),并未鉴定到欧洲熊蜂 B. terrestris;本条 beeId 指到 terrestris,靠 Westphal 2009(德国、明确为 B. terrestris)兜底成立。不否决。",
+          "fix": "可选:note 注明 Harris 记录为属级 Bombus sp.。",
+          "evidence": "Harris et al. 2024:'Honeybees and bumblebees dominated, comprising 90% of observed insects (Apis mellifera 71%, Bombus sp. 19%)',https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "向日葵单花蜜产于法国、意大利、西班牙等地(邻近地区资料)",
+          "problem": "非否决性提示:法意西均非中欧,但奥地利、匈牙利等中欧-潘诺尼亚产区同样出产向日葵蜜(德文维基向日葵条目载其为重要蜜源作物),关系本身在中欧成立。不否决。",
+          "fix": "可选:note 补奥地利/匈牙利等中欧产区例证。",
+          "evidence": "de.wikipedia Sonnenblume(向日葵为蜜源作物、中欧种植区),https://de.wikipedia.org/wiki/Sonnenblume"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "综述性表述:向日葵对各类蜂都是良好的蜜粉源;非中国的专门记载",
+          "problem": "非否决性提示:relation=pollen 的资源属性是普适生物学事实(向日葵花粉可采、蜜蜂普遍采集),note 已如实声明无中国专门记载;未找到与'中国东部夏季蜜蜂采向日葵花粉'相左的资料。不否决,但这是靠常识外推而非在地证据。",
+          "fix": "可选:evidence 降为 editorial,或补中国蜜源植物志类来源。",
+          "evidence": "Raja et al. 2025 引 Goulson et al. 2007:'It is a good source of both nectar and pollen to all kind of bees',https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "美国加州的研究:蜜蜂单次访花的传粉效率不高,但有野生蜂在场时效率会提高(置于'北美温带=东北部与中西部'卡下,标'邻近地区资料')",
+          "problem": "地域错配:Greenleaf & Kremen 2006 做在加州中央谷地的杂交制种向日葵田——地中海式气候、雄性不育制种系统,与五大湖/新英格兰/中西部的气候和种植情境都不同,称'邻近地区'名不副实;'蜜蜂单次效率不高、野生蜂使其增效 5 倍'是该制种系统里的结论,直接移植到东北部会误导。北美温带的向日葵蜜蜂关系本身可信(北/南达科他属中西部、为美国向日葵与蜂蜜主产区),但应换在地来源。",
+          "fix": "换用中西部/大平原(如北达科他)向日葵蜂访资料重挂,或把本条地域改为'北美西部(加州,制种田)'并在界面注明;不宜以'邻近地区'带过。",
+          "evidence": "Greenleaf & Kremen 2006(研究地点为加州 Yolo/Solano 县杂交向日葵制种田),https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-sunflower-china-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:东方蜜蜂访向日葵(中国东部,夏)",
+          "problem": "'观察记录'型关系却没有任何中国观察:唯一来源是印度泰米尔纳德邦(热带干旱区)对 A. cerana indica 的记录,note 已自认'中国中蜂访向日葵未见专门文献'。indica 与中国的 A. cerana cerana 是不同亚种(部分学者甚至主张 A. indica 为独立种),热带干旱区的访花记录支撑不了'在中国东部夏季被观察到访花'。中蜂采向日葵在国内蜜源资料中常见,但需在地来源才能立 observed-visit。",
+          "fix": "找中国蜜源植物志或国内研究补证后再立;找不到则删除本条,或将 relation 降为资源性表述并明确标注'依据为印度亚种记录'。",
+          "evidence": "Raja et al. 2025(研究地 Tiruchirapalli, Tamil Nadu;对象 Apis cerana indica),https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-sunflower-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:紫木蜂访向日葵(中欧,夏)",
+          "problem": "观察记录来自土耳其,土耳其不属中欧;note 已自认'中欧未见专门记载'。紫木蜂在中欧确有分布且访花谱宽,但把土耳其的田间观察挂到中欧地区卡下,等于虚构了一条中欧观察记录。",
+          "fix": "删除本条或把地域改为'土耳其/西亚(邻近资料)'专栏;若保留中欧,需找到中欧本地的访花记录。",
+          "evidence": "Özbek 2013(土耳其大型木蜂访花记录),https://www.entomol.org/journal/index.php/JERS/article/view/537"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "欧洲熊蜂的管理蜂群被用于蓝莓授粉(中欧,引 Frontiers 2023)",
+          "problem": "来源地域错配:Frontiers 2023 那项研究做在智利南部(Maule/Los Ríos),其中 B. terrestris 是引入智利的外来管理蜂种,且该文结论是智利本地蜂表现不逊于甚至优于 B. terrestris——既不是中欧证据,也不支持'管理熊蜂群是蓝莓授粉优选'的语气。欧洲熊蜂商业蜂群在欧洲浆果生产中确有使用,但本条需要欧洲来源。",
+          "fix": "换用欧洲(荷/德/波等)蓝莓或浆果温室使用商业熊蜂群的来源;或把本条 note 改为只保留'熊蜂能振动授粉、是蓝莓高效传粉者'并删去管理蜂群一句。",
+          "evidence": "Frontiers in Sustainable Food Systems 2023:'Fieldwork was conducted in five highbush blueberry orchards located in southern Chile (Maule and Los Ríos Regions)';文中 B. terrestris 为智利的外来管理种、本地蜂 Cadeguala occidentalis 表现相当或更好,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-osmia-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条为一般性记载……非中国的专门研究",
+          "problem": "非否决性提示:白车轴草在中国广布半自生、蜜蜂常规利用属常识级事实,note 已如实声明来源为一般性记载;未找到相左资料。不否决。",
+          "fix": "可选:补中国蜜源植物资料。",
+          "evidence": "FRPS 白车轴草(中国广泛种植并逸生、花期 5-10 月),https://www.iplant.cn/ashx/getfrps.ashx?key=Trifolium%20repens"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "beeId 指到欧洲熊蜂 B. terrestris,而来源只说'主要由熊蜂访问'(属级)",
+          "problem": "非否决性提示:来源为属级'熊蜂',指名到 terrestris 属外推;但 B. terrestris 为中欧最常见的短舌熊蜂、白车轴草花蜜浅置正适合短舌种,note 已声明'泛指熊蜂,未点名'。未找到相左证据,不否决。",
+          "fix": "可选:界面按 note 口径展示'熊蜂(泛指)'。",
+          "evidence": "en.wikipedia Trifolium repens(flowers mostly visited by bumblebees),https://en.wikipedia.org/wiki/Trifolium_repens"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条记载苜蓿切叶蜂能为车轴草属植物传粉(relation=pollination)",
+          "problem": "非否决性提示:依据是维基对该蜂授粉作物谱的一般性记载,非白车轴草的专门研究;M. rotundata 已在北美归化、访豆科为主,关系可信但证据薄。不否决。",
+          "fix": "可选:evidence 从 review 降为 editorial,或补切叶蜂用于三叶草制种的推广资料。",
+          "evidence": "en.wikipedia Megachile rotundata(用于苜蓿并可为三叶草等豆科传粉),https://en.wikipedia.org/wiki/Megachile_rotundata"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "薰衣草蜜主产地中海周边(邻近地区资料);英国研究亦记录蜜蜂访薰衣草",
+          "problem": "非否决性提示:两处支撑(地中海、英国)都不在中欧,但薰衣草是中欧花园与农艺常见栽培、蜜蜂访花无争议,且 note 已标注'邻近地区资料'。另英国研究所用薰衣草多为杂交'Grosso'(见 corolla 条),此处只作访花证据、不涉数字,可容。不否决。",
+          "fix": "可选:note 内注明英国研究对象含杂交薰衣草。",
+          "evidence": "Sussex 新闻稿(蜜蜂访薰衣草、'Grosso'),https://archive.sussex.ac.uk/broadcast/read/19067"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit(中欧):熊蜂每朵花只停 1.1-1.4 秒……保加利亚植物园观察……(evidence=primary)",
+          "problem": "双重错配:两个观察来源分别在英国和保加利亚,都不在中欧;且 1.1-1.4 秒的处理时间测自杂交薰衣草'Grosso'(L. × intermedia),不是本花卡的 L. angustifolia。保加利亚研究确以 L. angustifolia 为对象、记录到 B. terrestris/lucorum complex 占优,物种指名勉强成立,但'在中欧观察到'并无来源。",
+          "fix": "把地域改为'英国/保加利亚(邻近地区)'或删去中欧挂载;handling time 数字注明出自杂交薰衣草;若保留 B. terrestris 指名,注明保加利亚记录为 terrestris/lucorum 复合组。",
+          "evidence": "Sussex 新闻稿图注 lavender 'Grosso',https://archive.sussex.ac.uk/broadcast/read/19067;Valchev/Kozuharova et al. 2022 研究地为保加利亚,熊蜂记录为'Bombus terrestris/lucorum complex',https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-lavender-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:紫木蜂访薰衣草(中欧),仅有爱好者网站记录",
+          "problem": "唯一来源为低权威爱好者网站(BuzzAboutBees),且其观察地为英国花园而非中欧;没有学术来源佐证'在中欧观察到'。木蜂访唇形科在地中海区文献常见,但本条以孤立弱源立观察记录,不足采信。",
+          "fix": "补学术来源(如地中海/北非薰衣草访花者名录中的 Xylocopa 记录)并改挂相应地域;找不到则删除本条。",
+          "evidence": "BuzzAboutBees.net(爱好者网站,子集来源表自注'低权威'),https://www.buzzaboutbees.net/violet-carpenter-bee.html"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿是美国西部最重要的蜜源之一(邻近地区资料)——挂在'北美温带(东北部与中西部)'卡下",
+          "problem": "非否决性提示:苜蓿蜜主产区在西部灌溉区,东北部/中西部苜蓿多作干草、常在盛花前刈割,蜜源地位远弱于西部;但中西部刈割间隙开花亦被蜜蜂利用,'nectar'关系本身不假,note 也已标'邻近地区资料'。不否决,建议弱化。",
+          "fix": "可选:note 明写'主产区在美国西部;本区仅刈割间隙提供蜜源'。",
+          "evidence": "en.wikipedia Alfalfa(alfalfa honey 主产美国西部;蜜蜂侧吸行为),https://en.wikipedia.org/wiki/Alfalfa;McGregor 1976 苜蓿章,https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿切叶蜂被大量用于北美的苜蓿种子生产(挂在北美温带东北/中西部卡下)",
+          "problem": "非否决性提示:切叶蜂制种主产区在美国西北部与加拿大草原省,不在五大湖/新英格兰;'北美'口径的原句为真,弹花机制普适,IFAS 亦为权威推广来源。不否决,建议 note 点明主产区。",
+          "fix": "可选:note 补'制种主产区在美国西北部和加拿大西部'。",
+          "evidence": "UF/IFAS EENY-820(M. rotundata 用于北美苜蓿制种、每次访花弹花),https://ask.ifas.ufl.edu/publication/IN1452"
+        }
+      ]
+    }
+  ]
+}

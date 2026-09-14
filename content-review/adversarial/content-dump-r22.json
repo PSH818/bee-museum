@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-08-25T07:47:29.521Z",
+  "round": 22,
+  "baseRound": null,
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-haplodiploidy",
+      "title": "Haplodiploidy",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Haplodiploidy",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bee-brood",
+      "title": "Bee brood",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bee_brood",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-queen-bee",
+      "title": "Queen bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Queen_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-drone-bee",
+      "title": "Drone (bee)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Drone_(bee)",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-forager",
+      "reviewStatus": "draft",
+      "name": "外勤采集",
+      "short": "采集",
+      "phase": "adult",
+      "span": {
+        "from": 41,
+        "to": 63
+      },
+      "spanText": "出房后第 21 天起(自产卵起第 41 天起)",
+      "summary": "此后工蜂离开巢内工作,成为外勤蜂:可飞到约 3 公里外(据记载有时更远)采集花蜜、花粉、蜂胶和水,直到生命结束。",
+      "detail": "夏季工蜂从出房算起通常只活几周(常见文献约 2–6 周,外勤只是其中最后一段);秋天出生的越冬蜂在巢内结团过冬,可活数月(不同资料约 20 周或更长)。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-corbicula",
+          "label": "花粉筐"
+        },
+        {
+          "kind": "focus",
+          "id": "leg",
+          "label": "六足"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    }
+  ]
+}

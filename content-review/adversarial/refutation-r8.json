@@ -1,0 +1,43 @@
+{
+  "lens": "refutation",
+  "round": 8,
+  "reviewedAt": "2026-08-25T03:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "据报道,自 1940 年代起的约五十年间,日本半数以上的苹果园曾用它授粉",
+          "problem": "时间逻辑与来源不一致。英文维基原文为“1940 年代引入日本,其后约 50 年间使用量逐步增加,直至日本半数以上的苹果园使用该种”——“半数以上”是约 50 年推广之后的终点状态,而非“五十年间”一直如此。现句读起来像 1940 年代起就有半数以上果园在用。此外,“全日本半数以上”这一数字仅见于维基,而可查到的一手数据(JARQ/Sekita)均为青森县数据(1996 年起青森县苹果面积 80% 以上用其授粉),宾州州立推广文则笼统称“80 多年来为日本大部分苹果授粉”;“据报道”能限定数字来源,但不能修补句内时间逻辑。",
+          "evidence": "Wikipedia《Osmia cornifrons》:“Over a 50-year time period, use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species.” https://en.wikipedia.org/wiki/Osmia_cornifrons ;Sekita 2001《Managing Osmia cornifrons to pollinate apples in Aomori Prefecture, Japan》(Acta Hort. 561):1996 年起青森县 80% 以上苹果面积用其授粉 https://www.ishs.org/ishs-article/561_46 ;Penn State Extension《Orchard Pollination: Solitary (Mason) Bees》:“used to pollinate most of the apple crop in Japan for more than 80 years” https://extension.psu.edu/orchard-pollination-solitary-mason-bees",
+          "fix": "改为:“它原产东亚;据报道,日本自 1940 年代起用它为苹果授粉,其后约五十年间逐步推广,到 1990 年代已有半数以上的苹果园使用它(青森县比例更高)”。"
+        },
+        {
+          "claim": "据报道 1977 年前后它被引入美国东部,此后在美国东部与中西部定殖",
+          "problem": "引入年份各资料不一:维基与 USDA-ARS(Batra)口径为 1977 年引入美国东北部/马里兰;近年 Canada 定殖研究称早在 1965 年即有多批从日本引入、1977 年确认定殖;宾州州立推广页则误写为 1990 年代。现句已用“据报道”“前后”限定,且“东部与中西部定殖”与 Exotic Bee ID 一致,不构成否决,仅作备注。",
+          "evidence": "Wikipedia:“In 1977, O. cornifrons was introduced in the northeastern United States” https://en.wikipedia.org/wiki/Osmia_cornifrons ;Exotic Bee ID:“intentionally introduced to the eastern U.S. from Japan in the 1970s … can be found on the East Coast and the Midwest” https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062 ;PMC9744147:多批引种“as early as 1965, with evidence of establishment in 1977” https://pmc.ncbi.nlm.nih.gov/articles/PMC9744147/",
+          "fix": "可保留;若想更稳妥,改为“据报道 1970 年代(多称 1977 年)被引入美国东北部”。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm)",
+          "problem": "主值 10–11 mm 与英文维基一致,Exotic Bee ID 给约 9 mm,A. c. indica 给 10–12 mm,均落在括注范围内;但中文权威资料对中华蜜蜂(A. c. cerana,本条 distribution 特别点名的亚种)工蜂体长常写 10–13 mm,括注上限 12 mm 略低。已用“约”“不同资料”限定,属资料分歧,不否决。",
+          "evidence": "Wikipedia《Apis cerana》:“Medium-sized bees (10-11mm)” https://en.wikipedia.org/wiki/Apis_cerana ;Exotic Bee ID《Apis cerana》:“body length of around 9 mm” https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006 ;中文维基《中华蜜蜂》:“工蜂体长10–13毫米” https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82",
+          "fix": "建议括注改为“不同资料约 9–13 mm”。"
+        },
+        {
+          "claim": "亚洲南部与东部的传统饲养蜂种",
+          "problem": "自然分布还覆盖东南亚(至印尼东部)并西达阿富汗高地,“南部与东部”概括略窄,但作为传统饲养区域的简述可接受。其余断言(Apidae;Eastern honey bee;树洞多脾平行巢;四条黄色腹纹;高度社会性;对胡蜂的热杀/闪翅集体防御;中华蜜蜂为中国主要亚种)均有来源支持。",
+          "evidence": "Wikipedia《Apis cerana》:“from Primorsky Krai in Russia in the north, to eastern Indonesia in the south; and to Japan in the east, to as far as the highlands of Afghanistan in the west”;“black in color, with four yellow abdominal stripes”;“About 500 Japanese honey bees surround the hornet … 47 °C” https://en.wikipedia.org/wiki/Apis_cerana ;Exotic Bee ID:“multiple combs arranged parallel to one another” https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006 ;中文维基《中华蜜蜂》:“是东方蜜蜂的指名亚种” https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82",
+          "fix": "可选:改为“亚洲南部、东南部与东部的传统饲养蜂种”。"
+        }
+      ]
+    }
+  ]
+}

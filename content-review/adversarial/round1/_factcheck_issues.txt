@@ -1,0 +1,128 @@
+## focus:apis-mellifera-worker/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 两个引用来源均未提及职型间翅体比差异;'更适合婚飞'是解释性推断,超出教科书解剖常识 | FIX: 改为可核的描述性措辞:'蜂王翅长与工蜂相近,因腹部更长而显得翅短'并补引 Western honey bee 页面('rounder, longer abdomen');删去'更适合婚飞'或补引具体文献
+  - 前翅与后翅通过翅钩联动(连成一个翼面) | Hamulus 页面只说钩住前翅后缘褶,未说'连成一个翼面' | FIX: 可保留;如需严格对应来源,可补引 Wikipedia 'Insect wing' 的 wing coupling 段
+## focus:apis-mellifera-queen/whole -> uncertain
+  - 蜂王腹部更长 | 引用的 Honey bee 页面只说蜂王体型更大,未提腹部更长;Britannica 不可达 | FIX: 在 sourceIds 中补引 src-wikipedia-western-honey-bee
+## focus:apis-mellifera-queen/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 同 worker/wing:来源未提及,'更适合婚飞'为推断 | FIX: 同 focus:apis-mellifera-worker/wing
+## focus:apis-mellifera-queen/leg -> uncertain
+  - 蜂王没有工蜂式花粉筐 | Pollen basket 页面只说'female of certain species',未区分蜂王;Britannica 不可达 | FIX: 补引 src-wikipedia-honey-bee
+## focus:apis-mellifera-drone/whole -> uncertain
+  - 雄蜂胸部粗壮 | Honey bee 页面未描述雄蜂胸部;Britannica 不可达 | FIX: 补引 src-snodgrass-anatomy(雄蜂胸部形态属教科书内容)或删去'胸部粗壮'
+  - 也没有工蜂式花粉筐 | 来源仅间接支持(花粉筐列为工蜂特化结构) | FIX: 可接受;如需更直接来源可补引 Wikipedia 'Drone (bee)'
+## focus:apis-mellifera-drone/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 同 worker/wing | FIX: 同 focus:apis-mellifera-worker/wing
+## focus:apis-mellifera-drone/leg -> uncertain
+  - 雄蜂没有工蜂式花粉筐;雄蜂无螫针 | Pollen basket 页面未提雄蜂,也不涉及螫针;Britannica 不可达。断言本身正确但当前引用无法支撑 | FIX: 补引 src-wikipedia-western-honey-bee 与 src-wikipedia-honey-bee
+## focus:apis-cerana-worker/whole -> uncertain
+  - 腹部环纹更均匀清晰 | Apis cerana 页面只说有四条黄色腹纹,无与西方蜜蜂的清晰度比较 | FIX: 改为'腹部有四条黄色环纹'或补引养蜂学教材中的形态比较
+  - 耐低温、善于利用零星蜜源 | 页面只说其在 12–36 °C 环境下能维持体温 33–35.5 °C,未提及耐低温优于西方蜜蜂或利用零星蜜源 | FIX: 补引 FAO 或中国养蜂学文献(如《中国蜂业》/《中华蜜蜂》专著)或删去
+  - 是亚洲本土传统养蜂的主角 | 页面未提及传统养蜂 | FIX: 补引 src-wikipedia-honey-bee
+## focus:apis-cerana-worker/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 同 apis-mellifera-worker/wing | FIX: 同 focus:apis-mellifera-worker/wing
+## focus:apis-cerana-queen/whole -> uncertain
+  - 东方蜜蜂比西方蜜蜂更容易分蜂和迁飞 | 来源仅支持'迁飞/弃巢(absconding)更多',对'分蜂(swarming)更容易'无比较 | FIX: 改为'东方蜜蜂比西方蜜蜂更容易迁飞(弃巢)',或为分蜂频率补引专门来源
+## focus:apis-cerana-queen/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 同 apis-mellifera-worker/wing | FIX: 同 focus:apis-mellifera-worker/wing
+## focus:apis-cerana-queen/leg -> uncertain
+  - 蜂王后足没有工蜂式的花粉筐 | Pollen basket 与 Western honey bee 页面都未提及蜂王是否有花粉筐 | FIX: 补引 src-wikipedia-honey-bee
+## focus:apis-cerana-drone/whole -> uncertain
+  - 东方蜜蜂雄蜂胸部粗壮 | 两个引用来源均未描述雄蜂胸部 | FIX: 删去'胸部粗壮'或补引 Snodgrass
+  - 也没有花粉筐 | 未提及 | FIX: 补引 src-wikipedia-honey-bee
+## focus:apis-cerana-drone/wing -> uncertain
+  - 蜂王腹部长但翅不会等比例变长;雄蜂的翅体比则更适合婚飞 | 同 apis-mellifera-worker/wing | FIX: 同 focus:apis-mellifera-worker/wing
+## focus:apis-cerana-drone/leg -> uncertain
+  - 雄蜂没有工蜂式花粉筐 | Pollen basket 与 Western honey bee 均未提及雄蜂花粉筐(无螫针一点已由 Western honey bee 支持) | FIX: 补引 src-wikipedia-honey-bee
+## focus:bombus-terrestris-worker/whole -> uncertain
+  - 厚厚的毛被有助于保温,让它在较凉的天气也能出勤访花 | Bombus terrestris 页面全文无 insulation/pile/thermoregulation 相关内容 | FIX: 补引 Wikipedia 'Bumblebee' 页面
+## focus:bombus-terrestris-worker/head -> uncertain
+  - 中舌相对较长,配合粗壮身体,能利用一些蜜蜂够不到的深冠筒花朵 | 疑似事实错误。两个引用来源均未提及舌长(Britannica 不可达);而在熊蜂学通行分类中 Bombus terrestris 是典型短舌种(short-tongued),以咬穿 | FIX: 改写为'欧洲熊蜂属于短舌熊蜂,遇到深冠筒花朵时常直接咬穿花冠基部取蜜(偷蜜)',并补引 Wikipedia 'Bumblebee' 或 Goulson《Bumblebees: Behaviour, Ecology, and Conservation》
+  - 同一巢的工蜂可以差出近一倍 | 来源支持(工蜂 11–17 mm,胸宽 2.3–6.9 mm,体重 68–754 mg) | FIX: 无需修改
+## focus:bombus-terrestris-worker/wing -> uncertain
+  - 翅显得偏小;依靠高频扇动与灵活的翅角控制维持飞行,前后翅同样以翅钩联动 | Bombus terrestris 页面未涉及翅形态、扇动频率或翅钩;Britannica 不可达 | FIX: 补引 Wikipedia 'Bumblebee' Flight 段,并给出'约 200 Hz'
+  - '按空气动力学熊蜂不会飞'是个流传已久的误解——非定常涡流升力早已解释了它的飞行 | 两个引用来源均未提及该误解;Bumblebee 页面解释用的是 dynamic stall,而非'涡流升力'一词 | FIX: 补引 Wikipedia 'Bumblebee',并把'非定常涡流升力'改为'非定常空气动力学(动态失速产生的前缘涡)'
+## focus:bombus-terrestris-worker/leg -> uncertain
+  - 工蜂和蜂王后足胫节同样特化出光滑的花粉筐 | Pollen basket 页面支持熊蜂族有花粉筐,但未区分蜂王;Britannica 不可达 | FIX: 补引 Wikipedia 'Bumblebee'
+  - 熊蜂访花速度快、耐低温,单位时间授粉效率常高于蜜蜂 | 两个引用来源均未做此比较;Bumblebee 页面也未直接比较效率 | FIX: 补引授粉效率比较文献(如 Willmer et al. 1994 或 Velthuis & van Doorn 2006)或改为'能在较低温度下出勤,是重要的作物授粉者'
+## focus:osmia-cornifrons-worker/head -> uncertain
+  - 雌蜂下脸(唇基)长有一对角状突起,学名 cornifrons 意为'有角的额' | 来源支持'下脸有角状突起',但未点明唇基(clypeus),也未解释词源 | FIX: 可接受;如需精确到唇基可补引 Discover Life / BugGuide 的 O. cornifrons 形态描述
+  - 强壮的大颚用于搬运和塑形筑巢的泥土 | 页面全文未提及 mandible | FIX: 补引 Wikipedia 'Mason bee' 或删去'强壮'等形态定语,改为'雌蜂用泥土封闭巢室'
+## focus:osmia-cornifrons-worker/wing -> uncertain
+  - 壁蜂通常在巢址附近几十米内往返采集 | 来源给出的是巢址到作物田的距离(130 m 内,有的达 700 m),不是'几十米'的采集半径;数字量级不符 | FIX: 改为'壁蜂多在巢址附近一二百米范围内采集(巢址通常建在作物田 130 m 以内)'
+  - 前后翅以翅钩联动 | 本条未引用翅钩来源,属通用膜翅目常识 | FIX: 可补引 src-wikipedia-hamulus
+## focus:osmia-cornifrons-worker/abdomen -> uncertain
+  - 访花时干燥的花粉直接刷附在腹部下方;花粉不被唾液或花蜜粘成团,松散地夹在毛间——这让它在果树间传粉的效率很高 | Scopa 页面支持切叶蜂科腹面集粉毛,但两个来源都未提及花粉干燥/不粘团,更未提及由此带来的传粉效率 | FIX: 为'干燥松散花粉→传粉效率高'的因果链补引来源(如 Bosch & Kemp 2001《How to Manage the Blue Orchard Bee》),或改为'花粉干燥地夹在毛间带回巢中'并去掉效率推论
+## focus:osmia-cornifrons-worker/leg -> fail
+  - 腹面集粉毛才是多数蜂类的携粉方式 | 与来源相反。Scopa 页面明确指出多数蜂类的集粉毛位于后足,腹面集粉毛只是切叶蜂科的特征 | FIX: 改为'多数蜂类用后足集粉毛携粉;切叶蜂科(壁蜂、切叶蜂)则把集粉毛长在腹面;而光滑的花粉筐只见于蜜蜂科少数几族'
+  - 花粉筐(corbicula)只见于蜜蜂科少数几族 | 来源支持 | FIX: 无需修改
+## focus:megachile-rotundata-worker/head -> uncertain
+  - 切叶蜂头部相对宽大,大颚强壮而边缘锋利 | 来源只说用大颚剪下圆形叶片,未描述头部宽大或大颚锋利 | FIX: 删去'头部相对宽大',或补引 Wikipedia 'Megachile' 属页面的形态描述
+## focus:megachile-rotundata-worker/wing -> uncertain
+  - 雌蜂用足夹着剪下的叶片飞行 | 页面未描述运叶方式 | FIX: 补引 Wikipedia 'Megachile'(切叶蜂属)或删去
+  - 访花时会'撬开'苜蓿花的龙骨瓣 | 来源描述为把喙插入龙骨瓣,并未说'撬开/触发(trip)';苜蓿花的弹开(tripping)是真实现象,但本来源不支持该措辞 | FIX: 改为'取食时把喙插入苜蓿花的龙骨瓣,花粉随之刷到集粉毛上',或为'触发龙骨瓣'补引 Pitts-Singer & Cane 2011(Annual Review of Entomology)
+## focus:megachile-rotundata-worker/abdomen -> uncertain
+  - 腹部背面各节后缘有一道白色毛带 | 两个来源均未提及腹部毛带,页面只说雌蜂全身有白毛 | FIX: 改为'深灰底色上覆白色细毛,腹面为密集集粉毛',或补引 Discover Life / BugGuide 对 M. rotundata 腹部 fasciae 的描述
+## focus:xylocopa-violacea-worker/whole -> uncertain
+  - 通体黑色,在阳光下泛出蓝紫色金属光泽,翅膀也是烟紫色 | Xylocopa violacea 页面没有任何体色/翅色描述,只有'violet'出现在俗名中 | FIX: 补引带形态描述的来源,如 Wikipedia 'Carpenter bee' 或 NatureSpot / iNaturalist 物种页
+  - 欧亚大陆最大的蜂类之一 | 来源说的是'欧洲'最大蜂之一,措辞略扩大 | FIX: 改为'欧洲最大的蜂类之一'
+## focus:xylocopa-violacea-worker/head -> uncertain
+  - 头部宽大,大颚极为强壮;它不吃木头,只是钻洞;木屑会被推出洞口 | Xylocopa violacea 页面未提及大颚、头部或木屑 | FIX: 补引 Wikipedia 'Carpenter bee';并可补充'木屑或被推出,或被用来隔间'
+## focus:xylocopa-violacea-worker/wing -> uncertain
+  - 木蜂的翅膜呈烟褐色,在特定角度下折射出蓝紫虹彩 | 来源无翅色描述 | FIX: 补引形态描述来源(同 whole)
+  - 木蜂属被认为能进行振动授粉 | Buzz pollination 页面以 Xylocopa frontalis 为例,支持属级'被认为能',但未涉及 X. violacea 本种 | FIX: 可接受;建议措辞保留'木蜂属'而不写成'紫木蜂能'
+## focus:xylocopa-violacea-worker/abdomen -> uncertain
+  - 木蜂腹部几乎无毛,光滑坚硬的甲壳 | 本种页面未提及;仅 Carpenter bee 属页面(未引用)支持 | FIX: 补引 Wikipedia 'Carpenter bee'
+  - 这种结构色来自甲壳表面的微结构,而非色素 | 任何来源均未提及结构色机理;这是具体科学论断,需专门来源 | FIX: 补引昆虫结构色文献(如 Seago et al. 2009 J. R. Soc. Interface 'Gold bugs and beyond'),或改为'蓝紫光泽随观察角度变化,属于结构色的表现'并标注待核
+## focus:xylocopa-violacea-worker/leg -> uncertain
+  - 后足有集粉毛用于携粉 | 本种页面未提及;Carpenter bee 属页面(未引用)说后足全毛、无花粉筐,可作间接支持 | FIX: 补引 Wikipedia 'Carpenter bee'
+  - 飞行声音低沉,常被误认为大型熊蜂或蝇类 | 声音低沉:任何来源未提及;误认为熊蜂:仅 Carpenter bee 属页面间接提及与熊蜂的区别 | FIX: 删去'飞行声音低沉'或补引可核来源;'常被误认为熊蜂'可补引 Wikipedia 'Carpenter bee'
+## organ:organ-sting -> uncertain
+  - 由产卵器特化而来的防御器官;雄蜂无螫针 | Worker bee 页面未提及产卵器来源和雄蜂无螫针;Britannica 不可达。倒钩与脱落致死已被支持 | FIX: 补引 src-wikipedia-western-honey-bee(同时覆盖产卵器来源与雄蜂无螫针)
+## organ:organ-bombus-fur -> uncertain
+  - 黑黄白的分带是警戒色;厚毛被帮助熊蜂在凉爽天气维持飞行所需的体温 | Bombus terrestris 页面全文无 aposematic/insulation 内容;Britannica 不可达 | FIX: 补引 Wikipedia 'Bumblebee'
+## organ:organ-bombus-sting -> uncertain
+  - 熊蜂螫针光滑无倒钩,可以重复螫刺而不致自身死亡;熊蜂性情温和,极少主动攻击 | Bombus terrestris 页面全文无 sting/barb/aggressive 内容;Britannica 不可达 | FIX: 补引 Wikipedia 'Bumblebee'
+## organ:organ-osmia-scopa -> uncertain
+  - 访花时把干燥花粉刷附其上 | Scopa 页面未讨论花粉干湿状态;其余断言(腹面成排刚毛、切叶蜂科共同特征、与花粉筐是两条路线)均被支持 | FIX: 补引 Bosch & Kemp 2001 或删去'干燥'
+## organ:organ-osmia-horns -> uncertain
+  - 推测与搬运和加工泥土有关 | 页面未提及角突功能推测 | FIX: 删去功能推测,或补引壁蜂形态功能文献(如 Rust 1974 等)
+## organ:organ-osmia-mandible -> uncertain
+  - 大颚用于衔泥筑巢和封闭巢室;口器吸取花蜜,与花粉一同调制成巢室内的花粉球 | 页面支持用泥封巢和放置花粉球,但未提及大颚,也未提及花蜜与花粉混合 | FIX: 补引 Wikipedia 'Mason bee' 或 Bosch & Kemp 2001
+## organ:organ-megachile-scopa -> uncertain
+  - 访花时刷附干燥花粉 | 两个来源均未讨论花粉干燥状态;先吐蜜再抖花粉、供幼虫食用已被支持 | FIX: 删去'干燥'或补引来源(同 organ-osmia-scopa)
+## organ:organ-megachile-hair-bands -> uncertain
+  - 腹部各背板后缘的白色细毛带,与深灰底色形成条带外观,是野外辨识切叶蜂属的常见线索 | 页面未提及毛带(band/stripe/fasciae),只说雌蜂全身白毛 | FIX: 补引 Discover Life 或 BugGuide 的 Megachile 形态说明(腹部 tergal fasciae),否则改写为'腹部覆白色细毛'
+## organ:organ-xylocopa-integument -> uncertain
+  - 黑色甲壳表面的微结构对光产生干涉,呈现随角度变化的蓝紫金属光泽;这是结构色,不是色素;可能兼具体温调节意义 | Xylocopa violacea 页面没有任何体色、结构色或体温调节内容 | FIX: 补引昆虫结构色文献(如 Seago et al. 2009)及形态描述来源;'体温调节意义'若无来源应删去
+## organ:organ-xylocopa-wing -> uncertain
+  - 深色翅膜带蓝紫虹彩 | 本种页面无翅色描述 | FIX: 补引形态描述来源
+  - 木蜂属能以飞行肌高频震动进行振动授粉 | Buzz pollination 页面以 Xylocopa frontalis 为例支持属级论断 | FIX: 无需修改
+## compare:row-body-length -> uncertain
+  - 工蜂约 12–15 mm;蜂王约 18–20 mm;雄蜂约 15–17 mm | 引用的 Honey bee 页面没有任何体长数字;Britannica 不可达。工蜂 12–15 mm 可由 Worker bee 页面(本条未引用)支持;蜂王与雄蜂数字目前无可达 | FIX: 补引 src-wikipedia-worker-bee 覆盖工蜂;为蜂王 18–20 mm、雄蜂 15–17 mm 补引养蜂学教材(如 Winston 1987《The Biology of the Honey Bee》)或改用带来源的区间
+## compare:row-corbicula -> uncertain
+  - 蜂王:无;雄蜂:无 | Pollen basket 页面只说'female of certain species',未区分蜂王与雄蜂 | FIX: 补引 src-wikipedia-honey-bee
+## compare:row-eyes -> uncertain
+  - 工蜂常规比例;蜂王相对较小;雄蜂显著增大,向头顶靠拢 | 唯一来源 Britannica 不可达;'蜂王复眼相对较小'尚无可达来源 | FIX: 补引 src-wikipedia-honey-bee(雄蜂)与 src-snodgrass-anatomy(蜂王小眼数少于工蜂,属教科书内容)
+## compare:row-cerana-corbicula -> uncertain
+  - 蜂王:无;雄蜂:无 | Apis cerana 页面只说工蜂后足有 pollen press,未提蜂王/雄蜂;Pollen basket 亦未区分 | FIX: 补引 src-wikipedia-honey-bee
+## compare:row-cerana-eyes -> uncertain
+  - 蜂王:相对较小 | 两个来源均未提及蜂王复眼大小;雄蜂增大已被支持 | FIX: 补引 src-snodgrass-anatomy 或改为'与工蜂相近'
+## species:apis-mellifera -> uncertain
+  - workerBodyLengthMm 12–15 | 三个引用来源中可达的两个 Wikipedia 页面都没有体长数字;Britannica 不可达 | FIX: 补引 src-wikipedia-worker-bee
+  - 原产欧洲、非洲与西亚 | 来源措辞为非洲/亚洲起源并自然扩散至非洲、中东与欧洲,可视为支持 | FIX: 无需修改
+## species:apis-cerana -> uncertain
+  - 中国本土传统饲养的主要蜂种 | Apis cerana 页面未提及传统养蜂;Britannica 不可达 | FIX: 补引 src-wikipedia-honey-bee
+  - 耐低温、善于利用零星蜜源 | 页面只说能在 12–36 °C 环境维持体温,未提零星蜜源 | FIX: 补引中国养蜂学文献或删去
+  - 腹部环纹更均匀清晰 | 无比较依据 | FIX: 改为'腹部有四条黄色环纹'
+## species:bombus-terrestris -> uncertain
+  - 能进行振动授粉,番茄等温室作物高度依赖它 | 本条引用的 Bombus terrestris 页面只说它是温室授粉主力,全文不含 buzz;Britannica 不可达。Buzz pollination 页面可支持但未被本条引 | FIX: 在 sourceIds 中补引 src-wikipedia-buzz-pollination
+  - 巢内为不规则蜡罐 | 来源只说巢多在地下鼠洞,巢结构描述为 comb-like,未说'不规则蜡罐' | FIX: 改为'巢内为不规则排列的蜡质育幼室和蜜罐'并补引 Wikipedia 'Bumblebee' Nests 段
+## species:osmia-cornifrons -> uncertain
+  - workerBodyLengthMm 11–13 | 两个来源均无体长数字 | FIX: 补引带体长的来源(如 Penn State Extension 'Japanese Orchard Bee' 或 Bosch & Kemp 2001),核对 11–13 mm
+## species:megachile-rotundata -> uncertain
+  - 深灰体色配白色毛带 | 来源只说全身白毛,未提毛带 | FIX: 改为'深灰体色覆白色细毛'或补引形态来源
+## species:xylocopa-violacea -> uncertain
+  - workerBodyLengthMm 20–23 | 两个来源均无体长数字 | FIX: 补引带体长的来源(如 Wikipedia 德文/意文版或 NatureSpot 物种页),核对 20–23 mm
+  - 黑色身体泛蓝紫金属光泽,翅呈烟紫色 | 来源无体色描述 | FIX: 补引形态描述来源
+  - 欧亚最大的蜂类之一 | 来源为'欧洲最大' | FIX: 改为'欧洲最大的蜂类之一'
+  - 分布:欧洲向东横跨亚洲至中国中部,主要分布于北纬 30° 以北;夏末羽化越冬,春季活动;能进行振动授粉 | 均被支持 | FIX: 无需修改

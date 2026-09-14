@@ -1,0 +1,32 @@
+{
+  "lens": "fact-check",
+  "round": 26,
+  "reviewedAt": "2026-08-31T10:30:00.000Z",
+  "sourceAccess": [
+    { "sourceId": null, "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9455760/", "fetched": true, "note": "非子集来源,系 r25 反驳者用以推翻旧句的证据(Foods 2022,罗马尼亚蜂花粉表征)。本轮重抓成功:24 份罗马尼亚东北部蜂花粉(corbicular,蜂采花粉团)样本,其中 5 份刺槐花粉占优(Louveaux 法,>45%);刺槐优势样本蛋白质 23.13% 干重、脂类 6.02% 干重;全文无任何花粉产量/单花或单株产粉量数据;作者自述为该地区'the first study'——属地区性样本分析,非系统数据集。" },
+    { "sourceId": "src-dewiki-robinie", "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:花蜜含糖 '34 und 59 Prozent'、一株成年树一个花季约 1 kg 蜂蜜的养蜂估算。" },
+    { "sourceId": "src-wikipedia-black-locust", "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:'7–10 days' 花期、蜜源地位。" },
+    { "sourceId": "src-wikipedia-monofloral-honey", "url": "https://en.wikipedia.org/wiki/Monofloral_honey", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:洋槐蜜水白、果糖高、不易结晶。" },
+    { "sourceId": "src-usda-robinia", "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:北美花期 'late April to mid-June'(r25 已核入卡片 sourceIds)。" }
+  ],
+  "verdicts": [
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r25 fail 复查:pollen 字段由'花粉的产量和营养价值目前没有可靠的公开数据'改为'花粉的产量和营养价值,本馆尚未找到足以展出的系统数据'", "result": "已修复(新句是编辑状态陈述而非对世界的全称否定,不再与 Foods 2022 冲突。本轮重抓 PMC9455760 逐点核对:该研究为罗马尼亚东北部 24 份蜂采花粉团的地区性分析,刺槐占优样本仅 5 份且为孢粉学定源的混合花粉团而非纯种花粉,营养侧只有单一地区单一年份数据,产量侧全文无任何数据,作者自称'the first study'——'尚未找到足以展出的系统数据'与该文实际证据水平相容:营养有零星研究、产量无数据、两者均无系统数据集)", "evidence": "Foods 2022 (PMC9455760,本轮重抓):5/24 样本刺槐花粉 >45%;蛋白质 23.13% d.m.、脂类 6.02% d.m.;无产量数据;'first study' 自述。" },
+        { "claim": "pollen 字段之外文本(花蜜量大含糖高、洋槐蜜水白果糖高不结晶、7–10 天花期、三地花期区间、槐花蜜指洋槐非国槐)本轮未改动", "result": "支持(r24/r25 已核,本轮无需重核)", "evidence": "de:Robinie '34 und 59 Prozent'、en:Robinia '7–10 days'、USDA 'late April to mid-June'、Monofloral honey、FRPS/zh 维基(均 r23–r25 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r25 fail 复查:description 末句同卡片层修改,改为'花粉的产量和营养价值,本馆尚未找到足以展出的系统数据'", "result": "已修复(与卡片层同一处理、同一判断依据;与 Foods 2022 不矛盾——该文既非产量数据,也非系统营养数据集)", "evidence": "同卡片层:Foods 2022 (PMC9455760) 本轮重抓核对结论。" },
+        { "claim": "description 前半句(花蜜含糖约 34–59%;据德文维基百科引用的养蜂资料估算,一株成年树一个花季约 1 公斤蜂蜜)与 fact(果糖高、长期液态不结晶)本轮未改动", "result": "支持(r23/r24 已核:数字区间、出处括注、'估算'限定均与 de:Robinie 记载对应;洋槐蜜性状落在 Monofloral honey)", "evidence": "de:Robinie 'zwischen 34 und 59 Prozent'、约 1 kg Honig 估算(r23 已核);en:Monofloral honey(r23 已核)。" }
+      ]
+    }
+  ]
+}

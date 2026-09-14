@@ -1,0 +1,31 @@
+{
+  "lens": "refutation",
+  "round": 18,
+  "reviewedAt": "2026-08-25T08:05:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "spanText「出房后第 3–12 天(第 23–33 天)」;summary「约出房后第 7–11 天也会给蜂王喂食、梳理体表」",
+          "problem": "尝试证伪:各资料对哺育期起止有 3–11 / 4–12 / 3–12 天等口径差异,最大相差 1 天;蜂王侍从 7–11 与部分资料的 7–12 亦仅差 1 天。核对所引 Wikipedia《Worker bee》原文:Nurse bees days 3–12、Queen attendants days 7–11,与条目完全一致;换算 21+3=24 起点与 23 的差异属区间边界口径(第 3 天始于 21+2=23),在一天以内。未构成反证。",
+          "evidence": "https://en.wikipedia.org/wiki/Worker_bee(Nurse bees days 3–12;Queen attendants days 7–11;Wax production days 13–18);https://americanbeejournal.com/shifting-through-tasks/ 与 https://theapiarist.org/superorganism-potential/ 给出 3–11 / 4–12 等相近口径",
+          "fix": "无需修改。若想更稳,可在 summary 的「约出房后第 7–11 天」前保留「约」即可(已具备)。"
+        },
+        {
+          "claim": "「腺体分泌的乳状食物……常称“工蜂浆”,与蜂王浆来自同一类腺体」",
+          "problem": "尝试证伪:工蜂幼虫头 3 天所得与蜂王浆成分接近,之后喂的是「工蜂浆」并掺入花粉与蜜,Wikipedia《Worker bee》直接使用 worker jelly 一词,且注明其分泌腺与蜂王浆同源(咽下腺与上颚腺)。文献(Bee Culture 等)确认 royal/worker/drone jelly 均为哺育蜂头部腺体分泌、仅比例成分不同。中文「工蜂浆」有「常称」限定,站得住。",
+          "evidence": "https://en.wikipedia.org/wiki/Worker_bee(\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly\");https://beeculture.com/a-closer-look-14/(larval jellies RJ/WJ/DJ differ in sugar ratio、vitamins、proteins);https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/(咽下腺+上颚腺分泌,第 5 天起掺花粉与蜜)",
+          "fix": "无需修改。可选微调:「乳状食物」后加「(后期掺入花粉与蜂蜜)」,更贴近实际,非必要。"
+        },
+        {
+          "claim": "detail「哺育蜂喂养幼虫约 6 天;约第 9 天巢房被封上蜡盖,幼虫在里面化蛹」",
+          "problem": "尝试证伪:工蜂幼虫开放取食期约 5.5–6 天,自产卵起约第 9 天封盖,第 21 天出房——多源一致,已用「约」限定。唯一可挑之处是表述歧义:本条目的 span 是成年工蜂的第 23–33 天,而 detail 里的「约第 9 天」指的是被哺育幼虫自产卵起的第 9 天,读者可能误读为哺育蜂自身的「第 9 天」。属清晰度问题,非事实错误。",
+          "evidence": "https://en.wikipedia.org/wiki/Bee_brood(worker: egg until day 3、larva until day 6 后、cell capped until day 9、emergence day 21);https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/(open larval ~5.5–6 days,capped ~day 9 after egg laying);https://projects.sare.org/media/pdf/T/h/e/The-life-cycle-of-honey-bees.pdf",
+          "fix": "建议(非阻塞)将 detail 改为:「一只工蜂幼虫要被哺育蜂喂养约 6 天;自产卵起约第 9 天,巢房被封上蜡盖,幼虫在里面化蛹。」以消除「第 9 天」指代对象的歧义。"
+        }
+      ]
+    }
+  ]
+}

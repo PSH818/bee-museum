@@ -1,0 +1,132 @@
+{
+  "lens": "compliance",
+  "round": 25,
+  "reviewedAt": "2026-08-31T09:00:00.000Z",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "油菜是自交亲和的植物,自己也能结实",
+          "problem": "[可选] 清单项 4 受众适配:“结实”对小学生偏文言(r23/r24 均建议,未采纳,不阻塞)。",
+          "fix": "改为“油菜是自交亲和的植物——用自己的花粉也能结出种子”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间",
+          "problem": "[可选] 清单项 4 受众适配:括注归属已可懂、口径与刺槐条目一致(合格);“零点几到两毫克”仍不如数字直观(r24 建议未采纳,不阻塞)。出处是否确为德文维基“Raps”页由事实核查员确认,不在本视角复核。",
+          "fix": "数字可写作“约 0.1–2 毫克”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "却是中国北方、欧洲与美国东部都举足轻重的蜜源树",
+          "problem": "[可选] 清单项 5 敏感表述(入侵物种):刺槐在欧洲多国被列为入侵植物,卡片只讲蜜源价值(r23/r24 均建议,未采纳,属可选不阻塞)。",
+          "fix": "summary 末尾补一句“它生长快、适应性强,在欧洲一些地区也被视为入侵植物”,并补相应来源。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "对多种蜂都是良好的蜜源;田间观测显示,泌蜜多在中午前后最旺。",
+          "problem": "[已解决] r24 fail 已修复:全称判断“各类蜂都”改为“多种蜂”,泌蜜时段加上“田间观测显示”限定,与花蕊条目(据印度的田间观测)口径一致,不再是无限定的普遍规律。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它拿走了花蜜,却几乎不带走花粉、不传粉",
+          "problem": "[可选] 清单项 1 / 清单项 6:“几乎”的辖域不清,末尾“不传粉”单看是绝对表述,与关系 rel-mellifera-alfalfa-na-summer 的“几乎不传粉”口径有微差(r24 建议未采纳,不阻塞)。",
+          "fix": "改为“却几乎不带走花粉、也几乎不传粉”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "编辑整理:依据是美国加州制种田的研究……本地域(美国东北部与中西部)未见专门记载。",
+          "problem": "[已解决] r24 可选问题已处理:无来源的“中西部大平原是主产区”一句已删,理由写明;“本地域(美国东北部与中西部)”与地域卡定义(五大湖、新英格兰与中西部)一致。剩余润色:“制种田”仍无简释(可选)。",
+          "fix": "可写作“培育杂交种子的制种田”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+          "problem": "[已解决] r24 fail 已修复:内部待办批注“待人工确认”清零,改为读者口吻的诚实交代;三条同研究关系核心措辞已统一。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+          "problem": "[已解决] r24 fail 已修复:内部批注清零,与另两条同研究关系措辞统一。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "(论文未注明试验地点,本馆未能核实是否在中国,仅供参考)",
+          "problem": "[已解决] r24 fail 已修复:内部批注清零,核心措辞与另两条统一(置于括注内不影响一致性)。括注偏长,但读者可懂,不阻塞。",
+          "fix": "无需进一步修改;如求更顺,可把括注移到句末与另两条完全同构。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "evidence: editorial;note: 编辑整理:……德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用(泛指熊蜂属);点名到欧洲熊蜂管理蜂群的研究记载来自智利等地。",
+          "problem": "[已解决] r24 fail 已修复:evidence 已降为 editorial,note 加“编辑整理:”前缀并写明理由(本地域来源未点名到种、点名到种的研究在智利),与同构的 rel-bombus-clover-ce-summer 口径一致。剩余润色:“点名到欧洲熊蜂管理蜂群的研究记载”语序稍拗口(可选)。",
+          "fix": "可改为“把欧洲熊蜂作为授粉蜂群使用的研究记载来自智利等地”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

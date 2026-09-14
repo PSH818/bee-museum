@@ -1,0 +1,171 @@
+{
+  "lens": "refutation",
+  "round": 28,
+  "reviewedAt": "2026-09-08T02:05:00.000Z",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一株通常能开三到五周。/ 中文里叫“油菜”的植物不止一种……菜市场的小油菜是它的近亲,不是同一种。",
+          "problem": "进攻未击穿:实测核对条目自引的德文维基 Raps,原文为 'Witterungsabhängig beträgt die Blühdauer eines Exemplars etwa drei bis fünf Wochen',三到五周与来源一致;'结晶细腻呈脂状'对应 'fein und schmalzartig kandierend',亦一致。小油菜(青菜/上海青)为 Brassica rapa 的变种,甘蓝型油菜 B. napus 是 B. rapa × B. oleracea 的异源多倍体,'近亲、不是同一种'表述准确。总状花序自下而上开放是十字花科无限花序的标准描述,无反例。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "北美的“三叶草蜜”也常来自近缘的草木樨。",
+          "problem": "进攻未击穿:这正是我方 r27 对 honey-clover 的攻击点,馆方连带在花朵馆同步修正,且新增 MSU sweet clovers 来源背书。Melilotus 与 Trifolium 同属豆科车轴草族(Trifolieae),'近缘'成立;'常来自'留有余地,未做全称断言。花期 5–10 月与 Minnesota Wildflowers 等来源相容。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿蜜色极浅(白)、味淡雅。",
+          "problem": "轻微收窄但未构成事实错误:McGregor(USDA 1976)的口径是 white or extra light amber(白至特浅琥珀),'色极浅'涵盖了这一区间,括注'(白)'略偏向最浅一端。弹射机关('龙骨瓣绷着雌雄蕊柱,一压弹开打在蜂头下方')、蜜蜂侧位吸蜜避开机关、留种依赖切叶蜂——均与 McGregor 一致,进攻未击穿。",
+          "suggestion": "如求与来源完全对齐,可写'白至特浅琥珀色'。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜂蜜最主要的原料 / boundary:少数蜜种不以花蜜为原料:欧洲市场的“甘露蜜(森林蜜)”来自蚜虫等昆虫的含糖分泌物。",
+          "problem": "r27 甘露蜜攻击点已化解:'唯一原料'改为'最主要的原料',并新增 boundary 明示甘露蜜例外,与 en.wikipedia Honey 开篇 'primarily floral nectar…or the secretions of other insects, like the honeydew of aphids' 完全对齐(本轮已实测复核)。'花朵蜜腺分泌'作为对'花蜜'一词的定义成立(花外蜜腺分泌物不叫花蜜),r27 次要点不再成立。'主要成分是蔗糖、葡萄糖、果糖和水,含糖比例随花种差别很大'无懈可击。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜胃与消化道之间有一道阀门(前胃)把关:大部分花蜜留在蜜胃里带回巢,只有蜂自己取食的一小部分、和被滤出的花粉,经阀门进入消化道。",
+          "problem": "r27 攻击点('互不相混'的过强断言与自相矛盾)已按建议改写化解:新表述与 Snodgrass 对前胃(proventriculus)阀门与滤取花粉功能的经典描述一致,'大部分/一小部分'的量化措辞留有余地。'归巢路上加工已经开始,混入头部腺体的酶'为标准描述(转化酶来自下咽腺,位于头部)。再进攻未找到新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "微生物才真正难以生长繁殖……蜂蜜里可能有休眠的肉毒杆菌芽孢,所以一岁以下的婴儿不能喂食蜂蜜。",
+          "problem": "r27 两个攻击点均已化解:(1)'难以存活'改为'难以生长繁殖',与 en.wikipedia Honey 'unfavorable to microbiological reproduction' 口径一致;(2) 防腐归因已改为酶促偏酸+下一步脱水共同作用,顺序正确;(3) 新增肉毒芽孢与婴儿警示——'一岁以下婴儿不能喂食蜂蜜'与 CDC/AAP/WHO 一致口径(12 个月以下)吻合,这是新引入表述中立得最稳的一条。葡萄糖氧化酶→葡萄糖酸+过氧化氢的化学无误。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刚采回的花蜜通常一半以上是水……水分收到大约两成以下——更严的口径要到 18% 以下……维基百科给约 15.5%–18%,不少法规与教材以 20% 为上限。",
+          "problem": "进攻未击穿:本轮实测复核 en.wikipedia Honey,原文 'Nectar…has a water content of 70 to 80%'、'evaporating continues until the honey reaches its final water content of between 15.5% and 18%'、'so long as its water concentration does not rise much above 18%',新引入的'约 15.5%–18%'与来源逐字吻合;20% 上限与 Codex 一致。r27 建议的'通常'已加入,浓花蜜反例被兜住。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂属靠它撑过缺花的季节——温带是冬天,热带则是断蜜的旱季或雨季。",
+          "problem": "r27 热带蜜蜂攻击点已按建议化解:不再对蜜蜂属做'撑过冬天'的全称断言。热带蜜蜂(大蜜蜂、小蜜蜂、热带东方蜜蜂)确以储蜜渡过旱雨季断蜜期,虽然它们也会迁飞弃巢,但条目未排除这一点。'封盖是养蜂人判断取蜜时机的依据''腹部蜡腺分泌蜂蜡'均为标准描述。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至乳黄;极易结晶,结晶细腻呈脂状。",
+          "problem": "进攻未击穿:r27 提示口径有地区差异的'味微辛'已删去,余下色泽与结晶描述与德文维基 Raps('fein und schmalzartig kandierend')及养蜂教学资料一致。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "它的色泽与风味分级,本馆尚未找到足以展出的系统资料。",
+          "problem": "新引入的编辑自限定名实不符,被条目自引来源直接击穿:本轮实测条目自己引用的 en.wikipedia Monofloral honey,其中明确给出洋槐蜜(acacia honey)的色泽('a light and clear honey…from light yellow to almost colorless')、风味('mild delicate floral taste')与结晶行为('It lasts as a liquid due to being high in fructose')。洋槐蜜恰恰是欧洲表征最充分的单花蜜之一——Persano Oddo & Piro 2004(Apidologie《Main European unifloral honeys: descriptive sheets》)对 Robinia 蜜有完整的感官与理化描述表。'尚未找到系统资料'对蓝莓蜜成立(r27 已核实),照搬到洋槐蜜就是假稀缺;且因此漏掉了洋槐蜜最著名的展出点——高果糖、久不结晶,与隔壁油菜蜜'极易结晶'正好构成对照。",
+          "suggestion": "改为'水白至浅黄,味清淡花香;果糖比例高,久不结晶——与油菜蜜恰成对照'(可引 en.wikipedia Monofloral honey 及 Persano Oddo & Piro 2004),删去'尚未找到系统资料'一句。"
+        },
+        {
+          "claim": "一株成年树一个花季分泌的花蜜约可酿出 0.7–1.4 公斤蜂蜜。",
+          "problem": "此点进攻未击穿:r27 建议的区间写法已采纳,德文维基原文 0,66–1,44 kg,'约 0.7–1.4'为合理取整,且保留了转引归因。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "在北美还大量来自近缘的草木樨属(sweet clover)。",
+          "problem": "r27 张冠李戴攻击点已按建议化解,并新增 MSU sweet clovers 来源背书;Melilotus 与 Trifolium 同为车轴草族,'近缘'成立。'色泽与风味尚未找到足以展出的系统资料'的自限定对三叶草蜜基本成立:三叶草蜜的描述多为商业分级口径(白至特浅琥珀、味淡),Persano Oddo 的欧洲单花蜜描述表未收录 Trifolium,系统感官表征确实薄弱——与洋槐蜜情形不同,此处自限定名实相符,进攻未击穿。",
+          "suggestion": "可选:仿蓝莓蜜写法,把'白至特浅琥珀、味淡'作为商业分级口径带出处展出。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "色极浅(白),味淡雅。",
+          "problem": "轻微收窄但未击穿:r27 通过的表述是'白色至特浅琥珀色',本轮改成'色极浅(白)',丢掉了 McGregor(USDA 1976)'white or extra light amber' 区间的琥珀端。苜蓿蜜以白色为典型、'色极浅'仍然为真,故不判 fail,但这是一次把准确区间改窄的倒退式修改。",
+          "suggestion": "恢复'白至特浅琥珀色'的区间写法(flower-medicago-sativa 的 nectar 字段同步)。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "所有蜜蜂幼虫约头三天都吃它。",
+          "problem": "进攻未击穿:加'约'后与 en.wikipedia Royal jelly 主流口径一致;worker jelly 与 royal jelly 的成分差异在展馆粒度下不构成错误(r27 已说明)。'不是蜂蜜的原料或浓缩版'的辨析、'本馆的边界'自限定(不谈人体功效)均名实相符。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "在温带,熊蜂蜂群通常一年一代,秋末解散、只有新蜂王越冬,因此不需要大宗过冬存粮;热带熊蜂和暖冬地区的欧洲熊蜂群体可以更长寿。",
+          "problem": "r27 攻击点已化解,对新引入的'可以更长寿'做了重点复核:(1) 热带端成立——新热带 Bombus atratus/pauloensis 多年生蜂群有系统记录;(2) 暖冬端成立但机制有两种——新西兰引入种群有蜂群越冬、存活超过一年的记录('更长寿'字面成立);而条目所引 PLoS ONE 2010 记录的英国城市冬季活跃种群,严格说是秋冬新建的一代蜂群(原文:nest-founding queens in October/November…mirrors a typical spring/summer generation),不是同一蜂群活得更久。'可以'的限定与'群体'的宽泛措辞使句子在展馆粒度下站得住,故不判 fail。",
+          "suggestion": "如求精确,可写'热带熊蜂的蜂群可以多年不散;暖冬地区的欧洲熊蜂则可能不冬眠,秋冬再起一代,甚至整群越冬'。"
+        },
+        {
+          "claim": "独居蜂……幼虫吃着这份口粮长大,全程没有“蜂蜜”。/ 熊蜂蜡罐存蜜少、只够吃几天。",
+          "problem": "进攻未击穿:独居蜂蜂粮(pollen provision)与熊蜂蜡罐(nectar pot)的描述均为标准口径,'通常只够蜂群吃上几天'与 Heinrich 等对熊蜂储蜜量的描述一致。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

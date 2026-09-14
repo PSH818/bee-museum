@@ -1,0 +1,390 @@
+{
+  "generatedAt": "2026-08-25T02:40:34.245Z",
+  "round": 6,
+  "baseRound": null,
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-haplodiploidy",
+      "title": "Haplodiploidy",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Haplodiploidy",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "更小的身体,同样完整的采集系统",
+      "latin": "Apis cerana · worker",
+      "description": "东方蜜蜂工蜂体长约 10–11 mm(西方蜜蜂工蜂约 12–15 mm;不同资料略有差异),腹部有四条黄色环纹;它能在较大的环境温差下维持稳定的巢温,是亚洲本土传统养蜂的主角。",
+      "fact": "中华蜜蜂(中蜂)是东方蜜蜂的亚种;面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-worker-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "够不到的花蜜,就咬个孔",
+      "latin": "compound eyes · antennae · proboscis",
+      "description": "熊蜂头部同样由复眼、单眼、触角和口器构成。遇到深冠筒的花,欧洲熊蜂常在花冠基部咬孔取蜜,这种行为叫\"盗蜜\"。",
+      "fact": "熊蜂个体间体型差异很大:同一巢的工蜂胸部长度可差两三倍,体重可差十倍以上。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-nectar-robbing",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "没有蜂群的蜂:一只雌蜂就是整个家",
+      "latin": "Osmia cornifrons · female",
+      "description": "角额壁蜂是独居蜂:没有蜂王、工蜂之分,每只雌蜂独自选巢、采粉、产卵、封巢。它原产东亚;据报道,自 1940 年代起的约五十年间,日本(尤其青森等主产区)半数以上的苹果园曾用它授粉;1977 年它被引入美国东部,此后在美国东部与中西部定殖。",
+      "fact": "它用泥土在竹管或芦苇管里隔出一间间巢室,每室放一个花粉球和一枚卵——它的英文名 mason bee(泥匠蜂)由此而来。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-exotic-bee-id"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会裁剪树叶的小蜂",
+      "latin": "Megachile rotundata · female",
+      "description": "苜蓿切叶蜂体长仅 6–9 mm,深灰色身体披白色细毛。它是独居蜂,不筑群、不储蜜;雌蜂用大颚从叶片上剪下圆片,卷成顶针状的巢室。原产欧洲(部分资料认为其原产地延伸至西亚);传入北美后被用于给生产种子的苜蓿田授粉(是否为有意引入各资料说法不一),并被有意引入新西兰和澳大利亚。",
+      "fact": "一间巢室大约要用 15 片叶子;雌蜂先吐入花蜜,再把集粉毛上的花粉抖在上面,最后产卵封室。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会闪紫光的大蜂",
+      "latin": "Xylocopa violacea · female",
+      "description": "紫木蜂是欧洲最大的蜂类之一,通体黑色、带微弱光泽;标志性的蓝紫色虹彩主要来自它烟紫色的翅膀。它是独居蜂,分布以欧洲为主,向东延伸至亚洲(东界各资料不一,英文资料称达中国中部)。",
+      "fact": "成蜂夏末羽化后越冬,次年春季(约三至五月,因地区而异)出来活动;雌蜂独自在枯木中钻洞筑巢。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:apis-cerana",
+      "kind": "species",
+      "id": "apis-cerana",
+      "name": "东方蜜蜂",
+      "scientificName": "Apis cerana",
+      "englishName": "Eastern honey bee",
+      "family": "蜜蜂科 Apidae",
+      "distribution": "亚洲南部与东部的传统饲养蜂种;中华蜜蜂为其分布于中国的亚种",
+      "socialStructure": "高度社会性,群体结构与西方蜜蜂相近",
+      "nesting": "在树洞等隐蔽空腔内筑巢,巢由多片平行悬挂的蜡质巢脾(蜂巢片)组成",
+      "workerBodyLengthMm": {
+        "min": 10,
+        "max": 11
+      },
+      "summary": "工蜂体长约 10–11 mm(不同资料约 9–12 mm),腹部有四条黄色环纹;与亚洲本土植物和传统养蜂关系密切,对胡蜂等天敌有独特的集体防御行为。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-worker-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "kind": "species",
+      "id": "osmia-cornifrons",
+      "name": "角额壁蜂",
+      "scientificName": "Osmia cornifrons",
+      "englishName": "Hornfaced bee",
+      "family": "切叶蜂科 Megachilidae · 壁蜂属",
+      "distribution": "原产东亚(日本、朝鲜半岛、中国、俄罗斯远东);1977 年引入美国东部,此后在美国东部与中西部定殖",
+      "socialStructure": "独居:每只雌蜂独立筑巢、采粉、产卵",
+      "nesting": "利用竹管、芦苇及树木现成孔洞,以泥土分隔巢室并封口",
+      "workerBodyLengthMm": {
+        "min": 8,
+        "max": 12
+      },
+      "summary": "独居蜂代表,曾是日本苹果园的主力授粉蜂之一;花粉粘附在腹面的集粉毛上,而不是像蜜蜂那样装在后足花粉筐里。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-scopa",
+        "src-exotic-bee-id"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "kind": "species",
+      "id": "megachile-rotundata",
+      "name": "苜蓿切叶蜂",
+      "scientificName": "Megachile rotundata",
+      "englishName": "Alfalfa leafcutter bee",
+      "family": "切叶蜂科 Megachilidae · 切叶蜂属",
+      "distribution": "原产欧洲(部分资料认为延伸至西亚);传入北美后成为苜蓿制种的授粉蜂,并被有意引入新西兰、澳大利亚",
+      "socialStructure": "独居:不筑群、不储蜜,雌蜂独立供养巢室",
+      "nesting": "在现成孔洞内用大颚剪下的叶片圆片卷成顶针状巢室",
+      "workerBodyLengthMm": {
+        "min": 6,
+        "max": 9
+      },
+      "summary": "会裁剪树叶筑巢的小型独居蜂,深灰体色覆白色细毛,腹面集粉毛携粉;苜蓿制种业的重要授粉蜂。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "kind": "species",
+      "id": "xylocopa-violacea",
+      "name": "紫木蜂",
+      "scientificName": "Xylocopa violacea",
+      "englishName": "Violet carpenter bee",
+      "family": "蜜蜂科 Apidae · 木蜂属",
+      "distribution": "以欧洲为主,向东延伸至亚洲(东界各资料不一,英文资料称达中国中部);主要分布于北纬 30 度以北",
+      "socialStructure": "独居:雌蜂独自筑巢",
+      "nesting": "在枯木中用大颚啃出隧道状巢穴",
+      "workerBodyLengthMm": {
+        "min": 20,
+        "max": 28
+      },
+      "summary": "欧洲最大的蜂类之一:黑色身体带微弱光泽,翅呈烟紫色并带蓝紫虹彩;夏末羽化越冬,春季活动,被认为能进行振动授粉。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-dewiki-blaue-holzbiene",
+        "src-wikipedia-carpenter-bee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    }
+  ]
+}

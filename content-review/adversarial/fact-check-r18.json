@@ -1,0 +1,63 @@
+{
+  "lens": "fact-check",
+  "round": 18,
+  "reviewedAt": "2026-08-25T08:05:00Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "status": "ok",
+      "note": "抓取 1 次。含按日龄分工列表:Cell cleaning (days 1–2) / Nurse bees (days 3–12) / Queen attendants (days 7–11) / Wax production (days 13–18) / Guard bee (18–21) / Foraging bees (days 21–42);以及 worker jelly 与 royal jelly 同源腺体、21 天发育期。"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "status": "ok",
+      "note": "抓取 1 次。含幼虫由哺育蜂喂养、约一周后封盖化蛹、再约一周出房;工蜂头 10 天清巢与喂幼虫;前 3 天喂蜂王浆后改喂花粉花蜜混合物。"
+    },
+    {
+      "sourceId": "src-wikipedia-bee-brood",
+      "url": "https://en.wikipedia.org/wiki/Bee_brood",
+      "status": "ok",
+      "note": "抓取 1 次。含发育时间表(卵至第 3 天孵化、工蜂巢房约第 9 天封盖、第 21 天出房)、前 3 天喂蜂王浆后改喂花蜜/稀释蜂蜜与花粉、蜂王浆为年轻工蜂头部腺体分泌物。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "spanText/span:哺育阶段为出房后第 3–12 天(第 23–33 天;span from 23 to 33)",
+          "problem": "支持。Worker bee 分工列表原句:\"Nurse bees (days 3–12)\"。按本轮换算约定(出房 = 第 21 天,\"出房后第 N 天\"边界 = 21 + N),第 3 天起点 = 21 + 2 = 23,第 12 天终点 = 21 + 12 = 33,与 span {23, 33} 一致。附注:Western honey bee 给出另一种粗略说法 \"For the first 10 days of their lives, worker bees clean the hive and feed the larvae\",与 3–12 天不完全重合但并非否定,属不同来源的概括口径。",
+          "evidence": "Worker bee: \"Nurse bees (days 3–12)\";\"After this 21 day developmental period, the adult bee will chew through its wax cap and cocoon and emerge into the hive as a fully grown bee.\"",
+          "fix": "无需修改;若想兼容 Western honey bee 的口径,可在 spanText 前加\"约\"。"
+        },
+        {
+          "claim": "summary:哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫(常称\"工蜂浆\",与蜂王浆来自同一类腺体)",
+          "problem": "支持。Worker bee 明确写工蜂幼虫吃 worker jelly,且该分泌物来自产生 royal jelly 的腺体;Bee brood 写蜂王浆为年轻工蜂头部腺体分泌物。\"常称\"已作限定。",
+          "evidence": "Worker bee: \"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.\";Bee brood: \"worker bees add royal jelly - a secretion from glands on the heads of young bees.\"",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "summary:其中一部分(约出房后第 7–11 天)也会给蜂王喂食、梳理体表",
+          "problem": "支持。Worker bee 分工列表 \"Queen attendants (days 7–11)\",职责为喂食与梳理蜂王;数字一致且已用\"约\"限定。",
+          "evidence": "Worker bee: \"Queen attendants (days 7–11)\";\"Queen attendants take care of the queen by feeding and grooming her.\"",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "detail:哺育蜂喂养幼虫约 6 天",
+          "problem": "支持(已限定\"约\")。Bee brood 时间表:卵至第 3 天孵化、工蜂巢房至第 9 天封盖,即幼虫开放喂养期约 6 天;Western honey bee 亦称约一周后封盖。",
+          "evidence": "Bee brood 发育表:eggs \"until day 3\"、cell capping \"until day 9\";Western honey bee: \"After about a week, the larva is sealed in its cell by the nurse bees and begins its pupal stage.\"",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "detail:约第 9 天巢房被封上蜡盖,幼虫在里面化蛹",
+          "problem": "支持。Bee brood 时间表工蜂封盖在第 9 天;Western honey bee 写封盖后进入蛹期;Worker bee 写成蜂咬破蜡盖出房,证明盖为蜡质。",
+          "evidence": "Bee brood: cell capping \"until day 9\"、emergence \"from day 21 on\";Western honey bee: \"the larva is sealed in its cell by the nurse bees and begins its pupal stage. After another week, it emerges as an adult bee.\";Worker bee: \"the adult bee will chew through its wax cap and cocoon\"。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "task": "蜂之境 花朵馆 研究资料 C 组:薰衣草、紫花苜蓿 + 三地域气候界定",
+    "date": "2026-08-26",
+    "notes": [
+      "每条 quote 为来源页面原句(英文/中文原文未改动),value 为中文整理;查不到的字段写“未找到”。",
+      "Flora of China(efloras.org)页面 HTTPS 证书异常,通过 curl 抓取原文核对;引用 URL 为其 http 地址。",
+      "商业/爱好者网站(buzzaboutbees.net、本地宝等)仅作补充,已在 reliability 字段标注,撰写时应优先使用维基百科/Flora of China/USDA/期刊来源。"
+    ]
+  },
+  "flowers": [
+    {
+      "id": "lavandula-angustifolia",
+      "scientific_name": "Lavandula angustifolia",
+      "fields": {
+        "family": {
+          "value": "唇形科 Lamiaceae",
+          "quote": "Lavandula angustifolia, formerly L. officinalis, is a flowering plant in the family Lamiaceae, native to the Mediterranean basin.",
+          "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia"
+        },
+        "english_names": {
+          "value": "lavender、true lavender、English lavender;另有 garden lavender、common lavender、narrow-leaved lavender",
+          "quote": "Its common names include lavender, true lavender and English lavender",
+          "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia"
+        },
+        "chinese_names": {
+          "value": "薰衣草(Flora of China 正式中文名);狭叶薰衣草(英文维基跨语言链接);中文维基以“薰衣草属”为条目名",
+          "quote": "薰衣草 xun yi cao",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757"
+        },
+        "flower_form": {
+          "value": "两侧对称的二唇形管状花冠(唇形科典型);6–10 花的轮伞花序密集排成约 3(–5) cm 的顶生穗状花序;花序生于细长无叶的花枝顶端,穗长 2–8 cm",
+          "quote": "Verticillasters 6-10-flowered, numerous, in crowded, interrupted or ± continuous spikes ca. 3(-5) cm; peduncle ca. 3 × as long as spike",
+          "quote_2": "The flowers are typically purple (lavender-coloured), produced on spikes 2–8 cm (1–3 in) long at the top of slender, leafless stems",
+          "quote_3": "The sepal calyx is tubular. The corolla is also tubular, usually with five lobes (the upper lip often cleft, and the lower lip has two clefts).",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757",
+          "url_2": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
+          "url_3": "https://en.wikipedia.org/wiki/Lavandula"
+        },
+        "corolla_length_mm": {
+          "value": "花冠全长 8–10 mm(Flora of China);花萼 4–5 mm。注意:这是花冠总长而非花冠管净深度,未找到单独的花冠管深度数据。Balfour 等 2013 用手术刀缩短花冠管的实验表明管长直接影响蜜蜂取蜜时间。",
+          "quote": "Calyx ovoid-tubular to subtubular, 4-5 mm, 13-veined, densely gray stellate tomentose outside; upper lip entire, lower lip equally 4-toothed. Corolla blue, 8-10 mm, 13-veined, densely tomentose outside",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757"
+        },
+        "bloom_general": {
+          "value": "夏季(北半球总体 6–8 月;Flora of China 记 6 月;英国 PFAF 记 7–9 月;NC State 记“Summer”)。英文维基未给具体月份。",
+          "quote": "Fl. Jun.",
+          "quote_2": "It is in flower from July to September",
+          "quote_3": "Bloom Time: Summer",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757",
+          "url_2": "https://pfaf.org/user/Plant.aspx?LatinName=Lavandula+angustifolia",
+          "url_3": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/"
+        },
+        "bloom_china_east": {
+          "value": "中国东部温带无专门记载;Flora of China 全国性描述为 6 月开花。中国主产区在新疆伊犁(非东部):伊犁州气象局 2023 年预报最佳观赏期 6 月 10 日–7 月 6 日。",
+          "quote": "Fl. Jun.",
+          "quote_2": "预计伊犁河谷各薰衣草种植区最佳观赏期自6月10日起至7月6日",
+          "quote_3": "主要的種植地是新疆伊犁（伊寧）地區和甘肅清水地區",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757",
+          "url_2": "https://xj.weather.com.cn/xjsy/tqyw/3624924.shtml",
+          "url_3": "https://zh.wikipedia.org/wiki/薰衣草",
+          "reliability": "中国天气网为气象局官方发布;针对新疆伊犁而非华北—长江中下游,东部地区月份属推断,应在卡片中如实标注"
+        },
+        "bloom_central_europe": {
+          "value": "未找到中欧专门记载。英国来源(PFAF,温带海洋性气候)记 7–9 月;保加利亚北部研究在 6–7 月观察访花;英国 Sussex 研究以 Lavandula × intermedia 'Grosso' 夏季为期。",
+          "quote": "It is in flower from July to September",
+          "quote_2": "During our study, the only visitors to lavender that we observed in the Botanical Garden in June – July 2020 were bees ( Hymenoptera )",
+          "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lavandula+angustifolia",
+          "url_2": "https://biorisk.pensoft.net/article/77364/"
+        },
+        "bloom_north_america_temperate": {
+          "value": "NC State Extension(美国东南/中大西洋)仅记“Summer”,耐寒区 USDA 5a–9b;未找到东北/中西部专门月份。",
+          "quote": "Bloom Time: Summer",
+          "url": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/"
+        },
+        "nectar_pollen": {
+          "value": "重要蜜源(优质单花蜜);花蜜丰富,产“薰衣草蜜”,主产于地中海周边(法国、意大利、西班牙),色淡黄、味木质花香。PFAF 称“a good bee plant”,花富含花蜜和花粉。",
+          "quote": "The flowers yield abundant nectar, from which bees make a high-quality honey. Monofloral honey is produced primarily around the Mediterranean Sea",
+          "quote_2": "Lavender | Light yellow | Woody, floral | Produced mainly in France, Italy and Spain",
+          "quote_3": "A good bee plant, also attracting butterflies and moths",
+          "quote_4": "薰衣草的花會分泌大量的花蜜，這些花蜜可以生產高品質蜂蜜",
+          "url": "https://en.wikipedia.org/wiki/Lavandula",
+          "url_2": "https://en.wikipedia.org/wiki/Monofloral_honey",
+          "url_3": "https://pfaf.org/user/Plant.aspx?LatinName=Lavandula+angustifolia",
+          "url_4": "https://zh.wikipedia.org/wiki/薰衣草"
+        },
+        "pollinator_dependence": {
+          "value": "高度依赖传粉者。保加利亚试验:隔离传粉者的 683 朵花结实率 0%,对照 85.9%,表明无自发自交结实;精油产量也与授粉相关(未授粉花脱落)。PFAF 标注“self-fertile”与此结论相左,应以实验研究为准。",
+          "quote": "At the experimental plot, the fruit-set of all flowers from which pollinators were excluded (N = 683) was 0% while that of the control (N = 64) was 85.9%. This strongly suggests an absence of spontaneous self-pollination.",
+          "quote_2": "The producers of lavender essential oil are well aware that the greatest quantity of oil is obtained near the end of the inflorescence anthesis and that oil quantity is correlated with the pollination as unpollinated flowers drop down.",
+          "url": "https://biorisk.pensoft.net/article/77364/",
+          "url_2": "https://biorisk.pensoft.net/article/77364/"
+        },
+        "native_range": {
+          "value": "原产地中海盆地",
+          "quote": "native to the Mediterranean basin",
+          "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia"
+        }
+      },
+      "visitors": [
+        {
+          "species": "Apis mellifera",
+          "cn": "西方蜜蜂",
+          "recorded": "有",
+          "relationship": "合法访花取蜜的传粉者,但因舌短(6–7 mm)处理管状花慢(约 3.5 s/花,熊蜂 1.1–1.4 s),在薰衣草上数量远少于熊蜂(Sussex 计数:熊蜂 92%、蜜蜂 8%);仍是薰衣草蜜的生产者。",
+          "quote": "Bumblebees spent 1.1-1.4 seconds per lavender flower, as opposed to the slower honey bee's 3.5 seconds per flower.",
+          "quote_2": "The tubular flowers of lavender make nectar extraction harder for the shorter-tongued honey bee, which has to jam its head into each flower to get to the nectar.",
+          "quote_3": "Bumblebees dominated the pollinators at both experimental plots, followed by honeybees",
+          "quote_4": "The flowers yield abundant nectar, from which bees make a high-quality honey.",
+          "url": "https://archive.sussex.ac.uk/broadcast/read/19067",
+          "url_2": "https://archive.sussex.ac.uk/broadcast/read/19067",
+          "url_3": "https://biorisk.pensoft.net/article/77364/",
+          "url_4": "https://en.wikipedia.org/wiki/Lavandula",
+          "note": "92%/8% 的数字来自 Balfour, Garbuzov & Ratnieks 2013, Ecological Entomology 38:323–329 (doi:10.1111/een.12019),原文页面 403 未能直接抓取,数字见搜索摘要;卡片若引用请以 Sussex 新闻稿原句或期刊摘要为准。"
+        },
+        {
+          "species": "Apis cerana",
+          "cn": "东方蜜蜂",
+          "recorded": "未找到",
+          "relationship": "未找到任何词条或文献原句记载东方蜜蜂访薰衣草;新疆伊犁薰衣草区相关中文检索亦无结果。薰衣草原产地中海、东方蜜蜂原产亚洲,二者自然分布不重叠。",
+          "quote": "未找到",
+          "url": "https://en.wikipedia.org/wiki/Apis_cerana"
+        },
+        {
+          "species": "Bombus terrestris",
+          "cn": "欧洲熊蜂",
+          "recorded": "有",
+          "relationship": "主要且占优势的传粉者。保加利亚研究明确记录 Bombus terrestris(及 B. terrestris/lucorum 复合种)访花,并称 B. terrestris 是典型优势种;熊蜂舌更长、处理薰衣草花速度约为蜜蜂三倍。",
+          "quote": "During our study, the only visitors to lavender that we observed in the Botanical Garden in June – July 2020 were bees ( Hymenoptera ): Anthidium manicatum (Linnaeus, 1758), Lasioglossum spp. Bombus pascuorum (Scopoli, 1763), Bombus terrestris (Linnaeus, 1758) and/or B. lucorum (Linnaeus, 1761) and some unidentified bumblebees, Apis mellifera (Linnaeus, 1758)",
+          "quote_2": "Bumblebees forage more efficiently because they have longer tongues and can process lavender flowers three times faster than honeybees ( Balfour et al. 2013 ). In addition, bumblebees, in general and, in particular, the typically dominant B. terrestris",
+          "quote_3": "Our results correspond to previous findings as it is shown that lavender ( Lavandula spp.) flowers attract more bumblebees ( Bombus spp.) than honeybees ( A. mellifera ) ( Herrera 1990a , Balfour et al. 2013 , Benachour 2017 ).",
+          "url": "https://biorisk.pensoft.net/article/77364/",
+          "url_2": "https://biorisk.pensoft.net/article/77364/",
+          "url_3": "https://biorisk.pensoft.net/article/77364/",
+          "note": "维基百科 Bombus terrestris 词条只泛称“forage on a large variety of flower species”,未点名薰衣草。"
+        },
+        {
+          "species": "Osmia cornifrons",
+          "cn": "角额壁蜂",
+          "recorded": "未找到",
+          "relationship": "未找到访薰衣草记载。该蜂 4 月前后羽化、主要用于苹果等果树授粉,活动期(春季)与薰衣草花期(初夏)基本不重叠。",
+          "quote": "Males emerge from their nests around April, just prior to the blooming of apple orchards.",
+          "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons"
+        },
+        {
+          "species": "Megachile rotundata",
+          "cn": "苜蓿切叶蜂",
+          "recorded": "未找到",
+          "relationship": "未找到访薰衣草记载(维基词条所列传粉作物为苜蓿、其他豆科、油菜、三叶草、矮丛蓝莓)。保加利亚研究记录到同科的 Anthidium 属(切叶蜂科)访花,但非本种。",
+          "quote": "Medicago sativa, Other Legumes, Brassica napus, Trifolium spp., Vaccinium angustifolium",
+          "url": "https://en.wikipedia.org/wiki/Megachile_rotundata"
+        },
+        {
+          "species": "Xylocopa violacea",
+          "cn": "紫木蜂",
+          "recorded": "有(仅爱好者网站),权威来源未找到",
+          "relationship": "buzzaboutbees.net 列出薰衣草为其访问植物之一;瑞士 biocommunication.org 称其为广食性、偏好豆科(Lathyrus)与唇形科(Salvia、Lamium)花粉。英文维基词条未提薰衣草,图注仅有 Phlomis viscosa、蓟、紫菀、香豌豆;保加利亚薰衣草传粉研究亦未记录到 Xylocopa。",
+          "quote": "has been observed to visit Nasturtiums, Wisteria, Lavender, Sweetpea, Runner bean, Broadbean, Scorpion senna, and peach blossom among others",
+          "quote_2": "They seem to prefer pollen from Fabaceae (especially Lathyrus) and Lamiaceae (especially Salvia and Lamium).",
+          "quote_3": "The range of Xylocopa violacea extends from Europe eastward across Asia as far as central China, restricted to latitudes above 30 degrees.",
+          "url": "https://www.buzzaboutbees.net/violet-carpenter-bee.html",
+          "url_2": "https://biocommunication.org/en/insects360/friends-or-foes/a-friend-who-can-be-a-nuisance-the-violet-carpenter-bee/",
+          "url_3": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+          "reliability": "薰衣草访花记载仅见爱好者网站,建议卡片措辞为“有观察记录/偶见”,不宜写成“主要传粉者”"
+        }
+      ]
+    },
+    {
+      "id": "medicago-sativa",
+      "scientific_name": "Medicago sativa",
+      "fields": {
+        "family": {
+          "value": "豆科 Fabaceae",
+          "quote": "Alfalfa (/ælˈfælfə/), also called lucerne, and called Medicago sativa in binomial nomenclature, is a perennial flowering plant in the legume family, Fabaceae.",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa"
+        },
+        "english_names": {
+          "value": "alfalfa(北美)、lucerne(英国、南非、澳大利亚、新西兰)",
+          "quote": "commonly known as alfalfa in North America and lucerne in the United Kingdom, South Africa, Australia, and New Zealand",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa"
+        },
+        "chinese_names": {
+          "value": "紫花苜蓿(中文维基条目名);Flora of China 中文名“紫苜蓿”;别名紫苜蓿、牧蓿、苜蓿、路蒸",
+          "quote": "又叫做紫苜蓿、牧蓿、苜蓿、路蒸",
+          "quote_2": "紫苜蓿 zi mu xu",
+          "url": "https://zh.wikipedia.org/wiki/紫花苜蓿",
+          "url_2": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215"
+        },
+        "flower_form": {
+          "value": "蝶形花(两侧对称,旗瓣、翼瓣、龙骨瓣);腋生总状/头状花序,5–30(常 5–20)朵小花,花序长 1–2.5 cm;花色多为紫色,亦有蓝、黄、乳白",
+          "quote": "Heads or racemes with 5-30 flowers, 1-2.5 cm; peduncles straight, longer than leaves; bracts equal to pedicels, ca. 2 mm. Corolla variable in color, white, deep blue, to dark purple; standard oblong, retuse.",
+          "quote_2": "The plant has clusters of 5–20 florets, which are usually purple but can be blue, yellow, or cream.",
+          "quote_3": "叶腋生总状花序，紫色花",
+          "quote_4": "Papilionaceous flowers remain closed during anthesis and only open after being 'tripped' by a pollinator",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215",
+          "url_2": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_3": "https://zh.wikipedia.org/wiki/紫花苜蓿",
+          "url_4": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/"
+        },
+        "corolla_length_mm": {
+          "value": "未找到 Flora of China/维基的花冠长度毫米数(FOC 未给);Minnesota Wildflowers 记花长约 1/3 英寸(≈8 mm)。",
+          "quote": "pea-shaped, about 1/3 inch long",
+          "url": "https://www.minnesotawildflowers.info/flower/alfalfa",
+          "reliability": "民间植物志网站,数值为近似;卡片若需毫米数应标“约”"
+        },
+        "bloom_general": {
+          "value": "初夏至夏季,总体 5–9 月;中国 5–7 月(FOC),英国 6–7 月(PFAF),美国明尼苏达 6–9 月;北美蜜源描述“throughout the summer”",
+          "quote": "Fl. May-Jul, fr. Jun-Oct.",
+          "quote_2": "It is in flower from June to July, and the seeds ripen from July to September.",
+          "quote_3": "Flower: June - September",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215",
+          "url_2": "https://pfaf.org/user/Plant.aspx?LatinName=Medicago+sativa",
+          "url_3": "https://www.minnesotawildflowers.info/flower/alfalfa"
+        },
+        "bloom_china_east": {
+          "value": "Flora of China(全国):5–7 月开花,6–10 月结果;全国广泛栽培并逸生。未找到权威来源的华北/长江中下游分区月份(网络资料称山东、河北南部 5 月中旬–6 月下旬,未经权威核实)。",
+          "quote": "Fl. May-Jul, fr. Jun-Oct.",
+          "quote_2": "Cultivated throughout China, often escaped to roadsides, fields, grasslands, and stream banks [native to N and SW Asia, probably also S Europe; now cosmopolitan].",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215",
+          "url_2": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215"
+        },
+        "bloom_central_europe": {
+          "value": "未找到中欧专门记载;英国 PFAF 记 6–7 月,可作为西/中欧温带参考",
+          "quote": "It is in flower from June to July, and the seeds ripen from July to September.",
+          "url": "https://pfaf.org/user/Plant.aspx?LatinName=Medicago+sativa"
+        },
+        "bloom_north_america_temperate": {
+          "value": "美国中西部(明尼苏达):6–9 月;北美产蜜描述为整个夏季",
+          "quote": "Flower: June - September",
+          "quote_2": "Alfalfa honey, produced extensively from the purple or blue blossoms (the most important honey plant in most of the western states) throughout the summer",
+          "url": "https://www.minnesotawildflowers.info/flower/alfalfa",
+          "url_2": "https://en.wikipedia.org/wiki/Monofloral_honey"
+        },
+        "nectar_pollen": {
+          "value": "重要蜜源:泌蜜量大,蜂蜜白色至特浅琥珀色、味淡雅微辛,为美国西部多数州最重要的蜜源植物;USDA 估算每英亩可产 416–1,933 磅花蜜,每群强群每英亩籽用苜蓿可贮蜜 50–100 磅。但对蜜蜂而言是劣质花粉源,通常仅在无其他来源时才采其花粉。",
+          "quote": "Alfalfa honey, produced extensively from the purple or blue blossoms (the most important honey plant in most of the western states) throughout the summer, is white or extra light amber in color with a fine flavor – a subtle spicy profile and mildly scented floral aroma.",
+          "quote_2": "Alfalfa produces a large amount of nectar, which is highly attractive to many species of bees, and from which honey bees produce excellent crops of high quality honey.",
+          "quote_3": "Alfalfa is a poor source of pollen for honey bees. Usually they will collect it only when no other source is available.",
+          "quote_4": "Kropacova (1963) estimated that alfalfa produces 416 to 1,933 pounds of nectar per acre.",
+          "url": "https://en.wikipedia.org/wiki/Monofloral_honey",
+          "url_2": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_3": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_4": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        },
+        "tripping_mechanism": {
+          "value": "“弹开”(tripping):龙骨瓣在张力下包裹着雌雄蕊柱;蜂压龙骨瓣时柱体弹出撞击旗瓣,常先击中蜂头下侧,花粉由此转移到蜂体。",
+          "quote": "The pollen-carrying keel of the alfalfa flower trips and strikes pollinating bees on the head, which helps transfer the pollen to the foraging bee.",
+          "quote_2": "The keel encloses, under considerable tension, the sexual column, which terminates in the stigma and 10 anthers.",
+          "quote_3": "The column is released when the bee...exerts pressure upon the keel petal, causing it to separate...Upon release, the column strikes the standard petal, sometimes striking the underside of the head of the bee first, at times with such force that the bee can extricate its head only after a struggle.",
+          "quote_4": "Effective pollination in alfalfa requires a tripping mechanism, where pollinators must physically force and open flower parts to release pollen grains",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_2": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_3": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_4": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/",
+          "note": "quote_3 中的省略号为 WebFetch 摘要所加,撰写引用前应对照原页面补全"
+        },
+        "pollinator_dependence": {
+          "value": "结籽高度依赖传粉者:自交不亲和/自交不育为主;田间自弹花结籽不足 1%,未弹开的花几乎不结籽;籽用苜蓿开花期必须有传粉者。PFAF 标注“self-fertile”与上述权威来源相左,应以维基/USDA/期刊为准。",
+          "quote": "Alfalfa seed production requires the presence of pollinators when the fields of alfalfa are in bloom.",
+          "quote_2": "In the field, less than 1 percent of the self-tripped flowers produce seed, and most nontripped flowers fail to do so.",
+          "quote_3": "Furthermore, alfalfa has a reproductive system that is primarily self-incompatible and self-sterile",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_2": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_3": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/"
+        },
+        "native_range": {
+          "value": "原产亚洲北部与西南部(可能含南欧),中文维基称原产伊朗;现广布全球温带",
+          "quote": "native to N and SW Asia, probably also S Europe; now cosmopolitan",
+          "quote_2": "Native to warmer temperate climates, alfalfa has long been cultivated as livestock fodder, perhaps since antiquity.",
+          "quote_3": "苜蓿原产于伊朗",
+          "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215",
+          "url_2": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_3": "https://zh.wikipedia.org/wiki/紫花苜蓿"
+        }
+      },
+      "visitors": [
+        {
+          "species": "Apis mellifera",
+          "cn": "西方蜜蜂",
+          "recorded": "有",
+          "relationship": "主要采蜜者但非理想传粉者:蜜蜂学会避免被弹击,从花侧面取蜜(side-working),采到蜜却不带花粉、不弹花,因而不给下一朵花授粉;学习期弹花率 7–85%,老练个体很低;采蜜蜂远多于采粉蜂(有地区超 100:1);靠高访花频率部分弥补低弹花率。",
+          "quote": "Western honey bees learn to avoid being struck on the head by drawing nectar from the side of the flower. The bees thus collect the nectar but carry no pollen, so they do not pollinate the next flower they visit.",
+          "quote_2": "Tucker (1956) showed that bees 'learn' to avoid tripping flowers but trip 7 to 85 percent of them during the learning process.",
+          "quote_3": "Nectar collectors nearly always outnumber pollen collectors, in some areas by more than 100 to 1.",
+          "quote_4": "The honey bee A. mellifera demonstrates a low tripping rate of flowers, but this is compensated by a high frequency of visits",
+          "quote_5": "Specialized bees like Megachile species are more efficient as compared to the honey bees, which are less efficient due to sudden strike of anthers on their head during the alfalfa flower tripping process",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_2": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_3": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_4": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/",
+          "url_5": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/"
+        },
+        {
+          "species": "Apis cerana",
+          "cn": "东方蜜蜂",
+          "recorded": "有(仅一条文献列举,无专门数据)",
+          "relationship": "巴基斯坦研究引言将 Apis cerana 与 A. florea、A. dorsata 列为历史记录的苜蓿访花蜂,但无专门访花/传粉效率数据;该文总结“蜜蜂不能有效为苜蓿传粉”。维基 Apis cerana 词条未提苜蓿。",
+          "quote": "bees e.g., Apis cerana, A. florea, A. dorsata",
+          "quote_2": "honeybees cannot pollinate lucerne flowers effectively",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8625494/",
+          "url_2": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8625494/",
+          "note": "quote 为 WebFetch 摘录的片段,撰写引用前应对照 PMC8625494 引言原句核对上下文"
+        },
+        {
+          "species": "Bombus terrestris",
+          "cn": "欧洲熊蜂",
+          "recorded": "有",
+          "relationship": "有效传粉者(尤其蜂王):阿尔及利亚研究显示 B. terrestris 蜂王单次访花沉积花粉最多、每分钟访花最多、每次停留最短;工蜂主要采蜜、贡献较小。维基 Alfalfa 词条另提及北美的 Bombus affinis 对苜蓿传粉重要(非本种)。",
+          "quote": "The rusty patched bumble bee, Bombus affinis, is important to the agricultural industry as well as for the pollination of alfalfa.",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa",
+          "note": "Messellem et al. 2025, J. Appl. Entomol. 149:1384–1391 (doi:10.1111/jen.13463) 的原页面 403 未能抓取;搜索摘要转述为 “B. terrestris queens deposited the most pollen, visited more flowers per minute, and spent the least time per visit”,引用前需核对摘要原文。"
+        },
+        {
+          "species": "Osmia cornifrons",
+          "cn": "角额壁蜂",
+          "recorded": "有(沙特阿拉伯一项调查中的少量记录)",
+          "relationship": "沙特 Al-Ahsa 苜蓿田调查中占访花昆虫 2.10%(2013)与 1.85%(2014),为次要访花者;无传粉效率数据。维基词条未提苜蓿。",
+          "quote": "未能抓取原文页面(BioOne 页面为空、ResearchGate 403);数据见搜索摘要",
+          "url": "https://bioone.org/journals/Journal-of-the-Kansas-Entomological-Society/volume-89/issue-1/150402.1/Insect-Pollinators-and-Foraging-Behavior-of-Honey-Bees-on-Alfalfa/10.2317/150402.1.short",
+          "note": "Alqarni et al. 2016, J. Kansas Entomol. Soc. 89(1), doi:10.2317/150402.1;引用前需核对"
+        },
+        {
+          "species": "Megachile rotundata",
+          "cn": "苜蓿切叶蜂",
+          "recorded": "有",
+          "relationship": "管理型传粉者,苜蓿籽用生产的首选:独居但群聚,不筑群、不贮蜜,取食时将口器插入龙骨瓣、花粉刷到腹部腹毛刷上,弹花效率极高;北美为作物授粉专门引进;单蜂效率远高于蜜蜂;觅食范围多在巢周数百英尺,可在田间就地服务。",
+          "quote": "the alfalfa leafcutter bee (Megachile rotundata) is increasingly used to circumvent these problems. As a solitary but gregarious bee species, it does not build colonies or store honey but is a very efficient pollinator.",
+          "quote_2": "During feeding, the bee will insert its proboscis into the keel of the plant. In the process, pollen is brushed onto its scopa.",
+          "quote_3": "In North America, the species was deliberately imported to assist in the pollination of food crops",
+          "quote_4": "Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa.",
+          "quote_5": "Leafcutter bees forage primarily within a few hundred feet of the nest, therefore, are more likely to be of service not only in the field but in the part of the field where they emerge.",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa",
+          "url_2": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "url_3": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "url_4": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+          "url_5": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        },
+        {
+          "species": "Xylocopa violacea",
+          "cn": "紫木蜂",
+          "recorded": "属级有记录,种级未找到",
+          "relationship": "巴基斯坦研究引言把 “Xylocopa sp.” 列为历史记录的苜蓿访花者,未到种;无专门数据。紫木蜂偏好豆科花粉(Lathyrus),但未找到针对 Medicago sativa 的种级记载。",
+          "quote": "Xylocopa sp.",
+          "quote_2": "They seem to prefer pollen from Fabaceae (especially Lathyrus) and Lamiaceae (especially Salvia and Lamium).",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8625494/",
+          "url_2": "https://biocommunication.org/en/insects360/friends-or-foes/a-friend-who-can-be-a-nuisance-the-violet-carpenter-bee/"
+        },
+        {
+          "species": "Nomia melanderi(补充)",
+          "cn": "碱蜂",
+          "recorded": "有",
+          "relationship": "美国西北部部分籽用苜蓿由碱蜂传粉;与切叶蜂同为高效传粉者",
+          "quote": "A smaller amount of alfalfa produced for seed is pollinated by the alkali bee, mostly in the northwestern US.",
+          "url": "https://en.wikipedia.org/wiki/Alfalfa"
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "china-east-temperate",
+      "name": "中国东部温带(华北—长江中下游)",
+      "fields": {
+        "climate_definition": {
+          "value": "中国大部分位于温带,季风主导:夏季东亚季风带来暖湿与大部分降水,冬季受西伯利亚高压控制寒冷干燥。华北(北京)为季风影响的湿润大陆性气候(Dwa),夏热湿、冬冷干,降水集中 7–8 月;长江下游(上海)为湿润亚热带气候(Cfa),夏热湿、冬凉湿。",
+          "quote": "Although most of the country lies in the temperate belt, its climatic patterns are complex.",
+          "quote_2": "During the summer, the East Asian monsoon carries warm and moist air from the south and delivers the vast majority of the annual precipitation in much of the country.",
+          "quote_3": "The city has a rather dry monsoon-influenced humid continental climate (Köppen: Dwa), bordering on a cool semi-arid climate (BSk)",
+          "quote_4": "Shanghai has a humid subtropical climate (Köppen: Cfa), with an average annual temperature of 17.5 °C (63.5 °F)",
+          "url": "https://en.wikipedia.org/wiki/Climate_of_China",
+          "url_2": "https://en.wikipedia.org/wiki/Climate_of_China",
+          "url_3": "https://en.wikipedia.org/wiki/Geography_of_Beijing",
+          "url_4": "https://en.wikipedia.org/wiki/Shanghai"
+        },
+        "spring_summer_months": {
+          "value": "北半球气象学四季:春 3–5 月,夏 6–8 月。华北:春季短促、升温快而干燥(沙尘),雨季 7–8 月,1 月均温 −2.7 °C、7 月 27.2 °C;长江下游:春季多变多雨,夏季梅雨(6 月下旬起雨带)与 7–8 月降水峰。",
+          "quote": "spring begins on 1 March, summer on 1 June, autumn on 1 September, and winter on 1 December.",
+          "quote_2": "Spring can bear witness to sandstorms blowing in from the Mongolian steppe, accompanied by rapidly warming, but generally dry, conditions.",
+          "quote_3": "Annual precipitation is around 570 millimetres (22.4 in), falling mostly in July and August.",
+          "quote_4": "January averages −2.7 °C (27.1 °F), while July averages 27.2 °C (81.0 °F).",
+          "quote_5": "The spring-summer rainy season is referred to as 'plum rain' in various languages of East Asia.",
+          "quote_6": "This leads to a reliable precipitation spike in July and August.",
+          "url": "https://en.wikipedia.org/wiki/Season",
+          "url_2": "https://en.wikipedia.org/wiki/Geography_of_Beijing",
+          "url_3": "https://en.wikipedia.org/wiki/Geography_of_Beijing",
+          "url_4": "https://en.wikipedia.org/wiki/Geography_of_Beijing",
+          "url_5": "https://en.wikipedia.org/wiki/East_Asian_monsoon",
+          "url_6": "https://en.wikipedia.org/wiki/East_Asian_monsoon"
+        },
+        "temperate_latitude": {
+          "value": "温带位于中纬度约 23.5°–66.5°;湿润大陆性气候区包括中国部分地区(东北)",
+          "quote": "temperate climates of Earth occur in the middle latitudes (approximately 23.5° to 66.5° N/S of the Equator)",
+          "quote_2": "Regions with humid continental climates include southeastern Canada, the upper portions of the eastern United States, portions of eastern Europe, parts of China, Japan and the Korean Peninsula.",
+          "url": "https://en.wikipedia.org/wiki/Temperate_climate",
+          "url_2": "https://en.wikipedia.org/wiki/Temperate_climate"
+        }
+      }
+    },
+    {
+      "id": "central-europe-temperate",
+      "name": "中欧温带",
+      "fields": {
+        "climate_definition": {
+          "value": "欧洲受墨西哥湾流等暖流影响呈温带气候,离海越远大陆性越强;德国西部温带海洋性、东部湿润大陆性,冬凉/冷、夏暖;中欧大部(德国东部与东南部、奥地利、波兰、捷克、斯洛伐克、匈牙利)属暖夏型湿润大陆性气候(Dfb)。",
+          "quote": "The European climate is affected by warm Atlantic currents, such as the Gulf Stream, which produce a temperate climate, tempering winters and summers, on much of the continent. Further from the sea, seasonal differences are more noticeable producing more continental climates.",
+          "quote_2": "Germany's climate is temperate and marine in the west and humid continental in the east.",
+          "quote_3": "In the east, the climate shows clear continental features; winters are cold and summers warm.",
+          "url": "https://en.wikipedia.org/wiki/Europe",
+          "url_2": "https://en.wikipedia.org/wiki/Geography_of_Germany",
+          "url_3": "https://en.wikipedia.org/wiki/Geography_of_Germany",
+          "note": "湿润大陆性气候词条(Warm summer subtype 节)列出中欧国家,WebFetch 摘要为 'is found in much of Central Europe: Germany (in the east and southeast part of the country), Austria...Poland, Czech Republic, Slovakia, Hungary.',省略号为摘要所加,引用前需对照原文:https://en.wikipedia.org/wiki/Humid_continental_climate"
+        },
+        "spring_summer_months": {
+          "value": "北半球气象学四季:春 3–5 月,夏 6–8 月;德国 11–2 月多云为冬季特征;湿润大陆性气候四季分明、夏暖至热、冬冷多雪。",
+          "quote": "spring begins on 1 March, summer on 1 June, autumn on 1 September, and winter on 1 December.",
+          "quote_2": "moderate rainfall year-round and is mostly overcast from November to February",
+          "quote_3": "typified by four distinct seasons and large seasonal temperature differences, with warm to hot (and often humid) summers, and cold (sometimes severely cold in the northern areas) and snowy winters.",
+          "url": "https://en.wikipedia.org/wiki/Season",
+          "url_2": "https://en.wikipedia.org/wiki/Geography_of_Germany",
+          "url_3": "https://en.wikipedia.org/wiki/Humid_continental_climate"
+        },
+        "temperate_latitude": {
+          "value": "湿润大陆性气候大致位于北纬 40°–60°,覆盖北美、欧洲、亚洲的中部与东北部",
+          "quote": "found between latitudes 40° N and 60° N, within the central and northeastern portions of North America, Europe, and Asia",
+          "url": "https://en.wikipedia.org/wiki/Humid_continental_climate"
+        }
+      }
+    },
+    {
+      "id": "north-america-temperate",
+      "name": "北美温带(美国东北/中西部)",
+      "fields": {
+        "climate_definition": {
+          "value": "大平原北半部、中西部、五大湖、新英格兰为湿润大陆性气候,四季分明,夏暖至热、冬冷常有雪;东北部大部为湿润大陆性(Dfa/Dfb),夏季北部暖、南部热,常有短暂雷阵雨,冬季雨雪交替。",
+          "quote": "The northern half of the Great Plains (Nebraska northward), Midwest, Great Lakes, and New England states have a variety of humid continental climates",
+          "quote_2": "Here there are four distinct seasons, with warm to hot summers, and cold and often-snowy winters.",
+          "quote_3": "Most of the Northeast has a humid continental climate (Dfa/Dfb/occasional Dfc/Dc).",
+          "quote_4": "Summers are normally warm in northern areas to hot in southern areas. Frequent (but brief) thundershowers are common on hot summer days.",
+          "url": "https://en.wikipedia.org/wiki/Climate_of_the_United_States",
+          "url_2": "https://en.wikipedia.org/wiki/Climate_of_the_United_States",
+          "url_3": "https://en.wikipedia.org/wiki/Northeastern_United_States",
+          "url_4": "https://en.wikipedia.org/wiki/Northeastern_United_States"
+        },
+        "spring_summer_months": {
+          "value": "北半球气象学四季:春 3–5 月,夏 6–8 月;该区夏季日间高温 21–27 °C,冬季 −12 至 −1 °C(视地点)。",
+          "quote": "spring begins on 1 March, summer on 1 June, autumn on 1 September, and winter on 1 December.",
+          "quote_2": "Average daily high temperatures range from 10 °F (−12 °C) (in North Dakota, and central and northern Minnesota) to 30 °F (−1 °C) in winter to 70 to 80 °F (21 to 27 °C)s in summer",
+          "url": "https://en.wikipedia.org/wiki/Season",
+          "url_2": "https://en.wikipedia.org/wiki/Climate_of_the_United_States"
+        },
+        "temperate_latitude": {
+          "value": "湿润大陆性气候(热夏型 Dfa)涵盖艾奥瓦、明尼苏达南部、宾夕法尼亚、俄亥俄、伊利诺伊、印第安纳、威斯康星南部、密歇根南部、纽约州南部等",
+          "quote": "Regions with humid continental climates include southeastern Canada, the upper portions of the eastern United States, portions of eastern Europe, parts of China, Japan and the Korean Peninsula.",
+          "url": "https://en.wikipedia.org/wiki/Temperate_climate",
+          "note": "州名列表出自 Humid_continental_climate 词条 Hot summer subtype 节的 WebFetch 摘要,引用前需对照原文"
+        }
+      }
+    }
+  ],
+  "sources": [
+    { "title": "Lavandula angustifolia", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia" },
+    { "title": "Lavandula", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Lavandula" },
+    { "title": "薰衣草", "organization": "維基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/薰衣草" },
+    { "title": "Lavandula angustifolia — Flora of China", "organization": "eFloras.org / Missouri Botanical Garden & Harvard University Herbaria", "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757" },
+    { "title": "Lavandula angustifolia (Common Lavender)", "organization": "NC State Extension Gardener Plant Toolbox", "url": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/" },
+    { "title": "Lavandula angustifolia", "organization": "Plants For A Future (PFAF)", "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lavandula+angustifolia" },
+    { "title": "Research shows bumblebees on lavender have it licked", "organization": "University of Sussex (news archive)", "url": "https://archive.sussex.ac.uk/broadcast/read/19067" },
+    { "title": "Balfour NJ, Garbuzov M, Ratnieks FLW (2013) Longer tongues and swifter handling: why do more bumble bees (Bombus spp.) than honey bees (Apis mellifera) forage on lavender (Lavandula spp.)? Ecological Entomology 38:323–329", "organization": "Wiley / Royal Entomological Society", "url": "https://resjournals.onlinelibrary.wiley.com/doi/10.1111/een.12019" },
+    { "title": "Kozuharova E et al. (2022) Pollinators of Lavandula angustifolia Mill., an important factor for optimal production of lavender essential oil. BioRisk", "organization": "Pensoft", "url": "https://biorisk.pensoft.net/article/77364/" },
+    { "title": "端午赏花正当时——伊犁州气象局发布薰衣草花期预报 (2023-05-29)", "organization": "中国天气网 / 伊犁州气象局", "url": "https://xj.weather.com.cn/xjsy/tqyw/3624924.shtml" },
+    { "title": "Alfalfa", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Alfalfa" },
+    { "title": "紫花苜蓿", "organization": "維基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/紫花苜蓿" },
+    { "title": "Medicago sativa — Flora of China", "organization": "eFloras.org / Missouri Botanical Garden & Harvard University Herbaria", "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215" },
+    { "title": "Megachile rotundata", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Megachile_rotundata" },
+    { "title": "McGregor SE (1976) Insect Pollination of Cultivated Crop Plants — Chapter: Alfalfa", "organization": "USDA Agricultural Research Service (mirror at apiservices.biz)", "url": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html" },
+    { "title": "Monofloral honey", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Monofloral_honey" },
+    { "title": "Medicago sativa (Alfalfa)", "organization": "Minnesota Wildflowers", "url": "https://www.minnesotawildflowers.info/flower/alfalfa" },
+    { "title": "Medicago sativa", "organization": "Plants For A Future (PFAF)", "url": "https://pfaf.org/user/Plant.aspx?LatinName=Medicago+sativa" },
+    { "title": "Comparative Efficiency of Native Insect Pollinators in Reproductive Performance of Medicago sativa L. in Pakistan (2021)", "organization": "PubMed Central (PMC8625494)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8625494/" },
+    { "title": "Enhancing Alfalfa (Medicago sativa) Seed Yield: The Effect of Honey Bee (Apis mellifera) Supplementation and Efficiency of Other Pollinators (2025) Biology 14:599", "organization": "PubMed Central (PMC12189915) / MDPI", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12189915/" },
+    { "title": "Messellem I et al. (2025) Efficient and Functional Bee Pollinators of Alfalfa (Medicago sativa L.) in the Algerian Agricultural Ecosystem. J Appl Entomol 149:1384–1391", "organization": "Wiley", "url": "https://onlinelibrary.wiley.com/doi/10.1111/jen.13463" },
+    { "title": "Alqarni AS et al. (2016) Insect Pollinators and Foraging Behavior of Honey Bees on Alfalfa (Medicago sativa L.) in Saudi Arabia. J Kansas Entomol Soc 89(1)", "organization": "BioOne", "url": "https://bioone.org/journals/Journal-of-the-Kansas-Entomological-Society/volume-89/issue-1/150402.1/Insect-Pollinators-and-Foraging-Behavior-of-Honey-Bees-on-Alfalfa/10.2317/150402.1.short" },
+    { "title": "Xylocopa violacea", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea" },
+    { "title": "A friend who can be a nuisance – The violet carpenter bee", "organization": "Biocommunication Group (Switzerland)", "url": "https://biocommunication.org/en/insects360/friends-or-foes/a-friend-who-can-be-a-nuisance-the-violet-carpenter-bee/" },
+    { "title": "Violet Carpenter Bee - Xylocopa violacea", "organization": "BuzzAboutBees.net(爱好者网站,低权威)", "url": "https://www.buzzaboutbees.net/violet-carpenter-bee.html" },
+    { "title": "Bombus terrestris", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Bombus_terrestris" },
+    { "title": "Osmia cornifrons", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons" },
+    { "title": "Apis cerana", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Apis_cerana" },
+    { "title": "Temperate climate", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Temperate_climate" },
+    { "title": "Humid continental climate", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Humid_continental_climate" },
+    { "title": "Humid subtropical climate", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Humid_subtropical_climate" },
+    { "title": "Season", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Season" },
+    { "title": "Climate of China", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Climate_of_China" },
+    { "title": "East Asian monsoon", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/East_Asian_monsoon" },
+    { "title": "Geography of Beijing", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Geography_of_Beijing" },
+    { "title": "Shanghai", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Shanghai" },
+    { "title": "Europe", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Europe" },
+    { "title": "Geography of Germany", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Geography_of_Germany" },
+    { "title": "Climate of the United States", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Climate_of_the_United_States" },
+    { "title": "Northeastern United States", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Northeastern_United_States" }
+  ]
+}

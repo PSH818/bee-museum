@@ -1,0 +1,59 @@
+{
+  "lens": "fact-check",
+  "round": 8,
+  "reviewedAt": "2026-08-25T03:20:00Z",
+  "sourceAccess": [
+    {"id": "src-wikipedia-osmia-cornifrons", "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons", "status": "ok"},
+    {"id": "src-exotic-bee-id", "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062", "status": "ok"},
+    {"id": "src-wikipedia-mason-bee", "url": "https://en.wikipedia.org/wiki/Mason_bee", "status": "ok"},
+    {"id": "src-wikipedia-apis-cerana", "url": "https://en.wikipedia.org/wiki/Apis_cerana", "status": "ok"},
+    {"id": "src-wikipedia-honey-bee", "url": "https://en.wikipedia.org/wiki/Honey_bee", "status": "ok"},
+    {"id": "src-wikipedia-worker-bee", "url": "https://en.wikipedia.org/wiki/Worker_bee", "status": "ok"}
+  ],
+  "verdicts": [
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "claimsChecked": [
+        {"claim": "角额壁蜂是独居蜂,没有蜂王/工蜂之分,雌蜂独自筑巢产卵", "result": "支持", "evidence": "Wikipedia Osmia cornifrons: \"solitary bee indigenous to Northern Asia\"; Mason bee: \"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist.\"; idtools: \"Osmia cornifrons is a solitary bee that nests in preexisting cavities.\""},
+        {"claim": "原产东亚", "result": "支持", "evidence": "idtools: \"native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\"; Wikipedia: \"recorded in ... Japan, Korea, China, and Russia\""},
+        {"claim": "据报道,自 1940 年代起的约五十年间,日本半数以上的苹果园曾用它授粉", "result": "支持(且已限定)", "evidence": "Wikipedia: \"first introduced in Japan in the 1940s ... Over a 50-year time period, use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species\""},
+        {"claim": "据报道 1977 年前后被引入美国东部", "result": "支持(且已限定)", "evidence": "Wikipedia: \"In 1977, O. cornifrons was introduced in the northeastern United States\"; idtools: \"intentionally introduced to the eastern U.S. from Japan in the 1970s\"(两源一致,'前后'措辞恰当)"},
+        {"claim": "此后在美国东部与中西部定殖", "result": "支持", "evidence": "idtools: \"In the U.S., O. cornifrons can be found on the East Coast and the Midwest\""},
+        {"claim": "用泥土在竹管或芦苇管里隔出巢室", "result": "支持", "evidence": "idtools: \"Nest cells are constructed of mud and leaf pulp\"; \"nests can be found in reeds, bamboo, holes within trees\"; Wikipedia: \"the female bee closes off the cell with mud\""},
+        {"claim": "每室放一个花粉球和一枚卵", "result": "支持", "evidence": "Wikipedia: \"Eggs are placed on top of the pollen ball\"; Mason bee: \"Once a provision mass is complete, the bee backs into the hole and lays an egg on top of the mass. Then, she creates a partition of 'mud', which doubles as the back of the next cell.\""},
+        {"claim": "英文统称 mason bee(泥匠蜂)由用泥筑巢而来,角额壁蜂属于 mason bee", "result": "支持", "evidence": "Mason bee: \"Mason bees are named for their habit of using mud or other 'masonry' products in constructing their nests\"; \"Species of the genus include ... the hornfaced bee O. cornifrons\""}
+      ],
+      "issues": []
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "claimsChecked": [
+        {"claim": "英文名 Eastern honey bee;科 Apidae", "result": "支持", "evidence": "Wikipedia Apis cerana: \"the eastern honey bee, Asiatic honey bee or Asian honey bee\"; \"The eastern honey bee is of the Apidae family\""},
+        {"claim": "亚洲南部与东部的传统饲养蜂种", "result": "支持", "evidence": "Wikipedia Honey bee: \"Apis cerana, the eastern honey bee proper, is the traditional honey bee of southern and eastern Asia\"; \"One of its subspecies, the Indian honey bee (A. c. indica), was domesticated and kept in hives in a fashion similar to A. mellifera\""},
+        {"claim": "中华蜜蜂(Apis cerana cerana)是它在中国最主要的亚种", "result": "支持(已用'最主要'限定)", "evidence": "Wikipedia Apis cerana 亚种列表:A. c. cerana \"(Chinese honey bee)\",分布 \"southern and coastal China\" 及邻近地区"},
+        {"claim": "高度社会性,群体结构与西方蜜蜂相近", "result": "支持", "evidence": "Wikipedia Apis cerana: \"colony consists of several thousand female worker bees, one queen bee, and several hundred male drone bees\""},
+        {"claim": "在树洞等隐蔽空腔内筑巢,巢由多片平行悬挂的蜡质巢脾组成", "result": "支持", "evidence": "Wikipedia Apis cerana: \"nests consisting of multiple combs in cavities\"; \"constructed inside beeswax combs inside a tree cavity\"; Honey bee: \"the more recently evolved species nest in cavities and have multiple combs\""},
+        {"claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm)", "result": "支持(且已限定)", "evidence": "Wikipedia Apis cerana: \"both are medium-sized bees (10-11mm)\"。Worker bee 页面 \"Body Length: 12–15 mm\" 系针对 Apis mellifera 工蜂,不构成矛盾"},
+        {"claim": "腹部黄黑相间环纹,常描述为四条黄纹", "result": "支持(且已限定)", "evidence": "Wikipedia Apis cerana: \"Adult Apis cerana are black in color, with four yellow abdominal stripes\""},
+        {"claim": "对胡蜂等天敌有独特的集体防御行为", "result": "支持", "evidence": "Wikipedia Apis cerana: \"heat-balling\"(围裹振翅加热致死胡蜂)、\"wing shimmering\"、涂抹动物粪便等防御描述"},
+        {"claim": "与亚洲本土植物和传统养蜂关系密切", "result": "传统养蜂部分支持;'与亚洲本土植物关系密切'为泛化描述,来源未直接陈述", "evidence": "Honey bee: \"traditional honey bee of southern and eastern Asia\";Apis cerana: \"native to South, Southeast and East Asia\"(仅为原生分布,未直接论述与本土植物的关系)"}
+      ],
+      "issues": [
+        {
+          "claim": "与亚洲本土植物和传统养蜂关系密切",
+          "problem": "'与亚洲本土植物关系密切'在三个来源中均未直接陈述,属于由原生分布推出的泛化表述;不构成错误,但缺乏可核对的具体内容(不影响 pass 裁决)",
+          "evidence": "Wikipedia Apis cerana 仅称 \"native to South, Southeast and East Asia\";Honey bee 仅称 \"traditional honey bee of southern and eastern Asia\"",
+          "fix": "改为可核对的措辞,如'作为亚洲原生蜂种,长期是当地传统养蜂的主要蜂种',或直接删去'与亚洲本土植物'一语"
+        },
+        {
+          "claim": "sourceIds 引用 src-wikipedia-worker-bee",
+          "problem": "Worker bee 页面完全未提及 Apis cerana,其体长表 \"12–15 mm\" 系 Apis mellifera 工蜂数据,与本条 10–11 mm 无关;保留该来源易让读者误以为它支持本条体长数字",
+          "evidence": "Worker bee 页面:\"The article does not reference Apis cerana at all\";体长表 \"Body Length: 12–15 mm\"",
+          "fix": "从本条 sourceIds 中移除 src-wikipedia-worker-bee,或仅将其用于支撑'工蜂筑造蜡质巢脾'这一通用断言"
+        }
+      ]
+    }
+  ]
+}

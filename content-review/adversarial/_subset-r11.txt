@@ -1,0 +1,5 @@
+focus:bombus-terrestris-worker/head: 文本已改
+focus:osmia-cornifrons-worker/whole: 文本已改
+focus:xylocopa-violacea-worker/whole: 文本已改
+species:apis-cerana: 文本已改
+species:xylocopa-violacea: 文本已改

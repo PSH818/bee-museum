@@ -1,0 +1,73 @@
+{
+  "lens": "refutation",
+  "round": 29,
+  "reviewedAt": "2026-09-08T02:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "洋槐蜜色浅至近无色,味清淡带花香,果糖比例高、久不结晶——与油菜蜜的“极易结晶”恰成对照。",
+          "problem": "我方 r28 攻击点(“尚未找到系统资料”的假稀缺声明)已按建议化解:自限定句删去,新句本轮实测逐项核对条目自引的 en.wikipedia Monofloral honey——acacia honey 明确来自 Robinia pseudoacacia(black locust),色泽 'ranges from light yellow to almost colorless'(色浅至近无色✓),风味 'a mild delicate floral taste'(味清淡带花香✓),'It lasts as a liquid due to being high in fructose'(果糖比例高、久不结晶✓)。与油菜蜜的对照亦有来源支撑:en.wikipedia Rapeseed 给出油菜蜜 3–4 周内结晶、低果糖/葡萄糖比导致快速起晶,两端都立得住。“久不结晶”留有余地、未作“永不结晶”的全称断言,找不到反例。首句“市售槐花蜜通常指洋槐而非国槐”与 0.7–1.4 公斤转引均为往轮已核点,再进攻无缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "在冬季温和的地区,也有欧洲熊蜂蜂群冬季仍在活动的记录。",
+          "problem": "r28 精确性提示(“可以更长寿”混淆了“同一蜂群活得更久”与“秋冬再起一代”两种机制)已用更保守的写法化解:新句只声明“有冬季仍在活动的记录”,不再断言蜂群寿命。这与条目自引的 PLoS ONE 2010(英国城市冬季活跃的 Bombus terrestris,秋冬建群、冬季采集)完全相容——无论机制是整群越冬还是秋冬新建一代,“蜂群冬季仍在活动”都为真;“欧洲熊蜂”与研究物种 B. terrestris 对应无误,“冬季温和的地区”与论文的英国城市背景相符。此写法在两种机制下均不可证伪,进攻无从下口。温带“一年一代、秋末解散、只有新蜂王越冬”、蜡罐存蜜“通常只够吃上几天”、独居蜂蜂粮描述均为往轮已核标准口径。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至乳黄,味微辛;极易结晶,结晶细腻呈脂状。",
+          "problem": "对恢复的“味微辛”做了辖域核对(peppery 指蜜还是指菜籽/植物?):本轮实测 en.wikipedia Rapeseed 蜂业段原文为 'Monofloral rapeseed honey has a whitish or milky yellow color, peppery taste and, due to its fast crystallization time, a soft-solid texture'——主语是 monofloral rapeseed honey,peppery taste 明确修饰蜂蜜本身,不是菜籽,张冠李戴不成立;“白色至乳黄”与 'whitish or milky yellow' 逐字对应,src-wikipedia-rapeseed 已列入 sourceIds。“极易结晶”有 3–4 周结晶、低果糖/葡萄糖比的来源支撑;“结晶细腻呈脂状”对应德文维基 Raps 'fein und schmalzartig kandierend'(r28 已核)。r27 对“味微辛”的地区差异疑虑,在恢复时补上了指向蜂蜜的明确来源,进攻未击穿。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "单花蜜白色至乳黄、味微辛,极易结晶,结晶细腻呈脂状。/ 花粉丰富,色黄。",
+          "problem": "nectar 字段与 honey-rapeseed 同步恢复“味微辛”,辖域核对结论相同:en.wikipedia Rapeseed 的 'peppery taste' 修饰蜂蜜,且该句写作“单花蜜……味微辛”,主语明确是蜜,不会被读成植物或菜籽的味道。pollen 改“色黄”本轮实测条目自引的 Die Honigmacher Raps 页:Pollenfarbe 'gelb / satt gelb',供给量 'sehr reiches Pollenangebot'——“花粉丰富,色黄”两点均逐字有据。summary 各句(三到五周花期、总状花序自下而上、小油菜是近亲不是同一种)为 r28 已核点,未改动,再进攻无新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至特浅琥珀色,味淡雅。",
+          "problem": "r28 指出的倒退式收窄(“色极浅(白)”丢掉琥珀端)已按建议恢复为区间写法,与 McGregor(USDA 1976)'white or extra light amber' 口径完全对齐(r28 已实测核对该来源)。regionNote“在美国西部是最重要的蜜源植物之一”与 McGregor 对西部苜蓿蜜地位的描述一致。无反例可找。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "泌蜜量大,苜蓿蜜白色至特浅琥珀色、味淡雅;在美国西部是最重要的蜜源植物之一。",
+          "problem": "nectar 字段已按 r28 建议与 honey-alfalfa 同步恢复“白色至特浅琥珀色”,与 McGregor 区间一致,两处不再互相矛盾。弹射机关(龙骨瓣绷着雌雄蕊柱、打在蜂头下方)、蜜蜂侧位吸蜜避开机关、留种依赖切叶蜂、苜蓿花粉对蜜蜂是劣质花粉源——均为 r28 已核的 McGregor 标准口径,未改动。再进攻未找到新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

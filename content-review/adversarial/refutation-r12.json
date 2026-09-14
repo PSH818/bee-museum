@@ -1,0 +1,24 @@
+{
+  "lens": "refutation",
+  "round": 12,
+  "reviewedAt": "2026-08-25T06:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "同一巢的工蜂胸部长度可差 2–3 倍",
+          "problem": "度量名称错误。\"2.3–6.9 mm\"这一区间来自 Goulson, Peat 等 2002 年发表于 Animal Behaviour 的欧洲熊蜂研究,原文测量的是胸部宽度(thorax width,巢内蜂 4.34 mm、采集蜂 4.93 mm 均为宽度均值),并非胸部长度。英文维基 Bombus terrestris 条目写成 \"2.3 to 6.9 mm in length\" 属转述失真,本条目沿用了这一错误。倍数(约 3 倍)本身站得住,但\"长度\"一词与原始文献不符。",
+          "evidence": "Goulson & Peat 2002《Can alloethism in workers of the bumblebee, Bombus terrestris, be explained in terms of foraging efficiency?》摘要:worker thorax widths varied from 2.3 to 6.9 mm(https://www.sciencedirect.com/science/article/abs/pii/S0003347202930411);该论文图 1 标题即为 \"Frequency histogram of numbers of worker bees grouped by thorax width\"(https://www.researchgate.net/figure/Frequency-histogram-of-numbers-of-worker-bees-grouped-by-thorax-width-Frequencies-for_fig1_222536222)。对照英文维基原句 \"thorax sizes ranging from 2.3 to 6.9 mm in length\"(https://en.wikipedia.org/wiki/Bombus_terrestris)。",
+          "fix": "将\"胸部长度可差 2–3 倍\"改为\"胸部宽度可差约 3 倍(据记载 2.3–6.9 mm)\",或笼统写作\"胸部尺寸可差 2–3 倍\"。"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "体重断言\"近十倍(不同资料 8–11 倍)\"站得住:Goulson 2003 给出单巢工蜂 0.05–0.40 g(8 倍,https://academic.oup.com/ee/article/51/6/1055/6826992;https://www.bumblebee.org/terr.htm),维基给出 68–754 mg(约 11 倍),Cumber 1949 / Plowright & Jay 1968 等给出约 10 倍;区间已覆盖主流数值。",
+    "description 中\"熊蜂(据记载也包括欧洲熊蜂)有时会在花冠基部咬孔取蜜\"站得住:Leadbeater & Chittka 2008 记录 B. terrestris 在蚕豆花上的初级盗蜜(https://pmc.ncbi.nlm.nih.gov/articles/PMC2602821/);bumblebee.org 称其为 comfrey 与 honeysuckle 的 accomplished nectar robbers;维基 Nectar robbing 条目配图即为 B. terrestris 盗蜜。\"并不带贬义\"与维基\"the effect of robbery on the plant is sometimes neutral or even positive\"相符。",
+    "头部由复眼、单眼、触角和口器构成,为膜翅目通用解剖描述,无反证。标题与 latin 行无事实问题。"
+  ]
+}

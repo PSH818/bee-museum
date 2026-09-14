@@ -1,0 +1,293 @@
+{
+  "lens": "fact-check",
+  "round": 14,
+  "reviewedAt": "2026-08-25T08:30:00.000Z",
+  "sourceAccess": [
+    { "id": "src-wikipedia-bee-brood", "ok": true },
+    { "id": "src-wikipedia-worker-bee", "ok": true },
+    { "id": "src-wikipedia-western-honey-bee", "ok": true },
+    { "id": "src-wikipedia-drone-bee", "ok": true },
+    { "id": "src-wikipedia-queen-bee", "ok": true },
+    { "id": "src-wikipedia-mason-bee", "ok": true },
+    { "id": "src-wikipedia-osmia-cornifrons", "ok": true },
+    { "id": "src-exotic-bee-id", "ok": true }
+  ],
+  "verdicts": [
+    {
+      "key": "cycle:cycle-apis-mellifera-worker",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "约 21 天从卵到成蜂,之后再活几周;按年龄排班:清洁、哺育、筑巢、守卫、采集;时间轴 0–63 天",
+          "problem": "无问题。Worker bee:\"After this 21 day developmental period, the adult bee will chew through its wax cap\";\"Cell cleaning (days 1–2)… Nurse bees (days 3–12)… Wax production (days 13–18)… Guard bee (18-21)… Foraging bees (days 21–42)\";\"In the summertime, worker bees typically only live two to six weeks\"。21 + 42 = 63 与 total 一致。",
+          "evidence": "src-wikipedia-worker-bee;Bee brood 发育表:Worker … Emergence from day 21 on",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-egg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "受精卵产在巢房底部;约 3 天孵化;三职型卵期基本相同;雄蜂由未受精卵发育、产在更大的雄蜂房",
+          "problem": "无问题,全部被支持。Bee brood:\"the queen lays an egg, gluing it to the bottom of the cell\";发育表 Queen/Worker/Drone 的 Egg 均为 \"until day 3\";\"Drone brood develops from unfertilized eggs. Drone brood cells are larger than the cells of female worker bees.\" Drone (bee):\"Drones are haploid, growing from unfertilised eggs by arrhenotoky.\"",
+          "evidence": "src-wikipedia-bee-brood;src-wikipedia-drone-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-larva",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "幼虫无足无眼;前三天吃蜂王浆,之后改吃花粉+花蜜的蜂粮;约第 9 天封盖;幼虫期约 6 天;蜂王幼虫始终吃蜂王浆",
+          "problem": "无问题。Western honey bee:\"The egg hatches into a legless, eyeless larva fed by 'nurse' bees… After about a week, the larva is sealed in its cell\";\"prospective queens continue to receive royal jelly\"。Bee brood:\"For three days the young larvae are fed royal jelly, then they are fed nectar or diluted honey and pollen\";发育表 Worker \"Cell capped until day 9\"。\"约 6 天\"已用\"约\"限定(各表对幼虫期终点的划法略有出入,但封盖约第 9 天一致)。",
+          "evidence": "src-wikipedia-western-honey-bee;src-wikipedia-bee-brood",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "蛹期约 12 天,是整个发育中最长的阶段",
+          "problem": "数字与所引来源不一致。第 9–21 天(12 天)是\"封盖期\",其中包含封盖后吐丝作茧的预蛹阶段;所引 Worker bee 明确把蛹期写为 10 天:\"The larva spins itself into a cocoon and becomes an inactive pupa. During this 10-day stage…\"。Bee brood 发育表也只支持\"封盖(第 9 天)到出房(第 21 天)约 12 天\",并未说蛹期 12 天。\"最长阶段\"本身成立(10 或 12 天均长于卵 3 天、幼虫约 6 天)。",
+          "evidence": "src-wikipedia-worker-bee:\"During this 10-day stage\";src-wikipedia-bee-brood 发育表 Worker:Cell capped until day 9 / Emergence from day 21 on",
+          "fix": "改为\"从封盖到出房约 12 天(其中真正的蛹期约 10 天,前面还有吐丝作茧的预蛹阶段),是整个发育中最长的一段\"。"
+        },
+        {
+          "claim": "封盖后幼虫吐丝作茧、化蛹;约第 21 天成蜂咬破蜡盖爬出;蜂王约 16 天、工蜂约 21 天、雄蜂约 24 天出房",
+          "problem": "无问题,被支持。Bee brood:\"Soon they begin to spin a cocoon, and their older sisters cap the cell as they go into the pupal stage\";发育表 Emergence:Queen from day 16 on / Worker from day 21 on / Drone from day 24 on。Worker bee:\"After this 21 day developmental period, the adult bee will chew through its wax cap\"。\"场景中蜡盖半透明剖视\"为场景说明,不属事实断言。",
+          "evidence": "src-wikipedia-bee-brood;src-wikipedia-worker-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 1–2 天清洁巢房,好让蜂王再次产卵;分段天数各资料略有出入",
+          "problem": "无问题。Worker bee:\"Cell cleaning (days 1–2)\";\"Cells are inspected by the queen and if unsatisfactory, they will not be used… Brood cells must be cleaned before the next use.\" Western honey bee 给出的是另一套分段(\"For the first 10 days of their lives, worker bees clean the hive and feed the larvae… After the 20th day, a worker leaves the hive… as a forager\"),正文已用\"不同资料给出的分段天数略有出入\"恰当限定。",
+          "evidence": "src-wikipedia-worker-bee;src-wikipedia-western-honey-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 3–12 天哺育;约第 7–11 天照料蜂王;工蜂浆与蜂王浆来自同一类腺体;幼虫期 6 天左右",
+          "problem": "无问题。Worker bee:\"Nurse bees (days 3–12)\";\"Queen attendants (days 7-11)\";\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly\"。\"头部腺体\"来源未点名腺体位置(咽下腺位于头部属通用科普知识),不构成矛盾。",
+          "evidence": "src-wikipedia-worker-bee",
+          "fix": "无需修改"
+        },
+        {
+          "claim": "幼虫在幼虫期里长大上千倍量级——这一数字各资料表述不一,这里不给具体倍数",
+          "problem": "两处来源均未提及体重增长倍数;正文已用\"量级\"及\"各资料表述不一\"限定,按已恰当限定处理。但\"上千倍量级\"与\"不给具体倍数\"同句并列稍显自相矛盾。",
+          "evidence": "src-wikipedia-worker-bee 仅给出孵化时体重 \"nearly 100 mg\"(注:该数值本身可疑),未给倍数;src-wikipedia-western-honey-bee 未提及",
+          "fix": "可选:改为\"幼虫在 6 天左右里体重增长极为惊人——具体倍数各资料表述不一,这里不给数字\",去掉\"上千倍量级\";或补充一条给出倍数的来源。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "新造的巢房颜色偏白,用久了才变成深黄褐色",
+          "problem": "两处来源均未提及巢房颜色随使用变深,且正文未加限定。",
+          "evidence": "src-wikipedia-worker-bee、src-wikipedia-western-honey-bee 均未提及",
+          "fix": "补充来源(如 Wikipedia \"Honeycomb\"/\"Beeswax\" 关于新蜡近白、育虫巢脾因茧衣与蜂胶积累而变深的表述),或改为\"一般来说,新造的巢房颜色偏白,用久了会逐渐变深\"。"
+        },
+        {
+          "claim": "出房后第 13–18 天蜡腺分泌蜡片筑巢;接手外勤蜂带回的花蜜和花粉储存;花蜜经传递、加酶、蒸发水分酿成蜂蜜",
+          "problem": "无问题。Worker bee:\"Wax production (days 13–18)\"。Western honey bee:\"Mature worker bees secrete beeswax from glands on their abdomen\";\"On days 16 through 20, workers receive nectar and pollen from older workers and store it\";\"The worker bees digest the raw nectar for about 30 minutes, using digestive enzymes to break down the complex sugars… Raw honey is then spread in empty honeycomb cells to dry, reducing its water content to less than 20 percent.\" \"蜡片\"与\"反复传递\"为通用科普表述,不与来源冲突。",
+          "evidence": "src-wikipedia-worker-bee;src-wikipedia-western-honey-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "螫针发育成熟后,一部分工蜂在巢门口值守",
+          "problem": "所引 Worker bee 支持守卫分段(\"Guard bee (18-21)\"),但\"螫针发育成熟后\"这一因果表述来源未提及,正文未限定。",
+          "evidence": "src-wikipedia-worker-bee:\"Guard bee (18-21)\";未见螫针/毒腺成熟相关表述",
+          "fix": "删去\"螫针发育成熟后\",或改为\"到这个年龄,一部分工蜂开始在巢门口值守\";若保留,请补充关于毒腺/螫针随年龄成熟的来源。"
+        },
+        {
+          "claim": "并不是每只工蜂都会经历守卫阶段;分工会随蜂群的需要调整,有的工蜂会提前或推后转为外勤",
+          "problem": "来源未提及职务弹性与\"并非每只都守卫\";表述本身部分带有\"有的\"限定,但\"并不是每只工蜂都会经历守卫阶段\"是明确断言而未限定。",
+          "evidence": "src-wikipedia-worker-bee 只列出典型分段,未讨论是否所有工蜂都经历各阶段",
+          "fix": "改为\"一般认为,守卫只是部分工蜂承担的任务,分工会随蜂群需要调整\",或补充讨论年龄多态性(temporal polyethism)弹性的来源。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 21 天起外勤;飞行可达约 3 公里;采集花蜜、花粉、蜂胶和水;夏季活 2–6 周;越冬蜂结团、可活到约 20 周;工蜂约每四个月整体更替一遍",
+          "problem": "无问题,全部被支持。Worker bee:\"Foraging bees (days 21–42)\";\"The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water\";\"In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks\";\"In the wintertime, worker bees can cluster together to generate body heat\"。Western honey bee:\"Except for the queen, all of a colony's workers are replaced about every four months.\"",
+          "evidence": "src-wikipedia-worker-bee;src-wikipedia-western-honey-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-queen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "形似花生的王台;整个幼虫期只吃蜂王浆;约 16 天出房;出房后约第 6–10 天婚飞;回巢后 2–3 天开始产卵;春季高峰约 1500 枚/天;寿命常见文献约 2–5 年",
+          "problem": "无问题。Queen bee:\"The fully constructed queen cells have a peanut-like shape and texture\";\"only queen larvae are fed the jelly exclusively\";\"Emergence c. day 15½ – day 17\";\"matings usually take place between the sixth and tenth day after the queen emerges\";\"Egg laying usually begins 2 to 3 days after the queen returns to the beehive\";\"can lay about 1,500 eggs per day during the spring build-up\"。Bee brood 发育表 Queen \"from day 16 on\"。寿命:Western honey bee 给 \"three to five years\",落在正文\"约 2–5 年\"之内且正文已用\"常见文献约\"限定;Western honey bee 另给 \"may lay over 2,500 eggs per day\",与\"可产约 1500\"不构成矛盾。",
+          "evidence": "src-wikipedia-queen-bee;src-wikipedia-bee-brood;src-wikipedia-western-honey-bee",
+          "fix": "可选:寿命可改为\"常见文献约 3–5 年\"以与所引 Western honey bee 完全一致。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-drone",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "未受精卵;巢房比工蜂房大;约 24 天出房;不采集、不筑巢;与其他蜂群的蜂王交配,交配后随即死亡;温带入冬前被逐出",
+          "problem": "无问题。Drone (bee):\"Drones are haploid, growing from unfertilised eggs by arrhenotoky\";\"It does not gather nectar or pollen… Its only role is to mate with a maiden queen\";\"The ejaculation is so powerful that it ruptures the endophallus… drones mate only once, and die shortly after\";\"In areas with severe winters, all drones are driven out of the hive in the autumn.\" Bee brood:\"Drone brood cells are larger than the cells of female worker bees\";发育表 Drone \"Emergence from day 24 on\"。Western honey bee:\"drones are generally expelled from the hive before winter\"。\"其他蜂群的\"为雄蜂聚集区交配的通用科普表述,未被否定。",
+          "evidence": "src-wikipedia-drone-bee;src-wikipedia-bee-brood;src-wikipedia-western-honey-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-winter",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "春夏工蜂只活几周;秋季出生的工蜂结团越冬可活数月;冬季不育幼或很少育幼;靠储蜜和结团产热过冬",
+          "problem": "无问题。Western honey bee:\"Workers born in spring and summer work hard, and live only a few weeks, but those born in autumn remain inside for several months\";\"the colony consumes its stores of honey used for metabolic heat production in the cold season\"。Worker bee:\"In the wintertime, worker bees can cluster together to generate body heat\";\"can live up to 20 weeks\"。\"不育幼或很少育幼\"已自带限定,与来源描述的冬季活动缓慢、产卵停止一致。",
+          "evidence": "src-wikipedia-western-honey-bee;src-wikipedia-worker-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "cycle:cycle-osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "没有蜂群与分工;雌蜂独自筑巢、储粉、产卵、封巢;后代在巢管里吃、长、结茧、越冬,直到下一个春天;一年一代",
+          "problem": "无问题。Mason bee:\"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist\";\"lays an egg on top of the mass. Then, she creates a partition of 'mud'… The process continues until she has filled the cavity\";\"Within weeks of hatching, the larva has probably consumed all of its provisions and begins spinning a cocoon… the adult matures either in the fall or winter, hibernating inside its insulatory cocoon\"。Osmia cornifrons:\"Males emerge from their nests around April\"。\"一年一代\"未被任何来源逐字写出,但由上述春季产卵—夏季发育—茧内越冬—次年春出巢的完整叙述直接推出,不构成问题。",
+          "evidence": "src-wikipedia-mason-bee;src-wikipedia-osmia-cornifrons;src-exotic-bee-id",
+          "fix": "可选:若希望逐字有据,可补充明确写有 univoltine 的来源。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "雄蜂先出、守在巢口等待;雌蜂晚两三天出来随即交配;日本与北美出巢大致在 4 月、恰在苹果开花前;用于苹果园授粉;美国飞行记录 3–6 月、4 月最多",
+          "problem": "无问题。Osmia cornifrons:\"Males emerge from their nests around April, just prior to the blooming of apple orchards. Females arise from their nests 2–3 days later\";\"A male will wait outside of a female's nest and attempt to court the female\"。Mason bee:\"the males exit first. The males typically remain near the nests waiting for the females… When the females emerge, they mate with one or several males\"。Exotic Bee ID:\"Osmia cornifrons have been recorded in flight in the U.S from March to June, with the majority of occurrences through April\";\"commonly used commercially for the pollination of apple orchards\"。\"随即交配\":来源称求偶持续数小时后交配,\"随即\"指出巢后不久即交配,不构成矛盾。",
+          "evidence": "src-wikipedia-osmia-cornifrons;src-wikipedia-mason-bee;src-exotic-bee-id",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-nest",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "利用芦苇、竹管或现成孔洞;堆花粉团、在其上产一枚卵、用泥封间;泥隔兼作下一间后壁;填满巢管;一生最多约 30 枚卵;采集半径可达约 130 米;花粉刷在腹面毛里而非后足",
+          "problem": "无问题,全部被支持。Osmia cornifrons:\"Osmia cornifrons use bamboo, reeds, and previously existing holes in trees as nesting sites\";\"Eggs are placed on top of the pollen ball\";\"the female bee closes off the cell with mud\";\"Females can lay up to 30 eggs over the course of their lifespan\";\"create a nest within 130 meters of a crop field\"。Exotic Bee ID:\"O. cornifrons will forage up to 130 m from the nesting site\"。Mason bee:\"she creates a partition of 'mud', which doubles as the back of the next cell… The process continues until she has filled the cavity\";\"The abdomen of females contains a scopa for pollen-collecting… it lies underneath the abdomen for Osmia\"。",
+          "evidence": "src-wikipedia-osmia-cornifrons;src-exotic-bee-id;src-wikipedia-mason-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "卵产在花粉团上,长度约为雌蜂体长的十分之一;孵化后幼虫以留下的花粉团为全部食物;时段标注 5 月",
+          "problem": "无问题。Osmia cornifrons:\"Eggs are placed on top of the pollen ball and are typically 1/10 the length of the female body\"。Mason bee:\"Within weeks of hatching, the larva has probably consumed all of its provisions\"。具体月份(5 月)来源未给,属时间轴示意性划分,与 4 月出巢后随即筑巢产卵的叙述一致,未被否定。",
+          "evidence": "src-wikipedia-osmia-cornifrons;src-wikipedia-mason-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-larva",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "幼虫在几周内吃完整团花粉;每间是独立育儿室,泥隔隔开,幼虫互不接触;时段 5–6 月",
+          "problem": "无问题。Mason bee:\"Within weeks of hatching, the larva has probably consumed all of its provisions and begins spinning a cocoon\";\"she creates a partition of 'mud', which doubles as the back of the next cell\"(幼虫互不接触由泥隔结构直接得出,属通用解释)。月份为示意性划分,未被否定。",
+          "evidence": "src-wikipedia-mason-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "吐丝作茧、茧内化蛹;据记载成虫在秋季或冬季之前已在茧内发育完成但不出来;据报道约 12–18 °C 能正常发育,极端低温致死",
+          "problem": "基本被支持。Mason bee:\"begins spinning a cocoon… and the adult matures either in the fall or winter, hibernating inside its insulatory cocoon\"。Osmia cornifrons:\"Adequate development occurs between 12 °C and 18 °C, but has been noted to occur at 25 °C as well\";\"O. cornifrons risk death when exposed to temperatures below 10 °F\"。细微差别:来源说成虫\"在秋季或冬季\"成熟,正文写\"秋季或冬季之前\",已用\"据记载\"限定,不构成否定。\"场景中的茧半透明剖视\"为场景说明。",
+          "evidence": "src-wikipedia-mason-bee;src-wikipedia-osmia-cornifrons",
+          "fix": "可选:将\"秋季或冬季之前\"改为\"秋季或冬季\",与来源原文完全一致。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-overwinter",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "成蜂在有保温作用的茧里越冬直到春天回暖;蜜蜂整群结团、靠储蜜取暖越冬;壁蜂一只一只在茧里休眠",
+          "problem": "无问题。Mason bee:\"hibernating inside its insulatory cocoon\"。Osmia cornifrons:\"The wintering period is when bees are enclosed in cocoons to decrease exposure to cold temperatures\"。Western honey bee:\"the colony consumes its stores of honey used for metabolic heat production in the cold season\";Worker bee:\"cluster together to generate body heat\"。",
+          "evidence": "src-wikipedia-mason-bee;src-wikipedia-osmia-cornifrons;src-wikipedia-western-honey-bee",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-next-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "新一代成蜂咬破茧钻出,雄蜂先行;一年一代;从产卵到出巢几乎整整一年;成蜂在巢外活动只有短短几周",
+          "problem": "无问题。Mason bee:\"the males exit first\"。Osmia cornifrons:\"Males emerge from their nests around April\";\"Osmia cornifrons have relatively short adult life spans and spend most of their time undergoing development\";\"Male bees will serve as pollinators for multiple weeks and will eventually die off\"。\"一年一代\"与\"几乎整整一年\"由来源叙述的年周期直接推出。",
+          "evidence": "src-wikipedia-mason-bee;src-wikipedia-osmia-cornifrons",
+          "fix": "无需修改"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "每一只雌蜂都能生育、各自筑巢育幼、互不合作;不像蜜蜂那样护巢,被打扰时通常只是飞走",
+          "problem": "无问题。Mason bee:\"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist\";\"Osmia species are very docile and rarely sting when handled (only under distress such as when wet or squeezed)\"。\"通常只是飞走\"来源未逐字写出,但已用\"通常\"限定且与\"very docile\"一致。",
+          "evidence": "src-wikipedia-mason-bee",
+          "fix": "无需修改"
+        }
+      ]
+    }
+  ]
+}

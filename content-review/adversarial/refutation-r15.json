@@ -1,0 +1,73 @@
+{
+  "lens": "refutation",
+  "round": 15,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:封盖(第 9 天)到出房(第 21 天)=12 天,英文维基 Bee brood 表格与多家养蜂资料一致(https://en.wikipedia.org/wiki/Bee_brood ;https://honestbeeltd.com/faqs/how-long-is-brood-capped-for)。封盖期内前 2–2.5 天为预蛹(Honey Bee Suite 引 Winston:https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/),余下约 9.5–10 天为蛹期;各资料对蛹期口径不一(8/9/10/12 天,取决于是否把预蛹计入),文中已用'约'限定且取值居中,站得住。蜂王约 16、工蜂约 21、雄蜂约 24 天出房与 Worker bee/Bee brood 词条一致。"
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "前三天所有幼虫都吃蜂王浆,之后只有蜂王幼虫继续吃。",
+          "problem": "同一条目内部口径不一致:summary 说哺育蜂喂的是'与蜂王浆同源,常称工蜂浆'的食物,detail 却说'所有幼虫都吃蜂王浆'。'前三天所有幼虫都吃蜂王浆'是英文维基 Western honey bee 的通俗简化;原始文献表明工蜂幼虫头几天吃的'工蜂浆'与蜂王浆在水分、蛋白质、10-HDA、果糖/葡萄糖含量上均有显著差异(Wang et al. 2016, Apidologie),Haydak 等经典研究也把 worker jelly 与 royal jelly 区分开。此外'之后只有蜂王幼虫继续吃'省略了工蜂幼虫改吃何物(掺花粉、蜂蜜的混合食物),读者会误以为工蜂幼虫之后不再被喂。无法确证 detail 的措辞为'确凿错误'(多家科普资料确如此表述),但在 summary 已采用更准确表述的情况下,detail 退回到简化说法,属可合理怀疑。",
+          "evidence": "Wang Y. et al. 2016, Comparison of the nutrient composition of royal jelly and worker jelly of honey bees (Apis mellifera), Apidologie 47:48–56:'Significant differences in levels of moisture, protein, 10-HDA, fructose and glucose were found between the RJ and WJ samples' https://link.springer.com/article/10.1007/s13592-015-0374-x ;英文维基 Worker bee 称哺育蜂先喂 worker jelly('secreted from glands that produce royal jelly')https://en.wikipedia.org/wiki/Worker_bee ;英文维基 Western honey bee 则称前三天喂 royal jelly、之后工蜂幼虫改吃花粉与花蜜混合物 https://en.wikipedia.org/wiki/Western_honey_bee ;Penn State Extension:工蜂幼虫之后'fed a mixture of royal jelly, pollen and honey' https://extension.psu.edu/an-introduction-to-queen-honey-bee-development",
+          "fix": "detail 改为与 summary 一致的口径,例如:'前三天,所有幼虫都吃哺育蜂分泌的这种乳状食物(喂工蜂幼虫的常称工蜂浆,成分与蜂王浆相近但不完全相同);之后工蜂幼虫改吃掺有花粉和蜂蜜的混合食物,只有蜂王幼虫继续吃蜂王浆。'"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:英文维基 Worker bee 任务表'Days 13–18: wax production and comb building',与 spanText 一致;Western honey bee 词条称约第 10 天后开始筑巢、第 16–20 天接收外勤蜂带回的花蜜花粉,时间表略有出入但属同一区间量级,文中未给出精确到天的绝对断言。花蜜经传递、加酶、蒸发水分酿成蜂蜜为通行表述。https://en.wikipedia.org/wiki/Worker_bee ;https://en.wikipedia.org/wiki/Western_honey_bee"
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:Worker bee 词条'Days 18–21: guard duty',并说明守卫在螫针成熟后进行、只有'一部分'工蜂担任;文中已用'一部分''一般认为并非每只''会随蜂群需要调整'限定,与年龄多态性可塑(可提前/推后转外勤)的主流认识一致。https://en.wikipedia.org/wiki/Worker_bee"
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:Worker bee 词条'travel up to 3 kilometres',Beekman & Ratnieks 2000 记录到平均 5.5 km、部分超过 9.5 km 的远距离采集,文中'约 3 公里外(据记载有时更远)'已恰当限定并覆盖主流数值 https://en.wikipedia.org/wiki/Worker_bee ;https://besjournals.onlinelibrary.wiley.com/doi/10.1046/j.1365-2435.2000.00443.x 。夏季 2–6 周、越冬蜂可达约 20 周与 Worker bee 词条一致;'除蜂王外工蜂约每四个月整体更替'与 Western honey bee 词条原文一致 https://en.wikipedia.org/wiki/Western_honey_bee 。"
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:雄蜂先出、雌蜂晚 2–3 天(英文维基 Osmia cornifrons;韩国养蜂学会论文'Females emerge 2 or 3 days later after emerging males' https://journal.bee.or.kr/_common/do.php?a=full&b=12&bidx=403&aidx=5149),SARE 称'several days'且雄蜂至少一半出巢后雌蜂才开始出 https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ,文中'两三天到约一周'区间覆盖主流数值。原产地:英文维基称 Northern Asia(日本、朝鲜、中国、俄罗斯),idtools 称 eastern Asia(日本、朝鲜半岛、俄罗斯东南沿海),中文资料称'原分布于中国北方及日本、朝鲜半岛'(https://baike.baidu.com/item/角额壁蜂/884565 ;https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062 ),文中'东亚(日本、朝鲜半岛、中国等)'以'等'兜底,可接受。'恰在苹果开花之前'与维基'just prior to the blooming of apple orchards'一致;'美国 3–6 月有飞行记录、4 月最多'与 idtools 原文一致。"
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "卵产在花粉团上,长度约为雌蜂体长的十分之一。",
+          "problem": "'十分之一'照搬自英文维基 Osmia cornifrons,与更可靠的原始/推广资料矛盾。雌蜂体长 8–12 mm,十分之一即约 1 mm;而 SARE《Managing Alternative Pollinators》明确写道蓝果园蜂与角额壁蜂的卵'typically around 5/32 inch in length (4 millimeters)',韩国对角额壁蜂恒温发育的研究测得刚孵化的一龄幼虫体长即 3.7±0.6 mm(一龄幼虫与卵体积相当,不可能从 1 mm 的卵孵出)。据此卵长应在 3–4 mm 量级,约为雌蜂体长的三分之一而非十分之一。",
+          "evidence": "SARE, Managing Alternative Pollinators, Ch.6 Mason Bees – Lifecycle:'Eggs of the BOB and hornfaced bee are typically around 5/32 inch in length (4 millimeters), white, and sausage shaped.' https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ;Development and mating behavior of Osmia cornifrons in the constant temperature(J. Asia-Pacific Entomol./AGRIS 记录):'The larval lengths ranged from 3.7±0.6 mm to 13.6±1.3 mm' https://agris.fao.org/search/en/providers/122535/records/65df8d4263b8185d9cad42b2 ;雌蜂体长 8–12 mm:https://en.wikipedia.org/wiki/Osmia_cornifrons(同页给出的'1/10 the length of the female body'即被上述来源反驳)",
+          "fix": "改为:'卵白色、腊肠形,长约 3–4 毫米,大约相当于雌蜂体长的三分之一,产在花粉团上。'如不愿给具体数值,至少删去'十分之一'的比例表述。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:Bosch & Kemp 等生活史研究:预蛹期跨夏季(约 55 天),夏末化蛹(约 26 天),成虫于夏末至初秋在茧内羽化后进入滞育,以成虫在茧内越冬 https://www.researchgate.net/publication/260297100_Life_Cycle_ecophysiology_of_Osmia_mason_bees ;SARE:'In midsummer ... molts into a white pupa ... After another month, the pupa molts again inside the cocoon ... remains dormant throughout the winter' https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ;英文维基 Mason bee:'matures either in the fall or winter'。文中'据记载,成虫在秋季或冬季就已在茧内发育完成'——'就已'表示到该时点已完成,与夏末/初秋羽化并不冲突,且有'据记载'限定,站得住。若想更精确可改为'夏末至初秋'。"
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:英文维基 Mason bee:'every female is fertile and makes her own nest, and no worker bees for these species exist';雌蜂'rarely sting when handled (only under distress such as when wet or squeezed)',SARE 亦称'Despite having a stinger, female mason bees are not aggressive and rarely sting, even when handled' https://en.wikipedia.org/wiki/Mason_bee ;https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/natural-history/ 。文中'仍有螫针,用手抓捏仍可能被刺'与'被打扰时通常只是飞走'均有据,安全提示不构成否决理由。"
+    }
+  ]
+}

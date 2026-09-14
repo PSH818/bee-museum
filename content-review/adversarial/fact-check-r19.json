@@ -1,0 +1,117 @@
+{
+  "lens": "fact-check",
+  "round": 19,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "status": "ok",
+      "note": "抓取成功。页面给出按年龄分工时间表:Cell cleaning (days 1–2) / Nurse bees (days 3–12) / Queen attendants (days 7–11) / Wax production (days 13–18) / Guard bee (18–21) / Foraging bees (days 21–42);另有发育表 Cell capped: Day 9,以及寿命句 'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks'。注意来源自身在第 18 天与第 21 天处相邻阶段重叠。"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "status": "ok",
+      "note": "抓取成功。分工时间表与 Worker bee 页不同:'For the first 10 days of their lives, worker bees clean the hive and feed the larvae. After this, they begin building comb cells. On days 16 through 20, workers receive nectar and pollen from older workers and store it. After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.' 另有 'Except for the queen, all of a colony's workers are replaced about every four months'、'Mature worker bees secrete beeswax from glands on their abdomen'。未提及觅食距离数值、守卫蜂。"
+    },
+    {
+      "sourceId": "src-wikipedia-bee-brood",
+      "url": "https://en.wikipedia.org/wiki/Bee_brood",
+      "status": "ok",
+      "note": "抓取成功。发育表:Worker — Egg until day 3 / Cell capped day 9 / Emergence from day 21 on;'For three days the young larvae are fed royal jelly, then they are fed nectar or diluted honey and pollen.' 未提及 worker jelly 名称、蜂王侍者。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刚出房的工蜂最先做的是打扫,把用过的巢房清理干净好让蜂王再次产卵;出房后第 1–2 天(自产卵起第 21–22 天)。",
+          "problem": "无问题。Worker bee 页支持 'Cell cleaning (days 1–2)'、'Brood cells must be cleaned before the next use';Western honey bee 页支持 'For the first 10 days of their lives, worker bees clean the hive and feed the larvae' 以及第三周出房('After another week, it emerges as an adult bee');Bee brood 表 Emergence from day 21 on。detail 中'大致按年龄排班''不同资料分段天数略有出入'已恰当限定,且与两来源时间表确有差异的事实相符。",
+          "evidence": "Worker bee: 'Cell cleaning (days 1–2)'; 'The exact number of days she spends at each task depends on the requirements of the hive'. Western honey bee: 'For the first 10 days of their lives, worker bees clean the hive and feed the larvae.'",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "哺育蜂喂养幼虫约 6 天。",
+          "problem": "来源无'6 天'的直接表述,只能由发育表推得(卵至第 3 天孵化,第 9 天封盖 → 幼虫被喂养约 6 天);Worker bee 页另有 'royal jelly for three days, followed by pollen and honey for about two more days until the cell is capped' 的叙述,按字面约为 5 天。已用'约'限定,不判失败,但属推算值。",
+          "evidence": "Bee brood 表:Worker — Egg until day 3 / Cell capped day 9。Worker bee: 'Nurse bees feed it royal jelly for three days, followed by pollen and honey for about two more days until the cell is capped'。",
+          "fix": "可改为'幼虫约在第 3 天孵化、第 9 天封盖,其间约 5–6 天由哺育蜂喂食',使读者能看到推算依据。"
+        },
+        {
+          "claim": "其余断言:出房后第 3–12 天为哺育蜂;工蜂浆与蜂王浆来自同一类腺体;约第 7–11 天部分哺育蜂给蜂王喂食、梳理;幼虫约第 9 天封盖后化蛹。",
+          "problem": "无问题,均被支持。Western honey bee 页写 'After about a week, the larva is sealed in its cell'(以孵化起算约 7 天,与'自产卵起约第 9 天'不矛盾,且 Bee brood 与 Worker bee 两表均明确 Day 9)。",
+          "evidence": "Worker bee: 'Nurse bees (days 3–12)'; 'Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly'; 'Queen attendants (days 7-11)… take care of the queen by feeding and grooming her'; 表 Cell capped: Day 9。Bee brood 表 Cell capped day 9。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花蜜在巢内经工蜂反复传递、加入酶并蒸发水分,最终酿成蜂蜜。",
+          "problem": "'加入酶''蒸发水分'被支持;'反复传递'仅由外勤蜂交给内勤蜂(nectar receiving)这一层被支持,来源未描述多次口对口传递。非否定,不影响裁决。",
+          "evidence": "Worker bee: 'Nectar is sucked up through the proboscis, mixed with enzymes in the stomach… where it is stored in wax cells and evaporated into honey'; 'store nectar and pollen brought in by other workers'。Western honey bee: 'On days 16 through 20, workers receive nectar and pollen from older workers and store it.'",
+          "fix": "可将'反复传递'改为'经内勤蜂接手'或保留原文并在蜂蜜工坊处补充来源。"
+        },
+        {
+          "claim": "出房后第 13–18 天(自产卵起第 33–38 天)腹部蜡腺分泌蜡片用于筑造修补巢房,并接手储存花蜜花粉。",
+          "problem": "无问题。",
+          "evidence": "Worker bee: 'Wax production (days 13–18)'。Western honey bee: 'Mature worker bees secrete beeswax from glands on their abdomen'; 'After this, they begin building comb cells.'",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "span {from:39,to:42} 与 spanText'自产卵起第 38–41 天'起点相差 1 天。",
+          "problem": "本轮其他条目的 span 均为半开区间(cleaner 21–23 对应 21–22,builder 33–39 对应 33–38),据此 guard 的 span 覆盖第 39–41 天,而 spanText 写第 38–41 天。spanText 忠实于来源 'Guard bee (18-21)'(来源本身与 'Wax production (days 13–18)' 在第 18 天重叠),span 起点似为消解重叠而后移。属条目内部数字不一致,非来源事实错误,故不判 fail,但应统一。",
+          "evidence": "Worker bee: 'Wax production (days 13–18)'; 'Guard bee (18-21)'。",
+          "fix": "二选一:(a) spanText 改为'出房后第 18–21 天(自产卵起第 38–41 天,首日与筑巢阶段重叠)';(b) span.from 改为 38 并允许时间轴相邻阶段重叠 1 天。"
+        },
+        {
+          "claim": "螫针发育成熟后,一部分工蜂在巢门口值守,检查进出者、抵御入侵;并非每只工蜂都会经历守卫阶段。",
+          "problem": "无问题。'螫针成熟''守卫入口''抵御入侵'被支持;'检查进出者'来源表述为守卫者对进入者的防御性把关,未直接否定;detail 以'一般认为'限定。Western honey bee 页未提及守卫蜂,但该条 sourceIds 仅指向 Worker bee 页。",
+          "evidence": "Worker bee: 'Guard bee (18-21)'; '…when their stinger is mature, to protect the colony'; 守卫蜂 'stand at the front of the hive entrance, defending it from any invaders'。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "常飞到约 3 公里外(据记载有时更远)采集。",
+          "problem": "来源写的是上限 'up to 3 km',而'常飞到约 3 公里外'读作'通常飞到 3 公里',把上限说成了典型值。距离已用'约'限定、'有时更远'用'据记载'限定,不判 fail,但措辞有偏。Western honey bee 页未给出距离数值。",
+          "evidence": "Worker bee: 'Foraging bees (days 21–42)… travel up to 3 kilometres'。",
+          "fix": "改为'可飞到约 3 公里外(据记载有时更远)'。"
+        },
+        {
+          "claim": "span {from:42,to:63} 与 spanText'出房后第 21 天起(自产卵起约第 41 天起)'起点相差 1 天。",
+          "problem": "按半开区间 span 覆盖自产卵起第 42–62 天(出房后第 22–42 天),spanText 写第 41 天起。来源 'Foraging bees (days 21–42)' 与 'Guard bee (18-21)' 在第 21 天重叠,span 起点似为消解重叠而后移;spanText 已用'约'限定。属条目内部数字不一致,非来源错误。",
+          "evidence": "Worker bee: 'Guard bee (18-21)'; 'Foraging bees (days 21–42)'。Western honey bee: 'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.'",
+          "fix": "与守卫条目同步处理:统一半开区间与 spanText 的对应,或在 spanText 注明与守卫阶段重叠 1 天。"
+        },
+        {
+          "claim": "夏季工蜂通常只活 2–6 周;秋天出生的越冬蜂在巢内结团过冬,可活到约 20 周;除蜂王外工蜂大约每四个月整体更替一遍;采集花蜜、花粉、蜂胶和水,直到生命结束。",
+          "problem": "无问题,均被支持。'结团'一词为常识性补充,来源写 'remain inside for several months',未否定。",
+          "evidence": "Worker bee: 'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks'。Western honey bee: 'Workers born in spring and summer work hard, and live only a few weeks, but those born in autumn remain inside for several months'; 'Except for the queen, all of a colony's workers are replaced about every four months'; 'spends the remainder of its life as a forager'。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

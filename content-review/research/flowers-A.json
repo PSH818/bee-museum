@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "task": "蜂之境 M3 花朵馆 · 内容研究(A 组:油菜/刺槐/向日葵)",
+    "date": "2026-08-26",
+    "researcher": "content-researcher (Claude)",
+    "conventions": {
+      "value": "研究员归纳(中文)",
+      "quote": "来源原句(保持原文语言),用于核查;若为多句以 ' | ' 分隔",
+      "url": "可在线访问的来源页;'未找到' 表示在可访问来源中没有查到,不代表事实不存在",
+      "relation": "nectar=取蜜 | pollen=采粉 | pollination=有传粉/结实效果记载 | observed-visit=仅记载访花 | none=未找到记载"
+    },
+    "access_notes": [
+      "Flora of China 英文版(efloras.org / foc.iplant.cn / harvard 镜像)与 web.archive.org 在本次环境中均无法访问,中国花期改用《中国植物志》(FRPS, 植物智 iplant.cn 接口)原文。",
+      "NDSU Canola Production Field Guide、Canola Council 生长阶段页、ScienceDirect/Wiley/Springer 正文页多为 403,相关摘要经 Europe PMC / PMC 镜像获取。",
+      "pollenatlas.net(意大利花粉图谱,据搜索摘要称 Robinia 由 Apis mellifera 与 Xylocopa violacea 传粉)证书错误无法打开,未采信。"
+    ]
+  },
+  "flowers": [
+    {
+      "id": "brassica-napus",
+      "scientific_name": "Brassica napus",
+      "fields": {
+        "family": {
+          "value": "十字花科 Brassicaceae",
+          "quote": "a yellow-flowered member of the Brassicaceae family | 十字花科",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C"
+        },
+        "english_name": {
+          "value": "rapeseed / rape / oilseed rape / canola",
+          "quote": "Rapeseed (Brassica napus subsp. napus), also known as rape and oilseed rape and canola",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed"
+        },
+        "chinese_name": {
+          "value": "欧洲油菜(《中国植物志》正名);甘蓝型油菜;西洋油菜;俗称'油菜'(注意:中文'油菜'还包括白菜型 B. rapa 与芥菜型 B. juncea)",
+          "quote": "甘蓝型油菜（Brassica napus）又稱為西洋油菜 | 白菜型油菜（Brassica rapa）又名中國油菜，為中國栽培之地方種，屬早熟品種",
+          "url": "https://zh.wikipedia.org/wiki/%E6%B2%B9%E8%8F%9C ; https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus"
+        },
+        "flower_form": {
+          "value": "辐射对称,十字形四瓣;总状花序(伞房状),无限花序自下而上开放",
+          "quote": "They are radial and consist of four petals in a typical cross-form, alternating with four sepals. | They have indeterminate racemose flowering starting at the lowest bud and growing upward | 总状花序伞房状；花直径10-15毫米",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus"
+        },
+        "petal_count": {
+          "value": "4",
+          "quote": "consist of four petals in a typical cross-form, alternating with four sepals",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed"
+        },
+        "flower_size": {
+          "value": "花直径约 10–17 mm(英文维基 17 mm;《中国植物志》10–15 mm);花瓣长 10–15 mm;无明显花冠管(蜜腺位于花基部,浅)",
+          "quote": "Rapeseed flowers are bright yellow and about 17 millimetres (3⁄4 in) across. | 花瓣浅黄色，倒卵形，长10-15毫米，爪长4-6毫米 | Die vier leuchtend- bis blassgelben Kronblätter sind bei einer Länge von meist 1 bis 1,6 (0,9 bis 1,8) Zentimeter sowie einer Breite von meist 6 bis 9 (5 bis 10) Millimeter, breit verkehrt-eiförmig mit gerundetem oberen Ende.",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus ; https://de.wikipedia.org/wiki/Raps"
+        },
+        "bloom_overall": {
+          "value": "春末(冬油菜);单株花期约 3–5 周,单花 1–2 天",
+          "quote": "It generally flowers in late spring with the process of pod development and ripening occurring over a period of 6–8 weeks until midsummer. | Witterungsabhängig beträgt die Blühdauer eines Exemplars etwa drei bis fünf Wochen, eine einzelne Blüte ist aber bereits nach ein bis zwei Tagen verblüht.",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://de.wikipedia.org/wiki/Raps"
+        },
+        "bloom_china_east": {
+          "value": "3–4 月(《中国植物志》);冬油菜秋播(10 月中下旬)、早春开花,是中国大部分地区蜜蜂最早的主要蜜源之一",
+          "quote": "花期3-4月，果期4-5月 | 各地栽培。为主要油料作物之一。 | Oilseed rape is one of the first and primary bee-attractive plants in most parts of China. | sown between the middle and the end of October 2014",
+          "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus ; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Pesticide%20residues%20in%20the%20pollen%20and%20nectar%20of%20oilseed%20rape%22&format=json&resultType=core ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        },
+        "bloom_central_europe": {
+          "value": "4 月下半月至 6 月初(德国,冬油菜)",
+          "quote": "Blütezeit: 2. Hälfte April bis Anfang Juni",
+          "url": "https://www.die-honigmacher.de/kurs2/pflanze_8.html"
+        },
+        "bloom_north_america": {
+          "value": "秋播冬油菜 5–9 月(NC State 园艺工具箱);北达科他/加拿大草原春播 canola 为 6 月下旬–7 月开花——此说来自 NDSU 生产指南的搜索摘要,原文未能核验",
+          "quote": "Blooms May to Sept. if seeds were sown the fall before.",
+          "url": "https://plants.ces.ncsu.edu/plants/brassica-napus-oleifera-group/"
+        },
+        "nectar_importance": {
+          "value": "重要大宗蜜源(蜜蜂主要饲料作物);单花 24 h 泌蜜含糖 0.4–2.1 mg;每公顷可产蜜可达 494 kg(德文维基);田间大部分花蜜未被采集",
+          "quote": "Rapeseed has a high melliferous potential (produces substances that can be collected by insects) and is a main forage crop for honeybees. | eine Rapsblüte produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg. | Ein Hektar Raps kann in einer Blühsaison eine Honigernte von bis zu 494 kg einbringen. | sehr reichhaltiges Nektarangebot",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://de.wikipedia.org/wiki/Raps ; https://www.die-honigmacher.de/kurs2/pflanze_8.html"
+        },
+        "honey_description": {
+          "value": "白色至乳黄色,味微辛(peppery),结晶极快成软固态;结晶后浅黄/象牙白,花香带果香",
+          "quote": "Monofloral rapeseed honey has a whitish or milky yellow color, peppery taste and, due to its fast crystallization time, a soft-solid texture. | Light yellow, whitish or dull ivory when crystallized. | A floral – fresh fruit (fruity) aroma, warm, medium intensity.",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://en.wikipedia.org/wiki/Monofloral_honey"
+        },
+        "pollen_amount": {
+          "value": "花粉极丰富,饱黄色",
+          "quote": "sehr reiches Pollenangebot | Pollen: satt gelb",
+          "url": "https://www.die-honigmacher.de/kurs2/pflanze_8.html"
+        },
+        "pollinator_dependence": {
+          "value": "自交亲和,可自花授粉,亦可风媒;但昆虫授粉显著增产(英文维基称近翻倍;中国小农田排除传粉者后结实率降 38%、产量降 12%)。注意:英文维基'以风媒为主'一说与多数文献相左,需复审",
+          "quote": "It is a self-compatible pollinating species like the other amphidiploid Brassica species. | It is predominantly a wind-pollinated plant but shows significantly increased grain yields when bee-pollinated, almost double the final yield | Es kommt sowohl Selbstbefruchtung innerhalb einer Blüte als auch Fremdbefruchtung durch Bienen vor. | Oilseed rape plants from which insect pollinators were excluded had on average 38% lower seed set",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://de.wikipedia.org/wiki/Raps ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        }
+      },
+      "visitors": [
+        {
+          "bee": "apis-mellifera",
+          "relation": "nectar|pollen|pollination",
+          "quote": "Rapeseed has a high melliferous potential (produces substances that can be collected by insects) and is a main forage crop for honeybees. | Honeybees and B. terrestris, the two most frequent visitors to OSR fields",
+          "url": "https://en.wikipedia.org/wiki/Rapeseed ; https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/",
+          "note": "Harris, Balfour & Ratnieks 2024, Ecology and Evolution(英国田间观察,Apis mellifera 占访花者 71%)"
+        },
+        {
+          "bee": "apis-cerana",
+          "relation": "nectar|pollen|pollination",
+          "quote": "GM pollen grains were found in honey collected from honeybees foraging on both GM and non-GM oilseed rape cultivars | Apis mellifera and Apis cerana",
+          "url": "https://www.cambridge.org/core/journals/journal-of-agricultural-science/article/abs/effects-of-chinese-honeybee-foraging-on-oilseed-rape-gene-flow-and-honey-ingredients/8036AF6224BB902330AFC1D3DDDBA31B ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/",
+          "note": "Liu et al. 2017 (J. Agric. Sci.) 以 Apis cerana cerana 为试验蜂种研究油菜基因流与蜂蜜成分;Zou et al. 2017 (BMC Ecology) 在中国油菜田记录到 A. mellifera 与 A. cerana"
+        },
+        {
+          "bee": "bombus-terrestris",
+          "relation": "nectar|pollen|observed-visit",
+          "quote": "Honeybees and B. terrestris, the two most frequent visitors to OSR fields | The colonies gained significantly more weight in study areas with large amounts of oilseed rape particularly during early colony stages.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/ ; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Mass%20flowering%20oilseed%20rape%20improves%20early%20colony%20growth%22&format=json&resultType=core",
+          "note": "Westphal, Steffan-Dewenter & Tscharntke 2009, J. Applied Ecology, DOI 10.1111/j.1365-2664.2008.01580.x"
+        },
+        {
+          "bee": "osmia-cornifrons",
+          "relation": "pollination",
+          "quote": "The purpose of this study was to investigate the efficacy of these two solitary bee species for producing Brassica napus, B. rapa, and Sinapis alba seed in field cages. | the B. napus accession, PI 469944, produced significantly more seed when pollinated by O. lignaria subsp. lignaria than by O. cornifrons.",
+          "url": "https://jes.kglmeridian.com/view/journals/ents/38/4/article-p545.xml",
+          "note": "J. Entomological Science 38(4), 2003(美国 Iowa 种质站网罩试验;为受控条件下的人工传粉,非自然访花记录)"
+        },
+        {
+          "bee": "megachile-rotundata",
+          "relation": "pollination",
+          "quote": "It has been shown to pollinate these plant species: Medicago sativa, Other Legumes, Brassica napus, Trifolium spp., Vaccinium angustifolium | They are also used to pollinate canola for hybrid seed production, native legumes, blueberries, and are used for pollination of carrot in field cages",
+          "url": "https://en.wikipedia.org/wiki/Megachile_rotundata ; https://ask.ifas.ufl.edu/publication/IN1452",
+          "note": "北美杂交油菜制种中作为管理蜂种使用"
+        },
+        {
+          "bee": "xylocopa-violacea",
+          "relation": "none",
+          "quote": "未找到(Özbek 2013 仅记录 X. valga 与 X. violacea 访问十字花科野生种 Sinapis arvensis、Cardamine uliginosa,未提及 Brassica napus)",
+          "url": "https://www.entomol.org/journal/index.php/JERS/article/download/537/235",
+          "note": "维基百科 Xylocopa violacea 词条亦无油菜记载"
+        }
+      ]
+    },
+    {
+      "id": "robinia-pseudoacacia",
+      "scientific_name": "Robinia pseudoacacia",
+      "fields": {
+        "family": {
+          "value": "豆科 Fabaceae(刺槐族 Robinieae)",
+          "quote": "belonging to the tribe Robinieae of the legume family | 豆科",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://zh.wikipedia.org/wiki/%E5%88%BA%E6%A7%90"
+        },
+        "english_name": {
+          "value": "black locust; false acacia; 亦称 yellow locust, white locust, common locust",
+          "quote": "commonly known as black locust | Another common name is false acacia | Common Names: yellow locust, white locust, common locust, false acacia",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf"
+        },
+        "chinese_name": {
+          "value": "刺槐;洋槐;其花即市售'槐花蜜'之'槐花'(非国槐 Styphnolobium japonicum)",
+          "quote": "called cihuai ([zh:刺槐]), yanghuai (foreign huai [zh:洋槐]) | 刺槐又名洋槐 | 这里的使用的\"槐花\"就是指洋槐花（刺槐花）",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://zh.wikipedia.org/wiki/%E5%88%BA%E6%A7%90"
+        },
+        "flower_form": {
+          "value": "两侧对称的蝶形花(英文维基称'不完全蝶形');腋生下垂总状花序,长 10–20(25) cm,每序 10–25 朵,极芳香",
+          "quote": "The flowers themselves are cream-white (rarely pink or purple) with a pale yellow blotch in the center and imperfectly papilionaceous in shape. | They are arranged in loose drooping clumps (racemes) which are typically 10–20 cm (4–8 in) long. | 总状花序花序腋生，长10-20厘米，下垂，花多数，芳香 | Jeweils 10 bis 25 der stark bergamotteartig duftenden Blüten sind zusammengefasst in zwischen 10 und 25 Zentimeter langen, hängenden und traubigen, achselständigen Blütenständen.",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia ; https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie"
+        },
+        "petal_count": {
+          "value": "来源仅记载为蝶形花(旗瓣/翼瓣/龙骨瓣结构),未直接给出'5 枚'数字;《中国植物志》给出旗瓣尺寸",
+          "quote": "imperfectly papilionaceous in shape | 旗瓣长16毫米，宽约19毫米",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia"
+        },
+        "flower_size": {
+          "value": "花宽约 2.5 cm(英文维基);旗瓣长 16 mm、宽约 19 mm(《中国植物志》);花冠管深度未找到数值",
+          "quote": "They are about 2.5 cm (1 in) wide, very fragrant, and produce large amounts of nectar. | 旗瓣长16毫米，宽约19毫米",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia"
+        },
+        "bloom_overall": {
+          "value": "5–6 月,展叶后开花,单株花期仅 7–10 天",
+          "quote": "The large flowers open in May or June for 7–10 days, after the leaves have developed.",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia"
+        },
+        "bloom_china_east": {
+          "value": "4–6 月(《中国植物志》);18 世纪末自欧洲引入青岛,华北平原、黄淮流域成片造林",
+          "quote": "花期4-6月，果期8-9月 | 原产美国东部，17世纪传入欧洲及非洲。我国于18世纪末从欧洲引入青岛栽培，现全国各地广泛栽植。",
+          "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia"
+        },
+        "bloom_central_europe": {
+          "value": "5–6 月(德国);意大利 4 月末–5 月上旬",
+          "quote": "Die weißen, gestielten Blüten der Gewöhnlichen Robinie erscheinen in den Monaten Mai bis Juni. | La fioritura avviene in Italia tra la fine di aprile e le prime settimane di maggio.",
+          "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie ; https://it.wikipedia.org/wiki/Robinia_pseudoacacia"
+        },
+        "bloom_north_america": {
+          "value": "4 月下旬–6 月中旬(USDA NRCS Plant Guide 2025);NC State:4–6 月",
+          "quote": "Flowers are white (Figure 1) and extremely fragrant, blooming in late April to mid-June (Dirr, 2009). | from April to June",
+          "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf ; https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/"
+        },
+        "nectar_importance": {
+          "value": "美国东部主要蜜源树种;欧洲著名'洋槐蜜(acacia honey)'来源;花蜜含糖 34–59%;每株每花季产蜜 0.66–1.44 kg(德文维基)",
+          "quote": "Black locust is a major honey plant in the eastern US, and has been planted in European countries. In many European countries, it is the source of the renowned acacia honey. | Robinienblüten liefern viel Nektar mit einem hohen Zuckeranteil zwischen 34 und 59 Prozent. | Durchschnittlich lassen sich je Baum und Blühsaison Honigerträge zwischen 0,66 und 1,44 Kilogramm erzielen. | 刺槐也是一种重要的蜜源植物 | In several European countries, black locust honey is an important product (Vítková et al., 2017).",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie ; https://zh.wikipedia.org/wiki/%E5%88%BA%E6%A7%90 ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf"
+        },
+        "honey_description": {
+          "value": "水白至浅黄近无色;味淡雅花香;高果糖,长期保持液态不结晶",
+          "quote": "Ranges from light yellow to almost colorless. | mild delicate floral taste | It lasts as a liquid due to being high in fructose. | hat eine klare, wasserhelle bis hellgelbe Farbe, einen schwach blumigen, milden, schwach aromatischen Geschmack und ist flüssig.",
+          "url": "https://en.wikipedia.org/wiki/Monofloral_honey ; https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie"
+        },
+        "pollen_amount": {
+          "value": "未找到定量或权威定性记载(仅博客类来源称花粉花蜜丰富,未采信)",
+          "quote": "未找到",
+          "url": "未找到"
+        },
+        "pollinator_dependence": {
+          "value": "虫媒,主要靠膜翅目;花结构使雌雄蕊分离,通常不自花授粉;蝶形花的'触发'机制对体轻的蜜蜂较难",
+          "quote": "The flowers are pollinated by insects, primarily by Hymenopteran insects. | The physical construction of the flower separates the male and female parts so that self-pollination will not typically occur. | Die typischen Schmetterlingsblüten mit grün-rötlichem, haarigem Kelch bieten reichlich Nektar und werden daher von vielen Insekten aufgesucht, gern auch von Honigbienen.",
+          "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia ; https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie"
+        }
+      },
+      "visitors": [
+        {
+          "bee": "apis-mellifera",
+          "relation": "nectar|pollination",
+          "quote": "One of the most appreciated unifloral honey is produced out of R. pseudoacacia. | Foraging individuals, able to detect these differences, perform active choices preferentially selecting already-visited flowers: lower in nectar content but easier to manipulate. | Giovanetti (2019) also reported honeybees (Apis mellifera) visiting black locust flowers. | gern auch von Honigbienen",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30008279&format=json&resultType=core ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf ; https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie",
+          "note": "Giovanetti 2019, Bulletin of Entomological Research 109(3):316-324, DOI 10.1017/S0007485318000561;搜索摘要另提到蜜蜂有'合法访花'与'盗蜜'两种策略(Springer 2012 论文,原文 403 未核验)"
+        },
+        {
+          "bee": "apis-cerana",
+          "relation": "nectar",
+          "quote": "widely targeted metabolomics using UPLC-ESI-TOF-MS identified 313 components (75 glycosides) in Apis cerana Fabr. produced acacia (Robinia pseudoacacia L.) honey",
+          "url": "https://link.springer.com/article/10.1007/s00217-025-04800-3",
+          "note": "Mo et al. 2025, European Food Research and Technology——证明中蜂能酿刺槐单花蜜(间接证明采蜜),未见访花行为学研究;中文养蜂科普亦称中蜂采槐花蜜,但非学术来源"
+        },
+        {
+          "bee": "bombus-terrestris",
+          "relation": "none",
+          "quote": "未找到 B. terrestris 的直接记载;USDA 列出北美熊蜂: Stubbs et al. (1992) reported several species of native bees visiting black locust flowers: two-spotted bumblebee (Bombus bimaculatus), yellow-banded bumblebee (Bombus terricola) and half-black bumble bee (Bombus vagans).",
+          "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf",
+          "note": "德文维基笼统称'许多昆虫'访花;Europe PMC 检索 Robinia+Bombus 未见 B. terrestris 具名记载。文案中不可称'欧洲熊蜂访刺槐'为有据"
+        },
+        {
+          "bee": "osmia-cornifrons",
+          "relation": "none",
+          "quote": "未找到;Vaudo et al. 2020 花粉分析中豆科仅见 Cercis: Cercis (Fabaceae) pollen was frequently collected",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7428236/",
+          "note": "角额壁蜂飞行期 4 月起,与刺槐花期(4–6 月)部分重叠,但无文献记载"
+        },
+        {
+          "bee": "megachile-rotundata",
+          "relation": "none",
+          "quote": "未找到",
+          "url": "未找到",
+          "note": "苜蓿切叶蜂 6–7 月羽化(UF/IFAS: Adult alfalfa leaf-cutter bees emerge and mate in June and July throughout most regions in North America.),与刺槐花期基本错开"
+        },
+        {
+          "bee": "xylocopa-violacea",
+          "relation": "none",
+          "quote": "未找到可核验原句;Özbek 2013 仅称 Xylocopa 偏好豆科: The species of the genus Xylocopa are shown to be strongly polylectic but show a clear preference for the families: Fabaceae, Lamiaceae, and Asteraceae (Terzo et al., 2007). | Vicidomini 1995: the Leguminosae are the most important family for the Xylocopa genus",
+          "url": "https://www.entomol.org/journal/index.php/JERS/article/download/537/235 ; https://ojs.cimedoc.uniba.it/index.php/entomol/article/view/664",
+          "note": "pollenatlas.net 据搜索摘要称 Robinia 由 Apis mellifera 与 Xylocopa violacea 传粉,但站点证书错误无法核验,未采信"
+        }
+      ]
+    },
+    {
+      "id": "helianthus-annuus",
+      "scientific_name": "Helianthus annuus",
+      "fields": {
+        "family": {
+          "value": "菊科 Asteraceae",
+          "quote": "in the daisy family Asteraceae | Sunflower Family (Asteraceae). | 菊科",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_hean3.pdf ; https://zh.wikipedia.org/wiki/%E5%90%91%E6%97%A5%E8%91%B5"
+        },
+        "english_name": {
+          "value": "common sunflower / sunflower; 别名 Kansas sunflower, mirasol",
+          "quote": "The common sunflower (Helianthus annuus) | Alternative Names: common sunflower, Kansas sunflower, mirasol",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_hean3.pdf"
+        },
+        "chinese_name": {
+          "value": "向日葵;别名向阳花、朝阳花、日头花、葵花、文菊",
+          "quote": "向阳花、朝阳花、日头花、葵花、文菊",
+          "url": "https://zh.wikipedia.org/wiki/%E5%90%91%E6%97%A5%E8%91%B5"
+        },
+        "flower_form": {
+          "value": "头状花序(假花):外围黄色舌状花(不育,似花瓣),中央棕/紫色管状花(两性、结实),按黄金角螺旋排列;单生茎顶,常下倾",
+          "quote": "What is often called the \"flower\" of the sunflower is actually a \"flower head\" (pseudanthium), 7.5–12.5 centimetres (3–5 in) wide, of numerous small individual five-petaled flowers (\"florets\"). | The outer flowers, which resemble petals, are called ray flowers. | The spirally arranged flowers in the center of the head are called disk flowers. | 头状花序，单生于茎顶或枝端，常下倾 | 花序边缘生中性的黄色舌状花，不结实，类似于花瓣，被称为射线花。花序中部为两性管状花，棕色或紫色，能结实；盘花呈螺旋状排列。",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus ; https://zh.wikipedia.org/wiki/%E5%90%91%E6%97%A5%E8%91%B5"
+        },
+        "petal_count": {
+          "value": "单朵小花 5 裂(五瓣合生);'花瓣'状舌状花数量因品种而异,来源未给统一数",
+          "quote": "numerous small individual five-petaled flowers (\"florets\")",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus"
+        },
+        "flower_size": {
+          "value": "头状花序直径 7.5–12.5 cm(英文维基,野生型);USDA 7.5–15 cm;《中国植物志》栽培种 10–30 cm;德文维基 10–40 cm。管状花花冠管深度:未找到具体 mm 数值,仅有'部分品种花冠管过深、蜜蜂不易取蜜'的定性记载",
+          "quote": "7.5–12.5 centimetres (3–5 in) wide | The flower heads are 7.5-15 cm (3-6 in) wide and at the ends of branches. | 径约10-30厘米 | Die nickenden Blütenkörbe weisen einen Durchmesser von 10 bis 40 Zentimetern auf. | certain sunflower varieties can have florets with tubes too deep for honey bees to forage for nectar | Shorter corollas, thus easier nectar access, increased both wild bee and honey bee visits.",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus ; https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_hean3.pdf ; https://www.iplant.cn/ashx/getfrps.ashx?key=Helianthus%20annuus ; https://de.wikipedia.org/wiki/Sonnenblume ; https://seeds.ca/pollinator/bestpractices/sunflowers.html ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/"
+        },
+        "bloom_overall": {
+          "value": "夏季",
+          "quote": "The plant flowers in summer.",
+          "url": "https://en.wikipedia.org/wiki/Helianthus_annuus"
+        },
+        "bloom_china_east": {
+          "value": "7–9 月(《中国植物志》);中文维基 7–8 月",
+          "quote": "花期7-9月，果期8-9月 | 花期为7到8月",
+          "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Helianthus%20annuus ; https://zh.wikipedia.org/wiki/%E5%90%91%E6%97%A5%E8%91%B5"
+        },
+        "bloom_central_europe": {
+          "value": "6 月末/7 月至 9 月",
+          "quote": "Die Blütezeit reicht von Ende Juni/Juli bis September.",
+          "url": "https://de.wikipedia.org/wiki/Sonnenblume"
+        },
+        "bloom_north_america": {
+          "value": "夏–秋(NC State 仅给季节,未给月份);USDA Plant Guide 未给花期",
+          "quote": "Flower Bloom Time: Summer; Fall",
+          "url": "https://plants.ces.ncsu.edu/plants/helianthus-annuus/"
+        },
+        "nectar_importance": {
+          "value": "对各类蜂均为良好的蜜粉源;花蜜量与含糖量在研究间差异极大;花蜜含糖峰值约 35%(10–14 时);法国、意大利、西班牙有向日葵单花蜜",
+          "quote": "It is a good source of both nectar and pollen to all kind of bees (Goulson et al., 2007). | Sunflower nectar volume and sugar mass per floret are strikingly variable across studies. | Der Nektar hat zur Zeit der Hauptproduktion zwischen 10 und 14 Uhr auch den höchsten Zuckergehalt von 35 %. | It is a great late-nectar plant for butterflies including monarch's and other pollinators.",
+          "url": "https://indianentomology.org/index.php/ije/article/download/3523/1957 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/ ; https://de.wikipedia.org/wiki/Sonnenblume ; https://plants.ces.ncsu.edu/plants/helianthus-annuus/"
+        },
+        "honey_description": {
+          "value": "浅黄色;高葡萄糖,结晶快、结晶后柔软易涂抹,常以结晶态食用;风味描述未找到",
+          "quote": "Pale yellow | Because sunflower honey crystallizes quickly, becoming soft and easy to spread, it is often consumed in its crystallized state. | high glucose content",
+          "url": "https://en.wikipedia.org/wiki/Monofloral_honey ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/"
+        },
+        "pollen_amount": {
+          "value": "花粉蛋白质含量偏低;德文维基称一个花盘可含'超过 15,000 朵小花'——该数字远高于常见记载(约 1,000–2,000),需复核;花粉于上午 8–10 时散出",
+          "quote": "lower protein | über 15.000 Einzelblüten | pollen dehiscence occurs during forenoon (8.00 AM to 10.00 AM) and nectar secretion peaks between 12.00 and 2.00 PM coinciding with maximum bee foraging activity.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/ ; https://de.wikipedia.org/wiki/Sonnenblume ; https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        },
+        "pollinator_dependence": {
+          "value": "野生型自交不亲和,高度依赖昆虫;杂交制种(雄性不育系)必须靠昆虫传粉;现代油用杂交种多已自交亲和但仍受益于昆虫授粉(无传粉者结实率 10–20% vs 有传粉者达 90%)",
+          "quote": "Sunflower is highly self-incompatible in nature, and depends on pollinating agents for seed set (Price et al., 2015). | Male-sterile hybrid sunflower cultivars always require insect pollen vectors to fertilize female flowers. | A seed set as low as 10-20% results when pollinators are absent and plants self-pollinate, compared to up to 90% seed set in flower heads accessible to pollinators. | Sunflower production relies partly or completely on insect mediated pollen transfer for oilseed, confection and hybrid seed production | animal-mediated pollination is essential for transferring pollen from male to female parents",
+          "url": "https://indianentomology.org/index.php/ije/article/download/3523/1957 ; https://seeds.ca/pollinator/bestpractices/sunflowers.html ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/"
+        }
+      },
+      "visitors": [
+        {
+          "bee": "apis-mellifera",
+          "relation": "nectar|pollen|pollination",
+          "quote": "honey bees are relatively inefficient sunflower pollinators on a per-visit basis | behavioral interactions between wild and honey bees increase the pollination efficiency of honey bees on hybrid sunflower up to 5-fold | The study confirmed that A. mellifera and A. cerana indica colonies are effective pollinators in sunflower ecosystem. | Honey bees and bumble bees are known to be effective pollinators of this crop",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/ ; https://indianentomology.org/index.php/ije/article/download/3523/1957 ; https://seeds.ca/pollinator/bestpractices/sunflowers.html",
+          "note": "Greenleaf & Kremen 2006 PNAS;Karthik Raja et al. 2025 Indian J. Entomology 87 (Special Issue):122-126"
+        },
+        {
+          "bee": "apis-cerana",
+          "relation": "nectar|pollen|pollination",
+          "quote": "The study explores the foraging behaviour and pollination efficiency of Apis cerana indica F. and Apis mellifera L. in sunflower ecosystem under tropical conditions. Peak abundance of A. mellifera was around 12:00 hr (3.19 bees/ head/ 5 min) while that of A. cerana indica was at 14:00 hr ( 3.34 bees/ head/ 5 min) | The yield increase over open pollination was 33.82% in A. mellifera pollination and 20.23% in A. cerana indica pollination.",
+          "url": "https://indianentomology.org/index.php/ije/article/download/3523/1957",
+          "note": "印度亚种 A. cerana indica,热带条件;中国中蜂(A. cerana cerana)访向日葵的专门文献未查到"
+        },
+        {
+          "bee": "bombus-terrestris",
+          "relation": "observed-visit",
+          "quote": "Beneficial insects, such as Apis mellifera (honey bees) and Bombus sp. (bumble bees), play important roles in the environment as pollinators, and they are directly affected by agronomical practices. | Cage experiments with a pure sunflower pollen diet often resulted in negative reproductive parameters for B. terrestris",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Is%20pollinator%20visitation%20of%20Helianthus%20annuus%22&format=json&resultType=core ; https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/",
+          "note": "Stejskalová et al. 2018 Crop Protection (捷克小区试验)摘要只写 Bombus sp.;搜索摘要称正文具名 B. terrestris 与 B. lapidarius 且熊蜂占访花 92.9%,原文 403 未核验。Husband et al. 2025 为实验室喂食向日葵花粉,非田间访花"
+        },
+        {
+          "bee": "osmia-cornifrons",
+          "relation": "none",
+          "quote": "未找到",
+          "url": "未找到",
+          "note": "角额壁蜂为春季单世代蜂(4 月羽化),与向日葵夏季花期基本不重叠;Vaudo et al. 2020 花粉分析未见菊科向日葵"
+        },
+        {
+          "bee": "megachile-rotundata",
+          "relation": "none",
+          "quote": "未找到直接访花记载;Delphia et al. 2024 将向日葵列入野花条带但花粉分析未检出: only a single bee collected another pollen species which we identified as Calendula",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11332388/",
+          "note": "NC State 列出的向日葵专食切叶蜂为 Megachile (Sayapis) pugnata,并非 M. rotundata,文案勿混淆"
+        },
+        {
+          "bee": "xylocopa-violacea",
+          "relation": "observed-visit|pollination",
+          "quote": "Field studies revealed that Xylocopa species, particularly X. valga, X. violacea, X. iris and X. olivieri are valuable pollinators of some cultivated plants, such as ... sunflower (Helianthus annuus L.), and Canthamus tinctorius L. | Additionally, X. valga, X. violacea, X. iris and X. olivieri visit sunflower (Helianthus annuus L.) and safflower (Canthamus tinctorius L.), which are commonly cultivated plants in the family Compositae in the country.",
+          "url": "https://www.entomol.org/journal/index.php/JERS/article/download/537/235",
+          "note": "Özbek 2013, J. Entomol. Res. Soc. 15(1):79-89(土耳其田间观察);'传粉'属作者定性判断,无单访结实数据"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Rapeseed", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Rapeseed" },
+    { "title": "Robinia pseudoacacia", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia" },
+    { "title": "Helianthus annuus", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Helianthus_annuus" },
+    { "title": "Monofloral honey", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Monofloral_honey" },
+    { "title": "Megachile rotundata", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Megachile_rotundata" },
+    { "title": "Osmia cornifrons", "organization": "Wikipedia (en)", "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons" },
+    { "title": "欧洲油菜", "organization": "维基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%B4%B2%E6%B2%B9%E8%8F%9C" },
+    { "title": "油菜", "organization": "维基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/%E6%B2%B9%E8%8F%9C" },
+    { "title": "刺槐", "organization": "维基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/%E5%88%BA%E6%A7%90" },
+    { "title": "向日葵", "organization": "维基百科 (zh)", "url": "https://zh.wikipedia.org/wiki/%E5%90%91%E6%97%A5%E8%91%B5" },
+    { "title": "Raps", "organization": "Wikipedia (de)", "url": "https://de.wikipedia.org/wiki/Raps" },
+    { "title": "Gewöhnliche Robinie", "organization": "Wikipedia (de)", "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie" },
+    { "title": "Sonnenblume", "organization": "Wikipedia (de)", "url": "https://de.wikipedia.org/wiki/Sonnenblume" },
+    { "title": "Robinia pseudoacacia", "organization": "Wikipedia (it)", "url": "https://it.wikipedia.org/wiki/Robinia_pseudoacacia" },
+    { "title": "中国植物志 (FRPS) 欧洲油菜 Brassica napus", "organization": "植物智 iplant.cn / 中国科学院植物研究所", "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus" },
+    { "title": "中国植物志 (FRPS) 刺槐 Robinia pseudoacacia", "organization": "植物智 iplant.cn / 中国科学院植物研究所", "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia" },
+    { "title": "中国植物志 (FRPS) 向日葵 Helianthus annuus", "organization": "植物智 iplant.cn / 中国科学院植物研究所", "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Helianthus%20annuus" },
+    { "title": "Plant Guide: Black Locust (Robinia pseudoacacia), Belt S.V. 2025", "organization": "USDA NRCS", "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf" },
+    { "title": "Plant Guide: Annual Sunflower (Helianthus annuus)", "organization": "USDA NRCS", "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_hean3.pdf" },
+    { "title": "Helianthus annuus — Plant Toolbox", "organization": "NC State Extension", "url": "https://plants.ces.ncsu.edu/plants/helianthus-annuus/" },
+    { "title": "Robinia pseudoacacia — Plant Toolbox", "organization": "NC State Extension", "url": "https://plants.ces.ncsu.edu/plants/robinia-pseudoacacia/" },
+    { "title": "Brassica napus Oleifera Group — Plant Toolbox", "organization": "NC State Extension", "url": "https://plants.ces.ncsu.edu/plants/brassica-napus-oleifera-group/" },
+    { "title": "Alfalfa Leaf-Cutter Bee Megachile rotundata (EENY-820)", "organization": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1452" },
+    { "title": "Raps (Brassica napus) Pflanzensteckbrief", "organization": "Die Honigmacher (德国养蜂教育网站)", "url": "https://www.die-honigmacher.de/kurs2/pflanze_8.html" },
+    { "title": "Sunflower — Pollinator Best Practices", "organization": "Seeds of Diversity Canada / Pollination Canada", "url": "https://seeds.ca/pollinator/bestpractices/sunflowers.html" },
+    { "title": "Wild pollinators enhance oilseed rape yield in small-holder farming systems in China (Zou et al. 2017, BMC Ecology)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/" },
+    { "title": "Floral resource wastage: Most nectar produced by oilseed rape is uncollected (Harris, Balfour & Ratnieks 2024, Ecology and Evolution)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/" },
+    { "title": "Mass flowering oilseed rape improves early colony growth but not sexual reproduction of bumblebees (Westphal et al. 2009, J. Applied Ecology)", "organization": "Europe PMC (摘要)", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Mass%20flowering%20oilseed%20rape%20improves%20early%20colony%20growth%22&format=json&resultType=core" },
+    { "title": "Effects of Chinese honeybee foraging on oilseed rape gene flow and honey ingredients (Liu et al. 2017, J. Agricultural Science)", "organization": "Cambridge University Press", "url": "https://www.cambridge.org/core/journals/journal-of-agricultural-science/article/abs/effects-of-chinese-honeybee-foraging-on-oilseed-rape-gene-flow-and-honey-ingredients/8036AF6224BB902330AFC1D3DDDBA31B" },
+    { "title": "Pesticide residues in the pollen and nectar of oilseed rape and their potential risks to honey bees (Wen et al. 2021, Sci. Total Environ.)", "organization": "Europe PMC (摘要)", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Pesticide%20residues%20in%20the%20pollen%20and%20nectar%20of%20oilseed%20rape%22&format=json&resultType=core" },
+    { "title": "Pollinating Efficacy of Osmia cornifrons and Osmia lignaria subsp. lignaria on Three Brassicaceae Species Grown Under Field Cages (2003, J. Entomological Science 38(4))", "organization": "Georgia Entomological Society / KGL Meridian", "url": "https://jes.kglmeridian.com/view/journals/ents/38/4/article-p545.xml" },
+    { "title": "Introduced bees (Osmia cornifrons) collect pollen from both coevolved and novel host-plant species (Vaudo et al. 2020, R. Soc. Open Sci.)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7428236/" },
+    { "title": "Foraging choices balanced between resource abundance and handling concerns: how the honeybee select the flowers of Robinia pseudoacacia (Giovanetti 2019, Bull. Entomol. Res.)", "organization": "Europe PMC (摘要)", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30008279&format=json&resultType=core" },
+    { "title": "Chemical composition profiles of Apis cerana Fabr. produced Acacia honey (Mo et al. 2025, Eur. Food Res. Technol.)", "organization": "Springer Nature", "url": "https://link.springer.com/article/10.1007/s00217-025-04800-3" },
+    { "title": "Wild bees enhance honey bees' pollination of hybrid sunflower (Greenleaf & Kremen 2006, PNAS)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/" },
+    { "title": "A guide to sunflowers: floral resource nutrition for bee health and key pollination syndromes (Husband et al. 2025, Front. Plant Sci.)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/" },
+    { "title": "Is pollinator visitation of Helianthus annuus influenced by cultivar or pesticide treatment? (Stejskalová et al. 2018, Crop Protection)", "organization": "Europe PMC (摘要)", "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Is%20pollinator%20visitation%20of%20Helianthus%20annuus%22&format=json&resultType=core" },
+    { "title": "Yield enhancement in sunflower through melittophily in tropical arid conditions (Karthik Raja et al. 2025, Indian J. Entomology 87 Special Issue)", "organization": "Entomological Society of India", "url": "https://indianentomology.org/index.php/ije/article/download/3523/1957" },
+    { "title": "Seasonality and alternative floral resources affect reproductive success of the alfalfa leafcutting bee (Delphia et al. 2024)", "organization": "PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11332388/" },
+    { "title": "New Data on Large Carpenter-bees of Turkey with Considerations About Their Importance as Pollinators (Özbek 2013, J. Entomol. Res. Soc. 15(1))", "organization": "Entomological Research Society (Turkey)", "url": "https://www.entomol.org/journal/index.php/JERS/article/download/537/235" },
+    { "title": "Biologia di Xylocopa violacea: specie di fiori visitate dalla femmina (Vicidomini 1995, Entomologica)", "organization": "Università di Bari", "url": "https://ojs.cimedoc.uniba.it/index.php/entomol/article/view/664" }
+  ]
+}

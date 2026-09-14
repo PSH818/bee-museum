@@ -1,0 +1,694 @@
+{
+  "lens": "compliance",
+  "round": 23,
+  "reviewedAt": "2026-08-26T07:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "region:region-china-east",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "华北属湿润大陆性气候,长江下游已属湿润亚热带",
+          "problem": "[可选] 清单项 4 受众适配:两个气候类型名对中小学生偏术语,但句子已把结论(夏暖湿、冬寒冷)说清,可由上下文推断;仅建议加一层白话。",
+          "fix": "改为“华北冬冷夏热、四季分明(湿润大陆性气候),长江下游则更暖更湿(湿润亚热带)”。"
+        }
+      ]
+    },
+    {
+      "key": "region:region-central-europe",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "大部分地区属暖夏型湿润大陆性气候",
+          "problem": "[可选] 清单项 4 受众适配:“暖夏型湿润大陆性气候”是分类学名词,没有简释;同一卡片“离海越远大陆性越强”已把要点说清,建议把术语放进括号。",
+          "fix": "改为“大部分地区四季分明、夏暖冬冷(气候分类上多属暖夏型湿润大陆性气候)”。"
+        }
+      ]
+    },
+    {
+      "key": "region:region-north-america-east",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "夏季暖到热、冬季寒冷多雪",
+          "problem": "[可选] 清单项 4 受众适配:“暖到热”读起来生硬。",
+          "fix": "改为“夏季温暖甚至炎热、冬季寒冷多雪”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "name: 油菜 / summary 全文",
+          "problem": "清单项 5 中文名歧义:中文“油菜”既指本卡的甘蓝型油菜 Brassica napus,也指白菜型、芥菜型油菜,菜市场里的“小油菜/上海青”(Brassica rapa)也叫油菜;刺槐卡已对“槐花”作了歧义提示,本卡却没有,中小学生读者容易把菜摊上的油菜当成这朵花。",
+          "fix": "summary 末尾追加一句:“中文里叫‘油菜’的植物不止一种,本馆说的是花田里大面积种植的甘蓝型油菜(Brassica napus);菜市场的小油菜是它的近亲,不是同一种。”"
+        },
+        {
+          "claim": "重要大宗蜜源,被称为蜜蜂的主要饲料作物之一",
+          "problem": "[可选] 清单项 4 受众适配:“饲料作物”是英文 forage crop 的直译,中文语境里“饲料”指喂牲畜的东西,读者会困惑。",
+          "fix": "改为“重要大宗蜜源,常被列为蜜蜂最重要的蜜粉源作物之一”;关系 rel-mellifera-rapeseed-china-spring 的 note 同步改。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "油菜是自交亲和的植物,自己也能结实",
+          "problem": "[可选] 清单项 4 受众适配:“自交亲和”已由后半句解释,可读;但“结实”对小学生偏文言。",
+          "fix": "改为“油菜是自交亲和的植物——用自己的花粉也能结出种子”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一朵花一昼夜的泌蜜含糖约在零点几到两毫克之间(德文资料)",
+          "problem": "[可选] 清单项 2 来源诚实 / 清单项 3:括注“(德文资料)”只说明了语种,没有说明这是养蜂教学网站的数字,读者无从判断分量;“零点几到两毫克”也不如数字直观。",
+          "fix": "改为“一朵花一昼夜分泌的花蜜里,含糖大约 0.1–2 毫克(据德国养蜂教学资料)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "sourceIds 含 src-dewiki-sonnenblume(德文维基“向日葵”页)",
+          "problem": "清单项 2 来源诚实:本条讲油菜花序与花期,却引用了向日葵的德文维基页,读者点开来源会发现文不对题;疑为 src-dewiki 引用复制错误。",
+          "fix": "从 sourceIds 中删除 src-dewiki-sonnenblume;若“中欧 4 月下半到 6 月初”需要德文来源,已有 src-honigmacher-raps 承担。"
+        },
+        {
+          "claim": "单朵花只开一两天,整片田却能黄上几个星期",
+          "problem": "[可选] 清单项 1 确定性口径:“只开一两天”是定论式表述,建议加“通常”。",
+          "fix": "改为“单朵花通常只开一两天”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "“洋槐蜜(槐花蜜)”水白近无色、味清淡、果糖高、长期保持液态不结晶",
+          "problem": "清单项 1 绝对化用语 / 清单项 6 一致性:“不结晶”是绝对表述,洋槐蜜只是结晶极慢;同花的花蕊条目写的是“几乎不结晶”,口径不一。",
+          "fix": "改为“长期保持液态、不易结晶”。"
+        },
+        {
+          "claim": "花粉的量与质未见权威定量记载",
+          "problem": "[可选] 清单项 3 内部说明:这句是给读者看的,可以保留,但“量与质”“定量记载”偏文件腔。",
+          "fix": "改为“花粉的产量和营养价值目前没有可靠的公开数据”。"
+        },
+        {
+          "claim": "却是中国北方、欧洲与美国东部都举足轻重的蜜源树",
+          "problem": "[可选] 清单项 5 敏感表述(入侵物种):刺槐在欧洲多国被列为入侵植物,卡片只讲蜜源价值,建议一句带过,避免读者把它理解为单纯的“好树”。",
+          "fix": "在 summary 末尾补一句:“它生长快、适应性强,在欧洲一些地区也被视为入侵植物。”(如补写,需补相应来源)"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刺槐原产美国东部,17 世纪传入欧洲,18 世纪末从欧洲引入青岛;如今华北平原与黄淮流域成片造林。",
+          "problem": "[可选] 清单项 4 受众适配:一句话里四个时间地点,可拆成两句。",
+          "fix": "改为“刺槐原产美国东部,17 世纪传入欧洲,18 世纪末又从欧洲引入青岛。如今华北平原与黄淮流域都有成片的刺槐林。”"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "花粉的量与质未见权威记载,本馆不给数字。",
+          "problem": "清单项 3 内部说明泄露:“本馆不给数字”是编辑决策批注,不是面向读者的说明。",
+          "fix": "删去“本馆不给数字”,改为“花粉的产量和营养价值目前没有可靠数据”;或整句删除(卡片 pollen 字段已说明)。"
+        },
+        {
+          "claim": "据德文资料,一株成年树一个花季可产接近一公斤的蜂蜜",
+          "problem": "清单项 1 确定性口径 / 清单项 2 来源诚实:树不“产蜂蜜”,这是养蜂资料对“蜜产量”的估算;“德文资料”只说明语种,不说明这是维基百科数字。",
+          "fix": "改为“据德文维基百科引用的养蜂资料估算,一株成年树一个花季分泌的花蜜可供蜜蜂酿出接近 1 公斤蜂蜜”。"
+        },
+        {
+          "claim": "洋槐蜜果糖含量高,所以能长期保持液态、几乎不结晶。",
+          "problem": "[可选] 清单项 1:因果“所以”写成定论,可加“一般认为”。",
+          "fix": "改为“洋槐蜜果糖含量高,一般认为这是它能长期保持液态、不易结晶的原因”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "腋生的下垂总状花序长 10–20 厘米",
+          "problem": "[可选] 清单项 4 受众适配:“腋生”无简释。",
+          "fix": "改为“从叶腋长出、向下垂挂的总状花序长 10–20 厘米”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "对各类蜂都是良好的蜜源",
+          "problem": "[可选] 清单项 1 绝对化:“各类蜂都”是全称判断。",
+          "fix": "改为“对多种蜂都是良好的蜜源”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "有蜂传粉时结实率仍能从一两成提高到九成左右(印度研究)",
+          "problem": "清单项 3 内部说明泄露 / 清单项 1 确定性口径:“(印度研究)”是编辑批注式括注;数字来自一项热带条件下的印度试验,却被写成对“现代油用品种”的普遍结论。",
+          "fix": "改为“在印度的一项田间研究里,有蜂传粉时结实率从一两成提高到九成左右”。"
+        },
+        {
+          "claim": "野生向日葵自交不亲和,高度依赖昆虫",
+          "problem": "清单项 4 受众适配:“自交不亲和”没有简释,上下文也推不出含义。",
+          "fix": "改为“野生向日葵不能用自己的花粉结实(自交不亲和),高度依赖昆虫传粉”。"
+        },
+        {
+          "claim": "小花的花粉多在上午 8–10 时散出,花蜜含糖在中午前后达到峰值(约 35%)",
+          "problem": "[可选] 清单项 1:两个具体数字来自热带条件的研究,建议注明是观测值而非普适规律。",
+          "fix": "改为“研究观测到,小花的花粉多在上午 8–10 时散出,花蜜含糖在中午前后最高(约 35%)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "中国东部 7–9 月开花,中欧 7–9 月,北美温带在夏季到初秋。",
+          "problem": "[可选] 清单项 6 一致性:前两地给月份、北美给季节,而花卡三地都写 7–9 月。",
+          "fix": "改为“中国东部、中欧与北美温带都在 7–9 月开花”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "这让熊蜂、壁蜂这些会振动授粉的蜂在蓝莓园里特别重要",
+          "problem": "清单项 1 确定性口径:把壁蜂与熊蜂并列为“会振动授粉的蜂”是定论式表述;所引 Buzz pollination 与 SARE 报告是否支持壁蜂(角额壁蜂)振动授粉不确定——SARE 报告只说它每次访花接触花药与柱头。拿不准,交事实核查确认;若无支持应改写。",
+          "fix": "改为“这让熊蜂这类会振动授粉的蜂,以及壁蜂等勤快的本土蜂,在蓝莓园里特别重要”。"
+        },
+        {
+          "claim": "可产“蓝莓蜜”,风味饱满、略带果酸",
+          "problem": "[可选] 清单项 5 商业倾向:风味描述属主观评价,接近商品文案。",
+          "fix": "改为“可产‘蓝莓蜜’”;若保留风味描述,改为“据描述风味饱满、略带果酸”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "高丛蓝莓是四倍体植物",
+          "problem": "[可选] 清单项 4 受众适配:“四倍体”无简释,且与后半句的因果关系读者看不出来。",
+          "fix": "改为“高丛蓝莓的染色体有四套(四倍体),普遍认为需要别的植株的花粉(异花授粉)才能结出又大又多的果”;或直接删去“四倍体”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "有的木蜂和蜜蜂会在花筒侧面咬个孔直接取蜜",
+          "problem": "会误导读者:所引密歇根州立大学资料把“咬孔”归于木蜂,蜜蜂只是跟着利用现成的孔取蜜(二次盗蜜),不会自己咬孔;现写法把两者并列。",
+          "fix": "改为“有的木蜂会在花筒侧面咬个孔直接取蜜,蜜蜂随后也会从这些孔里偷蜜——它们拿走了花蜜,却不一定帮花传粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "中国北方栽培区大致 4–5 月(农技资料,非权威)",
+          "problem": "清单项 3 内部说明泄露:“非权威”是编辑对来源的分级标签,直接暴露给读者(尤其中小学生)既难理解,也削弱展陈;来源分级应留在来源表中。低权威农技网站只用于给一个“大致”月份区间,可接受,但括注要改成读者能懂的说法。",
+          "fix": "改为“中国北方栽培区大致 4–5 月(据农业技术网站介绍,仅供参考)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "“三叶草蜜”是常见的单花蜜",
+          "problem": "清单项 5 中文名歧义:“三叶草”在中文里泛指车轴草属多种植物(白车轴草、红车轴草等),口语里还常指酢浆草;卡片没有提示“三叶草蜜”来自哪几种,读者会以为专指本卡的白车轴草。",
+          "fix": "改为“‘三叶草蜜’是常见的单花蜜——‘三叶草’泛指车轴草属的几种牧草,白车轴草是其中最主要的一种”。"
+        },
+        {
+          "claim": "花粉价值良好(德文资料)",
+          "problem": "[可选] 清单项 2 来源诚实:括注只说明语种。",
+          "fix": "改为“花粉营养价值良好(据德文维基百科)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "但要先用体重把翼瓣和龙骨瓣压下去",
+          "problem": "[可选] 清单项 4 受众适配:“翼瓣”“龙骨瓣”只在刺槐条目里解释过,单看本条推不出位置。",
+          "fix": "改为“但要先用体重把两侧的翼瓣和下方的龙骨瓣压下去”。"
+        },
+        {
+          "claim": "白车轴草基本自交不亲和,种子生产依赖蜂类传粉",
+          "problem": "[可选] 清单项 4:“自交不亲和”可由后半句推断,但加一句更稳。",
+          "fix": "改为“白车轴草基本不能用自己的花粉结实(自交不亲和),种子生产依赖蜂类传粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "“三叶草蜜”是最常见的单花蜜之一,白车轴草牧场是它的主要来源。",
+          "problem": "清单项 1 确定性口径 / 清单项 5 歧义:“最常见”没有地域限定(所引词条主要指北美、新西兰等地);“主要来源”把多种车轴草(含红车轴草、杂种车轴草)的蜜归给白车轴草一种,写成定论。",
+          "fix": "改为“在北美、新西兰等牧场多的地方,‘三叶草蜜’是最常见的单花蜜之一;它主要来自白车轴草等几种车轴草属牧草”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "bloom.region-china-east: 6–7 月",
+          "problem": "清单项 2 来源诚实 / 清单项 6 一致性:中国东部的花期数字没有东部来源——所引中文资料是新疆伊犁州气象局的花期预报,而花蕊条目自己写明“中国的主产区在新疆伊犁,并不在东部”;花序条目又说“不同地区的资料从 6 月到 9 月不一”。读者会把 6–7 月当作东部实测。拿不准是否应保留该地域花期。",
+          "fix": "二选一:(a) 删去 region-china-east 的花期(本轮也没有中国×薰衣草的关系条目);(b) 保留并在 summary 补一句“中国东部很少成片种植,这里的花期参考新疆伊犁的记录”。"
+        },
+        {
+          "claim": "花富含花粉(园艺资料)",
+          "problem": "[可选] 清单项 2:括注不说明出处性质。",
+          "fix": "改为“花粉也较丰富(据园艺植物数据库)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "差别主要来自舌的长短",
+          "problem": "[可选] 清单项 1 确定性口径:这是研究者的解释,建议标明。",
+          "fix": "改为“研究者认为差别主要来自舌的长短”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "薰衣草几乎完全依赖昆虫传粉;观察到的访花者几乎都是蜂类",
+          "problem": "[可选] 清单项 1:由一项保加利亚试验推到全称结论,前半句已交代试验,建议把结论也限定在“这项试验中”。",
+          "fix": "改为“——在这项试验里,薰衣草几乎完全依赖昆虫传粉,观察到的访花者几乎都是蜂类”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花期在夏季:不同地区的资料从 6 月到 9 月不一。",
+          "problem": "[可选] 清单项 6 一致性:花卡各地域给的是 6–7 / 6–8 月,本条说 6–9 月不一,读者对不上。",
+          "fix": "改为“花期在夏季:不同地区的资料从 6 月到 9 月不一,本馆按中欧与北美温带 6–8 月计”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "所以给苜蓿留种,靠的是切叶蜂。",
+          "problem": "清单项 1 绝对化 / 清单项 6 一致性:写成“靠的是切叶蜂”的定论;花蕊条目和关系 note 的口径是“被大量用于”,且苜蓿种子生产也使用碱蜂和蜜蜂。",
+          "fix": "改为“所以给苜蓿留种,常要靠切叶蜂这类不躲这一击的蜂”。"
+        },
+        {
+          "claim": "蜜蜂学会了从花侧偷蜜避开这一击",
+          "problem": "[可选] 清单项 1 拟人化:“学会了”有资料支持(老练的采蜜蜂会绕开),但读作全体蜜蜂的技能。",
+          "fix": "改为“蜜蜂多会从花侧吸蜜、避开这一击”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "自己弹开的不到 1%——苜蓿留种必须有传粉者",
+          "problem": "[可选] 清单项 1:具体百分数未注明出处;“必须”偏绝对。",
+          "fix": "改为“据美国农业部资料,自己弹开的通常不到 1%——苜蓿留种离不开传粉者”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "西方蜜蜂会从花的侧面吸蜜……苜蓿切叶蜂不躲,每次访花都会弹开花朵",
+          "problem": "[可选] 清单项 1 绝对化:“每次”是全称判断;部分采粉的蜜蜂也会弹花。",
+          "fix": "改为“西方蜜蜂多从花的侧面吸蜜……苜蓿切叶蜂不躲,几乎每次访花都会弹开花朵”;关系 rel-megachile-alfalfa-na-summer 的 note 同步。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "中国 5–7 月开花(全国口径),英国 6–7 月,美国中西部 6–9 月。",
+          "problem": "清单项 3 内部说明泄露 / 清单项 6 一致性:“(全国口径)”是编辑批注;花卡把 6–7 月记在“中欧”下,这里却写“英国”(所引 PFAF 为英国资料),读者会发现地域对不上。",
+          "fix": "改为“中国各地大致 5–7 月开花,欧洲西部与中部约 6–7 月(据英国资料),美国中西部 6–9 月”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条称油菜是蜜蜂的主要饲料作物之一",
+          "problem": "[可选] 清单项 4:“词条”未说明是哪部词典;“饲料作物”直译生硬(同花卡)。",
+          "fix": "改为“维基百科词条把油菜列为蜜蜂最重要的蜜粉源作物之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "另有以中蜂为试验蜂种的油菜蜂蜜研究",
+          "problem": "[可选] 清单项 4 / 清单项 6:同一句里先叫“东方蜜蜂”后叫“中蜂”,读者不一定知道是同一类蜂。",
+          "fix": "改为“另有以中华蜜蜂(中蜂,东方蜜蜂的亚种)为试验蜂种的油菜蜂蜜研究”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者",
+          "problem": "[可选] 清单项 2:后半句是英国记载,主证据(德国研究)已在中欧,可接受;建议注明。",
+          "fix": "改为“英国(邻近地区)的田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刺槐是美国东部的主要蜜源树种。",
+          "problem": "[可选] 清单项 1:“主要”写成定论,USDA 资料的口径是“重要蜜源植物”。",
+          "fix": "改为“刺槐是美国东部重要的蜜源树种之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-locust-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "间接证明中蜂采集刺槐花蜜;未见访花行为学的专门研究",
+          "problem": "[可选] 清单项 4:“中蜂”与“东方蜜蜂”混用;“访花行为学”偏术语。",
+          "fix": "改为“间接证明东方蜜蜂(中蜂)会采刺槐花蜜;没有找到专门观察它访花行为的研究”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: 向日葵单花蜜产于法国、意大利、西班牙等地(邻近地区资料)",
+          "problem": "清单项 2 来源诚实 / 清单项 6 一致性:来源页自述规则是“来源来自邻近地区或未点名到种的,标为‘编辑整理’并在说明里写明”;本条 note 自己承认是邻近地区资料,却标为“综述/教科书”,与馆内规则矛盾。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:向日葵单花蜜的记载来自法国、意大利、西班牙等邻近地区,中欧本地未见专门记载;向日葵在中欧 7–9 月开花。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "综述性表述:向日葵对各类蜂都是良好的蜜粉源;非中国的专门记载。",
+          "problem": "[可选] 清单项 3 / 清单项 1:“综述性表述”是审稿用语;“各类蜂都”绝对化。",
+          "fix": "改为“综述资料称向日葵对多种蜂都是良好的蜜粉源;没有找到中国东部的专门记载”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: primary;note: 美国加州的研究……(邻近地区资料)",
+          "problem": "清单项 2 来源诚实:加州与本地域(东北部、中西部)相隔大陆、气候不同,称“邻近地区”会误导读者;按馆内规则,非本地域的记载应标“编辑整理”。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:依据是美国加州的研究——蜜蜂单次访花的传粉效率不高,但有野生蜂在场时会提高;本地域(美国东北部与中西部)未见专门记载。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "直接记载来自印度的东方蜜蜂亚种(A. cerana indica)研究",
+          "problem": "[可选] 清单项 4:“亚种”对中小学生可加一词说明。",
+          "fix": "改为“直接记载来自印度的研究,研究对象是东方蜜蜂在印度的亚种(A. cerana indica,和中国的中蜂是同种的不同地方类型)”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂是蓝莓园常租用的管理传粉者",
+          "problem": "[可选] 清单项 4:“管理传粉者”是行业术语。",
+          "fix": "改为“蓝莓园常租蜜蜂蜂群来授粉”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "同一项中国温室研究把东方蜜蜂列为三种对比传粉蜂之一。",
+          "problem": "[可选] 清单项 4:“同一项”依赖读者先看到另一条关系,单独展示时没有所指。",
+          "fix": "改为“中国的一项温室对照研究把东方蜜蜂列为三种对比传粉蜂之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "同一项中国温室研究把欧洲熊蜂列为三种对比传粉蜂之一",
+          "problem": "[可选] 同上,“同一项”无所指。",
+          "fix": "改为“中国的一项温室对照研究把欧洲熊蜂列为三种对比传粉蜂之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "熊蜂能振动授粉,是蓝莓的高效传粉者;欧洲熊蜂的管理蜂群被用于蓝莓授粉。",
+          "problem": "清单项 2 来源诚实:note 没有说明“被用于蓝莓授粉”的记载来自哪里;所引 Frontiers 2023 研究的地点若不在中欧,按馆内规则应标“编辑整理”并写明。拿不准,需事实核查确认研究地点。",
+          "fix": "若研究地在中欧:note 补“(德国/中欧研究)”;否则 evidence 改为 editorial,note 改为“编辑整理:熊蜂能振动授粉,是蓝莓的高效传粉者;欧洲熊蜂管理蜂群用于蓝莓授粉的记载来自其他地区,中欧本地未见专门记载。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-osmia-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "美国 SARE 项目报告",
+          "problem": "[可选] 清单项 4:缩写未展开。",
+          "fix": "改为“美国 SARE(可持续农业研究与教育计划)的项目报告”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条称蜜蜂常访",
+          "problem": "[可选] 清单项 4:“词条”未说明出处。",
+          "fix": "改为“维基百科词条称蜜蜂常访”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条为一般性记载(主要蜜源、蜜蜂常访),非中国的专门研究",
+          "problem": "[可选] 清单项 3:“一般性记载”“专门研究”是审稿口吻。",
+          "fix": "改为“维基百科词条称白车轴草是主要蜜源、蜜蜂常访(非针对中国的记载);白车轴草在中国广泛种植并半自生,5–10 月开花”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: 词条称白车轴草的花主要由熊蜂访问(泛指熊蜂,未点名到欧洲熊蜂)",
+          "problem": "清单项 2 来源诚实 / 清单项 6 一致性:note 自己写明“未点名到欧洲熊蜂”,按馆内公开规则(“未点名到种的,标为‘编辑整理’”)应为 editorial,现标“综述/教科书”。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:词条称白车轴草的花主要由熊蜂访问,但泛指熊蜂属、未点名到欧洲熊蜂;花蜜位于雄蕊管基部,短舌的欧洲熊蜂也够得着。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: 词条记载苜蓿切叶蜂能为车轴草属植物传粉。",
+          "problem": "清单项 2 来源诚实:记载只到“车轴草属”,未点名白车轴草;按馆内规则应标“编辑整理”并写明。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:词条记载苜蓿切叶蜂能为车轴草属植物传粉,未点名到白车轴草。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: ……(主产地中海周边,邻近地区资料);英国研究亦记录蜜蜂访薰衣草。",
+          "problem": "清单项 2 来源诚实:两条依据(地中海产蜜、英国观察)都不在中欧,note 也承认是邻近地区资料,却标“综述/教科书”,与馆内公开规则矛盾。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:薰衣草花蜜丰富,可酿单花蜜(主产于地中海周边);英国研究记录蜜蜂访薰衣草——均为邻近地区资料,中欧本地未见专门记载。”"
+        },
+        {
+          "claim": "可酿优质单花蜜",
+          "problem": "[可选] 清单项 5 商业倾向:“优质”是价值评价。",
+          "fix": "改为“可酿单花蜜”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: primary;note: 英国研究……保加利亚植物园……(邻近地区资料)",
+          "problem": "清单项 2 来源诚实:两项一手研究都在英国与保加利亚,note 已写“邻近地区资料”,按馆内公开规则应标“编辑整理”;现标“一手研究”会让读者以为是中欧本地记录。",
+          "fix": "evidence 改为 editorial;note 开头加“编辑整理:”,末尾改为“——均为邻近地区(英国、保加利亚)的记录,中欧本地未见专门研究”。"
+        },
+        {
+          "claim": "访花远比蜜蜂高效",
+          "problem": "[可选] 清单项 1:研究量的是单花停留时间(采蜜速度),“高效”易被读成传粉效率。",
+          "fix": "改为“采蜜速度远快于蜜蜂”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-lavender-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "仅有爱好者网站记录紫木蜂访薰衣草,未见学术来源。",
+          "problem": "清单项 2 来源诚实:唯一来源是被来源表标为“低权威”的爱好者网站,馆内规则是“关系只收录有来源的记载”;note 已如实交代,标 editorial 也正确,但一条只有爱好者网站支撑的关系是否适合展出,拿不准。",
+          "fix": "二选一:(a) 补一条学术或机构来源(如保加利亚薰衣草访花者名录中是否含木蜂),否则删除本条;(b) 保留,note 改为读者能懂的说法:“编辑整理:目前只有蜜蜂爱好者网站的观察记录到紫木蜂访薰衣草,没有找到学术来源,仅作参考。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: 苜蓿是美国西部最重要的蜜源之一(邻近地区资料)",
+          "problem": "清单项 2 来源诚实:“美国西部”相对本地域(东北部、中西部)不是邻近地区,称“邻近”会误导;按馆内规则非本地域记载应标“编辑整理”。",
+          "fix": "evidence 改为 editorial;note 改为“编辑整理:苜蓿是重要蜜源植物,‘美国西部最重要的蜜源之一’的记载来自西部,本地域未见专门记载;蜜蜂多从花侧吸蜜、避开弹花机关,几乎不传粉。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "每次访花都会弹开花朵",
+          "problem": "[可选] 清单项 1 绝对化:“每次”为全称判断,与花蕊条目同步软化。",
+          "fix": "改为“几乎每次访花都会弹开花朵”。"
+        }
+      ]
+    }
+  ]
+}

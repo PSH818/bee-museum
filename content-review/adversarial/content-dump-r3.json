@@ -1,0 +1,1880 @@
+{
+  "generatedAt": "2026-08-25T02:08:35.557Z",
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/id/bees/exotic/",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "一只工蜂，就是一套精密的采集系统",
+      "latin": "Apis mellifera · worker",
+      "description": "工蜂是雌性，身体承担育幼、筑巢、防御和采集等多种任务，后足具有花粉筐。",
+      "fact": "工蜂不是一个独立物种，而是社会性蜜蜂群体中的一种职型。",
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足是工蜂的花粉运输工具",
+      "latin": "coxa · femur · tibia · tarsus · corbicula",
+      "description": "每条足都由多个关节段组成。工蜂后足胫节外侧形成花粉筐，花粉被梳理和压实后附着其上。",
+      "fact": "花粉团位于后足，而不是腹部；前足还参与触角清洁。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "蜂王",
+      "title": "蜂王不是更大的工蜂，而是不同的发育结果",
+      "latin": "Apis mellifera · queen",
+      "description": "蜂王同为雌性，但腹部更长，生殖系统高度发育；成熟群体通常围绕一只主要产卵蜂王组织。",
+      "fact": "蜂王没有工蜂式花粉筐，也不负责日常采集。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "蜂王有完整六足，但没有采集型花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "蜂王的足仍保持昆虫典型分节，但不承担工蜂式花粉采集，因此后足轮廓不同。",
+      "fact": "蜂王一生几乎不外出采集，后足没有花粉筐，也不会带回花粉团。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雄蜂",
+      "title": "宽大的复眼，是雄蜂最醒目的身份线索",
+      "latin": "Apis mellifera · drone",
+      "description": "雄蜂是雄性，胸部粗壮、复眼巨大，主要功能与交配相关；它没有螫针，也没有工蜂式花粉筐。",
+      "fact": "雄蜂体型并非简单放大的工蜂，头、眼、腹部末端和足部结构都不同。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "雄蜂的足适合活动，但不用于采集花粉",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "雄蜂没有工蜂式花粉筐。足部依然由基节、转节、股节、胫节和跗节等结构构成。",
+      "fact": "雄蜂不采集花粉，也没有螫针——它既不会带回花粉团，也不会螫人。不过野外很难一眼认出雄蜂，请不要据此去触碰任何蜂。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "更小的身体,同样完整的采集系统",
+      "latin": "Apis cerana · worker",
+      "description": "东方蜜蜂工蜂体型比西方蜜蜂小,腹部有四条黄色环纹;它能在较大的环境温差下维持稳定的巢温,是亚洲本土传统养蜂的主角。",
+      "fact": "中华蜜蜂(中蜂)是东方蜜蜂的亚种;面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足花粉筐,与西方蜜蜂同源",
+      "latin": "coxa · femur · tibia · tarsus · corbicula",
+      "description": "东方蜜蜂工蜂后足胫节同样特化出花粉筐,花粉压实后附着其上;足的分节结构与西方蜜蜂一致。",
+      "fact": "花粉筐是蜜蜂属的共同特征,不是某一种蜜蜂独有。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-apis-cerana"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "蜂王",
+      "title": "同样的长腹,更小的群体",
+      "latin": "Apis cerana · queen",
+      "description": "东方蜜蜂蜂王同为雌性,腹部延长、生殖系统高度发育;一个蜂群通常约有六七千只工蜂(不同资料因亚种与季节差异较大),明显小于西方蜜蜂群体。",
+      "fact": "东方蜜蜂比西方蜜蜂更容易迁飞(整群弃巢)——蜂王带着整群离开旧巢,是本土养蜂要面对的日常。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "蜂王有完整六足,但没有采集型花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "蜂王的足保持昆虫典型分节,但不承担采集,因此后足没有工蜂式的花粉筐轮廓。",
+      "fact": "蜂王几乎不外出采集,后足没有花粉筐,也不会带回花粉团。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雄蜂",
+      "title": "宽大复眼、无螫针,和西方蜜蜂雄蜂如出一辙",
+      "latin": "Apis cerana · drone",
+      "description": "东方蜜蜂雄蜂同样复眼巨大、胸部粗壮,主要职能是与新蜂王交配;它没有螫针,也没有花粉筐。",
+      "fact": "雄蜂由未受精卵发育而来,只有母亲没有父亲——这一点在蜜蜂属乃至绝大多数蜂类中都是如此。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "雄蜂的足适合活动,不用于采集",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "雄蜂没有工蜂式花粉筐;足部依然由基节、转节、股节、胫节和跗节等结构构成。",
+      "fact": "雄蜂不采集花粉,也没有螫针——既不会带回花粉团,也不会螫人。不过野外很难一眼认出雄蜂,请不要据此去触碰任何蜂。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "圆胖多毛,是保温也是身份",
+      "latin": "Bombus terrestris · worker",
+      "description": "欧洲熊蜂通体覆盖浓密长绒毛:黑底之上,前胸一圈黄领、腹部一道黄带、尾端一撮白毛,是野外辨识它的第一线索。厚厚的毛被有助于保温,让它在较凉的天气也能出勤访花。",
+      "fact": "熊蜂会进行振动授粉:飞行肌高频震动把花粉从番茄等植物的管状花药里\"摇\"出来,这是蜜蜂做不到的。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-bumblebee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "短舌熊蜂:够不到的花蜜,就咬个孔",
+      "latin": "compound eyes · antennae · proboscis",
+      "description": "熊蜂头部同样由复眼、单眼、触角和口器构成。欧洲熊蜂属于短舌熊蜂,偏好开放或浅冠筒的花;遇到深冠筒花时,常在花冠基部咬孔取蜜(\"盗蜜\")。真正能探入深花的是长舌熊蜂,如 Bombus hortorum。",
+      "fact": "熊蜂个体间体型差异很大:同一巢的工蜂胸宽可差两三倍,体重可差十倍以上。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-nectar-robbing"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "小翅膀扛起圆身体",
+      "latin": "forewing · hindwing · wing coupling",
+      "description": "相对滚圆的身体,熊蜂的翅显得偏小;它依靠高频扇动与灵活的翅角控制维持飞行,前后翅同样以翅钩联动。",
+      "fact": "\"按空气动力学熊蜂不会飞\"是流传已久的误解:翅膀快速拍动时会在翅面上方卷起小旋涡,这些旋涡提供额外升力——用静止机翼的公式算不出来,但空气动力学研究已经解释清楚。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "读懂尾色,就认出了这种熊蜂",
+      "latin": "banded fur · buff/white tail",
+      "description": "腹部的毛色分带是熊蜂分类的重要线索:欧洲熊蜂腹前有黄带、尾端污白;不同熊蜂种的带纹组合各不相同。",
+      "fact": "蜂王尾端偏皮黄色(buff),工蜂近白色——英文名 buff-tailed bumblebee 来自蜂王。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足同样带着花粉筐",
+      "latin": "corbicula · pollen basket",
+      "description": "熊蜂与蜜蜂同科,工蜂和蜂王后足胫节同样特化出光滑的花粉筐,访花归来时常能看到腿上鲜艳的花粉团。",
+      "fact": "在番茄、蓝莓等依赖振动授粉的作物上,熊蜂能完成蜜蜂做不到的授粉工作。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "没有蜂群的蜂:一只雌蜂就是整个家",
+      "latin": "Osmia cornifrons · female",
+      "description": "角额壁蜂是独居蜂:没有蜂王、工蜂之分,每只雌蜂独自选巢、采粉、产卵、封巢。它原产东亚;20 世纪后半叶,日本超过一半的苹果园曾用它授粉,1977 年它被引入美国东北部。",
+      "fact": "它用泥土在竹管或芦苇管里隔出一间间巢室,每室放一个花粉球和一枚卵——\"壁蜂\"(英文 mason bee,泥匠蜂)之名一般认为由此而来。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "脸上的\"角\",是它名字的来源",
+      "latin": "clypeal horns · mandibles",
+      "description": "雌蜂下脸长有一对角状突起,学名 cornifrons 意为\"有角的额\";大颚用于衔运和塑形筑巢的泥土。",
+      "fact": "它是昼行性蜂,白天 6 点到晚 8 点都可能在活动。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "短途飞行的专家",
+      "latin": "forewing · hindwing",
+      "description": "壁蜂是典型的短距离采集者,巢址通常建在作物田 130 米以内;翅膀结构与蜜蜂类同,前后翅以翅钩联动。",
+      "fact": "活动季集中在早春果树开花期,雄蜂约四月先羽化。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-hamulus"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "花粉背在肚子底下",
+      "latin": "ventral scopa",
+      "description": "壁蜂没有蜜蜂那样的后足花粉筐,而是在腹部腹面长着一片密集的集粉毛(scopa):访花时花粉直接刷附在腹部下方,带回巢中。",
+      "fact": "花粉松散地夹在毛间带回巢中;这种腹面携粉方式是切叶蜂科的共同特征。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-osmia-cornifrons"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足没有花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "与蜜蜂、熊蜂不同,壁蜂后足胫节没有光滑的花粉筐;六足主要用于抓握花朵、搬运泥土和在巢管内进退。",
+      "fact": "花粉筐(corbicula)只见于蜜蜂科的少数几族(蜜蜂、熊蜂、无刺蜂、兰花蜂);多数其他蜂类用后足的集粉毛携粉,把花粉带在腹面则是切叶蜂科的独门方式。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-pollen-basket"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会裁剪树叶的小蜂",
+      "latin": "Megachile rotundata · female",
+      "description": "苜蓿切叶蜂体长仅 6–9 mm,深灰色身体披白色细毛。它是独居蜂,不筑群、不储蜜;雌蜂用大颚从叶片上剪下圆片,卷成顶针状的巢室。原产欧洲,被引入北美、新西兰和澳大利亚,用于给生产种子的苜蓿田授粉。",
+      "fact": "一间巢室大约要用 15 片叶子;雌蜂先吐入花蜜,再把集粉毛上的花粉抖在上面,最后产卵封室。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "大颚是它的剪刀",
+      "latin": "mandibles",
+      "description": "切叶蜂的大颚能像剪刀一样从叶缘剪下近圆形的叶片,再运回巢管内拼接。",
+      "fact": "叶片切口整齐得像被打孔器打过——花园里叶缘的圆形缺口常是切叶蜂留下的。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "带着叶片飞回巢",
+      "latin": "forewing · hindwing",
+      "description": "雌蜂把剪下的叶片带回巢管,翅膀要额外承担这份载荷;前后翅以翅钩联动,结构与蜜蜂相同。",
+      "fact": "它是高效的苜蓿、胡萝卜和多种蔬果的授粉者;取食时把喙插入苜蓿花的龙骨瓣,花粉随之刷到集粉毛上。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile",
+        "src-wikipedia-hamulus"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "白色细毛与腹面集粉毛",
+      "latin": "white pubescence · ventral scopa",
+      "description": "深灰底色上覆白色细毛;腹面则是密集的集粉毛,花粉直接刷附在腹部下方带回巢中。",
+      "fact": "雄蜂腹部有白色和黄色斑点,且体型比雌蜂小。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "抓叶片的六条腿",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "切叶蜂后足没有花粉筐;六足用于抓握叶片、在巢管中定位和固定身体。",
+      "fact": "管理化饲养时,人们提供成千上万个人工巢孔板,雌蜂会自行进驻筑巢。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会\"发光\"的大蜂",
+      "latin": "Xylocopa violacea · female",
+      "description": "紫木蜂是欧洲最大的蜂类之一,通体黑色、带微弱光泽;标志性的蓝紫色虹彩主要来自它烟紫色的翅膀。它是独居蜂,分布从欧洲向东一直延伸到中国中部。",
+      "fact": "成蜂夏末羽化后越冬,次年四五月才出来活动;雌蜂独自在枯木中钻洞筑巢。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "能啃穿木头的大颚",
+      "latin": "mandibles",
+      "description": "木蜂头部宽大,大颚极为强壮,雌蜂用它在枯死的树干或木材中一点点啃出隧道状巢穴——\"木蜂\"因此得名。",
+      "fact": "它不吃木头,只是钻洞;木屑或被推出洞口,或被用来分隔巢室。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "烟紫色的翅",
+      "latin": "smoky violet wings",
+      "description": "木蜂的翅膜呈烟褐色,在特定角度下反射出蓝紫虹彩(薄膜干涉形成的结构色),与黑色身体相配;大体型意味着翅也需要更大、更有力。",
+      "fact": "木蜂属被认为能进行振动授粉,和熊蜂一样可以\"摇\"出管状花药中的花粉。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "光滑的黑色甲壳",
+      "latin": "metallic integument",
+      "description": "与熊蜂的绒毛外衣相反,木蜂腹部几乎无毛,光滑坚硬的甲壳呈黑色,在光下带微弱的蓝紫光泽——一般认为这种光泽是结构色,由甲壳表面微结构对光的作用产生,而不是色素。",
+      "fact": "在光线下转动实物标本或本馆的 3D 模型,能看到光泽随角度变化。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "粗壮有力的六足",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "木蜂足部粗壮,后足密布集粉毛用于携粉(没有蜜蜂那样的光滑花粉筐);强健的足也帮助它在钻洞时撑住身体。",
+      "fact": "雌蜂体型大,常被误认为大型熊蜂。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "kind": "organ",
+      "id": "organ-compound-eye",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "compoundEyeL",
+        "compoundEyeR"
+      ],
+      "focusId": "head",
+      "name": "复眼",
+      "latinName": "oculi compositi",
+      "summary": "一对复眼由数千个小眼组成,覆盖头部两侧,提供宽视野和对运动的高灵敏度。",
+      "functionNote": "视觉感知、运动侦测与飞行导航。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "kind": "organ",
+      "id": "organ-ocelli",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "head"
+      ],
+      "focusId": "head",
+      "name": "单眼",
+      "latinName": "ocelli",
+      "summary": "头顶三只单眼呈三角排列,不成像,主要感知光强变化,辅助维持飞行姿态和判断昼夜光照。",
+      "functionNote": "光强感知与姿态辅助。",
+      "modelNote": "本模型未单独雕刻三只单眼,标注点位于头顶。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-antenna",
+      "kind": "organ",
+      "id": "organ-antenna",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "antennaL",
+        "antennaR"
+      ],
+      "focusId": "head",
+      "name": "触角",
+      "latinName": "antennae",
+      "summary": "膝状触角由柄节、梗节和鞭节构成,表面密布嗅觉与触觉感受器,是蜜蜂最重要的化学感知器官。",
+      "functionNote": "嗅觉、触觉与巢内交流。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "kind": "organ",
+      "id": "organ-proboscis",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "口器(中唇舌)",
+      "latinName": "proboscis",
+      "summary": "由下颚和下唇组成的可伸缩吸食结构,用于吸取花蜜和水;不使用时折叠于头下。",
+      "functionNote": "吸取花蜜、饮水与巢内传递食物。",
+      "modelNote": "本模型未雕刻口器,标注点位于头部下前方的大致位置。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-thorax",
+      "kind": "organ",
+      "id": "organ-thorax",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "thorax"
+      ],
+      "focusId": "whole",
+      "name": "胸部与飞行肌",
+      "latinName": "thorax",
+      "summary": "胸部三节承载两对翅和三对足,内部充满间接飞行肌;肌肉通过使胸壁变形驱动翅高频振动。",
+      "functionNote": "飞行动力与运动中枢。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-forewing",
+      "kind": "organ",
+      "id": "organ-forewing",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "前翅",
+      "latinName": "alae anteriores",
+      "summary": "前翅是主要升力面,膜面由纵脉与横脉支撑形成翅室;翅脉样式在分类学上具有辨识价值。",
+      "functionNote": "飞行主升力面。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "kind": "organ",
+      "id": "organ-hindwing",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "hindWingL",
+        "hindWingR"
+      ],
+      "focusId": "wing",
+      "name": "后翅与翅钩",
+      "latinName": "alae posteriores · hamuli",
+      "summary": "后翅前缘具一排细小翅钩,起飞时钩住前翅后缘,使两对翅连成一个连续翼面,提高飞行效率。",
+      "functionNote": "与前翅联动,扩大有效翼面。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "kind": "organ",
+      "id": "organ-abdomen",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹部体节",
+      "latinName": "metasoma",
+      "summary": "腹部由可伸缩的连续体节构成,容纳蜜胃、消化道等结构;工蜂腹面还有蜡腺,雌性(工蜂、蜂王)腹末有螫针,雄蜂则没有。体节间膜使腹部能弯曲与鼓动呼吸。",
+      "functionNote": "消化、储蜜、分泌蜂蜡与呼吸运动。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-sting",
+      "kind": "organ",
+      "id": "organ-sting",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "sting"
+      ],
+      "focusId": "abdomen",
+      "name": "螫针",
+      "latinName": "aculeus",
+      "summary": "由产卵器特化而来的防御器官,带倒钩;工蜂螫刺哺乳动物后,螫针常留在皮肤里而脱落,工蜂自己随后死亡。雄蜂无螫针。野外遇到蜂群请保持距离;被螫后尽快移除螫针,出现过敏反应应立即就医。",
+      "functionNote": "防御;仅雌性(工蜂、蜂王)具有。",
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "kind": "organ",
+      "id": "organ-corbicula",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "hindLegL",
+        "hindLegR"
+      ],
+      "focusId": "leg",
+      "name": "后足花粉筐",
+      "latinName": "corbicula",
+      "summary": "后足胫节外侧的光滑凹面,边缘环绕长毛;花粉经足部梳理、压实后固定其中,形成可见的花粉团。",
+      "functionNote": "花粉的压实与运输;蜜蜂属等蜂类特有。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "kind": "organ",
+      "id": "organ-foreleg-cleaner",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "foreLegL",
+        "foreLegR"
+      ],
+      "focusId": "leg",
+      "name": "前足触角清洁器",
+      "latinName": "antenna cleaner",
+      "summary": "前足基跗节具半圆形凹口,与胫节距配合形成触角清洁器,蜜蜂用它刮除触角上的花粉和尘粒。",
+      "functionNote": "保持触角感受器清洁。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "kind": "organ",
+      "id": "organ-bombus-fur",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "thorax"
+      ],
+      "focusId": "whole",
+      "name": "毛被与警戒色",
+      "latinName": "pile",
+      "summary": "浓密长绒毛兼具保温与信号功能:黑黄白的分带是警戒色,厚毛被帮助熊蜂在凉爽天气维持飞行所需的体温。",
+      "functionNote": "保温、警戒色与携粉。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "kind": "organ",
+      "id": "organ-bombus-flight-muscle",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "振动授粉",
+      "latinName": "buzz pollination · sonication",
+      "summary": "熊蜂抱住花朵,用飞行肌高频震动使花朵和花药一起振动,将番茄、蓝莓等管状花药中的花粉震落——温室番茄授粉产业正建立在这一能力上。",
+      "functionNote": "声震取粉;蜜蜂不具备此行为。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "kind": "organ",
+      "id": "organ-bombus-corbicula",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "hindLegL",
+        "hindLegR"
+      ],
+      "focusId": "leg",
+      "name": "后足花粉筐",
+      "latinName": "corbicula",
+      "summary": "与蜜蜂同源的携粉结构:后足胫节外侧的光滑凹面,边缘环绕长毛,花粉压实后固定其中。",
+      "functionNote": "花粉的压实与运输。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "kind": "organ",
+      "id": "organ-bombus-sting",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "sting"
+      ],
+      "focusId": "abdomen",
+      "name": "螫针(无倒钩)",
+      "latinName": "aculeus",
+      "summary": "熊蜂螫针光滑无倒钩,可以重复螫刺而不致自身死亡。熊蜂通常不主动攻击人,但被捏握或巢穴受扰时会螫刺;野外观察请保持距离、不要触碰,对蜂毒过敏者被螫后应立即就医。",
+      "functionNote": "防御;可重复使用,与蜜蜂的倒钩螫针不同。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "kind": "organ",
+      "id": "organ-osmia-scopa",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹面集粉毛",
+      "latinName": "scopa",
+      "summary": "腹部腹面成排的密集刚毛,访花时把花粉刷附其上;这是切叶蜂科的共同特征,与蜜蜂的后足花粉筐是两条不同的携粉路线。",
+      "functionNote": "携带松散花粉回巢。",
+      "modelNote": "本模型以腹部下方的浅色绒毛表现集粉毛。",
+      "sourceIds": [
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "kind": "organ",
+      "id": "organ-osmia-horns",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "head"
+      ],
+      "focusId": "head",
+      "name": "唇基角突",
+      "latinName": "clypeal horns",
+      "summary": "雌蜂下脸的一对角状突起,是本种命名依据;其功能尚不明确。",
+      "functionNote": "物种识别特征。",
+      "modelNote": "本模型未雕刻角突,标注点位于头部。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "kind": "organ",
+      "id": "organ-osmia-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "大颚与口器",
+      "latinName": "mandibles · proboscis",
+      "summary": "大颚用于衔泥筑巢和封闭巢室;口器吸取花蜜,与花粉一同调制成巢室内的花粉球。",
+      "functionNote": "筑巢、取食与巢室供粮。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "kind": "organ",
+      "id": "organ-megachile-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "切叶大颚",
+      "latinName": "mandibles",
+      "summary": "边缘锋利的大颚从叶片剪下圆形叶片,每个巢室约需 15 片;这是\"切叶蜂\"名称的由来。",
+      "functionNote": "剪叶、搬运与拼接巢室。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "kind": "organ",
+      "id": "organ-megachile-scopa",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹面集粉毛",
+      "latinName": "scopa",
+      "summary": "腹部腹面的密集刚毛,访花时刷附花粉;回巢后雌蜂把花粉抖落在预先吐入的花蜜上,作为幼虫的食物。",
+      "functionNote": "携粉;巢室供粮。",
+      "modelNote": "本模型以腹部下方的浅色绒毛表现集粉毛。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "kind": "organ",
+      "id": "organ-megachile-hair-bands",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "hindWingL",
+        "hindWingR"
+      ],
+      "focusId": "wing",
+      "name": "白色细毛",
+      "latinName": "white pubescence",
+      "summary": "雌蜂全身覆白色细毛,与深灰底色相间,是野外辨识本种的常见线索之一。",
+      "functionNote": "物种识别特征。",
+      "modelNote": "标注点位于腹部前段背面、翅根附近。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "kind": "organ",
+      "id": "organ-xylocopa-integument",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "黑色甲壳与光泽",
+      "latinName": "metallic cuticle",
+      "summary": "黑色甲壳表面带微弱蓝紫光泽;一般认为这是结构色——由表面微结构对光产生干涉(不同方向反射的光相互叠加)而形成,而非色素。木蜂最醒目的蓝紫虹彩其实在翅膜上。",
+      "functionNote": "物种识别;光泽的功能尚不清楚。",
+      "modelNote": "本模型的甲壳以金属材质近似,光泽会随角度变化;真实标本的色调层次更细微。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "kind": "organ",
+      "id": "organ-xylocopa-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "钻木大颚",
+      "latinName": "mandibles",
+      "summary": "雌蜂用强壮的大颚在枯木中啃出隧道并分隔成巢室,每室存放花粉团与一枚卵。",
+      "functionNote": "在枯木中钻洞筑巢。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "kind": "organ",
+      "id": "organ-xylocopa-wing",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "烟紫色翅膜与振动授粉",
+      "latinName": "iridescent wings · buzz pollination",
+      "summary": "深色翅膜带蓝紫虹彩;木蜂属被认为能以飞行肌高频震动进行振动授粉,取出管状花药中的花粉。",
+      "functionNote": "飞行;声震取粉。",
+      "modelNote": "本模型的翅膜以半透明深紫色近似,未表现随角度变化的虹彩。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-xylocopa-violacea",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "compare:row-body-length",
+      "kind": "compare",
+      "id": "row-body-length",
+      "dimension": "体长",
+      "values": {
+        "worker": "约 12–15 mm",
+        "queen": "更长,常见文献约 18–20 mm",
+        "drone": "介于两者之间,常见文献约 15–17 mm"
+      },
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-honey-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-corbicula",
+      "kind": "compare",
+      "id": "row-corbicula",
+      "dimension": "后足花粉筐",
+      "values": {
+        "worker": "有",
+        "queen": "无",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-sting",
+      "kind": "compare",
+      "id": "row-sting",
+      "dimension": "螫针",
+      "values": {
+        "worker": "有,带倒钩",
+        "queen": "有,不像工蜂那样带明显倒钩",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-eyes",
+      "kind": "compare",
+      "id": "row-eyes",
+      "dimension": "复眼",
+      "values": {
+        "worker": "常规比例",
+        "queen": "相对较小",
+        "drone": "显著增大,向头顶靠拢"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-role",
+      "kind": "compare",
+      "id": "row-role",
+      "dimension": "群体角色",
+      "values": {
+        "worker": "采集、育幼、筑巢、防御",
+        "queen": "产卵与群体繁殖",
+        "drone": "交配"
+      },
+      "sourceIds": [
+        "src-britannica-honeybee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "kind": "compare",
+      "id": "row-cerana-corbicula",
+      "dimension": "后足花粉筐",
+      "values": {
+        "worker": "有",
+        "queen": "无",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "kind": "compare",
+      "id": "row-cerana-sting",
+      "dimension": "螫针",
+      "values": {
+        "worker": "有,带倒钩",
+        "queen": "有,不像工蜂那样带明显倒钩",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-apis-cerana",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "kind": "compare",
+      "id": "row-cerana-eyes",
+      "dimension": "复眼",
+      "values": {
+        "worker": "常规比例",
+        "queen": "相对较小",
+        "drone": "显著增大"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-apis-cerana",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "kind": "compare",
+      "id": "row-cerana-colony",
+      "dimension": "群体规模",
+      "values": {
+        "worker": "约 6000–7000 只(不同资料差异较大)",
+        "queen": "通常一群一王",
+        "drone": "季节性存在"
+      },
+      "sourceIds": [
+        "src-wikipedia-apis-cerana"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:apis-mellifera",
+      "kind": "species",
+      "id": "apis-mellifera",
+      "name": "西方蜜蜂",
+      "scientificName": "Apis mellifera",
+      "englishName": "Western honey bee",
+      "family": "蜜蜂科 Apidae",
+      "distribution": "原产欧洲、非洲与西亚,现随养蜂业遍布全球",
+      "socialStructure": "高度社会性,群体由蜂王、工蜂和季节性雄蜂构成",
+      "nesting": "洞穴或蜂箱内营多脾垂直蜡巢",
+      "workerBodyLengthMm": {
+        "min": 12,
+        "max": 15
+      },
+      "summary": "全球养蜂业与农业授粉最主要的蜂种,也是研究最充分的蜜蜂;本馆以它讲解职型分工与蜜蜂身体结构。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-worker-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:apis-cerana",
+      "kind": "species",
+      "id": "apis-cerana",
+      "name": "东方蜜蜂",
+      "scientificName": "Apis cerana",
+      "englishName": "Eastern honey bee",
+      "family": "蜜蜂科 Apidae",
+      "distribution": "亚洲东部与南部;中国本土传统饲养的主要蜂种(中华蜜蜂为其亚种)",
+      "socialStructure": "高度社会性,群体结构与西方蜜蜂相近",
+      "nesting": "树洞、岩缝等隐蔽腔体内营蜡巢",
+      "workerBodyLengthMm": {
+        "min": 10,
+        "max": 11
+      },
+      "summary": "体型比西方蜜蜂小,腹部有四条黄色环纹;与亚洲本土植物和传统养蜂关系密切,对胡蜂等天敌有独特的集体防御行为。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "kind": "species",
+      "id": "bombus-terrestris",
+      "name": "欧洲熊蜂",
+      "scientificName": "Bombus terrestris",
+      "englishName": "Buff-tailed bumblebee",
+      "family": "蜜蜂科 Apidae · 熊蜂属",
+      "distribution": "欧洲、北非与西亚;作为温室授粉蜂被广泛引入世界各地",
+      "socialStructure": "通常为一年生社会性:蜂王越冬后独立建群,群体规模远小于蜜蜂",
+      "nesting": "多利用地下鼠洞等腔穴筑巢,巢内为不规则排列的蜡质育幼室与蜜罐",
+      "workerBodyLengthMm": {
+        "min": 11,
+        "max": 17
+      },
+      "summary": "圆胖多毛的授粉能手:黑底绒毛配前胸黄领、腹部黄带和白色尾端;能进行振动授粉,番茄等温室作物高度依赖它。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "kind": "species",
+      "id": "osmia-cornifrons",
+      "name": "角额壁蜂",
+      "scientificName": "Osmia cornifrons",
+      "englishName": "Hornfaced bee",
+      "family": "切叶蜂科 Megachilidae · 壁蜂属",
+      "distribution": "原产东亚(日本、朝鲜半岛、中国、俄罗斯远东),1977 年引入美国东北部",
+      "socialStructure": "独居:每只雌蜂独立筑巢、采粉、产卵",
+      "nesting": "利用竹管、芦苇及树木现成孔洞,以泥土分隔巢室并封口",
+      "workerBodyLengthMm": {
+        "min": 8,
+        "max": 12
+      },
+      "summary": "独居蜂代表,曾是日本苹果园的主力授粉蜂之一;花粉刷附在腹面集粉毛上而不是后足花粉筐里,是与蜜蜂截然不同的携粉方式。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-scopa",
+        "src-exotic-bee-id"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "kind": "species",
+      "id": "megachile-rotundata",
+      "name": "苜蓿切叶蜂",
+      "scientificName": "Megachile rotundata",
+      "englishName": "Alfalfa leafcutter bee",
+      "family": "切叶蜂科 Megachilidae · 切叶蜂属",
+      "distribution": "原产欧洲,被引入北美、新西兰、澳大利亚作为管理授粉蜂",
+      "socialStructure": "独居:不筑群、不储蜜,雌蜂独立供养巢室",
+      "nesting": "在现成孔洞内用大颚剪下的叶片圆片卷成顶针状巢室",
+      "workerBodyLengthMm": {
+        "min": 6,
+        "max": 9
+      },
+      "summary": "会裁剪树叶筑巢的小型独居蜂,深灰体色覆白色细毛,腹面集粉毛携粉;苜蓿制种业的重要授粉蜂。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "kind": "species",
+      "id": "xylocopa-violacea",
+      "name": "紫木蜂",
+      "scientificName": "Xylocopa violacea",
+      "englishName": "Violet carpenter bee",
+      "family": "蜜蜂科 Apidae · 木蜂属",
+      "distribution": "欧洲向东横跨亚洲至中国中部,主要分布于北纬 30 度以北",
+      "socialStructure": "独居:雌蜂独自筑巢",
+      "nesting": "在枯木中用大颚啃出隧道状巢穴",
+      "workerBodyLengthMm": {
+        "min": 20,
+        "max": 28
+      },
+      "summary": "欧洲最大的蜂类之一:黑色身体带微弱光泽,翅呈烟紫色并带蓝紫虹彩;夏末羽化越冬,春季活动,被认为能进行振动授粉。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-dewiki-blaue-holzbiene",
+        "src-wikipedia-carpenter-bee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    }
+  ]
+}

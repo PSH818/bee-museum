@@ -1,0 +1,326 @@
+{
+  "lens": "compliance",
+  "round": 24,
+  "reviewedAt": "2026-08-31T08:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "region:region-central-europe",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "西部……属海洋性温带气候;……渐变为暖夏型湿润大陆性气候,四季分明",
+          "problem": "[可选] 清单项 4 受众适配:上轮建议已部分采纳(补了“四季分明”),但“海洋性温带气候”“暖夏型湿润大陆性气候”仍是裸术语;结论可由上下文推断,仅剩润色空间。",
+          "fix": "改为“西部冬不冷、夏不热、全年有雨(海洋性温带气候);越往东四季越分明、冬天越冷(暖夏型湿润大陆性气候)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "油菜是自交亲和的植物,自己也能结实",
+          "problem": "[可选] 清单项 4 受众适配:“结实”对小学生偏文言(上轮建议未采纳,不阻塞)。",
+          "fix": "改为“油菜是自交亲和的植物——用自己的花粉也能结出种子”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间",
+          "problem": "[可选] 清单项 2 来源诚实:括注已从“(德文资料)”改为读者可懂的“据德文维基百科”,口径与刺槐条目一致,合格;但上轮理解该数字出自德国养蜂教学网站(Die Honigmacher),本轮改归德文维基“Raps”页(sourceIds 也新增了 src-dewiki-raps),请事实核查员确认数字确实出自该页。另“零点几到两毫克”不如数字直观。",
+          "fix": "事实核查确认出处后维持现状;数字可写作“约 0.1–2 毫克”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "却是中国北方、欧洲与美国东部都举足轻重的蜜源树",
+          "problem": "[可选] 清单项 5 敏感表述(入侵物种):上轮建议未采纳(属可选)。刺槐在欧洲多国被列为入侵植物,卡片只讲蜜源价值,建议一句带过。",
+          "fix": "summary 末尾补:“它生长快、适应性强,在欧洲一些地区也被视为入侵植物。”(需补相应来源)"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "nectar: 对各类蜂都是良好的蜜源;泌蜜在中午前后最旺。",
+          "problem": "清单项 6 一致性 / 清单项 1 确定性口径:花蕊条目已把“泌蜜在中午前后最旺”限定为“据印度的田间观测”,卡片却写成不加限定的普遍规律——同一事实两处口径不一,读者对照会以为卡片另有普适依据。",
+          "fix": "卡片 nectar 改为“对多种蜂都是良好的蜜源;田间观测显示泌蜜多在中午前后最旺”。"
+        },
+        {
+          "claim": "对各类蜂都是良好的蜜源",
+          "problem": "[可选] 清单项 1 绝对化:“各类蜂都”是全称判断(上轮建议未采纳)。",
+          "fix": "改为“对多种蜂都是良好的蜜源”(可与上一条一并修改)。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "印度的罩网试验显示,加蜂群授粉比开放授粉增产约两到三成",
+          "problem": "[可选] 清单项 4 受众适配:研究归属已写明(合格),但“罩网试验”“开放授粉”未简释,中小学生不易想象试验做法。",
+          "fix": "改为“印度的对照试验显示(把一部分花盘罩起来不让昆虫进),加蜂群授粉比自然放开授粉增产约两到三成”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "高丛蓝莓是四倍体植物",
+          "problem": "[可选] 清单项 4 受众适配:“四倍体”仍无简释,且与后半句(异花授粉更好)的关系读者看不出来(上轮建议未采纳)。",
+          "fix": "改为“高丛蓝莓的染色体有四套(四倍体)”,或删去“四倍体”一词。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂不会振动授粉,但仍是果园常用的管理传粉者",
+          "problem": "[可选] 清单项 4 受众适配:“管理传粉者”是行业术语(上轮在关系条目里提过同样问题)。",
+          "fix": "改为“蜜蜂不会振动授粉,但果园仍常租用蜜蜂蜂群来授粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "但要先用体重把翼瓣和龙骨瓣压下去",
+          "problem": "[可选] 清单项 4 受众适配:“翼瓣”“龙骨瓣”只在刺槐条目解释过,单看本条推不出位置(上轮建议未采纳)。",
+          "fix": "改为“但要先用体重把两侧的翼瓣和下方的龙骨瓣压下去”。"
+        },
+        {
+          "claim": "白车轴草基本自交不亲和,种子生产依赖蜂类传粉",
+          "problem": "[可选] 清单项 4:“自交不亲和”可由后半句大致推断,加半句更稳(上轮建议未采纳)。",
+          "fix": "改为“白车轴草基本不能用自己的花粉结出种子(自交不亲和)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花期在夏季:不同地区的资料从 6 月到 9 月不一。",
+          "problem": "[可选] 清单项 6 一致性:花卡两地域现统一为 6–8 月,本条仍说“6 月到 9 月不一”,读者对照仍差一口气(上轮建议未采纳)。",
+          "fix": "句末补“本馆按 6–8 月计”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "能结籽的也不到 1%——苜蓿留种必须有传粉者",
+          "problem": "[可选] 清单项 1:具体百分数未注明出处;“必须”偏绝对(上轮建议未采纳;sourceIds 中的 USDA 资料若支持,建议点名)。",
+          "fix": "改为“据美国农业部资料,能结籽的通常不到 1%——苜蓿留种离不开传粉者”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它拿走了花蜜,却几乎不带走花粉、不传粉",
+          "problem": "[可选] 清单项 1 / 清单项 6:“几乎”的辖域不清,末尾“不传粉”单看是绝对表述,与关系 rel-mellifera-alfalfa-na-summer 的“几乎不传粉”口径有微差。",
+          "fix": "改为“却几乎不带走花粉、也几乎不传粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条把油菜列为蜜蜂最重要的蜜粉源作物之一",
+          "problem": "[可选] 清单项 4:“饲料作物”已改(合格);“词条”仍未说明是哪部词典(上轮建议未采纳)。",
+          "fix": "改为“维基百科词条把油菜列为蜜蜂最重要的蜜粉源作物之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "而中西部大平原正是美国向日葵的主产区",
+          "problem": "[可选] 清单项 2 来源诚实:evidence 已按规则改为编辑整理并写明理由(合格);但新增的“主产区”一句在本条 sourceIds(仅加州研究)中没有对应来源。“制种田”一词也可加半句说明。",
+          "fix": "补一条支持主产区说法的来源(如向日葵词条),或删去该句;“制种田”可写作“培育杂交种子的制种田”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "作者为中国学者,但试验地点未能在线核对,待人工确认。",
+          "problem": "清单项 3 内部说明泄露:“待人工确认”是馆内工作流待办,不是面向读者的说明——向读者承诺一项内部核对动作,长期展出会变成过期承诺;且同一研究的三条关系括注措辞不一(“未能在线核对,待人工确认”/“试验地点待人工核对”),口径不统一。诚实交代不确定性方向正确,只需改为读者口吻。",
+          "fix": "改为“论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考”;三条同研究关系统一此措辞。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "试验地点待人工核对。",
+          "problem": "清单项 3 内部说明泄露:同 rel-mellifera-blueberry-china-spring,“待人工核对”是内部待办批注;三条同研究关系措辞也不一致。",
+          "fix": "与另两条统一改为“论文未注明试验地点,本馆未能核实是否在中国,仅供参考”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "(试验地点待人工核对)",
+          "problem": "清单项 3 内部说明泄露:同前两条,“待人工核对”是内部待办批注;三条同研究关系措辞不一致。",
+          "fix": "与另两条统一改为“论文未注明试验地点,本馆未能核实是否在中国,仅供参考”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "evidence: review;note: 德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用;欧洲熊蜂管理蜂群用于蓝莓授粉的研究记载来自智利等地。",
+          "problem": "清单项 2 来源诚实 / 清单项 6 一致性:上轮的疑问已查清(研究在智利)并如实写出,值得肯定;但本地域来源(德文维基)只泛指“熊蜂等野蜂”、未点名欧洲熊蜂,点名到种的记载来自智利——按馆内公开规则(邻近地区或未点名到种的标“编辑整理”)应为 editorial;同构的 rel-bombus-clover-ce-summer 已改 editorial,本条仍标“综述/教科书”,口径不一。",
+          "fix": "evidence 改为 editorial;note 开头加“编辑整理:”,其余说明保留(已写明理由)。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂(terrestris/lucorum 复合组)占多数",
+          "problem": "[可选] 清单项 4 受众适配:“复合组”加纯拉丁名对中小学生完全不可懂;好在略过括注不影响主句意思。",
+          "fix": "改为“熊蜂占多数(主要是与欧洲熊蜂外形难以区分的一组近缘种)”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

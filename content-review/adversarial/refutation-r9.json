@@ -1,0 +1,43 @@
+{
+  "lens": "refutation",
+  "round": 9,
+  "reviewedAt": "2026-08-25T03:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据报道,自 1940 年代起推广约五十年后,日本半数以上的苹果园曾用它授粉;据报道 1977 年前后它被引入美国东部,此后在美国东部与中西部定殖。",
+          "problem": "尝试证伪未成功,仅作说明:日本推广数据各源略有差异(1990 年约 50%,1996 年逾 70%);美国另有 1965 年犹他州的早期引入记录,但未定殖,与“引入美国东部”不冲突。原文已用“据报道/约/前后”限定,且“东部与中西部定殖”与 USDA Exotic Bee ID 一致。",
+          "evidence": "en.wikipedia Osmia_cornifrons:“In 1977, O. cornifrons was introduced in the northeastern United States”“by the 1990s… more than half of the apple orchards in Japan utilized this species”(https://en.wikipedia.org/wiki/Osmia_cornifrons);Exotic Bee ID:“intentionally introduced to the eastern U.S. from Japan in the 1970s”“can be found on the East Coast and the Midwest”(https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062);PSU 报告:日本使用面积 1981 年 10%、1990 年 50%、1996 年 >70%;1965 犹他、1977 马里兰两次引入(https://extension.psu.edu/orchard-pollination-solitary-mason-bees)。巢室隔板用泥、每室一卵一花粉球、竹管/芦苇管巢址、mason 得名于用泥等“砌筑”材料,均与维基 Osmia_cornifrons 与 Mason_bee 页一致(https://en.wikipedia.org/wiki/Mason_bee)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm)",
+          "problem": "括注声称覆盖“不同资料”的范围,但中文权威科普与中文维基对本条目特别点名的中华蜜蜂(A. c. cerana)一致给出工蜂体长 10–13 mm,上限 13 mm 落在 9–12 之外;中国读者最常见到的数值恰好不在“不同资料”范围内,该括注作为对资料分歧的概括不完整。主值 10–11 mm 与英文维基一致,不构成错误。",
+          "evidence": "科普中国《中华蜜蜂》:“工蜂体长10～13mm”(https://www.kepuchina.cn/wiki/ct/201903/t20190317_1027779.shtml);中文维基《中华蜜蜂》:“工蜂体长10–13毫米”(https://zh.wikipedia.org/zh-hans/中华蜜蜂);英文维基 Apis cerana:“Medium-sized bees (10-11mm)”(https://en.wikipedia.org/wiki/Apis_cerana);HoneyBee & Co. 等英文资料给出 9–12 mm(https://honeybeeandco.uk/eastern-honeybee/)。",
+          "fix": "将括注改为“不同资料约 9–13 mm;中华蜜蜂常记为 10–13 mm”,或直接写“不同资料约 9–13 mm”。"
+        },
+        {
+          "claim": "亚洲南部与东部的传统饲养蜂种",
+          "problem": "轻微遗漏:原生范围还包括东南亚(南至印尼东部)并西达阿富汗高地,“南部与东部”未明示东南亚;不构成错误,但可更完整。",
+          "evidence": "英文维基 Apis cerana:“native to South, Southeast and East Asia… from Primorsky Krai… to eastern Indonesia… to as far as the highlands of Afghanistan”(https://en.wikipedia.org/wiki/Apis_cerana)。",
+          "fix": "改为“亚洲南部、东南部与东部的传统饲养蜂种”。"
+        },
+        {
+          "claim": "常描述为四条黄纹,色泽因亚种与地区而异;高度社会性;树洞等空腔内多片平行巢脾;热球防御",
+          "problem": "尝试证伪未成功:四条黄纹见英文维基原文且已用“常描述为”限定;多片平行巢脾与 USDA Exotic Bee ID 一致;热球防御(约 500 只围住胡蜂、升温至约 47 °C)有明确记载。",
+          "evidence": "英文维基 Apis cerana:“black in color, with four yellow abdominal stripes”“About 500 Japanese honey bees surround the hornet… until the temperature is raised to 47 °C”(https://en.wikipedia.org/wiki/Apis_cerana);Exotic Bee ID:“built in enclosed cavities and consist of multiple combs arranged parallel to one another”(https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006);科普中国亦记载中蜂围团防御胡蜂。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

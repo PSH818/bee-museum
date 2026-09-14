@@ -1,0 +1,95 @@
+{
+  "lens": "fact-check",
+  "round": 4,
+  "reviewedAt": "2026-08-25T04:10:00.000Z",
+  "sourceAccess": [
+    { "sourceId": "src-snodgrass-anatomy", "fetched": false, "note": "书籍无 URL,未抓取;教科书级昆虫解剖常识按规则判 pass。" },
+    { "sourceId": "src-britannica-honeybee", "fetched": false, "note": "HTTP 403,无法访问;head 条目转由 src-snodgrass-anatomy 教科书常识覆盖。" },
+    { "sourceId": "src-britannica-bumblebee", "fetched": false, "note": "本轮 30 条 entry 均未引用,未抓取(预期 403)。" },
+    { "sourceId": "src-wikipedia-honey-bee", "fetched": true, "note": "支持:A. cerana 为南亚/东亚传统蜂种、A. c. indica 被家养、A. c. japonica 热杀胡蜂、雄蜂单倍体无螫针大复眼。" },
+    { "sourceId": "src-wikipedia-pollen-basket", "fetched": true, "note": "支持:花粉筐仅见于 Apidae 四族(蜜蜂、熊蜂、无刺蜂、兰花蜂);其他蜂用 scopa,花粉压在毛间。未提及 Megachilidae。" },
+    { "sourceId": "src-wikipedia-hamulus", "fetched": true, "note": "支持膜翅目(以蜜蜂为例)后翅翅钩钩住前翅后缘褶;未单独提及熊蜂。" },
+    { "sourceId": "src-wikipedia-western-honey-bee", "fetched": true, "note": "支持:雄蜂单倍体仅有母亲、无螫针、职能为交配;蜂王腹部更长、生殖系统发育完全;西方蜜蜂群体 40,000–80,000。未提及 A. cerana 群体规模与迁飞对比。" },
+    { "sourceId": "src-wikipedia-apis-cerana", "fetched": true, "note": "支持:10–11 mm、四条黄色腹纹、12–36 °C 环境下巢温 33–35.5 °C、A. c. cerana 亚种、热杀胡蜂 47 °C、6,000–7,000 工蜂、更易迁飞、雄蜂大眼无螫针、南亚/东南亚/东亚、高度社会性、腔体内多脾巢。" },
+    { "sourceId": "src-wikipedia-bombus-terrestris", "fetched": true, "note": "支持:工蜂尾端白色、蜂王尾端皮黄;胸宽 2.3–6.9 mm、体重 68–754 mg;工蜂 11–17 mm;群体 300–400;地下鼠洞筑巢;欧洲、地中海岛屿、北非、近东;温室授粉(番茄)引入。未提及舌长、盗蜜、保温。" },
+    { "sourceId": "src-wikipedia-buzz-pollination", "fetched": true, "note": "支持:飞行肌振动摇出花粉;\"Honeybees cannot perform buzz pollination\";Bombus 与 Xylocopa 被认为可振动授粉;番茄温室依赖熊蜂。" },
+    { "sourceId": "src-wikipedia-bumblebee", "fetched": true, "note": "支持:熊蜂可振动授粉而其他传粉者不能;厚毛保温;盗蜜咬穿花冠基部;20 世纪民间传说\"不会飞\"、翅面积/翅载荷、动态失速解释;一年生、蜂王越冬、50–400 只、鼠洞、蜡制 honeypots;B. terrestris 工蜂 11–17 mm。未提及翅钩、未指明 B. terrestris 为短舌种。" },
+    { "sourceId": "src-wikipedia-osmia-cornifrons", "fetched": true, "note": "支持:独居;原产 Japan/Korea/China/Russia;50 年间日本超半数苹果园使用;1977 年引入美国东北部;竹管/芦苇/树洞筑巢,泥封巢室,花粉球上产卵;下脸角状突起;昼行 6AM–8PM。未提及体长、mason 命名、腹面集粉毛。" },
+    { "sourceId": "src-wikipedia-megachile-rotundata", "fetched": true, "note": "支持:6–9 mm;深灰色、雌蜂全身白毛;独居不筑群不储蜜;大颚剪叶圆片、顶针状巢室;引入北美/新西兰/澳大利亚授粉;每室约 15 片叶;先花蜜后花粉再产卵;纸管/钻孔木块。原产地仅写\"European bee\"。" },
+    { "sourceId": "src-wikipedia-xylocopa-violacea", "fetched": true, "note": "支持:欧洲最大蜂类之一;独居;分布欧洲向东至中国中部;夏末羽化、越冬、4–5 月出现;雌蜂在枯木钻隧道。未提及体色/翅色、食木、振动授粉、后足、与熊蜂混淆。" },
+    { "sourceId": "src-exotic-bee-id", "fetched": true, "note": "所引 URL 为 Exotic Bee ID 首页,无物种内容;另抓取其 Osmia cornifrons 事实表(https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062):雌蜂体长 8–12 mm、雄蜂 8–10 mm;原产东亚(日本、韩国、俄罗斯东南海岸);1970 年代引入美国东部;独居、泥制巢室、芦苇/竹管/树洞;腹面 scopa;苹果园商业授粉;雌蜂唇基有长侧角。建议把来源 URL 更新为该事实表。" },
+    { "sourceId": "src-wikipedia-carpenter-bee", "fetched": true, "note": "支持:钻入枯木/竹子筑巢并因此得名;不吃木头,木屑丢弃或用作巢室隔板;传统上视为独居(个别种有简单社会巢);雌蜂无光滑花粉筐、后足全被毛;常被非专业人士误认为熊蜂。未提及振动授粉、越冬。" },
+    { "sourceId": "src-wikipedia-mason-bee", "fetched": true, "note": "支持:泥隔板;\"named for their habit of using mud or other masonry products\";花粉/花蜜供粮团上产卵;提及 O. cornifrons。未提及脸部角、昼行时间。" },
+    { "sourceId": "src-wikipedia-megachile", "fetched": true, "note": "支持:多数 Megachile 用剪下的叶片衬巢,M. rotundata 商业化管理。未提及白毛/体色、腹面集粉毛。" },
+    { "sourceId": "src-dewiki-blaue-holzbiene", "fetched": true, "note": "德文页,WebFetch 直接中文回答。支持:体长 20–28 mm,中欧最大蜂类之一;体深黑,翅极暗带明显蓝色闪光;独居;8 月起羽化、越冬后 3–7 月活动;自啃巢洞;巢室隔板为唾液+木屑;外形似熊蜂。分布仅写南欧与中欧;未提及振动授粉、后足、结构色原理。" },
+    { "sourceId": "src-wikipedia-nectar-robbing", "fetched": true, "note": "支持:短舌熊蜂够不到长花基部花蜜,从基部咬孔进入;图注 \"Bombus terrestris stealing nectar\"。" },
+    { "sourceId": "src-wikipedia-haplodiploidy", "fetched": true, "note": "支持:雄性由未受精卵发育、单倍体、\"a male has no father\";\"determines the sex in all members of the insect orders Hymenoptera (bees, ants, wasps and sawflies)\"。" },
+    { "sourceId": "src-wikipedia-scopa", "fetched": true, "note": "支持:多数蜂 scopa 在后足;Megachilidae 缺特化腿毛而在腹部下方有大面积 scopa;蜜蜂与熊蜂有更特化的花粉筐。未比较花粉松散/压实。" },
+    { "sourceId": "src-wikipedia-worker-bee", "fetched": true, "note": "支持:西方蜜蜂工蜂 12–15 mm。页面无任何 Apis cerana 内容。" }
+  ],
+  "verdicts": [
+    { "key": "focus:apis-mellifera-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/whole", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "欧洲熊蜂的舌较短,遇到深冠筒花时,常在花冠基部咬孔取蜜(\"盗蜜\")。",
+          "problem": "三个被引用来源都未说明 Bombus terrestris 是短舌种。Bombus terrestris 页未提及舌长与盗蜜;Bumblebee 页只以 B. bifarius 为短舌例子并泛述\"许多种熊蜂盗蜜\";Nectar robbing 页仅有图注 \"Bombus terrestris stealing nectar\" 和以 early bumblebee 为例的短舌咬孔描述。盗蜜行为本身有图注支持,但\"舌较短\"是对本种的具体断言,未被来源提及且未限定。",
+          "evidence": "Bumblebee 页:\"Bees with shorter proboscides, like Bombus bifarius, have a more difficult time foraging nectar\";\"Many species of bumblebees also exhibit 'nectar robbing'... bite directly through the base of the corolla\"。Nectar robbing 页图注:\"Bombus terrestris stealing nectar\"。Bombus terrestris 页:未提及舌长/盗蜜。",
+          "fix": "二选一:(a) 补充明确称 B. terrestris 为短舌种的来源(如 Goulson《Bumblebees: Behaviour, Ecology, and Conservation》或 BWARS/NatureSpot 物种页)并加入 sourceIds;(b) 改写为\"欧洲熊蜂属于舌相对较短的熊蜂,遇到深冠筒花时也会像许多熊蜂一样在花冠基部咬孔取蜜(\"盗蜜\")\",并保留 Nectar robbing 页作为盗蜜行为依据。"
+        }
+      ]
+    },
+    { "key": "focus:bombus-terrestris-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "原产欧洲东南部至西亚一带",
+          "problem": "唯一被引用来源只说它是\"European bee\",未给出\"欧洲东南部\"或\"西亚\"这一更具体的原产范围;该表述比来源更精确,属来源未提及且未限定。",
+          "evidence": "Megachile rotundata 页:\"Megachile rotundata, the alfalfa leafcutting bee, is a European bee\";引入记录仅列北美、新西兰(1971)、澳大利亚(1987)。",
+          "fix": "改为\"原产欧洲\"(与来源一致);若要保留\"欧洲东南部至西亚\",需补充给出该范围的来源(如 Pitts-Singer & Cane 2011, Annu. Rev. Entomol. 或 USDA ARS 物种资料)并加入 sourceIds。species:megachile-rotundata 的 distribution 字段需同步修改。"
+        }
+      ]
+    },
+    { "key": "focus:megachile-rotundata-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-foreleg-cleaner", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-osmia-scopa", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-osmia-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-hair-bands", "verdict": "pass", "issues": [] },
+    { "key": "species:apis-cerana", "verdict": "pass", "issues": [] },
+    { "key": "species:bombus-terrestris", "verdict": "pass", "issues": [] },
+    { "key": "species:osmia-cornifrons", "verdict": "pass", "issues": [] },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "distribution: 原产欧洲东南部至西亚一带,被引入北美、新西兰、澳大利亚作为管理授粉蜂",
+          "problem": "\"原产欧洲东南部至西亚一带\"在两个被引用来源中均未出现;Megachile rotundata 页仅称其为\"European bee\",Scopa 页与分布无关。引入地区部分有来源支持。",
+          "evidence": "Megachile rotundata 页:\"is a European bee\";\"deliberately imported to assist in the pollination of food crops\"(北美、新西兰 1971、澳大利亚 1987)。",
+          "fix": "把 distribution 改为\"原产欧洲,被引入北美、新西兰、澳大利亚作为管理授粉蜂\";或补充明确给出\"欧洲东南部至西亚\"原产范围的来源并加入 sourceIds。与 focus:megachile-rotundata-worker/whole 的 description 同步修改。"
+        }
+      ]
+    }
+  ]
+}

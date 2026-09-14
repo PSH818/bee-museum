@@ -1,0 +1,20 @@
+{
+  "lens": "refutation",
+  "round": 13,
+  "reviewedAt": "2026-08-25T06:40:00Z",
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [],
+      "notes": [
+        "断言「头部由复眼、单眼、触角和口器构成」:B. terrestris 头部具一对复眼、三个单眼、触角(工蜂鞭节 10 节)及含喙的口器,与 micro-CT 研究(ScienceDirect S0042698919300501)及 bumblebee.org/bodyAntenna.htm 一致,无反证。",
+        "断言「熊蜂(据记载也包括欧洲熊蜂)有时会在花冠基部咬孔取蜜」:B. terrestris 属短舌种(工蜂舌长约 5.8 mm,bumblebee.org/bodyTongue.htm),被明确记载为主要盗蜜者(primary robber),在 Fuchsia magellanica 花冠基部咬孔(PMC12553366:'holes that B. terrestris had previously bitten into the walls of the nectary chamber');bumblebee.org/terr.htm 称其为 'accomplished nectar robbers';Wikipedia Nectar_robbing 页配图即 'Bombus terrestris stealing nectar'。已用「据记载/有时」限定,站得住。",
+        "断言「盗蜜只是行为名称,不带贬义」:Wikipedia Nectar_robbing 将其作为描述性术语使用,并指出盗蜜对植物的影响可正可负、部分研究显示熊蜂盗蜜不降低植物繁殖成功,措辞恰当。",
+        "断言「同一巢工蜂胸部大小可差约 3 倍」:Wikipedia Bombus_terrestris(引 Goulson)给出胸部 2.3–6.9 mm,即 3.0 倍;Goulson et al. 2002 (Anim. Behav., S0003347202930411) 用胸宽度量,巢内工蜂均值 4.34 mm、采集蜂 4.93 mm,极值区间与 3 倍一致。未指明量纲的「大小」按单一维度数据支持即成立。",
+        "断言「体重可差近十倍(不同资料 8–11 倍)」:Wikipedia 68–754 mg ≈ 11.1 倍;Couvillon & Dornhaus 2010 (PMC4444232) 引 Cumber 1949 / Plowright & Jay 1968 / Goulson 2003 称同一蜂王后代体重可差 10 倍;bumblebee.org/terr.htm 给出 0.05–0.40 g = 8 倍。区间 8–11 倍恰好覆盖查到的全部主流数值,「近十倍」概括准确。",
+        "遗留观察(不构成否决):sourceIds 中 src-snodgrass-anatomy 为蜜蜂解剖学著作,对熊蜂头部构成仅提供泛化支持;体型数据实际出自 Goulson 系列文献,可考虑补入原始文献引用以增强可追溯性。"
+      ]
+    }
+  ]
+}

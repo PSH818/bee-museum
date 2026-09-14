@@ -1,0 +1,10 @@
+focus:apis-cerana-worker/whole: 文本已改
+focus:apis-cerana-drone/whole: 未全过 + 文本已改
+focus:bombus-terrestris-worker/head: 未全过 + 文本已改
+focus:osmia-cornifrons-worker/whole: 未全过 + 文本已改
+focus:megachile-rotundata-worker/whole: 未全过 + 文本已改
+focus:xylocopa-violacea-worker/whole: 未全过 + 文本已改
+species:apis-cerana: 未全过 + 文本已改
+species:osmia-cornifrons: 未全过 + 文本已改
+species:megachile-rotundata: 未全过 + 文本已改
+species:xylocopa-violacea: 文本已改

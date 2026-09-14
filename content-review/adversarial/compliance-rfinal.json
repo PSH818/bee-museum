@@ -1,0 +1,1766 @@
+{
+  "lens": "compliance",
+  "round": "final",
+  "mergedFrom": [
+    null,
+    29
+  ],
+  "reviewedAt": "2026-09-08T01:48:11.866Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一只工蜂，就是一套精密的采集系统（全条使用全角标点“，”）",
+          "problem": "[可选] 第8项:西方蜜蜂各条目使用全角逗号“，”,其余物种条目使用半角逗号“,”,全站标点不统一,公开发布时观感不一致。",
+          "fix": "全站统一为中文全角标点(，、；：),包括所有 focus/organ/compare/species 文案。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:脱离三维模型语境时,\"靠近头部\"可能被读作靠近真实蜂类;同时本条使用全角逗号\"，\",与其余条目的半角\",\"不一致(8 受众适配/排版口径)",
+          "fix": "改为\"放大头部,可以看到……\";全角标点统一为半角,与全站口径一致"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:\"靠近头部\"脱离模型语境有歧义;全角逗号与其余条目不一致(8)",
+          "fix": "改为\"放大头部,可以看到……\";标点统一为半角"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:\"靠近头部\"脱离模型语境有歧义;全角逗号与其余条目不一致(8)",
+          "fix": "改为\"放大头部,可以看到……\";标点统一为半角"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "是亚洲本土传统养蜂的主角",
+          "problem": "[可选] 1/4 “主角”略带评价色彩与绝对化,科普口径宜中性",
+          "fix": "改为“是亚洲本土传统养蜂的重要蜂种”"
+        },
+        {
+          "claim": "面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死",
+          "problem": "[可选] 2 “会”为确定性口径;同时“围困过热致死”可补一个通俗说法帮助中小学生理解",
+          "fix": "改为“面对胡蜂,东方蜜蜂可集体扑上形成蜂团,把胡蜂围在中间用体温'热死'它(热杀)”"
+        },
+        {
+          "claim": "体长约 10–11 mm(……不同资料略有差异)",
+          "problem": "[可选] 6 与同物种 species 卡“不同资料约 9–12 mm”的数字口径未对齐,读者跨卡片阅读时会觉得两处说法不一致",
+          "fix": "两处统一为“约 10–11 mm(不同资料约 9–12 mm)”或统一只保留“不同资料略有差异”"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:\"靠近头部\"脱离模型语境有歧义;全角逗号与本物种其余条目不一致(8)",
+          "fix": "改为\"放大头部,可以看到……\";标点统一为半角"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜂王带着整群离开旧巢,是本土养蜂要面对的日常",
+          "problem": "[可选] 4 拟人化 + 1 夸大:\"带着\"暗示蜂王领导整群,\"日常\"暗示天天发生",
+          "fix": "改为\"整群连同蜂王一起离开旧巢,是本土养蜂需要经常应对的现象\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:\"靠近头部\"脱离模型语境有歧义;全角逗号与本物种其余条目不一致(8)",
+          "fix": "改为\"放大头部,可以看到……\";标点统一为半角"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "宽大复眼、无螫针,和西方蜜蜂雄蜂如出一辙",
+          "problem": "[可选] 1 绝对化:“如出一辙”暗示完全相同,标题口径偏满。",
+          "fix": "改为“……和西方蜜蜂雄蜂十分相似”。"
+        },
+        {
+          "claim": "这种单倍二倍性性别决定方式见于整个膜翅目(蜂、胡蜂、蚂蚁等)",
+          "problem": "[可选] 1/2 绝对化与确定性口径:“整个”为全称断言,科普口径宜留余地。",
+          "fix": "改为“这种单倍二倍性(由染色体组数决定性别)的方式广泛见于膜翅目(蜂、胡蜂、蚂蚁等)”。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须……",
+          "problem": "[可选] 3 安全暗示:\"靠近头部\"脱离模型语境有歧义;全角逗号与本物种其余条目不一致(8)",
+          "fix": "改为\"放大头部,可以看到……\";标点统一为半角"
+        },
+        {
+          "claim": "工蜂和蜂王的复眼比例更克制",
+          "problem": "[可选] 4 拟人化:\"克制\"是意志性用词",
+          "fix": "改为\"工蜂和蜂王的复眼相对较小\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "尾端一撮白毛,是野外辨识它的第一线索",
+          "problem": "[可选] 6 口径一致:物种卡 summary 写\"尾端白色至皮黄色\",此处写\"白毛\";\"第一线索\"略绝对(1)",
+          "fix": "改为\"尾端一撮白色至皮黄色的毛,是野外辨识它的常见线索\""
+        },
+        {
+          "claim": "让它在较凉的天气也能出勤访花",
+          "problem": "[可选] 4 拟人化:\"出勤\"是职场用语",
+          "fix": "改为\"也能外出访花\""
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂个体间体型差异很大:同一巢的工蜂胸部大小可差约 3 倍",
+          "problem": "[可选] 6 数字与单位口径:\"胸部大小\"未说明量度(宽度、长度还是体积),\"差约 3 倍\"在不同量度下含义差别很大,中小学生读者容易误读为整体体型相差 3 倍。",
+          "fix": "改为明确量度,如\"同一巢工蜂的胸宽可相差约 3 倍\";若来源未给量度,可改为\"同一巢工蜂的体型大小可相差约 3 倍\"并保留后半句体重口径。"
+        },
+        {
+          "claim": "体重可差近十倍(不同资料 8–11 倍)",
+          "problem": "[可选] 2 确定性口径 / 6 数字口径:\"近十倍\"与括注\"8–11 倍\"并列,同一句出现两种口径,略显冗余;括注中\"不同资料\"的说法偏内部记录语气。",
+          "fix": "合并为一种表述,如\"体重可相差约 8–11 倍(不同来源数字略有出入)\",或直接写\"体重可相差近十倍\"并将范围留在来源备注中。"
+        },
+        {
+          "claim": "熊蜂头部同样由复眼、单眼、触角和口器构成。",
+          "problem": "[可选] 8 受众适配:\"复眼\"\"单眼\"\"口器\"\"花冠\"对中小学生属专业词,本条未作简释;\"同样\"依赖读者先看过蜜蜂头部条目,单独打开本页时指代不明。",
+          "fix": "在首次出现处补一句极简解释,如\"复眼(由许多小眼组成的大眼睛)、单眼(头顶三只感光的小眼)、口器(吃东西和吸花蜜用的嘴)\";\"同样\"可改为\"和蜜蜂一样\"。"
+        },
+        {
+          "claim": "latin: compound eyes · antennae · proboscis",
+          "problem": "[可选] 5 名称规范:该字段名为 latin,内容却是英文通用名而非拉丁学名,若前端以\"学名\"标签展示会造成名称口径混淆。",
+          "fix": "确认该字段的展示标签;若显示为\"拉丁名/学名\",请改为解剖学拉丁术语(oculi compositi · antennae · proboscis)或将字段统一为\"英文术语\"标签。"
+        },
+        {
+          "claim": "够不到的花蜜,就咬个孔",
+          "problem": "[可选] 4 拟人化与价值判断:标题以第一人称式口吻描述熊蜂\"决定\"咬孔,略带拟人化意图色彩;正文已有\"这只是一个行为名称,并不带贬义\"的中和说明,整体可接受。",
+          "fix": "如需更稳妥,可改为\"够不到的花蜜,咬个孔也能取\"或\"舌头够不到?熊蜂会在花冠上咬个孔\",保留趣味同时弱化主观意图。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "但空气动力学研究已经解释清楚",
+          "problem": "[可选] 2 确定性口径:\"已经解释清楚\"过于终结性",
+          "fix": "改为\"空气动力学研究已能较好地解释这一点\""
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "欧洲熊蜂腹前有黄带、尾端污白",
+          "problem": "[可选] 第8项:“污白”为色彩术语,少儿读者可能理解为“脏”。",
+          "fix": "改为“尾端灰白(略带皮黄)”。"
+        },
+        {
+          "claim": "英文名 buff-tailed bumblebee 来自蜂王。",
+          "problem": "[可选] 第2项:名称来源属推论,可加限定。",
+          "fix": "改为“英文名 buff-tailed bumblebee(皮黄尾熊蜂)一般认为是按蜂王的尾色起的”。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据报道,自 1940 年代起推广约五十年后,日本半数以上的苹果园曾用它授粉;据报道 1977 年前后它被引入美国东部……",
+          "problem": "[可选] 2 确定性口径 / 8 受众适配:同一句内两次\"据报道\",口径正确但读感重复;引入物种表述中立、\"定殖\"已作简释,符合第 7 项要求。",
+          "fix": "第二处改为\"另据记载\"或合并为一处\"据报道\"统领全句。"
+        },
+        {
+          "claim": "壁蜂这一类蜂的英文统称 mason bee(泥匠蜂)由此而来。",
+          "problem": "[可选] 8 受众适配:面向中小学生,英文名可保留,但\"由此而来\"指代对象(用泥筑巢室)距离稍远。",
+          "fix": "改为\"正因为用泥筑巢,壁蜂这一类蜂在英文里统称 mason bee(泥匠蜂)\"。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白天 6 点到晚 8 点都可能在活动",
+          "problem": "[可选] 6 时间口径:\"白天 6 点\"表述不规范",
+          "fix": "改为\"早上 6 点到晚上 8 点之间都可能在活动\""
+        },
+        {
+          "claim": "雌蜂下脸长有一对角状突起",
+          "problem": "[可选] 8 受众适配:\"下脸\"为口语化说法,与 latin 字段 clypeal horns 对应的规范名是唇基",
+          "fix": "改为\"雌蜂唇基(脸的下部)长有一对角状突起\""
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "活动季集中在早春果树开花期,雄蜂约四月先羽化。",
+          "problem": "[可选] 第1/7项:“约四月”未标注地区,不同纬度物候差异大,面向全国读者宜加限定。",
+          "fix": "改为“活动季集中在早春果树开花期;在温带地区雄蜂大约四月先羽化,具体时间随当地气候而变”。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "(是否为有意引入各资料说法不一)",
+          "problem": "[可选] 8 括注措辞偏向编辑内部备注口吻,面向公众可更精简",
+          "fix": "改为“传入北美(是有意引入还是无意带入,各资料记载不一)后”"
+        },
+        {
+          "claim": "雌蜂用大颚从叶片上剪下圆片",
+          "problem": "[可选] 8 “大颚”对中小学生缺少简释",
+          "fix": "改为“雌蜂用大颚(嘴部一对像剪刀的硬颚)从叶片上剪下圆片”"
+        },
+        {
+          "claim": "再把集粉毛上的花粉抖在上面",
+          "problem": "[可选] 8 “集粉毛”首次出现无解释",
+          "fix": "改为“再把腹部下方专门沾花粉的毛(集粉毛)上的花粉抖在上面”"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "取食时把喙插入苜蓿花的龙骨瓣,花粉随之刷到集粉毛上。",
+          "problem": "[可选] 第8项:“龙骨瓣”为植物学术语,缺少简释。",
+          "fix": "改为“取食时把喙插进苜蓿花下方船形的花瓣(龙骨瓣),花粉随之刷到集粉毛上”。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "管理化饲养时,人们提供纸管或钻孔木块等人工巢材",
+          "problem": "[可选] 8 受众适配:\"管理化饲养\"是行业术语,未作简释",
+          "fix": "改为\"人工饲养用于授粉时,人们提供纸管或钻孔木块等人工巢材\""
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "紫木蜂是欧洲最大的蜂类之一,通体黑色、带微弱光泽",
+          "problem": "[可选] 3 安全与健康暗示:描述体型巨大但未提及是否会刺人,内容中立、无恐吓或\"无害\"暗示,合规;仅建议全站对大型独居蜂统一是否加一句\"一般不主动攻击人\"类口径,避免各物种口径不一。",
+          "fix": "如全站已有安全口径模板则沿用;若无则保持现状,不单独添加。"
+        },
+        {
+          "claim": "成蜂夏末羽化(从蛹变为成虫)后越冬",
+          "problem": "[可选] 8 受众适配:术语\"羽化\"已附简释,符合要求;\"越冬\"对低龄读者可再加两字。",
+          "fix": "可改为\"越冬(以成虫状态过冬)\"。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "木蜂的大颚极为强壮",
+          "problem": "[可选] 1 夸大:\"极为\"程度词偏强",
+          "fix": "改为\"木蜂的大颚十分强壮\"或\"木蜂的大颚强壮\""
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一般认为是薄膜干涉形成的结构色",
+          "problem": "[可选] 8 受众适配:\"薄膜干涉\"\"结构色\"两个物理术语未作简释",
+          "fix": "改为\"一般认为这是结构色——像肥皂泡那样由薄膜反射的光线叠加产生,而不是色素\""
+        },
+        {
+          "claim": "标题\"烟紫色的翅\" 与正文\"翅膜呈烟褐色\"",
+          "problem": "[可选] 6 口径一致:同一条目内翅色一处写烟紫、一处写烟褐,整体条目又写烟紫色",
+          "fix": "正文改为\"翅膜呈烟褐至烟紫色\",与标题及整体条目统一"
+        },
+        {
+          "claim": "与黑色身体相配",
+          "problem": "[可选] 4 价值判断:审美评价",
+          "fix": "删去或改为\"衬在黑色身体上格外明显\""
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-antenna",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "是蜜蜂最重要的化学感知器官。",
+          "problem": "[可选] 第1项:“最重要”为无限定的最高级。",
+          "fix": "改为“是蜜蜂主要的化学感知(嗅觉)器官”。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-thorax",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-forewing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "前足第一跗节(基跗节)有一个半圆形凹口……(无 modelNote)",
+          "problem": "[可选] 9 模型说明诚实性:凹口与胫节距是细小结构,若模型未实际雕刻,应像其他器官条目一样加 modelNote 说明标注点仅示意位置",
+          "fix": "若模型未雕刻凹口,补充 modelNote:\"本模型未单独雕刻凹口与胫节距,标注点位于前足基部示意位置。\""
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "黑黄白的分带是警戒色",
+          "problem": "[可选] 第2项:功能解释属推断,可加限定。",
+          "fix": "改为“黑黄白的分带一般认为是警戒色”。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "温室番茄授粉产业正建立在这一能力上。",
+          "problem": "[可选] 第1/7项:“产业正建立在……上”语气偏绝对且略带行业口吻。",
+          "fix": "改为“如今温室番茄的授粉大量依赖熊蜂的这一能力”。"
+        },
+        {
+          "claim": "声震取粉;蜜蜂不具备此行为。",
+          "problem": "[可选] 第8项:“声震取粉”为生造的紧缩术语,不易读。",
+          "fix": "改为“靠震动取粉;蜜蜂不具备此行为”。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "雌蜂用泥土分隔并封闭巢室;口器吸取花蜜……",
+          "problem": "[可选] 8 受众适配:条目名为\"大颚与口器\",summary 未先说明大颚是什么就直接讲用途",
+          "fix": "开头补一句\"大颚是口器前方的一对咀嚼器;雌蜂用它搬运、涂抹泥土分隔并封闭巢室……\""
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "雌蜂全身覆白色细毛,与深灰底色相间",
+          "problem": "[可选] 8 表述自洽:\"全身覆\"与\"相间\"略矛盾(全覆盖则无相间)",
+          "fix": "改为\"雌蜂身体多处覆白色细毛,在腹部形成与深灰底色相间的毛带\""
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-body-length",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-role",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-mellifera",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "现随养蜂业遍布全球",
+          "problem": "[可选] 第1项:“遍布全球”缺少限定。",
+          "fix": "改为“现随养蜂业几乎遍布全球(南极洲除外)”。"
+        },
+        {
+          "claim": "也是研究最充分的蜜蜂",
+          "problem": "[可选] 第1项:最高级无限定。",
+          "fix": "改为“也是研究最充分的蜂种之一”。"
+        },
+        {
+          "claim": "洞穴或蜂箱内营多脾垂直蜡巢",
+          "problem": "[可选] 第8项:“脾”为养蜂行业术语,公众不易理解。",
+          "fix": "改为“在洞穴或蜂箱内建造多片垂直悬挂的蜡质巢脾(巢板)”。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料记载的范围略有差异,约 9–13 mm)",
+          "problem": "[可选] 6 数字与单位口径:主值 10–11 与备注范围 9–13 并列,已用括注说明差异;单位使用英文缩写 mm,面向小学生建议与全站统一为\"毫米\"或保持 mm 但全站一致。",
+          "fix": "全站统一长度单位写法(建议\"约 10–11 毫米\"),数字保持不变。"
+        },
+        {
+          "claim": "会聚成蜂团把入侵者围住,使其过热而死(称为“热球防御”)",
+          "problem": "[可选] 4 拟人化与价值判断 / 8 受众适配:\"入侵者\"为对胡蜂的中性描述,可接受;\"使其过热而死\"为客观描述,不构成不适内容。仅提示此处使用中文弯引号,与其他条目的直引号体例不一。",
+          "fix": "统一全站引号体例;文字内容可保留。"
+        },
+        {
+          "claim": "亚洲南部与东部的传统饲养蜂种;中华蜜蜂(Apis cerana cerana)是它在中国的主要亚种",
+          "problem": "[可选] 7 敏感与合规:地区分布表述中立、无争议地名,合规;\"传统饲养蜂种\"属饲养属性而非分布信息,放在 distribution 字段稍显错位。",
+          "fix": "可改为\"原产并广泛分布于亚洲南部与东部;中华蜜蜂(Apis cerana cerana)是它在中国的主要亚种\",饲养信息留在 summary。"
+        }
+      ]
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "番茄等温室作物高度依赖它",
+          "problem": "[可选] 1 夸大 + 7 商业口吻:\"高度依赖\"偏绝对且带产业推介色彩",
+          "fix": "改为\"温室番茄等作物的授粉常借助它\""
+        },
+        {
+          "claim": "圆胖多毛的授粉能手",
+          "problem": "[可选] 4 拟人化:\"能手\"",
+          "fix": "改为\"圆胖多毛的重要授粉昆虫\""
+        },
+        {
+          "claim": "作为温室授粉蜂被广泛引入世界各地",
+          "problem": "[可选] 7 引入物种中立:表述已中立,但只呈现\"被引入\"一面;科普口径下可补一句客观的生态提示",
+          "fix": "改为\"作为温室授粉蜂被引入多个国家和地区,部分地区已形成野外种群\""
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "此后在美国东部与中西部定殖",
+          "problem": "[可选] 8 “定殖”为专业术语,缺少简释(与 focus 卡同一问题)",
+          "fix": "改为“此后在美国东部与中西部定殖(在野外稳定繁衍)”"
+        },
+        {
+          "claim": "而不是像蜜蜂那样装在后足花粉筐里",
+          "problem": "[可选] 8 “花粉筐”可补一句通俗说明",
+          "fix": "改为“而不是像蜜蜂那样装在后足的'花粉筐'(后腿上一处凹槽状的储粉结构)里”"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "成为苜蓿制种的授粉蜂 / 苜蓿制种业的重要授粉蜂",
+          "problem": "[可选] 8 “制种”为农业术语,focus 卡已用“生产种子的苜蓿田”解释,species 卡未解释",
+          "fix": "改为“成为苜蓿制种(专门生产苜蓿种子的农田)的授粉蜂”"
+        },
+        {
+          "claim": "腹面集粉毛携粉",
+          "problem": "[可选] 8 “集粉毛”缺少简释",
+          "fix": "改为“靠腹部下方的集粉毛(专门沾花粉的毛)携带花粉”"
+        }
+      ]
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm: {min: 20, max: 28}",
+          "problem": "[可选] 5 名称规范:该字段名不显示,但若界面对所有物种统一渲染为\"工蜂体长\",则对独居蜂(仅有雌蜂)会出现称谓不当。",
+          "fix": "确认界面在 socialStructure 为独居时将该数值标签渲染为\"雌蜂体长\"或\"体长\";内容本身无需修改。"
+        },
+        {
+          "claim": "在枯木中用大颚啃出隧道状巢穴",
+          "problem": "[可选] 8 受众适配:\"大颚\"为专业术语,缺少简释。",
+          "fix": "改为\"用大颚(嘴部强壮的咬合器)在枯木中啃出隧道状巢穴\"。"
+        },
+        {
+          "claim": "夏末羽化越冬,春季活动,被认为能进行振动授粉(用身体高频振动把花粉从花药里震出来)",
+          "problem": "[可选] 8 受众适配 / 2 确定性口径:\"被认为\"口径恰当,\"振动授粉\"已附简释;\"羽化\"在本条 summary 中未简释(焦点条目有简释,但物种页可单独访问)。",
+          "fix": "改为\"夏末羽化(从蛹变为成虫)后越冬\",与焦点条目一致。"
+        },
+        {
+          "claim": "蜜蜂科 Apidae · 木蜂属",
+          "problem": "[可选] 5 名称规范:\"蜜蜂科\"是 Apidae 的规范中文科名,非\"蜜蜂\"与非蜜蜂属混用,合规;但读者可能误以为木蜂属于\"蜜蜂\"。",
+          "fix": "如全站有科名注释机制,可在科名旁加\"(蜜蜂科包含蜜蜂、熊蜂、木蜂等多个属)\"的统一说明,不改本条文字。"
+        }
+      ]
+    },
+    {
+      "key": "cycle:cycle-apis-mellifera-worker",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "约 21 天从卵到成蜂,之后再活几周。",
+          "problem": "[可选] 2 确定性口径:“之后再活几周”未限定季节,与同故事分支“夏蜂与冬蜂”中“越冬蜂可活数月”并列时显得前后不一。",
+          "fix": "改为“约 21 天从卵到成蜂,夏季出生的工蜂之后通常再活几周(越冬蜂可活数月)”。"
+        },
+        {
+          "claim": "工蜂的一生按年龄排班",
+          "problem": "[可选] 4 拟人化:“排班”是人类职场用语,略带拟人色彩。",
+          "fix": "改为“工蜂的分工大致随年龄变化”或“按年龄分工”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-egg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "雄蜂由未受精卵发育而来,产在更大的雄蜂房里。",
+          "problem": "[可选] 8 受众适配:“未受精卵也能发育成个体”对中小学生来说反直觉,缺一句简释(不必出现“单倍二倍性”术语)。",
+          "fix": "补一句:“未受精的卵也能发育,这是蜜蜂等昆虫特有的性别决定方式,长出来的一定是雄蜂。”"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-larva",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "前三天吃蜂王浆,之后改吃花粉和花蜜调成的“蜂粮”。",
+          "problem": "[可选] 2 确定性口径:“前三天”“三天后”为精确天数,未加“约”。",
+          "fix": "改为“大约前三天吃蜂王浆”“约三天后换成蜂粮”。"
+        },
+        {
+          "claim": "约第 9 天,巢房被封上蜡盖。",
+          "problem": "[可选] 8 受众适配:下一阶段标题直接使用“封盖”一词,此处是首次出现,可顺带点明“这叫封盖”,便于衔接。",
+          "fix": "改为“约第 9 天,工蜂用蜡把巢房口封住(称为“封盖”)”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "三种职型走着不同的时间表:蜂王约 16 天出房,工蜂约 21 天,雄蜂约 24 天。",
+          "problem": "[可选] 8 受众适配:“职型”为专业词,虽后文随即列出三者,中小学生初见仍可能不解。",
+          "fix": "改为“蜂王、工蜂、雄蜂三种‘职型’(蜂群里的三种身份)走着不同的时间表:……”,或在首次出现处加括注。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刚出房的工蜂最先做的是打扫",
+          "problem": "[可选] 1 绝对化:“最先做的是”写成了无例外的定论,而 detail 自己已说明分工会随蜂群需要调整,两处口径略有张力。",
+          "fix": "改为“刚出房的工蜂通常最先做的是打扫”,与 detail 的“大致按年龄排班”保持一致。"
+        },
+        {
+          "claim": "工蜂一生的工作大致按年龄排班",
+          "problem": "[可选] 4 拟人化:“排班”是职场比喻,用作科普比喻可接受,但未加引号,低年级读者可能理解为有人在安排。",
+          "fix": "写作“大致按年龄‘排班’”或“大致按年龄分工”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "哺育蜂喂养幼虫约 6 天",
+          "problem": "[可选] 6/8 数字口径与受众适配:本条阶段标注为出房后第 3–12 天(共 10 天),detail 紧接着说“喂养幼虫约 6 天”,主语不清,学生易误读为哺育期只有 6 天。实际“约 6 天”指的是每只幼虫被喂养的时长。",
+          "fix": "改为“每只幼虫从孵化到封盖约被喂养 6 天;幼虫自产卵起约第 9 天被封在巢房里,随后化蛹。”"
+        },
+        {
+          "claim": "哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫(常称“工蜂浆”,与蜂王浆来自同一类腺体)",
+          "problem": "[可选] 5/2 名称规范与确定性口径:“工蜂浆”在中文科普里并非通用固定名(全站仅此一处出现),“常称”把它写成了通行叫法;另外“腺体”未说明部位,括号里又嵌了两层信息,阅读负担偏重。",
+          "fix": "改为“哺育蜂用头部腺体分泌的乳状食物喂养工蜂幼虫(有的资料称为‘工蜂浆’,与蜂王浆来自同一类腺体)”;腺体部位的具体表述交事实审查确认。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "腹部的蜡腺开始分泌蜡片",
+          "problem": "[可选] 8 受众适配:\"蜡腺\"\"蜡片\"对小学生略生僻,缺一句简释。",
+          "fix": "改为\"腹部的蜡腺(分泌蜂蜡的小腺体)开始分泌薄薄的蜡片\"。"
+        },
+        {
+          "claim": "花蜜在巢内经工蜂反复传递、加入酶并蒸发水分,最终酿成蜂蜜。",
+          "problem": "[可选] 8 受众适配:\"酶\"未作简释;本句已足够克制,未承诺\"蜂蜜工坊\"展厅内容,符合要求。",
+          "fix": "可改为\"加入自身分泌的酶(帮助分解糖分的物质)并蒸发水分\";或保持现状。"
+        },
+        {
+          "claim": "场景中新造的巢房以浅色区分。",
+          "problem": "[可选] 9 场景说明诚实性:已核对 LifeCycleScene 自第 33 天起以更浅的蜡色渲染一组新巢房,说法属实;仅提示该组新巢房位于巢脾右上角,若读者视角未覆盖可能看不到。",
+          "fix": "可补充方位提示,如\"场景中巢脾右上方新造的巢房以浅色区分\";或保持现状。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房两三周后,一部分工蜂在巢门口值守",
+          "problem": "[可选] 6 数字口径:spanText 为出房后第 18–20 天,\"两三周\"为约数,与之不矛盾,但与其余阶段以\"天\"计的口径不一。",
+          "fix": "可改为\"出房约 18 天后\"或\"出房近三周时\",与 spanText 口径统一;或保持现状。"
+        },
+        {
+          "claim": "related: 螫针",
+          "problem": "[可选] 3 安全与健康暗示:将守卫行为与螫针并列,正文本身无不当暗示;仅建议关联展品\"螫针\"页面已有\"勿在巢门口逗留、被蜇后处理\"的安全提示即可,此处不必重复。",
+          "fix": "无需修改本条;确认螫针展品页含基础安全提示。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "此后工蜂离开巢内工作,成为外勤蜂",
+          "problem": "[可选] 清单项 2 确定性口径:\"此后\"读作一刀切的转折,而工蜂在巢群需要时会回到巢内任务;面向公众可加一层\"通常/多数\"的软化,避免被理解为不可逆的固定程序。",
+          "fix": "改为\"此后工蜂通常离开巢内工作,成为外勤蜂\"。"
+        },
+        {
+          "claim": "采集花蜜、花粉、蜂胶和水",
+          "problem": "[可选] 清单项 8 受众适配:\"蜂胶\"对中小学生属陌生词,本条未作简释;其余术语(外勤蜂、越冬蜂、结团)可由上下文推断,蜂胶不能。",
+          "fix": "改为\"采集花蜜、花粉、蜂胶(蜜蜂从植物上采回、用来修补蜂巢的树脂)和水\",或在 related 中关联蜂胶词条。"
+        },
+        {
+          "claim": "(常见文献约 2–6 周,外勤只是其中最后一段)",
+          "problem": "[可选] 清单项 8 受众适配:括注中\"常见文献\"\"不同资料\"是引证口吻,虽不属编辑批注、可对公众公开,但对青少年读者略显生硬,可改为更平实的表述。",
+          "fix": "改为\"(大约 2–6 周,外勤只是其中最后一段)\",并将\"不同资料约 20 周或更长\"改为\"大约 20 周或更长\";资料差异保留在 sourceIds 中即可。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-queen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后约第 6–10 天进行婚飞交配,回巢后 2–3 天开始产卵",
+          "problem": "[可选] 8 受众适配:“婚飞”为专业术语,首次出现宜有简释;“回巢后 2–3 天”未加“约”。",
+          "fix": "改为“出房后约第 6–10 天飞到空中与雄蜂交配(称为“婚飞”),回巢后约 2–3 天开始产卵”。"
+        },
+        {
+          "claim": "春季高峰期一只优良蜂王每天可产约 1500 枚卵。",
+          "problem": "[可选] 4 价值判断:“优良”是养蜂业评价用语,带人为价值色彩。",
+          "fix": "改为“一只健康的蜂王”。"
+        },
+        {
+          "claim": "被选作蜂王培育的幼虫",
+          "problem": "[可选] 4 拟人化:“被选作”暗示工蜂有主观选择。",
+          "fix": "改为“在王台中被喂养的幼虫”。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-drone",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它不采集、不筑巢,任务是与其他蜂群的蜂王交配——交配成功者随即死亡。",
+          "problem": "[可选] 4 拟人化 / 7 死亡描述:“任务”带目的论色彩;“随即死亡”对青少年略显突兀,可用中性说明代替。",
+          "fix": "改为“它不采集、不筑巢,作用是与其他蜂群的蜂王交配;交配后雄蜂的生殖器官脱落,很快就会死去。”"
+        },
+        {
+          "claim": "温带地区,雄蜂在入冬前会被工蜂逐出巢外。",
+          "problem": "[可选] 7 敏感表述:只写“逐出巢外”,结局留白,青少年读者可能追问;可补一句说明原因,避免被理解为“残忍”。",
+          "fix": "改为“温带地区,入冬前蜂群不再需要雄蜂,工蜂会把它们赶出巢外,它们无法独自越冬。”"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-winter",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "春夏出生的工蜂劳作强度大,只活几周",
+          "problem": "[可选] 4 拟人化:“劳作”是清单点名的拟人用语。",
+          "fix": "改为“春夏出生的工蜂外勤飞行多、消耗大,只活几周”。"
+        }
+      ]
+    },
+    {
+      "key": "cycle:cycle-osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一年一代。",
+          "problem": "[可选] 2 确定性口径:作为总述可接受;若担心地区差异,可加“通常”。",
+          "fix": "改为“通常一年一代。”"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出巢时间大致在 4 月,恰在苹果开花之前",
+          "problem": "[可选] 1/2 确定性口径:前半句用“大致”,后半句“恰在……之前”又给出精确对应的印象,同句内口径不一致;不同地区苹果花期与出巢时间并非总能严格对齐。",
+          "fix": "改为“出巢时间大致在 4 月,通常赶在苹果开花前后”。"
+        },
+        {
+          "claim": "越冬的成蜂破茧而出,从巢管里钻出来",
+          "problem": "[可选] 8 受众适配:“成蜂”“破茧”对低年级读者可再直白一点,可顺带点明是在茧里过冬。",
+          "fix": "改为“在茧里过完冬的成年蜂咬破茧壳,从巢管里钻出来”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-nest",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "一只雌蜂一生最多可产约 30 枚卵;采集半径可达约 130 米。",
+          "problem": "[可选] 2 确定性口径:“最多”与“约”并用略别扭;“130 米”看起来像精确测量值。",
+          "fix": "改为“一只雌蜂一生大约能产二三十枚卵;采集半径通常在一百多米以内”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "独居蜂的幼虫没有哺育蜂照料",
+          "problem": "[可选] 8 受众适配:“哺育蜂”是蜜蜂故事中的术语,在壁蜂故事里首次出现时缺少一句对照说明,单独进入该页面的读者可能不知所指。",
+          "fix": "改为“独居蜂的幼虫不像蜜蜂幼虫那样有哺育蜂照料”。"
+        },
+        {
+          "claim": "就是它从孵化到结茧的全部食物",
+          "problem": "[可选] 1 绝对化:“全部”为绝对词;作为对一次性备粮的描述可接受,但可加软化以与全馆口径一致。",
+          "fix": "改为“基本就是它从孵化到结茧的全部食物”或“它从孵化到结茧吃的都是这一团食物”。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-larva",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-overwinter",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "这一点与蜜蜂截然不同",
+          "problem": "[可选] 1 绝对化:“截然不同”语气较重,可接受。",
+          "fix": "可改为“这一点与蜜蜂很不一样”。"
+        },
+        {
+          "claim": "10 月至次年 3 月",
+          "problem": "[可选] 6 数字口径:span 为第 5.5–11.5 个月(自 4 月起算约为 9 月中至 3 月中),与文字“10 月”略有出入。",
+          "fix": "改为“约 9 月下旬至次年 3 月”或调整 span 与文字一致。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-next-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "从产卵到出巢,几乎整整一年",
+          "problem": "[可选] 2 确定性口径:已有“几乎”缓冲,可接受。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "各自筑巢、各自为后代备好食物,互不合作。",
+          "problem": "[可选] 4 拟人化与价值判断 / 1 绝对化:“互不合作”带一点评价意味且过于绝对——壁蜂常成片聚集筑巢,只是不分工;“不合作”易被理解为“排斥彼此”。",
+          "fix": "改为“各自筑巢、各自为后代备好食物,彼此之间没有分工协作(即使许多巢管挨在一起,也只是邻居)”。"
+        }
+      ]
+    },
+    {
+      "key": "region:region-china-east",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "华北属湿润大陆性气候,长江下游已属湿润亚热带",
+          "problem": "[可选] 清单项 4 受众适配:两个气候类型名对中小学生偏术语,但句子已把结论(夏暖湿、冬寒冷)说清,可由上下文推断;仅建议加一层白话。",
+          "fix": "改为“华北冬冷夏热、四季分明(湿润大陆性气候),长江下游则更暖更湿(湿润亚热带)”。"
+        }
+      ]
+    },
+    {
+      "key": "region:region-central-europe",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "西部……属海洋性温带气候;……渐变为暖夏型湿润大陆性气候,四季分明",
+          "problem": "[可选] 清单项 4 受众适配:上轮建议已部分采纳(补了“四季分明”),但“海洋性温带气候”“暖夏型湿润大陆性气候”仍是裸术语;结论可由上下文推断,仅剩润色空间。",
+          "fix": "改为“西部冬不冷、夏不热、全年有雨(海洋性温带气候);越往东四季越分明、冬天越冷(暖夏型湿润大陆性气候)”。"
+        }
+      ]
+    },
+    {
+      "key": "region:region-north-america-east",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "夏季暖到热、冬季寒冷多雪",
+          "problem": "[可选] 清单项 4 受众适配:“暖到热”读起来生硬。",
+          "fix": "改为“夏季温暖甚至炎热、冬季寒冷多雪”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉丰富,色黄。",
+          "problem": "[可选] pollen 字段已按上轮建议改为\"色黄\",本卡无问题;但同一朵花的分项卡 flower-entry:flower-brassica-napus/stamen 的 description 仍写\"花粉量大、呈饱黄色\",\"饱黄色\"这一生造词在馆内仍残留一处,与主卡口径不一致(该分项卡不在本轮送审清单内,仅作提示)。",
+          "suggestion": "[可选] 将 stamen 分项卡中的\"呈饱黄色\"同步改为\"色黄\"或\"黄色鲜亮\",与主卡统一。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "油菜是自交亲和的植物,自己也能结实",
+          "problem": "[可选] 清单项 4 受众适配:“结实”对小学生偏文言(r23/r24 均建议,未采纳,不阻塞)。",
+          "fix": "改为“油菜是自交亲和的植物——用自己的花粉也能结出种子”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间",
+          "problem": "[可选] 清单项 4 受众适配:括注归属已可懂、口径与刺槐条目一致(合格);“零点几到两毫克”仍不如数字直观(r24 建议未采纳,不阻塞)。出处是否确为德文维基“Raps”页由事实核查员确认,不在本视角复核。",
+          "fix": "数字可写作“约 0.1–2 毫克”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉的产量和营养价值,本馆尚未找到足以展出的系统数据。(pollen 字段,本轮修改句)",
+          "problem": "[已解决] r25 fail 已修复:全称否定('目前没有可靠的公开数据')改为馆方口径。合规四点核查:(1) 读者可懂——'本馆尚未找到'是日常语序,'足以展出'虽带一点策展腔但语义自明,小学高年级以上可无障碍理解;(2) 口径一致——与花蕊条目 description 末句逐字相同,卡片/条目零漂移;'本馆'第一人称与 r24 已定稿的蓝莓三条关系('本馆未能核实……仅供参考')的馆方声音一致;(3) 无内部批注腔——不含'待确认/待人工/TODO'类字样,是面向观众的成品句;(4) 不属绝对化/夸大——否定对象限定于馆方检索所及,方向保守。",
+          "fix": "无需进一步修改。"
+        },
+        {
+          "claim": "却是中国北方、欧洲与美国东部都举足轻重的蜜源树",
+          "problem": "[可选] 清单项 5 敏感表述(入侵物种):刺槐在欧洲多国被列为入侵植物,卡片只讲蜜源价值(r23/r24/r25 均建议,未采纳,属可选不阻塞)。",
+          "fix": "summary 末尾补一句“它生长快、适应性强,在欧洲一些地区也被视为入侵植物”,并补相应来源。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉的产量和营养价值,本馆尚未找到足以展出的系统数据。(description 末句,本轮修改句)",
+          "problem": "[已解决] 与卡片层逐字一致,合规核查结论同卡片层:读者可懂、口径统一、无内部批注腔、无绝对化。另注意到该句从'花蜜多而甜'的正面数字自然转入'花粉尚无系统数据'的坦白,叙述节奏对读者友好。",
+          "fix": "无需进一步修改;若日后卡片层措辞调整,务必两处同步。"
+        },
+        {
+          "claim": "reviewStatus: ai-reviewed(条目元数据)",
+          "problem": "[流程提示,不阻塞] 本条目 description 含本轮文本改动,但子集导出时 reviewStatus 仍为 ai-reviewed(卡片层为 draft)。按现行策略'文本改动必须复审',该状态应以本轮三视角裁决为准生效,发布门禁不应凭导出时的旧状态放行改动文本。",
+          "fix": "确认发布流水线以 r26 三视角结论为该条目的现行审查依据;若工具链按 reviewStatus 字段判定,先将其与卡片层一并置回 draft 再依本轮结论升级。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "腋生的下垂总状花序长 10–20 厘米",
+          "problem": "[可选] 清单项 4 受众适配:“腋生”无简释。",
+          "fix": "改为“从叶腋长出、向下垂挂的总状花序长 10–20 厘米”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "对多种蜂都是良好的蜜源;田间观测显示,泌蜜多在中午前后最旺。",
+          "problem": "[已解决] r24 fail 已修复:全称判断“各类蜂都”改为“多种蜂”,泌蜜时段加上“田间观测显示”限定,与花蕊条目(据印度的田间观测)口径一致,不再是无限定的普遍规律。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "印度的罩网试验显示,加蜂群授粉比开放授粉增产约两到三成",
+          "problem": "[可选] 清单项 4 受众适配:研究归属已写明(合格),但“罩网试验”“开放授粉”未简释,中小学生不易想象试验做法。",
+          "fix": "改为“印度的对照试验显示(把一部分花盘罩起来不让昆虫进),加蜂群授粉比自然放开授粉增产约两到三成”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "中国东部 7–9 月开花,中欧 7–9 月,北美温带在夏季到初秋。",
+          "problem": "[可选] 清单项 6 一致性:前两地给月份、北美给季节,而花卡三地都写 7–9 月。",
+          "fix": "改为“中国东部、中欧与北美温带都在 7–9 月开花”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "高丛蓝莓是四倍体植物",
+          "problem": "[可选] 清单项 4 受众适配:“四倍体”仍无简释,且与后半句(异花授粉更好)的关系读者看不出来(上轮建议未采纳)。",
+          "fix": "改为“高丛蓝莓的染色体有四套(四倍体)”,或删去“四倍体”一词。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂不会振动授粉,但仍是果园常用的管理传粉者",
+          "problem": "[可选] 清单项 4 受众适配:“管理传粉者”是行业术语(上轮在关系条目里提过同样问题)。",
+          "fix": "改为“蜜蜂不会振动授粉,但果园仍常租用蜜蜂蜂群来授粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "但要先用体重把翼瓣和龙骨瓣压下去",
+          "problem": "[可选] 清单项 4 受众适配:“翼瓣”“龙骨瓣”只在刺槐条目解释过,单看本条推不出位置(上轮建议未采纳)。",
+          "fix": "改为“但要先用体重把两侧的翼瓣和下方的龙骨瓣压下去”。"
+        },
+        {
+          "claim": "白车轴草基本自交不亲和,种子生产依赖蜂类传粉",
+          "problem": "[可选] 清单项 4:“自交不亲和”可由后半句大致推断,加半句更稳(上轮建议未采纳)。",
+          "fix": "改为“白车轴草基本不能用自己的花粉结出种子(自交不亲和)”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "薰衣草几乎完全依赖昆虫传粉;观察到的访花者几乎都是蜂类",
+          "problem": "[可选] 清单项 1:由一项保加利亚试验推到全称结论,前半句已交代试验,建议把结论也限定在“这项试验中”。",
+          "fix": "改为“——在这项试验里,薰衣草几乎完全依赖昆虫传粉,观察到的访花者几乎都是蜂类”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花期在夏季:不同地区的资料从 6 月到 9 月不一。",
+          "problem": "[可选] 清单项 6 一致性:花卡两地域现统一为 6–8 月,本条仍说“6 月到 9 月不一”,读者对照仍差一口气(上轮建议未采纳)。",
+          "fix": "句末补“本馆按 6–8 月计”。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "能结籽的也不到 1%——苜蓿留种必须有传粉者",
+          "problem": "[可选] 清单项 1:具体百分数未注明出处;“必须”偏绝对(上轮建议未采纳;sourceIds 中的 USDA 资料若支持,建议点名)。",
+          "fix": "改为“据美国农业部资料,能结籽的通常不到 1%——苜蓿留种离不开传粉者”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它拿走了花蜜,却几乎不带走花粉、不传粉",
+          "problem": "[可选] 清单项 1 / 清单项 6:“几乎”的辖域不清,末尾“不传粉”单看是绝对表述,与关系 rel-mellifera-alfalfa-na-summer 的“几乎不传粉”口径有微差(r24 建议未采纳,不阻塞)。",
+          "fix": "改为“却几乎不带走花粉、也几乎不传粉”。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条把油菜列为蜜蜂最重要的蜜粉源作物之一",
+          "problem": "[可选] 清单项 4:“饲料作物”已改(合格);“词条”仍未说明是哪部词典(上轮建议未采纳)。",
+          "fix": "改为“维基百科词条把油菜列为蜜蜂最重要的蜜粉源作物之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "另有以中蜂为试验蜂种的油菜蜂蜜研究",
+          "problem": "[可选] 清单项 4 / 清单项 6:同一句里先叫“东方蜜蜂”后叫“中蜂”,读者不一定知道是同一类蜂。",
+          "fix": "改为“另有以中华蜜蜂(中蜂,东方蜜蜂的亚种)为试验蜂种的油菜蜂蜜研究”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者",
+          "problem": "[可选] 清单项 2:后半句是英国记载,主证据(德国研究)已在中欧,可接受;建议注明。",
+          "fix": "改为“英国(邻近地区)的田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刺槐是美国东部的主要蜜源树种。",
+          "problem": "[可选] 清单项 1:“主要”写成定论,USDA 资料的口径是“重要蜜源植物”。",
+          "fix": "改为“刺槐是美国东部重要的蜜源树种之一”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-locust-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "间接证明中蜂采集刺槐花蜜;未见访花行为学的专门研究",
+          "problem": "[可选] 清单项 4:“中蜂”与“东方蜜蜂”混用;“访花行为学”偏术语。",
+          "fix": "改为“间接证明东方蜜蜂(中蜂)会采刺槐花蜜;没有找到专门观察它访花行为的研究”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "综述性表述:向日葵对各类蜂都是良好的蜜粉源;非中国的专门记载。",
+          "problem": "[可选] 清单项 3 / 清单项 1:“综述性表述”是审稿用语;“各类蜂都”绝对化。",
+          "fix": "改为“综述资料称向日葵对多种蜂都是良好的蜜粉源;没有找到中国东部的专门记载”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "编辑整理:依据是美国加州制种田的研究……本地域(美国东北部与中西部)未见专门记载。",
+          "problem": "[已解决] r24 可选问题已处理:无来源的“中西部大平原是主产区”一句已删,理由写明;“本地域(美国东北部与中西部)”与地域卡定义(五大湖、新英格兰与中西部)一致。剩余润色:“制种田”仍无简释(可选)。",
+          "fix": "可写作“培育杂交种子的制种田”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "直接记载来自印度的东方蜜蜂亚种(A. cerana indica)研究",
+          "problem": "[可选] 清单项 4:“亚种”对中小学生可加一词说明。",
+          "fix": "改为“直接记载来自印度的研究,研究对象是东方蜜蜂在印度的亚种(A. cerana indica,和中国的中蜂是同种的不同地方类型)”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂是蓝莓园常租用的管理传粉者",
+          "problem": "[可选] 清单项 4:“管理传粉者”是行业术语。",
+          "fix": "改为“蓝莓园常租蜜蜂蜂群来授粉”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+          "problem": "[已解决] r24 fail 已修复:内部待办批注“待人工确认”清零,改为读者口吻的诚实交代;三条同研究关系核心措辞已统一。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+          "problem": "[已解决] r24 fail 已修复:内部批注清零,与另两条同研究关系措辞统一。",
+          "fix": "无需进一步修改。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "(论文未注明试验地点,本馆未能核实是否在中国,仅供参考)",
+          "problem": "[已解决] r24 fail 已修复:内部批注清零,核心措辞与另两条统一(置于括注内不影响一致性)。括注偏长,但读者可懂,不阻塞。",
+          "fix": "无需进一步修改;如求更顺,可把括注移到句末与另两条完全同构。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "evidence: editorial;note: 编辑整理:……德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用(泛指熊蜂属);点名到欧洲熊蜂管理蜂群的研究记载来自智利等地。",
+          "problem": "[已解决] r24 fail 已修复:evidence 已降为 editorial,note 加“编辑整理:”前缀并写明理由(本地域来源未点名到种、点名到种的研究在智利),与同构的 rel-bombus-clover-ce-summer 口径一致。剩余润色:“点名到欧洲熊蜂管理蜂群的研究记载”语序稍拗口(可选)。",
+          "fix": "可改为“把欧洲熊蜂作为授粉蜂群使用的研究记载来自智利等地”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-osmia-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "美国 SARE 项目报告",
+          "problem": "[可选] 清单项 4:缩写未展开。",
+          "fix": "改为“美国 SARE(可持续农业研究与教育计划)的项目报告”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条称蜜蜂常访",
+          "problem": "[可选] 清单项 4:“词条”未说明出处。",
+          "fix": "改为“维基百科词条称蜜蜂常访”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条为一般性记载(主要蜜源、蜜蜂常访),非中国的专门研究",
+          "problem": "[可选] 清单项 3:“一般性记载”“专门研究”是审稿口吻。",
+          "fix": "改为“维基百科词条称白车轴草是主要蜜源、蜜蜂常访(非针对中国的记载);白车轴草在中国广泛种植并半自生,5–10 月开花”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂(terrestris/lucorum 复合组)占多数",
+          "problem": "[可选] 清单项 4 受众适配:“复合组”加纯拉丁名对中小学生完全不可懂;好在略过括注不影响主句意思。",
+          "fix": "改为“熊蜂占多数(主要是与欧洲熊蜂外形难以区分的一组近缘种)”。"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-lavender-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "仅有爱好者网站记录紫木蜂访薰衣草,未见学术来源。",
+          "problem": "清单项 2 来源诚实:唯一来源是被来源表标为“低权威”的爱好者网站,馆内规则是“关系只收录有来源的记载”;note 已如实交代,标 editorial 也正确,但一条只有爱好者网站支撑的关系是否适合展出,拿不准。",
+          "fix": "二选一:(a) 补一条学术或机构来源(如保加利亚薰衣草访花者名录中是否含木蜂),否则删除本条;(b) 保留,note 改为读者能懂的说法:“编辑整理:目前只有蜜蜂爱好者网站的观察记录到紫木蜂访薰衣草,没有找到学术来源,仅作参考。”"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-handoff",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "所以一岁以下的婴儿不能喂食蜂蜜。",
+          "problem": "[可选] 安全提示的年龄界限(一岁以下)与理由(可能含休眠的肉毒杆菌芽孢)均准确,\"可能有\"留了余地、语气不吓人,合规;唯句式\"婴儿不能喂食蜂蜜\"的施动者略含混,严格读可解成\"婴儿不能拿蜂蜜喂别人\"。",
+          "suggestion": "[可选] 改为\"所以不要给一岁以下的婴儿喂食蜂蜜\",施动方向更清楚。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-sunflower",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "浅黄,葡萄糖比例高,结晶快。",
+          "problem": "[可选] 风味一项既未描述也未标注\"未找到\";另外两项所挂来源(PMC 蜂类营养综述、Monofloral honey 词条)是否逐条覆盖\"浅黄\"\"结晶快\",需事实核查确认。",
+          "suggestion": "[可选] 风味若无来源,按蓝莓卡口径补一句\"其风味,本馆尚未找到足以展出的资料\"。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-blueberry",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+          "problem": "[可选] \"未找到\"口径用得规范,是全组示范;仅结晶一项未提及。",
+          "suggestion": "[可选] 若结晶亦无资料,可写作\"它的色泽、结晶与风味……\"一并覆盖。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-lavender",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "色淡黄;\"薰衣草蜜\"主产于地中海周边。",
+          "problem": "[可选] 结晶与风味两项既未描述也未按馆方口径标注\"未找到\";且\"主产于地中海周边\"与 regionNote(\"地中海周边薰衣草产区\")完全重复,traits 字段应专职感官描述。",
+          "suggestion": "[可选] traits 改为\"色淡黄;其结晶与风味,本馆尚未找到足以展出的资料\",产地一句删去交由 regionNote 承担。另请事实核查确认\"色淡黄\"在所挂来源中确有出处。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

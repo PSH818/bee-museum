@@ -1,0 +1,19 @@
+{
+  "lens": "refutation",
+  "round": 17,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": [],
+      "notes": [
+        "「出房后第 3–12 天」:Wikipedia Worker bee 给出 Nurse bees days 3–12;其他资料为 3–11 或 4–12,区间已覆盖主流数值(https://en.wikipedia.org/wiki/Worker_bee;https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/polyethism)。span.from=23 与 21+3=24 相差一天,属口径差异。",
+        "「工蜂浆与蜂王浆来自同一类腺体」:Wikipedia Worker bee 原文 'worker jelly, which is secreted from glands that produce royal jelly';咽下腺(+上颚腺)分泌,成立。工蜂幼虫第 3 天起上颚腺成分减少并掺入花粉蜜,但文中已用「同一类腺体」而非「相同配方」,限定恰当(https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/;https://en.wikipedia.org/wiki/Royal_jelly)。",
+        "「约出房后第 7–11 天照料蜂王」:Wikipedia Worker bee 给出 Queen attendants days 7–11,且已加「约」(https://en.wikipedia.org/wiki/Worker_bee)。",
+        "「约 6 天的幼虫期、体重增长极快」:工蜂幼虫约第 3 天孵化、约第 8–9 天封盖,幼虫期约 5.5–6 天;文献记载幼虫期体重增长约 1000–1500 倍,「极快」不夸大(https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/;https://beeculture.com/a-closer-look-14/)。",
+        "建议(非错误):related 仅关联「口器」,哺育行为的核心器官是咽下腺,若器官库中有对应条目可补充关联。"
+      ]
+    }
+  ]
+}

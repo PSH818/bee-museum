@@ -1,0 +1,410 @@
+{
+  "lens": "fact-check",
+  "round": 24,
+  "reviewedAt": "2026-08-31T09:35:00.000Z",
+  "sourceAccess": [
+    { "sourceId": "src-dewiki-raps", "url": "https://de.wikipedia.org/wiki/Raps", "fetched": true, "note": "本轮两次抓取成功。'Blühdauer eines Exemplars etwa drei bis fünf Wochen';'eine einzelne Blüte ist aber bereits nach ein bis zwei Tagen verblüht';'produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg';Aussaat Winterraps 'zweite Augusthälfte ... erste Septemberwoche'。重要:定向复查确认词条全篇无蜜腺(Nektarien)位置记载(NECTARY-LOCATION-ABSENT)。" },
+    { "sourceId": "src-wikipedia-clover", "url": "https://en.wikipedia.org/wiki/Clover", "fetched": true, "note": "抓取成功。'The flowers are white or pinkish, becoming brown and deflexed as the corolla fades.'(指白车轴草)" },
+    { "sourceId": "src-gobotany-vaco", "url": "https://gobotany.nativeplanttrust.org/species/vaccinium/corymbosum/", "fetched": true, "note": "抓取成功。'the flowers appear at the same time as the leaves'。页面不给具体花期月份。" },
+    { "sourceId": "src-nz-2018-clover-bombus", "url": "https://doi.org/10.1080/01140671.2018.1466341", "fetched": true, "note": "T&F 正文未抓;摘要经 Crossref API 获取成功。'Apis mellifera ... are normally placed within fields';'B. terrestris were considered a more efficient pollinator than A. mellifera moving faster between florets but were less effective due to low abundances';研究对象为新西兰白车轴草种子田。" },
+    { "sourceId": "src-ncsu-lavandula", "url": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/", "fetched": true, "note": "抓取成功。'Flower Bloom Time: Summer','It blooms in the summer';Pollinator Garden / Attracts Pollinators 标签。只有'夏季'粒度,无具体月份。" },
+    { "sourceId": "src-msu-blueberry-pollination", "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf", "fetched": true, "note": "PDF 本轮重新抓取并本地解析。'Most common cultivars of northern highbush can be well pollinated by their own pollen ... Others benefit greatly from cross-pollination';'Pollination increases fruit set, berry size, and allows for earlier ripening';'Carpenter bees often cut a slit in the side of blueberry flowers ... allowing honey bees to do the same in later visits. Nectar robbing bees still transfer some pollen ... can contribute to rather than take away from total pollination; however, when nectar robbing by honey bees begins to approach half of all honey bee visits, blueberry seed and fruit set are reduced.'" },
+    { "sourceId": "src-dewiki-sonnenblume", "url": "https://de.wikipedia.org/wiki/Sonnenblume", "fetched": true, "note": "抓取成功。'Der Nektar hat zur Zeit der Hauptproduktion zwischen 10 und 14 Uhr auch den höchsten Zuckergehalt von 35 %'(泌蜜主产时段即10–14时,支持'中午前后最旺');'Die Blütezeit reicht von Ende Juni/Juli bis September'。词条无'对蜂是良好蜜源'的一般性表述。" },
+    { "sourceId": "src-wikipedia-monofloral-honey", "url": "https://en.wikipedia.org/wiki/Monofloral_honey", "fetched": true, "note": "本轮复查:向日葵单花蜜产地明确列 'France, Italy and Spain';薰衣草蜜 'Produced mainly in France, Italy and Spain'。" },
+    { "sourceId": "src-greenleaf-2006-sunflower", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/", "fetched": true, "note": "本轮复查:论文称美国90%杂交向日葵种子产自加州北部中央谷地;全篇不含大平原/中西部为主产区的表述。" },
+    { "sourceId": "src-wikipedia-alfalfa", "url": "https://en.wikipedia.org/wiki/Alfalfa", "fetched": true, "note": "本轮复查切叶蜂段落全文:'is increasingly used to circumvent these problems ... is a very efficient pollinator of alfalfa flowers'。无'每次/大多访花弹开'的频次表述。" },
+    { "sourceId": "src-mcgregor-1976-alfalfa", "url": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html", "fetched": true, "note": "本轮定向复查:NO-RATE-STATEMENT——无切叶蜂/碱蜂逐次弹花率;最接近表述为 'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa.'" },
+    { "sourceId": "src-kozuharova-2022-lavender", "url": "https://biorisk.pensoft.net/article/77364/", "fetched": true, "note": "本轮经 Pensoft PDF 获取全文并本地解析。Tables 1–2 明确列 'Bombus terrestris/lucorum complex';两个样地熊蜂访花均占优、蜜蜂次之;'According to lavender essential oil producers, the greatest quantity of oil is obtained near the end of the inflorescence anthesis and the oil quantity correlates with the pollination as unpollinated flowers drop down (... personal communication)'——确系生产者经验而非对照研究;隔离结实0%(N=683) vs 对照85.9%;观察于2020年6–7月(植物园)与7月(种植园)。" },
+    { "sourceId": "src-balfour-2013-lavender", "url": "https://doi.org/10.1111/een.12019", "fetched": true, "note": "Crossref 摘要本轮复查:研究材料明确为 'Lavandula × intermedia Grosso';熊蜂92% vs 蜜蜂8%。" },
+    { "sourceId": "src-sussex-lavender-2013", "url": "https://archive.sussex.ac.uk/broadcast/read/19067", "fetched": true, "note": "本轮复查:正文含 1.1–1.4 秒 vs 3.5 秒;图片说明 'Honey bee on lavender Grosso'(正文未点名品种,品种名以 Balfour 摘要为准)。" }
+  ],
+  "verdicts": [
+    {
+      "key": "region:region-central-europe",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "西部(德国大部)受大西洋暖流调节,属海洋性温带气候;越往东大陆性越强", "result": "支持", "evidence": "Geography of Germany(r23 抓取): 'temperate and marine in the west and humid continental in the east';Europe: 暖流调节、离海越远大陆性越强。'德国大部'为对'西部海洋性'的合理概括,与 Humid continental 词条'德国东部/东南部为 Dfb'相容。" },
+        { "claim": "波兰、捷克等地渐变为暖夏型湿润大陆性气候,四季分明", "result": "支持", "evidence": "Humid continental climate(r23 抓取): Dfb 'found in much of Central Europe: Germany (in the east and southeast ...), Austria, Poland, Czech Republic ...';'four distinct seasons'。" },
+        { "claim": "季节口径春3–5月、夏6–8月", "result": "支持", "evidence": "Season(r23 抓取): 气象学四季 3月1日/6月1日起。" }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "花蜜藏在花的基部", "problem": "r23 issue 部分未修复:本轮已补引 de:Raps,但定向复查确认 de:Raps 全篇无蜜腺位置记载;en:Rapeseed、FRPS、Honigmacher 亦经 r23 确认无此内容。蜜腺位于花基部是真实的植物学事实(十字花科蜜腺在雄蕊基部),但在本轮来源表内核不到。", "fix": "补引记载十字花科/油菜蜜腺位置的来源(植物形态学教材、FoC 科级描述等),或改写为'花蜜位置浅、花朵开放,几乎所有蜂都够得着'而不定位蜜腺。", "evidence": "de:Raps 本轮抓取:NECTARY-LOCATION-ABSENT;en:Rapeseed(r23): 'does not specify where nectaries are positioned'。" }
+      ],
+      "checkedClaims": [
+        { "claim": "一株通常能开三到五周", "result": "支持(r23 issue 已修复:de:Raps 已补入来源表并引于本卡)", "evidence": "de:Raps: 'Witterungsabhängig beträgt die Blühdauer eines Exemplars etwa drei bis fünf Wochen'。" },
+        { "claim": "重要大宗蜜源、最重要的蜜粉源作物之一;单花蜜白至乳黄、微辛、结晶极快;花粉丰富饱黄", "result": "支持", "evidence": "en:Rapeseed: 'high melliferous potential ... main forage crop for honeybees'、单花蜜描述;Honigmacher: 'sehr reiches Pollenangebot','satt gelb'(均 r23 已核)。" },
+        { "claim": "中国东部3–4月、中欧4–6月;十字四瓣、总状自下而上", "result": "支持", "evidence": "FRPS '花期3-4月';Honigmacher '2. Hälfte April bis Anfang Juni';en:Rapeseed 十字四瓣、总状自下而上(r23 已核)。" },
+        { "claim": "甘蓝型油菜与菜市场小油菜非同一种", "result": "支持(Brassica napus 与 B. rapa/chinensis 之别,en:Rapeseed 词条口径,通俗化不相悖)", "evidence": "en:Rapeseed 词条学名与近缘种关系。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "蜜腺在花的基部,没有深的花冠管——这是一朵向所有蜂开放的花", "problem": "同卡片层:已补引 de:Raps,但 de:Raps 经本轮定向复查无蜜腺位置记载;本条所引 en:Rapeseed、FRPS、Zou 2017 亦无(r23 已核)。蜜腺位置断言仍无来源。", "fix": "补引形态学来源,或删'蜜腺在花的基部'保留'没有深的花冠管、访花者种类很广'。", "evidence": "de:Raps 本轮抓取:NECTARY-LOCATION-ABSENT。" }
+      ],
+      "checkedClaims": [
+        { "claim": "花瓣四枚鲜黄十字形,与四枚萼片交错;直径约10–17毫米(不同资料略有差异)", "result": "支持", "evidence": "en:Rapeseed 'about 17 millimetres across'、十字四瓣;FRPS '花直径10-15毫米'(r23 已核)。" },
+        { "claim": "自交亲和;中国小农油菜田研究显示蜂类传粉提高结实率与产量", "result": "支持", "evidence": "en:Rapeseed 'self-compatible';Zou 2017 排除传粉者结实率降38%、单株产量降12%(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "花蜜由花基部的蜜腺分泌", "problem": "蜜腺位置断言在本条所引 Honigmacher、de:Raps、Harris 2024 中均核不到(de:Raps 本轮定向复查确认无)。", "fix": "同花冠条目:补引形态学来源或删去位置表述,改为'花蜜分泌丰富'(Honigmacher 口径)。", "evidence": "de:Raps 本轮抓取:NECTARY-LOCATION-ABSENT;Honigmacher(r23):仅定性'sehr reichhaltiges Nektarangebot'。" }
+      ],
+      "checkedClaims": [
+        { "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间", "result": "支持(r23 issue 已修复:de:Raps 已补引,指称与来源一致)", "evidence": "de:Raps: 'eine Rapsblüte produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg'。'零点几到两毫克'为区间的如实弱化。" },
+        { "claim": "花粉量大、饱黄色", "result": "支持", "evidence": "Honigmacher: 'sehr reiches Pollenangebot','satt gelb'(r23 已核)。" },
+        { "claim": "英国田间研究:大部分花蜜没有被昆虫采走", "result": "支持", "evidence": "Harris 2024: 'Most of the nectar (69%) ... was uncollected'(r23 已核)。" },
+        { "claim": "雄蕊围着花柱排成一圈", "result": "无法核对(所引来源无雄蕊排列描述;十字花科四强雄蕊的通俗化,不相悖;与 r23 结论一致)", "evidence": "en:Rapeseed、FRPS、de:Raps 抓取文本均无。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "一株通常能开三到五周;单朵花通常只开一两天", "result": "支持(r23 两项 issue 均已修复:de:Raps 补引、src-dewiki-sonnenblume 已从本条移除)", "evidence": "de:Raps: 'Blühdauer eines Exemplars etwa drei bis fünf Wochen';'eine einzelne Blüte ist aber bereits nach ein bis zwei Tagen verblüht'(本轮逐字核对)。" },
+        { "claim": "总状花序从下往上依次开放", "result": "支持", "evidence": "en:Rapeseed: 'indeterminate racemose flowering starting at the lowest bud and growing upward'(r23 已核)。" },
+        { "claim": "冬油菜秋播、早春开花:中国东部3–4月,中欧4月下半到6月初", "result": "部分支持(花期两项均有来源;'秋播'与 de:Raps 播种期记载方向一致:德国冬油菜8月下半至9月初播种,属夏末秋初,通俗'秋播'不相悖)", "evidence": "FRPS '花期3-4月';Honigmacher '2. Hälfte April bis Anfang Juni';de:Raps: 'In Deutschland wird bei Winterraps ein Saattermin in der zweiten Augusthälfte angestrebt. Eine Aussaat bis in die erste Septemberwoche ist möglich.'(本轮核对)" }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "北美温带花期 from:4(4月起)", "problem": "r23 issue 未修复:卡片 sourceIds 仍无 src-usda-robinia('late April to mid-June'),所引 en:Robinia 只有 'open in May or June';4月起在本卡所引来源中核不到。", "fix": "把 src-usda-robinia 补入卡片 sourceIds,或将北美 from 改为 5。", "evidence": "卡片 sourceIds: en/zh 维基、FRPS、de:Robinie、Monofloral honey;en:Robinia: 'open in May or June'(r23 已核)。" }
+      ],
+      "checkedClaims": [
+        { "claim": "花蜜量大、含糖高", "result": "支持(r23 issue 已修复:src-dewiki-robinie 已补入卡片 sourceIds)", "evidence": "de:Robinie: 'liefern viel Nektar mit einem hohen Zuckeranteil zwischen 34 und 59 Prozent'(r23 已核)。" },
+        { "claim": "洋槐蜜水白近无色、清淡、果糖高、长期液态不易结晶;一株只开七到十天;三大地区举足轻重蜜源;槐花蜜指洋槐非国槐;中国4–6月、中欧5–6月", "result": "支持", "evidence": "Monofloral honey、en:Robinia '7–10 days'、zh:刺槐、FRPS '花期4-6月'、de:Robinie 'Mai bis Juni'(均 r23 已核)。" },
+        { "claim": "花粉的产量和营养价值目前没有可靠的公开数据", "result": "支持(如实声明,r23 已核对 en/de 维基、FRPS、USDA 均无花粉定量;此类诚实表述不构成 uncertain)", "evidence": "r23 sourceAccess 记录。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "蝶形花构造、宽约2.5厘米、乳白带淡黄斑;雌雄隔开通常不自花授粉;依赖昆虫(主要是蜂类)", "result": "支持(r23 已核,本轮文本无实质改动)", "evidence": "en:Robinia: 'about 2.5 cm wide'、'self-pollination will not typically occur'、膜翅目传粉。" },
+        { "claim": "原产美国东部,17世纪传入欧洲,后经欧洲传入中国,青岛一带最早成片栽植;华北平原与黄淮流域广泛造林", "result": "支持(删去'18世纪末'后与 FRPS 更宽容一致)", "evidence": "FRPS: '原产美国东部,17世纪传入欧洲及非洲。我国于18世纪末从欧洲引入青岛栽培';'华北平原的黄淮流域有较多的成片造林'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "花蜜含糖约34–59%", "result": "支持", "evidence": "de:Robinie: 'Zuckeranteil zwischen 34 und 59 Prozent'(r23 已核,本条已引)。" },
+        { "claim": "据德文维基百科引用的养蜂资料估算,一株成年树一个花季的花蜜可酿接近1公斤蜂蜜", "result": "支持(0.66–1.44kg 区间的合理概括,出处限定语明确)", "evidence": "de:Robinie: 'Honigerträge zwischen 0,66 und 1,44 Kilogramm' je Baum und Blühsaison(r23 已核)。" },
+        { "claim": "果糖高→长期液态不易结晶('一般认为'限定);花粉无可靠公开数据", "result": "支持", "evidence": "Monofloral honey: 'lasts as a liquid due to being high in fructose';花粉定量各来源均无(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "泌蜜在中午前后最旺", "result": "支持(r23 issue 已修复:src-dewiki-sonnenblume 已补入卡片)", "evidence": "de:Sonnenblume(本轮核对): 'Der Nektar hat zur Zeit der Hauptproduktion zwischen 10 und 14 Uhr auch den höchsten Zuckergehalt'——泌蜜主产时段即10–14时。" },
+        { "claim": "花粉量大,但蛋白含量偏低", "result": "支持(r23 issue 已修复:src-pmc-sunflower-nutrition 已补入卡片)", "evidence": "PMC12078318: 'the crude protein content falls on the lower scale'(r23 已核)。" },
+        { "claim": "中国东部/中欧/北美温带均7–9月", "result": "支持(r23 issue 已修复:dewiki 与 NCSU 已补入卡片)", "evidence": "FRPS '花期7-9月';de:Sonnenblume 'Ende Juni/Juli bis September';NCSU 'July to October'(7–9为交集口径)。" },
+        { "claim": "对各类蜂都是良好的蜜源", "result": "部分支持(NCSU 蜜源植物/招引蜂类标签、Monofloral honey 向日葵单花蜜、PMC 蜜粉资源综述可支撑'良好蜜源';'各类蜂'的直接出处 Raja 2025 引 Goulson 未引于本卡)", "evidence": "NCSU 蜜源/传粉者标签(r23 已核);Monofloral honey 向日葵蜜条目。" },
+        { "claim": "头状花序:舌状花不结实、管状花结籽、螺旋排列;单花蜜浅黄、葡萄糖高、结晶快", "result": "支持", "evidence": "en:Helianthus annuus、FRPS、Monofloral honey(r23 已核)。" }
+      ],
+      "fix": "可选:把 src-raja-2025-sunflower 补入卡片 sourceIds,使'对各类蜂都是良好的蜜源'落到直接出处;或弱化为'重要蜜源'。"
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r23 issue 复查:'从外圈向中心依次开放'已删除", "result": "已修复(本轮文本无该句)", "evidence": "r24 description 仅余舌状花/管状花分工与花盘直径。" },
+        { "claim": "外圈舌状花不育只负责招引;中央管状花两性、五裂;花盘野生型约7–12厘米、栽培种10–30厘米;幼盘随日、熟后朝东", "result": "支持", "evidence": "en:Helianthus annuus(7.5–12.5cm、五裂、舌状花不育、朝东);FRPS('径约10-30厘米','舌状花...不结实')(均 r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r23 fail 复查:'结实率一两成提高到九成'已删,改为'印度的罩网试验显示,加蜂群授粉比开放授粉增产约两到三成'", "result": "支持(与来源实测一致;33.82%严格说略高于三成,'约'字下可接受)", "evidence": "Raja 2025: 'The yield increase over open pollination was 33.82% in A. mellifera pollination and 20.23% in A. cerana indica pollination.'(r23 已全文检索)" },
+        { "claim": "r23 fail 复查:'(约35%)'已删;'现代油用品种多能自交'已删", "result": "已修复", "evidence": "r24 文本仅余'泌蜜在中午前后最旺'与'野生向日葵自交不亲和'。" },
+        { "claim": "花粉多在上午8–10时散出;泌蜜中午前后最旺", "result": "支持", "evidence": "Raja 2025: 'pollen dehiscence occurs during forenoon (8.00 AM to 10.00 AM)';'nectar secretion peaks between 12.00 and 2.00 PM'(r23 已核)。" },
+        { "claim": "野生向日葵不能用自己的花粉结实(自交不亲和),高度依赖昆虫传粉", "result": "部分支持(Raja: 'Sunflower is highly self-incompatible in nature, and depends on pollinating agents';来源未区分野生/栽培,现文限定'野生'更保守,不相悖)", "evidence": "Raja 2025 原句(r23 已核)。" },
+        { "claim": "花粉量大,但蛋白含量偏低", "result": "支持", "evidence": "PMC12078318(本条已引,r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "summary:'每次访花都接触花药和柱头的壁蜂'", "problem": "该记载出自 SARE 报告('they usually contact the flowers' anthers and stigmas on every visit'),而 src-sare-osmia-blueberry 未列入本卡 sourceIds;且文案丢掉了来源的'usually'(通常),把带限定的观察绝对化为'每次'。", "fix": "把 src-sare-osmia-blueberry 补入卡片 sourceIds,并改为'通常每次访花都会接触花药和柱头的壁蜂'。", "evidence": "SARE ONE05-049(r23 已核): 'usually contact the flowers' anthers and stigmas on every visit'。" }
+      ],
+      "checkedClaims": [
+        { "claim": "蜜腺在花萼基部", "result": "支持(r23 issue 已修复:src-dewiki-kulturheidelbeere 已补入卡片)", "evidence": "de:Kulturheidelbeere: 'Am Grund des Kelches liegen die Nektar produzierenden Nektarien'(r23 已核)。" },
+        { "claim": "中国东部4–5月(农技资料)、中欧5月", "result": "支持(r23 issue 已修复:cnhnb 与 dewiki 已补入卡片;cnhnb 的非权威性质已在来源表标注)", "evidence": "cnhnb: '花期一般在4-5月份';de:Kulturheidelbeere: 主花期'in den ersten beiden Maiwochen'(r23 已核)。北美5–6月在 USDA (2月-)3–6月范围内。" },
+        { "claim": "钟铃状白至淡粉倒挂成串;孔裂花药、花粉靠振动;熊蜂等振动授粉者重要;可产蓝莓蜜", "result": "支持", "evidence": "en:VACO、Buzz pollination、USDA、Monofloral honey(均 r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "花冠钟形至坛状、五瓣合生、白至浅粉、长约6–12毫米、口朝下;每簇约8–10朵", "result": "支持('长约'的量纲表述与来源一致,r23 的量纲口径建议已被采纳)", "evidence": "USDA: 'Flowers 8-10 in a cluster, 6-12 mm long, urn-shaped, white, with 5 petals';en:VACO 8.5mm(r23 已核)。" },
+        { "claim": "四倍体;多数栽培品种用自己的花粉也能结果,但异花授粉常能让果实更大、成熟更早", "result": "支持(本轮逐字核对 MSU;en 维基'不自花授粉'与 MSU/USDA 的分歧已通过'多数栽培品种…但…'的折中表述处理,与所引 MSU/USDA 不相悖)", "evidence": "MSU(本轮): 'Most common cultivars of northern highbush can be well pollinated by their own pollen ... Others benefit greatly from cross-pollination';'Pollination increases fruit set, berry size, and allows for earlier ripening';USDA: 'cross-pollination increases fruit set ... larger, earlier berries';en:VACO: 'tetraploid'。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r23 fail 复查:改为'有的木蜂会在花筒侧面咬个缝直接取蜜,蜜蜂随后也从这些现成的缝里取蜜'", "result": "支持(已按来源把咬缝者限定为木蜂、蜜蜂为后续利用者,r23 事实错误已修复)", "evidence": "MSU(本轮逐字): 'Carpenter bees often cut a slit in the side of blueberry flowers in order to access the nectar, allowing honey bees to do the same in later visits.'" },
+        { "claim": "盗蜜的蜂也会带走一些花粉,少量盗蜜通常不影响坐果(密歇根州立大学资料)", "result": "支持", "evidence": "MSU(本轮逐字): 'Nectar robbing bees still transfer some pollen between flowers, meaning that this practice can contribute to rather than take away from total pollination; however, when nectar robbing by honey bees begins to approach half of all honey bee visits, blueberry seed and fruit set are reduced.'" },
+        { "claim": "孔裂花药、振动授粉;蜜蜂不会振动授粉但仍是常用管理传粉者", "result": "支持", "evidence": "Buzz pollination: 'Honeybees cannot perform buzz pollination';MSU: 'commonly managed or rented'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "通常与展叶同时开放", "result": "支持(r23 issue 已修复:src-gobotany-vaco 已加入来源表并引于本条)", "evidence": "Go Botany(本轮抓取): 'the flowers appear at the same time as the leaves'。" },
+        { "claim": "中欧主花期多在5月前两周;美国东北部5–6月;中国北方栽培区大致4–5月(农技网站,仅供参考)", "result": "支持(限定语与来源性质一致)", "evidence": "de:Kulturheidelbeere、wildflower.org 'May, Jun'、cnhnb '花期一般在4-5月份'(均 r23 已核,均已引于本条)。" },
+        { "claim": "原产北美东部,是全球栽培蓝莓的主要来源", "result": "支持", "evidence": "en:VACO(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "中欧、北美温带花期5–10月", "result": "支持(r23 issue 已修复:src-dewiki-weissklee 与 src-mnwild-white-clover 已补入卡片 sourceIds)", "evidence": "de:Weißklee: 'Mai bis Oktober';mnwild: 'May - October';FRPS '花果期5-10月'(均 r23 已核)。" },
+        { "claim": "花粉营养价值良好(据德文维基百科)", "result": "支持(出处限定语与来源一致)", "evidence": "de:Weißklee: 'sehr gutem Nektar- und gutem Pollen-Trachtwert'(r23 已核,dewiki 已引于本卡)。" },
+        { "claim": "花蜜在雄蕊管基部、舌短的蜂也够得着;'三叶草蜜'常见单花蜜且'三叶草'泛指车轴草属几种牧草;'要用体重压开'", "result": "支持", "evidence": "BSBI 蜜位于雄蕊管基部短舌可及;Monofloral honey 'White clover ... is a major nectar source';de:Weißklee Klappmechanismus(均 r23 已核,来源均已引于本卡)。" },
+        { "claim": "几十朵蝶形小花挤成头状花序", "result": "支持", "evidence": "FRPS '具花20-50 (-80) 朵';BSBI '20-40 ... pea flowers'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "开过的小花会变褐下垂", "result": "支持(r23 issue 已修复:en:Clover 已加入来源表并引于本条)", "evidence": "en:Clover(本轮抓取): 'The flowers are white or pinkish, becoming brown and deflexed as the corolla fades.'" },
+        { "claim": "头状花序球形、直径15–40毫米、20–50朵(有时更多);小花蝶形、长约7–12毫米、白带粉或乳黄", "result": "支持", "evidence": "FRPS: '直径15-40毫米','具花20-50 (-80) 朵','花长7-12毫米;花冠白色、乳黄色或淡红色'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r23 issue 复查:'花萼只有3毫米左右'已删,改为'位置不深'", "result": "已修复(现表述与 BSBI 定性记载一致)", "evidence": "BSBI: 'Nectar is secreted between the base of the stamen tube and the ovary and is accessible to insects with quite a short proboscis'(r23 已核)。" },
+        { "claim": "新西兰的种子田通常会放进蜜蜂蜂群", "result": "支持(r23 issue 已修复:NZ 2018 已加入来源表并引于本条)", "evidence": "NZ 2018 摘要(本轮 Crossref 核对): 'Apis mellifera Linnaeus, 1758 are normally placed within fields'(新西兰白车轴草种子田)。" },
+        { "claim": "基本自交不亲和,种子生产依赖蜂类传粉;先用体重压开翼瓣和龙骨瓣", "result": "支持", "evidence": "BSBI 'basically self-incompatible';NZ 2018 'White clover seed crops require insects for pollination';de:Weißklee Klappmechanismus(r23 已核;压开机制的通俗化不相悖)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "7月前后最盛", "result": "支持(r23 issue 已修复:src-bsbi-white-clover 已补入本条 sourceIds)", "evidence": "BSBI: 'Flowering takes place from June to September peaking in July'(r23 已核)。" },
+        { "claim": "5–10月,中国东部、中欧与北美温带大致相同", "result": "支持", "evidence": "FRPS '花果期5-10月';de:Weißklee 'Mai bis Oktober';mnwild 'May - October'(均已引于本条,r23 已核)。" },
+        { "claim": "'三叶草蜜'是最常见单花蜜之一,主要来自白车轴草等几种车轴草属牧草", "result": "支持", "evidence": "Monofloral honey: 'White clover in particular is grown as a widespread blooming pasture crop and is a major nectar source in many parts of the world.'(r23 已核)" }
+      ]
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "中欧花期6–8月", "result": "部分支持(r23 建议的修复方式已被采纳:Kozuharova 已补入卡片,区间为保加利亚6–7月观察与英国 PFAF 7–9月的折中口径;中欧本地的直接月份记载仍缺,属编辑综合,不与所引来源相悖)", "evidence": "Kozuharova 全文(本轮): 植物园观察 'in June – July 2020'、种植园7月;PFAF: 'July to September'(r23 已核)。" },
+        { "claim": "北美温带花期6–8月", "result": "支持(r23 issue 已修复:src-ncsu-lavandula 已加入来源表并引于本卡;NCSU 'Summer' 与本馆夏季口径6–8月一致,月份为口径换算)", "evidence": "NCSU(本轮): 'Flower Bloom Time: Summer','It blooms in the summer'。" },
+        { "claim": "'薰衣草蜜'主产于地中海周边,色淡黄", "result": "支持(r23 issue 已修复:Monofloral honey 已补入卡片 sourceIds)", "evidence": "en:Lavandula: 'The flowers yield abundant nectar ... high-quality honey';Monofloral honey: lavender honey 'light yellow','Produced mainly in France, Italy and Spain'(本轮复查)。" },
+        { "claim": "轮伞花序叠成紫色花穗;二唇形管状花;花冠8–10毫米;舌长不同取蜜速度大不一样;花粉较丰富(据园艺植物数据库)", "result": "支持", "evidence": "FOC 'Corolla blue, 8-10 mm';Sussex/Balfour 取食速度;PFAF 'rich in nectar and pollen'(均 r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "英国在杂交薰衣草('Grosso')上的研究", "result": "支持(品种指称与来源一致)", "evidence": "Balfour 2013 摘要(本轮 Crossref 核对):研究材料为 'Lavandula × intermedia Grosso';Sussex 页图片说明 'Honey bee on lavender Grosso'。" },
+        { "claim": "熊蜂在一朵花上只停1.1–1.4秒,蜜蜂要3.5秒;差别主要来自舌的长短", "result": "支持", "evidence": "Sussex(本轮复查): 'Bumblebees spent 1.1-1.4 seconds per lavender flower, as opposed to the slower honey bee's 3.5 seconds per flower';Balfour 标题 'Longer tongues and swifter handling'。" },
+        { "claim": "二唇形花、花冠全长8–10毫米、花萼4–5毫米;花蜜在管底", "result": "支持", "evidence": "FOC: 'Corolla blue, 8-10 mm','Calyx ... 4-5 mm'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "生在细长无叶的花枝顶端", "result": "支持(r23 issue 已修复:src-wikipedia-lavandula-angustifolia 已补入本条 sourceIds)", "evidence": "en:L. angustifolia: 'at the top of slender, leafless stems'(r23 已核)。" },
+        { "claim": "据薰衣草油生产者的经验,没有授粉的花会提前脱落;精油产量与授粉的关系还有待研究证实", "result": "支持(归因准确:来源正文明确该说法出自生产者个人交流而非对照试验,现文的归因与保留恰与来源相符)", "evidence": "Kozuharova 全文(本轮): 'According to lavender essential oil producers, the greatest quantity of oil is obtained near the end of the inflorescence anthesis and the oil quantity correlates with the pollination as unpollinated flowers drop down (Pavlovi Food Industries Ltd. and S. Stanev, personal communication).'" },
+        { "claim": "6–10朵一轮、密集排成约3–5厘米顶生花穗;花期夏季、不同地区资料6–9月不一", "result": "支持", "evidence": "FOC: 'Verticillasters 6-10-flowered ... spikes ca. 3(-5) cm','Fl. Jun.';PFAF 'July to September'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "中欧6–7月、北美温带6–9月", "result": "支持(r23 issue 已修复:src-pfaf-medicago、src-mnwild-alfalfa 已补入卡片 sourceIds)", "evidence": "PFAF: 'in flower from June to July';mnwild: 'June - September';FOC 'Fl. May-Jul'(均 r23 已核)。" },
+        { "claim": "泌蜜量大;对蜜蜂而言是劣质花粉源,通常只在没有别的选择时才采", "result": "支持(r23 issue 已修复:src-mcgregor-1976-alfalfa 已补入卡片 sourceIds)", "evidence": "McGregor: 'produces a large amount of nectar';'Alfalfa is a poor source of pollen for honey bees. Usually they will collect it only when no other source is available.'(r23 已核)" },
+        { "claim": "弹花机制打在蜂头下方;蜜蜂多从花侧吸蜜避开;留种常靠切叶蜂这类不躲机关的蜂", "result": "部分支持(弹花与蜜蜂侧吸有来源;'不躲机关'为 en:Alfalfa '切叶蜂被用来 circumvent these problems、very efficient pollinator' 的合理转述,不相悖)", "evidence": "en:Alfalfa(本轮复查): 'trips and strikes pollinating bees on the head';'learn to avoid being struck ... drawing nectar from the side';'the alfalfa leafcutter bee ... is increasingly used to circumvent these problems ... a very efficient pollinator'。" },
+        { "claim": "苜蓿蜜白至特浅琥珀;美国西部最重要蜜源之一", "result": "支持", "evidence": "Monofloral honey(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r23 润色建议复查:'即使自行弹开(没有蜂经手),能结籽的也不到1%'", "result": "支持(语序已按建议修正,语义与来源精确对齐)", "evidence": "McGregor: 'In the field, less than 1 percent of the self-tripped flowers produce seed, and most nontripped flowers fail to do so.'(r23 已核)" },
+        { "claim": "蝶形花紫为主兼蓝黄乳白;龙骨瓣张力包裹雌雄蕊柱、弹出撞旗瓣(tripping);留种必须有传粉者", "result": "支持", "evidence": "en:Alfalfa、FOC、McGregor(均 r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "苜蓿切叶蜂不躲,访花时大多会弹开花朵", "problem": "r23 issue 部分修复:绝对化的'每次'已弱化为'大多',但'大多会弹开'仍是频次断言,本轮定向复查所引三来源(en:Alfalfa、Monofloral、McGregor)均无逐次/多数弹花的记载(McGregor: NO-RATE-STATEMENT;en:Alfalfa 切叶蜂段落只有 'very efficient pollinator')。文献中确有切叶蜂弹花率约八成的报道(如 Cane 2002),但不在来源表内。", "fix": "补引给出弹花率的文献(如 Cane 2002, J. Econ. Entomol.),或改为来源口径:'逐蜂效率远高于蜜蜂'(McGregor)/'效率约为蜜蜂的2–4倍'(IFAS)。", "evidence": "McGregor(本轮): 最接近为 'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees';en:Alfalfa(本轮): 切叶蜂段落无弹花频次。" }
+      ],
+      "checkedClaims": [
+        { "claim": "西方蜜蜂从花侧吸蜜避开弹击,拿走花蜜却几乎不带花粉、不传粉", "result": "支持", "evidence": "en:Alfalfa: 'The bees thus collect the nectar but carry no pollen, so they do not pollinate the next flower they visit.'(本轮复查)" },
+        { "claim": "切叶蜂被大量用于苜蓿种子生产;苜蓿对蜜蜂是好蜜源、差花粉源", "result": "支持", "evidence": "en:Alfalfa 'increasingly used';McGregor 'poor source of pollen for honey bees'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "腋生总状或头状花序,5–30朵,长1–2.5厘米", "result": "支持('腋生'未见于 FOC 英文句但与豆科惯例一致、不相悖,与 r23 结论相同)", "evidence": "FOC: 'Heads or racemes with 5-30 flowers, 1-2.5 cm'(r23 已核)。" },
+        { "claim": "中国各地大致5–7月;欧洲西部与中部约6–7月(据英国资料);美国中西部6–9月", "result": "支持(地域与出处限定语一一对应,'据英国资料'的披露系本轮新增,处理更规范)", "evidence": "FOC 'Fl. May-Jul';PFAF 'June to July';mnwild 'June - September'(均已引于本条,r23 已核)。" },
+        { "claim": "原产亚洲北部与西南部(可能含南欧),遍布全球温带", "result": "支持", "evidence": "FOC: 'native to N and SW Asia, probably also S Europe; now cosmopolitan'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "词条把油菜列为蜜蜂最重要的蜜粉源作物之一(evidence=review);中国东部3–4月,早春大宗蜜源", "result": "支持(本条 r23 已三方通过、文本未改;'最重要的…之一'对应 'high melliferous potential ... a main forage crop for honeybees',可接受)", "evidence": "en:Rapeseed 与 FRPS(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "'向日葵单花蜜的记载来自法国、意大利、西班牙等邻近地区'(evidence 降为 editorial,note 以'编辑整理'开头)", "result": "支持(本轮专项复查:Monofloral honey 词条对向日葵蜜明确列出产地 France, Italy and Spain;跨地域落差已如实披露,editorial 定级与规则相符)", "evidence": "Monofloral honey(本轮): sunflower honey 产地 'France, Italy and Spain'。" },
+        { "claim": "向日葵在中欧7–9月开花", "result": "支持", "evidence": "de:Sonnenblume: 'Ende Juni/Juli bis September'(本条已引,本轮复查)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "而中西部大平原正是美国向日葵的主产区", "problem": "修改引入的新断言无来源:本条唯一来源 Greenleaf 2006 本轮复查只说美国90%杂交向日葵种子产自加州北部中央谷地,全篇无大平原/中西部主产区表述;来源表中亦无其他来源记载美国向日葵主产区(实际主产区为北/南达科他等北部大平原,断言方向正确但核不到)。", "fix": "补引记载美国向日葵产区的来源(如 USDA NASS 统计或州立推广资料),或删去该从句只保留'本地域未见专门记载'。", "evidence": "Greenleaf 2006(本轮): 90% of U.S. hybrid sunflower seed produced in 'the Central Valley of northern California';无 Great Plains/Midwest 表述。" }
+      ],
+      "checkedClaims": [
+        { "claim": "美国加州制种田研究:蜜蜂单次访花传粉效率不高,有野生蜂在场时提高;evidence 降为 editorial 且 note 如实点名加州与地域落差", "result": "支持(r23 润色建议已被采纳:'邻近地区'措辞已改为明确点名加州并声明本地域无专门记载)", "evidence": "Greenleaf 2006: 'honey bees are relatively inefficient sunflower pollinators on a per-visit basis','up to 5-fold'(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "evidence 降为 editorial,note 改为'作者为中国学者,但试验地点未能在线核对,待人工确认'", "result": "支持(r23 issue 已按建议修复:不再断言'中国的温室研究',不确定性如实声明——此类诚实表述不构成 uncertain)", "evidence": "Sun 2021 摘要(r23 已核): 'three bee pollinators (Bombus terrestris, Apis cerana, and Apis mellifera) on greenhouse-grown northern highbush Bluecrop blueberry';地点确实无法从摘要/元数据核对。" }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "同一项温室对照研究把东方蜜蜂列为三种对比传粉蜂之一;试验地点待人工核对(evidence=editorial)", "result": "支持(r23 issue 已修复,地点不确定性如实声明)", "evidence": "Sun 2021 摘要:A. cerana 为三种对比蜂之一,单次落粉高于 A. mellifera(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "同一项温室对照研究把欧洲熊蜂列为三种对比传粉蜂之一(地点待人工核对);熊蜂能振动授粉,与孔裂花药匹配(evidence=editorial)", "result": "支持(r23 issue 已修复)", "evidence": "Sun 2021 摘要:B. terrestris 效率最高;Buzz pollination: B. terrestris 列入振动授粉蜂名单、蓝莓孔裂花药(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用;欧洲熊蜂管理蜂群用于蓝莓授粉的研究记载来自智利等地", "result": "支持(r23 issue 已按建议修复:补引 de:Kulturheidelbeere 提供中欧本地属级佐证,智利来源的地域限定已写入 note)", "evidence": "de:Kulturheidelbeere(r23 已核): 熊蜂与野蜂起决定性作用;Frontiers 2023: 智利南部 B. terrestris 管理蜂群(r23 已核)。" },
+        { "claim": "熊蜂能振动授粉,与蓝莓的孔裂花药匹配(evidence=review)", "result": "支持", "evidence": "Buzz pollination(r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "词条称白车轴草主要由熊蜂访问(泛指属);点名到欧洲熊蜂的记录来自新西兰种子田研究;中欧未见点名到种的专门记载(evidence 降为 editorial)", "result": "支持(r23 issue 已按建议修复:补引 NZ 2018 提供种级记录,属级/种级与地域落差全部如实声明)", "evidence": "en:T. repens: 'mostly visited by bumblebees'(r23 已核);NZ 2018 摘要(本轮): 'B. terrestris were considered a more efficient pollinator than A. mellifera',并记录 B. terrestris 访新西兰白车轴草种子田。" }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "词条记载苜蓿切叶蜂能为车轴草属植物传粉,未点名到白车轴草(evidence 降为 editorial,note 以'编辑整理'开头)", "result": "支持(r23 issue 已按建议修复:属级记载的外推已在 note 中明示,editorial 定级与来源证据水平匹配)", "evidence": "en:Megachile rotundata: 'Trifolium spp.'(属级,r23 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "薰衣草花蜜丰富、可酿单花蜜(主产地中海周边);英国研究记录蜜蜂访薰衣草——均为邻近地区资料,中欧本地未见专门记载(evidence 降为 editorial)", "result": "支持(限定语如实,editorial 定级与跨地域证据匹配)", "evidence": "en:Lavandula 'abundant nectar ... high-quality honey';PFAF 'A good bee plant';Sussex/Balfour 蜜蜂访花实测(均 r23 已核,Sussex 本轮复查)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "保加利亚观察中访花者几乎全是蜂类、熊蜂(terrestris/lucorum 复合组)占多数", "result": "支持(本轮全文核对:复合组的表述与论文完全一致,且比 r23 版本的'点名 B. terrestris'更贴合来源)", "evidence": "Kozuharova 全文(本轮): Tables 1–2 'Bombus terrestris/lucorum complex';'Bumblebees dominated the pollinators at both experimental plots, followed by honeybees';植物园'the only visitors ... were bees'。" },
+        { "claim": "英国研究显示熊蜂采蜜速度远快于蜜蜂;均为邻近地区记录,中欧本地未见专门研究(evidence 降为 editorial)", "result": "支持", "evidence": "Sussex: 1.1–1.4秒 vs 3.5秒;Balfour 摘要:熊蜂92% vs 蜜蜂8%(本轮复查)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "'美国西部最重要的蜜源之一'的记载来自美国西部,本地域未见专门记载(evidence 降为 editorial,note 以'编辑整理'开头)", "result": "支持(r23 时该条已 pass,本轮进一步把地域落差声明写足,与来源匹配)", "evidence": "Monofloral honey: 'the most important honey plant in most of the western states'(r23 已核)。" },
+        { "claim": "蜜蜂多从花侧吸蜜、避开弹花机关,几乎不传粉", "result": "支持", "evidence": "en:Alfalfa(本轮复查): 'learn to avoid being struck on the head by drawing nectar from the side of the flower. The bees thus collect the nectar but carry no pollen, so they do not pollinate ...'。" }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "uncertain",
+      "issues": [
+        { "claim": "访花时大多会弹开花朵", "problem": "r23 issue 部分修复:'每次'已弱化为'大多',但频次断言仍无来源——本轮定向复查 McGregor(NO-RATE-STATEMENT)与 en:Alfalfa(切叶蜂段落无弹花频次),IFAS 亦经 r23 确认无此表述。", "fix": "补引给出弹花率的文献(如 Cane 2002),或改为已有来源口径'单蜂效率为蜜蜂的2–4倍'并删去弹花频次。", "evidence": "McGregor(本轮): 'far more efficient, on a bee for bee basis';IFAS(r23): 'two to four times more effective'——均无逐次弹花率。" }
+      ],
+      "checkedClaims": [
+        { "claim": "苜蓿切叶蜂被大量用于北美苜蓿种子生产;单蜂授粉效率约为蜜蜂的2–4倍(佛罗里达大学资料)", "result": "支持(出处限定语与来源一致)", "evidence": "IFAS: 'two to four times more effective than using honey bees';en:Alfalfa 'increasingly used';en:M. rotundata 北美有意引入(均 r23 已核)。" }
+      ]
+    }
+  ]
+}

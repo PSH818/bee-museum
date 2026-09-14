@@ -1,0 +1,156 @@
+{
+  "lens": "refutation",
+  "round": 25,
+  "reviewedAt": "2026-08-31T08:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它没有深花冠管,花蜜位置浅,几乎所有蜂都够得着(本轮修改句)",
+          "problem": "非否决性提示:主动找反例未果——油菜在传粉生态文献中一贯被描述为开放型、泛化访花者的花,英国 Harris 2024 油菜田调查即记录到蜜蜂、熊蜂、独居蜂与食蚜蝇等大量短喙访花者取到花蜜,若花蜜深藏则短喙蝇类无法取食;未找到任何权威称油菜花蜜'深藏难及'。'几乎所有蜂'留有余地,站得住。",
+          "fix": "无需修改。",
+          "evidence": "Harris et al. 2024, Ecology and Evolution(油菜田多类群访花者取蜜),https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/;de.wikipedia Raps(蜂类为主要传粉者、单花日泌蜜含糖 0.4–2.1 mg),https://de.wikipedia.org/wiki/Raps"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "没有深的花冠管,花蜜位置浅——这是一朵向所有蜂开放的花,访花者种类很广(本轮修改句)",
+          "problem": "非否决性提示:核对未见相左——十字花科花瓣分离、无合生花冠管,是植物学通识;'访花者种类很广'与 Harris 2024(蜜蜂、熊蜂、独居蜂、食蚜蝇等)及 Zou 2017(中国小农田野生传粉者提升产量)相符。'向所有蜂开放'为修辞性概括,前后文有'花蜜位置浅'作实指,不构成可反驳的绝对化事实断言。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Harris et al. 2024,https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/;Zou et al. 2017 BMC Ecology,https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间",
+          "problem": "非否决性提示:复核德文维基原文为 0,4 bis 2,1 mg——'零点几到两毫克'下限口径吻合,上限 2.1 被'约'兜底,量级与出处标注均无误。无反驳。",
+          "fix": "可选:改为'约 0.4 到 2 毫克多'以贴近原文上限。不改亦可。",
+          "evidence": "de.wikipedia Raps:'eine Rapsblüte produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg'(fetched 2026-08-31),https://de.wikipedia.org/wiki/Raps"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "花粉的产量和营养价值目前没有可靠的公开数据(pollen 字段,本轮修改句)",
+          "problem": "全称否定被公开文献反驳:Foods 2022《Characterization of Romanian Bee Pollen—An Important Nutritional Source》对 24 份罗马尼亚蜂花粉做了孢粉学定源与营养分析,其中 5 份以刺槐为优势花粉(Louveaux 法,>45%),并报告刺槐蜂花粉蛋白质 23.13% 干重、脂类 6.02% 干重、总黄酮 18.81 mg QE/g——这就是同行评审的刺槐花粉营养数据。'产量'一侧的确缺数据,且该研究样本为刺槐占优的蜂花粉团而非纯种花粉,但按普通读者的读法,'没有可靠的公开数据'整句已不成立。",
+          "fix": "把对世界的全称断言改为馆方口径,例如:'花粉产量缺乏公开数据;营养成分仅有零星研究(罗马尼亚蜂花粉分析显示其蛋白质、脂类含量较高),尚无系统结论',或最简:'本馆未找到关于其花粉产量与营养价值的系统数据'。",
+          "evidence": "Foods 2022 (PMC9455760):刺槐优势蜂花粉蛋白质 23.13% d.m.、脂类 6.02% d.m.、TFC 18.81 mg QE/g,定源为 Louveaux 孢粉学方法(fetched 2026-08-31),https://pmc.ncbi.nlm.nih.gov/articles/PMC9455760/"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "通常每次访花都会接触花药和柱头的壁蜂(本轮修改句)",
+          "problem": "非否决性提示:与 SARE 原句逐词核对——原文为'they usually contact the flowers' anthers and stigmas on every visit','通常每次'恰好把 usually 与 on every visit 都译出,忠于来源、无夸大。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "SARE ONE05-049 项目报告原句(fetched 2026-08-31):'they usually contact the flowers' anthers and stigmas on every visit',https://projects.sare.org/project-reports/one05-049/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿切叶蜂不躲这一击,逐蜂授粉效率远高于蜜蜂(本轮修改句)",
+          "problem": "非否决性提示:与 McGregor 1976 原句口径完全一致——'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa'。'逐蜂'即 on a bee for bee basis,'远高于'即 far more efficient,不再有上轮 IFAS '2–4 倍'被误标比较层级的问题;蜜蜂侧面取蜜避开弹击亦为所引维基 Alfalfa 词条的标准表述。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "McGregor 1976 alfalfa 章原句(fetched 2026-08-31):'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa',https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "依据是美国加州制种田的研究——蜜蜂单次访花的传粉效率不高,有野生蜂在场时会提高;本地域未见专门记载",
+          "problem": "非否决性提示:与 Greenleaf & Kremen 2006 相符——该研究在加州杂交向日葵制种田发现蜜蜂单次访花效率有限、野生蜂在场时通过种间行为作用使蜜蜂传粉效率成倍提高;地域错配已如实披露并降为 editorial。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Greenleaf & Kremen 2006 PNAS,https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考(本轮修改 note)",
+          "problem": "非否决性提示:原文页与 PDF 均被出版方反爬拦截(HTTP 403),本轮通过检索获得的方法段摘录显示:论文写明试验用蜂'provided by the Bee Research Institute, Agricultural College, Eastern Liaoning University'(辽东学院,辽宁丹东),但未见点名温室所在地——与'未注明试验地点'一致,未找到反例;作者六人均为中文姓名,'中国学者'成立。声明偏保守但如实,不构成反驳靶子。",
+          "fix": "可选:note 补一句'试验用蜂由辽宁丹东的辽东学院蜂业研究所提供(论文原文)',以论文自身的中国锚点替代单纯的'未能核实'。",
+          "evidence": "检索摘录(2026-08-31,两次独立检索一致):'The pollinator bee species in the experiments were provided by the Bee Research Institute, Agricultural College, Eastern Liaoning University';HortScience 56(5):603-607 原文页(403 未能直读),https://journals.ashs.org/hortsci/view/journals/hortsci/56/5/article-p603.xml"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "同一项温室对照研究(Sun 等 2021)把东方蜜蜂列为三种对比传粉蜂之一;论文未注明试验地点……仅供参考",
+          "problem": "非否决性提示:A. cerana 确为三种对比蜂之一(Semantic Scholar 摘要复核无误);地点声明与 rel-mellifera-blueberry-china-spring 同一口径,核查结论相同,不重复展开。无反驳。",
+          "fix": "可选:与 rel-mellifera-blueberry-china-spring 同步补辽东学院供蜂锚点。",
+          "evidence": "Semantic Scholar DOI:10.21273/HORTSCI15714-21 摘要(B. terrestris、A. cerana、A. mellifera 三种,fetched 2026-08-31)"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂能振动授粉,与蓝莓的孔裂花药匹配(附于地点声明之后)",
+          "problem": "非否决性提示:成立——Sun 2021 本身即把 B. terrestris 的高效归因于其 buzz-pollination 行为,与 buzz pollination 词条一致;地点声明口径同前两条,核查结论相同。无反驳。",
+          "fix": "可选:与前两条同步补辽东学院供蜂锚点。",
+          "evidence": "Sun et al. 2021(高效传粉归因于振动授粉);en.wikipedia Buzz pollination,https://en.wikipedia.org/wiki/Buzz_pollination"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用(泛指熊蜂属);点名到欧洲熊蜂管理蜂群的研究记载来自智利等地",
+          "problem": "复核:即 r24 通过版本的口径,属级/种级与智利出处均如实披露,未称管理熊蜂更优,与 Frontiers 2023(智利本地蜂表现不逊于 B. terrestris)不冲突。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Frontiers in Sustainable Food Systems 2023,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "用它授粉的效果约为用蜜蜂的 2–4 倍(佛罗里达大学资料)(上轮 uncertain 项复核)",
+          "problem": "复核:上轮唯一 uncertain 已按建议处理——'单蜂'二字删去,现表述'用它授粉的效果约为用蜜蜂的 2–4 倍'与 IFAS EENY-820 原句的比较层级(在苜蓿田使用切叶蜂授粉服务的整体效果)一致,不再对来源口径做再解释;逐蜂比较已移交 McGregor 口径(见 flower-entry:flower-medicago-sativa/stamen)。处理妥当,无反驳。",
+          "fix": "无需修改。",
+          "evidence": "UF/IFAS EENY-820:'The use of the alfalfa leaf-cutter bees in alfalfa fields for pollination services is two to four times more effective than using honey bees for the same purpose',https://ask.ifas.ufl.edu/publication/IN1452"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lens": "refutation",
+  "round": 10,
+  "reviewedAt": "2026-08-25T06:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [],
+      "notes": "逐句证伪未获确凿反证。英文名 Eastern honey bee 与 Wikipedia 一致(https://en.wikipedia.org/wiki/Apis_cerana);原产亚洲南部/东南/东部、在树洞等空腔内筑多片平行巢脾、群体结构与西方蜜蜂相同,Wikipedia 与 USDA Exotic Bee ID(https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006 'Nests ... built in enclosed cavities and consist of multiple combs arranged parallel')均可印证;工蜂体长 10–11 mm 与 Wikipedia 'medium-sized bees (10–11mm)' 一致,中文资料 10–13 mm(zh.wikipedia 中华蜜蜂)、Exotic Bee ID 约 9 mm 均落在摘要已给区间 9–13 mm 内;'四条黄纹'与 Wikipedia 'black in color, with four yellow abdominal stripes' 一致且已用'常描述为/因亚种与地区而异'限定,中文资料'腹部颜色因地区不同有差异'支持该限定;中华蜜蜂 Apis cerana cerana 为东方蜜蜂指名亚种、中国广布(zh.wikipedia),'最主要'已限定,与中国境内另有多个地理亚种/生态型的事实不冲突;热球防御(数百只工蜂围住胡蜂、核心温度约 46–47 °C 致死)有 Ono 等研究与 PMC8925055 印证,研究另指出 CO2 亦参与致死,但'过热致死'作为科普概括站得住。唯一可斟酌处:'亚洲南部与东部'未提东南亚及中东/阿富汗边缘分布,属表述偏窄而非错误,不构成否决。"
+    }
+  ]
+}

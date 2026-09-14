@@ -1,0 +1,67 @@
+{
+  "lens": "refutation",
+  "round": 11,
+  "reviewedAt": "2026-08-25T06:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "欧洲熊蜂常在花冠基部咬孔取蜜(盗蜜);同巢工蜂胸部长度可差 2–3 倍,体重可差近十倍(不同资料 8–11 倍)。",
+          "problem": "试图证伪:B. terrestris 是否确为初级盗蜜者;体型差异倍数是否夸大。核查结果均站得住。",
+          "evidence": "英文维基 Bombus terrestris:工蜂胸长 2.3–6.9 mm(约 3 倍),体重 68–754 mg(约 11 倍)(https://en.wikipedia.org/wiki/Bombus_terrestris);Goulson 等文献称同一蜂王后代体重可差 10 倍(https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4444232/);Nectar robbing 词条以 B. terrestris 作为初级盗蜜配图,且明确\"nectar theft/floral larceny\"仅为学术术语(https://en.wikipedia.org/wiki/Nectar_robbing);多项研究记录 B. terrestris 在花冠基部咬孔盗蜜(https://pmc.ncbi.nlm.nih.gov/articles/PMC12553366/ ; https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2602821/)。给出的区间 2–3 倍、8–11 倍覆盖查到的主流数值,\"不同资料\"限定恰当。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "原产东亚;据报道自 1940 年代起推广约五十年后日本半数以上苹果园曾用它授粉;据报道 1977 年前后引入美国东部,此后在美国东部与中西部定殖;泥土隔巢室、每室一花粉球一卵;mason bee 得名于此。",
+          "problem": "试图证伪:引入年份、日本使用比例及美国定殖范围。核查后均有资料支持;\"半数以上\"与其他资料(1990 年 50%、1996 年 70%+、现约 75%)不冲突且已用\"据报道\"\"曾\"限定。",
+          "evidence": "英文维基 Osmia cornifrons:\"first introduced in Japan in the 1940s... Over a 50-year time period... more than half of the apple orchards in Japan\";\"In 1977, O. cornifrons was introduced in the northeastern United States\";单卵、泥封、花粉球、竹管/芦苇(https://en.wikipedia.org/wiki/Osmia_cornifrons)。USDA Exotic Bee ID:原产东亚,1970 年代引入美国东部,现见于东海岸与中西部(https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062)。Mason bee 得名于用泥等\"masonry\"材料筑巢,泥隔板兼作下一巢室背壁(https://en.wikipedia.org/wiki/Mason_bee)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "欧洲最大蜂类之一;通体黑色带微弱光泽,蓝紫虹彩主要来自深色泛紫光的翅;独居;分布以欧洲为主向东至亚洲(东界记载不一,部分资料称达中国中部);夏末羽化越冬,次年三至五月出来活动;雌蜂独自在枯木中钻洞筑巢。",
+          "problem": "试图证伪:东界\"中国中部\"是否可靠(基因组论文仅称至土耳其、伊拉克、印度,未提中国);活动月份是否准确。分布东界已明确加\"各资料记载不一/部分资料称\"限定,不构成否决;月份区间与德、英文资料一致。",
+          "evidence": "英文维基:\"one of the largest bees in Europe\";\"extends from Europe eastward across Asia as far as central China\";\"adults emerge in late summer then hibernate\";\"emerge in the spring, usually around April or May\";\"makes its nests in dead wood\";\"the female creates the nest alone\"(https://en.wikipedia.org/wiki/Xylocopa_violacea)。德文维基:\"Ihr Körper ist tiefschwarz\",\"die Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf\",\"fliegt ab August und nach der Überwinterung von März bis Juli\",\"im April/Mai... in Totholz\"(https://de.wikipedia.org/wiki/Blaue_Holzbiene)。基因组论文称分布延至阿尔及利亚、土耳其、伊拉克、印度(https://pmc.ncbi.nlm.nih.gov/articles/PMC11589580/),与\"东界记载不一\"的限定相符。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "分布亚洲南部与东部;中华蜜蜂是中国主要亚种;高度社会性;树洞等空腔内多片平行巢脾;工蜂体长约 10–11 mm(不同资料约 9–13 mm);腹部黄黑环纹(常描述为四条黄纹);热球防御。",
+          "problem": "试图证伪:体长数值(不同资料 9、10–11、10–13、12–13 mm 不一)与\"四条黄纹\"是否为普适特征。给出的 9–13 mm 区间覆盖所有查到的数值,\"常描述为/因亚种与地区而异\"限定恰当;\"亚洲南部与东部\"略去东南亚,但东南亚属广义南部/东部亚洲,属科普性概括,不构成否决。",
+          "evidence": "英文维基 Apis cerana:\"native to South, Southeast and East Asia\";\"medium-sized bees (10-11mm)\";\"black in color, with four yellow abdominal stripes\";\"multiple combs in cavities\";约 500 只工蜂围住胡蜂加热至 47 °C 致死;A. c. cerana 分布于中国南部与沿海等(https://en.wikipedia.org/wiki/Apis_cerana)。中文维基 中华蜜蜂:东方蜜蜂指名亚种,分布于中国中东部、华北、华中、华南,工蜂体长 10–13 mm(https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82)。USDA Exotic Bee ID:巢由多片等距平行巢脾组成,分布遍及亚洲大部(https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂科木蜂属;分布以欧洲为主东至亚洲(东界记载不一),主要分布于北纬 30 度以北;独居;枯木中啃出隧道;体长 20–28 mm;翅烟紫色带蓝紫虹彩;夏末羽化越冬春季活动;被认为能进行振动授粉。",
+          "problem": "试图证伪:\"北纬 30 度以北\"与基因组论文所述分布延至印度(部分低于 30°N)是否矛盾;体长区间是否夸大;振动授粉是否有直接证据。\"主要分布于\"已作限定;20–28 mm 覆盖德文维基 20–28 与其他资料 20–22;振动授粉用\"被认为\"限定且 Buzz pollination 词条明确 Xylocopa 属被认为可振动授粉。均站得住。",
+          "evidence": "英文维基:\"restricted to latitudes above 30 degrees\",\"as far as central China\"(https://en.wikipedia.org/wiki/Xylocopa_violacea);德文维基:\"Mit 20 bis 28 Millimeter Körperlänge zählen die Tiere zu den größten Vertretern der Bienen in Mitteleuropa\",\"Flügel... auffälligen blauen Schiller\"(https://de.wikipedia.org/wiki/Blaue_Holzbiene);另有资料称 20–22 mm(https://www.wildlifenatural.com/Insects-in-Spain/Xylocopa-violacea);Buzz pollination 词条:\"Bees from Bombus and Xylocopa are thought to pollinate these flowers\"(https://en.wikipedia.org/wiki/Buzz_pollination);基因组论文:分布延至阿尔及利亚、土耳其、伊拉克、印度(https://pmc.ncbi.nlm.nih.gov/articles/PMC11589580/)。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

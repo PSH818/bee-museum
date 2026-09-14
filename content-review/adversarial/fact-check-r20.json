@@ -1,0 +1,81 @@
+{
+  "lens": "fact-check",
+  "round": 20,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "fetched": true,
+      "note": "抓取成功。关键原句:'Wax production (days 13–18): Wax bees build cells from wax, repair old cells, and store nectar and pollen brought in by other workers.';'Guard bee (18-21): Worker bees can perform guard duty at the front entrance, when their stinger is mature, to protect the colony from robbing.';'Foraging bees (days 21–42): The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water.';'Nectar is sucked up through the proboscis, mixed with enzymes in the stomach, and carried back to the hive, where it is stored in wax cells and evaporated into honey.';'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks.';'In the wintertime, worker bees can cluster together to generate body heat to keep the brood area warm.'"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "fetched": true,
+      "note": "抓取成功。关键原句:'For the first 10 days of their lives, worker bees clean the hive and feed the larvae. After this, they begin building comb cells. On days 16 through 20, workers receive nectar and pollen from older workers and store it. After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.';'The worker bees digest the raw nectar for about 30 minutes, using digestive enzymes to break down the complex sugars into simpler ones. Raw honey is then spread in empty honeycomb cells to dry, reducing its water content to less than 20 percent.';'Workers born in spring and summer work hard, and live only a few weeks';'Except for the queen, all of a colony's workers are replaced about every four months.' 该文未提及守卫蜂。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 13–17 天(自产卵起第 33–37 天)为筑巢与储存阶段;不同资料对分段天数略有出入。",
+          "problem": "无问题(记录核对依据)。Worker bee 给出 'Wax production (days 13–18)',13–17 落在范围内,与守卫阶段 18 天的重叠属来源自身重叠;Western honey bee 给出 '第 10 天后开始筑巢、第 16–20 天接收并储存花蜜花粉',与正文略有出入,但正文已用'不同资料……略有出入'限定。",
+          "evidence": "Worker bee: 'Wax production (days 13–18): Wax bees build cells from wax, repair old cells, and store nectar and pollen brought in by other workers.' / Western honey bee: 'After this, they begin building comb cells. On days 16 through 20, workers receive nectar and pollen from older workers and store it.'",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "花蜜在巢内经工蜂反复传递、加入酶并蒸发水分,最终酿成蜂蜜。",
+          "problem": "低风险、非阻断。'加入酶'与'蒸发水分'均被两来源支持;'反复传递'一词在两来源本次抓取的原句中仅体现为一次交接('store nectar and pollen brought in by other workers' / 'receive nectar and pollen from older workers'),未见'反复/多次传递'的明示。来源未否定。",
+          "evidence": "Worker bee: 'Nectar is sucked up through the proboscis, mixed with enzymes in the stomach, and carried back to the hive, where it is stored in wax cells and evaporated into honey.' / Western honey bee: 'The worker bees digest the raw nectar for about 30 minutes, using digestive enzymes to break down the complex sugars into simpler ones. Raw honey is then spread in empty honeycomb cells to dry, reducing its water content to less than 20 percent.'",
+          "fix": "可将'反复传递'改为'在工蜂之间传递',或保留原文并补引 Wikipedia 'Honey' 词条(其明确描述花蜜在蜂间多次反哺传递)。"
+        },
+        {
+          "claim": "腹部的蜡腺开始分泌蜡片。",
+          "problem": "低风险、非阻断。'工蜂用蜡筑造和修补巢房'被 Worker bee 支持;'蜡腺位于腹部、分泌蜡片'属基础解剖学常识,但本次两来源抓取到的原句未直接给出蜡腺位置。来源未否定。",
+          "evidence": "Worker bee: 'Wax bees build cells from wax, repair old cells, and store nectar and pollen brought in by other workers.'(未提及腺体位置)",
+          "fix": "建议为本条补引 src-snodgrass-anatomy(Snodgrass《Anatomy of the Honey Bee》对腹部蜡腺有专门描述),以覆盖'腹部蜡腺/蜡片'这一解剖断言。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 18–20 天(自产卵起第 38–40 天)为守卫阶段;出房两三周后,一部分工蜂在巢门口值守,检查进出者、抵御入侵。",
+          "problem": "无问题(记录核对依据)。18–20 天落在来源 'Guard bee (18-21)' 范围内;'巢门口值守、抵御入侵(盗蜂)'与原句一致;'出房两三周后'与 18–20 天相符。",
+          "evidence": "Worker bee: 'Guard bee (18-21): Worker bees can perform guard duty at the front entrance, when their stinger is mature, to protect the colony from robbing.'",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "一般认为并非每只工蜂都会经历守卫阶段;分工会随蜂群的需要调整,有的工蜂会提前或推后转为外勤。",
+          "problem": "已用'一般认为'恰当限定。来源用 'can perform guard duty' 表述为可选职能,与'并非每只工蜂都会守卫'方向一致;'分工随蜂群需要调整'来源未逐字提及,但未否定。",
+          "evidence": "Worker bee: 'Worker bees can perform guard duty at the front entrance, when their stinger is mature, to protect the colony from robbing.'",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "出房后第 21 天起(自产卵起第 41 天起)成为外勤蜂,直到生命结束;可飞到约 3 公里外(据记载有时更远)采集花蜜、花粉、蜂胶和水。",
+          "problem": "无问题(记录核对依据)。第 21 天起与 Worker bee 'Foraging bees (days 21–42)' 及 Western honey bee 'After the 20th day' 一致;span 41–63 与出房后 21–42 天对应;'约 3 公里'与 'up to 3 kilometres' 一致,'有时更远'已用'据记载'限定;采集物四项与原句逐一对应;'直到生命结束'与 'spends the remainder of its life as a forager' 一致。",
+          "evidence": "Worker bee: 'Foraging bees (days 21–42): The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water.' / Western honey bee: 'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.'",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "夏季工蜂通常只活 2–6 周;秋天出生的越冬蜂在巢内结团过冬,可活到约 20 周。除蜂王外,一个蜂群的工蜂大约每四个月就整体更替一遍。",
+          "problem": "无问题(记录核对依据)。2–6 周、最长约 20 周、冬季结团、'除蜂王外约每四个月更替'均有原句直接支持。'秋天出生'一语来源未逐字给出,但 Western honey bee 以'春夏出生的工蜂只活几周'作对照,与越冬蜂为秋季出生的表述相容,且'可活到约 20 周'已用'约'限定。",
+          "evidence": "Worker bee: 'In the summertime, worker bees typically only live two to six weeks compared to wintertime when workers can live up to 20 weeks.';'In the wintertime, worker bees can cluster together to generate body heat to keep the brood area warm.' / Western honey bee: 'Workers born in spring and summer work hard, and live only a few weeks';'Except for the queen, all of a colony's workers are replaced about every four months.'",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "lens": "fact-check",
+  "round": 28,
+  "reviewedAt": "2026-09-08T01:38:37Z",
+  "sourceAccess": "已抓取原文核对:Wikipedia Honey(含 wikitext 全文检索)/ Monofloral honey / Rapeseed / Bumblebee(wikitext 全文检索)/ Bombus terrestris / Royal jelly、德文维基 Raps 与 Gewöhnliche Robinie、中文维基 刺槐、Die Honigmacher(Raps,整页全文)、PLoS 2010 冬季活动熊蜂(PMC2832779)、Harris 2024 油菜花蜜(PMC11106685)、McGregor 1976 苜蓿章、Minnesota Wildflowers(白车轴草)、Sussex 大学 Balfour 2013 新闻稿;不可达:Britannica Honey(403)、Balfour 2013 原文(403,经同研究 Sussex 新闻稿核对)、MSU Sweet clovers(Incapsula 拦截,两次抓取空白,按已知知识核对)、Snodgrass(无 URL,按已知知识核对)。",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "nectar:重要大宗蜜源,常被列为蜜蜂最重要的蜜粉源作物之一",
+          "result": "支持",
+          "evidence": "de:Raps: \"eine der wichtigsten und ergiebigsten Nektarquellen für Honigbienen\";Honigmacher: \"typische Massentracht in Deutschland\"、\"sehr reichhaltiges Nektarangebot / sehr reiches Pollenangebot\""
+        },
+        {
+          "claim": "nectar:单花蜜白色至乳黄,极易结晶,结晶细腻呈脂状(与蜜卡口径同步)",
+          "result": "支持:与蜜卡统一后的口径在本卡所引来源内完整核到",
+          "evidence": "en:Rapeseed(本卡已引): \"Monofloral rapeseed honey has a whitish or milky yellow color... due to its fast crystallization time, a soft-solid texture\"、\"It crystallizes within 3 to 4 weeks\";de:Raps: \"fein und schmalzartig kandierend\""
+        },
+        {
+          "claim": "summary:没有深花冠管,花蜜位置浅,几乎所有蜂都够得着",
+          "result": "支持:维持 r25/rfinal 对同一表述的裁定(由十字形四离生花瓣形态记载的通俗化推论,与来源相容);本轮另核 Harris 2024(在 sources 数组、本条未引)直接印证,建议(非阻断)补引",
+          "evidence": "Harris 2024: \"four radially symmetrical and horizontal petals... providing a landing platform for foraging insects and allowing easy access to the nectaries\"、\"Wastage... should not, therefore, be due to inaccessibility\""
+        },
+        {
+          "claim": "summary:总状花序自下而上开放;一株通常能开三到五周",
+          "result": "支持",
+          "evidence": "de:Raps: 单株花期 \"drei bis fünf Wochen\"(r23 issue 补引后已修复);Honigmacher: 花序为 Traube(总状)"
+        },
+        {
+          "claim": "summary:菜市场的小油菜是它的近亲,不是同一种",
+          "result": "支持",
+          "evidence": "en:Rapeseed 区分 B. napus 与 B. rapa;Honigmacher: Raps 为 Brassica rapa × Brassica oleracea 的天然杂交种"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "description:花期 5 月至 10 月,中国东部、中欧与北美温带大致相同;7 月前后最盛",
+          "result": "支持:本轮重抓 Minnesota Wildflowers 确认 May–October;FRPS(5–10月)、de:Weißklee 前轮已核;\"7月前后最盛\"前轮已核通过,本轮无相反证据",
+          "evidence": "Minnesota Wildflowers(White Clover): 花期 \"May - October\""
+        },
+        {
+          "claim": "fact:在北美、新西兰等牧场多的地方,三叶草蜜是最常见的单花蜜之一;来自白车轴草等车轴草属牧草",
+          "result": "支持",
+          "evidence": "Wikipedia Monofloral honey(clover): 产地 \"Canada, United States, Sweden and New Zealand\";白车轴草 \"grown as a widespread blooming pasture crop... a major nectar source\""
+        },
+        {
+          "claim": "fact:北美的三叶草蜜也常来自近缘的草木樨(新增,引 src-msu-sweet-clovers)",
+          "result": "支持(来源不可达,按已知知识核对):MSU 页面被 Incapsula 反爬拦截、两次抓取空白;按已知养蜂与植物学知识,草木樨属(Melilotus)与车轴草属同为豆科车轴草族近缘属,历史上是北美最重要蜜源植物之一,商品\"clover honey\"相当部分来自草木樨——断言成立",
+          "evidence": "bees.msu.edu/sweet-clovers 返回 Incapsula 拦截页;已知知识:McGregor 1976 等美国蜜源文献将 sweet clover 列为北美主要蜜源"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "nectar:泌蜜量大;在美国西部是最重要的蜜源植物之一",
+          "result": "支持",
+          "evidence": "McGregor 1976(本轮重抓): \"Alfalfa produces a large amount of nectar... from which honey bees produce excellent crops of high quality honey\";西部苜蓿放蜂与储蜜记载(r27 已核)"
+        },
+        {
+          "claim": "nectar:苜蓿蜜色极浅(白)、味淡雅(与蜜卡口径同步)",
+          "result": "支持:r27 issue 已修复;注:所引 Monofloral honey 现文为 \"White or extra light amber in color\",故现口径(只说白)是保守表述,原\"白至特浅琥珀\"其实亦可支持",
+          "evidence": "Wikipedia Monofloral honey(alfalfa): \"White or extra light amber in color\"、\"Fine flavor – a subtle spicy profile and mildly scented floral aroma\""
+        },
+        {
+          "claim": "summary:龙骨瓣弹花机关、打在蜂头下方;蜜蜂多从花侧吸蜜;留种常靠切叶蜂/pollen:劣质花粉源",
+          "result": "支持:前轮已核(McGregor 苜蓿章 tripping 机制、蜜蜂侧面取蜜、切叶蜂授粉),本轮文本未变、无相反证据",
+          "evidence": "McGregor 1976 苜蓿章(r23–r25 已核)"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "吸取花蜜——蜂蜜最主要的原料(r27 issue 1 修复)",
+          "result": "支持:\"唯一\"已改\"最主要\",与来源一致",
+          "evidence": "Wikipedia Honey: \"refining the sugary secretions of plants (primarily floral nectar) or the secretions of other insects, like the honeydew of aphids\""
+        },
+        {
+          "claim": "花蜜是蜜腺分泌的含糖液体,主要成分是蔗糖、葡萄糖、果糖和水,含糖比例随花种差别很大;一趟拜访许多朵花装满蜜胃",
+          "result": "支持(r27 已核,本轮复认)",
+          "evidence": "Wikipedia Honey: 花蜜含水 70–80%;酶水解 \"complex sugars like sucrose\" 为葡萄糖果糖;蜜胃约 40 mg"
+        },
+        {
+          "claim": "油菜的花蜜几乎所有蜂都够得着(r27 issue 2 之油菜半句,补引 src-honigmacher-raps)",
+          "result": "支持:维持 r25/rfinal 对花朵馆同一断言的裁定(形态通俗化推论、与来源相容);需说明:Honigmacher 整页仅有\"sehr reichhaltiges Nektarangebot\"的丰度表述、无可及性原文,本条对该半句最贴切的来源是 Harris 2024(已在 sources 数组),建议(非阻断)补引",
+          "evidence": "Harris 2024: \"horizontal petals... allowing easy access to the nectaries\";Honigmacher 全文核查无可及性语句"
+        },
+        {
+          "claim": "薰衣草则要看喙的长短(补引 src-balfour-2013-lavender)",
+          "result": "支持:Balfour 2013 原文 403 不可达,经同一研究的 Sussex 大学新闻稿(sources 数组内)核对成立",
+          "evidence": "Sussex 新闻稿: \"Bumblebees have longer tongues than honey bees\";熊蜂每朵薰衣草 1.1–1.4 秒、蜜蜂 3.5 秒"
+        },
+        {
+          "claim": "boundary:欧洲市场的甘露蜜(森林蜜)来自蚜虫等昆虫的含糖分泌物(r27 建议采纳)",
+          "result": "支持",
+          "evidence": "Wikipedia Honey: \"Honeydew honey is made from bees taking direct secretions from trees such as pine, fir, chestnut, and oak or primarily honeydew, the sweet secretions of aphids\";\"European countries have been the primary market for honeydew honey\""
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "蜜胃为食道末端能胀大的储袋(蜜囊),不进消化道;与消化道间有阀门(前胃)",
+          "result": "支持(r27 pass,本轮文本实质未变)",
+          "evidence": "Wikipedia Honey: \"delivers the liquid to the bee's honey stomach or 'honey crop'... This cavity lies just above its food stomach\";Snodgrass 不可达,按已知解剖学核对成立"
+        },
+        {
+          "claim": "只有蜂自己取食的一小部分、和被滤出的花粉,经阀门进入消化道",
+          "result": "支持:\"被滤出的花粉\"为本轮相对 r27 的表述;前胃(proventriculus)从蜜胃内容物中滤集花粉粒送入中肠为 Snodgrass 标准内容,来源不可达按已知知识核对成立;与 Wikipedia Honey \"the latter of which digests pollen and sugars\" 相容",
+          "evidence": "Snodgrass《Anatomy of the Honey Bee》前胃过滤功能(已知知识);Wikipedia Honey 食物胃消化花粉的表述"
+        },
+        {
+          "claim": "归巢路上混入蜂头部腺体分泌的酶",
+          "result": "支持",
+          "evidence": "Wikipedia Honey: \"Salivary enzymes and proteins from the bee's hypopharyngeal gland are secreted into the nectar once it is in the bee's honey stomach\""
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "转化酶水解蔗糖为葡萄糖果糖;葡萄糖氧化酶产葡萄糖酸与微量过氧化氢",
+          "result": "支持(r27 已核)",
+          "evidence": "Wikipedia Honey: \"cleaving complex sugars like sucrose... into simpler sugars such as glucose and fructose\";\"creating two byproducts – gluconic acid and hydrogen peroxide\""
+        },
+        {
+          "claim": "糖浓到能把微生物体内的水吸出来,微生物难以生长繁殖;长期保存靠化学不是防腐剂",
+          "result": "支持",
+          "evidence": "Wikipedia Honey: \"For osmotic reasons such high concentrations of sugar are extremely unfavorable to microbiological reproduction and all fermentation is consequently halted\";\"So long as its water concentration does not rise much above 18%, honey has an indefinite shelf life\""
+        },
+        {
+          "claim": "蜂蜜里可能有休眠的肉毒杆菌芽孢,一岁以下婴儿不能喂食蜂蜜",
+          "result": "支持:本轮对 Honey 词条 wikitext 全文检索核到 Botulism 小节;\"不能\"较词条 \"not recommended\" 略强,但与 NHS \"honey should not be given to babies\" 等词条内引用的官方口径一致",
+          "evidence": "Wikipedia Honey: \"Infants can develop botulism after consuming honey contaminated with Clostridium botulinum endospores\";\"taking the risk is not recommended until after one year of age, and then giving honey is considered safe\";NHS 引文 \"honey should not be given to babies because of the risk of infant botulism\""
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "boundary:维基百科给约 15.5%–18%(r27 issue 修复)",
+          "result": "支持",
+          "evidence": "Wikipedia Honey: \"final water content of between 15.5% and 18%\""
+        },
+        {
+          "claim": "boundary:不少法规与教材以 20% 为上限",
+          "result": "支持:所引 Wikipedia Honey 本身含 20% 阈值(超过即不宜久存);\"法规\"指称按已知知识核对成立——Codex Alimentarius 蜂蜜标准(CXS 12-1981)与欧盟蜂蜜指令(2001/110/EC)均定水分不超过 20%(帚石南蜜等例外更高);Britannica 403 不可达。建议(非阻断):补引 Codex 或 EU 指令,让\"法规\"有落地来源",
+          "evidence": "Wikipedia Honey: \"it indicates honey with excessive water content of over 20%... not suitable for long-term preservation\";已知知识:Codex CXS 12-1981 / EU 2001/110/EC 水分上限 20%"
+        },
+        {
+          "claim": "detail:水分收到大约两成以下——更严的口径要到 18% 以下,才算酿成",
+          "result": "支持",
+          "evidence": "Wikipedia Honey: 15.5%–18% 终点;\"does not rise much above 18%\" 才可长期保存"
+        },
+        {
+          "claim": "刚采回的花蜜通常一半以上是水;直接储存会发酵;摊薄+成群扇翅蒸发,一部分工蜂专职扇翅",
+          "result": "支持(r27 已核)",
+          "evidence": "Wikipedia Honey: 花蜜含水 70–80%;酵母孢子可在高水分蜜中繁殖;\"Coordinated wing beating moves air across the wet honey\""
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "蜜酿熟后用腹部蜡腺分泌的蜂蜡封平巢房口;封盖是酿成标志、取蜜时机依据",
+          "result": "支持(r27 已核,文本未变)",
+          "evidence": "Wikipedia Beeswax: 第 4–7 腹节蜡镜腺;Wikipedia Honey: \"cap the cells of finished honey with wax... seals them from contamination and prevents further evaporation\""
+        },
+        {
+          "claim": "蜜蜂属靠储蜜撑过缺花的季节——温带是冬天,热带则是断蜜的旱季或雨季(本轮新表述)",
+          "result": "支持:总述由来源直接支持(lean periods,越冬为例示);\"热带旱季/雨季\"是对 lean periods 的例示性展开,所引来源未点名热带,按已知养蜂知识核对成立(热带蜂群在旱季或连绵雨季同样断蜜缺粮)",
+          "evidence": "Wikipedia Honey: \"bees stockpile honey to provide for themselves during ordinary foraging as well as during lean periods, as in overwintering\""
+        },
+        {
+          "claim": "这也是蜜蜂大量储蜜、而多数蜂不储蜜的原因",
+          "result": "支持(r27 已核)",
+          "evidence": "Wikipedia Mason bee: \"Solitary bees produce neither honey nor beeswax\";Wikipedia Bumblebee: 只存几天口粮"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "白色至乳黄(r27 已核)",
+          "result": "支持",
+          "evidence": "Wikipedia Monofloral honey: \"Light yellow, whitish or dull ivory when crystallized\""
+        },
+        {
+          "claim": "极易结晶,结晶细腻呈脂状(r27 两项 issue 修复:删\"味微辛/结晶极快\",采纳 r27 建议措辞)",
+          "result": "支持:de:Raps 以\"细腻、猪油状结晶\"作为其固有特征,Monofloral honey 给出极细晶粒;另注:en:Rapeseed(蜜卡未引、花卡已引)明言 \"due to its fast crystallization time... crystallizes within 3 to 4 weeks\",且其 \"peppery taste\" 表明被删的\"味微辛\"其实也有可引来源——馆方如想恢复该感官描述,补引 src-wikipedia-rapeseed 即可(非阻断)",
+          "evidence": "de:Raps: \"der fein und schmalzartig kandierende Rapshonig\";Monofloral honey: \"very small crystals, refreshing (like 'fondant')\""
+        },
+        {
+          "claim": "春季大宗蜜种;中国与欧洲的油菜产区皆有出产",
+          "result": "支持(r27 已核)",
+          "evidence": "Honigmacher: 花期 4 月底–6 月初、Massentracht;de:Raps: 每公顷一季可产蜜至 494 kg"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "一株成年树一个花季约可酿出 0.7–1.4 公斤蜂蜜(r27 建议采纳:改区间并注明估算出处)",
+          "result": "支持:0.66–1.44 四舍五入为 0.7–1.4 合理",
+          "evidence": "de:Gewöhnliche Robinie: 每树每花季平均 \"zwischen 0,66 und 1,44 Kilogramm\""
+        },
+        {
+          "claim": "德语区市场多以 Akazienhonig(阿卡西亚蜜)为名出售(r27 issue 修复:删\"欧洲常称刺槐蜜\")",
+          "result": "支持",
+          "evidence": "de:Gewöhnliche Robinie: 该蜜以 \"Akazienhonig\" 为名出售(尽管洋槐并非真正的 Acacia)"
+        },
+        {
+          "claim": "市售槐花蜜的槐花指洋槐(刺槐)而非国槐;产区中国北方、欧洲与美国东部",
+          "result": "支持",
+          "evidence": "zh 维基 刺槐: 重要蜜源植物、\"槐花\"惯指刺槐花而非国槐;原生美国中东部及东部、广泛引种至亚欧,黄河淮河流域适生;de:Robinie: \"bedeutende Frühsommertrachtpflanze\",法国、匈牙利、勃兰登堡等地倚重"
+        },
+        {
+          "claim": "它的色泽与风味分级,本馆尚未找到足以展出的系统资料",
+          "result": "编辑口吻,不作事实断言核对;提示:所引 Monofloral honey 其实给出 acacia 蜜 \"ranges from light yellow to almost colorless\" 与 \"mild delicate floral taste\",虽非分级体系,后续可据此补充感官描述(非阻断)",
+          "evidence": "Wikipedia Monofloral honey(acacia)"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "在北美、新西兰等牧场多的地方是最常见单花蜜之一;来自白车轴草等车轴草属牧草;温带牧区",
+          "result": "支持(r27 已核,本轮复认)",
+          "evidence": "Wikipedia Monofloral honey: 产地 \"Canada, United States, Sweden and New Zealand\";白车轴草 \"a major nectar source in many parts of the world\""
+        },
+        {
+          "claim": "在北美还大量来自近缘的草木樨属 sweet clover(新增,引 src-msu-sweet-clovers)",
+          "result": "支持(来源不可达,按已知知识核对):MSU 页面被 Incapsula 反爬拦截、两次抓取空白;按已知知识,草木樨属与车轴草属同为豆科车轴草族近缘属,历史上为北美最重要蜜源之一,北美商品 clover honey 相当部分来自草木樨——断言成立;建议后续换一个可抓取的来源存档(如 Wayback 快照或 USDA/McGregor 蜜源文献)以便复核",
+          "evidence": "bees.msu.edu 返回 Incapsula 拦截页;已知美国蜜源文献口径"
+        },
+        {
+          "claim": "它的色泽与风味,本馆尚未找到足以展出的系统资料",
+          "result": "编辑口吻,不作核对;提示:Monofloral honey 对 clover 蜜有部分理化描述(花蜜含水较高、葡萄糖相对果糖比例较大)可用",
+          "evidence": "Wikipedia Monofloral honey(clover)"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "色极浅(白)(r27 issue 修复)",
+          "result": "支持:注:本轮重抓 Monofloral honey,苜蓿蜜一句现读 \"White or extra light amber in color\"——现口径(白)是其中的保守子集,成立;这也意味着原表述\"白至特浅琥珀\"如今同样有来源支持,馆方可自行取舍",
+          "evidence": "Wikipedia Monofloral honey(alfalfa): \"White or extra light amber in color\""
+        },
+        {
+          "claim": "味淡雅",
+          "result": "支持",
+          "evidence": "Wikipedia Monofloral honey: \"Fine flavor – a subtle spicy profile and mildly scented floral aroma\""
+        },
+        {
+          "claim": "在美国西部,紫花苜蓿是最重要的蜜源植物之一",
+          "result": "支持(本轮重抓 McGregor 复认)",
+          "evidence": "McGregor 1976: \"Alfalfa produces a large amount of nectar... from which honey bees produce excellent crops of high quality honey\";\"one strong colony per acre of seed alfalfa should store 50 to 100 pounds honey\""
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "哺育蜂头部腺体分泌的乳状食物;所有蜜蜂幼虫约头三天都吃它",
+          "result": "支持(本轮重抓复认;\"约\"字使三天口径更稳)",
+          "evidence": "Wikipedia Royal jelly: \"secreted from the glands in the hypopharynx of nurse bees, and fed to all larvae in the colony\";\"After three days, the drone and worker larvae are no longer fed with royal jelly\""
+        },
+        {
+          "claim": "被选作蜂王的幼虫整个幼虫期、以及成年蜂王的一生,都以它为食",
+          "result": "支持:幼虫期原文明言;\"成年蜂王一生\"由定义句(larvae and adult queens)加 Queen bee 条目(蜂王寿命内由工蜂饲喂)支持,\"一生\"略强于原文但与通行知识一致——与 r27 同判",
+          "evidence": "Wikipedia Royal jelly: \"queen larvae continue to be fed this special substance throughout their development\";\"used in the nutrition of larvae and adult queens\""
+        },
+        {
+          "claim": "不是蜂蜜、不是蜂蜜的原料或浓缩版;蜂蜜来自花蜜采集加工,蜂王浆来自腺体分泌",
+          "result": "支持",
+          "evidence": "Wikipedia Royal jelly: 腺体分泌物;Wikipedia Honey: 蜂蜜由花蜜/蜜露采集加工而来"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "热带熊蜂和暖冬地区的欧洲熊蜂群体可以更长寿",
+          "problem": "\"热带熊蜂\"半句在所引来源中核不到:本轮对 Wikipedia Bumblebee 全文(wikitext)检索 tropic/perennial/several years/year-round,仅有分布句\"南美有少数低地热带种\",无任何热带蜂群寿命更长的记载;Wikipedia Bombus terrestris 亦无(只有暖地蜂王可跳过滞育一句);PLoS 2010 只涉及英国城市暖冬的 B. terrestris。\"暖冬地区的欧洲熊蜂\"半句有 PLoS 2010 支持,但\"更长寿\"的措辞与该文所记的\"冬季世代/冬季活动蜂群\"也有出入——文中是秋季新建蜂群冬季持续活动,而非同一蜂群寿命延长",
+          "suggestion": "删去\"热带熊蜂和\",并把后半句改为 PLoS 口径,如:\"在冬季温和的地方(如英国城市),欧洲熊蜂甚至出现冬季仍在活动的蜂群\";若想保留热带熊蜂,须补引记载新热带熊蜂(如 Bombus atratus/pauloensis)多年生蜂群的专门来源"
+        }
+      ],
+      "checkedClaims": [
+        {
+          "claim": "蜜蜂属:采集、酿造、封盖、储存,靠储蜜撑过缺花的季节——温带是冬天,热带是断蜜的旱雨季",
+          "result": "支持:总述与流程由 Wikipedia Honey 支持(lean periods,越冬为例示);热带旱雨季为例示性展开,按已知养蜂知识核对成立",
+          "evidence": "Wikipedia Honey: \"bees stockpile honey... during lean periods, as in overwintering\";采集—酶转化—扇风浓缩—蜡封盖全流程"
+        },
+        {
+          "claim": "熊蜂把花蜜存进巢里的蜡罐;存量小,通常只够蜂群吃上几天",
+          "result": "支持",
+          "evidence": "Wikipedia Bumblebee: honeypots/蜡罐储存;\"Unlike honeybees, bumblebees only store a few days' worth of food, so are much more vulnerable to food shortages\""
+        },
+        {
+          "claim": "在温带,熊蜂蜂群通常一年一代,秋末解散、只有新蜂王越冬,因此不需要大宗过冬存粮(r27 issue 修复:删\"不封盖/不像蜂蜜那样浓缩\",并限定温带)",
+          "result": "支持:r27 所指两个无来源短语已删;\"在温带\"限定与来源一致",
+          "evidence": "Wikipedia Bumblebee: \"Nests in temperate regions last only for a single season and do not survive the winter\";PLoS 2010: \"Colonies perish in the autumn and only newly mated queens survive the winter by hibernating\""
+        },
+        {
+          "claim": "暖冬地区的欧洲熊蜂(冬季活动)",
+          "result": "支持(措辞见 issues):补引的 PLoS 2010 确证英国南部暖冬城市冬季活动的 B. terrestris",
+          "evidence": "PLoS 2010: \"foraging bumblebees, Bombus terrestris (L.), have been repeatedly observed during winters in southern England\";\"linked to warmer winters in recent years... urban heat islands\""
+        },
+        {
+          "claim": "独居蜂(壁蜂、切叶蜂、木蜂)不酿蜜;蜂粮—产卵—封巢室,幼虫吃口粮长大",
+          "result": "支持(r27 已核,文本未变)",
+          "evidence": "Wikipedia Mason bee: \"Solitary bees produce neither honey nor beeswax\";Wikipedia Megachile: 供粮、产卵、封室、幼虫取食"
+        }
+      ]
+    }
+  ]
+}

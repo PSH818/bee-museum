@@ -1,0 +1,101 @@
+{
+  "lens": "compliance",
+  "round": 28,
+  "reviewedAt": "2026-09-08T09:40:00.000Z",
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉丰富,饱黄色。",
+          "problem": "[可选] \"饱黄色\"不是通行的颜色词,疑为笔误或生造词,读者(尤其小学读者)无法确定所指。",
+          "suggestion": "[可选] 改为来源可支撑的通行说法,如\"鲜黄色\"或\"金黄色\";若原意是\"饱和的黄色\",直接写\"黄色鲜亮\"更白话。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "所以一岁以下的婴儿不能喂食蜂蜜。",
+          "problem": "[可选] 安全提示的年龄界限(一岁以下)与理由(可能含休眠的肉毒杆菌芽孢)均准确,\"可能有\"留了余地、语气不吓人,合规;唯句式\"婴儿不能喂食蜂蜜\"的施动者略含混,严格读可解成\"婴儿不能拿蜂蜜喂别人\"。",
+          "suggestion": "[可选] 改为\"所以不要给一岁以下的婴儿喂食蜂蜜\",施动方向更清楚。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至乳黄;极易结晶,结晶细腻呈脂状。",
+          "problem": "[可选] 馆方删去了上轮存疑的\"味微辛\"(处理正当),但删除后风味维度既无描述也无\"未找到\"标注;色泽、结晶两项俱在,属单一维度缺位,不构成否决,但与蓝莓卡、三叶草卡的口径不齐。",
+          "suggestion": "[可选] 若风味确无可用来源,按全馆口径补一句\"其风味,本馆尚未找到足以展出的系统资料\";若 Die Honigmacher 等来源有风味描述,亦可择要补入并挂来源。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它的色泽与风味分级,本馆尚未找到足以展出的系统资料。",
+          "problem": "[可选] \"未找到\"口径句已按要求补入,数字改为\"约 0.7–1.4 公斤\"区间并保留\"据……资料\"归因,\"通常指洋槐\"限定到位——上轮否决点均已修复。唯口径句多了\"分级\"二字,与全馆统一句式(蓝莓卡、三叶草卡均为\"它的色泽与风味,本馆尚未找到……\")不一致,且\"未找到分级资料\"与\"未找到色泽风味资料\"含义不同,易生歧义;结晶一项也未覆盖。",
+          "suggestion": "[可选] 删去\"分级\"二字,与全馆口径句对齐;若结晶亦无资料,可写\"它的色泽、结晶与风味,本馆尚未找到足以展出的系统资料\"。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

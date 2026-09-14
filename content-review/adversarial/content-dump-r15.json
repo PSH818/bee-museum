@@ -1,0 +1,489 @@
+{
+  "generatedAt": "2026-08-25T07:14:01.422Z",
+  "round": 15,
+  "baseRound": null,
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-haplodiploidy",
+      "title": "Haplodiploidy",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Haplodiploidy",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bee-brood",
+      "title": "Bee brood",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bee_brood",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-queen-bee",
+      "title": "Queen bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Queen_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-drone-bee",
+      "title": "Drone (bee)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Drone_(bee)",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-pupa",
+      "reviewStatus": "draft",
+      "name": "封盖与化蛹",
+      "short": "蛹",
+      "phase": "pupa",
+      "span": {
+        "from": 9,
+        "to": 21
+      },
+      "spanText": "第 9–21 天",
+      "summary": "封盖之后,幼虫在巢房里吐丝作茧、化为蛹,身体在蛹壳内重组成成虫的模样。约第 21 天,成蜂咬破蜡盖和茧,爬出巢房。",
+      "detail": "从封盖到出房约 12 天(其中蛹期约 10 天),是整个发育中最长的一段。三种职型走着不同的时间表:蜂王约 16 天出房,工蜂约 21 天,雄蜂约 24 天。场景中巢房蜡盖做了半透明剖视处理,真实的封盖巢房是看不到里面的。",
+      "related": [
+        {
+          "kind": "compare",
+          "id": "apis-mellifera",
+          "label": "三职型比较台"
+        },
+        {
+          "kind": "focus",
+          "id": "wing",
+          "label": "成蜂的翅"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-bee-brood",
+        "src-wikipedia-worker-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-nurse",
+      "reviewStatus": "draft",
+      "name": "哺育幼虫",
+      "short": "哺育",
+      "phase": "adult",
+      "span": {
+        "from": 23,
+        "to": 33
+      },
+      "spanText": "出房后第 3–12 天(第 23–33 天)",
+      "summary": "哺育蜂用头部腺体分泌的乳状食物(与蜂王浆同源,常称“工蜂浆”)喂养幼虫;其中一部分(约出房后第 7–11 天)也会给蜂王喂食、梳理体表。",
+      "detail": "哺育蜂一次次把头探进巢房查看和投喂;幼虫在约 6 天的幼虫期里体重增长极快。前三天所有幼虫都吃蜂王浆,之后只有蜂王幼虫继续吃。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-proboscis",
+          "label": "口器"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-builder",
+      "reviewStatus": "draft",
+      "name": "筑巢与储存",
+      "short": "筑巢",
+      "phase": "adult",
+      "span": {
+        "from": 33,
+        "to": 39
+      },
+      "spanText": "出房后第 13–18 天(第 33–39 天)",
+      "summary": "腹部的蜡腺开始分泌蜡片,工蜂用它筑造和修补巢房,并把外勤蜂带回的花蜜和花粉接手储存。",
+      "detail": "花蜜在巢内经工蜂反复传递、加入酶并蒸发水分,最终酿成蜂蜜——这一段会在蜂蜜工坊里展开。场景中新造的巢房以浅色区分。",
+      "related": [
+        {
+          "kind": "focus",
+          "id": "abdomen",
+          "label": "腹部"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-guard",
+      "reviewStatus": "draft",
+      "name": "守卫巢门",
+      "short": "守卫",
+      "phase": "adult",
+      "span": {
+        "from": 39,
+        "to": 42
+      },
+      "spanText": "出房后第 18–21 天(第 39–42 天)",
+      "summary": "螫针发育成熟后,一部分工蜂在巢门口值守,检查进出者、抵御入侵。",
+      "detail": "一般认为并非每只工蜂都会经历守卫阶段;分工会随蜂群的需要调整,有的工蜂会提前或推后转为外勤。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-sting",
+          "label": "螫针"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-forager",
+      "reviewStatus": "draft",
+      "name": "外勤采集",
+      "short": "采集",
+      "phase": "adult",
+      "span": {
+        "from": 42,
+        "to": 63
+      },
+      "spanText": "出房后第 21 天起(第 42 天起)",
+      "summary": "此后工蜂离开巢内工作,成为外勤蜂:常飞到约 3 公里外(据记载有时更远)采集花蜜、花粉、蜂胶和水,直到生命结束。",
+      "detail": "夏季工蜂通常只活 2–6 周;秋天出生的越冬蜂在巢内结团过冬,可活到约 20 周。除蜂王外,一个蜂群的工蜂大约每四个月就整体更替一遍。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-corbicula",
+          "label": "花粉筐"
+        },
+        {
+          "kind": "focus",
+          "id": "leg",
+          "label": "六足"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-emerge",
+      "reviewStatus": "draft",
+      "name": "春天出巢",
+      "short": "出巢",
+      "phase": "emerge",
+      "span": {
+        "from": 0,
+        "to": 0.3
+      },
+      "spanText": "4 月前后",
+      "summary": "越冬的成蜂咬破茧和泥隔,从巢管里钻出来。雄蜂先出,在巢口附近徘徊;雌蜂晚几天出来(不同资料从两三天到约一周),随即交配。",
+      "detail": "在原产地东亚(日本、朝鲜半岛、中国等)与引入地北美,出巢时间大致在 4 月,恰在苹果开花之前——这是它被用来给苹果园授粉的主要原因之一。美国的飞行记录从 3 月到 6 月都有,以 4 月最多。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "osmia-cornifrons",
+          "label": "角额壁蜂物种卡"
+        },
+        {
+          "kind": "organ",
+          "id": "organ-osmia-horns",
+          "label": "脸上的角"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee",
+        "src-exotic-bee-id"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-egg",
+      "reviewStatus": "draft",
+      "name": "卵",
+      "short": "卵",
+      "phase": "egg",
+      "span": {
+        "from": 1,
+        "to": 1.4
+      },
+      "spanText": "5 月",
+      "summary": "卵产在花粉团上,长度约为雌蜂体长的十分之一。孵化后,幼虫就趴在这团食物上开吃。",
+      "detail": "独居蜂的幼虫没有哺育蜂照料,雌蜂留下的这一团花粉和花蜜就是它从孵化到结茧的全部食物。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-cocoon",
+      "reviewStatus": "draft",
+      "name": "结茧与化蛹",
+      "short": "结茧",
+      "phase": "cocoon",
+      "span": {
+        "from": 2.8,
+        "to": 5.5
+      },
+      "spanText": "6–9 月",
+      "summary": "吃完花粉团的幼虫吐丝作茧,在茧里化蛹。夏天里,蛹在茧内逐渐变成成虫的模样。",
+      "detail": "据记载,成虫在秋季或冬季就已在茧内发育完成,但并不出来。场景中的茧做了半透明剖视处理,真实的茧是不透明的。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-osmia-cornifrons"
+      ]
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "kind": "branch",
+      "story": "一根巢管里的一年",
+      "id": "branch-osmia-solitary",
+      "reviewStatus": "draft",
+      "title": "没有蜂王,也没有工蜂",
+      "text": "每一只雌蜂都能生育,各自筑巢、各自为后代备好食物,互不合作。所谓“独居蜂”,指的正是这一点。它们也不会像蜜蜂那样成群护巢,被打扰时通常只是飞走;但雌蜂仍有螫针,用手抓捏仍可能被刺——观察时请不要触碰,更不要把手指伸进巢管。",
+      "sourceIds": [
+        "src-wikipedia-mason-bee"
+      ]
+    }
+  ]
+}

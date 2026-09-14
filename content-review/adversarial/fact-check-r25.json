@@ -1,0 +1,134 @@
+{
+  "lens": "fact-check",
+  "round": 25,
+  "reviewedAt": "2026-08-31T08:20:00.000Z",
+  "sourceAccess": [
+    { "sourceId": "src-honigmacher-raps", "url": "https://www.die-honigmacher.de/kurs2/pflanze_8.html", "fetched": true, "note": "本轮重抓成功。'Nektar: sehr reichhaltiges Nektarangebot'逐字确认;页面无花蜜可及性/蜜腺位置记载(与 r23/r24 结论一致)。" },
+    { "sourceId": "src-sun-2021-blueberry", "url": "https://doi.org/10.21273/HORTSCI15714-21", "fetched": false, "note": "本轮多路径尝试:DOI 重定向至 journals.ashs.org 返回 403;downloadpdf 路径返回 JS 门控页(需浏览器);Crossref API 与 Semantic Scholar API 元数据抓取成功——作者六人(Sun, Qi 等)均无所属机构信息,摘要确认三种蜂(B. terrestris / A. cerana / A. mellifera)与温室 'Bluecrop' 高丛蓝莓,摘要与公开元数据均无试验地点。全文本轮仍未能核对。" },
+    { "sourceId": "src-usda-robinia", "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:北美花期 'late April to mid-June'。" },
+    { "sourceId": "src-sare-osmia-blueberry", "url": "https://projects.sare.org/project-reports/one05-049/", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:'they usually contact the flowers' anthers and stigmas on every visit'。" },
+    { "sourceId": "src-mcgregor-1976-alfalfa", "url": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html", "fetched": false, "note": "本轮未重抓,沿用 r24 定向复查记录:'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa.'" },
+    { "sourceId": "src-ifas-megachile", "url": "https://ask.ifas.ufl.edu/publication/IN1452", "fetched": false, "note": "本轮未重抓,沿用 r23 抓取记录:'two to four times more effective than using honey bees'。" },
+    { "sourceId": "src-greenleaf-2006-sunflower", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/", "fetched": false, "note": "本轮未重抓,沿用 r24 复查记录:加州北部中央谷地制种田、蜜蜂单次访花效率不高、野生蜂在场时提高。" },
+    { "sourceId": "src-dewiki-raps", "url": "https://de.wikipedia.org/wiki/Raps", "fetched": false, "note": "本轮未重抓,沿用 r24 逐字记录:'produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg';NECTARY-LOCATION-ABSENT。" },
+    { "sourceId": "src-dewiki-sonnenblume", "url": "https://de.wikipedia.org/wiki/Sonnenblume", "fetched": false, "note": "本轮未重抓,沿用 r24 逐字记录:'Der Nektar hat zur Zeit der Hauptproduktion zwischen 10 und 14 Uhr auch den höchsten Zuckergehalt von 35 %'。" }
+  ],
+  "verdicts": [
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'蜜腺在花基部'已删,summary 改为'它没有深花冠管,花蜜位置浅,几乎所有蜂都够得着'", "result": "已修复(采纳 r24 建议口径:不再定位蜜腺;'没有深花冠管'由十字形四枚离生花瓣的形态记载直接可推,'花蜜位置浅、几乎所有蜂都够得着'是其通俗化推论,与'主要蜜蜂饲料作物、访花者种类很广'的来源记载相容不相悖)", "evidence": "en:Rapeseed/FRPS 十字四瓣形态(r23 已核);Honigmacher(本轮重抓)'sehr reichhaltiges Nektarangebot';Zou 2017 野生传粉者广泛访花(r23 已核)。" },
+        { "claim": "nectar/pollen/花期/近缘种辨析等其余文本未改动", "result": "支持(与 r24 已核结论一致)", "evidence": "en:Rapeseed 'main forage crop for honeybees'、Monofloral honey 口径、FRPS '花期3-4月'、Honigmacher '2. Hälfte April bis Anfang Juni'(均 r23/r24 已核)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'蜜腺在花的基部'已删,改为'没有深的花冠管,花蜜位置浅——这是一朵向所有蜂开放的花,访花者种类很广'", "result": "已修复(与卡片层同一处理;'访花者种类很广'有 Zou 2017 野生蜂佐证)", "evidence": "en:Rapeseed 十字四瓣、离生花瓣(r23 已核);Zou 2017(r23 已核)。" },
+        { "claim": "直径约10–17毫米(不同资料略有差异);自交亲和+中国小农田研究结论", "result": "支持(文本未改,r24 已核)", "evidence": "en:Rapeseed 'about 17 millimetres across';FRPS '花直径10-15毫米';'self-compatible';Zou 2017。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'花蜜由花基部的蜜腺分泌'已删,改为'泌蜜非常丰富'", "result": "已修复(即 Honigmacher 口径,本轮重抓逐字确认)", "evidence": "Honigmacher(本轮): 'Nektar: sehr reichhaltiges Nektarangebot'。" },
+        { "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间;英国田间研究大部分花蜜未被采走;花粉量大饱黄", "result": "支持(文本未改,r24 已核)", "evidence": "de:Raps '0,4 bis 2,1 mg';Harris 2024 '69% ... uncollected';Honigmacher 'sehr reiches Pollenangebot','satt gelb'。" },
+        { "claim": "雄蕊围着花柱排成一圈", "result": "无法核对(与 r23/r24 结论相同:所引来源无雄蕊排列描述,四强雄蕊的通俗化,不相悖;不作为阻断项)", "evidence": "en:Rapeseed、FRPS、de:Raps 均无。" }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:src-usda-robinia 已补入卡片 sourceIds,北美温带花期 from:4 落到来源", "result": "已修复", "evidence": "USDA Plant Guide(r23 已核): 'late April to mid-June';与 en:Robinia 'May or June' 并存时取并集 4–6 月,有据可依。" },
+        { "claim": "其余文本(花蜜量大含糖高、洋槐蜜性状、7–10天、槐花蜜指洋槐、花粉无可靠公开数据)未改动", "result": "支持(r24 已核;'没有可靠公开数据'系如实声明)", "evidence": "de:Robinie '34 und 59 Prozent'、en:Robinia '7–10 days'、Monofloral honey、FRPS(均 r23 已核)。" }
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "nectar 改为'对多种蜂都是良好的蜜源;田间观测显示,泌蜜多在中午前后最旺'", "result": "支持('各类蜂'弱化为'多种蜂'后落在 NCSU 传粉者标签+PMC 蜜粉资源综述+Monofloral honey 可支撑范围内;'田间观测显示/多'的双重限定使中午泌蜜峰与 de:Sonnenblume 10–14时主产时段记载相容)", "evidence": "de:Sonnenblume(r24 逐字): 'zur Zeit der Hauptproduktion zwischen 10 und 14 Uhr';NCSU 蜜源/传粉者标签、PMC12078318、Monofloral honey(均 r23/r24 已核,均在卡片 sourceIds)。" },
+        { "claim": "其余文本(花粉量大蛋白偏低、7–9月、头状花序结构、单花蜜性状)未改动", "result": "支持(r24 已核)", "evidence": "PMC12078318 'crude protein ... lower scale';FRPS/de:Sonnenblume/NCSU 花期;en:Helianthus annuus;Monofloral honey。" }
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:summary 改为'通常每次访花都会接触花药和柱头的壁蜂',且 src-sare-osmia-blueberry 已补入卡片 sourceIds", "result": "已修复('通常每次'与来源 'usually contact ... on every visit' 的限定词逐字对应)", "evidence": "SARE ONE05-049(r23 已核): 'they usually contact the flowers' anthers and stigmas on every visit'。" },
+        { "claim": "其余文本(蜜腺在花萼基部、孔裂花药、花期、熊蜂重要)未改动", "result": "支持(r24 已核)", "evidence": "de:Kulturheidelbeere 'Am Grund des Kelches ... Nektarien';Buzz pollination;USDA;cnhnb(非权威性质已标注)。" }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'访花时大多会弹开花朵'已删,改为'逐蜂授粉效率远高于蜜蜂',并补引 src-mcgregor-1976-alfalfa", "result": "已修复(采纳 r24 建议口径,与 McGregor 原句逐字对应,频次断言不再出现)", "evidence": "McGregor(r24 逐字): 'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa.'" },
+        { "claim": "西方蜜蜂侧吸不传粉;'不躲这一击';被大量用于苜蓿种子生产;好蜜源差花粉源", "result": "支持('不躲这一击'为 en:Alfalfa 'circumvent these problems ... very efficient pollinator' 的合理转述,r24 已认可)", "evidence": "en:Alfalfa(r24 复查): 'collect the nectar but carry no pollen';'increasingly used';McGregor 'poor source of pollen'。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'而中西部大平原正是美国向日葵的主产区'从句已删", "result": "已修复(现 note 仅剩加州研究指称+本地域无专门记载声明,全部落在 Greenleaf 2006 与如实披露范围内)", "evidence": "Greenleaf 2006(r24 复查): 'honey bees are relatively inefficient sunflower pollinators on a per-visit basis';加州北部中央谷地制种田;evidence=editorial 且'编辑整理'开头。" }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "note 统一为'论文未注明试验地点,本馆未能核实是否在中国,仅供参考'", "result": "支持(本轮重核:Crossref 与 Semantic Scholar 元数据中六位作者均无所属机构,摘要亦无地点——'未注明'在可核对的摘要与公开元数据层面属实;全文因 403/JS 门控未能核对,该不确定性已由'本馆未能核实、仅供参考'如实覆盖,诚实声明不计 uncertain)", "evidence": "本轮 Crossref API + Semantic Scholar API:affiliation 数组为空、摘要仅 'greenhouse-grown' 无地点;Sun 2021 摘要三蜂对比(r23 已核)。" },
+        { "claim": "温室对照研究比较三种蜂对高丛蓝莓的访花与传粉效率(evidence=editorial)", "result": "支持", "evidence": "Sun 2021 摘要(r23 已核,本轮经 Crossref 再次确认): B. terrestris / A. cerana / A. mellifera,'Bluecrop'。" }
+      ],
+      "fix": "可选:若求措辞零风险,可将'论文未注明'再精确为'论文摘要与公开元数据未注明'(全文尚无法在线核对)。不阻断。"
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "note 统一口径'论文未注明试验地点,本馆未能核实是否在中国,仅供参考';东方蜜蜂为三种对比蜂之一", "result": "支持(同 rel-mellifera-blueberry-china-spring:摘要与公开元数据层面'未注明'属实,诚实声明不计 uncertain;A. cerana 确为三对比蜂之一)", "evidence": "本轮 Crossref/Semantic Scholar 元数据;Sun 2021 摘要(r23 已核)。" }
+      ],
+      "fix": "同 rel-mellifera-blueberry-china-spring 的可选精确化,不阻断。"
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "note 统一口径(论文未注明试验地点,仅供参考);欧洲熊蜂为三种对比蜂之一;熊蜂能振动授粉、与孔裂花药匹配", "result": "支持(同前两条;振动授粉断言另有 Buzz pollination 支撑且已引于本条)", "evidence": "本轮 Crossref/Semantic Scholar 元数据;Sun 2021 摘要:B. terrestris 单次落粉为另两种的2–3倍(本轮经元数据摘要再次确认);Buzz pollination(r23 已核)。" }
+      ],
+      "fix": "同 rel-mellifera-blueberry-china-spring 的可选精确化,不阻断。"
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "evidence 由 review 降为 editorial,note 文本未改", "result": "支持(降级方向更保守:note 中属级泛指与智利地域限定 r24 已核为如实,editorial 定级与'属级佐证+域外种级记载'的证据水平匹配)", "evidence": "de:Kulturheidelbeere 熊蜂等野蜂重要作用(属级);Frontiers 2023 智利南部 B. terrestris 管理蜂群;Buzz pollination(均 r23/r24 已核)。" }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        { "claim": "r24 issue 复查:'访花时大多会弹开花朵'已删,note 改为'用它授粉的效果约为用蜜蜂的 2–4 倍(佛罗里达大学资料)'", "result": "已修复(采纳 r24 建议口径,出处限定语与来源一致,频次断言不再出现)", "evidence": "IFAS EENY-820(r23 已核): 'two to four times more effective than using honey bees';en:Alfalfa 'increasingly used';en:M. rotundata 北美引入(均已引于本条)。" }
+      ]
+    }
+  ]
+}

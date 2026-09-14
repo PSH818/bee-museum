@@ -1,0 +1,874 @@
+{
+  "lens": "compliance",
+  "round": 2,
+  "reviewedAt": "2026-08-25T02:00:04Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:「下唇须」「中唇舌」为生僻解剖术语,中小学生无法理解。",
+          "fix": "括注简释,如「下唇须(口器上一对细小的感觉附肢)」「中唇舌(可伸出吸取花蜜的『舌头』)」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:「翅室」「纵脉/横脉」未作简释。",
+          "fix": "改为「翅脉像叶脉一样把翅面分成一格格『翅室』,不同蜂类的分格样式可用来辨认身份」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "工蜂腹部有 6 个可见体节，末端藏有螫针",
+          "problem": "[可选] 3 安全提示:此处提到螫针但无任何安全提示;螫针的安全说明仅在 organ:organ-sting 中。",
+          "fix": "在 fact 末尾追加一句「(野外请勿触碰蜂类;详见『螫针』条目)」,或在界面上确保此处可跳转至螫针条目。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:与 worker/head 同文,生僻术语无简释。",
+          "fix": "同 focus:apis-mellifera-worker/head 的建议,统一修改共享文案。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:与 worker/wing 同文,「翅室」未作简释。",
+          "fix": "同 focus:apis-mellifera-worker/wing 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "末端藏有螫针",
+          "problem": "[可选] 3 安全提示:与 worker/abdomen 同文,提到螫针无安全提示。",
+          "fix": "同 focus:apis-mellifera-worker/abdomen 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "宽大的复眼，是雄蜂最醒目的身份线索",
+          "problem": "[可选] 1 绝对化:「最醒目」为修辞性最高级,可接受,但可加限定。",
+          "fix": "可改为「宽大的复眼,是辨认雄蜂最直观的线索之一」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:共享文案,生僻术语无简释。",
+          "fix": "同 focus:apis-mellifera-worker/head 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:共享文案,「翅室」未作简释。",
+          "fix": "同 focus:apis-mellifera-worker/wing 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "末端藏有螫针",
+          "problem": "[可选] 3 安全提示:共享文案,提到螫针无安全提示。",
+          "fix": "同 focus:apis-mellifera-worker/abdomen 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "雄蜂不采集花粉，也没有螫针——它既不会带回花粉团，也不会螫人。",
+          "problem": "3 安全与健康暗示:面向中小学生直接写「不会螫人」,而普通人在野外几乎无法一眼分辨雄蜂与工蜂,可能诱导孩子以「这是雄蜂」为由去触碰蜂类。",
+          "fix": "改为「雄蜂不采集花粉,也没有螫针。不过野外很难一眼分清雄蜂与工蜂,请不要因此去触碰任何蜂类。」"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死。",
+          "problem": "[可选] 1/2 口径:「会」写成必然行为;实际为可发生的防御行为,宜用「能」并说明是集体防御。",
+          "fix": "改为「面对入侵的胡蜂,东方蜜蜂工蜂能集体结成蜂团把它包住,用体温把它『热死』——这是一种集体防御行为」。"
+        },
+        {
+          "claim": "东方蜜蜂工蜂体型比西方蜜蜂小,腹部有四条黄色环纹;",
+          "problem": "[可选] 8 版式:本条及东方蜜蜂、熊蜂、壁蜂、切叶蜂、木蜂各条使用半角「,」「;」和直引号,而西方蜜蜂各条使用全角「，」「；」,全站标点不统一。",
+          "fix": "公开发布前统一为全角中文标点(，；：「」)。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:共享文案,生僻术语无简释。",
+          "fix": "同 focus:apis-mellifera-worker/head 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:共享文案,「翅室」未作简释。",
+          "fix": "同 focus:apis-mellifera-worker/wing 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "末端藏有螫针",
+          "problem": "[可选] 3 安全提示:共享文案,提到螫针无安全提示。",
+          "fix": "同 focus:apis-mellifera-worker/abdomen 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜂王带着整群离开旧巢,是本土养蜂要面对的日常。",
+          "problem": "[可选] 1/7 表述:「日常」略夸大;「本土」未指明是哪里的本土,对非中国读者含义不清。",
+          "fix": "改为「蜂王带着整群离开旧巢,是中华蜜蜂饲养中常见的挑战」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:共享文案,生僻术语无简释。",
+          "fix": "同 focus:apis-mellifera-worker/head 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:共享文案,「翅室」未作简释。",
+          "fix": "同 focus:apis-mellifera-worker/wing 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "末端藏有螫针",
+          "problem": "[可选] 3 安全提示:共享文案,提到螫针无安全提示。",
+          "fix": "同 focus:apis-mellifera-worker/abdomen 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "宽大复眼、无螫针,和西方蜜蜂雄蜂如出一辙",
+          "problem": "[可选] 1 绝对化:「如出一辙」略夸大,两者仍有可见差异。",
+          "fix": "改为「宽大复眼、无螫针,和西方蜜蜂雄蜂十分相似」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "靠近头部，可以看到大颚、下唇须和可伸出的中唇舌。",
+          "problem": "[可选] 8 受众适配:共享文案,生僻术语无简释。",
+          "fix": "同 focus:apis-mellifera-worker/head 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "纵脉与横脉构成具有辨识价值的翅室网络。",
+          "problem": "[可选] 8 受众适配:共享文案,「翅室」未作简释。",
+          "fix": "同 focus:apis-mellifera-worker/wing 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "末端藏有螫针",
+          "problem": "[可选] 3 安全提示:共享文案,提到螫针无安全提示。",
+          "fix": "同 focus:apis-mellifera-worker/abdomen 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "雄蜂不采集花粉,也没有螫针——既不会带回花粉团,也不会螫人。",
+          "problem": "3 安全与健康暗示:与西方蜜蜂雄蜂条相同,直接写「不会螫人」而无「勿据此触碰蜂类」的提示,对中小学生有诱导风险。",
+          "fix": "改为「雄蜂不采集花粉,也没有螫针。不过野外很难一眼分清雄蜂与工蜂,请不要因此去触碰任何蜂类。」"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "这是蜜蜂做不到的。",
+          "problem": "[可选] 1/5 绝对化与名称:「做不到」为绝对表述;「蜜蜂」此处指蜜蜂属(Apis),宜点明,避免读者把熊蜂也当作「蜜蜂」的一种。",
+          "fix": "改为「而蜜蜂属(家养的西方蜜蜂、东方蜜蜂等)一般不具备这种能力」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "真正能探入深花的是长舌熊蜂,如 Bombus hortorum。",
+          "problem": "[可选] 5/8 名称规范:仅给学名、无中文名,与全站「中文名+学名」的写法不一致,且中小学生读不懂。",
+          "fix": "改为「如长颊熊蜂(Bombus hortorum)」或「如英国常见的『花园熊蜂』Bombus hortorum」,以馆内统一的中文名为准。"
+        },
+        {
+          "claim": "偏好开放或浅冠筒的花",
+          "problem": "[可选] 8 受众适配:「冠筒」为植物学术语,未作简释。",
+          "fix": "改为「偏好花朵开放、花管较浅的花」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它依靠高频扇动与灵活的翅角控制维持飞行",
+          "problem": "[可选] 8 受众适配:「翅角控制」较专业。",
+          "fix": "改为「它依靠快速扇翅并不断调整翅膀角度来维持飞行」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "\"壁蜂\"(英文 mason bee,泥匠蜂)之名一般认为由此而来。",
+          "problem": "[可选] 8 版式:直引号与半角标点,建议统一为中文标点。",
+          "fix": "全站统一使用「」与全角标点。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它是昼行性蜂,白天 6 点到晚 8 点都可能在活动。",
+          "problem": "[可选] 8 受众适配/6 口径:「白天 6 点」表述不清(早 6 点?);「昼行性」无简释。",
+          "fix": "改为「它白天活动(昼行性),从早上 6 点到晚上 8 点都可能出来访花」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "活动季集中在早春果树开花期,雄蜂约四月先羽化。",
+          "problem": "[可选] 7/8 地区口径与术语:「四月」依地区而异,未注明所指地区;「羽化」无简释。",
+          "fix": "改为「活动季集中在早春果树开花期(在日本、北美温带地区约为四月),雄蜂先破茧出巢(羽化)」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "这种腹面携粉方式是切叶蜂科的共同特征。",
+          "problem": "[可选] 1 绝对化:切叶蜂科中的寄生性种类不具集粉毛,「共同特征」宜改为「典型特征」。",
+          "fix": "改为「这种腹面携粉方式是切叶蜂科的典型特征」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "把花粉带在腹面则是切叶蜂科的独门方式。",
+          "problem": "[可选] 1 绝对化:「独门」为绝对表述。",
+          "fix": "改为「把花粉带在腹面,则主要见于切叶蜂科」。"
+        },
+        {
+          "claim": "花粉筐(corbicula)只见于蜜蜂科的少数几族(蜜蜂、熊蜂、无刺蜂、兰花蜂)",
+          "problem": "[可选] 8 受众适配:「族」为分类学层级术语,中小学生不熟悉。",
+          "fix": "改为「只见于蜜蜂科中关系较近的几类蜂(蜜蜂、熊蜂、无刺蜂、兰花蜂)」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "取食时把喙插入苜蓿花的龙骨瓣",
+          "problem": "[可选] 8 受众适配:「龙骨瓣」为植物学术语,无简释。",
+          "fix": "改为「取食时把口器伸进苜蓿花下方船形的花瓣(龙骨瓣)里」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "常在腹部背板后缘形成浅色条带的外观",
+          "problem": "[可选] 8 受众适配:「背板」为解剖术语。",
+          "fix": "改为「常在腹部每一节背面的后缘形成浅色条带」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "管理化饲养时,人们提供成千上万个人工巢孔板,雌蜂会自行进驻筑巢。",
+          "problem": "[可选] 8 受众适配:「管理化饲养」「巢孔板」较生硬。",
+          "fix": "改为「人工饲养时,人们提供布满小孔的巢板(常有成千上万个孔),雌蜂会自己搬进去筑巢」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "会\"发光\"的大蜂",
+          "problem": "[可选] 8 比喻误导:「发光」即使带引号,也可能让低年级读者以为木蜂会像萤火虫一样发光;正文所述为随角度变化的虹彩反光。",
+          "fix": "改为「闪着紫光的大蜂」或「会『变色』的大蜂」,并保留正文对虹彩的解释。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "在光线下转动实物标本或本馆的 3D 模型,能看到光泽随角度变化。",
+          "problem": "9/8 模型说明诚实性:该句向观众承诺「本馆 3D 模型」能呈现随角度变化的光泽,但 organ:organ-xylocopa-wing 的 modelNote 明确说明模型「未表现随角度变化的虹彩」;腹部甲壳的 organ 条目又没有 modelNote 说明材质是否具备该效果。无法从文案判断该承诺是否属实。同时「实物标本」对线上博物馆的观众不可得。",
+          "fix": "核实腹部模型材质是否有随角度变化的光泽:若有,保留并在 organ:organ-xylocopa-integument 补 modelNote 说明「模型以带反光的黑色材质近似,实物光泽更弱/更强」;若无,改为「在光线下转动真实标本,能看到光泽随角度变化;本馆模型以带反光的黑色材质近似,未完整重现这种效果」。并删去对线上观众不可得的「实物标本」承诺或改为「如果有机会看到真实标本」。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂可感知偏振光并以此辅助定向。",
+          "problem": "[可选] 8 受众适配:「偏振光」无简释。",
+          "fix": "改为「蜜蜂能感知天空中人眼看不见的偏振光(光波振动方向的规律),并借此判断方向」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "单眼没有独立锚点,统一挂在 head 锚点下讲解。",
+          "problem": "8 内部制作说明泄漏:「锚点」「挂在 head 锚点下」是前端/3D 实现术语,还夹带英文标识符 head,不应出现在面向公众的模型说明中。",
+          "fix": "改为「模型未单独标出单眼;请在头部标注处查看。实物中,三只单眼位于头顶两复眼之间。」"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-antenna",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "是蜜蜂最重要的化学感知器官。",
+          "problem": "[可选] 1 绝对化:「最重要」为最高级表述,虽为共识,可略加限定。",
+          "fix": "改为「是蜜蜂最主要的化学感知器官(『鼻子』)」。"
+        },
+        {
+          "claim": "膝状触角由柄节、梗节和鞭节构成",
+          "problem": "[可选] 8 受众适配:三个分节名称为专业术语。",
+          "fix": "括注「(像手臂一样分成根部、关节和长长的末段)」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "当前首屏高精度模型未雕刻口器,标注点位于头部下前方的近似位置;程序化标本模型包含简化口器。",
+          "problem": "8 内部制作说明泄漏:「首屏高精度模型」「程序化标本模型」是项目内部对资产的称呼,公众不知所指;应只保留对观众有用的「模型省略了口器、标注点为近似位置」这一诚实说明。",
+          "fix": "改为「本模型未雕刻口器,标注点位于头部下前方的近似位置;实物中口器不用时折叠于头下。」若确有两套模型在不同页面展示,请用观众可见的页面名称指代(如「标本厅的简化模型带有口器」)。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-thorax",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "内部充满间接飞行肌;肌肉通过使胸壁变形驱动翅高频振动。",
+          "problem": "[可选] 8 受众适配:「间接飞行肌」概念较难,现有解释尚可,可再通俗一点。",
+          "fix": "改为「内部塞满飞行肌,这些肌肉并不直接拉动翅膀,而是让胸壁快速变形,从而带动翅膀高频振动」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-forewing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "容纳蜜胃、消化道等结构;工蜂腹面还有蜡腺",
+          "problem": "[可选] 8 受众适配:「蜜胃」「蜡腺」无简释。",
+          "fix": "改为「容纳储存花蜜的蜜胃(『蜜囊』)、消化道等;工蜂腹面还有分泌蜂蜡的蜡腺」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-sting",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "被螫后尽快移除螫针,出现过敏反应应立即就医。",
+          "problem": "[可选] 3 安全提示:已含保持距离与就医提示,合格;可补充移除方法,避免挤压毒囊。",
+          "fix": "改为「被螫后尽快用指甲或卡片边缘刮掉螫针(不要用手捏),出现呼吸困难、大面积肿胀等过敏反应应立即就医」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂属等蜂类特有。",
+          "problem": "[可选] 1 绝对化:「特有」加「等」显得含糊。",
+          "fix": "改为「主要见于蜜蜂、熊蜂等少数蜜蜂科成员」,与 focus:osmia-cornifrons-worker/leg 的说法一致。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "前足基跗节具半圆形凹口,与胫节距配合形成触角清洁器",
+          "problem": "[可选] 8 受众适配:「基跗节」「胫节距」为专业术语,无简释。",
+          "fix": "改为「前足靠近『脚掌』的一节有一个半圆形缺口,与小腿末端的一根刺状突起配合,像小夹子一样刮过触角」。"
+        },
+        {
+          "claim": "latinName: antenna cleaner",
+          "problem": "[可选] 5 名称规范:latinName 字段填的是英文而非拉丁名(同类情况还有 pile、clypeal horns、tergal fasciae、metallic cuticle、buzz pollination 等)。若界面把该字段标注为「拉丁名/学名」,会误导读者。",
+          "fix": "界面上将该字段标签改为「术语」或「英文/拉丁术语」,或补充真正的拉丁名(如 strigilis)。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "黑黄白的分带是警戒色",
+          "problem": "[可选] 2 确定性口径:警戒色属功能解释,宜加「一般认为」。",
+          "fix": "改为「黑黄白的分带一般认为是警戒色(提醒捕食者『我会螫』)」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "声震取粉;蜜蜂不具备此行为。",
+          "problem": "[可选] 1/5 绝对化与名称:「不具备」为绝对表述;「蜜蜂」宜点明为蜜蜂属。",
+          "fix": "改为「声震取粉;蜜蜂属(Apis)一般不具备此行为」。"
+        },
+        {
+          "claim": "温室番茄授粉产业正建立在这一能力上。",
+          "problem": "[可选] 1 表述:略夸大,可改为「广泛依赖」。",
+          "fix": "改为「温室番茄授粉广泛依赖这一能力」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "这是切叶蜂科的共同特征",
+          "problem": "[可选] 1 绝对化:切叶蜂科中的寄生性种类无集粉毛。",
+          "fix": "改为「这是切叶蜂科的典型特征」。"
+        },
+        {
+          "claim": "castes: [\"worker\"]",
+          "problem": "[可选] 5 名称规范:独居蜂条目的 castes 标为 worker,若界面据此显示「工蜂」,将违反「独居蜂用『雌蜂』」的规范。",
+          "fix": "确认界面在独居蜂页面把该值渲染为「雌蜂」,或在数据中新增 female 职型值。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "当前模型未雕刻角突,以头部锚点讲解。",
+          "problem": "8 内部制作说明泄漏:「锚点」「讲解」是制作侧用语,对观众不友好;省略本身的诚实说明应保留。",
+          "fix": "改为「本模型未雕刻角突;请在头部标注处查看。实物中它位于雌蜂脸部下方、两触角之间。」"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "当前模型未单独雕刻大颚,以口器锚点讲解。",
+          "problem": "8 内部制作说明泄漏:「锚点」「讲解」为制作侧用语。",
+          "fix": "改为「本模型未单独雕刻大颚;标注点放在口器附近。」"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "当前模型未单独雕刻大颚,以口器锚点讲解。",
+          "problem": "8 内部制作说明泄漏:「锚点」「讲解」为制作侧用语。",
+          "fix": "改为「本模型未单独雕刻大颚;标注点放在口器附近。」"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "锚点借用后翅根部(临近腹部前段背面)。",
+          "problem": "8/9 内部制作说明泄漏与模型诚实性:「锚点借用」是实现说明;此外「腹部白毛带」被挂在「翅」焦点与后翅锚点下,观众在翅页面看到腹部器官会困惑,说明文字需用观众视角解释这一错位。",
+          "fix": "改为「模型中此处的标注位于后翅根部附近;实际的白毛带在腹部背面每一节的后缘,请对照腹部视角观察。」并考虑把该条目移到「腹部」焦点。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "(无 modelNote)",
+          "problem": "[可选] 9 模型说明诚实性:focus:xylocopa-violacea-worker/abdomen 承诺转动模型可见光泽变化,本条目却无 modelNote 说明模型材质如何近似这种光泽。",
+          "fix": "补充 modelNote,如「模型以带反光的黑色材质近似,光泽强弱与实物有差异」。"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "verdict": "fail",
+      "issues": [
+        {
+          "claim": "当前模型未单独雕刻大颚,以口器锚点讲解。",
+          "problem": "8 内部制作说明泄漏:「锚点」「讲解」为制作侧用语。",
+          "fix": "改为「本模型未单独雕刻大颚;标注点放在口器附近。」"
+        }
+      ]
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-body-length",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-role",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "dimension: 群体规模 / worker: 数千至一万余只 / queen: 通常一群一王 / drone: 季节性存在",
+          "problem": "[可选] 8 受众适配:三个单元格回答的不是同一个问题(数量/数量/存在时段),表格逻辑略跳。",
+          "fix": "drone 改为「数百只,仅繁殖季存在」或将维度名改为「群内数量」。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-mellifera",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "现随养蜂业遍布全球",
+          "problem": "[可选] 1 绝对化:「遍布全球」宜加限定。",
+          "fix": "改为「现随养蜂业几乎遍布全球(南极洲除外)」。"
+        },
+        {
+          "claim": "全球养蜂业与农业授粉最主要的蜂种,也是研究最充分的蜜蜂",
+          "problem": "[可选] 1 绝对化:两个最高级,属共识,可保留,但建议其一加「之一」。",
+          "fix": "改为「全球养蜂业与农业授粉最主要的蜂种,也是研究最充分的蜂类之一」。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "对胡蜂等天敌有独特的集体防御行为。",
+          "problem": "[可选] 1 绝对化:「独特」为绝对表述,西方蜜蜂部分亚种亦有类似行为。",
+          "fix": "改为「对胡蜂等天敌有显著的集体防御行为」。"
+        }
+      ]
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "作为温室授粉蜂被广泛引入世界各地",
+          "problem": "[可选] 7 引入物种表述:现表述中立,但可补一句其在部分地区的生态影响,使引入物种表述更完整、不显得只有正面。",
+          "fix": "改为「作为温室授粉蜂被广泛引入世界各地;在部分引入地已在野外建立种群,其生态影响受到关注」。"
+        },
+        {
+          "claim": "番茄等温室作物高度依赖它。",
+          "problem": "[可选] 1 表述:略强,可改为「广泛使用」。",
+          "fix": "改为「番茄等温室作物的授粉广泛依赖它」。"
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm: 8–12",
+          "problem": "[可选] 5 名称规范:独居蜂条目使用 workerBodyLengthMm 字段名;若界面标签为「工蜂体长」则违反「独居蜂用『雌蜂』」规范。",
+          "fix": "确认独居蜂页面该行标签渲染为「雌蜂体长」。"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿制种业最重要的授粉蜂。",
+          "problem": "[可选] 1 绝对化:最高级表述,属共识,可加「之一」或「北美」限定。",
+          "fix": "改为「北美苜蓿制种业最重要的授粉蜂之一」。"
+        },
+        {
+          "claim": "workerBodyLengthMm: 6–9",
+          "problem": "[可选] 5 名称规范:独居蜂条目使用 workerBodyLengthMm 字段名,界面标签须为「雌蜂体长」。",
+          "fix": "同 species:osmia-cornifrons 的建议。"
+        }
+      ]
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm: 20–28",
+          "problem": "[可选] 5 名称规范:独居蜂条目使用 workerBodyLengthMm 字段名,界面标签须为「雌蜂体长」。",
+          "fix": "同 species:osmia-cornifrons 的建议。"
+        }
+      ]
+    }
+  ]
+}

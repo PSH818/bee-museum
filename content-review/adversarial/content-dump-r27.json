@@ -1,0 +1,1188 @@
+{
+  "generatedAt": "2026-09-08T01:08:15.332Z",
+  "round": 27,
+  "baseRound": null,
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-haplodiploidy",
+      "title": "Haplodiploidy",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Haplodiploidy",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bee-brood",
+      "title": "Bee brood",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bee_brood",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-queen-bee",
+      "title": "Queen bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Queen_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-drone-bee",
+      "title": "Drone (bee)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Drone_(bee)",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey",
+      "title": "Honey",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey",
+      "accessedOn": "2026-09-08",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honey",
+      "title": "Honey (food)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/honey",
+      "accessedOn": "2026-09-08",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-trophallaxis",
+      "title": "Trophallaxis",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Trophallaxis",
+      "accessedOn": "2026-09-08",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-royal-jelly",
+      "title": "Royal jelly",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Royal_jelly",
+      "accessedOn": "2026-09-08",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-beeswax",
+      "title": "Beeswax",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Beeswax",
+      "accessedOn": "2026-09-08",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-rapeseed",
+      "title": "Rapeseed",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Rapeseed",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-frps-brassica-napus",
+      "title": "中国植物志:欧洲油菜 Brassica napus",
+      "organization": "植物智 iplant.cn / 中国科学院植物研究所",
+      "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Brassica%20napus",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-honigmacher-raps",
+      "title": "Raps (Brassica napus) Pflanzensteckbrief",
+      "organization": "Die Honigmacher(德国养蜂教学网站)",
+      "url": "https://www.die-honigmacher.de/kurs2/pflanze_8.html",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-harris-2024-osr-nectar",
+      "title": "Floral resource wastage: Most nectar produced by oilseed rape is not collected by insects (Ecology and Evolution, 2024)",
+      "organization": "PMC / Wiley",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-zou-2017-osr-china",
+      "title": "Wild pollinators enhance oilseed rape yield in small-holder farms in China (BMC Ecology, 2017)",
+      "organization": "PMC / BMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-westphal-2009-osr",
+      "title": "Mass flowering oilseed rape improves early colony growth but not sexual reproduction of bumblebees (Journal of Applied Ecology, 2009)",
+      "organization": "Wiley",
+      "url": "https://doi.org/10.1111/j.1365-2664.2008.01580.x",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-liu-2017-cerana-osr",
+      "title": "Effects of Chinese honeybee foraging on oilseed rape gene flow and honey ingredients (Journal of Agricultural Science, 2017)",
+      "organization": "Cambridge University Press",
+      "url": "https://www.cambridge.org/core/journals/journal-of-agricultural-science/article/abs/effects-of-chinese-honeybee-foraging-on-oilseed-rape-gene-flow-and-honey-ingredients/8036AF6224BB902330AFC1D3DDDBA31B",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-black-locust",
+      "title": "Robinia pseudoacacia",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Robinia_pseudoacacia",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-zhwiki-robinia",
+      "title": "刺槐(中文维基百科)",
+      "organization": "Wikimedia Foundation(zh 维基百科)",
+      "url": "https://zh.wikipedia.org/wiki/%E5%88%BA%E6%A7%90",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-frps-robinia",
+      "title": "中国植物志:刺槐 Robinia pseudoacacia",
+      "organization": "植物智 iplant.cn / 中国科学院植物研究所",
+      "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Robinia%20pseudoacacia",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-robinie",
+      "title": "Gewöhnliche Robinie(德文维基百科)",
+      "organization": "Wikimedia Foundation(de 维基百科)",
+      "url": "https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-usda-robinia",
+      "title": "Plant Guide: Black Locust (Robinia pseudoacacia)",
+      "organization": "USDA NRCS",
+      "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_rops.pdf",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-mo-2025-cerana-acacia-honey",
+      "title": "Chemical composition profiles of Apis cerana produced acacia (Robinia pseudoacacia) honey (European Food Research and Technology, 2025)",
+      "organization": "Springer Nature",
+      "url": "https://link.springer.com/article/10.1007/s00217-025-04800-3",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-monofloral-honey",
+      "title": "Monofloral honey",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Monofloral_honey",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-sunflower",
+      "title": "Helianthus annuus",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Helianthus_annuus",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-frps-helianthus",
+      "title": "中国植物志:向日葵 Helianthus annuus",
+      "organization": "植物智 iplant.cn / 中国科学院植物研究所",
+      "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Helianthus%20annuus",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-sonnenblume",
+      "title": "Sonnenblume(德文维基百科)",
+      "organization": "Wikimedia Foundation(de 维基百科)",
+      "url": "https://de.wikipedia.org/wiki/Sonnenblume",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-ncsu-sunflower",
+      "title": "Helianthus annuus — Plant Toolbox",
+      "organization": "NC State Extension",
+      "url": "https://plants.ces.ncsu.edu/plants/helianthus-annuus/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-raja-2025-sunflower",
+      "title": "Yield enhancement in sunflower through melittophily in tropical conditions (Indian Journal of Entomology, 2025)",
+      "organization": "Entomological Society of India",
+      "url": "https://indianentomology.org/index.php/ije/article/download/3523/1957",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-greenleaf-2006-sunflower",
+      "title": "Wild bees enhance honey bees' pollination of hybrid sunflower (PNAS, 2006)",
+      "organization": "PMC / PNAS",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-ozbek-2013-xylocopa",
+      "title": "New Data on Large Carpenter-bees of Turkey with Considerations about Their Importance as Pollinators (J. Entomol. Res. Soc., 2013)",
+      "organization": "Entomological Research Society",
+      "url": "https://www.entomol.org/journal/index.php/JERS/article/view/537",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-pmc-sunflower-nutrition",
+      "title": "A guide to sunflowers: floral resource nutrition for bee health (2025)",
+      "organization": "PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12078318/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-highbush-blueberry",
+      "title": "Vaccinium corymbosum",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-usda-vaccinium",
+      "title": "Plant Guide: Highbush Blueberry (Vaccinium corymbosum)",
+      "organization": "USDA NRCS",
+      "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-kulturheidelbeere",
+      "title": "Kulturheidelbeere(德文维基百科)",
+      "organization": "Wikimedia Foundation(de 维基百科)",
+      "url": "https://de.wikipedia.org/wiki/Kulturheidelbeere",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wildflower-vaco",
+      "title": "Vaccinium corymbosum (Highbush Blueberry)",
+      "organization": "Lady Bird Johnson Wildflower Center",
+      "url": "https://www.wildflower.org/plants/result.php?id_plant=VACO",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-msu-blueberry-pollination",
+      "title": "Blueberries Require Pollination (Michigan Blueberry Pollination Factsheet)",
+      "organization": "Michigan State University",
+      "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-sun-2021-blueberry",
+      "title": "Differences in Pollination Efficiency Among Three Bee Species in a Greenhouse and Their Effects on Yield and Fruit Quality of Northern Highbush Blueberry (HortScience, 2021)",
+      "organization": "American Society for Horticultural Science",
+      "url": "https://doi.org/10.21273/HORTSCI15714-21",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-sare-osmia-blueberry",
+      "title": "Evaluating hornfaced bees (Osmia cornifrons) as pollinators of highbush blueberry",
+      "organization": "SARE / USDA",
+      "url": "https://projects.sare.org/project-reports/one05-049/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-frontiers-2023-blueberry",
+      "title": "Pollination by native bees achieves high fruit quantity and quality of highbush blueberry (Frontiers in Sustainable Food Systems, 2023)",
+      "organization": "Frontiers",
+      "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-cnhnb-blueberry",
+      "title": "蓝莓几月份开花?花期要做好哪些管理要点?(农技文章,非权威)",
+      "organization": "惠农网 农技学堂",
+      "url": "https://www.cnhnb.com/xt/article-111533.html",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-white-clover",
+      "title": "Trifolium repens",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Trifolium_repens",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-frps-trifolium-repens",
+      "title": "中国植物志:白车轴草 Trifolium repens",
+      "organization": "植物智 iplant.cn / 中国科学院植物研究所",
+      "url": "https://www.iplant.cn/ashx/getfrps.ashx?key=Trifolium%20repens",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-bsbi-white-clover",
+      "title": "Trifolium repens L., White Clover (Fermanagh species account)",
+      "organization": "Botanical Society of Britain & Ireland",
+      "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-weissklee",
+      "title": "Weißklee(德文维基百科)",
+      "organization": "Wikimedia Foundation(de 维基百科)",
+      "url": "https://de.wikipedia.org/wiki/Wei%C3%9Fklee",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-mnwild-white-clover",
+      "title": "White Clover (Trifolium repens)",
+      "organization": "Minnesota Wildflowers",
+      "url": "https://www.minnesotawildflowers.info/flower/white-clover",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-lavandula-angustifolia",
+      "title": "Lavandula angustifolia",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Lavandula_angustifolia",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-lavandula",
+      "title": "Lavandula",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Lavandula",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-foc-lavandula",
+      "title": "Flora of China: Lavandula angustifolia",
+      "organization": "eFloras.org / Missouri Botanical Garden & Harvard University Herbaria",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200019757",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-pfaf-lavandula",
+      "title": "Lavandula angustifolia",
+      "organization": "Plants For A Future",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Lavandula+angustifolia",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-kozuharova-2022-lavender",
+      "title": "Pollinators of Lavandula angustifolia Mill., an important factor for optimal production of lavender essential oil (BioRisk, 2022)",
+      "organization": "Pensoft",
+      "url": "https://biorisk.pensoft.net/article/77364/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-sussex-lavender-2013",
+      "title": "Research shows bumblebees on lavender have it licked",
+      "organization": "University of Sussex",
+      "url": "https://archive.sussex.ac.uk/broadcast/read/19067",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-balfour-2013-lavender",
+      "title": "Longer tongues and swifter handling: why do more bumble bees (Bombus spp.) than honey bees (Apis mellifera) forage on lavender? (Ecological Entomology, 2013)",
+      "organization": "Wiley / Royal Entomological Society",
+      "url": "https://resjournals.onlinelibrary.wiley.com/doi/10.1111/een.12019",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-xj-weather-lavender-2023",
+      "title": "伊犁州气象局发布薰衣草花期预报(2023)",
+      "organization": "中国天气网 / 伊犁州气象局",
+      "url": "https://xj.weather.com.cn/xjsy/tqyw/3624924.shtml",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-buzzaboutbees-xylocopa",
+      "title": "Violet Carpenter Bee - Xylocopa violacea(爱好者网站,低权威)",
+      "organization": "BuzzAboutBees.net",
+      "url": "https://www.buzzaboutbees.net/violet-carpenter-bee.html",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-alfalfa",
+      "title": "Alfalfa",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Alfalfa",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-foc-medicago",
+      "title": "Flora of China: Medicago sativa",
+      "organization": "eFloras.org / Missouri Botanical Garden & Harvard University Herbaria",
+      "url": "http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200012215",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-pfaf-medicago",
+      "title": "Medicago sativa",
+      "organization": "Plants For A Future",
+      "url": "https://pfaf.org/user/Plant.aspx?LatinName=Medicago+sativa",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-mnwild-alfalfa",
+      "title": "Medicago sativa (Alfalfa)",
+      "organization": "Minnesota Wildflowers",
+      "url": "https://www.minnesotawildflowers.info/flower/alfalfa",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-mcgregor-1976-alfalfa",
+      "title": "Insect Pollination of Cultivated Crop Plants: Alfalfa (McGregor, 1976)",
+      "organization": "USDA Agricultural Research Service",
+      "url": "https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-ifas-megachile",
+      "title": "Alfalfa Leaf-Cutter Bee Megachile rotundata (EENY-820)",
+      "organization": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IN1452",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-raps",
+      "title": "Raps(德文维基百科)",
+      "organization": "Wikimedia Foundation(de 维基百科)",
+      "url": "https://de.wikipedia.org/wiki/Raps",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-clover",
+      "title": "Clover",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Clover",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-gobotany-vaco",
+      "title": "Vaccinium corymbosum — highbush blueberry",
+      "organization": "Go Botany / Native Plant Trust",
+      "url": "https://gobotany.nativeplanttrust.org/species/vaccinium/corymbosum/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-nz-2018-clover-bombus",
+      "title": "Bombus terrestris: a more efficient but less effective pollinator than Apis mellifera across surveyed white clover seed fields (New Zealand Journal of Crop and Horticultural Science, 2018)",
+      "organization": "Taylor & Francis",
+      "url": "https://doi.org/10.1080/01140671.2018.1466341",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-ncsu-lavandula",
+      "title": "Lavandula angustifolia (Common Lavender)",
+      "organization": "NC State Extension",
+      "url": "https://plants.ces.ncsu.edu/plants/lavandula-angustifolia/",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-season",
+      "title": "Season",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Season",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-temperate-climate",
+      "title": "Temperate climate",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Temperate_climate",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-humid-continental",
+      "title": "Humid continental climate",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Humid_continental_climate",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-climate-of-china",
+      "title": "Climate of China",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_China",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-geography-of-beijing",
+      "title": "Geography of Beijing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Beijing",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-shanghai",
+      "title": "Shanghai",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Shanghai",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-europe",
+      "title": "Europe",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Europe",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-geography-of-germany",
+      "title": "Geography of Germany",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Geography_of_Germany",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-climate-of-us",
+      "title": "Climate of the United States",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Climate_of_the_United_States",
+      "accessedOn": "2026-08-26",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "kind": "honey-stage",
+      "id": "honey-stage-gather",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "采集",
+      "title": "采集 · 一切从花蜜开始",
+      "latin": "FORAGING · INTO THE FLOWER",
+      "summary": "外勤蜂把喙伸进花冠,吸取花蜜——蜂蜜的唯一原料。花蜜是花朵分泌的含糖液体,主要成分是蔗糖、葡萄糖、果糖和水,含糖比例随花种差别很大。",
+      "detail": "一只外勤蜂一趟采集会连续拜访许多朵花,直到蜜胃装满才回巢。花蜜位置有深有浅:油菜的花蜜几乎所有蜂都够得着,薰衣草则要看喙的长短——这正是花朵馆里“口器与花冠”故事的另一面。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-proboscis",
+          "label": "喙 · 吸取花蜜的工具"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-britannica-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "kind": "honey-stage",
+      "id": "honey-stage-carry",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "携带",
+      "title": "携带 · 蜜胃不是胃",
+      "latin": "HONEY STOMACH · THE CROP",
+      "summary": "吸进来的花蜜不进消化道,而是存进蜜胃——食道末端一个能胀大的储袋,也叫蜜囊。蜜胃与消化道之间有阀门隔开,采回的花蜜和蜂自己的食物互不相混。",
+      "detail": "归巢路上,加工已经开始:蜜胃里的花蜜混入了蜂头部腺体分泌的酶。真正被这只蜂“吃掉”的,只有经阀门进入消化道的一小部分。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-abdomen",
+          "label": "腹部 · 蜜胃藏在这里"
+        }
+      ],
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-handoff",
+      "kind": "honey-stage",
+      "id": "honey-stage-handoff",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "交接",
+      "title": "交接 · 口对口的传递",
+      "latin": "TROPHALLAXIS · THE HANDOFF",
+      "summary": "回巢后,外勤蜂把蜜胃里的花蜜口对口吐给内勤蜂,这种传递叫交哺。花蜜就此换手:外勤蜂转身再去采集,内勤蜂接着加工。",
+      "detail": "内勤蜂会反复把蜜滴吐出又吸回,在口器上摊成薄膜——既继续混入酶,也让水分开始蒸发。一滴花蜜从进巢到入房,常常经过不止一只蜂的口。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂 · 分工采酿"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-trophallaxis",
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "kind": "honey-stage",
+      "id": "honey-stage-transform",
+      "reviewStatus": "draft",
+      "index": "04",
+      "short": "转化",
+      "title": "转化 · 酶改写糖",
+      "latin": "ENZYMES · SUGARS REWRITTEN",
+      "summary": "腺体分泌的转化酶把花蜜里的蔗糖水解成葡萄糖和果糖——这是蜂蜜以单糖为主的原因;另一种酶(葡萄糖氧化酶)把部分葡萄糖转成葡萄糖酸,并产生微量过氧化氢。",
+      "detail": "这两步让蜜变得偏酸、高渗,微生物难以存活——蜂蜜能长期保存,靠的是化学,不是防腐剂。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "kind": "honey-stage",
+      "id": "honey-stage-condense",
+      "reviewStatus": "draft",
+      "index": "05",
+      "short": "浓缩",
+      "title": "浓缩 · 扇出来的稠度",
+      "latin": "EVAPORATION · FANNING",
+      "summary": "刚采回的花蜜一半以上是水,直接储存会发酵。工蜂把蜜液薄薄摊进巢房,再成群扇动翅膀通风,让水分蒸发。",
+      "detail": "含水量降到大约五分之一以下,花蜜才算酿成了蜂蜜。巢内通风是集体劳动:一部分工蜂专职在巢脾上扇翅,让气流掠过一格格摊着蜜的巢房。",
+      "boundary": "“酿成”的含水量各资料口径略有出入(约 17%–20%);花蜜的初始含水量随花种与天气差别更大。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-forewing",
+          "label": "前翅 · 也是通风工具"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-britannica-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "kind": "honey-stage",
+      "id": "honey-stage-cap",
+      "reviewStatus": "draft",
+      "index": "06",
+      "short": "封盖",
+      "title": "封盖 · 存粮入库",
+      "latin": "CAPPING · SEALED IN WAX",
+      "summary": "蜜酿熟后,工蜂用腹部蜡腺分泌的蜂蜡把巢房口封平。封盖是“这格蜜已酿成”的标志,也是养蜂人判断取蜜时机的依据。",
+      "detail": "封盖之下的蜂蜜是蜂群的存粮:蜜蜂属靠它撑过没有花的冬天。这也是蜜蜂大量储蜜、而多数蜂不储蜜的原因——“谁在酿蜜”一节会展开。",
+      "related": [
+        {
+          "kind": "cycle",
+          "id": "cycle-apis-mellifera-worker",
+          "label": "工蜂的一生 · 酿蜜与筑巢"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-wikipedia-beeswax"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "kind": "honey-variety",
+      "id": "honey-rapeseed",
+      "reviewStatus": "draft",
+      "name": "油菜蜜",
+      "flowerId": "flower-brassica-napus",
+      "traits": "白色至乳黄,味微辛,结晶极快。",
+      "regionNote": "春季大宗蜜种;中国与欧洲的油菜产区皆有出产。",
+      "sourceIds": [
+        "src-honigmacher-raps",
+        "src-dewiki-raps",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "kind": "honey-variety",
+      "id": "honey-black-locust",
+      "reviewStatus": "draft",
+      "name": "洋槐蜜(槐花蜜)",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "traits": "市售“槐花蜜”的槐花指洋槐(刺槐)而非国槐。据德文维基百科引用的养蜂资料估算,一株成年树一个花季分泌的花蜜可供酿出接近 1 公斤蜂蜜。",
+      "regionNote": "中国北方、欧洲(常称“刺槐蜜”)与美国东部。",
+      "sourceIds": [
+        "src-dewiki-robinie",
+        "src-zhwiki-robinia",
+        "src-mo-2025-cerana-acacia-honey",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-sunflower",
+      "kind": "honey-variety",
+      "id": "honey-sunflower",
+      "reviewStatus": "draft",
+      "name": "向日葵蜜",
+      "flowerId": "flower-helianthus-annuus",
+      "traits": "浅黄,葡萄糖比例高,结晶快。",
+      "regionNote": "向日葵种植区的夏季蜜种。",
+      "sourceIds": [
+        "src-pmc-sunflower-nutrition",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-blueberry",
+      "kind": "honey-variety",
+      "id": "honey-blueberry",
+      "reviewStatus": "draft",
+      "name": "蓝莓蜜",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "traits": "产区有以“蓝莓蜜”为名的单花蜜;它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+      "regionNote": "北美等蓝莓集中栽培区。",
+      "sourceIds": [
+        "src-wikipedia-monofloral-honey",
+        "src-cnhnb-blueberry"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "kind": "honey-variety",
+      "id": "honey-clover",
+      "reviewStatus": "draft",
+      "name": "三叶草蜜",
+      "flowerId": "flower-trifolium-repens",
+      "traits": "在北美、新西兰等牧场多的地方,“三叶草蜜”是最常见的单花蜜之一;它主要来自白车轴草等几种车轴草属牧草。",
+      "regionNote": "北美、新西兰等温带牧区。",
+      "sourceIds": [
+        "src-wikipedia-monofloral-honey",
+        "src-mnwild-white-clover",
+        "src-wikipedia-white-clover"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-lavender",
+      "kind": "honey-variety",
+      "id": "honey-lavender",
+      "reviewStatus": "draft",
+      "name": "薰衣草蜜",
+      "flowerId": "flower-lavandula-angustifolia",
+      "traits": "色淡黄;“薰衣草蜜”主产于地中海周边。",
+      "regionNote": "地中海周边薰衣草产区。",
+      "sourceIds": [
+        "src-pfaf-lavandula",
+        "src-kozuharova-2022-lavender",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "kind": "honey-variety",
+      "id": "honey-alfalfa",
+      "reviewStatus": "draft",
+      "name": "苜蓿蜜",
+      "flowerId": "flower-medicago-sativa",
+      "traits": "白色至特浅琥珀色,味淡雅。",
+      "regionNote": "在美国西部,紫花苜蓿是最重要的蜜源植物之一。",
+      "sourceIds": [
+        "src-mcgregor-1976-alfalfa",
+        "src-mnwild-alfalfa",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "kind": "honey-note",
+      "id": "honey-note-royal-jelly",
+      "reviewStatus": "draft",
+      "title": "蜂王浆是什么,又不是什么",
+      "intro": "蜂王浆常和蜂蜜一起被售卖,也常被混在一起理解。它们其实是来源完全不同的两种东西。",
+      "points": [
+        {
+          "label": "是什么",
+          "text": "哺育蜂头部腺体分泌的乳状食物。所有蜜蜂幼虫头三天都吃它;被选作蜂王的幼虫整个幼虫期、以及成年蜂王的一生,都以它为食。"
+        },
+        {
+          "label": "不是什么",
+          "text": "它不是蜂蜜,也不是蜂蜜的原料或“浓缩版”。蜂蜜来自花蜜的采集与加工,蜂王浆来自蜂自身的腺体分泌——一个是蜂群的存粮,一个是育儿的食物。"
+        },
+        {
+          "label": "本馆的边界",
+          "text": "蜂王浆对人的功效不属于本馆的展出范围;这里只讲它在蜂群里的角色。"
+        }
+      ],
+      "related": [
+        {
+          "kind": "cycle",
+          "id": "cycle-apis-mellifera-worker",
+          "label": "工蜂的一生 · 哺育阶段"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-royal-jelly",
+        "src-wikipedia-queen-bee",
+        "src-wikipedia-bee-brood"
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "kind": "honey-note",
+      "id": "honey-note-who-makes-honey",
+      "reviewStatus": "draft",
+      "title": "谁在酿蜜",
+      "intro": "“蜂蜜”几乎成了所有蜂的代名词,但会大量酿蜜储存的只是少数类群。本馆的六种蜂正好是一组对照。",
+      "points": [
+        {
+          "label": "蜜蜂属(西方蜜蜂、东方蜜蜂)",
+          "text": "采集、酿造、封盖、储存,靠储蜜让庞大的蜂群撑过没有花的冬天——本馆讲的酿蜜流程,就是它们的流程。"
+        },
+        {
+          "label": "熊蜂",
+          "text": "也会把花蜜存进巢里的蜡罐,但存量小、不封盖,也不像蜂蜜那样浓缩;熊蜂蜂群一年一代,秋末解散,只有新蜂王越冬,不需要过冬存粮。"
+        },
+        {
+          "label": "独居蜂(壁蜂、切叶蜂、木蜂)",
+          "text": "不酿蜜。雌蜂把花粉和花蜜揉成一团“蜂粮”,放进巢室、产一枚卵、封上巢室——幼虫吃着这份口粮长大,全程没有“蜂蜜”。"
+        }
+      ],
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂"
+        },
+        {
+          "kind": "species",
+          "id": "bombus-terrestris",
+          "label": "欧洲熊蜂"
+        },
+        {
+          "kind": "species",
+          "id": "osmia-cornifrons",
+          "label": "角额壁蜂"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-megachile"
+      ]
+    }
+  ]
+}

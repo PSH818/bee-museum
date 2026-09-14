@@ -1,0 +1,57 @@
+{
+  "lens": "fact-check",
+  "round": 17,
+  "reviewedAt": "2026-08-25T07:29:36Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "status": "ok",
+      "note": "抓取成功。相关原句:\"Nurse bees (days 3–12)\";\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.\";\"Queen attendants (days 7-11)\";\"Queen attendants take care of the queen by feeding and grooming her.\";发育表:Worker \"21 days (range: 18–22 days)\"。未提及幼虫期天数、幼虫体重增长速度、哺育蜂探头查看巢房的行为。"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "status": "ok",
+      "note": "抓取成功。相关原句:\"For the first 10 days of their lives, worker bees clean the hive and feed the larvae.\";\"The egg hatches into a legless, eyeless larva fed by 'nurse' bees ... After about a week, the larva is sealed in its cell by the nurse bees and begins its pupal stage. After another week, it emerges as an adult bee.\" 未提及工蜂浆/蜂王浆的腺体来源、侍奉蜂王的日龄、幼虫体重增长。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "detail:幼虫在约 6 天的幼虫期里体重增长极快。",
+          "problem": "两条来源均未提及幼虫体重增长速度(Worker bee 仅给出出房体重 \"nearly 100 mg\",未给孵化体重或增长倍数);\"体重增长极快\"未加限定词,属未提及且未限定。幼虫期\"约 6 天\"已用\"约\"限定,Western honey bee 的 \"After about a week, the larva is sealed in its cell\" 与之相容,不构成否定。",
+          "evidence": "Worker bee 发育表仅有 \"Hatching Weight: nearly 100 mg\";Western honey bee:\"After about a week, the larva is sealed in its cell by the nurse bees and begins its pupal stage.\"",
+          "fix": "二选一:(a) 补充一条明确给出幼虫增重倍数或增长速度的来源(如 Bee brood 词条或养蜂教材)并加入 sourceIds;(b) 将句子改为可由现有来源支持的表述,例如\"幼虫在约 6 天的幼虫期结束后由哺育蜂封盖,再经约一周化蛹出房\"。"
+        },
+        {
+          "claim": "detail:哺育蜂一次次把头探进巢房查看和投喂。",
+          "problem": "两条来源均未描述哺育蜂反复探头查看、投喂巢房的具体行为,该句无限定词,属未提及且未限定(常识性描述,非错误,但缺来源支撑)。",
+          "evidence": "Worker bee 仅有 \"Nurse bees feed the worker larvae worker jelly ...\";Western honey bee 仅有 \"... larva fed by 'nurse' bees (worker bees who maintain the interior of the colony)\"。",
+          "fix": "加\"据观察/一般\"类限定,或补充描述哺育蜂巡视巢房行为的来源(如 Bee brood 词条);也可精简为\"哺育蜂反复给巢房中的幼虫投喂\"。"
+        }
+      ],
+      "supported": [
+        {
+          "claim": "spanText/span:出房后第 3–12 天哺育幼虫(第 23–33 天)。",
+          "evidence": "Worker bee:\"Nurse bees (days 3–12)\"。换算与同故事\"清洁巢房\"阶段(第 1–2 天 → 21–23)采用相同的半开区间约定(出房日第 21 天记为出房后第 1 天,to 为不含端点),23–33 对应出房后第 3–12 天,内部一致。Western honey bee 的 \"For the first 10 days ... clean the hive and feed the larvae\" 与之相容。"
+        },
+        {
+          "claim": "summary:哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫(常称\"工蜂浆\",与蜂王浆来自同一类腺体)。",
+          "evidence": "Worker bee:\"Nurse bees feed the worker larvae worker jelly, which is secreted from glands that produce royal jelly.\" 支持。"
+        },
+        {
+          "claim": "summary:其中一部分(约出房后第 7–11 天)也会给蜂王喂食、梳理体表。",
+          "evidence": "Worker bee:\"Queen attendants (days 7-11)\";\"Queen attendants take care of the queen by feeding and grooming her.\" 支持。"
+        },
+        {
+          "claim": "上下文:约第 21 天出房。",
+          "evidence": "Worker bee 发育表:Worker \"21 days (range: 18–22 days)\";\"After this 21 day developmental period, the adult bee will chew through its wax cap and cocoon and emerge into the hive\"。支持。"
+        }
+      ]
+    }
+  ]
+}

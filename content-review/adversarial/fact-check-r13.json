@@ -1,0 +1,83 @@
+{
+  "lens": "fact-check",
+  "round": 13,
+  "reviewedAt": "2026-08-25T06:20:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-bombus-terrestris",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "status": "fetched",
+      "note": "Description and identification 节给出工蜂胸长 2.3–6.9 mm、体重 68–754 mg;全文未提及盗蜜(nectar robbing)与头部器官构成。"
+    },
+    {
+      "sourceId": "src-wikipedia-bumblebee",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "status": "fetched",
+      "note": "Feeding 节描述口器(proboscis)及许多熊蜂种类咬穿花冠基部盗蜜;未逐一描述复眼/单眼/触角;未点名 B. terrestris 盗蜜。"
+    },
+    {
+      "sourceId": "src-wikipedia-nectar-robbing",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "status": "fetched",
+      "note": "给出盗蜜定义、熊蜂列为盗蜜者、短舌熊蜂(B. pratorum)够不到长花花蜜、对植物影响有时中性甚至正面。"
+    },
+    {
+      "sourceId": "src-snodgrass-anatomy",
+      "url": null,
+      "status": "not-fetchable",
+      "note": "无 URL,为离线文献(蜜蜂解剖学专著),无法在线核对;仅作为一般头部解剖(复眼、单眼、触角、口器)的背景来源。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "claims": [
+        {
+          "claim": "熊蜂头部由复眼、单眼、触角和口器构成",
+          "judgment": "部分支持(口器)+ 未提及(复眼/单眼/触角)——属一般昆虫头部解剖常识,且已引 Snodgrass 解剖学专著,视为可接受",
+          "evidence": "Bumblebee: \"The bumblebee tongue (the proboscis) is a long, hairy structure that extends from a sheath-like modified maxilla.\" / \"When at rest or flying, the proboscis is kept folded under the head.\""
+        },
+        {
+          "claim": "遇到花冠很深、舌头够不到花蜜的花,熊蜂有时会在花冠基部咬孔取蜜",
+          "judgment": "支持(属级),且已用\"有时\"限定",
+          "evidence": "Bumblebee: \"Many species of bumblebees also exhibit 'nectar robbing': instead of inserting the mouthparts into the flower in the normal way, these bees bite directly through the base of the corolla to extract nectar, avoiding pollen transfer.\" / Nectar robbing: \"Short-tongued bees such as the early bumblebee (Bombus pratorum) are unable to reach the nectar located at the base of long flowers such as comfreys.\""
+        },
+        {
+          "claim": "据记载也包括欧洲熊蜂(Bombus terrestris)",
+          "judgment": "未提及,但已用\"据记载\"限定 → 已恰当限定",
+          "evidence": "Bombus terrestris 与 Bumblebee 两页均未点名 B. terrestris 盗蜜;Nectar robbing 页仅点名 B. pratorum。"
+        },
+        {
+          "claim": "这种行为叫\"盗蜜\"(nectar robbing),只是行为名称,不带贬义",
+          "judgment": "支持",
+          "evidence": "Nectar robbing: \"Nectar robbing is a foraging behavior used by some organisms that feed on floral nectar, carried out by feeding from holes bitten in flowers, rather than by entering through the flowers' natural openings.\" / \"However, the effect of robbery on the plant is sometimes neutral or even positive.\""
+        },
+        {
+          "claim": "同一巢的工蜂胸部大小可差约 3 倍",
+          "judgment": "支持(胸长 6.9/2.3 = 3.0)",
+          "evidence": "Bombus terrestris: \"B. terrestris is unique compared to other bees in that their caste of workers exhibit a wide variation in worker size, with thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg.\""
+        },
+        {
+          "claim": "体重可差近十倍(不同资料 8–11 倍)",
+          "judgment": "支持(754/68 ≈ 11.1,落在所述 8–11 倍区间,且已用\"约/不同资料\"限定)",
+          "evidence": "同上:\"masses ranging from 68 to 754 mg\"。"
+        }
+      ],
+      "issues": [
+        {
+          "claim": "熊蜂头部同样由复眼、单眼、触角和口器构成",
+          "problem": "提示(不影响裁决):可抓取的三个网页来源仅明确描述了口器(proboscis),复眼/单眼/触角依赖离线的 Snodgrass 蜜蜂解剖学专著,未能在线核对。",
+          "evidence": "Bumblebee 页仅有 \"The bumblebee tongue (the proboscis) is a long, hairy structure...\";Bombus terrestris 页未描述头部器官。",
+          "fix": "无需改动正文;如需加强可在 sourceIds 中补充一条可在线访问的昆虫/蜜蜂头部解剖来源(如 Wikipedia \"Insect morphology\" 或 \"Bee\" 页)。"
+        },
+        {
+          "claim": "据记载也包括欧洲熊蜂",
+          "problem": "提示(不影响裁决):所引来源均未点名 Bombus terrestris 盗蜜,目前仅靠\"据记载\"限定托底。",
+          "evidence": "Nectar robbing 页点名的短舌熊蜂为 Bombus pratorum;Bumblebee 页为属级泛述。",
+          "fix": "可补一条明确记录 B. terrestris 盗蜜的来源(如 Bombus terrestris 相关文献),或改为\"熊蜂中有多种会……\"以去掉对特定物种的依赖。"
+        }
+      ]
+    }
+  ]
+}

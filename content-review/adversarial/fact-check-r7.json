@@ -1,0 +1,141 @@
+{
+  "lens": "fact-check",
+  "round": 7,
+  "reviewedAt": "2026-08-25T03:20:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-snodgrass-anatomy",
+      "url": null,
+      "accessed": false,
+      "note": "书籍来源无 URL,未抓取。仅用于头部由复眼、单眼、触角、口器构成这一教科书级解剖常识,按规则 pass。"
+    },
+    {
+      "sourceId": "src-wikipedia-bombus-terrestris",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessed": true,
+      "note": "抓取成功。核到:\"workers exhibit a wide variation in worker size, with thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg\"。页面未提及 nectar robbing 与头部解剖。"
+    },
+    {
+      "sourceId": "src-wikipedia-bumblebee",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessed": true,
+      "note": "抓取成功。核到:\"Many species of bumblebees also exhibit 'nectar robbing': instead of inserting the mouthparts into the flower in the normal way, these bees bite directly through the base of the corolla to extract nectar\";\"Sizes are very variable even within species\"。未给出胸部尺寸倍数与体重倍数。"
+    },
+    {
+      "sourceId": "src-wikipedia-nectar-robbing",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessed": true,
+      "note": "抓取成功。核到:\"feeding from holes bitten in flowers, rather than by entering through the flowers' natural openings\";\"long flowers with tubular corollas are prone to robbing ... short-tongued bees such as the early bumblebee are unable to reach the nectar located at the base\";图注 \"Bombus terrestris stealing nectar\"。"
+    },
+    {
+      "sourceId": "src-wikipedia-osmia-cornifrons",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessed": true,
+      "note": "抓取成功。核到:\"a species of solitary bee indigenous to Northern Asia\";\"first introduced in Japan in the 1940s\";\"use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species\";\"In 1977, O. cornifrons was introduced in the northeastern United States\";\"use bamboo, reeds, and previously existing holes in trees as nesting sites\";\"the female bee closes off the cell with mud\";\"females will create individual cells in which they lay a single egg\";\"Eggs are placed on top of the pollen ball\"。页面未提及中西部定殖及 mason bee 名称来源。"
+    },
+    {
+      "sourceId": "src-exotic-bee-id",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "accessed": true,
+      "note": "抓取成功。核到:\"Osmia cornifrons is a solitary bee that nests in preexisting cavities\";\"native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\";\"was intentionally introduced to the eastern U.S. from Japan in the 1970s\";\"In the U.S., O. cornifrons can be found on the East Coast and the Midwest\";\"Nest cells are constructed of mud and leaf pulp\";\"nests can be found in reeds, bamboo, holes within trees\"。页面给年代为 1970s,与 1977 不矛盾。"
+    },
+    {
+      "sourceId": "src-wikipedia-mason-bee",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessed": true,
+      "note": "抓取成功。核到:\"Mason bees are named for their habit of using mud or other 'masonry' products in constructing their nests\";\"Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist\";\"Once a provision mass is complete, the bee backs into the hole and lays an egg on top of the mass. Then, she creates a partition of 'mud', which doubles as the back of the next cell\";\"reeds, paper tubes, nesting trays, or drilled blocks of wood\"。"
+    },
+    {
+      "sourceId": "src-wikipedia-apis-cerana",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessed": true,
+      "note": "抓取成功。核到:\"Apis cerana, the eastern honey bee, Asiatic honey bee or Asian honey bee\";\"is of the Apidae family\";\"native to South, Southeast and East Asia\";\"subdivided into eight subspecies\" 含 \"Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee)\";\"known for its highly social behavior\";\"both are medium-sized bees (10-11mm) that generally build multiple comb nests\";\"colonies are known for building nests consisting of multiple combs in cavities\";\"Adult Apis cerana are black in color, with four yellow abdominal stripes\";\"Heat balling is a unique defense system in which several hundred bees surround the wasp\";\"bees collectively execute carefully timed waves of shimmering\"。页面未说哪个亚种在中国最主要,未提及与本土植物关系。"
+    },
+    {
+      "sourceId": "src-wikipedia-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessed": true,
+      "note": "抓取成功。核到:\"Apis cerana, the eastern honey bee proper, is the traditional honey bee of southern and eastern Asia\";\"One of its subspecies, the Indian honey bee (A. c. indica), was domesticated\";\"the more recently evolved species nest in cavities and have multiple combs\";图注 \"Apis cerana japonica forming a ball around two hornets\"。未给 A. cerana 体长与条纹。"
+    },
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessed": true,
+      "note": "抓取成功。页面未出现 cerana;工蜂 \"12–15 mm\" 系泛指(西方蜜蜂),不构成对 A. cerana 10–11 mm 的否定。仅能支持三型级(蜂王/工蜂/雄蜂)与守卫蜂防御胡蜂类的一般表述。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂头部同样由复眼、单眼、触角和口器构成。",
+          "problem": "非问题(备案)。三条维基来源均未描述头部解剖,仅 Bumblebee 页提及 proboscis;该断言属教科书级解剖常识,由书籍来源 src-snodgrass-anatomy 覆盖,按规则 pass。",
+          "evidence": "Bumblebee: \"The bumblebee tongue (the proboscis) is a long, hairy structure\";Bombus terrestris 页与 Nectar robbing 页未提及头部构成。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "同一巢的工蜂胸部尺寸可差两三倍,体重可差近十倍(不同资料 8–11 倍)。",
+          "problem": "非问题(备案)。Bombus terrestris 页给出胸长 2.3–6.9 mm(≈3 倍)、体重 68–754 mg(≈11 倍),与\"两三倍\"\"近十倍(8–11 倍)\"一致;\"不同资料\"限定恰当。Bumblebee 页仅支持\"体型差异很大\",未给倍数。",
+          "evidence": "Bombus terrestris: \"workers exhibit a wide variation in worker size, with thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg\";Bumblebee: \"Sizes are very variable even within species\"。",
+          "fix": "无需修改。可选:将\"胸部尺寸\"改为\"胸部长度\"以贴合来源用词(thorax ... in length)。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据报道,自 1940 年代起的约五十年间,日本半数以上的苹果园曾用它授粉。",
+          "problem": "非问题(备案)。Osmia cornifrons 页支持\"1940 年代引入日本\"与\"超过半数苹果园使用\";\"约五十年间\"的跨度页面表述为渐进增长过程,已用\"据报道\"\"约\"限定,按已恰当限定处理。idtools 页未给该数据。",
+          "evidence": "Osmia cornifrons: \"first introduced in Japan in the 1940s\";\"use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species\"。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "1977 年它被引入美国东部,此后在美国东部与中西部定殖。",
+          "problem": "非问题(备案)。年份 1977 由维基页支持;idtools 页写 \"1970s\",为更粗粒度表述,不构成否定。\"中西部定殖\"由 idtools 页支持,维基页未提及。两来源互补,断言整体被支持。",
+          "evidence": "Osmia cornifrons: \"In 1977, O. cornifrons was introduced in the northeastern United States\";Exotic Bee ID: \"was intentionally introduced to the eastern U.S. from Japan in the 1970s\";\"In the U.S., O. cornifrons can be found on the East Coast and the Midwest\"。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "它原产东亚。",
+          "problem": "非问题(备案)。维基页写 \"indigenous to Northern Asia\",idtools 页与 Mason bee 页写 eastern Asia(日本、朝鲜半岛、俄罗斯东南沿海),\"东亚\"与后两者一致,不冲突。",
+          "evidence": "Exotic Bee ID: \"native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\";Osmia cornifrons: \"a species of solitary bee indigenous to Northern Asia\"。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "中华蜜蜂(Apis cerana cerana)是它在中国最主要的亚种",
+          "problem": "非问题(备案)。Apis cerana 页列出 8 个亚种,其中 A. c. cerana 标注为 Chinese honey bee,但页面未比较各亚种在中国的地位;\"最主要\"属规则允许的限定语,按已恰当限定处理,来源无否定。",
+          "evidence": "Apis cerana: \"subdivided into eight subspecies\";\"Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee)\"。",
+          "fix": "无需修改。若追求严格可核,可改为\"中华蜜蜂(Apis cerana cerana)是它分布于中国的亚种之一\"。"
+        },
+        {
+          "claim": "巢由多片平行悬挂的蜡质巢脾(蜂巢片)组成",
+          "problem": "非问题(备案)。\"多片巢脾\"\"腔内筑巢\"\"蜡质\"均被支持;\"平行悬挂\"未被逐字提及,但属腔内多巢脾蜜蜂的通识性描述,不影响裁决。",
+          "evidence": "Apis cerana: \"colonies are known for building nests consisting of multiple combs in cavities\";\"The nest itself is a simple vertical comb made from wax\";Honey bee: \"the more recently evolved species nest in cavities and have multiple combs\"。",
+          "fix": "无需修改。可选:简化为\"巢由多片垂直的蜡质巢脾组成\"以贴合来源用词。"
+        },
+        {
+          "claim": "与亚洲本土植物和传统养蜂关系密切",
+          "problem": "非问题(备案)。\"传统养蜂\"由 Honey bee 页 \"traditional honey bee of southern and eastern Asia\" 及亚种 A. c. indica 被驯养支持;\"与亚洲本土植物关系密切\"为泛化表述,三来源均未直接提及,但亦无否定,且不含可核数字。",
+          "evidence": "Honey bee: \"Apis cerana, the eastern honey bee proper, is the traditional honey bee of southern and eastern Asia\";\"One of its subspecies, the Indian honey bee (A. c. indica), was domesticated\"。",
+          "fix": "建议收紧为\"是亚洲南部与东部的传统饲养蜂种\",或补充一条说明其为亚洲本土植物传粉者的来源。"
+        },
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm)",
+          "problem": "非问题(备案)。10–11 mm 由 Apis cerana 页直接支持;\"不同资料约 9–12 mm\"已限定。Worker bee 页的 \"12–15 mm\" 系泛指工蜂(未提 cerana),不构成否定。",
+          "evidence": "Apis cerana: \"both are medium-sized bees (10-11mm) that generally build multiple comb nests\";Worker bee 页未出现 cerana。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "lens": "fact-check",
+  "round": 22,
+  "reviewedAt": "2026-08-25T08:10:00.000Z",
+  "sourceAccess": [
+    {
+      "sourceId": "src-wikipedia-worker-bee",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "fetched": true,
+      "note": "抓取成功。含按日龄分工列表(Cell cleaning days 1–2 / Nurse bees days 3–12 / Wax production days 13–18 / Guard bee 18–21 / Foraging bees days 21–42)、采集距离、采集物、夏冬寿命、21 天发育期。"
+    },
+    {
+      "sourceId": "src-wikipedia-western-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "fetched": true,
+      "note": "抓取成功。含外勤起始日龄(第 20 天后)、外勤至生命结束、春夏与秋生工蜂寿命及越冬结团;未给出具体采集距离。"
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "出房后第 21 天起成为外勤蜂(span.from = 41,即产卵起第 41 天)",
+          "result": "支持",
+          "evidence": "Worker bee:\"Foraging bees (days 21–42)\";Western honey bee:\"After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.\" 21 天发育期 + 21 天巢内工作 = 第 41/42 天,与 span.from=41 一致。"
+        },
+        {
+          "claim": "span.to = 63(约出房后第 42 天)",
+          "result": "支持",
+          "evidence": "Worker bee:\"Foraging bees (days 21–42)\";21 + 42 = 63。"
+        },
+        {
+          "claim": "约第 21 天出房(时间轴基准)",
+          "result": "支持",
+          "evidence": "Worker bee:\"After this 21 day developmental period, the adult bee will chew through its wax cap and cocoon and emerge into the hive as a fully grown bee.\""
+        },
+        {
+          "claim": "可飞到约 3 公里外采集",
+          "result": "支持(已用\"约/可\"限定;来源措辞为\"最远 3 公里\")",
+          "evidence": "Worker bee:\"The forager and scout bees travel up to 3 kilometres (1.9 miles) to a nectar source, pollen source, or to collect propolis or water.\""
+        },
+        {
+          "claim": "据记载有时更远",
+          "result": "未提及,已恰当限定(据记载/有时)",
+          "evidence": "两来源均未给出超过 3 公里的记录;Western honey bee 未给具体距离。"
+        },
+        {
+          "claim": "采集花蜜、花粉、蜂胶和水",
+          "result": "支持",
+          "evidence": "Worker bee:\"to a nectar source, pollen source, or to collect propolis or water.\""
+        },
+        {
+          "claim": "外勤直到生命结束",
+          "result": "支持",
+          "evidence": "Western honey bee:\"After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager.\""
+        },
+        {
+          "claim": "夏季工蜂从出房算起通常只活几周(常见文献约 2–6 周)",
+          "result": "支持",
+          "evidence": "Worker bee:\"In the summertime, worker bees typically only live two to six weeks\";Western honey bee:\"Workers born in spring and summer work hard, and live only a few weeks\"。"
+        },
+        {
+          "claim": "秋天出生的越冬蜂在巢内结团过冬,可活数月(不同资料约 20 周或更长)",
+          "result": "支持(\"或更长\"已用\"不同资料\"限定)",
+          "evidence": "Worker bee:\"compared to wintertime when workers can live up to 20 weeks\";Western honey bee:\"those born in autumn remain inside for several months as the colony clusters.\""
+        }
+      ],
+      "fix": "无需修改。可选润色:将\"约 3 公里外\"改为\"最远约 3 公里外\"以更贴近来源\"up to 3 kilometres\"的措辞,非必须。"
+    }
+  ]
+}

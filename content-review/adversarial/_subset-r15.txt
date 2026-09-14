@@ -1,0 +1,9 @@
+stage:cycle-apis-mellifera-worker/stage-mellifera-pupa: 未全过 + 文本已改
+stage:cycle-apis-mellifera-worker/stage-mellifera-nurse: 未全过 + 文本已改
+stage:cycle-apis-mellifera-worker/stage-mellifera-builder: 未全过 + 文本已改
+stage:cycle-apis-mellifera-worker/stage-mellifera-guard: 未全过 + 文本已改
+stage:cycle-apis-mellifera-worker/stage-mellifera-forager: 未全过 + 文本已改
+stage:cycle-osmia-cornifrons/stage-osmia-emerge: 未全过 + 文本已改
+stage:cycle-osmia-cornifrons/stage-osmia-egg: 文本已改
+stage:cycle-osmia-cornifrons/stage-osmia-cocoon: 未全过 + 文本已改
+branch:cycle-osmia-cornifrons/branch-osmia-solitary: 未全过 + 文本已改

@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "task": "蜂之境 M3 花朵馆 · 第二批花(B)事实收集",
+    "date": "2026-08-26",
+    "researcher": "内容研究员(Claude)",
+    "notes": [
+      "每条 quote 为来源页面原句(英文/德文/中文保持原文),用于后续事实核查/反驳/合规三方审查。",
+      "relation 取值:nectar | pollen | pollination | observed-visit | none;'none' 表示在所查来源中未找到该蜂对该花的明确记载,并非否定存在。",
+      "标记为“未找到”的字段表示在可访问来源中未查到,不要在卡片中编造。",
+      "部分学术来源(tandfonline、ResearchGate、Springer、Wiley)在线不可直接抓取,已改用 Semantic Scholar / Crossref API 的摘要文本;url 字段给出可公开访问的落地页。"
+    ]
+  },
+  "flowers": [
+    {
+      "id": "vaccinium-corymbosum",
+      "scientific_name": "Vaccinium corymbosum",
+      "fields": {
+        "family": {
+          "value": "杜鹃花科 Ericaceae",
+          "quote": "Family: Ericaceae",
+          "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum"
+        },
+        "english_name": {
+          "value": "highbush blueberry(northern highbush blueberry);别名 swamp blueberry、American blueberry 等",
+          "quote": "Vaccinium corymbosum, the northern highbush blueberry, is a North American species of blueberry which has become a food crop of significant economic importance. ... Alternate Names: Northern highbush blueberry, southeastern highbush blueberry, Maryland highbush blueberry, black highbush blueberry, American blueberry, New Jersey blueberry, rabbiteye blueberry, swamp blueberry, tall huckleberry, mayberry, whortleberry",
+          "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+          "secondary_url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf",
+          "note": "维基百科英文条目首句给出 northern highbush blueberry;USDA NRCS Plant Guide 列出 Alternate Names。"
+        },
+        "chinese_name": {
+          "value": "高丛蓝莓(北高丛蓝莓);通称蓝莓、越橘",
+          "quote": "越橘、高丛蓝莓、北高丛蓝莓(中文维基“藍莓”条目名称/别名);栽培蓝莓主要来源于 Vaccinium corymbosum",
+          "url": "https://zh.wikipedia.org/wiki/藍莓",
+          "note": "中文维基无独立“高丛蓝莓”条目(404),名称取自“藍莓”条目;“高丛越橘”亦见于部分中文资料,未在此核验。"
+        },
+        "flower_form": {
+          "value": "辐射对称;花冠钟形/坛状(urn-shaped),5 枚花瓣合生成筒;总状花序(raceme),每花序约 7–10 朵(中文农技资料)或 8–10 朵(USDA)",
+          "quote": "The flowers are long bell- or urn-shaped white to very light pink, 8.5 mm (1⁄3 in) long.",
+          "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+          "supporting_quotes": [
+            {
+              "quote": "Flowers 8-10 in a cluster, 6-12 mm long, urn-shaped, white, with 5 petals.",
+              "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf"
+            },
+            {
+              "quote": "the flower is radially symmetrical ... the perianth parts are fused to form a tube, cup, or bell shape ... the inflorescence is a raceme (a long unbranched stem with stalked flowers growing along it)",
+              "url": "https://gobotany.nativeplanttrust.org/species/vaccinium/corymbosum/"
+            },
+            {
+              "quote": "Die Krone ist 6 bis 12 mm lang, mit fünf weißen oder hell rosa, zylindrisch oder nah dem Schlund sich schwach verjüngenden Zipfeln.",
+              "url": "https://de.wikipedia.org/wiki/Amerikanische_Heidelbeere"
+            },
+            {
+              "quote": "其花为总状花序,大多数都是侧生,极少的是顶生,每条花序有7-10朵花,颜色为白色或粉红色。",
+              "url": "https://www.cnhnb.com/xt/article-111533.html"
+            }
+          ]
+        },
+        "petal_count": {
+          "value": "5(合生)",
+          "quote": "Flowers 8-10 in a cluster, 6-12 mm long, urn-shaped, white, with 5 petals.",
+          "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf"
+        },
+        "flower_length_mm": {
+          "value": "约 8.5 mm(维基);6–12 mm(USDA、德文维基);5–10 mm(Go Botany);栽培种花筒可达 20 mm(德文维基 Kulturheidelbeere)",
+          "quote": "The flowers are long bell- or urn-shaped white to very light pink, 8.5 mm (1⁄3 in) long.",
+          "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+          "supporting_quotes": [
+            {
+              "quote": "Flowers 8-10 in a cluster, 6-12 mm long, urn-shaped, white, with 5 petals.",
+              "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf"
+            },
+            {
+              "quote": "Diese bis zu 20 Millimeter langen und etwas aufgeblasenen Blütenröhren bestehen aus fünf miteinander verwachsenen Blütenkronblättern.",
+              "url": "https://de.wikipedia.org/wiki/Kulturheidelbeere"
+            }
+          ]
+        },
+        "bloom_period_overall": {
+          "value": "春季;原生范围 (2月-)3月–6月,南部零星;通常与展叶同时",
+          "quote": "Flowering (February-)March-June, sporadically in the southern portion of its range; fruiting (April-)May-October, about 62 days after flowering.",
+          "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf",
+          "supporting_quotes": [
+            {
+              "quote": "the flowers appear at the same time as the leaves",
+              "url": "https://gobotany.nativeplanttrust.org/species/vaccinium/corymbosum/"
+            }
+          ]
+        },
+        "bloom_period_china_east": {
+          "value": "4–5 月(中国北方栽培区;山东等沿海地区略早)",
+          "quote": "蓝莓一般要养护两年左右才会开花,花期一般在4-5月份。",
+          "url": "https://www.cnhnb.com/xt/article-111533.html",
+          "note": "来源为中文农技网站(惠农网),非权威机构;未找到权威机构(如中国植物志/农业农村部)对高丛蓝莓在中国东部花期的明确记载。"
+        },
+        "bloom_period_central_europe": {
+          "value": "主花期多在 5 月前两周(中欧气候)",
+          "quote": "Die Hauptblüte der Kulturheidelbeeren liegt unter mitteleuropäischen Klimabedingungen meist in den ersten beiden Maiwochen",
+          "url": "https://de.wikipedia.org/wiki/Kulturheidelbeere",
+          "supporting_quotes": [
+            {
+              "quote": "It is in flower from May to June",
+              "url": "https://pfaf.org/user/Plant.aspx?LatinName=Vaccinium+corymbosum",
+              "note": "PFAF 为英国园艺数据库,反映英国/西欧条件。"
+            }
+          ]
+        },
+        "bloom_period_north_america": {
+          "value": "5–6 月(美国东北部);3–5 月(北卡罗来纳);原生范围整体 (2月-)3月–6月",
+          "quote": "Bloom Time: May, Jun",
+          "url": "https://www.wildflower.org/plants/result.php?id_plant=VACO",
+          "supporting_quotes": [
+            {
+              "quote": "Blooms from March to May",
+              "url": "https://plants.ces.ncsu.edu/plants/vaccinium-corymbosum/"
+            },
+            {
+              "quote": "Flowering (February-)March-June, sporadically in the southern portion of its range",
+              "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf"
+            }
+          ]
+        },
+        "nectar_pollen": {
+          "value": "有花蜜(蜜腺位于花萼基部);可产单花种蜂蜜“蓝莓蜜”;蜜蜂和野生蜂访花采集花蜜与花粉;花粉藏于孔裂花药(poricidal anthers),需振动释放;木蜂/蜜蜂会在花侧咬孔盗蜜",
+          "quote": "Blueberry honey is taken from the tiny white flowers of the blueberry bush. It has a pleasant full, well-rounded flavor, a slight tang, and a blueberry aftertaste.",
+          "url": "https://en.wikipedia.org/wiki/Monofloral_honey",
+          "supporting_quotes": [
+            {
+              "quote": "Am Grund des Kelches liegen die Nektar produzierenden Nektarien.",
+              "url": "https://de.wikipedia.org/wiki/Kulturheidelbeere"
+            },
+            {
+              "quote": "More than 80 bee species visit Michigan blueberry flowers to collect pollen and nectar to feed their young.",
+              "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+            },
+            {
+              "quote": "Carpenter bees often cut a slit in the side of blueberry flowers in order to access the nectar, allowing honey bees to do the same in later visits. Nectar robbing bees still transfer some pollen between flowers, meaning that this practice can contribute to rather than take away from total pollination; however, when nectar robbing by honey bees begins to approach half of all honey bee visits, blueberry seed and fruit set are reduced.",
+              "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+            },
+            {
+              "quote": "This plant provides nectar for pollinators.",
+              "url": "https://plants.ces.ncsu.edu/plants/vaccinium-corymbosum/"
+            }
+          ],
+          "note": "未找到权威来源给出单花泌蜜量或花粉量的数值。"
+        },
+        "buzz_pollination": {
+          "value": "蓝莓属于振动授粉(buzz pollination)植物:花药孔裂,花粉需由熊蜂等振动释放;蜜蜂不能振动授粉;熊蜂、木蜂、地蜂、部分壁蜂等可以",
+          "quote": "Some members of the genus Vaccinium [are pollinated by buzz pollination] - Blueberries ... Honeybees cannot perform buzz pollination.",
+          "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+          "supporting_quotes": [
+            {
+              "quote": "The anthers are completely sealed except for a small pore at the top or have very small slits that open along the sides...they are often referred to as poricidal anthers.",
+              "url": "https://en.wikipedia.org/wiki/Buzz_pollination"
+            },
+            {
+              "quote": "The structure of blueberry anthers is such that pollen is most effectively released by active vibration of flowers ... buzz-pollination, the behavior of vibrating flowers to release pollen, is performed by a host of wild bee species, but not by honey bees",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158937"
+            },
+            {
+              "quote": "Blueberry flowers are bell-shaped and the pollen is most efficiently dispensed from the flowers' anthers through a process called sonication, or 'buzz' pollination. ... Honey Bees are not capable of buzz pollination ... Several families of native bees are, including bumble bees, large carpenter bees, mining (Andrenid) bees, many sweat bees, some mason (Osmia) bees and Melitta bees.",
+              "url": "https://www.pollinator-pathway.org/post/blueberries-buzz-pollination"
+            },
+            {
+              "quote": "predominant floral trait related to buzzing behavior is the presence of poricidal anthers ... only exit of pollen from the flower is via tiny openings at the apex of the anthers",
+              "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+            }
+          ]
+        },
+        "pollinator_dependence": {
+          "value": "高度依赖蜂类传粉。维基:四倍体、不自花授粉;USDA:自交可育但异花授粉显著提高坐果与果实大小;MSU:多数北高丛品种可用自身花粉授粉但仍需蜂传粉才能形成大而可售的果;PFAF:非自交可育、至少部分自交不亲和",
+          "quote": "The species is tetraploid and does not self-pollinate.",
+          "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum",
+          "supporting_quotes": [
+            {
+              "quote": "Highbush blueberry (V. corymbosum) is self-fertile, but cross-pollination increases fruit set and results in larger, earlier berries with more seeds ... Bees are the primary pollinator.",
+              "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf"
+            },
+            {
+              "quote": "Highbush blueberries need pollination in order to produce large, marketable fruit. Pollination increases fruit set, berry size, and allows for earlier ripening. Most common cultivars of northern highbush can be well pollinated by their own pollen and are planted in large blocks. Others benefit greatly from cross-pollination and should be interplanted.",
+              "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+            },
+            {
+              "quote": "Highbush blueberry yields are dependent on pollination by bees",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158937"
+            },
+            {
+              "quote": "High-quality fruit production by wild and commercial blueberries is highly dependent on the input of biotic pollinators",
+              "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+            },
+            {
+              "quote": "The plant is not self-fertile ... Plants are at least partially self-sterile, more than one variety is required in order to obtain good yields of fruit",
+              "url": "https://pfaf.org/user/Plant.aspx?LatinName=Vaccinium+corymbosum"
+            }
+          ],
+          "note": "来源间关于“自交可育性”表述不一致(维基“不自花授粉”vs USDA/MSU“自交可育但异花授粉更好”),撰写卡片时应用“需要蜂类传粉,异花授粉显著提升产量”这一各方一致的表述,避免绝对化。"
+        }
+      },
+      "visitors": [
+        {
+          "bee": "apis-mellifera",
+          "relation": "pollination",
+          "detail": "商业传粉主力(美国密歇根 2–4 箱/英亩);采集花蜜与花粉,产蓝莓蜜;不能振动授粉,单次访花效率低于熊蜂,需约 3 次访花;会跟随木蜂咬孔盗蜜",
+          "quote": "Honey Bees (Apis mellifera) are commonly managed or rented for blueberry pollination. Honey bees are easy to manage and transport, and provide many active pollinators per hive. A 6–8 frame colony will have around 15,000–20,000 pollinating bees. Hives are typically placed at a rate of 2–4 hives/acre when the crop reaches 5–10% bloom, and are removed from fields at petal fall.",
+          "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf",
+          "supporting_quotes": [
+            {
+              "quote": "introduction of managed honey bees is the primary strategy used for pollination of this crop",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158937"
+            },
+            {
+              "quote": "hives of the honey bee (Apis mellifera) are widely managed for blueberry pollination throughout the world",
+              "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+            },
+            {
+              "quote": "Honeybees cannot perform buzz pollination.",
+              "url": "https://en.wikipedia.org/wiki/Buzz_pollination"
+            },
+            {
+              "quote": "Blueberry honey is taken from the tiny white flowers of the blueberry bush.",
+              "url": "https://en.wikipedia.org/wiki/Monofloral_honey"
+            }
+          ]
+        },
+        {
+          "bee": "apis-cerana",
+          "relation": "pollination",
+          "detail": "中国温室北高丛蓝莓‘Bluecrop’试验中作为传粉者之一,效率介于欧洲熊蜂与西方蜜蜂之间(单次访花柱头落粉量为熊蜂的一半,高于西方蜜蜂)",
+          "quote": "Here, we compared the performance in visiting frequency and pollination efficiency among three bee pollinators (Bombus terrestris, Apis cerana, and Apis mellifera) on greenhouse-grown northern highbush 'Bluecrop' blueberry plants and evaluate their effects on yield and fruit quality. ... pollen deposition on the stigma from single visit by B. terrestris was twice and three times that of A. cerana and A. mellifera, respectively. The yield of individual plants pollinated by B. terrestris showed an increase of 11.4% and 20.0% compared with the plants pollinated by A. cerana and A. mellifera, respectively",
+          "url": "https://doi.org/10.21273/HORTSCI15714-21",
+          "note": "Sun et al. 2021, HortScience 56(5):603–607。摘要文本经 Semantic Scholar API 获取(https://api.semanticscholar.org/graph/v1/paper/DOI:10.21273/hortsci15714-21?fields=title,abstract);出版社页面对抓取返回 403,人工可访问。"
+        },
+        {
+          "bee": "bombus-terrestris",
+          "relation": "pollination",
+          "detail": "商业传粉者:智利等地大量进口欧洲熊蜂群为蓝莓传粉;能振动授粉、在不利天气下活动;中国温室试验中传粉效率最高;但在原生区外具入侵风险",
+          "quote": "Managed beehives of B. terrestris achieve high yields due, partially, to their ability to sonicate flowers ... introduction of B. terrestris generates serious problems for the conservation of native pollinators",
+          "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full",
+          "supporting_quotes": [
+            {
+              "quote": "The highly efficient pollination of B. terrestris was attributed to its behavior of buzz-pollination. Therefore, it is preferential for pollination of 'Bluecrop' blueberry in the greenhouse.",
+              "url": "https://doi.org/10.21273/HORTSCI15714-21"
+            },
+            {
+              "quote": "Bombus terrestris [listed as an example of a buzz-pollinating bee species]",
+              "url": "https://en.wikipedia.org/wiki/Buzz_pollination"
+            },
+            {
+              "quote": "Landscape effects on wild Bombus terrestris (Hymenoptera: Apidae) queens visiting highbush blueberry fields in south-central Chile",
+              "url": "https://doi.org/10.1007/s13592-015-0422-6",
+              "note": "仅核验到论文标题(Apidologie 2015),摘要未能抓取。"
+            },
+            {
+              "quote": "Bumble Bees (Bombus spp.) are highly efficient blueberry pollinators. ... Because of their large body size, bumble bees can fly at lower temperatures than honey bees, making them ideal pollinators in typical early spring weather. Commercial colonies can be as effective as honey bees if enough are used",
+              "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf",
+              "note": "此句为 Bombus 属整体,北美商业熊蜂为 B. impatiens 而非 B. terrestris。"
+            }
+          ]
+        },
+        {
+          "bee": "osmia-cornifrons",
+          "relation": "pollination",
+          "detail": "美国 SARE 资助试验(高丛蓝莓网室)显示角额壁蜂每次访花均接触花药与柱头,坐果/果重与商业熊蜂、蜜蜂无显著差异,且所需个体数远少;结论为“同等或更高效”(初步数据)",
+          "quote": "they usually contact the flowers' anthers and stigmas on every visit ... Hornfaced bees were not significantly different with respect to berry number, berry weight and weight per berry from the commercial bumble bee and the honey bee. ... Preliminary data suggests that hornfaced bees are as or more efficient than other tested pollinators in this project.",
+          "url": "https://projects.sare.org/project-reports/one05-049/",
+          "supporting_quotes": [
+            {
+              "quote": "Hornfaced bees per tent were approximately 30, commercial bumble bees per tent were approximately 75 and the honey bees per tent were approximately 10,000.",
+              "url": "https://projects.sare.org/project-reports/one05-049/"
+            },
+            {
+              "quote": "O. cornifrons was introduced in the northeastern United States in an attempt to increase pollination productivity of fruit crops.",
+              "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+              "note": "维基条目仅泛指果树作物(苹果为主),未点名蓝莓。"
+            },
+            {
+              "quote": "It will pollinate blueberries, and is sometimes used commercially for this purpose.",
+              "url": "https://en.wikipedia.org/wiki/Osmia_ribifloris",
+              "note": "此句为同属的 Osmia ribifloris(蓝莓壁蜂),非角额壁蜂;可作为“壁蜂属被用于蓝莓商业传粉”的佐证。"
+            }
+          ],
+          "note": "壁蜂(Osmia)作为蓝莓商业传粉者的记载:O. ribifloris 有维基明确记载;O. cornifrons 有 SARE 试验报告;O. lignaria 有文献(Annals ESA 2018, https://academic.oup.com/aesa/article/111/6/335/5061887,未抓取原文)。"
+        },
+        {
+          "bee": "megachile-rotundata",
+          "relation": "pollination",
+          "detail": "维基记载其可为 Vaccinium angustifolium(矮丛/野生蓝莓)传粉并有专门管理指南;对高丛蓝莓 V. corymbosum 未找到明确记载",
+          "quote": "It has been shown to pollinate these plant species: Medicago sativa, Other Legumes, Brassica napus, Trifolium spp., Vaccinium angustifolium",
+          "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "note": "记载对象为矮丛蓝莓(lowbush),非本卡片的高丛蓝莓;卡片中如引用需注明。"
+        },
+        {
+          "bee": "xylocopa-violacea",
+          "relation": "none",
+          "detail": "未找到紫木蜂访高丛蓝莓的明确记载。北美近缘种 Xylocopa virginica 是蓝莓田常见访花者并会咬孔盗蜜;木蜂属整体具振动授粉能力",
+          "quote": "Carpenter Bees (Xylocopa spp.) resemble large bumble bees, but with shiny rather than hairy abdomens. ... Carpenter bees often cut a slit in the side of blueberry flowers in order to access the nectar",
+          "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf",
+          "note": "以上引文为北美木蜂(X. virginica 等),非紫木蜂;紫木蜂分布于欧洲至中国中部,与蓝莓商业种植区(欧洲)有重叠但未见记载。"
+        }
+      ]
+    },
+    {
+      "id": "trifolium-repens",
+      "scientific_name": "Trifolium repens",
+      "fields": {
+        "family": {
+          "value": "豆科 Fabaceae(Leguminosae)",
+          "quote": "Trifolium repens, the white clover, is a herbaceous perennial plant in the bean family, Fabaceae (also known as Leguminosae).",
+          "url": "https://en.wikipedia.org/wiki/Trifolium_repens"
+        },
+        "english_name": {
+          "value": "white clover;Dutch clover(中型品种)、ladino clover(大型品种)",
+          "quote": "The name Dutch clover is often applied to intermediate varieties, and the name ladino clover is applied to large varieties",
+          "url": "https://en.wikipedia.org/wiki/Trifolium_repens"
+        },
+        "chinese_name": {
+          "value": "白车轴草;别名白三叶、白花三叶草、白三叶草、菽草、白花苜蓿、荷兰翘摇",
+          "quote": "又名白花三葉草、白三葉、菽草、白車軸草或白花苜蓿",
+          "url": "https://zh.wikipedia.org/wiki/白車軸草",
+          "supporting_quotes": [
+            {
+              "quote": "荷兰翘摇、白三叶、三叶草(俗名列表)",
+              "url": "http://www.iplant.cn/info/Trifolium%20repens"
+            }
+          ]
+        },
+        "flower_form": {
+          "value": "两侧对称的蝶形花(pea flower),密集成球形头状花序;每头 20–40 朵(BSBI)或 40–80 朵(德文维基)小花;头径 1.5–2(–2.4)cm,花序梗约 7 cm;白色带粉/乳色,凋谢后变褐下垂",
+          "quote": "It produces flowering heads of whitish florets, often with a tinge of pink or cream that may come on with the aging of the plant. The heads are generally 1.5–2 cm (1⁄2–3⁄4 in) wide, and are at the end of 7 cm (2+3⁄4 in) peduncles or inflorescence stalks.",
+          "url": "https://en.wikipedia.org/wiki/Trifolium_repens",
+          "supporting_quotes": [
+            {
+              "quote": "The inflorescence is a globular head of 20-40 white or pinkish, sweetly scented pea flowers",
+              "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l"
+            },
+            {
+              "quote": "kugeligen, köpfchenförmigen Blütenstände, die 40 bis 80 Blüten enthalten ... ein Durchmesser von 1,5 bis 2,4 Zentimetern",
+              "url": "https://de.wikipedia.org/wiki/Weißklee"
+            },
+            {
+              "quote": "Round flower head ½ inch across densely packed with tiny white pea-shaped flowers ... upper petal (standard) is oval-lance like, the lateral paddle shaped wings below it angle out widely with a small keel exposed in the center. Petals are white, fading to a dirty pink with age.",
+              "url": "https://www.minnesotawildflowers.info/flower/white-clover"
+            },
+            {
+              "quote": "Trifolium repens, white or Dutch clover, is a perennial abundant in meadows and good pastures. The flowers are white or pinkish, becoming brown and deflexed as the corolla fades.",
+              "url": "https://en.wikipedia.org/wiki/Clover"
+            }
+          ]
+        },
+        "petal_count": {
+          "value": "5(蝶形花:旗瓣 1、翼瓣 2、龙骨瓣 2)",
+          "quote": "upper petal (standard) is oval-lance like, the lateral paddle shaped wings below it angle out widely with a small keel exposed in the center.",
+          "url": "https://www.minnesotawildflowers.info/flower/white-clover",
+          "note": "来源描述了旗瓣/翼瓣/龙骨瓣结构,未直接写出“5 枚”;蝶形花 5 瓣为豆科通性。"
+        },
+        "flower_length_mm": {
+          "value": "单朵小花花冠 7–10 mm(BSBI)/ 6–12 mm(德文维基);花萼仅约 3 mm,花蜜短舌昆虫可及",
+          "quote": "small, honey-like scented pea flowers with corollas 7-10 mm long",
+          "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l",
+          "supporting_quotes": [
+            {
+              "quote": "6 bis 12 Millimeter lang, weiß",
+              "url": "https://de.wikipedia.org/wiki/Weißklee"
+            },
+            {
+              "quote": "Nectar is secreted between the base of the stamen tube and the ovary and is accessible to insects with quite a short proboscis",
+              "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l"
+            }
+          ]
+        },
+        "bloom_period_overall": {
+          "value": "晚春至秋季,5–10 月;英伦/爱尔兰 6–9 月,7 月为盛",
+          "quote": "Die Blütezeit reicht von Mai bis Oktober.",
+          "url": "https://de.wikipedia.org/wiki/Weißklee",
+          "supporting_quotes": [
+            {
+              "quote": "Flowering takes place from June to September peaking in July",
+              "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l"
+            }
+          ]
+        },
+        "bloom_period_china_east": {
+          "value": "未找到(权威来源)",
+          "quote": "中国南北各地均有分布",
+          "url": "https://zh.wikipedia.org/wiki/白車軸草",
+          "note": "中文维基未给花期;Flora of China / 中国植物志(efloras.org、iplant.cn)在线文本因证书/域名问题未能抓取。撰写时如需月份需另行核验(常见记载为“花果期 5–10 月”,此处未核实)。"
+        },
+        "bloom_period_central_europe": {
+          "value": "5–10 月",
+          "quote": "Die Blütezeit reicht von Mai bis Oktober.",
+          "url": "https://de.wikipedia.org/wiki/Weißklee"
+        },
+        "bloom_period_north_america": {
+          "value": "5–10 月(明尼苏达)",
+          "quote": "May - October",
+          "url": "https://www.minnesotawildflowers.info/flower/white-clover"
+        },
+        "nectar_pollen": {
+          "value": "重要蜜源植物:花蜜价值“很好”、花粉价值“好”(德文维基);白车轴草是主要蜜源,“三叶草蜜”为常见单花种蜂蜜;三叶草曾是蜜蜂主要蜜源直到 20 世纪中叶;花蜜位于雄蕊管基部,短舌昆虫可及,但需以体重压开翼瓣与龙骨瓣",
+          "quote": "White clover in particular is grown as a widespread blooming pasture crop and is a major nectar source.",
+          "url": "https://en.wikipedia.org/wiki/Monofloral_honey",
+          "supporting_quotes": [
+            {
+              "quote": "Clover honey is a variety of honey made by bees that are fed clover. ... Clover honey tends to have a higher water content, which may permit it to crystallize more readily over time.",
+              "url": "https://en.wikipedia.org/wiki/Monofloral_honey"
+            },
+            {
+              "quote": "Clover is one of the main nectar sources for honeybees.",
+              "url": "https://en.wikipedia.org/wiki/Clover"
+            },
+            {
+              "quote": "Honey production also rose drastically, and clover remained the main nectar source for bees until the mid-20th century.",
+              "url": "https://en.wikipedia.org/wiki/Clover"
+            },
+            {
+              "quote": "eine wichtige Bienentrachtpflanze mit sehr gutem Nektar- und gutem Pollen-Trachtwert",
+              "url": "https://de.wikipedia.org/wiki/Weißklee"
+            },
+            {
+              "quote": "Nectar is secreted between the base of the stamen tube and the ovary and is accessible to insects with quite a short proboscis",
+              "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l"
+            }
+          ],
+          "note": "未找到权威来源给出单花泌蜜量或每公顷产蜜量数值。"
+        },
+        "buzz_pollination": {
+          "value": "不适用(非孔裂花药,无振动授粉记载);花为蝶形“翻盖机制”,由蜂类体重压开",
+          "quote": "nektarbildende Schmetterlingsblumen ... einen Klappmechanismus ... der Bestäubungsmechanismus kann jedoch nur von Apoiden wie der Honigbiene ausgelöst werden",
+          "url": "https://de.wikipedia.org/wiki/Weißklee"
+        },
+        "pollinator_dependence": {
+          "value": "完全依赖昆虫(主要为蜂类)异花传粉:花基本自交不亲和,自花结实几乎不发生;种子生产需放置蜜蜂",
+          "quote": "The flowers are basically self-incompatible, although very rarely a minute amount of self-pollinated seed may be produced",
+          "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l",
+          "supporting_quotes": [
+            {
+              "quote": "White clover (Trifolium repens L.) seed crops require insects for pollination. Apis mellifera Linnaeus, 1758 are normally placed within fields but other insects might also be contributing additional pollination.",
+              "url": "https://doi.org/10.1080/01140671.2018.1466341"
+            },
+            {
+              "quote": "White clover plant, Trifolium repens L. one of the important forage crop, entirely depends on insects for its pollination.",
+              "url": "https://doi.org/10.3126/jist.v22i2.19598"
+            },
+            {
+              "quote": "Selbstbestäubung kommt beim Weißklee so gut wie nicht vor.",
+              "url": "https://de.wikipedia.org/wiki/Weißklee",
+              "note": "WebFetch 摘要转述句,原文措辞请复核。"
+            },
+            {
+              "quote": "The theoretical maximum seeds per floret is six. Based on seeds from a single bee visit (mean = 1.24), approximately 19,420 bees per hectare would be required in an 8-hour foraging day to reach maximum seed production per floret.",
+              "url": "https://doi.org/10.1080/01140671.2010.520164"
+            }
+          ]
+        }
+      },
+      "visitors": [
+        {
+          "bee": "apis-mellifera",
+          "relation": "nectar",
+          "detail": "经常访花采蜜,是主要蜜源之一并产“三叶草蜜”;种子田中作为放置的商业传粉者,是最丰富的访花者;可触发蝶形花机制完成传粉",
+          "quote": "The flowers are mostly visited by bumblebees and often by honey bees.",
+          "url": "https://en.wikipedia.org/wiki/Trifolium_repens",
+          "supporting_quotes": [
+            {
+              "quote": "Honeybees can also pollinate clover, and beekeepers are often in heavy demand from farmers with clover pastures.",
+              "url": "https://en.wikipedia.org/wiki/Clover"
+            },
+            {
+              "quote": "A. mellifera were the most abundant verified flower visitor, although B. terrestris and long-tongued Bombus species also visited fields.",
+              "url": "https://doi.org/10.1080/01140671.2018.1466341"
+            },
+            {
+              "quote": "They are visited by flies, solitary-, honey- and bumble-bees, particularly the last two mentioned",
+              "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l"
+            },
+            {
+              "quote": "White clover in particular is grown as a widespread blooming pasture crop and is a major nectar source.",
+              "url": "https://en.wikipedia.org/wiki/Monofloral_honey"
+            }
+          ],
+          "note": "关系兼具 nectar 与 pollination;主标签取 nectar(蜜源意义最突出),卡片可同时表述传粉。"
+        },
+        {
+          "bee": "apis-cerana",
+          "relation": "observed-visit",
+          "detail": "尼泊尔巴克塔普尔白车轴草访花昆虫调查中,东方蜜蜂是膜翅目中最占优势的访花种;日本果园中在柿花开放前,东方蜜蜂日本亚种与熊蜂 Bombus ardens 为白车轴草的主要访花者",
+          "quote": "Apis cerana and Lampides boeticus are the most dominant species belonging to orders Hymenoptera and Lepidoptera respectively.",
+          "url": "https://doi.org/10.3126/jist.v22i2.19598",
+          "supporting_quotes": [
+            {
+              "quote": "The bumblebee Bombus ardens ardens (Hymenoptera: Apidae) visits white clover in orchards before Oriental persimmon blooms",
+              "url": "https://doi.org/10.1111/ens.12449",
+              "note": "Nikkeshi et al. 2021, Entomological Science;摘要(经 Semantic Scholar 转述)称柿花开放前 Bombus ardens ardens 与 Apis cerana japonica 是白车轴草的主要访花者,原句未能逐字核验。"
+            }
+          ],
+          "note": "摘要文本经 Crossref API 获取(https://api.crossref.org/works/10.3126/jist.v22i2.19598);期刊网站(nepjol.info)对抓取拒绝连接。"
+        },
+        {
+          "bee": "bombus-terrestris",
+          "relation": "pollination",
+          "detail": "新西兰白车轴草种子田调查:欧洲熊蜂访花并在小花间移动更快,单位效率高于西方蜜蜂,但因数量少总体贡献较低;可在蜜蜂不利天气下觅食形成互补",
+          "quote": "B. terrestris were considered a more efficient pollinator than A. mellifera moving faster between florets but were less effective due to low abundances. Many Bombus spp. will forage under weather conditions unfavourable to A. mellifera, therefore, providing complimentary pollination.",
+          "url": "https://doi.org/10.1080/01140671.2018.1466341",
+          "supporting_quotes": [
+            {
+              "quote": "The flowers are mostly visited by bumblebees and often by honey bees.",
+              "url": "https://en.wikipedia.org/wiki/Trifolium_repens"
+            },
+            {
+              "quote": "Clovers are most efficiently pollinated by bumblebees, which have declined as a result of agricultural intensification.",
+              "url": "https://en.wikipedia.org/wiki/Clover"
+            }
+          ],
+          "note": "摘要文本经 Semantic Scholar API 获取(NZ Journal of Crop and Horticultural Science 2018)。"
+        },
+        {
+          "bee": "osmia-cornifrons",
+          "relation": "none",
+          "detail": "未找到角额壁蜂访白车轴草的明确记载;文献仅称其花粉来源以蔷薇科和豆科为主",
+          "quote": "O. cornifrons has previously been characterized as a mesolectic species that collects pollen from plants primarily within the families Rosaceae and Fabaceae when provisioning nests for their offspring",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10589078/",
+          "note": "该文全文未出现 Trifolium 或 clover;“豆科”为科级泛指,不能推定包含白车轴草。"
+        },
+        {
+          "bee": "megachile-rotundata",
+          "relation": "pollination",
+          "detail": "维基记载其已被证明可为 Trifolium 属传粉;加拿大研究(Richards 2016, J. Apicultural Research 55:3)专门评估其对白车轴草的传粉效果并推荐为有效传粉者",
+          "quote": "It has been shown to pollinate these plant species: Medicago sativa, Other Legumes, Brassica napus, Trifolium spp., Vaccinium angustifolium",
+          "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "supporting_quotes": [
+            {
+              "quote": "Effectiveness of the alfalfa leafcutter bee Megachile rotundata Fab. to pollinate perennial clovers",
+              "url": "https://doi.org/10.1080/00218839.2016.1225865",
+              "note": "仅核验到标题(Crossref);出版社页面返回 403,摘要未能逐字核验。搜索引擎摘要片段称其“can thus be recommended as an effective pollinator of white clover”,引用前需人工确认。"
+            }
+          ]
+        },
+        {
+          "bee": "xylocopa-violacea",
+          "relation": "none",
+          "detail": "未找到紫木蜂访白车轴草的明确记载;土耳其研究称其为红车轴草(Trifolium pratense)的有价值传粉者,维基图注显示其在豆科香豌豆上采粉",
+          "quote": "X. valga, X. violacea, X. iris and X. olivieri are valuable pollinators of some cultivated plants",
+          "url": "https://www.entomol.org/journal/index.php/JERS/article/view/537",
+          "supporting_quotes": [
+            {
+              "quote": "collecting pollen from a sweet pea flower",
+              "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+              "note": "图片说明文字。"
+            }
+          ],
+          "note": "上述记载对象为红车轴草/其他豆科,非白车轴草。"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    { "title": "Vaccinium corymbosum", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Vaccinium_corymbosum" },
+    { "title": "Blueberry", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Blueberry" },
+    { "title": "Buzz pollination", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Buzz_pollination" },
+    { "title": "藍莓", "organization": "Wikipedia (ZH)", "url": "https://zh.wikipedia.org/wiki/藍莓" },
+    { "title": "Amerikanische Heidelbeere", "organization": "Wikipedia (DE)", "url": "https://de.wikipedia.org/wiki/Amerikanische_Heidelbeere" },
+    { "title": "Kulturheidelbeere", "organization": "Wikipedia (DE)", "url": "https://de.wikipedia.org/wiki/Kulturheidelbeere" },
+    { "title": "Plant Guide: Highbush Blueberry Vaccinium corymbosum L.", "organization": "USDA NRCS", "url": "https://plants.sc.egov.usda.gov/DocumentLibrary/plantguide/pdf/pg_vaco.pdf" },
+    { "title": "Blueberries Require Pollination (MI Blueberry Pollination Factsheet)", "organization": "Michigan State University / Integrated Crop Pollination Project", "url": "https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf" },
+    { "title": "Vaccinium corymbosum (Highbush Blueberry)", "organization": "Lady Bird Johnson Wildflower Center, University of Texas", "url": "https://www.wildflower.org/plants/result.php?id_plant=VACO" },
+    { "title": "Vaccinium corymbosum", "organization": "North Carolina Extension Gardener Plant Toolbox, NC State", "url": "https://plants.ces.ncsu.edu/plants/vaccinium-corymbosum/" },
+    { "title": "Vaccinium corymbosum — highbush blueberry", "organization": "Go Botany, Native Plant Trust", "url": "https://gobotany.nativeplanttrust.org/species/vaccinium/corymbosum/" },
+    { "title": "Vaccinium corymbosum", "organization": "Plants For A Future (PFAF)", "url": "https://pfaf.org/user/Plant.aspx?LatinName=Vaccinium+corymbosum" },
+    { "title": "Blueberries & Buzz Pollination", "organization": "Pollinator Pathway", "url": "https://www.pollinator-pathway.org/post/blueberries-buzz-pollination" },
+    { "title": "Contrasting Pollinators and Pollination in Native and Non-Native Regions of Highbush Blueberry Production", "organization": "PLOS ONE (2016)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0158937" },
+    { "title": "Pollination by native bees achieves high fruit quantity and quality of highbush blueberry: a sustainable alternative to managed pollinators", "organization": "Frontiers in Sustainable Food Systems (2023)", "url": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full" },
+    { "title": "Differences in Pollination Efficiency Among Three Bee Species in a Greenhouse and Their Effects on Yield and Fruit Quality of Northern Highbush 'Bluecrop' Blueberry", "organization": "HortScience 56(5), ASHS (2021)", "url": "https://doi.org/10.21273/HORTSCI15714-21" },
+    { "title": "Landscape effects on wild Bombus terrestris queens visiting highbush blueberry fields in south-central Chile", "organization": "Apidologie (2015)", "url": "https://doi.org/10.1007/s13592-015-0422-6" },
+    { "title": "Evaluating hornfaced bees (Osmia cornifrons) as pollinators of highbush blueberry — Final Report ONE05-049", "organization": "SARE (USDA Sustainable Agriculture Research and Education)", "url": "https://projects.sare.org/project-reports/one05-049/" },
+    { "title": "Osmia cornifrons", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons" },
+    { "title": "Osmia ribifloris", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Osmia_ribifloris" },
+    { "title": "Megachile rotundata", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Megachile_rotundata" },
+    { "title": "Xylocopa violacea", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea" },
+    { "title": "Bombus terrestris", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Bombus_terrestris" },
+    { "title": "Apis cerana", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Apis_cerana" },
+    { "title": "Monofloral honey", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Monofloral_honey" },
+    { "title": "蓝莓几月份开花?花期要做好哪些管理要点?", "organization": "惠农网 农技学堂(非权威)", "url": "https://www.cnhnb.com/xt/article-111533.html" },
+    { "title": "Trifolium repens", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Trifolium_repens" },
+    { "title": "Clover", "organization": "Wikipedia (EN)", "url": "https://en.wikipedia.org/wiki/Clover" },
+    { "title": "白車軸草", "organization": "Wikipedia (ZH)", "url": "https://zh.wikipedia.org/wiki/白車軸草" },
+    { "title": "Weißklee", "organization": "Wikipedia (DE)", "url": "https://de.wikipedia.org/wiki/Weißklee" },
+    { "title": "Trifolium repens L., White Clover (Fermanagh species account)", "organization": "Botanical Society of Britain & Ireland (BSBI)", "url": "https://bsbi.org/in-your-area/local-botany/co-fermanagh/fermanagh-species-accounts/trifolium-repens-l" },
+    { "title": "White Clover (Trifolium repens)", "organization": "Minnesota Wildflowers", "url": "https://www.minnesotawildflowers.info/flower/white-clover" },
+    { "title": "Trifolium repens 白车轴草", "organization": "iPlant 植物智 (中国科学院植物研究所)", "url": "http://www.iplant.cn/info/Trifolium%20repens" },
+    { "title": "Bombus terrestris: a more efficient but less effective pollinator than Apis mellifera across surveyed white clover seed fields", "organization": "New Zealand Journal of Crop and Horticultural Science (2018)", "url": "https://doi.org/10.1080/01140671.2018.1466341" },
+    { "title": "Number of honey bee visits required to fully pollinate white clover (Trifolium repens) seed crops in Canterbury, New Zealand", "organization": "New Zealand Journal of Crop and Horticultural Science (2011)", "url": "https://doi.org/10.1080/01140671.2010.520164" },
+    { "title": "Insect Visitors of White Clover (Trifolium repens L) and Their Relation With Environmental Variables in the Premises of Bhaktapur Multiple Campus, Nepal", "organization": "Journal of Institute of Science and Technology (2017)", "url": "https://doi.org/10.3126/jist.v22i2.19598" },
+    { "title": "The bumblebee Bombus ardens ardens visits white clover in orchards before Oriental persimmon blooms", "organization": "Entomological Science (2021)", "url": "https://doi.org/10.1111/ens.12449" },
+    { "title": "Effectiveness of the alfalfa leafcutter bee Megachile rotundata Fab. to pollinate perennial clovers", "organization": "Journal of Apicultural Research 55(3) (2016)", "url": "https://doi.org/10.1080/00218839.2016.1225865" },
+    { "title": "New Data on Large Carpenter-bees of Turkey with Considerations About Their Importance as Pollinators", "organization": "Journal of the Entomological Research Society", "url": "https://www.entomol.org/journal/index.php/JERS/article/view/537" },
+    { "title": "More than mesolectic: Characterizing the nutritional niche of Osmia cornifrons", "organization": "Ecology and Evolution / PMC (2023)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10589078/" }
+  ]
+}

@@ -1,0 +1,124 @@
+## [refutation] focus:apis-mellifera-worker/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-mellifera-worker/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:apis-mellifera-queen/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-mellifera-queen/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:apis-mellifera-drone/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-mellifera-drone/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:apis-cerana-worker/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-cerana-worker/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:apis-cerana-queen/whole -> uncertain
+  - 数字过窄且偏低。6000–7000 只是 Wikipedia 转引的单一数据,其他资料给出 6000–10000 只,中国饲养的中蜂强群可达一两万只;亚种与季节差异很大,写成'通常只有 6000–7000'以偏概全。 || FIX: 改为'通常数千至一万余只,明显小于西方蜜蜂群体',并注明随亚种与季节变化。
+## [refutation] focus:apis-cerana-queen/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-cerana-queen/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:apis-cerana-drone/whole -> uncertain
+  - 绝对化。雄蜂的主要职能是交配,但有研究认为雄蜂在巢内参与子脾保温(thermoregulation),'唯一'说不住。 || FIX: 改为'主要职能是与新蜂王交配'。
+## [refutation] focus:apis-cerana-drone/head -> uncertain
+  - 蜜蜂的下颚须(maxillary palps)极度退化,肉眼可见、伸出时明显的是下唇须(labial palps),与中唇舌并列构成吸管。把可见的须写成'下颚须'属于张冠李戴。 || FIX: 改为'大颚、下唇须和可伸出的中唇舌',或泛写为'大颚与可伸缩的口器'。
+## [refutation] focus:apis-cerana-drone/wing -> uncertain
+  - 目的论表述,把'雄蜂翅较大'推断成'为婚飞而适合',且未给出翅长/体长比数据;原文所引 hamulus 与 Snodgrass 都不支持这一比较结论。 || FIX: 改为'雄蜂的翅在三种职型中绝对尺寸最大',删去'更适合婚飞'的功能判断,或加'一般认为'。
+## [refutation] focus:bombus-terrestris-worker/head -> fail
+  - 事实错误。欧洲熊蜂(Bombus terrestris)是典型的短舌熊蜂,舌长约 6–8 mm,恰恰够不到深冠筒花的花蜜,因而以'盗蜜'(在花冠基部咬孔)著称;长舌种是 B. hortorum 等。这里把长舌熊蜂的特征套到了本种上。 || FIX: 改为'欧洲熊蜂属短舌熊蜂,偏好开放或浅冠筒花;遇到深冠筒花时常在花冠基部咬孔盗蜜。真正能合法探入深花的是长舌熊蜂(如 Bombus hortorum)。'
+## [refutation] focus:bombus-terrestris-worker/leg -> uncertain
+  - 泛化结论。熊蜂单花访问效率高于蜜蜂的证据集中在番茄、蓝莓、红三叶等特定作物;对多数作物并无普适结论,且 B. terrestris 采集偏好约 25 °C 的环境。 || FIX: 改为'在番茄、蓝莓等作物上,熊蜂的单花访问效率常高于蜜蜂;它也能在蜜蜂不出勤的凉爽阴天工作'。
+## [refutation] focus:osmia-cornifrons-worker/whole -> uncertain
+  - 时态与量词偏差。来源说的是自 1940 年代起的约 50 年间'超过一半的日本苹果园曾使用过'该蜂,写成现在时的'倚赖'是把历史累计比例当成现状。 || FIX: 改为'20 世纪后半叶,日本超过一半的苹果园曾用它授粉'。
+## [refutation] focus:osmia-cornifrons-worker/wing -> uncertain
+  - 距离数字偏小且无来源。所引 Wikipedia 给出的是巢与作物田的距离通常在 130 m 以内、个别达 700 m;'几十米'低估了活动半径。 || FIX: 改为'通常在巢址一两百米范围内采集,是典型的短距离采集者'。
+## [refutation] focus:osmia-cornifrons-worker/leg -> fail
+  - 后半句事实错误。腹面(腹部腹面)集粉毛是切叶蜂科 Megachilidae 独有的特征;地蜂科、隧蜂科、分舌蜂科以及蜜蜂科中非花粉筐类群等绝大多数蜂类都把花粉携在后足(胫节/基跗节/股节)的集粉毛上。'多数蜂类用腹面集粉毛'与事实相反。 || FIX: 改为'花粉筐只见于蜜蜂科的少数几族(蜜蜂、熊蜂、无刺蜂、兰花蜂);多数其他蜂类用后足的集粉毛携粉,而把花粉带在腹面则是切叶蜂科的独门方式'。
+## [refutation] focus:xylocopa-violacea-worker/whole -> uncertain
+  - 范围扩大。来源只说它是'欧洲最大的蜂类之一';亚洲有体长 4 cm 级的华莱士巨蜂(Megachile pluto)及更大的热带木蜂,'欧亚最大之一'难以成立。 || FIX: 改为'欧洲最大的蜂类之一'。
+## [refutation] focus:xylocopa-violacea-worker/abdomen -> uncertain
+  - 无来源的机理断言。X. violacea 的标志性蓝紫虹彩主要在翅膜(薄膜干涉),身体基本是黑色、仅有微弱光泽;所引 Wikipedia 页面完全没有讨论体表颜色成因。把'结构色/非色素'写成定论超出证据。 || FIX: 把结构色的表述限定在翅膜,身体改为'黑色,带微弱金属光泽';若保留结构色说法,加'一般认为'并补引昆虫结构色文献。
+## [refutation] organ:organ-abdomen -> uncertain
+  - 该条目挂在三种职型下,但蜡腺仅工蜂具有功能性发育,螫针雄蜂完全没有;在雄蜂视图里讲'腹部含蜡腺与螫针'是张冠李戴。 || FIX: 改为'腹部容纳蜜胃与消化道;工蜂腹面另有蜡腺,雌性末端有螫针(雄蜂无)',或按职型分别显示。
+## [refutation] organ:organ-bombus-fur -> uncertain
+  - 术语混用。黑黄白分带是警戒色(aposematism),'拟态'(mimicry)指模仿他种;熊蜂之间的相似属缪勒拟态,但 functionNote 里'拟态警示'四字把两个概念糊在一起。 || FIX: 改为'保温、警戒色与携粉',如需提拟态则写'与其他熊蜂形成缪勒拟态环'。
+## [refutation] organ:organ-xylocopa-integument -> uncertain
+  - 无来源的机理断言。X. violacea 的标志性蓝紫虹彩主要在翅膜(薄膜干涉),身体基本是黑色、仅有微弱光泽;所引 Wikipedia 页面完全没有讨论体表颜色成因。把'结构色/非色素'写成定论超出证据。 || FIX: 把结构色的表述限定在翅膜,身体改为'黑色,带微弱金属光泽';若保留结构色说法,加'一般认为'并补引昆虫结构色文献。
+  - 推测无出处。所引来源没有讨论金属光泽的热学功能。 || FIX: 删去,或改为'功能尚不清楚'。
+## [refutation] compare:row-body-length -> uncertain
+  - 下限偏高。多数权威资料给工蜂体长 10–15 mm(Britannica 给约 12 mm 的典型值),12–15 mm 把范围收窄了。 || FIX: 改为'约 10–15 mm'(蜂王 18–20、雄蜂 15–17 可保留)。
+## [refutation] compare:row-sting -> uncertain
+  - 过度简化。蜂王螫针并非无倒钩,而是倒钩更小、更少,因此可以拔出重复使用;'无倒钩'是熊蜂螫针的特征,套到蜂王身上不准确。 || FIX: 改为'有,倒钩细小,可重复螫刺'。
+## [refutation] compare:row-cerana-sting -> uncertain
+  - 过度简化。蜂王螫针并非无倒钩,而是倒钩更小、更少,因此可以拔出重复使用;'无倒钩'是熊蜂螫针的特征,套到蜂王身上不准确。 || FIX: 改为'有,倒钩细小,可重复螫刺'。
+## [refutation] compare:row-cerana-colony -> uncertain
+  - 数字过窄且偏低。6000–7000 只是 Wikipedia 转引的单一数据,其他资料给出 6000–10000 只,中国饲养的中蜂强群可达一两万只;亚种与季节差异很大,写成'通常只有 6000–7000'以偏概全。 || FIX: 改为'通常数千至一万余只,明显小于西方蜜蜂群体',并注明随亚种与季节变化。
+## [refutation] species:apis-mellifera -> uncertain
+  - 下限偏高。多数权威资料给工蜂体长 10–15 mm(Britannica 给约 12 mm 的典型值),12–15 mm 把范围收窄了。 || FIX: 改为'约 10–15 mm'(蜂王 18–20、雄蜂 15–17 可保留)。
+## [refutation] species:osmia-cornifrons -> fail
+  - 数字与权威鉴定资料不符。USDA/APHIS Exotic Bee ID 给出雌蜂 8–12 mm、雄蜂 8–10 mm;11–13 mm 超出了雌蜂上限,且无来源(所引 Wikipedia 页面根本没有体长数据)。 || FIX: 改为 min 8 / max 12(雌蜂),并把来源换成 Exotic Bee ID。
+## [refutation] species:xylocopa-violacea -> uncertain
+  - 范围扩大。来源只说它是'欧洲最大的蜂类之一';亚洲有体长 4 cm 级的华莱士巨蜂(Megachile pluto)及更大的热带木蜂,'欧亚最大之一'难以成立。 || FIX: 改为'欧洲最大的蜂类之一'。
+  - 上限偏低且无来源。所引 Wikipedia 页面无体长数据;其他资料给 20–28 mm、'可达 3 cm'或 20–22 mm,各来源不一致。 || FIX: 改为约 20–28 mm,并补一个给出体长的来源。
+## [compliance] focus:apis-mellifera-worker/abdomen -> fail
+  - 8 受众适配:这是面向建模者的内部制作要求,不是面向公众的科普事实,出现在 fact 字段会让观众困惑。 || FIX: 替换为面向观众的事实,如“工蜂腹部有 6 个可见体节,末端藏有螫针;蜂王腹部明显更长,雄蜂末端较钝且无螫针。”
+  - [可选] 8 受众适配:“环带”含义不明。 || FIX: 改为“表面有坚硬的甲壳、深浅相间的色带和短毛”。
+## [compliance] focus:apis-mellifera-queen/abdomen -> fail
+  - 8 受众适配:内部制作说明泄露到公开 fact 字段(与工蜂腹部条目共用文案)。 || FIX: 同 focus:apis-mellifera-worker/abdomen:替换为面向观众的腹部事实。
+## [compliance] focus:apis-mellifera-queen/leg -> fail
+  - 8 受众适配:这是对建模/讲解团队的内部提醒,不是科普事实。 || FIX: 改为“蜂王一生几乎不外出采集,后足没有花粉筐,也不会带回花粉团。”
+## [compliance] focus:apis-mellifera-drone/abdomen -> fail
+  - 8 受众适配:内部制作说明泄露到公开 fact 字段(共用文案)。 || FIX: 同 focus:apis-mellifera-worker/abdomen:替换为面向观众的腹部事实。
+## [compliance] focus:apis-mellifera-drone/leg -> fail
+  - 8 受众适配:“需要在模型和讲解中保持一致”是内部制作要求,不应公开展示。 || FIX: 改为“雄蜂不采集花粉,也没有螫针——所以它既不会带回花粉团,也不会螫人。”
+## [compliance] focus:apis-cerana-worker/abdomen -> fail
+  - 8 受众适配:内部制作说明泄露到公开 fact 字段(共用文案)。 || FIX: 同 focus:apis-mellifera-worker/abdomen:替换为面向观众的腹部事实,可顺带点出东方蜜蜂腹部环纹更均匀清晰。
+## [compliance] focus:apis-cerana-queen/abdomen -> fail
+  - 8 受众适配:内部制作说明泄露到公开 fact 字段(共用文案)。 || FIX: 同 focus:apis-mellifera-worker/abdomen:替换为面向观众的腹部事实。
+## [compliance] focus:apis-cerana-queen/leg -> fail
+  - 8 受众适配:内部制作提醒,不是科普事实。 || FIX: 改为“蜂王几乎不外出采集,后足没有花粉筐,也不会带回花粉团。”
+## [compliance] focus:apis-cerana-drone/whole -> fail
+  - 1 绝对化:“唯一”缺少限定;雄蜂在巢内还参与保温等次要活动。 || FIX: 改为“主要职能是与新蜂王交配”。
+  - 1 绝对化:“所有”应留余地并说明范围。 || FIX: 改为“这一点在蜜蜂属乃至绝大多数蜂类中都是如此”。
+## [compliance] focus:apis-cerana-drone/abdomen -> fail
+  - 8 受众适配:内部制作说明泄露到公开 fact 字段(共用文案)。 || FIX: 同 focus:apis-mellifera-worker/abdomen:替换为面向观众的腹部事实。
+## [compliance] focus:apis-cerana-drone/leg -> fail
+  - 8 受众适配:“需要在模型和讲解中保持一致”是内部制作要求。 || FIX: 改为“雄蜂不采集花粉,也没有螫针——既不会带回花粉团,也不会螫人。”
+## [compliance] focus:bombus-terrestris-worker/wing -> fail
+  - 8 受众适配:“非定常涡流升力”是空气动力学专业术语,是本条 fact 的核心内容却完全未解释,中小学观众无法理解;“早已”带评价口吻。 || FIX: 改为“空气动力学研究已经解释了它的飞行:翅膀快速拍动时会在翅面上方卷起小旋涡,这些旋涡能提供额外的升力,用静止机翼的公式算不出来。”
+## [compliance] focus:osmia-cornifrons-worker/whole -> fail
+  - 5 名称规范:标题把壁蜂称作“蜜蜂”,而本物种腹部条目写“壁蜂没有蜜蜂那样的后足花粉筐”,同一物种内“蜜蜂”一词指代前后矛盾。 || FIX: 改为“没有蜂群的蜂:一只雌蜂就是整个家”。
+  - 2 确定性口径:名称由来写成定论。 || FIX: 改为“‘壁蜂’(英文 mason bee,泥匠蜂)之名一般认为由此而来”。
+  - [可选] 8 受众适配:句子结构拗口。 || FIX: 改为“日本超过一半的苹果园依赖它授粉”。
+## [compliance] focus:osmia-cornifrons-worker/leg -> fail
+  - 1 绝对化/过度概括:腹面集粉毛是切叶蜂科的特征,多数蜂类的集粉毛长在后足;“才是多数”缺少限定。 || FIX: 改为“花粉筐(corbicula)只见于蜜蜂科少数几族;多数蜂类靠身体不同部位(后足或腹面)的集粉毛携粉”。
+## [compliance] focus:megachile-rotundata-worker/whole -> fail
+  - 5 名称规范:切叶蜂不属于蜜蜂属,本馆其余条目均以“蜜蜂”与“切叶蜂”对举,标题称“小蜜蜂”前后矛盾。 || FIX: 改为“会裁剪树叶的小蜂”。
+  - [可选] 8 受众适配:“制种”“管理授粉蜂”为行业术语。 || FIX: 改为“被引入北美、新西兰和澳大利亚,用于给生产种子的苜蓿田授粉”。
+## [compliance] focus:xylocopa-violacea-worker/abdomen -> fail
+  - 2 确定性口径:成因机理写成定论,所引来源并未论证该机制。 || FIX: 改为“一般认为这种光泽是结构色——由甲壳表面的微结构对光的作用产生,而不是色素”。
+  - [可选] 8 受众适配:本馆为线上博物馆,观众看到的是 3D 模型而非实物标本,易造成误解。 || FIX: 改为“在光线下转动实物标本(或本馆的 3D 模型),能看到光泽随角度变化。”
+## [compliance] organ:organ-proboscis -> fail
+  - 8/9 受众适配与模型说明:内部文档引用(“前端方案 §8.1”)出现在面向公众的 modelNote 中,观众无从理解,应删除;模型省略的说明本身是诚实且值得保留的。 || FIX: 改为“当前首屏高精度模型未雕刻口器,标注点位于头部下前方的近似位置;程序化标本模型包含简化口器。”并删去“按前端方案 §8.1 要求在此注明”。
+  - [可选] 8 受众适配:文件名对观众无意义。 || FIX: 改为“首屏高精度模型”。
+## [compliance] organ:organ-abdomen -> fail
+  - 5 名称规范/职型一致:本条 castes 包含雄蜂,但雄蜂无螫针、也无蜡腺;在雄蜂视图下展示此句与“雄蜂无螫针”的多处表述直接矛盾。 || FIX: 改为“容纳蜜胃、消化道等结构;工蜂腹部还有蜡腺,雌性(工蜂、蜂王)腹末有螫针,雄蜂则没有”。
+  - [可选] 8 受众适配:“泌蜡”可加简释。 || FIX: 改为“分泌蜂蜡与呼吸运动”。
+## [compliance] organ:organ-sting -> fail
+  - 8 受众适配/3 安全暗示:“其”指代不清,可读作“导致哺乳动物(人)死亡”,对中小学观众有误导和恐吓风险。 || FIX: 改为“工蜂螫刺哺乳动物后,带倒钩的螫针常留在皮肤里而脱落,工蜂自己随后死亡”。
+  - [可选] 3 安全提示:涉及螫刺的条目可附一句安全提示。 || FIX: 在 summary 末尾补充“野外遇到蜂群请保持距离;被螫后尽快移除螫针,出现过敏反应应立即就医。”
+## [compliance] organ:organ-bombus-sting -> fail
+  - 3 安全与健康暗示:评价性判断可能让中小学观众认为可以接近或触碰野生熊蜂;熊蜂被捏握、巢穴受扰时会螫刺,且可重复螫刺,过敏者风险相同。 || FIX: 改为“熊蜂通常不主动攻击人,但被捏握或巢穴受扰时会螫刺。野外观察请保持距离,不要触碰;对蜂毒过敏者被螫后应立即就医。”
+## [compliance] organ:organ-osmia-mandible -> uncertain
+  - 9 模型说明诚实性:本条锚点借用 proboscis,与切叶蜂、木蜂的大颚条目情形相同,但后两者都注明“当前模型未单独雕刻大颚”,本条没有任何模型说明;无法判断壁蜂模型是否真的雕刻了大颚。 || FIX: 若模型未单独雕刻大颚,补充 modelNote“当前模型未单独雕刻大颚,以口器锚点讲解”;若已雕刻,注明锚点为何借用口器。
+## [compliance] organ:organ-xylocopa-integument -> fail
+  - 2 确定性口径:成因机理写成定论(与 focus 腹部条目同一问题),所引来源未论证该机制。 || FIX: 改为“一般认为这是结构色——由甲壳表面微结构对光的干涉产生,而不是色素。”
+  - [可选] 8 受众适配:“干涉”为物理术语。 || FIX: 改为“对光产生干涉(不同方向反射的光相互叠加)”。
+## [compliance] organ:organ-xylocopa-wing -> fail
+  - 2 确定性口径:同一物种的 focus 翅条目写“木蜂属被认为能进行振动授粉”,本条写成定论,两处口径不一致。 || FIX: 改为“木蜂属被认为能以飞行肌高频震动进行振动授粉”。
+  - [可选] 9 模型说明:未说明模型翅膜是否表现了烟紫色虹彩。 || FIX: 补充 modelNote,如“模型翅膜以半透明深色近似,未表现随角度变化的虹彩”。
+## [compliance] species:xylocopa-violacea -> fail
+  - 2 确定性口径:focus 翅条目写“被认为能”,species 与 organ 条目写成定论,同一物种三处口径不一致。 || FIX: 改为“被认为能进行振动授粉”。
+  - [可选] 6 数字口径:纯文本中“30°”在部分字体下不易辨识,且与前半句“至中国中部”并列略显重复。 || FIX: 改为“主要分布于北纬 30 度以北”。

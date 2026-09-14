@@ -1,0 +1,73 @@
+{
+  "lens": "refutation",
+  "round": 7,
+  "reviewedAt": "2026-08-25T03:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "遇到深冠筒的花,欧洲熊蜂常在花冠基部咬孔取蜜,这种行为叫\"盗蜜\"。",
+          "problem": "试图证伪:欧洲熊蜂是否真是\"初级盗蜜者\"(自己咬孔)而非仅利用他者孔洞?查证结果:站得住。B. terrestris 为短舌种,在蚕豆 Vicia faba 上 87% 的访花为盗蜜,在 Corydalis cava 上蜂王亲自穿刺花距(初级盗蜜);\"常\"为恰当限定。",
+          "evidence": "Vicia faba 上 B. terrestris 87.19% 访花为盗蜜(Journal of Pollination Ecology, https://pollinationecology.org/index.php/jpe/article/view/630);Corydalis cava 上 B. terrestris 蜂王穿刺花距进行初级盗蜜(Olesen 1996,见 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2602821/);bumblebee.org 称其为 accomplished nectar robbers(https://www.bumblebee.org/terr.htm)。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "同一巢的工蜂胸部尺寸可差两三倍,体重可差近十倍(不同资料 8–11 倍)。",
+          "problem": "试图证伪数字:英文维基 Bombus terrestris 给出胸部 2.3–6.9 mm(约 3 倍)、体重 68–754 mg(约 11 倍);Goulson 等文献常称\"最多可差十倍\"。条目已用\"两三倍\"\"近十倍(不同资料 8–11 倍)\"限定,与资料吻合。唯一可挑之处是\"胸部尺寸\"未说明是宽还是长(维基原文为 thorax length,常规度量为胸宽),但作为科普措辞可接受。",
+          "evidence": "https://en.wikipedia.org/wiki/Bombus_terrestris (\"thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg\");https://pubmed.ncbi.nlm.nih.gov/26023250/ (熊蜂同巢工蜂体重可差达十倍)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "1977 年它被引入美国东部",
+          "problem": "年份存在实质分歧且此处未加限定:英文维基称 1977 年引入美国东北部;Exotic Bee ID(USDA)只说\"1970 年代\";2024 年 Environmental Entomology 论文称自 1965 年起多批次从日本引入,1977 年是在马里兰州确认定殖的年份;宾州推广资料则称 1978 年由 USDA 引入宾夕法尼亚。\"1977 年引入\"只是其中一种说法,把\"定殖确认年\"当\"引入年\"有张冠李戴之嫌。",
+          "evidence": "https://en.wikipedia.org/wiki/Osmia_cornifrons (\"In 1977, O. cornifrons was introduced in the northeastern United States\");https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062 (\"intentionally introduced to the eastern U.S. from Japan in the 1970s\");https://pmc.ncbi.nlm.nih.gov/articles/PMC11649344/ (\"multiple shipments of thousands of bees from Japan as early as 1965, with evidence of establishment in 1977\");https://extension.psu.edu/orchard-pollination-solitary-mason-bees (1978 年引入宾夕法尼亚)。",
+          "fix": "改为:\"1970 年代(据报道 1977 年前后)它被美国农业部从日本引入美国东部,此后在美国东部与中西部定殖\";或更准确地写\"自 1960 年代中期起多次被引入美国东部,1977 年前后确认定殖\"。"
+        },
+        {
+          "claim": "据报道,自 1940 年代起的约五十年间,日本半数以上的苹果园曾用它授粉",
+          "problem": "已用\"据报道\"限定且与英文维基原文一致,不构成否决;但中文句式易被读成\"这五十年间一直有半数以上果园使用\"。实际情况是使用比例在约五十年里逐步上升,直到 1990 年前后才达到半数(1981 年约 10%,1990 年约 50%,1996 年超过 70%)。属措辞歧义,非事实错误。",
+          "evidence": "https://en.wikipedia.org/wiki/Osmia_cornifrons (\"over a 50-year time period, use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species\");https://www.sciencedirect.com/science/article/abs/pii/S0304423809000193 及相关文献:日本苹果产区使用比例 1981 年 10%、1990 年 50%、1996 年 70% 以上。",
+          "fix": "改为:\"据报道,日本自 1940 年代起用它为苹果授粉,使用范围在约五十年间逐步扩大,到 1990 年代已覆盖半数以上的苹果园\"。"
+        },
+        {
+          "claim": "它用泥土在竹管或芦苇管里隔出一间间巢室,每室放一个花粉球和一枚卵——壁蜂这一类蜂的英文统称 mason bee(泥匠蜂)由此而来。",
+          "problem": "试图证伪:是否所有壁蜂都用泥?维基 Mason bee 页明确 Osmia 属得名于使用泥或其他\"砌筑\"材料,材料可为黏土、泥、碎石或咀嚼的植物组织;Exotic Bee ID 称角额壁蜂巢室由泥和叶浆构成。条目只说角额壁蜂\"用泥土\",并把命名归因于这一类蜂的整体习性,表述成立。",
+          "evidence": "https://en.wikipedia.org/wiki/Mason_bee (\"named for their habit of using mud or other 'masonry' products in constructing their nests\");https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062 (\"Nests cells are constructed of mud and leaf pulp\");https://en.wikipedia.org/wiki/Osmia_cornifrons (每室一枚卵、以泥封室、花粉球)。",
+          "fix": "无需修改(如求严谨,可把\"用泥土\"写成\"主要用泥土\")。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "腹部有四条黄色环纹",
+          "problem": "绝对化表述,且仅有英文维基一处支持。东方蜜蜂体色因亚种与地区差异极大:中华蜜蜂(A. c. cerana)工蜂被描述为\"腹部黄黑色\"\"腹部第 3–4 节背板红黄色、各节背板端缘均具黑色环带\",另有资料称其为\"棕黄色,第二腹节有一条窄黑带\";印度亚种则整体偏暗。\"四条黄色环纹\"这一固定数字难以对所有亚种成立,尤其与本条重点介绍的中华蜜蜂的常见描述不一致。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana (\"black in color, with four yellow abdominal stripes\");https://zh.wikipedia.org/wiki/中华蜜蜂 (\"头胸部黑色,腹部黄黑色\");https://baike.baidu.com/item/中华蜜蜂/2222168 (\"足及腹部第3-4节背板红黄色…各节背板端缘均具黑色环带\",体色因地区不同);https://honeybeeandco.uk/eastern-honeybee/ (\"alternating pale yellow to amber abdominal bands\",A. c. cerana 为 brownish-yellow with a narrow black band on the second abdominal segment)。",
+          "fix": "改为:\"腹部有黄黑相间的环纹,黑带较西方蜜蜂更均匀清晰;体色深浅因亚种和地区而异\"。"
+        },
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm)",
+          "problem": "已作限定,不构成否决;但限定范围本身仍偏窄:中文权威资料对中华蜜蜂工蜂普遍给出 10–13 mm,上限 13 mm 落在\"9–12\"之外。既然 distribution 字段以中华蜜蜂为重点,括注范围宜覆盖之。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana (\"medium-sized bees (10-11mm)\");https://honeybeeandco.uk/eastern-honeybee/ (9–12 mm);https://zh.wikipedia.org/wiki/中华蜜蜂 与 https://baike.baidu.com/item/中华蜜蜂/2222168 (\"工蜂体长10–13毫米\")。",
+          "fix": "改为\"工蜂体长约 10–11 mm(不同资料约 9–13 mm)\";workerBodyLengthMm 可保留 10–11 或放宽为 9–13。"
+        },
+        {
+          "claim": "亚洲南部与东部的传统饲养蜂种;中华蜜蜂(Apis cerana cerana)是它在中国最主要的亚种",
+          "problem": "试图证伪:原生分布西起阿富汗、巴基斯坦,经南亚、东南亚(含印尼、菲律宾、东帝汶)至日本、朝鲜半岛与俄罗斯滨海边疆区;\"亚洲南部与东部\"略窄但属科普概括,可接受。\"最主要\"已限定;中华蜜蜂确为指名亚种且是中国分布最广的亚种。拉丁名、英文名 Eastern honey bee、蜜蜂科 Apidae 均无误。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana (原生国家名单;A. c. cerana = Chinese honey bee,分布中国南部与沿海等);https://zh.wikipedia.org/wiki/中华蜜蜂 (\"东方蜜蜂的指名亚种\")。",
+          "fix": "可选:distribution 改为\"南亚、东南亚至东亚广布的传统饲养蜂种\"。"
+        }
+      ]
+    }
+  ]
+}

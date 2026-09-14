@@ -1,0 +1,3934 @@
+{
+  "generatedAt": "2026-08-25T02:08:35.557Z",
+  "sources": [
+    {
+      "id": "src-snodgrass-anatomy",
+      "title": "Anatomy of the Honey Bee",
+      "organization": "R. E. Snodgrass / Cornell University Press",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-honeybee",
+      "title": "Honeybee (Apis)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/honeybee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "title": "Honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-pollen-basket",
+      "title": "Pollen basket",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Pollen_basket",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-hamulus",
+      "title": "Hamulus (insect wing coupling)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Hamulus",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-western-honey-bee",
+      "title": "Western honey bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "title": "Apis cerana",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "title": "Bombus terrestris",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "title": "Buzz pollination",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-britannica-bumblebee",
+      "title": "Bumblebee (Bombus)",
+      "organization": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/animal/bumblebee",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "title": "Osmia cornifrons",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile-rotundata",
+      "title": "Megachile rotundata",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile_rotundata",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "title": "Xylocopa violacea",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "title": "Exotic Bee ID (Osmia cornifrons fact sheet)",
+      "organization": "USDA APHIS / idtools.org",
+      "url": "https://idtools.org/id/bees/exotic/",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "title": "Bumblebee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "title": "Carpenter bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "title": "Mason bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-megachile",
+      "title": "Megachile",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Megachile",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "title": "Blaue Holzbiene (Xylocopa violacea)",
+      "organization": "Wikimedia Foundation (德文维基)",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "title": "Nectar robbing",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "accessedOn": "2026-08-25",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-scopa",
+      "title": "Scopa (biology)",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Scopa_(biology)",
+      "accessedOn": "2026-08-24",
+      "reviewer": null,
+      "status": "draft"
+    },
+    {
+      "id": "src-wikipedia-worker-bee",
+      "title": "Worker bee",
+      "organization": "Wikimedia Foundation",
+      "url": "https://en.wikipedia.org/wiki/Worker_bee",
+      "accessedOn": "2026-08-21",
+      "reviewer": null,
+      "status": "draft"
+    }
+  ],
+  "entries": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "一只工蜂，就是一套精密的采集系统",
+      "latin": "Apis mellifera · worker",
+      "description": "工蜂是雌性，身体承担育幼、筑巢、防御和采集等多种任务，后足具有花粉筐。",
+      "fact": "工蜂不是一个独立物种，而是社会性蜜蜂群体中的一种职型。",
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足是工蜂的花粉运输工具",
+      "latin": "coxa · femur · tibia · tarsus · corbicula",
+      "description": "每条足都由多个关节段组成。工蜂后足胫节外侧形成花粉筐，花粉被梳理和压实后附着其上。",
+      "fact": "花粉团位于后足，而不是腹部；前足还参与触角清洁。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "蜂王",
+      "title": "蜂王不是更大的工蜂，而是不同的发育结果",
+      "latin": "Apis mellifera · queen",
+      "description": "蜂王同为雌性，但腹部更长，生殖系统高度发育；成熟群体通常围绕一只主要产卵蜂王组织。",
+      "fact": "蜂王没有工蜂式花粉筐，也不负责日常采集。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "蜂王有完整六足，但没有采集型花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "蜂王的足仍保持昆虫典型分节，但不承担工蜂式花粉采集，因此后足轮廓不同。",
+      "fact": "蜂王一生几乎不外出采集，后足没有花粉筐，也不会带回花粉团。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雄蜂",
+      "title": "宽大的复眼，是雄蜂最醒目的身份线索",
+      "latin": "Apis mellifera · drone",
+      "description": "雄蜂是雄性，胸部粗壮、复眼巨大，主要功能与交配相关；它没有螫针，也没有工蜂式花粉筐。",
+      "fact": "雄蜂体型并非简单放大的工蜂，头、眼、腹部末端和足部结构都不同。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "雄蜂的足适合活动，但不用于采集花粉",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "雄蜂没有工蜂式花粉筐。足部依然由基节、转节、股节、胫节和跗节等结构构成。",
+      "fact": "雄蜂不采集花粉，也没有螫针——它既不会带回花粉团，也不会螫人。不过野外很难一眼认出雄蜂，请不要据此去触碰任何蜂。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "更小的身体,同样完整的采集系统",
+      "latin": "Apis cerana · worker",
+      "description": "东方蜜蜂工蜂体长约 10–11 mm(西方蜜蜂工蜂约 12–15 mm;不同资料略有差异),腹部有四条黄色环纹;它能在较大的环境温差下维持稳定的巢温,是亚洲本土传统养蜂的主角。",
+      "fact": "中华蜜蜂(中蜂)是东方蜜蜂的亚种;面对胡蜂,东方蜜蜂会形成蜂团将其围困过热致死。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-worker-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足花粉筐,与西方蜜蜂同源",
+      "latin": "coxa · femur · tibia · tarsus · corbicula",
+      "description": "东方蜜蜂工蜂后足胫节同样特化出花粉筐,花粉压实后附着其上;足的分节结构与西方蜜蜂一致。",
+      "fact": "花粉筐是蜜蜂属的共同特征,不是某一种蜜蜂独有。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-apis-cerana"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "蜂王",
+      "title": "同样的长腹,更小的群体",
+      "latin": "Apis cerana · queen",
+      "description": "东方蜜蜂蜂王同为雌性,腹部延长、生殖系统高度发育;一个蜂群通常约有 6000–7000 只工蜂(不同资料因亚种与季节差异较大),明显小于西方蜜蜂群体。",
+      "fact": "东方蜜蜂比西方蜜蜂更容易迁飞(整群弃巢)——蜂王带着整群离开旧巢,是本土养蜂要面对的日常。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "蜂王有完整六足,但没有采集型花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "蜂王的足保持昆虫典型分节,但不承担采集,因此后足没有工蜂式的花粉筐轮廓。",
+      "fact": "蜂王几乎不外出采集,后足没有花粉筐,也不会带回花粉团。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雄蜂",
+      "title": "宽大复眼、无螫针,和西方蜜蜂雄蜂如出一辙",
+      "latin": "Apis cerana · drone",
+      "description": "东方蜜蜂雄蜂同样复眼巨大、胸部粗壮,主要职能是与新蜂王交配;它没有螫针,也没有花粉筐。",
+      "fact": "雄蜂一般由未受精卵发育而来,只有母亲没有父亲——这种单倍二倍性性别决定方式见于整个膜翅目(蜂、胡蜂、蚂蚁等);极少数情况下也会出现由受精卵发育的二倍体雄蜂。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-haplodiploidy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "它看到的世界，与我们并不相同",
+      "latin": "compound eyes · antennae · mouthparts",
+      "description": "复眼、三只单眼、分节触角与口器共同构成感知和取食系统。靠近头部，可以看到大颚、下唇须(口器两侧的须状附肢)和可伸出的中唇舌(吸食花蜜的“舌”)。",
+      "fact": "雄蜂的复眼显著增大并向头顶延伸；工蜂和蜂王的复眼比例更克制。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "两对翅在飞行中会连成一个翼面",
+      "latin": "forewing · hindwing · venation",
+      "description": "前翅与后翅通过翅钩联动。翅膜不是空白薄片，纵脉与横脉构成具有辨识价值的翅室网络。",
+      "fact": "蜂王腹部长但翅不会等比例变长；雄蜂的翅在三种职型中绝对尺寸最大。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "腹部轮廓记录了不同职型的生活方式",
+      "latin": "segmented abdomen · metasoma",
+      "description": "腹部由连续体节构成，表面有坚硬的甲壳、深浅相间的色带和短毛。蜂王腹部细长，雄蜂末端较钝，工蜂则介于两者之间。",
+      "fact": "工蜂腹部有 6 个可见体节，末端藏有螫针；蜂王腹部明显更长，雄蜂末端较钝且无螫针。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "雄蜂的足适合活动,不用于采集",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "雄蜂没有工蜂式花粉筐;足部依然由基节、转节、股节、胫节和跗节等结构构成。",
+      "fact": "雄蜂不采集花粉,也没有螫针——既不会带回花粉团,也不会螫人。不过野外很难一眼认出雄蜂,请不要据此去触碰任何蜂。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "工蜂",
+      "title": "圆胖多毛,是保温也是身份",
+      "latin": "Bombus terrestris · worker",
+      "description": "欧洲熊蜂通体覆盖浓密长绒毛:黑底之上带黄色带纹,尾端一撮白毛,是野外辨识它的第一线索。厚厚的毛被有助于保温,让它在较凉的天气也能出勤访花。",
+      "fact": "熊蜂会进行振动授粉:飞行肌高频震动把花粉从番茄等植物的管状花药里\"摇\"出来,这是蜜蜂做不到的。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-bumblebee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "够不到的花蜜,就咬个孔",
+      "latin": "compound eyes · antennae · proboscis",
+      "description": "熊蜂头部同样由复眼、单眼、触角和口器构成。遇到花冠很深、舌头够不到花蜜的花,熊蜂(据记载也包括欧洲熊蜂)有时会在花冠基部咬孔取蜜,这种行为叫\"盗蜜\"(nectar robbing)——这只是一个行为名称,并不带贬义。",
+      "fact": "熊蜂个体间体型差异很大:同一巢的工蜂胸部大小可差约 3 倍,体重可差近十倍(不同资料 8–11 倍)。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-nectar-robbing",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "ai-reviewed"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "小翅膀扛起圆身体",
+      "latin": "forewing · hindwing · wing coupling",
+      "description": "相对滚圆的身体,熊蜂的翅显得偏小;它依靠高频扇动维持飞行,前后翅同样以翅钩联动。",
+      "fact": "\"按空气动力学熊蜂不会飞\"是流传已久的误解:翅膀快速拍动时会在翅面上方卷起小旋涡,这些旋涡提供额外升力——用静止机翼的公式算不出来,但空气动力学研究已经解释清楚。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-hamulus"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "读懂尾色,就认出了这种熊蜂",
+      "latin": "banded fur · buff/white tail",
+      "description": "腹部的毛色分带是熊蜂分类的重要线索:欧洲熊蜂腹前有黄带、尾端污白;不同熊蜂种的带纹组合各不相同。",
+      "fact": "蜂王尾端偏皮黄色(buff),工蜂近白色——英文名 buff-tailed bumblebee 来自蜂王。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足同样带着花粉筐",
+      "latin": "corbicula · pollen basket",
+      "description": "熊蜂与蜜蜂同科,工蜂和蜂王后足胫节同样特化出光滑的花粉筐,访花归来时常能看到腿上鲜艳的花粉团。",
+      "fact": "在番茄、蓝莓等依赖振动授粉的作物上,熊蜂能完成蜜蜂做不到的授粉工作。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "没有蜂群的蜂:一只雌蜂独自筑巢育幼",
+      "latin": "Osmia cornifrons · female",
+      "description": "角额壁蜂是独居蜂:没有蜂王、工蜂之分,每只雌蜂独自选巢、采粉、产卵、封巢。它原产东亚;据报道,自 1940 年代起推广约五十年后,日本半数以上的苹果园曾用它授粉;据报道 1977 年前后它被引入美国东部,此后在美国东部与中西部定殖(在野外稳定繁殖、长期存在)。",
+      "fact": "它用泥土在竹管、芦苇管等细长空腔里隔出一间间巢室,每室放一个花粉球和一枚卵——壁蜂这一类蜂的英文统称 mason bee(泥匠蜂)由此而来。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-exotic-bee-id",
+        "src-wikipedia-mason-bee"
+      ],
+      "reviewStatus": "ai-reviewed"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "脸上的\"角\",是它名字的来源",
+      "latin": "clypeal horns · mandibles",
+      "description": "雌蜂下脸长有一对角状突起,学名 cornifrons 意为\"有角的额\";雌蜂用泥土分隔并封闭巢室。",
+      "fact": "它是昼行性蜂,白天 6 点到晚 8 点都可能在活动。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "短途飞行的专家",
+      "latin": "forewing · hindwing",
+      "description": "壁蜂是典型的短距离采集者,巢址通常建在作物田 130 米以内;翅膀结构与蜜蜂类同,前后翅以翅钩联动。",
+      "fact": "活动季集中在早春果树开花期,雄蜂约四月先羽化。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-hamulus"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "花粉背在肚子底下",
+      "latin": "ventral scopa",
+      "description": "壁蜂没有蜜蜂那样的后足花粉筐,而是在腹部腹面长着一片密集的集粉毛(scopa):访花时花粉直接刷附在腹部下方,带回巢中。",
+      "fact": "花粉刷附在毛间带回巢中,不像花粉筐那样压实;这种腹面携粉方式是切叶蜂科多数种类的特征。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-pollen-basket"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "后足没有花粉筐",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "与蜜蜂、熊蜂不同,壁蜂后足胫节没有光滑的花粉筐;六足主要用于抓握花朵、搬运泥土和在巢管内进退。",
+      "fact": "花粉筐(corbicula)只见于蜜蜂科的少数几族(蜜蜂、熊蜂、无刺蜂、兰花蜂);多数其他蜂类用后足的集粉毛携粉,把花粉带在腹面则主要见于切叶蜂科。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-pollen-basket"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会裁剪树叶的小蜂",
+      "latin": "Megachile rotundata · female",
+      "description": "苜蓿切叶蜂体长仅 6–9 mm,深灰色身体披白色细毛。它是独居蜂,不筑群、不储蜜;雌蜂用大颚从叶片上剪下圆片,卷成顶针状的巢室。原产欧洲(部分资料认为其原产地延伸至西亚);传入北美后被用于给生产种子的苜蓿田授粉(是否为有意引入各资料说法不一),并被有意引入新西兰和澳大利亚。",
+      "fact": "一间巢室大约要用 15 片叶子;雌蜂先吐入花蜜,再把集粉毛上的花粉抖在上面,最后产卵封室。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "大颚是它的剪刀",
+      "latin": "mandibles",
+      "description": "切叶蜂的大颚能像剪刀一样从叶缘剪下近圆形的叶片,再运回巢管内拼接。",
+      "fact": "叶片切口整齐得像被打孔器打过——花园里叶缘的圆形缺口常是切叶蜂留下的。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "带着叶片飞回巢",
+      "latin": "forewing · hindwing",
+      "description": "雌蜂把剪下的叶片带回巢管,翅膀要额外承担这份载荷;前后翅以翅钩联动,结构与蜜蜂相同。",
+      "fact": "它是高效的苜蓿、胡萝卜和多种蔬果的授粉者;取食时把喙插入苜蓿花的龙骨瓣,花粉随之刷到集粉毛上。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile",
+        "src-wikipedia-hamulus"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "白色细毛与腹面集粉毛",
+      "latin": "white pubescence · ventral scopa",
+      "description": "深灰底色上覆白色细毛;腹面则是密集的集粉毛,花粉直接刷附在腹部下方带回巢中。",
+      "fact": "雄蜂腹部有白色和黄色斑点,且体型比雌蜂小。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "抓叶片的六条腿",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "切叶蜂后足没有花粉筐;六足用于抓握叶片、在巢管中定位和固定身体。",
+      "fact": "管理化饲养时,人们提供纸管或钻孔木块等人工巢材,雌蜂会自行进驻筑巢。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "kind": "focus",
+      "id": "whole",
+      "index": "00",
+      "short": "雌蜂",
+      "title": "会闪紫光的大蜂",
+      "latin": "Xylocopa violacea · female",
+      "description": "紫木蜂是欧洲最大的蜂类之一,通体黑色、带微弱光泽;标志性的蓝紫色虹彩主要来自它深色、泛紫光的翅膀。它是独居蜂,分布以欧洲为主,向东延伸至亚洲(分布东界各资料记载不一,部分资料称可达中国中部)。",
+      "fact": "成蜂夏末羽化(从蛹变为成虫)后越冬,次年春季(约三至五月,因地区而异)出来活动;雌蜂独自在枯木中钻洞筑巢。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "ai-reviewed"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "kind": "focus",
+      "id": "head",
+      "index": "01",
+      "short": "头部",
+      "title": "能啃穿木头的大颚",
+      "latin": "mandibles",
+      "description": "木蜂的大颚极为强壮,雌蜂用它在枯死的树干或木材中一点点啃出隧道状巢穴——\"木蜂\"因此得名。",
+      "fact": "它不吃木头,只是钻洞;木屑或被推出洞口,或被用来分隔巢室。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "kind": "focus",
+      "id": "wing",
+      "index": "02",
+      "short": "翅",
+      "title": "烟紫色的翅",
+      "latin": "smoky violet wings",
+      "description": "木蜂的翅膜呈烟褐色,在特定角度下反射出蓝紫虹彩(一般认为是薄膜干涉形成的结构色),与黑色身体相配;大体型意味着翅也需要更大、更有力。",
+      "fact": "木蜂属被认为能进行振动授粉,和熊蜂一样可以\"摇\"出管状花药中的花粉。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "kind": "focus",
+      "id": "abdomen",
+      "index": "03",
+      "short": "腹部",
+      "title": "光滑的黑色甲壳",
+      "latin": "metallic integument",
+      "description": "与熊蜂的绒毛外衣相反,木蜂腹部几乎无毛,光滑坚硬的甲壳呈黑色,在光下带微弱的蓝紫光泽——一般认为这种光泽是结构色,由甲壳表面微结构对光的作用产生,而不是色素。",
+      "fact": "在光线下转动实物标本或本馆的 3D 模型,能看到光泽随角度变化。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "kind": "focus",
+      "id": "leg",
+      "index": "04",
+      "short": "六足",
+      "title": "满是绒毛的后足",
+      "latin": "coxa · femur · tibia · tarsus",
+      "description": "木蜂后足密布集粉毛用于携粉,没有蜜蜂那样的光滑花粉筐。",
+      "fact": "雌蜂体型大,常被误认为大型熊蜂。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "kind": "organ",
+      "id": "organ-compound-eye",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "compoundEyeL",
+        "compoundEyeR"
+      ],
+      "focusId": "head",
+      "name": "复眼",
+      "latinName": "oculi compositi",
+      "summary": "一对复眼由数千个小眼组成,覆盖头部两侧,提供宽视野和对运动的高灵敏度。",
+      "functionNote": "视觉感知、运动侦测与飞行导航。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "kind": "organ",
+      "id": "organ-ocelli",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "head"
+      ],
+      "focusId": "head",
+      "name": "单眼",
+      "latinName": "ocelli",
+      "summary": "头顶三只单眼呈三角排列,不成像,主要感知光强变化,辅助维持飞行姿态和判断昼夜光照。",
+      "functionNote": "光强感知与姿态辅助。",
+      "modelNote": "本模型未单独雕刻三只单眼,标注点位于头顶。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-antenna",
+      "kind": "organ",
+      "id": "organ-antenna",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "antennaL",
+        "antennaR"
+      ],
+      "focusId": "head",
+      "name": "触角",
+      "latinName": "antennae",
+      "summary": "膝状触角由柄节、梗节和鞭节构成,表面密布嗅觉与触觉感受器,是蜜蜂最重要的化学感知器官。",
+      "functionNote": "嗅觉、触觉与巢内交流。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "kind": "organ",
+      "id": "organ-proboscis",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "口器(中唇舌)",
+      "latinName": "proboscis",
+      "summary": "由下颚和下唇组成的可伸缩吸食结构,用于吸取花蜜和水;不使用时折叠于头下。",
+      "functionNote": "吸取花蜜、饮水与巢内传递食物。",
+      "modelNote": "本模型未雕刻口器,标注点位于头部下前方的大致位置。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-thorax",
+      "kind": "organ",
+      "id": "organ-thorax",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "thorax"
+      ],
+      "focusId": "whole",
+      "name": "胸部与飞行肌",
+      "latinName": "thorax",
+      "summary": "胸部三节承载两对翅和三对足,内部充满间接飞行肌;肌肉通过使胸壁变形驱动翅高频振动。",
+      "functionNote": "飞行动力与运动中枢。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-forewing",
+      "kind": "organ",
+      "id": "organ-forewing",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "前翅",
+      "latinName": "alae anteriores",
+      "summary": "前翅是主要升力面,膜面由纵脉与横脉支撑形成翅室;翅脉样式在分类学上具有辨识价值。",
+      "functionNote": "飞行主升力面。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "kind": "organ",
+      "id": "organ-hindwing",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "hindWingL",
+        "hindWingR"
+      ],
+      "focusId": "wing",
+      "name": "后翅与翅钩",
+      "latinName": "alae posteriores · hamuli",
+      "summary": "后翅前缘具一排细小翅钩,起飞时钩住前翅后缘,使两对翅连成一个连续翼面,提高飞行效率。",
+      "functionNote": "与前翅联动,扩大有效翼面。",
+      "sourceIds": [
+        "src-wikipedia-hamulus",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "kind": "organ",
+      "id": "organ-abdomen",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹部体节",
+      "latinName": "metasoma",
+      "summary": "腹部由可伸缩的连续体节构成,容纳蜜胃、消化道等结构;工蜂腹面还有蜡腺,雌性(工蜂、蜂王)腹末有螫针,雄蜂则没有。体节间膜使腹部能弯曲与鼓动呼吸。",
+      "functionNote": "消化、储蜜、分泌蜂蜡与呼吸运动。",
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-sting",
+      "kind": "organ",
+      "id": "organ-sting",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "sting"
+      ],
+      "focusId": "abdomen",
+      "name": "螫针",
+      "latinName": "aculeus",
+      "summary": "由产卵器特化而来的防御器官,带倒钩;工蜂螫刺哺乳动物后,螫针常留在皮肤里而脱落,工蜂自己随后死亡。雄蜂无螫针。野外遇到蜂群请保持距离;被螫后尽快移除螫针,出现过敏反应应立即就医。",
+      "functionNote": "防御;仅雌性(工蜂、蜂王)具有。",
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "kind": "organ",
+      "id": "organ-corbicula",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "hindLegL",
+        "hindLegR"
+      ],
+      "focusId": "leg",
+      "name": "后足花粉筐",
+      "latinName": "corbicula",
+      "summary": "后足胫节外侧的光滑凹面,边缘环绕长毛;花粉经足部梳理、压实后固定其中,形成可见的花粉团。",
+      "functionNote": "花粉的压实与运输;蜜蜂属等蜂类特有。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "kind": "organ",
+      "id": "organ-foreleg-cleaner",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "foreLegL",
+        "foreLegR"
+      ],
+      "focusId": "leg",
+      "name": "前足触角清洁器",
+      "latinName": "antenna cleaner",
+      "summary": "前足第一跗节(基跗节)有一个半圆形凹口,与胫节末端的小刺(胫节距)配合形成触角清洁器,蜜蜂用它刮除触角上的花粉和尘粒。",
+      "functionNote": "保持触角感受器清洁。",
+      "sourceIds": [
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "kind": "organ",
+      "id": "organ-bombus-fur",
+      "castes": [
+        "worker",
+        "queen",
+        "drone"
+      ],
+      "anchorIds": [
+        "thorax"
+      ],
+      "focusId": "whole",
+      "name": "毛被与警戒色",
+      "latinName": "pile",
+      "summary": "浓密长绒毛兼具保温与信号功能:黑黄白的分带是警戒色,厚毛被帮助熊蜂在凉爽天气维持飞行所需的体温。",
+      "functionNote": "保温、警戒色与携粉。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "kind": "organ",
+      "id": "organ-bombus-flight-muscle",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "振动授粉",
+      "latinName": "buzz pollination · sonication",
+      "summary": "熊蜂抱住花朵,用飞行肌高频震动使花朵和花药一起振动,将番茄、蓝莓等管状花药中的花粉震落——温室番茄授粉产业正建立在这一能力上。",
+      "functionNote": "声震取粉;蜜蜂不具备此行为。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "kind": "organ",
+      "id": "organ-bombus-corbicula",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "hindLegL",
+        "hindLegR"
+      ],
+      "focusId": "leg",
+      "name": "后足花粉筐",
+      "latinName": "corbicula",
+      "summary": "与蜜蜂同源的携粉结构:后足胫节外侧的光滑凹面,边缘环绕长毛,花粉压实后固定其中。",
+      "functionNote": "花粉的压实与运输。",
+      "sourceIds": [
+        "src-wikipedia-pollen-basket"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "kind": "organ",
+      "id": "organ-bombus-sting",
+      "castes": [
+        "worker",
+        "queen"
+      ],
+      "anchorIds": [
+        "sting"
+      ],
+      "focusId": "abdomen",
+      "name": "螫针(无倒钩)",
+      "latinName": "aculeus",
+      "summary": "熊蜂螫针光滑无倒钩,可以重复螫刺而不致自身死亡。熊蜂通常不主动攻击人,但被捏握或巢穴受扰时会螫刺;野外观察请保持距离、不要触碰,对蜂毒过敏者被螫后应立即就医。",
+      "functionNote": "防御;可重复使用,与蜜蜂的倒钩螫针不同。",
+      "sourceIds": [
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "kind": "organ",
+      "id": "organ-osmia-scopa",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹面集粉毛",
+      "latinName": "scopa",
+      "summary": "腹部腹面成排的密集刚毛,访花时把花粉刷附其上;这是切叶蜂科多数种类的特征,与蜜蜂的后足花粉筐是两条不同的携粉路线。",
+      "functionNote": "携带松散花粉回巢。",
+      "modelNote": "本模型以腹部下方的浅色绒毛表现集粉毛。",
+      "sourceIds": [
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "kind": "organ",
+      "id": "organ-osmia-horns",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "head"
+      ],
+      "focusId": "head",
+      "name": "唇基角突",
+      "latinName": "clypeal horns",
+      "summary": "雌蜂下脸的一对角状突起,是本种命名依据;其功能尚不明确。",
+      "functionNote": "物种识别特征。",
+      "modelNote": "本模型未雕刻角突,标注点位于头部。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "kind": "organ",
+      "id": "organ-osmia-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "大颚与口器",
+      "latinName": "mandibles · proboscis",
+      "summary": "雌蜂用泥土分隔并封闭巢室;口器吸取花蜜,与花粉一同存入巢室供幼虫取食。",
+      "functionNote": "筑巢、取食与巢室供粮。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "kind": "organ",
+      "id": "organ-megachile-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "切叶大颚",
+      "latinName": "mandibles",
+      "summary": "边缘锋利的大颚从叶片剪下圆形叶片,每个巢室约需 15 片;这是\"切叶蜂\"名称的由来。",
+      "functionNote": "剪叶、搬运与拼接巢室。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "kind": "organ",
+      "id": "organ-megachile-scopa",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "腹面集粉毛",
+      "latinName": "scopa",
+      "summary": "腹部腹面的密集刚毛,访花时刷附花粉;回巢后雌蜂把花粉抖落在预先吐入的花蜜上,作为幼虫的食物。",
+      "functionNote": "携粉;巢室供粮。",
+      "modelNote": "本模型以腹部下方的浅色绒毛表现集粉毛。",
+      "sourceIds": [
+        "src-wikipedia-scopa",
+        "src-wikipedia-megachile-rotundata"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "kind": "organ",
+      "id": "organ-megachile-hair-bands",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "hindWingL",
+        "hindWingR"
+      ],
+      "focusId": "wing",
+      "name": "白色细毛",
+      "latinName": "white pubescence",
+      "summary": "雌蜂全身覆白色细毛,与深灰底色相间,是野外辨识本种的常见线索之一。",
+      "functionNote": "物种识别特征。",
+      "modelNote": "本模型以腹部浅色绒毛近似表现白毛;标注点位于腹部前段背面、翅根附近。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-megachile"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "kind": "organ",
+      "id": "organ-xylocopa-integument",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "abdomen"
+      ],
+      "focusId": "abdomen",
+      "name": "黑色甲壳与光泽",
+      "latinName": "metallic cuticle",
+      "summary": "黑色甲壳表面带微弱蓝紫光泽;一般认为这是结构色——由表面微结构对光产生干涉(不同方向反射的光相互叠加)而形成,而非色素。木蜂最醒目的蓝紫虹彩其实在翅膜上。",
+      "functionNote": "物种识别;光泽的功能尚不清楚。",
+      "modelNote": "本模型的甲壳以金属材质近似,光泽会随角度变化;真实标本的色调层次更细微。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-wikipedia-carpenter-bee",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "kind": "organ",
+      "id": "organ-xylocopa-mandible",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "proboscis"
+      ],
+      "focusId": "head",
+      "name": "钻木大颚",
+      "latinName": "mandibles",
+      "summary": "雌蜂用强壮的大颚在枯木中啃出隧道并分隔成巢室,每室存放花粉团与一枚卵。",
+      "functionNote": "在枯木中钻洞筑巢。",
+      "modelNote": "本模型未单独雕刻大颚,标注点位于口器位置。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "kind": "organ",
+      "id": "organ-xylocopa-wing",
+      "castes": [
+        "worker"
+      ],
+      "anchorIds": [
+        "foreWingL",
+        "foreWingR"
+      ],
+      "focusId": "wing",
+      "name": "烟紫色翅膜与振动授粉",
+      "latinName": "iridescent wings · buzz pollination",
+      "summary": "深色翅膜带蓝紫虹彩;木蜂属被认为能以飞行肌高频震动进行振动授粉,取出管状花药中的花粉。",
+      "functionNote": "飞行;声震取粉。",
+      "modelNote": "本模型的翅膜以半透明深紫色近似,未表现随角度变化的虹彩。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination",
+        "src-wikipedia-xylocopa-violacea",
+        "src-dewiki-blaue-holzbiene"
+      ],
+      "reviewStatus": "draft",
+      "lastReviewedOn": null
+    },
+    {
+      "key": "compare:row-body-length",
+      "kind": "compare",
+      "id": "row-body-length",
+      "dimension": "体长",
+      "values": {
+        "worker": "约 12–15 mm",
+        "queen": "更长,常见文献约 18–20 mm",
+        "drone": "介于两者之间,常见文献约 15–17 mm"
+      },
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-honey-bee",
+        "src-britannica-honeybee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-corbicula",
+      "kind": "compare",
+      "id": "row-corbicula",
+      "dimension": "后足花粉筐",
+      "values": {
+        "worker": "有",
+        "queen": "无",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-sting",
+      "kind": "compare",
+      "id": "row-sting",
+      "dimension": "螫针",
+      "values": {
+        "worker": "有,带倒钩",
+        "queen": "有,不像工蜂那样带明显倒钩",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-eyes",
+      "kind": "compare",
+      "id": "row-eyes",
+      "dimension": "复眼",
+      "values": {
+        "worker": "常规比例",
+        "queen": "相对较小",
+        "drone": "显著增大,向头顶靠拢"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-role",
+      "kind": "compare",
+      "id": "row-role",
+      "dimension": "群体角色",
+      "values": {
+        "worker": "采集、育幼、筑巢、防御",
+        "queen": "产卵与群体繁殖",
+        "drone": "交配"
+      },
+      "sourceIds": [
+        "src-britannica-honeybee",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "kind": "compare",
+      "id": "row-cerana-corbicula",
+      "dimension": "后足花粉筐",
+      "values": {
+        "worker": "有",
+        "queen": "无",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-pollen-basket",
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "kind": "compare",
+      "id": "row-cerana-sting",
+      "dimension": "螫针",
+      "values": {
+        "worker": "有,带倒钩",
+        "queen": "有,不像工蜂那样带明显倒钩",
+        "drone": "无"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-apis-cerana",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "kind": "compare",
+      "id": "row-cerana-eyes",
+      "dimension": "复眼",
+      "values": {
+        "worker": "常规比例",
+        "queen": "相对较小",
+        "drone": "显著增大"
+      },
+      "sourceIds": [
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-apis-cerana",
+        "src-snodgrass-anatomy"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "kind": "compare",
+      "id": "row-cerana-colony",
+      "dimension": "群体规模",
+      "values": {
+        "worker": "约 6000–7000 只(不同资料差异较大)",
+        "queen": "通常一群一王",
+        "drone": "季节性存在"
+      },
+      "sourceIds": [
+        "src-wikipedia-apis-cerana"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:apis-mellifera",
+      "kind": "species",
+      "id": "apis-mellifera",
+      "name": "西方蜜蜂",
+      "scientificName": "Apis mellifera",
+      "englishName": "Western honey bee",
+      "family": "蜜蜂科 Apidae",
+      "distribution": "原产欧洲、非洲与西亚,现随养蜂业遍布全球",
+      "socialStructure": "高度社会性,群体由蜂王、工蜂和季节性雄蜂构成",
+      "nesting": "洞穴或蜂箱内营多脾垂直蜡巢",
+      "workerBodyLengthMm": {
+        "min": 12,
+        "max": 15
+      },
+      "summary": "全球养蜂业与农业授粉最主要的蜂种,也是研究最充分的蜜蜂;本馆以它讲解职型分工与蜜蜂身体结构。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-honey-bee",
+        "src-wikipedia-worker-bee"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:apis-cerana",
+      "kind": "species",
+      "id": "apis-cerana",
+      "name": "东方蜜蜂",
+      "scientificName": "Apis cerana",
+      "englishName": "Eastern honey bee",
+      "family": "蜜蜂科 Apidae",
+      "distribution": "亚洲南部与东部的传统饲养蜂种;中华蜜蜂(Apis cerana cerana)是它在中国的主要亚种",
+      "socialStructure": "高度社会性(蜂王、工蜂与雄蜂分工协作、共同生活),群体结构与西方蜜蜂(Apis mellifera)相近",
+      "nesting": "在树洞等隐蔽空腔内筑巢,巢由多片平行悬挂的蜡质巢脾(蜂巢片)组成",
+      "workerBodyLengthMm": {
+        "min": 10,
+        "max": 11
+      },
+      "summary": "工蜂体长约 10–11 mm(不同资料记载的范围略有差异,约 9–13 mm),腹部有黄黑相间的环纹(常描述为四条黄纹,色泽因亚种与地区而异);作为亚洲原生蜂种,长期是当地传统养蜂的主要蜂种;面对胡蜂等天敌时,会聚成蜂团把入侵者围住,使其过热而死(称为“热球防御”)。",
+      "sourceIds": [
+        "src-wikipedia-apis-cerana",
+        "src-wikipedia-honey-bee"
+      ],
+      "reviewStatus": "ai-reviewed"
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "kind": "species",
+      "id": "bombus-terrestris",
+      "name": "欧洲熊蜂",
+      "scientificName": "Bombus terrestris",
+      "englishName": "Buff-tailed bumblebee",
+      "family": "蜜蜂科 Apidae · 熊蜂属",
+      "distribution": "欧洲、北非与西亚;作为温室授粉蜂被广泛引入世界各地",
+      "socialStructure": "通常为一年生社会性:蜂王越冬后独立建群,群体规模远小于蜜蜂",
+      "nesting": "多利用地下鼠洞等腔穴筑巢,巢内为不规则排列的蜡质育幼室与蜜罐",
+      "workerBodyLengthMm": {
+        "min": 11,
+        "max": 17
+      },
+      "summary": "圆胖多毛的授粉能手:黑底绒毛带黄色带纹,尾端白色至皮黄色;能进行振动授粉,番茄等温室作物高度依赖它。",
+      "sourceIds": [
+        "src-wikipedia-bombus-terrestris",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "kind": "species",
+      "id": "osmia-cornifrons",
+      "name": "角额壁蜂",
+      "scientificName": "Osmia cornifrons",
+      "englishName": "Hornfaced bee",
+      "family": "切叶蜂科 Megachilidae · 壁蜂属",
+      "distribution": "原产东亚(日本、朝鲜半岛、中国、俄罗斯远东);1977 年引入美国东部,此后在美国东部与中西部定殖",
+      "socialStructure": "独居:每只雌蜂独立筑巢、采粉、产卵",
+      "nesting": "利用竹管、芦苇及树木现成孔洞,以泥土分隔巢室并封口",
+      "workerBodyLengthMm": {
+        "min": 8,
+        "max": 12
+      },
+      "summary": "独居蜂代表,曾是日本苹果园的主力授粉蜂之一;花粉粘附在腹面的集粉毛上,而不是像蜜蜂那样装在后足花粉筐里。",
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-scopa",
+        "src-exotic-bee-id"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "kind": "species",
+      "id": "megachile-rotundata",
+      "name": "苜蓿切叶蜂",
+      "scientificName": "Megachile rotundata",
+      "englishName": "Alfalfa leafcutter bee",
+      "family": "切叶蜂科 Megachilidae · 切叶蜂属",
+      "distribution": "原产欧洲(部分资料认为延伸至西亚);传入北美后成为苜蓿制种的授粉蜂,并被有意引入新西兰、澳大利亚",
+      "socialStructure": "独居:不筑群、不储蜜,雌蜂独立供养巢室",
+      "nesting": "在现成孔洞内用大颚剪下的叶片圆片卷成顶针状巢室",
+      "workerBodyLengthMm": {
+        "min": 6,
+        "max": 9
+      },
+      "summary": "会裁剪树叶筑巢的小型独居蜂,深灰体色覆白色细毛,腹面集粉毛携粉;苜蓿制种业的重要授粉蜂。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata",
+        "src-wikipedia-scopa"
+      ],
+      "reviewStatus": "draft"
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "kind": "species",
+      "id": "xylocopa-violacea",
+      "name": "紫木蜂",
+      "scientificName": "Xylocopa violacea",
+      "englishName": "Violet carpenter bee",
+      "family": "蜜蜂科 Apidae · 木蜂属",
+      "distribution": "以欧洲为主,向东延伸至亚洲(分布东界各资料记载不一,部分资料称可达中国中部);主要分布于北纬 30 度以北",
+      "socialStructure": "独居:雌蜂独自筑巢",
+      "nesting": "在枯木中用大颚啃出隧道状巢穴",
+      "workerBodyLengthMm": {
+        "min": 20,
+        "max": 28
+      },
+      "summary": "欧洲最大的蜂类之一:黑色身体带微弱光泽,翅呈烟紫色并带蓝紫虹彩;夏末羽化越冬,春季活动,被认为能进行振动授粉(用身体高频振动把花粉从花药里震出来)。",
+      "sourceIds": [
+        "src-wikipedia-xylocopa-violacea",
+        "src-dewiki-blaue-holzbiene",
+        "src-wikipedia-carpenter-bee",
+        "src-wikipedia-buzz-pollination"
+      ],
+      "reviewStatus": "ai-reviewed"
+    },
+    {
+      "key": "cycle:cycle-apis-mellifera-worker",
+      "kind": "social",
+      "id": "cycle-apis-mellifera-worker",
+      "reviewStatus": "draft",
+      "speciesId": "apis-mellifera",
+      "caste": "worker",
+      "title": "一只工蜂的一生",
+      "subtitle": "西方蜜蜂 · 工蜂 · 从卵到外勤",
+      "unit": "day",
+      "total": {
+        "from": 0,
+        "to": 63
+      },
+      "intro": "约 21 天从卵到成蜂,之后再活几周。工蜂的一生按年龄排班:先在巢内清洁、哺育、筑巢、守卫,最后飞出去采集。拖动时间轴,看看每一天发生了什么。",
+      "sourceIds": [
+        "src-wikipedia-bee-brood",
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-egg",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-egg",
+      "reviewStatus": "draft",
+      "name": "卵",
+      "short": "卵",
+      "phase": "egg",
+      "span": {
+        "from": 0,
+        "to": 3
+      },
+      "spanText": "第 0–3 天",
+      "summary": "蜂王把一枚受精卵产在巢房底部;约 3 天后孵化。",
+      "detail": "卵期约 3 天。工蜂、蜂王和雄蜂的卵期基本相同,差别从孵化后的喂养开始。雄蜂由未受精卵发育而来,产在更大的雄蜂房里。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂物种卡"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-bee-brood",
+        "src-wikipedia-drone-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-larva",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-larva",
+      "reviewStatus": "draft",
+      "name": "幼虫",
+      "short": "幼虫",
+      "phase": "larva",
+      "span": {
+        "from": 3,
+        "to": 9
+      },
+      "spanText": "第 3–9 天",
+      "summary": "孵化出的幼虫没有足也没有眼,由哺育蜂喂养:前三天吃蜂王浆,之后改吃花粉和花蜜调成的“蜂粮”。约第 9 天,巢房被封上蜡盖。",
+      "detail": "幼虫期约 6 天,身体迅速长大。是否一直吃蜂王浆,是这枚受精卵长成工蜂还是蜂王的关键差别之一:工蜂幼虫三天后换成蜂粮,蜂王幼虫则始终吃蜂王浆。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-bee-brood"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-pupa",
+      "reviewStatus": "draft",
+      "name": "封盖与化蛹",
+      "short": "蛹",
+      "phase": "pupa",
+      "span": {
+        "from": 9,
+        "to": 21
+      },
+      "spanText": "第 9–21 天",
+      "summary": "封盖之后,幼虫在巢房里吐丝作茧、化为蛹,身体在蛹壳内重组成成虫的模样。约第 21 天,成蜂咬破蜡盖和茧,爬出巢房。",
+      "detail": "从封盖到出房约 12 天(其中蛹期约 10 天),是整个发育中最长的一段。三种职型走着不同的时间表:蜂王约 16 天出房,工蜂约 21 天,雄蜂约 24 天。场景中巢房蜡盖做了半透明剖视处理,真实的封盖巢房是看不到里面的。",
+      "related": [
+        {
+          "kind": "compare",
+          "id": "apis-mellifera",
+          "label": "三职型比较台"
+        },
+        {
+          "kind": "focus",
+          "id": "wing",
+          "label": "成蜂的翅"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-bee-brood",
+        "src-wikipedia-worker-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-cleaner",
+      "reviewStatus": "draft",
+      "name": "清洁巢房",
+      "short": "清洁",
+      "phase": "adult",
+      "span": {
+        "from": 21,
+        "to": 23
+      },
+      "spanText": "出房后第 1–2 天(自产卵起第 21–22 天)",
+      "summary": "刚出房的工蜂最先做的是打扫:把用过的巢房清理干净,好让蜂王再次在里面产卵。",
+      "detail": "工蜂一生的工作大致按年龄排班:先做巢内的活,再做巢外的活。不同资料给出的分段天数略有出入,这里按常见的分段标注,实际会随蜂群需要调整。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂物种卡"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-nurse",
+      "reviewStatus": "draft",
+      "name": "哺育幼虫",
+      "short": "哺育",
+      "phase": "adult",
+      "span": {
+        "from": 23,
+        "to": 33
+      },
+      "spanText": "出房后第 3–12 天(自产卵起第 23–32 天)",
+      "summary": "哺育蜂用腺体分泌的乳状食物喂养工蜂幼虫(常称“工蜂浆”,与蜂王浆来自同一类腺体);其中一部分(约出房后第 7–11 天)也会给蜂王喂食、梳理体表。",
+      "detail": "哺育蜂喂养幼虫约 6 天;幼虫自产卵起约第 9 天被封在巢房里,随后化蛹。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-proboscis",
+          "label": "口器"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-bee-brood"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-builder",
+      "reviewStatus": "draft",
+      "name": "筑巢与储存",
+      "short": "筑巢",
+      "phase": "adult",
+      "span": {
+        "from": 33,
+        "to": 38
+      },
+      "spanText": "出房后第 13–17 天(自产卵起第 33–37 天)",
+      "summary": "腹部的蜡腺开始分泌蜡片,工蜂用它筑造和修补巢房,并把外勤蜂带回的花蜜和花粉接手储存。",
+      "detail": "花蜜在巢内经工蜂反复传递、加入酶并蒸发水分,最终酿成蜂蜜。不同资料对这一阶段的分段天数略有出入。场景中新造的巢房以浅色区分。",
+      "related": [
+        {
+          "kind": "focus",
+          "id": "abdomen",
+          "label": "腹部"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-guard",
+      "reviewStatus": "draft",
+      "name": "守卫巢门",
+      "short": "守卫",
+      "phase": "adult",
+      "span": {
+        "from": 38,
+        "to": 41
+      },
+      "spanText": "出房后第 18–20 天(自产卵起第 38–40 天)",
+      "summary": "出房两三周后,一部分工蜂在巢门口值守,检查进出者、抵御入侵。",
+      "detail": "一般认为并非每只工蜂都会经历守卫阶段;分工会随蜂群的需要调整,有的工蜂会提前或推后转为外勤。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-sting",
+          "label": "螫针"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "kind": "stage",
+      "story": "一只工蜂的一生",
+      "unit": "day",
+      "id": "stage-mellifera-forager",
+      "reviewStatus": "draft",
+      "name": "外勤采集",
+      "short": "采集",
+      "phase": "adult",
+      "span": {
+        "from": 41,
+        "to": 63
+      },
+      "spanText": "出房后第 21 天起(自产卵起第 41 天起)",
+      "summary": "此后工蜂离开巢内工作,成为外勤蜂:可飞到约 3 公里外(据记载有时更远)采集花蜜、花粉、蜂胶和水,直到生命结束。",
+      "detail": "夏季工蜂从出房算起通常只活几周(常见文献约 2–6 周,外勤只是其中最后一段);秋天出生的越冬蜂在巢内结团过冬,可活数月(不同资料约 20 周或更长)。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-corbicula",
+          "label": "花粉筐"
+        },
+        {
+          "kind": "focus",
+          "id": "leg",
+          "label": "六足"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-worker-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-queen",
+      "kind": "branch",
+      "story": "一只工蜂的一生",
+      "id": "branch-mellifera-queen",
+      "reviewStatus": "draft",
+      "title": "同一枚受精卵,也可能长成蜂王",
+      "text": "被选作蜂王培育的幼虫在特制的、形似花生的王台里发育,整个幼虫期只吃蜂王浆,约 16 天出房。出房后约第 6–10 天进行婚飞交配,回巢后 2–3 天开始产卵;春季高峰期一只优良蜂王每天可产约 1500 枚卵。蜂王可活数年(常见文献约 2–5 年,亦有更长的记录)。",
+      "sourceIds": [
+        "src-wikipedia-queen-bee",
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-bee-brood"
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-drone",
+      "kind": "branch",
+      "story": "一只工蜂的一生",
+      "id": "branch-mellifera-drone",
+      "reviewStatus": "draft",
+      "title": "雄蜂:另一张时间表",
+      "text": "雄蜂由未受精卵发育而来,巢房比工蜂房大,约 24 天出房。它不采集、不筑巢,任务是与其他蜂群的蜂王交配——交配成功者随即死亡。温带地区,雄蜂在入冬前会被工蜂逐出巢外。",
+      "sourceIds": [
+        "src-wikipedia-drone-bee",
+        "src-wikipedia-bee-brood",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-winter",
+      "kind": "branch",
+      "story": "一只工蜂的一生",
+      "id": "branch-mellifera-winter",
+      "reviewStatus": "draft",
+      "title": "夏蜂与冬蜂",
+      "text": "春夏出生的工蜂劳作强度大,只活几周;秋季出生的工蜂在巢内结团越冬,可活数月。冬季蜂群不育幼或很少育幼,靠储存的蜂蜜和结团产生的热量度过寒冷。",
+      "sourceIds": [
+        "src-wikipedia-western-honey-bee",
+        "src-wikipedia-worker-bee"
+      ]
+    },
+    {
+      "key": "cycle:cycle-osmia-cornifrons",
+      "kind": "solitary",
+      "id": "cycle-osmia-cornifrons",
+      "reviewStatus": "draft",
+      "speciesId": "osmia-cornifrons",
+      "title": "一根巢管里的一年",
+      "subtitle": "角额壁蜂 · 雌蜂 · 从春天到下一个春天",
+      "unit": "month",
+      "startMonth": 4,
+      "total": {
+        "from": 0,
+        "to": 12
+      },
+      "intro": "没有蜂群、没有分工:一只雌蜂独自筑巢、储粉、产卵、封巢,后代在巢管里吃、长、结茧、越冬,直到下一个春天。一年一代。",
+      "sourceIds": [
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-osmia-cornifrons",
+        "src-exotic-bee-id"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-emerge",
+      "reviewStatus": "draft",
+      "name": "春天出巢",
+      "short": "出巢",
+      "phase": "emerge",
+      "span": {
+        "from": 0,
+        "to": 0.3
+      },
+      "spanText": "4 月前后",
+      "summary": "越冬的成蜂破茧而出,从巢管里钻出来。雄蜂先出,在巢口附近徘徊;雌蜂晚几天出来(不同资料从两三天到约一周),随即交配。",
+      "detail": "在原产地东亚(日本、朝鲜半岛、中国等)与引入地北美,出巢时间大致在 4 月,恰在苹果开花之前——这是它被用来给苹果园授粉的主要原因之一。美国的飞行记录从 3 月到 6 月都有,以 4 月最多。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "osmia-cornifrons",
+          "label": "角额壁蜂物种卡"
+        },
+        {
+          "kind": "organ",
+          "id": "organ-osmia-horns",
+          "label": "脸上的角"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee",
+        "src-exotic-bee-id"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-nest",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-nest",
+      "reviewStatus": "draft",
+      "name": "筑巢与储粉",
+      "short": "筑巢",
+      "phase": "nest",
+      "span": {
+        "from": 0.3,
+        "to": 1
+      },
+      "spanText": "4–5 月",
+      "summary": "雌蜂独自选定一根芦苇、竹管或现成的孔洞,一趟趟把花粉运回巢管堆成花粉团,在花粉团上产下一枚卵,再用泥把这一间封起来——泥隔同时是下一间的后壁。",
+      "detail": "如此一间接一间,直到把巢管填满。一只雌蜂一生最多可产约 30 枚卵;采集半径可达约 130 米。花粉不是装在后足上,而是刷在腹面的毛里带回来的。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-osmia-scopa",
+          "label": "腹面集粉毛"
+        },
+        {
+          "kind": "organ",
+          "id": "organ-osmia-mandible",
+          "label": "大颚"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee",
+        "src-exotic-bee-id"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-egg",
+      "reviewStatus": "draft",
+      "name": "卵",
+      "short": "卵",
+      "phase": "egg",
+      "span": {
+        "from": 1,
+        "to": 1.4
+      },
+      "spanText": "5 月",
+      "summary": "卵产在花粉团上。孵化后,幼虫就趴在这团食物上开吃。",
+      "detail": "独居蜂的幼虫没有哺育蜂照料,雌蜂留下的这一团花粉和花蜜就是它从孵化到结茧的全部食物。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-osmia-cornifrons",
+        "src-wikipedia-mason-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-larva",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-larva",
+      "reviewStatus": "draft",
+      "name": "幼虫取食",
+      "short": "幼虫",
+      "phase": "larva",
+      "span": {
+        "from": 1.4,
+        "to": 2.8
+      },
+      "spanText": "5–6 月",
+      "summary": "幼虫在几周内吃完整团花粉,身体迅速长大。",
+      "detail": "巢管里的每一间都是一间独立的育儿室:泥隔把它们彼此隔开,幼虫之间互不接触。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-mason-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-cocoon",
+      "reviewStatus": "draft",
+      "name": "结茧与化蛹",
+      "short": "结茧",
+      "phase": "cocoon",
+      "span": {
+        "from": 2.8,
+        "to": 5.5
+      },
+      "spanText": "6–9 月",
+      "summary": "吃完花粉团的幼虫吐丝作茧,在茧里化蛹。夏天里,蛹在茧内逐渐变成成虫的模样。",
+      "detail": "据记载,成虫在秋季或冬季就已在茧内发育完成,但并不出来。场景中的茧做了半透明剖视处理,真实的茧是不透明的。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-osmia-cornifrons"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-overwinter",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-overwinter",
+      "reviewStatus": "draft",
+      "name": "茧内越冬",
+      "short": "越冬",
+      "phase": "overwinter",
+      "span": {
+        "from": 5.5,
+        "to": 11.5
+      },
+      "spanText": "10 月至次年 3 月",
+      "summary": "已经成形的成蜂待在有保温作用的茧里度过整个冬天,直到来年春天气温回升。",
+      "detail": "这一点与蜜蜂截然不同:蜜蜂以整群结团、靠储蜜取暖越冬;角额壁蜂则是一只一只地在茧里休眠。",
+      "related": [
+        {
+          "kind": "cycle",
+          "id": "cycle-apis-mellifera-worker",
+          "label": "对比:蜜蜂工蜂的一生"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-western-honey-bee"
+      ]
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-next-spring",
+      "kind": "stage",
+      "story": "一根巢管里的一年",
+      "unit": "month",
+      "id": "stage-osmia-next-spring",
+      "reviewStatus": "draft",
+      "name": "又一个春天",
+      "short": "出巢",
+      "phase": "emerge",
+      "span": {
+        "from": 11.5,
+        "to": 12
+      },
+      "spanText": "次年 4 月",
+      "summary": "新一代成蜂咬破茧钻出巢管,雄蜂先行。一年一代,循环从头开始。",
+      "detail": "从产卵到出巢,几乎整整一年;其中成蜂在巢外活动的时间只有短短几周。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "osmia-cornifrons",
+          "label": "角额壁蜂物种卡"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-osmia-cornifrons"
+      ]
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "kind": "branch",
+      "story": "一根巢管里的一年",
+      "id": "branch-osmia-solitary",
+      "reviewStatus": "draft",
+      "title": "没有蜂王,也没有工蜂",
+      "text": "每一只雌蜂都能生育,各自筑巢、各自为后代备好食物,互不合作。所谓“独居蜂”,指的正是这一点。它们也不会像蜜蜂那样成群护巢,被打扰时通常只是飞走;但雌蜂仍有螫针,用手抓捏仍可能被刺——观察时请不要触碰,更不要把手指伸进巢管。",
+      "sourceIds": [
+        "src-wikipedia-mason-bee"
+      ]
+    },
+    {
+      "key": "region:region-china-east",
+      "kind": "region",
+      "id": "region-china-east",
+      "reviewStatus": "draft",
+      "name": "中国东部温带",
+      "englishName": "Eastern China (temperate)",
+      "summary": "从华北到长江中下游一带:季风主导,夏季暖湿多雨,冬季寒冷干燥;华北属湿润大陆性气候,长江下游已属湿润亚热带。本馆把这一带作为一个切片,季节按气象学四季:春 3–5 月,夏 6–8 月。",
+      "seasons": {
+        "spring": {
+          "from": 3,
+          "to": 5
+        },
+        "summer": {
+          "from": 6,
+          "to": 8
+        }
+      },
+      "sourceIds": [
+        "src-wikipedia-climate-of-china",
+        "src-wikipedia-geography-of-beijing",
+        "src-wikipedia-shanghai",
+        "src-wikipedia-season"
+      ]
+    },
+    {
+      "key": "region:region-central-europe",
+      "kind": "region",
+      "id": "region-central-europe",
+      "reviewStatus": "draft",
+      "name": "中欧",
+      "englishName": "Central Europe",
+      "summary": "德国、奥地利、波兰、捷克等地:西部(德国大部)受大西洋暖流调节,属海洋性温带气候;越往东大陆性越强,波兰、捷克等地渐变为暖夏型湿润大陆性气候,四季分明。季节口径同为春 3–5 月、夏 6–8 月。",
+      "seasons": {
+        "spring": {
+          "from": 3,
+          "to": 5
+        },
+        "summer": {
+          "from": 6,
+          "to": 8
+        }
+      },
+      "sourceIds": [
+        "src-wikipedia-europe",
+        "src-wikipedia-humid-continental",
+        "src-wikipedia-geography-of-germany",
+        "src-wikipedia-season"
+      ]
+    },
+    {
+      "key": "region:region-north-america-east",
+      "kind": "region",
+      "id": "region-north-america-east",
+      "reviewStatus": "draft",
+      "name": "北美温带",
+      "englishName": "Northeastern & Midwestern North America",
+      "summary": "五大湖、新英格兰与中西部一带:湿润大陆性气候,夏季暖到热、冬季寒冷多雪,四季分明。季节口径春 3–5 月、夏 6–8 月。",
+      "seasons": {
+        "spring": {
+          "from": 3,
+          "to": 5
+        },
+        "summer": {
+          "from": 6,
+          "to": 8
+        }
+      },
+      "sourceIds": [
+        "src-wikipedia-climate-of-us",
+        "src-wikipedia-humid-continental",
+        "src-wikipedia-temperate-climate",
+        "src-wikipedia-season"
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "kind": "flower",
+      "id": "flower-brassica-napus",
+      "reviewStatus": "ai-reviewed",
+      "name": "油菜",
+      "scientificName": "Brassica napus",
+      "englishName": "rapeseed / canola",
+      "family": "十字花科 Brassicaceae",
+      "form": "radial",
+      "bloom": {
+        "region-china-east": {
+          "from": 3,
+          "to": 4
+        },
+        "region-central-europe": {
+          "from": 4,
+          "to": 6
+        }
+      },
+      "nectar": "重要大宗蜜源,常被列为蜜蜂最重要的蜜粉源作物之一;单花蜜白色至乳黄、味微辛,极易结晶,结晶细腻呈脂状。",
+      "pollen": "花粉丰富,色黄。",
+      "summary": "早春最先大面积开放的蜜源之一。四片鲜黄花瓣排成十字,总状花序自下而上依次开放,一株通常能开三到五周。它没有深花冠管,花蜜位置浅,几乎所有蜂都够得着。中文里叫“油菜”的植物不止一种:本馆说的是花田里大面积种植的甘蓝型油菜,菜市场的小油菜是它的近亲,不是同一种。",
+      "sourceIds": [
+        "src-wikipedia-rapeseed",
+        "src-frps-brassica-napus",
+        "src-honigmacher-raps",
+        "src-dewiki-raps"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "kind": "flower-entry",
+      "flower": "油菜",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "十字形的四瓣",
+      "latin": "corolla · four petals",
+      "description": "花瓣四枚,鲜黄色,排成典型的十字形,与四枚萼片交错;花朵直径约 10–17 毫米(不同资料略有差异)。没有深的花冠管,花蜜位置浅——这是一朵向所有蜂开放的花,访花者种类很广。",
+      "fact": "油菜是自交亲和的植物,自己也能结实;但中国小农油菜田的研究显示,有蜂类传粉时结实率与产量会明显提高。",
+      "sourceIds": [
+        "src-wikipedia-rapeseed",
+        "src-frps-brassica-napus",
+        "src-dewiki-raps",
+        "src-zou-2017-osr-china"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "kind": "flower-entry",
+      "flower": "油菜",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "花粉与花蜜都慷慨",
+      "latin": "stamens · nectaries",
+      "description": "雄蕊围着花柱排成一圈,花粉量大、呈饱黄色。泌蜜非常丰富;据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间。",
+      "fact": "英国的田间研究发现,一片油菜田里大部分花蜜其实并没有被昆虫采走。",
+      "sourceIds": [
+        "src-honigmacher-raps",
+        "src-dewiki-raps",
+        "src-harris-2024-osr-nectar"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "kind": "flower-entry",
+      "flower": "油菜",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "从下往上开的总状花序",
+      "latin": "raceme · indeterminate",
+      "description": "花朵在花枝上排成总状花序,从下往上依次开放,一株通常能开三到五周。冬油菜秋播、早春开花:中国东部 3–4 月,中欧 4 月下半到 6 月初。",
+      "fact": "单朵花通常只开一两天,整片田却能黄上几个星期,靠的就是这种依次开放。",
+      "sourceIds": [
+        "src-wikipedia-rapeseed",
+        "src-frps-brassica-napus",
+        "src-honigmacher-raps",
+        "src-dewiki-raps"
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "kind": "flower",
+      "id": "flower-robinia-pseudoacacia",
+      "reviewStatus": "draft",
+      "name": "刺槐",
+      "scientificName": "Robinia pseudoacacia",
+      "englishName": "black locust",
+      "family": "豆科 Fabaceae",
+      "form": "papilionaceous",
+      "bloom": {
+        "region-china-east": {
+          "from": 4,
+          "to": 6
+        },
+        "region-central-europe": {
+          "from": 5,
+          "to": 6
+        },
+        "region-north-america-east": {
+          "from": 4,
+          "to": 6
+        }
+      },
+      "nectar": "花蜜量大、含糖高;“洋槐蜜(槐花蜜)”水白近无色、味清淡、果糖高、长期保持液态、不易结晶。",
+      "pollen": "花粉的产量和营养价值,本馆尚未找到足以展出的系统数据。",
+      "summary": "垂挂的白色蝶形花序,香气浓烈,一株只开七到十天,却是中国北方、欧洲与美国东部都举足轻重的蜜源树。市售“槐花蜜”的槐花指的是它(洋槐),而不是国槐。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-zhwiki-robinia",
+        "src-frps-robinia",
+        "src-dewiki-robinie",
+        "src-usda-robinia",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "kind": "flower-entry",
+      "flower": "刺槐",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "白色的蝶形花",
+      "latin": "papilionaceous corolla",
+      "description": "蝶形花:旗瓣立在上方、翼瓣在两侧、龙骨瓣包住雌雄蕊,花宽约 2.5 厘米,乳白色带一点淡黄斑。花的构造把雄蕊和雌蕊隔开,通常不自花授粉,依赖昆虫——主要是蜂类——传粉。",
+      "fact": "刺槐原产美国东部,17 世纪传入欧洲,后来经欧洲传入中国,青岛一带最早成片栽植;如今华北平原与黄淮流域广泛造林。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-frps-robinia"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "kind": "flower-entry",
+      "flower": "刺槐",
+      "id": "stamen",
+      "reviewStatus": "ai-reviewed",
+      "index": "02",
+      "short": "花蕊",
+      "title": "花蜜多而甜",
+      "latin": "nectar · stamens",
+      "description": "花蜜含糖约 34–59%;据德文维基百科引用的养蜂资料估算,一株成年树一个花季分泌的花蜜可供蜜蜂酿出接近 1 公斤蜂蜜。花粉的产量和营养价值,本馆尚未找到足以展出的系统数据。",
+      "fact": "洋槐蜜果糖含量高,一般认为这是它能长期保持液态、不易结晶的原因。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-dewiki-robinie",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/inflorescence",
+      "kind": "flower-entry",
+      "flower": "刺槐",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "十天的盛宴",
+      "latin": "pendulous raceme",
+      "description": "腋生的下垂总状花序长 10–20 厘米,每序 10–25 朵;展叶之后开花,一株只开七到十天。中国东部 4–6 月,中欧 5–6 月,美国东部 4 月下旬至 6 月中旬。",
+      "fact": "花期短而集中,养蜂人往往要追着花期转场。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-frps-robinia",
+        "src-dewiki-robinie",
+        "src-usda-robinia"
+      ]
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "kind": "flower",
+      "id": "flower-helianthus-annuus",
+      "reviewStatus": "draft",
+      "name": "向日葵",
+      "scientificName": "Helianthus annuus",
+      "englishName": "common sunflower",
+      "family": "菊科 Asteraceae",
+      "form": "capitulum",
+      "bloom": {
+        "region-china-east": {
+          "from": 7,
+          "to": 9
+        },
+        "region-central-europe": {
+          "from": 7,
+          "to": 9
+        },
+        "region-north-america-east": {
+          "from": 7,
+          "to": 9
+        }
+      },
+      "nectar": "对多种蜂都是良好的蜜源;田间观测显示,泌蜜多在中午前后最旺。向日葵单花蜜浅黄、葡萄糖高、结晶快。",
+      "pollen": "花粉量大,但蛋白含量偏低。",
+      "summary": "我们叫“一朵”向日葵的东西,其实是成百上千朵小花组成的花盘:外圈黄色的舌状花像花瓣却不结实,中央的管状花才是真正开花结籽的部分,按螺旋排列。",
+      "sourceIds": [
+        "src-wikipedia-sunflower",
+        "src-frps-helianthus",
+        "src-dewiki-sonnenblume",
+        "src-ncsu-sunflower",
+        "src-pmc-sunflower-nutrition",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "kind": "flower-entry",
+      "flower": "向日葵",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "像花瓣的不是花瓣",
+      "latin": "ray florets · disc florets",
+      "description": "外圈鲜黄的“花瓣”是不育的舌状花,只负责招引;中央棕紫色的管状花是两性花,每朵五裂。花盘直径野生型约 7–12 厘米,栽培种可达 10–30 厘米。",
+      "fact": "幼嫩的花盘白天会跟着太阳转,成熟后多数固定朝东。",
+      "sourceIds": [
+        "src-wikipedia-sunflower",
+        "src-frps-helianthus"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "kind": "flower-entry",
+      "flower": "向日葵",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "上午散粉,中午泌蜜",
+      "latin": "disc florets · anthers",
+      "description": "据印度的田间观测,小花的花粉多在上午 8–10 时散出,泌蜜在中午前后最旺。花粉量大,但蛋白含量偏低。",
+      "fact": "野生向日葵不能用自己的花粉结实(自交不亲和),高度依赖昆虫传粉;印度的罩网试验显示,加蜂群授粉比开放授粉增产约两到三成。",
+      "sourceIds": [
+        "src-raja-2025-sunflower",
+        "src-pmc-sunflower-nutrition"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/inflorescence",
+      "kind": "flower-entry",
+      "flower": "向日葵",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "一盘花的排列",
+      "latin": "capitulum",
+      "description": "头状花序单生茎顶,常略下倾;管状花按螺旋排列。中国东部 7–9 月开花,中欧 7–9 月,北美温带在夏季到初秋。",
+      "fact": "一个花盘上的小花数以千计,具体数量随品种差别很大。",
+      "sourceIds": [
+        "src-wikipedia-sunflower",
+        "src-frps-helianthus",
+        "src-dewiki-sonnenblume",
+        "src-ncsu-sunflower"
+      ]
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "kind": "flower",
+      "id": "flower-vaccinium-corymbosum",
+      "reviewStatus": "draft",
+      "name": "高丛蓝莓",
+      "scientificName": "Vaccinium corymbosum",
+      "englishName": "highbush blueberry",
+      "family": "杜鹃花科 Ericaceae",
+      "form": "radial",
+      "bloom": {
+        "region-china-east": {
+          "from": 4,
+          "to": 5
+        },
+        "region-central-europe": {
+          "from": 5,
+          "to": 5
+        },
+        "region-north-america-east": {
+          "from": 5,
+          "to": 6
+        }
+      },
+      "nectar": "有花蜜,蜜腺在花萼基部;可产“蓝莓蜜”。",
+      "pollen": "花粉藏在孔裂的花药里,要靠振动才抖得出来。",
+      "summary": "白色到淡粉的小钟铃倒挂成串,花药顶端只有小孔——花粉不会自己掉出来,得有蜂“嗡”一下把它震出来。这让熊蜂这类会振动授粉的蜂,以及通常每次访花都会接触花药和柱头的壁蜂,在蓝莓园里特别重要。",
+      "sourceIds": [
+        "src-wikipedia-highbush-blueberry",
+        "src-usda-vaccinium",
+        "src-dewiki-kulturheidelbeere",
+        "src-cnhnb-blueberry",
+        "src-sare-osmia-blueberry",
+        "src-wikipedia-monofloral-honey",
+        "src-wikipedia-buzz-pollination"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "kind": "flower-entry",
+      "flower": "高丛蓝莓",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "倒挂的小钟",
+      "latin": "urn-shaped corolla",
+      "description": "花冠钟形至坛状,五枚花瓣合生成筒,白色到很浅的粉色,长约 6–12 毫米,口朝下。总状花序上每簇约 8–10 朵。",
+      "fact": "高丛蓝莓是四倍体植物;多数栽培品种用自己的花粉也能结果,但异花授粉常能让果实更大、成熟更早。",
+      "sourceIds": [
+        "src-wikipedia-highbush-blueberry",
+        "src-usda-vaccinium",
+        "src-msu-blueberry-pollination"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "kind": "flower-entry",
+      "flower": "高丛蓝莓",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "要震一震才给花粉",
+      "latin": "poricidal anthers",
+      "description": "花药顶端开孔(孔裂),花粉不会自然散落;熊蜂等能抓住花朵高频振动,把花粉震出来,这叫振动授粉。蜜蜂不会振动授粉,但仍是果园常用的管理传粉者。",
+      "fact": "有的木蜂会在花筒侧面咬个缝直接取蜜,蜜蜂随后也从这些现成的缝里取蜜;盗蜜的蜂也会带走一些花粉,少量盗蜜通常不影响坐果(密歇根州立大学资料)。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination",
+        "src-msu-blueberry-pollination"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "kind": "flower-entry",
+      "flower": "高丛蓝莓",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "春天的花串",
+      "latin": "raceme",
+      "description": "总状花序,通常与展叶同时开放。中欧主花期多在 5 月前两周;美国东北部 5–6 月;中国北方栽培区大致 4–5 月(据农业技术网站介绍,仅供参考)。",
+      "fact": "高丛蓝莓原产北美东部,是全球栽培蓝莓的主要来源。",
+      "sourceIds": [
+        "src-dewiki-kulturheidelbeere",
+        "src-wildflower-vaco",
+        "src-cnhnb-blueberry",
+        "src-gobotany-vaco",
+        "src-wikipedia-highbush-blueberry"
+      ]
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "kind": "flower",
+      "id": "flower-trifolium-repens",
+      "reviewStatus": "draft",
+      "name": "白车轴草",
+      "scientificName": "Trifolium repens",
+      "englishName": "white clover",
+      "family": "豆科 Fabaceae",
+      "form": "papilionaceous",
+      "bloom": {
+        "region-china-east": {
+          "from": 5,
+          "to": 10
+        },
+        "region-central-europe": {
+          "from": 5,
+          "to": 10
+        },
+        "region-north-america-east": {
+          "from": 5,
+          "to": 10
+        }
+      },
+      "nectar": "重要蜜源:花蜜在雄蕊管基部,舌短的蜂也够得着;“三叶草蜜”是常见的单花蜜——“三叶草”泛指车轴草属的几种牧草,白车轴草是其中最主要的一种。",
+      "pollen": "花粉营养价值良好(据德文维基百科)。",
+      "summary": "草坪和牧场里最常见的白色小球花,其实是几十朵蝶形小花挤成的头状花序。它是重要的蜜源植物,也是一朵“要用体重压开”的花。",
+      "sourceIds": [
+        "src-wikipedia-white-clover",
+        "src-frps-trifolium-repens",
+        "src-bsbi-white-clover",
+        "src-dewiki-weissklee",
+        "src-mnwild-white-clover",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "kind": "flower-entry",
+      "flower": "白车轴草",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "几十朵小蝶形花挤成一球",
+      "latin": "globose head · papilionaceous florets",
+      "description": "头状花序球形,直径 15–40 毫米,由 20–50 朵(有时更多)小花密集组成;每朵小花是典型的蝶形花,花长约 7–12 毫米,白色带粉或乳黄。",
+      "fact": "开过的小花会变褐下垂,所以一个花球上常常同时看到新开的白花和垂下的褐花。",
+      "sourceIds": [
+        "src-frps-trifolium-repens",
+        "src-wikipedia-white-clover",
+        "src-wikipedia-clover",
+        "src-bsbi-white-clover"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "kind": "flower-entry",
+      "flower": "白车轴草",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "压开翼瓣才吃得到",
+      "latin": "staminal tube · nectar",
+      "description": "花蜜藏在雄蕊管基部,位置不深,舌短的蜂也够得着;但要先用体重把翼瓣和龙骨瓣压下去,露出蜜和花粉。",
+      "fact": "白车轴草基本自交不亲和,种子生产依赖蜂类传粉——新西兰的种子田通常会放进蜜蜂蜂群。",
+      "sourceIds": [
+        "src-bsbi-white-clover",
+        "src-nz-2018-clover-bombus",
+        "src-wikipedia-white-clover"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "kind": "flower-entry",
+      "flower": "白车轴草",
+      "id": "inflorescence",
+      "reviewStatus": "ai-reviewed",
+      "index": "03",
+      "short": "花序",
+      "title": "开一整个夏天",
+      "latin": "capitate raceme",
+      "description": "花期很长:从 5 月一直开到 10 月,中国东部、中欧与北美温带大致相同;7 月前后最盛。",
+      "fact": "在北美、新西兰等牧场多的地方,“三叶草蜜”是最常见的单花蜜之一;它来自白车轴草等车轴草属牧草,北美的“三叶草蜜”也常来自近缘的草木樨。",
+      "sourceIds": [
+        "src-frps-trifolium-repens",
+        "src-dewiki-weissklee",
+        "src-mnwild-white-clover",
+        "src-bsbi-white-clover",
+        "src-wikipedia-monofloral-honey",
+        "src-msu-sweet-clovers"
+      ]
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "kind": "flower",
+      "id": "flower-lavandula-angustifolia",
+      "reviewStatus": "draft",
+      "name": "薰衣草",
+      "scientificName": "Lavandula angustifolia",
+      "englishName": "English lavender",
+      "family": "唇形科 Lamiaceae",
+      "form": "spike",
+      "bloom": {
+        "region-central-europe": {
+          "from": 6,
+          "to": 8
+        },
+        "region-north-america-east": {
+          "from": 6,
+          "to": 8
+        }
+      },
+      "nectar": "重要蜜源:花蜜丰富,“薰衣草蜜”主产于地中海周边,色淡黄。",
+      "pollen": "花粉也较丰富(据园艺植物数据库)。",
+      "summary": "紫色的穗状花序由一轮轮小花叠成,每朵小花是唇形科典型的二唇形管状花。花冠有 8–10 毫米长——舌长不同的蜂,在这里吃到蜜的速度大不一样。",
+      "sourceIds": [
+        "src-wikipedia-lavandula-angustifolia",
+        "src-wikipedia-lavandula",
+        "src-foc-lavandula",
+        "src-pfaf-lavandula",
+        "src-kozuharova-2022-lavender",
+        "src-ncsu-lavandula",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "kind": "flower-entry",
+      "flower": "薰衣草",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "管子里的蜜",
+      "latin": "bilabiate corolla",
+      "description": "每朵小花是两侧对称的二唇形花,花冠全长 8–10 毫米,花萼 4–5 毫米。花蜜在管底,舌越长的蜂取蜜越快。",
+      "fact": "英国在杂交薰衣草(‘Grosso’)上的研究发现,熊蜂在一朵花上只停 1.1–1.4 秒,蜜蜂要 3.5 秒——研究者认为差别主要来自舌的长短。",
+      "sourceIds": [
+        "src-foc-lavandula",
+        "src-sussex-lavender-2013",
+        "src-balfour-2013-lavender"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/stamen",
+      "kind": "flower-entry",
+      "flower": "薰衣草",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "不靠自己结实",
+      "latin": "stamens · pollinator dependence",
+      "description": "保加利亚的隔离试验里,隔绝传粉者的花结实率为零,对照约 86%——薰衣草几乎完全依赖昆虫传粉;观察到的访花者几乎都是蜂类。",
+      "fact": "薰衣草原产地中海盆地;中国的主产区在新疆伊犁,并不在东部。",
+      "sourceIds": [
+        "src-kozuharova-2022-lavender",
+        "src-wikipedia-lavandula-angustifolia",
+        "src-xj-weather-lavender-2023"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "kind": "flower-entry",
+      "flower": "薰衣草",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "一轮轮叠上去的花穗",
+      "latin": "verticillasters · spike",
+      "description": "6–10 朵小花组成一轮(轮伞花序),许多轮密集排成约 3–5 厘米长的顶生穗状花序,生在细长无叶的花枝顶端。花期在夏季:不同地区的资料从 6 月到 9 月不一。",
+      "fact": "据薰衣草油生产者的经验,没有授粉的花会提前脱落;精油产量与授粉的关系,还有待研究证实。",
+      "sourceIds": [
+        "src-foc-lavandula",
+        "src-pfaf-lavandula",
+        "src-wikipedia-lavandula-angustifolia",
+        "src-kozuharova-2022-lavender"
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "kind": "flower",
+      "id": "flower-medicago-sativa",
+      "reviewStatus": "ai-reviewed",
+      "name": "紫花苜蓿",
+      "scientificName": "Medicago sativa",
+      "englishName": "alfalfa / lucerne",
+      "family": "豆科 Fabaceae",
+      "form": "papilionaceous",
+      "bloom": {
+        "region-china-east": {
+          "from": 5,
+          "to": 7
+        },
+        "region-central-europe": {
+          "from": 6,
+          "to": 7
+        },
+        "region-north-america-east": {
+          "from": 6,
+          "to": 9
+        }
+      },
+      "nectar": "重要蜜源:泌蜜量大,苜蓿蜜白色至特浅琥珀色、味淡雅;在美国西部是最重要的蜜源植物之一。",
+      "pollen": "对蜜蜂而言是劣质花粉源,通常只在没有别的选择时才采。",
+      "summary": "紫色的蝶形小花藏着一个“机关”:龙骨瓣绷着雌雄蕊柱,蜂一压就弹开,啪地打在蜂头下方——花粉就这样送出去。蜜蜂多从花侧吸蜜避开这一击,所以给苜蓿留种,常要靠切叶蜂这类不躲机关的蜂。",
+      "sourceIds": [
+        "src-wikipedia-alfalfa",
+        "src-foc-medicago",
+        "src-pfaf-medicago",
+        "src-mnwild-alfalfa",
+        "src-mcgregor-1976-alfalfa",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "kind": "flower-entry",
+      "flower": "紫花苜蓿",
+      "id": "corolla",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "花冠",
+      "title": "会弹开的花",
+      "latin": "tripping mechanism",
+      "description": "蝶形花,花冠多为紫色,也有蓝、黄、乳白。龙骨瓣在张力下包裹着雌雄蕊柱;蜂压下龙骨瓣时,柱体弹出撞向旗瓣,这一动作叫“弹花”(tripping)。",
+      "fact": "没被弹开的花几乎不结籽;即使自行弹开(没有蜂经手),能结籽的也不到 1%——苜蓿留种必须有传粉者。",
+      "sourceIds": [
+        "src-wikipedia-alfalfa",
+        "src-foc-medicago",
+        "src-mcgregor-1976-alfalfa"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "kind": "flower-entry",
+      "flower": "紫花苜蓿",
+      "id": "stamen",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "花蕊",
+      "title": "蜜蜂学会了绕开机关",
+      "latin": "nectar · pollen",
+      "description": "西方蜜蜂会从花的侧面吸蜜,避免被弹起的柱体打到头——它拿走了花蜜,却几乎不带走花粉、不传粉。苜蓿切叶蜂不躲这一击,逐蜂授粉效率远高于蜜蜂,因此被大量用于苜蓿种子生产。",
+      "fact": "对蜜蜂来说,苜蓿是很好的蜜源,却是很差的花粉源。",
+      "sourceIds": [
+        "src-wikipedia-alfalfa",
+        "src-wikipedia-monofloral-honey",
+        "src-mcgregor-1976-alfalfa"
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "kind": "flower-entry",
+      "flower": "紫花苜蓿",
+      "id": "inflorescence",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "花序",
+      "title": "夏天的紫色花序",
+      "latin": "raceme · 5–30 flowers",
+      "description": "腋生总状或头状花序,5–30 朵小花,长 1–2.5 厘米。中国各地大致 5–7 月开花,欧洲西部与中部约 6–7 月(据英国资料),美国中西部 6–9 月。",
+      "fact": "紫花苜蓿原产亚洲北部与西南部(可能还包括南欧),如今遍布全球温带。",
+      "sourceIds": [
+        "src-foc-medicago",
+        "src-pfaf-medicago",
+        "src-mnwild-alfalfa"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-rapeseed-china-spring",
+      "reviewStatus": "ai-reviewed",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-brassica-napus",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "词条把油菜列为蜜蜂最重要的蜜粉源作物之一;中国东部 3–4 月开花,是早春的大宗蜜源。",
+      "sourceIds": [
+        "src-wikipedia-rapeseed",
+        "src-frps-brassica-napus"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-ce-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-rapeseed-ce-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-brassica-napus",
+      "regionId": "region-central-europe",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "institutional",
+      "note": "德国养蜂教学资料把油菜列为重要蜜粉源,花期 4 月下半到 6 月初。",
+      "sourceIds": [
+        "src-honigmacher-raps"
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-rapeseed-china-spring",
+      "kind": "relation",
+      "id": "rel-cerana-rapeseed-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-cerana",
+      "flowerId": "flower-brassica-napus",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "primary",
+      "note": "中国小农油菜田的研究记录到东方蜜蜂与西方蜜蜂访花,且传粉者能提高油菜产量;另有以中蜂为试验蜂种的油菜蜂蜜研究。",
+      "sourceIds": [
+        "src-zou-2017-osr-china",
+        "src-liu-2017-cerana-osr"
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-rapeseed-ce-spring",
+      "kind": "relation",
+      "id": "rel-bombus-rapeseed-ce-spring",
+      "reviewStatus": "draft",
+      "beeId": "bombus-terrestris",
+      "flowerId": "flower-brassica-napus",
+      "regionId": "region-central-europe",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "primary",
+      "note": "德国研究显示,大面积油菜花能让欧洲熊蜂蜂群早期增重更快;英国田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者。",
+      "sourceIds": [
+        "src-westphal-2009-osr",
+        "src-harris-2024-osr-nectar"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-china-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-locust-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "市售“槐花蜜”即刺槐(洋槐)花蜜;刺槐在中国东部 4–6 月开花。",
+      "sourceIds": [
+        "src-zhwiki-robinia",
+        "src-frps-robinia",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-ce-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-locust-ce-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "regionId": "region-central-europe",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "欧洲多国的“洋槐蜜(acacia honey)”来自刺槐。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-dewiki-robinie"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-na-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-locust-na-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "regionId": "region-north-america-east",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "刺槐是美国东部的主要蜜源树种。",
+      "sourceIds": [
+        "src-wikipedia-black-locust",
+        "src-usda-robinia"
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-locust-china-spring",
+      "kind": "relation",
+      "id": "rel-cerana-locust-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-cerana",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "nectar",
+      "evidence": "primary",
+      "note": "对东方蜜蜂所酿刺槐蜜的成分研究,间接证明中蜂采集刺槐花蜜;未见访花行为学的专门研究。",
+      "sourceIds": [
+        "src-mo-2025-cerana-acacia-honey"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-sunflower-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-helianthus-annuus",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "editorial",
+      "note": "编辑整理:向日葵单花蜜的记载来自法国、意大利、西班牙等邻近地区,中欧本地未见专门记载;向日葵在中欧 7–9 月开花。",
+      "sourceIds": [
+        "src-wikipedia-monofloral-honey",
+        "src-dewiki-sonnenblume"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-china-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-sunflower-china-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-helianthus-annuus",
+      "regionId": "region-china-east",
+      "season": "summer",
+      "relation": "pollen",
+      "evidence": "review",
+      "note": "综述性表述:向日葵对各类蜂都是良好的蜜粉源;非中国的专门记载。",
+      "sourceIds": [
+        "src-raja-2025-sunflower",
+        "src-pmc-sunflower-nutrition"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-sunflower-na-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-helianthus-annuus",
+      "regionId": "region-north-america-east",
+      "season": "summer",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:依据是美国加州制种田的研究——蜜蜂单次访花的传粉效率不高,有野生蜂在场时会提高;本地域(美国东北部与中西部)未见专门记载。",
+      "sourceIds": [
+        "src-greenleaf-2006-sunflower"
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-sunflower-china-summer",
+      "kind": "relation",
+      "id": "rel-cerana-sunflower-china-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-cerana",
+      "flowerId": "flower-helianthus-annuus",
+      "regionId": "region-china-east",
+      "season": "summer",
+      "relation": "observed-visit",
+      "evidence": "editorial",
+      "note": "编辑整理:直接记载来自印度的东方蜜蜂亚种(A. cerana indica)研究,中国中蜂访向日葵未见专门文献。",
+      "sourceIds": [
+        "src-raja-2025-sunflower"
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-sunflower-ce-summer",
+      "kind": "relation",
+      "id": "rel-xylocopa-sunflower-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "xylocopa-violacea",
+      "flowerId": "flower-helianthus-annuus",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "observed-visit",
+      "evidence": "editorial",
+      "note": "编辑整理:土耳其的田间观察记录紫木蜂访向日葵并将其视为有价值的传粉者;中欧未见专门记载。",
+      "sourceIds": [
+        "src-ozbek-2013-xylocopa"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-na-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-blueberry-na-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-north-america-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "institutional",
+      "note": "密歇根州立大学资料:蜜蜂是蓝莓园常租用的管理传粉者。",
+      "sourceIds": [
+        "src-msu-blueberry-pollination"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "kind": "relation",
+      "id": "rel-mellifera-blueberry-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:一项温室对照研究(Sun 等 2021)比较了欧洲熊蜂、东方蜜蜂与西方蜜蜂对高丛蓝莓的访花与传粉效率;论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+      "sourceIds": [
+        "src-sun-2021-blueberry"
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "kind": "relation",
+      "id": "rel-cerana-blueberry-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "apis-cerana",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:同一项温室对照研究(Sun 等 2021)把东方蜜蜂列为三种对比传粉蜂之一;论文未注明试验地点,本馆未能核实是否在中国,仅供参考。",
+      "sourceIds": [
+        "src-sun-2021-blueberry"
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "kind": "relation",
+      "id": "rel-bombus-blueberry-china-spring",
+      "reviewStatus": "draft",
+      "beeId": "bombus-terrestris",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-china-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:同一项温室对照研究(Sun 等 2021)把欧洲熊蜂列为三种对比传粉蜂之一(论文未注明试验地点,本馆未能核实是否在中国,仅供参考);熊蜂能振动授粉,与蓝莓的孔裂花药匹配。",
+      "sourceIds": [
+        "src-sun-2021-blueberry",
+        "src-wikipedia-buzz-pollination"
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "kind": "relation",
+      "id": "rel-bombus-blueberry-ce-spring",
+      "reviewStatus": "draft",
+      "beeId": "bombus-terrestris",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-central-europe",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:熊蜂能振动授粉,与蓝莓的孔裂花药匹配;德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用(泛指熊蜂属);点名到欧洲熊蜂管理蜂群的研究记载来自智利等地。",
+      "sourceIds": [
+        "src-wikipedia-buzz-pollination",
+        "src-dewiki-kulturheidelbeere",
+        "src-frontiers-2023-blueberry"
+      ]
+    },
+    {
+      "key": "relation:rel-osmia-blueberry-na-spring",
+      "kind": "relation",
+      "id": "rel-osmia-blueberry-na-spring",
+      "reviewStatus": "draft",
+      "beeId": "osmia-cornifrons",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "regionId": "region-north-america-east",
+      "season": "spring",
+      "relation": "pollination",
+      "evidence": "institutional",
+      "note": "美国 SARE 项目报告评估了角额壁蜂作为高丛蓝莓传粉者:每次访花都接触花药与柱头。",
+      "sourceIds": [
+        "src-sare-osmia-blueberry"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-ce-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-clover-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-trifolium-repens",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "白车轴草是主要蜜源,“三叶草蜜”为常见单花蜜;词条称蜜蜂常访。",
+      "sourceIds": [
+        "src-wikipedia-white-clover",
+        "src-wikipedia-monofloral-honey",
+        "src-dewiki-weissklee"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-na-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-clover-na-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-trifolium-repens",
+      "regionId": "region-north-america-east",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "白车轴草是主要蜜源,北美牧场广泛种植;“三叶草蜜”为常见单花蜜。",
+      "sourceIds": [
+        "src-wikipedia-white-clover",
+        "src-wikipedia-monofloral-honey",
+        "src-mnwild-white-clover"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-clover-china-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-clover-china-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-trifolium-repens",
+      "regionId": "region-china-east",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "review",
+      "note": "词条为一般性记载(主要蜜源、蜜蜂常访),非中国的专门研究;白车轴草在中国广泛种植并半自生,5–10 月开花。",
+      "sourceIds": [
+        "src-wikipedia-white-clover",
+        "src-frps-trifolium-repens"
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "kind": "relation",
+      "id": "rel-bombus-clover-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "bombus-terrestris",
+      "flowerId": "flower-trifolium-repens",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "editorial",
+      "note": "编辑整理:词条称白车轴草的花主要由熊蜂访问(泛指熊蜂属);点名到欧洲熊蜂的访花与传粉记录来自新西兰的种子田研究;中欧本地未见点名到种的专门记载。",
+      "sourceIds": [
+        "src-wikipedia-white-clover",
+        "src-dewiki-weissklee",
+        "src-nz-2018-clover-bombus"
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "kind": "relation",
+      "id": "rel-megachile-clover-na-summer",
+      "reviewStatus": "draft",
+      "beeId": "megachile-rotundata",
+      "flowerId": "flower-trifolium-repens",
+      "regionId": "region-north-america-east",
+      "season": "summer",
+      "relation": "pollination",
+      "evidence": "editorial",
+      "note": "编辑整理:词条记载苜蓿切叶蜂能为车轴草属植物传粉,未点名到白车轴草。",
+      "sourceIds": [
+        "src-wikipedia-megachile-rotundata"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-lavender-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-lavandula-angustifolia",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "editorial",
+      "note": "编辑整理:薰衣草花蜜丰富,可酿单花蜜(主产于地中海周边);英国研究记录蜜蜂访薰衣草——均为邻近地区资料,中欧本地未见专门记载。",
+      "sourceIds": [
+        "src-wikipedia-lavandula",
+        "src-pfaf-lavandula",
+        "src-sussex-lavender-2013"
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "kind": "relation",
+      "id": "rel-bombus-lavender-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "bombus-terrestris",
+      "flowerId": "flower-lavandula-angustifolia",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "observed-visit",
+      "evidence": "editorial",
+      "note": "编辑整理:英国在杂交薰衣草上的研究显示熊蜂采蜜速度远快于蜜蜂;保加利亚对狭叶薰衣草的观察中,访花者几乎全是蜂类、熊蜂(terrestris/lucorum 复合组)占多数——均为邻近地区记录,中欧本地未见专门研究。",
+      "sourceIds": [
+        "src-sussex-lavender-2013",
+        "src-balfour-2013-lavender",
+        "src-kozuharova-2022-lavender"
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-lavender-ce-summer",
+      "kind": "relation",
+      "id": "rel-xylocopa-lavender-ce-summer",
+      "reviewStatus": "draft",
+      "beeId": "xylocopa-violacea",
+      "flowerId": "flower-lavandula-angustifolia",
+      "regionId": "region-central-europe",
+      "season": "summer",
+      "relation": "observed-visit",
+      "evidence": "editorial",
+      "note": "编辑整理:仅有爱好者网站记录紫木蜂访薰衣草,未见学术来源。",
+      "sourceIds": [
+        "src-buzzaboutbees-xylocopa"
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "kind": "relation",
+      "id": "rel-mellifera-alfalfa-na-summer",
+      "reviewStatus": "draft",
+      "beeId": "apis-mellifera",
+      "flowerId": "flower-medicago-sativa",
+      "regionId": "region-north-america-east",
+      "season": "summer",
+      "relation": "nectar",
+      "evidence": "editorial",
+      "note": "编辑整理:苜蓿是重要蜜源,“美国西部最重要的蜜源之一”的记载来自美国西部,本地域未见专门记载;蜜蜂多从花侧吸蜜、避开弹花机关,几乎不传粉。",
+      "sourceIds": [
+        "src-wikipedia-alfalfa",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "kind": "relation",
+      "id": "rel-megachile-alfalfa-na-summer",
+      "reviewStatus": "draft",
+      "beeId": "megachile-rotundata",
+      "flowerId": "flower-medicago-sativa",
+      "regionId": "region-north-america-east",
+      "season": "summer",
+      "relation": "pollination",
+      "evidence": "review",
+      "note": "苜蓿切叶蜂被大量用于北美的苜蓿种子生产;用它授粉的效果约为用蜜蜂的 2–4 倍(佛罗里达大学资料)。",
+      "sourceIds": [
+        "src-wikipedia-alfalfa",
+        "src-wikipedia-megachile-rotundata",
+        "src-ifas-megachile"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "kind": "honey-stage",
+      "id": "honey-stage-gather",
+      "reviewStatus": "draft",
+      "index": "01",
+      "short": "采集",
+      "title": "采集 · 一切从花蜜开始",
+      "latin": "FORAGING · INTO THE FLOWER",
+      "summary": "外勤蜂把喙伸进花冠,吸取花蜜——蜂蜜最主要的原料。花蜜是花朵蜜腺分泌的含糖液体,主要成分是蔗糖、葡萄糖、果糖和水,含糖比例随花种差别很大。",
+      "detail": "一只外勤蜂一趟采集通常要连续拜访许多朵花,把蜜胃装满才回巢。花蜜位置有深有浅:油菜的花蜜几乎所有蜂都够得着,薰衣草则要看喙的长短——这正是花朵馆里“口器与花冠”故事的另一面。",
+      "boundary": "少数蜜种不以花蜜为原料:欧洲市场的“甘露蜜(森林蜜)”来自蚜虫等昆虫的含糖分泌物;本馆的旅程只讲花蜜这条主线。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-proboscis",
+          "label": "喙 · 吸取花蜜的工具"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-britannica-honey",
+        "src-honigmacher-raps",
+        "src-balfour-2013-lavender"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "kind": "honey-stage",
+      "id": "honey-stage-carry",
+      "reviewStatus": "draft",
+      "index": "02",
+      "short": "携带",
+      "title": "携带 · 蜜胃不是胃",
+      "latin": "HONEY STOMACH · THE CROP",
+      "summary": "吸进来的花蜜不进消化道,而是存进蜜胃——食道末端一个能胀大的储袋,也叫蜜囊。蜜胃与消化道之间有一道阀门(前胃)把关:大部分花蜜留在蜜胃里带回巢,只有蜂自己取食的一小部分、和被滤出的花粉,经阀门进入消化道。",
+      "detail": "归巢路上,加工已经开始:蜜胃里的花蜜,混入了蜂头部腺体分泌的酶。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-abdomen",
+          "label": "腹部 · 蜜胃藏在这里"
+        }
+      ],
+      "sourceIds": [
+        "src-snodgrass-anatomy",
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-handoff",
+      "kind": "honey-stage",
+      "id": "honey-stage-handoff",
+      "reviewStatus": "draft",
+      "index": "03",
+      "short": "交接",
+      "title": "交接 · 口对口的传递",
+      "latin": "TROPHALLAXIS · THE HANDOFF",
+      "summary": "回巢后,外勤蜂把蜜胃里的花蜜口对口吐给内勤蜂,这种传递叫交哺。花蜜就此换手:外勤蜂转身再去采集,内勤蜂接着加工。",
+      "detail": "内勤蜂会反复把蜜滴吐出又吸回,在口器上摊成薄膜——既继续混入酶,也让水分开始蒸发。一滴花蜜从进巢到入房,常常经过不止一只蜂的口。",
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂 · 分工采酿"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-trophallaxis",
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "kind": "honey-stage",
+      "id": "honey-stage-transform",
+      "reviewStatus": "draft",
+      "index": "04",
+      "short": "转化",
+      "title": "转化 · 酶改写糖",
+      "latin": "ENZYMES · SUGARS REWRITTEN",
+      "summary": "腺体分泌的转化酶把花蜜里的蔗糖水解成葡萄糖和果糖——这是蜂蜜以单糖为主的原因;另一种酶(葡萄糖氧化酶)把部分葡萄糖转成葡萄糖酸,并产生微量过氧化氢。",
+      "detail": "偏酸只是第一步;等下一站把水分收干、糖浓到能把微生物体内的水“吸”出来,微生物才真正难以生长繁殖。成熟封盖的蜜能在巢房里长期储存而不腐败,靠的是这套化学,不是防腐剂。不过“难以繁殖”不等于“不存在”:蜂蜜里可能有休眠的肉毒杆菌芽孢,所以一岁以下的婴儿不能喂食蜂蜜。",
+      "related": [],
+      "sourceIds": [
+        "src-wikipedia-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "kind": "honey-stage",
+      "id": "honey-stage-condense",
+      "reviewStatus": "draft",
+      "index": "05",
+      "short": "浓缩",
+      "title": "浓缩 · 扇出来的稠度",
+      "latin": "EVAPORATION · FANNING",
+      "summary": "刚采回的花蜜通常一半以上是水,直接储存会发酵。工蜂把蜜液薄薄摊进巢房,再成群扇动翅膀通风,让水分蒸发。",
+      "detail": "水分收到大约两成以下——更严的口径要到 18% 以下——花蜜才算酿成了蜂蜜。巢内通风是集体劳动:一部分工蜂专职在巢脾上扇翅,让气流掠过一格格摊着蜜的巢房。",
+      "boundary": "“酿成”的含水量各资料口径不一:维基百科给约 15.5%–18%,不少法规与教材以 20% 为上限;花蜜的初始含水量随花种与天气差别更大。",
+      "related": [
+        {
+          "kind": "organ",
+          "id": "organ-forewing",
+          "label": "前翅 · 也是通风工具"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-britannica-honey"
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "kind": "honey-stage",
+      "id": "honey-stage-cap",
+      "reviewStatus": "draft",
+      "index": "06",
+      "short": "封盖",
+      "title": "封盖 · 存粮入库",
+      "latin": "CAPPING · SEALED IN WAX",
+      "summary": "蜜酿熟后,工蜂用腹部蜡腺分泌的蜂蜡把巢房口封平。封盖是“这格蜜已酿成”的标志,也是养蜂人判断取蜜时机的依据。",
+      "detail": "封盖之下的蜂蜜是蜂群的存粮:蜜蜂属靠它撑过缺花的季节——温带是冬天,热带则是断蜜的旱季或雨季。这也是蜜蜂大量储蜜、而多数蜂不储蜜的原因——“谁在酿蜜”一节会展开。",
+      "related": [
+        {
+          "kind": "cycle",
+          "id": "cycle-apis-mellifera-worker",
+          "label": "工蜂的一生 · 酿蜜与筑巢"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-wikipedia-beeswax"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "kind": "honey-variety",
+      "id": "honey-rapeseed",
+      "reviewStatus": "draft",
+      "name": "油菜蜜",
+      "flowerId": "flower-brassica-napus",
+      "traits": "白色至乳黄,味微辛;极易结晶,结晶细腻呈脂状。",
+      "regionNote": "春季大宗蜜种;中国与欧洲的油菜产区皆有出产。",
+      "sourceIds": [
+        "src-honigmacher-raps",
+        "src-dewiki-raps",
+        "src-wikipedia-rapeseed",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "kind": "honey-variety",
+      "id": "honey-black-locust",
+      "reviewStatus": "draft",
+      "name": "洋槐蜜(槐花蜜)",
+      "flowerId": "flower-robinia-pseudoacacia",
+      "traits": "市售“槐花蜜”的槐花通常指洋槐(刺槐),而不是国槐。洋槐蜜色浅至近无色,味清淡带花香,果糖比例高、久不结晶——与油菜蜜的“极易结晶”恰成对照。据德文维基百科引用的养蜂资料,一株成年树一个花季分泌的花蜜约可酿出 0.7–1.4 公斤蜂蜜。",
+      "regionNote": "中国北方、欧洲与美国东部;德语区市场多以“Akazienhonig(阿卡西亚蜜)”为名出售。",
+      "sourceIds": [
+        "src-dewiki-robinie",
+        "src-zhwiki-robinia",
+        "src-mo-2025-cerana-acacia-honey",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-sunflower",
+      "kind": "honey-variety",
+      "id": "honey-sunflower",
+      "reviewStatus": "draft",
+      "name": "向日葵蜜",
+      "flowerId": "flower-helianthus-annuus",
+      "traits": "浅黄,葡萄糖比例高,结晶快。",
+      "regionNote": "向日葵种植区的夏季蜜种。",
+      "sourceIds": [
+        "src-pmc-sunflower-nutrition",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-blueberry",
+      "kind": "honey-variety",
+      "id": "honey-blueberry",
+      "reviewStatus": "draft",
+      "name": "蓝莓蜜",
+      "flowerId": "flower-vaccinium-corymbosum",
+      "traits": "产区有以“蓝莓蜜”为名的单花蜜;它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+      "regionNote": "北美等蓝莓集中栽培区。",
+      "sourceIds": [
+        "src-wikipedia-monofloral-honey",
+        "src-cnhnb-blueberry"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "kind": "honey-variety",
+      "id": "honey-clover",
+      "reviewStatus": "draft",
+      "name": "三叶草蜜",
+      "flowerId": "flower-trifolium-repens",
+      "traits": "在北美、新西兰等牧场多的地方,“三叶草蜜”是最常见的单花蜜之一;它来自白车轴草等车轴草属牧草,在北美还大量来自近缘的草木樨属(sweet clover)。它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+      "regionNote": "北美、新西兰等温带牧区。",
+      "sourceIds": [
+        "src-wikipedia-monofloral-honey",
+        "src-mnwild-white-clover",
+        "src-wikipedia-white-clover",
+        "src-msu-sweet-clovers"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-lavender",
+      "kind": "honey-variety",
+      "id": "honey-lavender",
+      "reviewStatus": "draft",
+      "name": "薰衣草蜜",
+      "flowerId": "flower-lavandula-angustifolia",
+      "traits": "色淡黄;“薰衣草蜜”主产于地中海周边。",
+      "regionNote": "地中海周边薰衣草产区。",
+      "sourceIds": [
+        "src-pfaf-lavandula",
+        "src-kozuharova-2022-lavender",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "kind": "honey-variety",
+      "id": "honey-alfalfa",
+      "reviewStatus": "draft",
+      "name": "苜蓿蜜",
+      "flowerId": "flower-medicago-sativa",
+      "traits": "白色至特浅琥珀色,味淡雅。",
+      "regionNote": "在美国西部,紫花苜蓿是最重要的蜜源植物之一。",
+      "sourceIds": [
+        "src-mcgregor-1976-alfalfa",
+        "src-mnwild-alfalfa",
+        "src-wikipedia-monofloral-honey"
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "kind": "honey-note",
+      "id": "honey-note-royal-jelly",
+      "reviewStatus": "draft",
+      "title": "蜂王浆是什么,又不是什么",
+      "intro": "蜂王浆常和蜂蜜一起被售卖,也常被混在一起理解。它们其实是来源完全不同的两种东西。",
+      "points": [
+        {
+          "label": "是什么",
+          "text": "哺育蜂头部腺体分泌的乳状食物。所有蜜蜂幼虫约头三天都吃它;被选作蜂王的幼虫整个幼虫期、以及成年蜂王的一生,都以它为食。"
+        },
+        {
+          "label": "不是什么",
+          "text": "它不是蜂蜜,也不是蜂蜜的原料或“浓缩版”。蜂蜜来自花蜜的采集与加工,蜂王浆来自蜂自身的腺体分泌——一个是蜂群的存粮,一个是育儿的食物。"
+        },
+        {
+          "label": "本馆的边界",
+          "text": "蜂王浆与人的健康有什么关系,不属于本馆的展出范围,本馆不做介绍、也不做评价;这里只讲它在蜂群里的角色。"
+        }
+      ],
+      "related": [
+        {
+          "kind": "cycle",
+          "id": "cycle-apis-mellifera-worker",
+          "label": "工蜂的一生 · 哺育阶段"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-royal-jelly",
+        "src-wikipedia-queen-bee",
+        "src-wikipedia-bee-brood"
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "kind": "honey-note",
+      "id": "honey-note-who-makes-honey",
+      "reviewStatus": "draft",
+      "title": "谁在酿蜜",
+      "intro": "“蜂蜜”几乎成了所有蜂的代名词,但会大量酿蜜储存的只是少数类群。本馆的六种蜂正好是一组对照。",
+      "points": [
+        {
+          "label": "蜜蜂属(西方蜜蜂、东方蜜蜂)",
+          "text": "采集、酿造、封盖、储存,靠储蜜撑过缺花的季节——温带是冬天,热带是断蜜的旱雨季。本馆讲的酿蜜流程,就是它们的流程。"
+        },
+        {
+          "label": "熊蜂",
+          "text": "也会把花蜜存进巢里的蜡罐(用蜂蜡捏成的小罐),但存量小,通常只够蜂群吃上几天。在温带,熊蜂蜂群通常一年一代,秋末解散、只有新蜂王越冬,因此不需要大宗过冬存粮;在冬季温和的地区,也有欧洲熊蜂蜂群冬季仍在活动的记录。"
+        },
+        {
+          "label": "独居蜂(壁蜂、切叶蜂、木蜂)",
+          "text": "不酿蜜。雌蜂把花粉和花蜜揉成一团“蜂粮”,放进巢室、产一枚卵、封上巢室——幼虫吃着这份口粮长大,全程没有“蜂蜜”。"
+        }
+      ],
+      "related": [
+        {
+          "kind": "species",
+          "id": "apis-mellifera",
+          "label": "西方蜜蜂"
+        },
+        {
+          "kind": "species",
+          "id": "bombus-terrestris",
+          "label": "欧洲熊蜂"
+        },
+        {
+          "kind": "species",
+          "id": "osmia-cornifrons",
+          "label": "角额壁蜂"
+        }
+      ],
+      "sourceIds": [
+        "src-wikipedia-honey",
+        "src-wikipedia-bumblebee",
+        "src-wikipedia-bombus-terrestris",
+        "src-plos-2010-winter-bumblebees",
+        "src-wikipedia-mason-bee",
+        "src-wikipedia-megachile"
+      ]
+    }
+  ],
+  "mergedFrom": [
+    null,
+    29
+  ]
+}

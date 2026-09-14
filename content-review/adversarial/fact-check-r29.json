@@ -1,0 +1,165 @@
+{
+  "lens": "fact-check",
+  "round": 29,
+  "reviewedAt": "2026-09-08T01:46:09Z",
+  "sourceAccess": "本轮抓取原文核对:en:Monofloral honey、en:Rapeseed、de:Raps、de:Gewöhnliche Robinie、Die Honigmacher(Raps 整页)、PLoS 2010 冬季活动熊蜂(PMC2832779);Mo 2025(Springer, A. cerana 洋槐蜜)摘要可达但只涉非糖组分、不支持感官断言(不构成问题,感官断言由 Monofloral honey 覆盖);McGregor 1976 苜蓿章、FRPS、Minnesota Wildflowers、zh 维基刺槐等本轮未变文本沿用 r27/r28 已核记录。",
+  "verdicts": [
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "traits:洋槐蜜色浅至近无色,味清淡带花香,果糖比例高、久不结晶——与油菜蜜的\"极易结晶\"恰成对照(本轮新增,替换\"未找到系统资料\"句)",
+          "result": "支持:本轮重抓 en:Monofloral honey(acacia)逐点核到;\"久不结晶\"是 \"lasts as a liquid\" 的合理中文表述;对照句两端均有来源(洋槐高果糖持液态 vs 油菜 3–4 周内结晶)",
+          "evidence": "Monofloral honey(acacia): \"Ranges from light yellow to almost colorless\"、\"mild delicate floral taste\"、\"It lasts as a liquid due to being high in fructose\";en:Rapeseed: \"It crystallizes within 3 to 4 weeks\""
+        },
+        {
+          "claim": "traits:市售\"槐花蜜\"的槐花通常指洋槐(刺槐)而非国槐",
+          "result": "支持(r28 已核,文本未变)",
+          "evidence": "zh 维基 刺槐: \"槐花\"惯指刺槐花而非国槐;重要蜜源植物"
+        },
+        {
+          "claim": "traits:据德文维基百科引用的养蜂资料,一株成年树一个花季分泌的花蜜约可酿出 0.7–1.4 公斤蜂蜜",
+          "result": "支持:本轮重抓 de:Robinie 复认,0,66–1,44 kg 取整为 0.7–1.4 合理,转引归因保留",
+          "evidence": "de:Gewöhnliche Robinie: \"Durchschnittlich lassen sich je Baum und Blühsaison Honigerträge zwischen 0,66 und 1,44 Kilogramm erzielen\""
+        },
+        {
+          "claim": "regionNote:中国北方、欧洲与美国东部;德语区市场多以 Akazienhonig(阿卡西亚蜜)为名出售",
+          "result": "支持:本轮重抓 de:Robinie 复认 Akazienhonig 名称与欧洲产区(法国、匈牙利、勃兰登堡);产区分布 r28 已核",
+          "evidence": "de:Robinie: \"in Deutschland auch unter der Bezeichnung 'Akazienhonig' verkauft\"、\"bedeutende Frühsommertrachtpflanze\"、\"In Brandenburg... bis zu 60 Prozent der Honigernte\""
+        },
+        {
+          "claim": "sourceIds 新增 src-mo-2025-cerana-acacia-honey 的适配性",
+          "result": "不构成问题但需说明:该文摘要只讲非糖组分(NA-AWE 提取、多酚/萜类/生物碱等),不含糖谱、色泽、结晶、风味描述;本条感官断言全部由 Monofloral honey 覆盖,该源仅佐证\"洋槐蜜(Robinia pseudoacacia)\"这一对象本身。建议(非阻断):若无其他字段依赖,可考虑换为 Persano Oddo & Piro 2004 等直接描述感官的来源",
+          "evidence": "Springer 摘要: \"Non-acidified acetonitrile-water extraction (NA-AWE)... enrichment of non-sugar components in honey\""
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "\"在冬季温和的地区,也有欧洲熊蜂蜂群冬季仍在活动的记录\"(r28 issue 修复:删\"热带熊蜂和…更长寿\",改 PLoS 口径)",
+          "result": "支持:本轮重抓 PLoS 2010 复认;\"冬季仍在活动的蜂群\"与原文所记完全一致(英国南部暖冬、城市环境下冬季觅食的 B. terrestris,含建巢蜂王与工蜂),\"记录\"措辞不再断言同一蜂群更长寿,r28 指出的两处出入均已消除;\"热带熊蜂\"半句已删",
+          "evidence": "PLoS 2010: \"Foraging bumblebees, Bombus terrestris (L.), have been repeatedly observed during winters in southern England\";\"linked to warmer winters in recent years\";\"Urban areas can represent a rich winter foraging resource\""
+        },
+        {
+          "claim": "在温带,熊蜂蜂群通常一年一代,秋末解散、只有新蜂王越冬,因此不需要大宗过冬存粮",
+          "result": "支持(r28 已核,文本未变;本轮重抓 PLoS 复认越冬句)",
+          "evidence": "PLoS 2010: \"Colonies perish in the autumn and only newly mated queens survive the winter by hibernating\";Wikipedia Bumblebee: \"Nests in temperate regions last only for a single season\""
+        },
+        {
+          "claim": "熊蜂把花蜜存进蜡罐,存量小、通常只够蜂群吃上几天",
+          "result": "支持(r27/r28 已核,文本未变)",
+          "evidence": "Wikipedia Bumblebee: \"bumblebees only store a few days' worth of food, so are much more vulnerable to food shortages\""
+        },
+        {
+          "claim": "蜜蜂属:采集、酿造、封盖、储存,靠储蜜撑过缺花的季节——温带是冬天,热带是断蜜的旱雨季",
+          "result": "支持(r28 已核,文本未变):总述由 Wikipedia Honey 支持(lean periods,越冬为例示),热带旱雨季为例示性展开、按已知养蜂知识核对成立",
+          "evidence": "Wikipedia Honey: \"bees stockpile honey... during lean periods, as in overwintering\""
+        },
+        {
+          "claim": "独居蜂(壁蜂、切叶蜂、木蜂)不酿蜜;蜂粮—产卵—封巢室,幼虫吃口粮长大,全程没有蜂蜜",
+          "result": "支持(r27/r28 已核,文本未变)",
+          "evidence": "Wikipedia Mason bee: \"Solitary bees produce neither honey nor beeswax\";Wikipedia Megachile: 供粮、产卵、封室"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "traits:味微辛(本轮恢复,补引 src-wikipedia-rapeseed)",
+          "result": "支持:本轮重抓 en:Rapeseed 核到 \"peppery taste\",且 src-wikipedia-rapeseed 已列入本条 sourceIds,r27 删句时的\"无引用来源支持\"缺口已补上;\"微辛\"较 \"peppery\" 略缓和,属保守表述",
+          "evidence": "en:Rapeseed: \"Monofloral rapeseed honey has a whitish or milky yellow color, peppery taste and, due to its fast crystallization time, a soft-solid texture\""
+        },
+        {
+          "claim": "traits:白色至乳黄;极易结晶,结晶细腻呈脂状",
+          "result": "支持:本轮重抓 en:Rapeseed 与 de:Raps 复认;\"极易结晶\"由 3–4 周内结晶、\"低果糖/葡萄糖比使其在巢脾中快速结晶\"支持",
+          "evidence": "en:Rapeseed: \"whitish or milky yellow color\"、\"It crystallizes within 3 to 4 weeks\"、\"quickly granulate in the honeycomb\";de:Raps: \"fein und schmalzartig kandierende Rapshonig\";Monofloral honey: \"Light yellow, whitish or dull ivory when crystallized\"、\"very small crystals\""
+        },
+        {
+          "claim": "regionNote:春季大宗蜜种;中国与欧洲的油菜产区皆有出产",
+          "result": "支持(r27/r28 已核,文本未变;本轮重抓 Honigmacher 复认 Massentracht)",
+          "evidence": "Honigmacher: \"zu einer typischen Massentracht in Deutschland\";de:Raps: \"eine der wichtigsten und ergiebigsten Nektarquellen für Honigbienen\""
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "nectar:单花蜜白色至乳黄、味微辛,极易结晶,结晶细腻呈脂状(本轮恢复\"味微辛\",与蜜卡口径同步)",
+          "result": "支持:本卡 sourceIds 含 src-wikipedia-rapeseed,\"peppery taste\" 本轮核到原文;色泽与结晶描述同蜜卡裁定",
+          "evidence": "en:Rapeseed: \"whitish or milky yellow color, peppery taste... fast crystallization time, a soft-solid texture\";de:Raps: \"fein und schmalzartig kandierend\""
+        },
+        {
+          "claim": "pollen:花粉丰富,色黄(本轮\"饱黄色\"改\"色黄\")",
+          "result": "支持:本轮重抓 Honigmacher,花粉供给 \"sehr reiches Pollenangebot\"、花粉色 \"gelb / satt gelb\";\"色黄\"成立。另注(非阻断):原\"饱黄色\"很可能是 \"satt gelb\"(饱满的黄)的直译而非纯笔误,flower-entry stamen 字段仍写\"呈饱黄色\",同样有来源支持,馆方可自行决定是否统一措辞",
+          "evidence": "Honigmacher: \"sehr reiches Pollenangebot\"、Pollenfarbe \"gelb\"、\"satt gelb\""
+        },
+        {
+          "claim": "nectar:重要大宗蜜源,常被列为蜜蜂最重要的蜜粉源作物之一",
+          "result": "支持(r28 已核,文本未变;本轮重抓 de:Raps 与 Honigmacher 复认)",
+          "evidence": "de:Raps: \"eine der wichtigsten und ergiebigsten Nektarquellen für Honigbienen\";Honigmacher: Massentracht"
+        },
+        {
+          "claim": "summary:四片鲜黄花瓣排成十字;总状花序自下而上开放;一株通常能开三到五周;没有深花冠管、花蜜位置浅、几乎所有蜂都够得着;小油菜是近亲不是同一种",
+          "result": "支持(r25–r28 已核,文本未变;本轮重抓 de:Raps 复认花期句)",
+          "evidence": "de:Raps: \"Witterungsabhängig beträgt die Blühdauer eines Exemplars etwa drei bis fünf Wochen\";en:Rapeseed 区分 B. napus 与 B. rapa;可及性为形态通俗化推论并有 Harris 2024 印证(r28 裁定沿用)"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "traits:白色至特浅琥珀色(本轮恢复区间写法)",
+          "result": "支持:本轮重抓 en:Monofloral honey(alfalfa)复认 \"White or extra light amber in color\",恢复后的区间与来源逐字对应,r28 refutation 指出的\"倒退式收窄\"已回正",
+          "evidence": "Monofloral honey(alfalfa): \"White or extra light amber in color\""
+        },
+        {
+          "claim": "traits:味淡雅",
+          "result": "支持(r28 已核,本轮复认)",
+          "evidence": "Monofloral honey(alfalfa): \"Fine flavor – a subtle spicy profile and mildly scented floral aroma. Not as sweet as most honey types\""
+        },
+        {
+          "claim": "regionNote:在美国西部,紫花苜蓿是最重要的蜜源植物之一",
+          "result": "支持(r27/r28 已核,文本未变,r28 曾重抓 McGregor 复认)",
+          "evidence": "McGregor 1976: \"Alfalfa produces a large amount of nectar... excellent crops of high quality honey\";西部苜蓿放蜂与储蜜记载"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [],
+      "checkedClaims": [
+        {
+          "claim": "nectar:苜蓿蜜白色至特浅琥珀色、味淡雅(本轮恢复区间写法,与蜜卡口径同步)",
+          "result": "支持:本卡 sourceIds 含 src-wikipedia-monofloral-honey,\"White or extra light amber in color\" 本轮核到原文,两卡口径已一致",
+          "evidence": "Monofloral honey(alfalfa): \"White or extra light amber in color\"、\"Fine flavor... mildly scented floral aroma\""
+        },
+        {
+          "claim": "nectar:泌蜜量大;在美国西部是最重要的蜜源植物之一",
+          "result": "支持(r28 已核,文本未变)",
+          "evidence": "McGregor 1976: \"Alfalfa produces a large amount of nectar\";西部产区记载"
+        },
+        {
+          "claim": "pollen:对蜜蜂而言是劣质花粉源,通常只在没有别的选择时才采;summary:龙骨瓣弹花机关打在蜂头下方、蜜蜂多从花侧吸蜜、留种常靠切叶蜂",
+          "result": "支持(r23–r28 已核,文本未变,无相反证据)",
+          "evidence": "McGregor 1976 苜蓿章: tripping 机制、蜜蜂侧位取蜜、切叶蜂授粉、花粉劣质记载"
+        }
+      ]
+    }
+  ]
+}

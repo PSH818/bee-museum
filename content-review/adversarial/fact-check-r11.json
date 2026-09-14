@@ -1,0 +1,190 @@
+{
+  "lens": "fact-check",
+  "round": 11,
+  "reviewedAt": "2026-08-25T06:40:00Z",
+  "sourceAccess": [
+    {
+      "id": "src-wikipedia-bombus-terrestris",
+      "url": "https://en.wikipedia.org/wiki/Bombus_terrestris",
+      "status": "fetched",
+      "claims": [
+        {"claim": "同一巢工蜂胸部长度可差 2–3 倍", "result": "支持", "evidence": "thorax sizes ranging from 2.3 to 6.9 mm in length(6.9/2.3≈3.0 倍)"},
+        {"claim": "体重可差近十倍(不同资料 8–11 倍)", "result": "支持(已限定)", "evidence": "masses ranging from 68 to 754 mg(754/68≈11.1 倍)"},
+        {"claim": "欧洲熊蜂常在花冠基部咬孔盗蜜", "result": "未提及", "evidence": "该词条未提及 nectar robbing 或舌长"},
+        {"claim": "头部由复眼、单眼、触角和口器构成", "result": "未提及", "evidence": "词条无头部结构描述(通用常识)"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-bumblebee",
+      "url": "https://en.wikipedia.org/wiki/Bumblebee",
+      "status": "fetched",
+      "claims": [
+        {"claim": "熊蜂在花冠基部咬孔取蜜,称 nectar robbing", "result": "支持(属级)", "evidence": "Many species of bumblebees also exhibit 'nectar robbing': instead of inserting the mouthparts into the flower in the normal way, these bees bite directly through the base of the corolla to extract nectar."},
+        {"claim": "欧洲熊蜂(B. terrestris)是盗蜜者", "result": "未提及", "evidence": "该段未点名 B. terrestris;仅以 B. bifarius 举例短舌种"},
+        {"claim": "同巢工蜂体型差异倍数", "result": "未提及", "evidence": "仅给出 B. terrestris workers between 11 and 17 mm,无倍数比较"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-nectar-robbing",
+      "url": "https://en.wikipedia.org/wiki/Nectar_robbing",
+      "status": "fetched",
+      "claims": [
+        {"claim": "盗蜜=在花上咬孔取蜜", "result": "支持", "evidence": "Nectar robbing is a foraging behavior ... carried out by feeding from holes bitten in flowers, rather than by entering through the flowers' natural openings."},
+        {"claim": "花冠太深、舌头够不到时在基部咬孔", "result": "支持(以 B. pratorum 为例,列出 bumblebees)", "evidence": "short-tongued bees such as the early bumblebee (Bombus pratorum) are unable to reach the nectar located at the base of long flowers ... the bee will enter the flower through a hole bitten at the base"},
+        {"claim": "只是行为名称,不带贬义", "result": "支持(间接)", "evidence": "the effect of robbery on the plant is sometimes neutral or even positive."},
+        {"claim": "欧洲熊蜂(B. terrestris)具体点名", "result": "未提及", "evidence": "摘录中列 carpenter bees, bumblebees, stingless Trigona bees,未见 B. terrestris"}
+      ]
+    },
+    {
+      "id": "src-snodgrass-anatomy",
+      "url": null,
+      "status": "无 URL,未核对",
+      "claims": [
+        {"claim": "头部由复眼、单眼、触角和口器构成", "result": "未核对(通用昆虫解剖常识)", "evidence": ""}
+      ]
+    },
+    {
+      "id": "src-wikipedia-osmia-cornifrons",
+      "url": "https://en.wikipedia.org/wiki/Osmia_cornifrons",
+      "status": "fetched",
+      "claims": [
+        {"claim": "独居蜂,雌蜂独自筑巢产卵", "result": "支持", "evidence": "Females ... will either return to the nest that they emerged from or create a new nest in which to lay their eggs."},
+        {"claim": "原产东亚", "result": "支持", "evidence": "indigenous to Northern Asia. Populations ... recorded in ... Japan, Korea, China, and Russia."},
+        {"claim": "1940 年代起推广约五十年后日本半数以上苹果园用它授粉", "result": "支持", "evidence": "first introduced in Japan in the 1940s ... Over a 50-year time period, use of O. cornifrons gradually increased until more than half of the apple orchards in Japan utilized this species."},
+        {"claim": "1977 年前后引入美国东部", "result": "支持", "evidence": "In 1977, O. cornifrons was introduced in the northeastern United States."},
+        {"claim": "此后在美国东部与中西部定殖", "result": "部分支持(中西部未提及,见 Exotic Bee ID)", "evidence": "仅提 northeastern United States"},
+        {"claim": "在竹管、芦苇管等空腔筑巢,每室一个花粉球和一枚卵", "result": "支持", "evidence": "use bamboo, reeds, and previously existing holes in trees as nesting sites ... disperse the pollen as a pollen ball. Eggs are placed on top of the pollen ball."},
+        {"claim": "mason bee 得名于用泥", "result": "未提及", "evidence": "见 Mason bee 词条"}
+      ]
+    },
+    {
+      "id": "src-exotic-bee-id",
+      "url": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+      "status": "fetched",
+      "claims": [
+        {"claim": "独居蜂", "result": "支持", "evidence": "Osmia cornifrons is a solitary bee that nests in preexisting cavities."},
+        {"claim": "原产东亚", "result": "支持", "evidence": "native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia."},
+        {"claim": "1970 年代引入美国东部,现见于东部与中西部", "result": "支持", "evidence": "intentionally introduced to the eastern U.S. from Japan in the 1970s ... In the U.S., O. cornifrons can be found on the East Coast and the Midwest."},
+        {"claim": "用泥隔巢室,巢在芦苇/竹管/树洞", "result": "支持", "evidence": "nests can be found in reeds, bamboo, holes within trees ... Nest cells are constructed of mud and leaf pulp."},
+        {"claim": "1940 年代日本推广、半数苹果园", "result": "未提及", "evidence": ""}
+      ]
+    },
+    {
+      "id": "src-wikipedia-mason-bee",
+      "url": "https://en.wikipedia.org/wiki/Mason_bee",
+      "status": "fetched",
+      "claims": [
+        {"claim": "mason bee 因用泥得名", "result": "支持", "evidence": "Mason bees are named for their habit of using mud or other 'masonry' products in constructing their nests"},
+        {"claim": "每室一个花粉球和一枚卵,再用泥封隔", "result": "支持", "evidence": "Once a provision mass is complete, the bee backs into the hole and lays an egg on top of the mass. Then, she creates a partition of 'mud', which doubles as the back of the next cell."},
+        {"claim": "独居,无蜂王工蜂之分", "result": "支持", "evidence": "Osmia species are solitary; every female is fertile and makes her own nest, and no worker bees for these species exist."},
+        {"claim": "角额壁蜂属壁蜂", "result": "支持", "evidence": "hornfaced bee O. cornifrons 列于 Osmia 之下"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-xylocopa-violacea",
+      "url": "https://en.wikipedia.org/wiki/Xylocopa_violacea",
+      "status": "fetched",
+      "claims": [
+        {"claim": "欧洲最大的蜂类之一", "result": "支持", "evidence": "one of the largest bees in Europe"},
+        {"claim": "独居,雌蜂独自筑巢", "result": "支持", "evidence": "Like other solitary bees, the female creates the nest alone."},
+        {"claim": "分布以欧洲为主,向东至亚洲(部分资料称可达中国中部)", "result": "支持", "evidence": "The range of Xylocopa violacea extends from Europe eastward across Asia as far as central China"},
+        {"claim": "主要分布于北纬 30 度以北", "result": "支持", "evidence": "restricted to latitudes above 30 degrees"},
+        {"claim": "夏末羽化后越冬,春季出来活动", "result": "支持", "evidence": "The adults emerge in late summer then hibernate ... emerge in the spring, usually around April or May"},
+        {"claim": "雌蜂在枯木中钻洞筑巢", "result": "支持", "evidence": "bore tunnels in dead wood"},
+        {"claim": "体色/翅色/虹彩、体长、振动授粉", "result": "未提及", "evidence": "见德文维基与 Buzz pollination"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-carpenter-bee",
+      "url": "https://en.wikipedia.org/wiki/Carpenter_bee",
+      "status": "fetched",
+      "claims": [
+        {"claim": "用大颚在枯木中啃出隧道巢", "result": "支持", "evidence": "Carpenter bees make nests by tunneling into wood, bamboo, and similar hard plant material ... usually dead. They vibrate their bodies as they rasp their mandibles against hardwood."},
+        {"claim": "独居", "result": "支持", "evidence": "Carpenter bees are traditionally considered solitary bees, although some species have simple social nests."},
+        {"claim": "越冬/羽化时间、体长、振动授粉", "result": "未提及", "evidence": ""}
+      ]
+    },
+    {
+      "id": "src-dewiki-blaue-holzbiene",
+      "url": "https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+      "status": "fetched",
+      "claims": [
+        {"claim": "体长 20–28 mm", "result": "支持", "evidence": "Mit 20 bis 28 Millimeter Körperlänge zählen die Tiere zu den größten Vertretern der Bienen in Mitteleuropa"},
+        {"claim": "通体黑色、翅深色带蓝紫虹彩", "result": "支持", "evidence": "Ihr Körper ist tiefschwarz ... Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf"},
+        {"claim": "独居,雌蜂独自筑巢于自啃枯木孔道", "result": "支持", "evidence": "Als Einsiedlerbiene beginnt jedes Weibchen ... mit dem Anlegen ihrer Niststätte ... selbstgenagten Hohlräumen in Totholz"},
+        {"claim": "夏末羽化、越冬、春季活动(约三至五月,因地区而异)", "result": "支持(已限定)", "evidence": "ab August und nach der Überwinterung von März bis Juli"},
+        {"claim": "分布东界、北纬 30 度、振动授粉", "result": "未提及", "evidence": "仅称 Die Art kommt in Süd- und Mitteleuropa vor"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-apis-cerana",
+      "url": "https://en.wikipedia.org/wiki/Apis_cerana",
+      "status": "fetched",
+      "claims": [
+        {"claim": "英文名 Eastern honey bee,蜜蜂科", "result": "支持", "evidence": "the eastern honey bee, Asiatic honey bee or Asian honey bee ... is of the Apidae family"},
+        {"claim": "分布亚洲南部与东部;中华蜜蜂 A. c. cerana 为中国亚种", "result": "支持", "evidence": "native to South, Southeast and East Asia ... Apis cerana cerana Fabricius (= sinensis) (Chinese honey bee)"},
+        {"claim": "高度社会性,群体结构与西方蜜蜂相近", "result": "支持", "evidence": "consists of several thousand female worker bees, one queen bee, and several hundred male drone bees ... behavior and biology ... is very similar to that of A. mellifera"},
+        {"claim": "树洞等空腔内筑多片巢脾", "result": "支持", "evidence": "Apis cerana colonies are known for building nests consisting of multiple combs in cavities"},
+        {"claim": "工蜂体长约 10–11 mm", "result": "支持", "evidence": "both are medium-sized bees (10-11mm)"},
+        {"claim": "腹部四条黄纹", "result": "支持", "evidence": "Adult Apis cerana are black in color, with four yellow abdominal stripes"},
+        {"claim": "热球防御:围住胡蜂使其过热而死", "result": "支持", "evidence": "about 500 Japanese honey bees surround the hornet and vibrate their flight muscles until the temperature is raised to 47 °C (117 °F), heating the hornet to death"},
+        {"claim": "不同资料 9–13 mm", "result": "未提及(已限定)", "evidence": ""}
+      ]
+    },
+    {
+      "id": "src-wikipedia-honey-bee",
+      "url": "https://en.wikipedia.org/wiki/Honey_bee",
+      "status": "fetched",
+      "claims": [
+        {"claim": "东方蜜蜂是亚洲南部与东部的传统蜂种", "result": "支持", "evidence": "Apis cerana, the eastern honey bee proper, is the traditional honey bee of southern and eastern Asia."},
+        {"claim": "空腔内多片巢脾", "result": "支持", "evidence": "the more recently evolved species nest in cavities and have multiple combs, which has greatly facilitated their domestication."},
+        {"claim": "蜂王/工蜂/雄蜂社会结构", "result": "支持", "evidence": "a colony generally contains one queen bee, a female; seasonally up to a few thousand drone bees, or males; and tens of thousands of female worker bees."},
+        {"claim": "蜂团热杀胡蜂", "result": "支持(温度数字未给)", "evidence": "increased temperature in combination with increased carbon dioxide levels within the ball produce the lethal effect."},
+        {"claim": "A. c. cerana、体长数字", "result": "未提及", "evidence": "仅提 A. c. indica、A. c. nuluensis"}
+      ]
+    },
+    {
+      "id": "src-wikipedia-buzz-pollination",
+      "url": "https://en.wikipedia.org/wiki/Buzz_pollination",
+      "status": "fetched",
+      "claims": [
+        {"claim": "振动授粉=用身体高频振动把花粉从花药震出", "result": "支持", "evidence": "solitary bees are able to grab onto the flower and move their flight muscles rapidly, causing the flower and anthers to vibrate, dislodging pollen."},
+        {"claim": "紫木蜂被认为能振动授粉", "result": "属级支持,种级未提及(已限定'被认为')", "evidence": "Examples of buzz pollinating bee species 列出 Xylocopa frontalis,未列 X. violacea"}
+      ]
+    }
+  ],
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "遇到花冠很深、舌头够不到花蜜的花,欧洲熊蜂常在花冠基部咬孔取蜜",
+          "problem": "三个可核对来源均支持'熊蜂(多种)会在花冠基部咬孔盗蜜',但没有一处点名 Bombus terrestris;Nectar robbing 词条以 B. pratorum 举例,Bumblebee 词条以 B. bifarius 举例短舌种。'欧洲熊蜂常……'这一种级、频率性断言在所列来源中未获直接支持,且未加限定。",
+          "evidence": "Bumblebee: \"Many species of bumblebees also exhibit 'nectar robbing': ... these bees bite directly through the base of the corolla to extract nectar.\" Nectar robbing: \"short-tongued bees such as the early bumblebee (Bombus pratorum) are unable to reach the nectar ... through a hole bitten at the base\"",
+          "fix": "改为属级表述或加限定,例如:'不少熊蜂(欧洲熊蜂也被报道有此行为)会在花冠基部咬孔取蜜';或补充一条明确记载 B. terrestris 盗蜜的来源。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "lens": "refutation",
+  "round": 4,
+  "reviewedAt": "2026-08-25T03:10:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "雄蜂由未受精卵发育而来,只有母亲没有父亲——这一点在整个膜翅目(蜂类与蚂蚁)中都是如此。",
+          "problem": "绝对化用语。单倍二倍性确是全部膜翅目的性别决定方式,但\"雄性一律来自未受精卵、没有父亲\"有已记录的例外:蜜蜂本身在互补性别决定(csd)基因座纯合时会由受精卵产出二倍体雄蜂幼虫(通常被工蜂吃掉);Nasonia 等寄生蜂的 PSR 染色体、小火蚁 Wasmannia auropunctata 的克隆雄性等也都是\"有父亲\"的雄性。括号中\"蜂类与蚂蚁\"还漏掉了胡蜂与叶蜂。",
+          "evidence": "Wikipedia《Haplodiploidy》:\"Haplodiploidy determines the sex in all members of the insect orders Hymenoptera (bees, ants, wasps and sawflies)\";同页:\"There are rare instances of diploid drone larvae. This phenomenon usually arises when there is more than two generations of brother-sister mating.\" https://en.wikipedia.org/wiki/Haplodiploidy",
+          "fix": "改为:\"雄蜂一般由未受精卵发育而来,只有母亲没有父亲——这种单倍二倍性性别决定方式见于整个膜翅目(蜂、胡蜂、蚂蚁与叶蜂);极少数情况下(如近亲交配)会出现由受精卵发育的二倍体雄蜂,通常被工蜂清除。\""
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "1977 年它被引入美国东北部。",
+          "problem": "引入史不完整且地理表述偏差:文献记载 1965 年即曾引入犹他州(是否定殖有争议),1977 年由 USDA-ARS 贝尔茨维尔(马里兰州)实验室引入并在宾夕法尼亚州果园释放,定殖于中大西洋各州;马里兰/宾州通常归\"美国东部/中大西洋\"而非严格意义的\"东北部\"。",
+          "evidence": "PeerJ 2022《Establishment of the non-native horned-face bee Osmia cornifrons ... in Canada》:\"intentionally introduced to North America from Japan for pollination studies in both Utah and Maryland, in 1965 and 1977, respectively (Batra 1979; Rust 1974), and became established in the Mid-Atlantic states following the latter\" https://peerj.com/articles/14216/ ;Penn State 报告:\"introduced into the US in 1977 by the USDA-ARS lab in Beltsville, MD\" https://ento.psu.edu/files/shap09/@@download/file/SHAP09%20Osmia%20report.pdf",
+          "fix": "改为:\"1977 年由美国农业部引入美国东部(马里兰州),此后在中大西洋各州定殖;更早的 1965 年曾在犹他州试引。\""
+        },
+        {
+          "claim": "在约五十年间,日本超过一半的苹果园曾用它授粉。",
+          "problem": "该比例仅见于英文维基百科转述,原始文献(Sekita 等)主要针对青森县的苹果产区,是否可推广到\"日本\"全国无法确证。",
+          "evidence": "Wikipedia《Osmia cornifrons》:\"more than half of the apple orchards in Japan utilized this species\" https://en.wikipedia.org/wiki/Osmia_cornifrons ;ISHS《Managing Osmia cornifrons to pollinate apples in Aomori Prefecture, Japan》 https://www.ishs.org/ishs-article/561_46",
+          "fix": "加限定:\"据报道,自 1940 年代起的约五十年间,日本(尤其青森等主产区)半数以上苹果园曾用它授粉。\""
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "分布从欧洲向东一直延伸到中国中部。",
+          "problem": "东界存疑。仅英文维基百科给出\"中国中部\";2024 年基因组论文与欧洲分布研究给出的范围是欧洲、阿尔及利亚、土耳其、伊拉克至印度,未提中国;中国西北的木蜂记录多为近缘种 Xylocopa valga,存在张冠李戴风险。",
+          "evidence": "Wikipedia《Xylocopa violacea》:\"extends from Europe eastward across Asia as far as central China\" https://en.wikipedia.org/wiki/Xylocopa_violacea ;Heredity 2024 基因组论文称其分布为泛欧洲并延伸至 Algeria、Turkey、Iraq、India https://www.nature.com/articles/s41437-024-00720-2 ;PLOS One 2020 记载中国新疆、内蒙古、甘肃等地为 X. valga https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235769",
+          "fix": "改为:\"分布以欧洲、北非与西亚为主,向东延伸至亚洲内陆(东界各资料不一,有资料称达中国中部),近年在中北欧持续北扩。\""
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "workerBodyLengthMm: 10–11",
+          "problem": "结构化数值字段无任何限定语,而各资料差异明显:英文维基给 10–11 mm,USDA Exotic Bee ID 给约 9 mm,其他文献给 9–12 mm;把 10–11 作为硬数据偏窄。",
+          "evidence": "Wikipedia《Apis cerana》:\"medium-sized bees (10-11mm)\" https://en.wikipedia.org/wiki/Apis_cerana ;Exotic Bee ID《Apis cerana》:\"body length of around 9 mm\" https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006",
+          "fix": "改为 min 9、max 12,或保留 10–11 并在 summary 中注明\"不同资料约 9–12 mm\"。"
+        }
+      ]
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "distribution: 原产东亚(日本、朝鲜半岛、中国、俄罗斯远东),1977 年引入美国东北部",
+          "problem": "同 focus:osmia-cornifrons-worker/whole:1965 年曾引入犹他州,1977 年引入地为马里兰州(中大西洋/美国东部),\"东北部\"表述偏差;另 USDA Exotic Bee ID 的原产地仅列日本、朝鲜与俄罗斯东南沿海,未列中国,\"中国\"仅见维基百科。",
+          "evidence": "PeerJ 2022:\"in both Utah and Maryland, in 1965 and 1977, respectively ... became established in the Mid-Atlantic states\" https://peerj.com/articles/14216/ ;Exotic Bee ID:\"native to eastern Asia and has been found in Japan and Korea as well as the southeast coast of Russia\" https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062",
+          "fix": "改为:\"原产东亚(日本、朝鲜半岛、俄罗斯远东,部分资料含中国);1965 年曾试引犹他州,1977 年引入美国东部(马里兰州)并在中大西洋各州定殖\"。"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": []
+    }
+  ]
+}

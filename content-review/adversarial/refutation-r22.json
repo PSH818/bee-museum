@@ -1,0 +1,19 @@
+{
+  "lens": "refutation",
+  "round": 22,
+  "reviewedAt": "2026-08-25T08:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "spanText:出房后第 21 天起(自产卵起第 41 天起);span 41–63",
+          "problem": "非否决性提示:外勤起始日龄为主流教科书数值(约 3 周),但各资料在 18–21 天之间浮动,且受群势、季节与社会抑制影响可大幅提前或推后;spanText 本身未加'约'。因 span(41–63,即出房后 21–42 天)与 Wikipedia Worker bee 的 21–42 天完全吻合、Western honey bee 记为'第 20 天后',数值站得住,故不否决。",
+          "evidence": "Wikipedia Worker bee:forager 阶段 days 21–42,https://en.wikipedia.org/wiki/Worker_bee;Wikipedia Western honey bee:'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager',https://en.wikipedia.org/wiki/Western_honey_bee;Huang & Robinson 社会抑制调节外勤起始日龄,https://pubmed.ncbi.nlm.nih.gov/11735292/",
+          "fix": "可选:spanText 改为'出房后约第 21 天起(自产卵起约第 41 天起)',或在 detail 补一句'起始日龄随群势与季节而变'。不改亦可。"
+        }
+      ]
+    }
+  ]
+}

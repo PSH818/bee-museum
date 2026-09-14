@@ -1,0 +1,55 @@
+{
+  "lens": "fact-check",
+  "round": 12,
+  "reviewedAt": "2026-08-25T06:20:00Z",
+  "sourceAccess": [
+    {"id": "src-wikipedia-bombus-terrestris", "url": "https://en.wikipedia.org/wiki/Bombus_terrestris", "status": "fetched", "note": "含工蜂体型变异原句;未提及盗蜜与头部结构"},
+    {"id": "src-wikipedia-bumblebee", "url": "https://en.wikipedia.org/wiki/Bumblebee", "status": "fetched", "note": "含属级盗蜜原句;体型仅给 B. terrestris 工蜂体长 11–17 mm,无胸长/体重倍数"},
+    {"id": "src-wikipedia-nectar-robbing", "url": "https://en.wikipedia.org/wiki/Nectar_robbing", "status": "fetched", "note": "含深花冠咬孔机制、B. terrestris 盗蜜图注"},
+    {"id": "src-snodgrass-anatomy", "url": null, "status": "offline-not-fetched", "note": "纸质专著无 URL,无法在线核对;引用于头部基本结构(复眼/单眼/触角/口器)"}
+  ],
+  "verdicts": [
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂头部同样由复眼、单眼、触角和口器构成",
+          "problem": "三个可抓取的维基来源均未描述头部结构;该断言仅由无 URL 的 Snodgrass《Anatomy of the Honey Bee》支撑,本轮无法在线核对。属蜂类通用基础解剖,无来源否定,不影响裁决。",
+          "evidence": "Bumblebee 页:未提及;Bombus terrestris 页:未提及(\"The article does not describe detailed head morphology\")。",
+          "fix": "可选:补一条可在线访问的属级形态来源(如 Bumblebee 页或 Britannica bumblebee 的 morphology 段),或在 Snodgrass 条目注明章节页码。"
+        },
+        {
+          "claim": "遇到花冠很深、舌头够不到花蜜的花,熊蜂有时会在花冠基部咬孔取蜜,叫 nectar robbing",
+          "problem": "无问题(支持)。",
+          "evidence": "Bumblebee 页:\"Many species of bumblebees also exhibit 'nectar robbing': ... these bees bite directly through the base of the corolla to extract nectar\";Nectar robbing 页:\"short-tongued bees such as the early bumblebee (Bombus pratorum) are unable to reach the nectar located at the base of long flowers such as comfreys. In order to access the nectar, the bee will enter the flower through a hole bitten at the base\"。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "据记载也包括欧洲熊蜂(B. terrestris 盗蜜)",
+          "problem": "无问题(支持,且已用\"据记载\"限定)。Bombus terrestris 专页本身未提及盗蜜,支持来自 Nectar robbing 页图注。",
+          "evidence": "Nectar robbing 页首图图注:\"Bombus terrestris stealing nectar\"。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "\"盗蜜\"只是一个行为名称,并不带贬义",
+          "problem": "括注性科普解释,不要求逐字支持;Nectar robbing 页全篇以中性科学术语使用,另提及 nectar theft / floral larceny 等别名。",
+          "evidence": "Nectar robbing 页:\"The terms nectar theft and floral larceny have also been used\"(均作为术语列出,无道德评价)。",
+          "fix": "无需修改。"
+        },
+        {
+          "claim": "同一巢的工蜂胸部长度可差 2–3 倍",
+          "problem": "无问题(支持)。6.9/2.3 ≈ 3.0,落在 2–3 倍范围内。注意来源为 B. terrestris 种级数据,而正文主语为\"熊蜂\"(属级),来源并称该现象在 B. terrestris 中\"unique compared to other bees\";数字本身无误。",
+          "evidence": "Bombus terrestris 页:\"B. terrestris is unique compared to other bees in that their caste of workers exhibit a wide variation in worker size, with thorax sizes ranging from 2.3 to 6.9 mm in length and masses ranging from 68 to 754 mg.\"",
+          "fix": "可选:将\"熊蜂个体间体型差异很大\"改为\"欧洲熊蜂工蜂个体间体型差异很大\",与来源的种级表述更贴合。"
+        },
+        {
+          "claim": "体重可差近十倍(不同资料 8–11 倍)",
+          "problem": "无问题(支持,且已用\"不同资料\"限定)。754/68 ≈ 11.1,与\"11 倍\"一致;\"8 倍\"来自其他资料,已限定。",
+          "evidence": "Bombus terrestris 页:\"masses ranging from 68 to 754 mg\"。",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

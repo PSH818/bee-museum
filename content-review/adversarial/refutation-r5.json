@@ -1,0 +1,145 @@
+{
+  "lens": "refutation",
+  "round": 5,
+  "reviewedAt": "2026-08-25T03:20:00.000Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "东方蜜蜂工蜂约 10–11 mm,西方蜜蜂工蜂约 12–15 mm;腹部有四条黄色环纹;面对胡蜂形成蜂团围困过热致死;中蜂是东方蜜蜂的亚种",
+          "problem": "逐项核对未发现反证。英文维基给出东方蜜蜂工蜂 10–11 mm、'black with four yellow abdominal stripes',热杀胡蜂时蜂团温度约 47°C;其他资料给 9–12 mm,文中已用'不同资料略有差异'限定。西方蜜蜂工蜂 12–15 mm 与多数通俗资料一致。Apis cerana cerana 为公认亚种。'在较大的环境温差下维持稳定的巢温'对应维基 12–36°C 环境下维持 33–35.5°C 的记载。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana ;https://honeybeeandco.uk/eastern-honeybee/ ;https://animaldiversity.org/accounts/Apis_mellifera/",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "单倍二倍性性别决定方式见于整个膜翅目;极少数情况下出现由受精卵发育的二倍体雄蜂",
+          "problem": "'整个膜翅目'为绝对化表述,但与主流综述一致(所有膜翅目均为单倍二倍性,雄性通常由未受精卵发育);二倍体雄蜂(近交导致 csd 位点纯合)确实存在且已用'极少数情况下'限定。雄蜂无螫针、无花粉筐、复眼巨大均为公认事实。未找到反证。",
+          "evidence": "https://en.wikipedia.org/wiki/Haplodiploidy ;https://www.nature.com/articles/hdy1993157 ;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1360072/ ;https://en.wikipedia.org/wiki/Western_honey_bee",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "同一巢的工蜂胸宽可差两三倍,体重可差十倍以上",
+          "problem": "Goulson 等(2002)测得 B. terrestris 工蜂胸宽 2.3–6.9 mm(约 3 倍),体重 68–754 mg(约 11 倍),英文维基同样引用该数据;但 Goulson 2003 概括为 0.05–0.40 g、'up to tenfold'(约 8–10 倍)。'十倍以上'略偏上限,但有原始数据支持,且用'可差'限定,不构成否决。盗蜜行为:Nectar robbing 词条以 B. terrestris 为典型初级盗蜜者,'常'的限定合理。",
+          "evidence": "https://en.wikipedia.org/wiki/Bombus_terrestris ;https://www.sciencedirect.com/science/article/abs/pii/S0003347202930411 ;https://academic.oup.com/ee/article/51/6/1055/6826992 ;https://en.wikipedia.org/wiki/Nectar_robbing",
+          "fix": "可选:将'十倍以上'改为'约十倍',更贴近综述表述。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "\"壁蜂\"(英文 mason bee,泥匠蜂)之名一般认为由此而来",
+          "problem": "英文 mason bee 源于用泥做隔墙/封口,证据充分。但句子同时把中文名'壁蜂'的由来也归于此;'壁'字更可能指其常在墙壁孔隙、土壁中筑巢(wall bee),而非'泥匠'之意。未能找到任何权威资料说明中文'壁蜂'一名的确切由来,属张冠李戴的合理怀疑,现有'一般认为'限定不足以覆盖中文名部分。",
+          "evidence": "https://en.wikipedia.org/wiki/Mason_bee ;https://www.britannica.com/animal/mason-bee (均只解释英文名 mason 的来源,未涉及中文名)",
+          "fix": "改为:'……每室放一个花粉球和一枚卵——英文名 mason bee(泥匠蜂)一般认为由此而来。'删去对中文名'壁蜂'由来的判断,或另起一句说明'壁蜂'之'壁'指其常在墙壁、土壁的孔隙中营巢。"
+        },
+        {
+          "claim": "据报道,自 1940 年代起的约五十年间,日本(尤其青森等主产区)半数以上的苹果园曾用它授粉;1977 年它被引入美国东部,此后在中大西洋各州定殖",
+          "problem": "核对无误:维基与 McKinney & Park(2012)均称 1940 年代起管理、五十年内日本半数以上苹果园使用;青森县 1996 年后 >80% 面积使用;1977 年引入美国(马里兰州/东北部)。'美国东部'兼容两种表述。",
+          "evidence": "https://en.wikipedia.org/wiki/Osmia_cornifrons ;https://onlinelibrary.wiley.com/doi/10.1155/2012/814097 ;https://www.ishs.org/ishs-article/561_46",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "被引入北美、新西兰和澳大利亚,用于给生产种子的苜蓿田授粉",
+          "problem": "新西兰(1971)与澳大利亚(1987)确为有意引入;但权威综述(Pitts-Singer & Cane 2011, Annu. Rev. Entomol.)认为该种在 1930–40 年代很可能是随木质货物意外传入北美东岸,随后自然扩散并被开发为管理授粉蜂。句子把三地并列为'被引入……用于授粉',对北美而言目的论表述与主流文献不符。因英文维基仍写作 imported,资料间存在冲突,故判 uncertain。",
+          "evidence": "https://pubmed.ncbi.nlm.nih.gov/20809804/ ;https://www.inaturalist.org/taxa/52783-Megachile-rotundata ;https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "fix": "改为:'原产欧洲(部分资料认为其原产地延伸至西亚);一般认为 1930–40 年代随货物意外传入北美,后被开发为苜蓿制种田的管理授粉蜂,并于 1970–80 年代被有意引入新西兰和澳大利亚。'"
+        },
+        {
+          "claim": "体长仅 6–9 mm;一间巢室大约要用 15 片叶子;雌蜂先吐入花蜜,再把集粉毛上的花粉抖在上面",
+          "problem": "核对无误:维基 6–9 mm(部分资料 6–10 mm),每室 14–15 片叶,先花蜜后花粉、约 2:1。",
+          "evidence": "https://en.wikipedia.org/wiki/Megachile_rotundata ;https://animaldiversity.org/accounts/Megachile_rotundata/",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "欧洲最大的蜂类之一;蓝紫虹彩主要来自烟紫色的翅膀;夏末羽化后越冬,次年春季(约三至五月)出来活动;雌蜂独自在枯木中钻洞筑巢;东界各资料不一",
+          "problem": "英文维基:'one of the largest bees in Europe',成虫夏末羽化、在旧巢道中越冬、4–5 月活动;德文维基:体长 20–28 mm,翅深色带蓝色光泽,越冬后 3–7 月飞行。'约三至五月,因地区而异'兼容两者。分布东界已用'各资料不一'限定。未发现反证。",
+          "evidence": "https://en.wikipedia.org/wiki/Xylocopa_violacea ;https://de.wikipedia.org/wiki/Blaue_Holzbiene",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "工蜂体长约 10–11 mm(不同资料约 9–12 mm);Eastern honey bee;中华蜜蜂为其分布于中国的亚种;多片平行悬挂的蜡质巢脾",
+          "problem": "与英文维基(10–11 mm、multi-combed nests in tree cavities、A. c. cerana 亚种)及 HoneyBee & Co.(9–12 mm)一致。英文名 Eastern/Asiatic honey bee 均通用。未发现反证。",
+          "evidence": "https://en.wikipedia.org/wiki/Apis_cerana ;https://honeybeeandco.uk/eastern-honeybee/",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "体长 8–12 mm;Hornfaced bee;原产日本、朝鲜半岛、中国、俄罗斯远东;1977 年引入美国东部;花粉刷在腹面集粉毛",
+          "problem": "USDA Exotic Bee ID:雌 8–12 mm、雄 8–10 mm,腹面橙褐色 scopa;维基:原产日本、韩国、中国、俄罗斯,1977 年引入美国。'俄罗斯远东'是对'俄罗斯'的合理具体化。未发现反证。注:该种无工蜂,字段名 workerBodyLengthMm 系数据模型沿用,不视为事实错误。",
+          "evidence": "https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062 ;https://en.wikipedia.org/wiki/Osmia_cornifrons",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "被引入北美、新西兰、澳大利亚作为管理授粉蜂",
+          "problem": "与 focus 条目同一问题:北美的传入被主流综述认为是 1930–40 年代的意外传入而非为授粉'引入',仅新西兰与澳大利亚为有意引入。资料间有冲突(英文维基仍作 imported),判 uncertain。",
+          "evidence": "https://pubmed.ncbi.nlm.nih.gov/20809804/ ;https://www.inaturalist.org/taxa/52783-Megachile-rotundata ;https://en.wikipedia.org/wiki/Megachile_rotundata",
+          "fix": "改为:'原产欧洲(部分资料认为延伸至西亚);一般认为 1930–40 年代意外传入北美后被开发为管理授粉蜂,后又被有意引入新西兰与澳大利亚。'"
+        },
+        {
+          "claim": "体长 6–9 mm;切叶蜂科 Megachilidae · 切叶蜂属;深灰体色覆白色细毛,腹面集粉毛携粉",
+          "problem": "核对无误。",
+          "evidence": "https://en.wikipedia.org/wiki/Megachile_rotundata ;https://en.wikipedia.org/wiki/Scopa_(biology)",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "体长 20–28 mm;主要分布于北纬 30 度以北;被认为能进行振动授粉;蜜蜂科 Apidae · 木蜂属",
+          "problem": "德文维基体长 20–28 mm;英文维基'restricted to latitudes above 30 degrees'(北非、印度北部分布点亦大致在 30°N 以北),文中以'主要'限定。木蜂属普遍具振动授粉能力,该种的具体报道多见于科普网站,文中已用'被认为'限定。分类无误。未发现反证。",
+          "evidence": "https://de.wikipedia.org/wiki/Blaue_Holzbiene ;https://en.wikipedia.org/wiki/Xylocopa_violacea ;https://www.buzzaboutbees.net/violet-carpenter-bee.html ;https://en.wikipedia.org/wiki/Buzz_pollination",
+          "fix": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

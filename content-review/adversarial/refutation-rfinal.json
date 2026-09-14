@@ -1,0 +1,1335 @@
+{
+  "lens": "refutation",
+  "round": "final",
+  "mergedFrom": [
+    null,
+    29
+  ],
+  "reviewedAt": "2026-09-08T01:48:11.864Z",
+  "verdicts": [
+    {
+      "key": "focus:apis-mellifera-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-mellifera-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-queen/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "单倍二倍性性别决定方式见于整个膜翅目;极少数情况下出现由受精卵发育的二倍体雄蜂",
+          "problem": "'整个膜翅目'为绝对化表述,但与主流综述一致(所有膜翅目均为单倍二倍性,雄性通常由未受精卵发育);二倍体雄蜂(近交导致 csd 位点纯合)确实存在且已用'极少数情况下'限定。雄蜂无螫针、无花粉筐、复眼巨大均为公认事实。未找到反证。",
+          "evidence": "https://en.wikipedia.org/wiki/Haplodiploidy ;https://www.nature.com/articles/hdy1993157 ;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1360072/ ;https://en.wikipedia.org/wiki/Western_honey_bee",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:apis-cerana-drone/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:apis-cerana-drone/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/head",
+      "verdict": "pass",
+      "issues": [],
+      "notes": [
+        "断言「头部由复眼、单眼、触角和口器构成」:B. terrestris 头部具一对复眼、三个单眼、触角(工蜂鞭节 10 节)及含喙的口器,与 micro-CT 研究(ScienceDirect S0042698919300501)及 bumblebee.org/bodyAntenna.htm 一致,无反证。",
+        "断言「熊蜂(据记载也包括欧洲熊蜂)有时会在花冠基部咬孔取蜜」:B. terrestris 属短舌种(工蜂舌长约 5.8 mm,bumblebee.org/bodyTongue.htm),被明确记载为主要盗蜜者(primary robber),在 Fuchsia magellanica 花冠基部咬孔(PMC12553366:'holes that B. terrestris had previously bitten into the walls of the nectary chamber');bumblebee.org/terr.htm 称其为 'accomplished nectar robbers';Wikipedia Nectar_robbing 页配图即 'Bombus terrestris stealing nectar'。已用「据记载/有时」限定,站得住。",
+        "断言「盗蜜只是行为名称,不带贬义」:Wikipedia Nectar_robbing 将其作为描述性术语使用,并指出盗蜜对植物的影响可正可负、部分研究显示熊蜂盗蜜不降低植物繁殖成功,措辞恰当。",
+        "断言「同一巢工蜂胸部大小可差约 3 倍」:Wikipedia Bombus_terrestris(引 Goulson)给出胸部 2.3–6.9 mm,即 3.0 倍;Goulson et al. 2002 (Anim. Behav., S0003347202930411) 用胸宽度量,巢内工蜂均值 4.34 mm、采集蜂 4.93 mm,极值区间与 3 倍一致。未指明量纲的「大小」按单一维度数据支持即成立。",
+        "断言「体重可差近十倍(不同资料 8–11 倍)」:Wikipedia 68–754 mg ≈ 11.1 倍;Couvillon & Dornhaus 2010 (PMC4444232) 引 Cumber 1949 / Plowright & Jay 1968 / Goulson 2003 称同一蜂王后代体重可差 10 倍;bumblebee.org/terr.htm 给出 0.05–0.40 g = 8 倍。区间 8–11 倍恰好覆盖查到的全部主流数值,「近十倍」概括准确。",
+        "遗留观察(不构成否决):sourceIds 中 src-snodgrass-anatomy 为蜜蜂解剖学著作,对熊蜂头部构成仅提供泛化支持;体型数据实际出自 Goulson 系列文献,可考虑补入原始文献引用以增强可追溯性。"
+      ]
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:bombus-terrestris-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "原产东亚;据报道自 1940 年代起推广约五十年后日本半数以上苹果园曾用它授粉;据报道 1977 年前后引入美国东部,此后在美国东部与中西部定殖;泥土隔巢室、每室一花粉球一卵;mason bee 得名于此。",
+          "problem": "试图证伪:引入年份、日本使用比例及美国定殖范围。核查后均有资料支持;\"半数以上\"与其他资料(1990 年 50%、1996 年 70%+、现约 75%)不冲突且已用\"据报道\"\"曾\"限定。",
+          "evidence": "英文维基 Osmia cornifrons:\"first introduced in Japan in the 1940s... Over a 50-year time period... more than half of the apple orchards in Japan\";\"In 1977, O. cornifrons was introduced in the northeastern United States\";单卵、泥封、花粉球、竹管/芦苇(https://en.wikipedia.org/wiki/Osmia_cornifrons)。USDA Exotic Bee ID:原产东亚,1970 年代引入美国东部,现见于东海岸与中西部(https://idtools.org/exotic_bee/index.cfm?packageID=1185&entityID=9062)。Mason bee 得名于用泥等\"masonry\"材料筑巢,泥隔板兼作下一巢室背壁(https://en.wikipedia.org/wiki/Mason_bee)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "欧洲最大蜂类之一;通体黑色带微弱光泽,蓝紫虹彩主要来自深色泛紫光的翅;独居;分布以欧洲为主向东至亚洲(东界记载不一,部分资料称达中国中部);夏末羽化越冬,次年三至五月出来活动;雌蜂独自在枯木中钻洞筑巢。",
+          "problem": "试图证伪:东界\"中国中部\"是否可靠(基因组论文仅称至土耳其、伊拉克、印度,未提中国);活动月份是否准确。分布东界已明确加\"各资料记载不一/部分资料称\"限定,不构成否决;月份区间与德、英文资料一致。",
+          "evidence": "英文维基:\"one of the largest bees in Europe\";\"extends from Europe eastward across Asia as far as central China\";\"adults emerge in late summer then hibernate\";\"emerge in the spring, usually around April or May\";\"makes its nests in dead wood\";\"the female creates the nest alone\"(https://en.wikipedia.org/wiki/Xylocopa_violacea)。德文维基:\"Ihr Körper ist tiefschwarz\",\"die Flügel sind sehr dunkel und weisen einen auffälligen blauen Schiller auf\",\"fliegt ab August und nach der Überwinterung von März bis Juli\",\"im April/Mai... in Totholz\"(https://de.wikipedia.org/wiki/Blaue_Holzbiene)。基因组论文称分布延至阿尔及利亚、土耳其、伊拉克、印度(https://pmc.ncbi.nlm.nih.gov/articles/PMC11589580/),与\"东界记载不一\"的限定相符。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/head",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "focus:xylocopa-violacea-worker/leg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-compound-eye",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-ocelli",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-antenna",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-proboscis",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-thorax",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-forewing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-hindwing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-abdomen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-foreleg-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-fur",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-flight-muscle",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-bombus-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-horns",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-osmia-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-scopa",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-megachile-hair-bands",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-integument",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-mandible",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "organ:organ-xylocopa-wing",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-body-length",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-role",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-corbicula",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-sting",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-eyes",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "compare:row-cerana-colony",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-mellifera",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:apis-cerana",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "分布亚洲南部与东部;中华蜜蜂是中国主要亚种;高度社会性;树洞等空腔内多片平行巢脾;工蜂体长约 10–11 mm(不同资料约 9–13 mm);腹部黄黑环纹(常描述为四条黄纹);热球防御。",
+          "problem": "试图证伪:体长数值(不同资料 9、10–11、10–13、12–13 mm 不一)与\"四条黄纹\"是否为普适特征。给出的 9–13 mm 区间覆盖所有查到的数值,\"常描述为/因亚种与地区而异\"限定恰当;\"亚洲南部与东部\"略去东南亚,但东南亚属广义南部/东部亚洲,属科普性概括,不构成否决。",
+          "evidence": "英文维基 Apis cerana:\"native to South, Southeast and East Asia\";\"medium-sized bees (10-11mm)\";\"black in color, with four yellow abdominal stripes\";\"multiple combs in cavities\";约 500 只工蜂围住胡蜂加热至 47 °C 致死;A. c. cerana 分布于中国南部与沿海等(https://en.wikipedia.org/wiki/Apis_cerana)。中文维基 中华蜜蜂:东方蜜蜂指名亚种,分布于中国中东部、华北、华中、华南,工蜂体长 10–13 mm(https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%8D%8E%E8%9C%9C%E8%9C%82)。USDA Exotic Bee ID:巢由多片等距平行巢脾组成,分布遍及亚洲大部(https://idtools.org/exotic_bee/index.cfm?packageID=1183&entityID=9006)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:osmia-cornifrons",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "species:xylocopa-violacea",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂科木蜂属;分布以欧洲为主东至亚洲(东界记载不一),主要分布于北纬 30 度以北;独居;枯木中啃出隧道;体长 20–28 mm;翅烟紫色带蓝紫虹彩;夏末羽化越冬春季活动;被认为能进行振动授粉。",
+          "problem": "试图证伪:\"北纬 30 度以北\"与基因组论文所述分布延至印度(部分低于 30°N)是否矛盾;体长区间是否夸大;振动授粉是否有直接证据。\"主要分布于\"已作限定;20–28 mm 覆盖德文维基 20–28 与其他资料 20–22;振动授粉用\"被认为\"限定且 Buzz pollination 词条明确 Xylocopa 属被认为可振动授粉。均站得住。",
+          "evidence": "英文维基:\"restricted to latitudes above 30 degrees\",\"as far as central China\"(https://en.wikipedia.org/wiki/Xylocopa_violacea);德文维基:\"Mit 20 bis 28 Millimeter Körperlänge zählen die Tiere zu den größten Vertretern der Bienen in Mitteleuropa\",\"Flügel... auffälligen blauen Schiller\"(https://de.wikipedia.org/wiki/Blaue_Holzbiene);另有资料称 20–22 mm(https://www.wildlifenatural.com/Insects-in-Spain/Xylocopa-violacea);Buzz pollination 词条:\"Bees from Bombus and Xylocopa are thought to pollinate these flowers\"(https://en.wikipedia.org/wiki/Buzz_pollination);基因组论文:分布延至阿尔及利亚、土耳其、伊拉克、印度(https://pmc.ncbi.nlm.nih.gov/articles/PMC11589580/)。",
+          "fix": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "cycle:cycle-apis-mellifera-worker",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-egg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-larva",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-pupa",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:封盖(第 9 天)到出房(第 21 天)=12 天,英文维基 Bee brood 表格与多家养蜂资料一致(https://en.wikipedia.org/wiki/Bee_brood ;https://honestbeeltd.com/faqs/how-long-is-brood-capped-for)。封盖期内前 2–2.5 天为预蛹(Honey Bee Suite 引 Winston:https://www.honeybeesuite.com/the-first-11-days-of-a-worker-bees-life-egg-and-larva/),余下约 9.5–10 天为蛹期;各资料对蛹期口径不一(8/9/10/12 天,取决于是否把预蛹计入),文中已用'约'限定且取值居中,站得住。蜂王约 16、工蜂约 21、雄蜂约 24 天出房与 Worker bee/Bee brood 词条一致。"
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-cleaner",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-nurse",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-builder",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-guard",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-apis-mellifera-worker/stage-mellifera-forager",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "spanText:出房后第 21 天起(自产卵起第 41 天起);span 41–63",
+          "problem": "非否决性提示:外勤起始日龄为主流教科书数值(约 3 周),但各资料在 18–21 天之间浮动,且受群势、季节与社会抑制影响可大幅提前或推后;spanText 本身未加'约'。因 span(41–63,即出房后 21–42 天)与 Wikipedia Worker bee 的 21–42 天完全吻合、Western honey bee 记为'第 20 天后',数值站得住,故不否决。",
+          "evidence": "Wikipedia Worker bee:forager 阶段 days 21–42,https://en.wikipedia.org/wiki/Worker_bee;Wikipedia Western honey bee:'After the 20th day, a worker leaves the hive and spends the remainder of its life as a forager',https://en.wikipedia.org/wiki/Western_honey_bee;Huang & Robinson 社会抑制调节外勤起始日龄,https://pubmed.ncbi.nlm.nih.gov/11735292/",
+          "fix": "可选:spanText 改为'出房后约第 21 天起(自产卵起约第 41 天起)',或在 detail 补一句'起始日龄随群势与季节而变'。不改亦可。"
+        }
+      ]
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-queen",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-drone",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-apis-mellifera-worker/branch-mellifera-winter",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "cycle:cycle-osmia-cornifrons",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-emerge",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-nest",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-egg",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-larva",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-cocoon",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:Bosch & Kemp 等生活史研究:预蛹期跨夏季(约 55 天),夏末化蛹(约 26 天),成虫于夏末至初秋在茧内羽化后进入滞育,以成虫在茧内越冬 https://www.researchgate.net/publication/260297100_Life_Cycle_ecophysiology_of_Osmia_mason_bees ;SARE:'In midsummer ... molts into a white pupa ... After another month, the pupa molts again inside the cocoon ... remains dormant throughout the winter' https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/lifecycle/ ;英文维基 Mason bee:'matures either in the fall or winter'。文中'据记载,成虫在秋季或冬季就已在茧内发育完成'——'就已'表示到该时点已完成,与夏末/初秋羽化并不冲突,且有'据记载'限定,站得住。若想更精确可改为'夏末至初秋'。"
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-overwinter",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "stage:cycle-osmia-cornifrons/stage-osmia-next-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "branch:cycle-osmia-cornifrons/branch-osmia-solitary",
+      "verdict": "pass",
+      "issues": [],
+      "note": "核查:英文维基 Mason bee:'every female is fertile and makes her own nest, and no worker bees for these species exist';雌蜂'rarely sting when handled (only under distress such as when wet or squeezed)',SARE 亦称'Despite having a stinger, female mason bees are not aggressive and rarely sting, even when handled' https://en.wikipedia.org/wiki/Mason_bee ;https://www.sare.org/publications/managing-alternative-pollinators/chapter-six-mason-bees/natural-history/ 。文中'仍有螫针,用手抓捏仍可能被刺'与'被打扰时通常只是飞走'均有据,安全提示不构成否决理由。"
+    },
+    {
+      "key": "region:region-china-east",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "region:region-central-europe",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "region:region-north-america-east",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-brassica-napus",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "单花蜜白色至乳黄、味微辛,极易结晶,结晶细腻呈脂状。/ 花粉丰富,色黄。",
+          "problem": "nectar 字段与 honey-rapeseed 同步恢复“味微辛”,辖域核对结论相同:en.wikipedia Rapeseed 的 'peppery taste' 修饰蜂蜜,且该句写作“单花蜜……味微辛”,主语明确是蜜,不会被读成植物或菜籽的味道。pollen 改“色黄”本轮实测条目自引的 Die Honigmacher Raps 页:Pollenfarbe 'gelb / satt gelb',供给量 'sehr reiches Pollenangebot'——“花粉丰富,色黄”两点均逐字有据。summary 各句(三到五周花期、总状花序自下而上、小油菜是近亲不是同一种)为 r28 已核点,未改动,再进攻无新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "没有深的花冠管,花蜜位置浅——这是一朵向所有蜂开放的花,访花者种类很广(本轮修改句)",
+          "problem": "非否决性提示:核对未见相左——十字花科花瓣分离、无合生花冠管,是植物学通识;'访花者种类很广'与 Harris 2024(蜜蜂、熊蜂、独居蜂、食蚜蝇等)及 Zou 2017(中国小农田野生传粉者提升产量)相符。'向所有蜂开放'为修辞性概括,前后文有'花蜜位置浅'作实指,不构成可反驳的绝对化事实断言。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Harris et al. 2024,https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/;Zou et al. 2017 BMC Ecology,https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据德文维基百科,一朵花一昼夜分泌的花蜜含糖约在零点几到两毫克之间",
+          "problem": "非否决性提示:复核德文维基原文为 0,4 bis 2,1 mg——'零点几到两毫克'下限口径吻合,上限 2.1 被'约'兜底,量级与出处标注均无误。无反驳。",
+          "fix": "可选:改为'约 0.4 到 2 毫克多'以贴近原文上限。不改亦可。",
+          "evidence": "de.wikipedia Raps:'eine Rapsblüte produziert in 24 Stunden Nektar mit einem Gesamtzuckergehalt von 0,4 bis 2,1 mg'(fetched 2026-08-31),https://de.wikipedia.org/wiki/Raps"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-brassica-napus/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "sourceIds(上轮提示项复核)",
+          "problem": "复核:上轮提示的张冠李戴引用 src-dewiki-sonnenblume 已从本条 sourceIds 中删去,处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "content-dump-r24.json 本条 sourceIds 现为 rapeseed/FRPS/honigmacher/dewiki-raps 四项"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-robinia-pseudoacacia",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉的产量和营养价值,本馆尚未找到足以展出的系统数据(pollen 字段,本轮修改句)",
+          "problem": "非否决性提示:本轮从三条进攻线尽力反驳,均未击穿。其一,'读者是否仍会以为数据不存在'——新句的否定辖域已从世界('没有可靠的公开数据')移到馆方检索状态('本馆尚未找到'),字面即承认数据可能存在于馆方视野之外,与旧句的全称否定有实质区别,不构成误导。其二,'馆方是否说谎'——r25 本馆已经见到 Foods 2022,'尚未找到'是否名不副实?核对该文:24 份罗马尼亚东北部蜂采花粉团的地区性分析,刺槐占优样本 5 份且系孢粉学定源的混合花粉团而非纯刺槐花粉,产量侧全文无一字,作者自称该地区'first study'——把它判为'不足以展出的系统数据'是站得住的策展判断,'尚未找到足以展出的系统数据'与'见过一篇零星地区研究'不矛盾。其三,'系统数据是否另有他处'——主动检索未找到刺槐花粉产量(单花/单株)或跨地区营养成分的系统综述可作反例。三线皆无果,无反驳。",
+          "fix": "可选(非阻断):若愿再进一步,可仿 r25 建议在'尚未找到系统数据'后括注零星研究的存在,如'(零星研究显示刺槐占优的蜂花粉蛋白质、脂类含量较高)'并补引 PMC9455760,使'尚未找到系统数据'与'确有零星数据'并陈;不改亦成立。",
+          "evidence": "Foods 2022 (PMC9455760,fetched 2026-08-31):5/24 样本刺槐花粉 >45%(Louveaux 法)、蛋白质 23.13% d.m.、脂类 6.02% d.m.、无产量数据、'the first study'自述,https://pmc.ncbi.nlm.nih.gov/articles/PMC9455760/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "17 世纪传入欧洲,后来经欧洲传入中国,青岛一带最早成片栽植",
+          "problem": "非否决性提示:上轮 fail 的'18世纪末引入青岛'已妥善改写。'最早成片栽植'经查站得住:1898 年德占后于青岛黑山设植物试验场督种刺槐、1899 年成片造林 200 余亩,陈嵘《中国树木分类学》(1937)称'我国在德人侵占胶州后开始植栽……青岛有洋槐半岛之称';更早的 1877-78 年南京记录是随张斯桂自日本带回的少数植株,属零星栽植,不构成'成片栽植'的反例。唯'经欧洲传入'对南京一线不确(该线经日本),但句子主语落在青岛一线(德国人自欧洲引种),属可容的简化。",
+          "fix": "可选:句末括注'(更早的 1877-78 年有零星植株经日本至南京)'。不改亦可。",
+          "evidence": "大众新闻《刺槐传入中国》(1877-78 张斯桂自日本携至南京;1898 德占后青岛引种),https://m.dzplus.dzng.com/share/general/0/NEWS1595894WOLZKULRMUNHP;国家林草局转载与陈嵘 1937 引文(1898 黑山试验场、1899 成片 200 余亩、'洋槐半岛'),https://www.forestry.gov.cn/c/www/dzw/581525.jhtml"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "花粉的产量和营养价值,本馆尚未找到足以展出的系统数据(description 末句,本轮修改句)",
+          "problem": "非否决性提示:与卡片层逐字相同,反驳线与结论同上,不重复展开;另核对该句在条目语境中的落点——它紧跟'花蜜含糖约 34–59%''约 1 公斤蜂蜜'两个有源数字之后,读者读到的对比是'花蜜有数、花粉无系统数',这一对比本身与文献格局相符(刺槐作为蜜源的记载远多于其花粉数据)。前半句 34–59% 与 1 公斤估算均为未改动文本,r23/r24 已核且本轮未发现新的反例。无反驳。",
+          "fix": "无需修改;若卡片层采纳括注零星研究的可选建议,此处应同步以保持口径一致。",
+          "evidence": "Foods 2022 (PMC9455760,fetched 2026-08-31),https://pmc.ncbi.nlm.nih.gov/articles/PMC9455760/;de.wikipedia Gewöhnliche Robinie(34–59%、约 1 kg 估算,r23 已核),https://de.wikipedia.org/wiki/Gew%C3%B6hnliche_Robinie"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-robinia-pseudoacacia/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-helianthus-annuus",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "印度的罩网试验显示,加蜂群授粉比开放授粉增产约两到三成",
+          "problem": "非否决性提示:上轮 fail 的杜撰数字('结实率从一两成提高到九成'与'含糖约 35%')均已删除,新句与 Raja 2025 的实测基本相符(加意蜂群 +33.82%、加中蜂群 +20.23%);唯上限 33.82% 严格说是'三成四','约两到三成'把上限略压低了零点四成,因有'约'兜底且方向、量级无误,不否决。",
+          "fix": "可选:改为'增产约两成到三成多'。不改亦可。",
+          "evidence": "Raja et al. 2025 Table 3:'The yield increase over open pollination was 33.82% in A. mellifera pollination and 20.23% in A. cerana indica pollination',https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-helianthus-annuus/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-vaccinium-corymbosum",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "通常每次访花都会接触花药和柱头的壁蜂(本轮修改句)",
+          "problem": "非否决性提示:与 SARE 原句逐词核对——原文为'they usually contact the flowers' anthers and stigmas on every visit','通常每次'恰好把 usually 与 on every visit 都译出,忠于来源、无夸大。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "SARE ONE05-049 项目报告原句(fetched 2026-08-31):'they usually contact the flowers' anthers and stigmas on every visit',https://projects.sare.org/project-reports/one05-049/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "多数栽培品种用自己的花粉也能结果,但异花授粉常能让果实更大、成熟更早(上轮 fail 项复核)",
+          "problem": "复核:上轮'需要异花授粉'的夸大已改为与 MSU 资料一致的表述(多数北高丛品种自花可孕、异花授粉增益果个与成熟期),处理妥当,未见相左资料。",
+          "fix": "无需修改。",
+          "evidence": "MSU 蓝莓授粉资料:'Most common cultivars of northern highbush can be well pollinated by their own pollen...',https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "有的木蜂会在花筒侧面咬个缝直接取蜜,蜜蜂随后也从这些现成的缝里取蜜;盗蜜的蜂也会带走一些花粉,少量盗蜜通常不影响坐果(上轮 fail 项复核)",
+          "problem": "复核:'蜜蜂咬孔'已按 MSU 原文改为'木蜂咬缝、蜜蜂二次利用';'少量盗蜜通常不影响坐果'忠于原文——MSU 称盗蜜蜂仍转移部分花粉、可为总授粉加分,只有当蜜蜂盗蜜接近其访花的一半时坐果才下降。处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "MSU:'Carpenter bees often cut a slit... allowing honey bees to do the same in later visits';'...when nectar robbing by honey bees begins to approach half of all honey bee visits, blueberry seed and fruit set are reduced',https://pollinators.msu.edu/_assets/files/resources/growers/MI-Blueberry-Pollination-Factsheet-FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-vaccinium-corymbosum/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower:flower-trifolium-repens",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "corollaDepthMm 字段(上轮 uncertain 项复核)",
+          "problem": "复核:与自身文案矛盾的 corollaDepthMm 7-12 已删除,7-12 毫米现仅以'花长约 7-12 毫米'出现在 corolla 条目中、口径正确,处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "content-dump-r24.json 本卡已无 corollaDepthMm 字段"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/corolla",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白车轴草基本自交不亲和,种子生产依赖蜂类传粉——新西兰的种子田通常会放进蜜蜂蜂群(本轮新增句)",
+          "problem": "非否决性提示:核对无误——新西兰白车轴草制种研究即述'蜜蜂蜂群按每公顷推荐蜂群密度置于田内',并称无蜂不结籽缘于多数品种自交不亲和。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Howlett et al. 2018/2019 NZ J. Crop Hortic. Sci.(A. mellifera are normally placed within fields;cultivar self-incompatible as found in most white clover varieties),https://www.tandfonline.com/doi/full/10.1080/01140671.2018.1466341"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-trifolium-repens/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "北美的“三叶草蜜”也常来自近缘的草木樨。",
+          "problem": "进攻未击穿:这正是我方 r27 对 honey-clover 的攻击点,馆方连带在花朵馆同步修正,且新增 MSU sweet clovers 来源背书。Melilotus 与 Trifolium 同属豆科车轴草族(Trifolieae),'近缘'成立;'常来自'留有余地,未做全称断言。花期 5–10 月与 Minnesota Wildflowers 等来源相容。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-lavandula-angustifolia",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "bloom.region-china-east(上轮 fail 项复核)",
+          "problem": "复核:无东部依据的中国东部花期 6-7 月已整格删除,现仅保留中欧与北美东部两格,处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "content-dump-r24.json 本卡 bloom 仅含 region-central-europe 与 region-north-america-east"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国在杂交薰衣草('Grosso')上的研究发现,熊蜂在一朵花上只停 1.1-1.4 秒,蜜蜂要 3.5 秒(上轮 fail 项复核)",
+          "problem": "复核:上轮的物种张冠李戴已按建议修正,fact 现明确点出研究对象是杂交薰衣草'Grosso',与 Sussex/Balfour 来源一致;'差别主要来自舌的长短'亦为该研究结论。处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "Sussex 新闻稿(lavender 'Grosso';1.1-1.4 s vs 3.5 s),https://archive.sussex.ac.uk/broadcast/read/19067;Balfour et al. 2013(舌长解释),https://resjournals.onlinelibrary.wiley.com/doi/10.1111/een.12019"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "隔绝传粉者的花结实率为零,对照约 86%;观察到的访花者几乎都是蜂类",
+          "problem": "非否决性提示:数字核对无误(0%,N=683;对照 85.9%,N=64),但对照仅 1 个花序 64 朵花、作者自称初步研究;且种植园样点除蜂外还记录到 6 种蝶蛾、蜂虻与甲虫(活动指数合计约 0.56,远低于蜂的 12.3),'几乎都是蜂类'成立但非'只有蜂'。不否决。",
+          "fix": "可选:'对照约 86%'后加'(初步试验,对照仅一个花序)'。",
+          "evidence": "Valchev/Kozuharova et al. 2022:'the fruit-set of all flowers from which pollinators were excluded (N = 683) was 0% while that of the control (N = 64) was 85.9%';Table 2 记录 Lepidoptera/Diptera/Coleoptera 少量访花,https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-lavandula-angustifolia/inflorescence",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "据薰衣草油生产者的经验,没有授粉的花会提前脱落;精油产量与授粉的关系,还有待研究证实(上轮 uncertain 项复核)",
+          "problem": "复核:'据研究'已按建议降为'据生产者的经验'并明示待证,与 Kozuharova 2022 中 personal communication 的出处性质相符。处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "Valchev/Kozuharova et al. 2022(personal communication 注记),https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "flower:flower-medicago-sativa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "泌蜜量大,苜蓿蜜白色至特浅琥珀色、味淡雅;在美国西部是最重要的蜜源植物之一。",
+          "problem": "nectar 字段已按 r28 建议与 honey-alfalfa 同步恢复“白色至特浅琥珀色”,与 McGregor 区间一致,两处不再互相矛盾。弹射机关(龙骨瓣绷着雌雄蕊柱、打在蜂头下方)、蜜蜂侧位吸蜜避开机关、留种依赖切叶蜂、苜蓿花粉对蜜蜂是劣质花粉源——均为 r28 已核的 McGregor 标准口径,未改动。再进攻未找到新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/corolla",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "没被弹开的花几乎不结籽;即使自行弹开(没有蜂经手),能结籽的也不到 1%(上轮 fail 项复核)",
+          "problem": "复核:上轮'自己弹开的不到 1%'的错误转写已按建议改正,'不到 1%'现正确指向自弹花的结籽率,与 McGregor 原句一致。处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "McGregor 1976:'less than 1 percent of the self-tripped flowers produce seed, and most nontripped flowers fail to do so',https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/stamen",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "苜蓿切叶蜂不躲这一击,逐蜂授粉效率远高于蜜蜂(本轮修改句)",
+          "problem": "非否决性提示:与 McGregor 1976 原句口径完全一致——'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa'。'逐蜂'即 on a bee for bee basis,'远高于'即 far more efficient,不再有上轮 IFAS '2–4 倍'被误标比较层级的问题;蜜蜂侧面取蜜避开弹击亦为所引维基 Alfalfa 词条的标准表述。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "McGregor 1976 alfalfa 章原句(fetched 2026-08-31):'Both alkali bees and leafcutter bees are far more efficient, on a bee for bee basis, than honey bees in pollinating alfalfa',https://www.apiservices.biz/htm/pollination_handbook/chap_10000000002822327.html"
+        }
+      ]
+    },
+    {
+      "key": "flower-entry:flower-medicago-sativa/inflorescence",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-rapeseed-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "传粉者能提高油菜产量(用于支撑 relation=pollination)",
+          "problem": "非否决性提示:Zou 2017 确记录到 A. cerana 访花,但其产量增益归因于野生蜂,蜜蜂丰度与产量无显著关联;好在 Liu 2017 以中蜂促成油菜基因流,直接证明其携粉传粉,relation=pollination 仍站得住。不否决。",
+          "fix": "可选:note 中补'产量增益主要归因野生蜂;中蜂传粉证据来自基因流研究'。",
+          "evidence": "Zou et al. 2017(蜜蜂丰度与产量参数无显著关联),https://pmc.ncbi.nlm.nih.gov/articles/PMC5320672/;Liu et al. 2017(中蜂采集行为与油菜基因流),https://www.cambridge.org/core/journals/journal-of-agricultural-science/article/abs/effects-of-chinese-honeybee-foraging-on-oilseed-rape-gene-flow-and-honey-ingredients/8036AF6224BB902330AFC1D3DDDBA31B"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-rapeseed-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国田间观察中,熊蜂与蜜蜂是油菜田最常见的访花者",
+          "problem": "非否决性提示:与 Harris 2024 相符(二者合计 90%),但按原文蜜蜂占 71%、熊蜂仅 19%,且熊蜂记录为 Bombus sp.(属级),并未鉴定到欧洲熊蜂 B. terrestris;本条 beeId 指到 terrestris,靠 Westphal 2009(德国、明确为 B. terrestris)兜底成立。不否决。",
+          "fix": "可选:note 注明 Harris 记录为属级 Bombus sp.。",
+          "evidence": "Harris et al. 2024:'Honeybees and bumblebees dominated, comprising 90% of observed insects (Apis mellifera 71%, Bombus sp. 19%)',https://pmc.ncbi.nlm.nih.gov/articles/PMC11106685/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-ce-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-locust-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-cerana-locust-china-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "编辑整理:向日葵单花蜜的记载来自法国、意大利、西班牙等邻近地区,中欧本地未见专门记载",
+          "problem": "非否决性提示:声明偏保守——sourceIds 中的德文维基'Sonnenblume'本身就是中欧语境来源,载明向日葵为蜜源作物(Bienenweide),奥地利、匈牙利亦产向日葵蜜;'未见专门记载'仅对'单花蜜产地'严格成立。如实声明的不确定性不构成反驳靶子,不否决。",
+          "fix": "可选:note 补'德文维基亦载其为中欧蜜源作物'。",
+          "evidence": "de.wikipedia Sonnenblume(蜜源作物记载),https://de.wikipedia.org/wiki/Sonnenblume"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "综述性表述:向日葵对各类蜂都是良好的蜜粉源;非中国的专门记载",
+          "problem": "非否决性提示:relation=pollen 的资源属性是普适生物学事实(向日葵花粉可采、蜜蜂普遍采集),note 已如实声明无中国专门记载;未找到与'中国东部夏季蜜蜂采向日葵花粉'相左的资料。不否决,但这是靠常识外推而非在地证据。",
+          "fix": "可选:evidence 降为 editorial,或补中国蜜源植物志类来源。",
+          "evidence": "Raja et al. 2025 引 Goulson et al. 2007:'It is a good source of both nectar and pollen to all kind of bees',https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-sunflower-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "依据是美国加州制种田的研究——蜜蜂单次访花的传粉效率不高,有野生蜂在场时会提高;本地域未见专门记载",
+          "problem": "非否决性提示:与 Greenleaf & Kremen 2006 相符——该研究在加州杂交向日葵制种田发现蜜蜂单次访花效率有限、野生蜂在场时通过种间行为作用使蜜蜂传粉效率成倍提高;地域错配已如实披露并降为 editorial。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Greenleaf & Kremen 2006 PNAS,https://pmc.ncbi.nlm.nih.gov/articles/PMC1564230/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-sunflower-china-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:东方蜜蜂访向日葵(中国东部,夏)",
+          "problem": "'观察记录'型关系却没有任何中国观察:唯一来源是印度泰米尔纳德邦(热带干旱区)对 A. cerana indica 的记录,note 已自认'中国中蜂访向日葵未见专门文献'。indica 与中国的 A. cerana cerana 是不同亚种(部分学者甚至主张 A. indica 为独立种),热带干旱区的访花记录支撑不了'在中国东部夏季被观察到访花'。中蜂采向日葵在国内蜜源资料中常见,但需在地来源才能立 observed-visit。",
+          "fix": "找中国蜜源植物志或国内研究补证后再立;找不到则删除本条,或将 relation 降为资源性表述并明确标注'依据为印度亚种记录'。",
+          "evidence": "Raja et al. 2025(研究地 Tiruchirapalli, Tamil Nadu;对象 Apis cerana indica),https://indianentomology.org/index.php/ije/article/download/3523/1957"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-sunflower-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:紫木蜂访向日葵(中欧,夏)",
+          "problem": "观察记录来自土耳其,土耳其不属中欧;note 已自认'中欧未见专门记载'。紫木蜂在中欧确有分布且访花谱宽,但把土耳其的田间观察挂到中欧地区卡下,等于虚构了一条中欧观察记录。",
+          "fix": "删除本条或把地域改为'土耳其/西亚(邻近资料)'专栏;若保留中欧,需找到中欧本地的访花记录。",
+          "evidence": "Özbek 2013(土耳其大型木蜂访花记录),https://www.entomol.org/journal/index.php/JERS/article/view/537"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "论文作者为中国学者,但论文未注明试验地点,本馆未能核实是否在中国,仅供参考(本轮修改 note)",
+          "problem": "非否决性提示:原文页与 PDF 均被出版方反爬拦截(HTTP 403),本轮通过检索获得的方法段摘录显示:论文写明试验用蜂'provided by the Bee Research Institute, Agricultural College, Eastern Liaoning University'(辽东学院,辽宁丹东),但未见点名温室所在地——与'未注明试验地点'一致,未找到反例;作者六人均为中文姓名,'中国学者'成立。声明偏保守但如实,不构成反驳靶子。",
+          "fix": "可选:note 补一句'试验用蜂由辽宁丹东的辽东学院蜂业研究所提供(论文原文)',以论文自身的中国锚点替代单纯的'未能核实'。",
+          "evidence": "检索摘录(2026-08-31,两次独立检索一致):'The pollinator bee species in the experiments were provided by the Bee Research Institute, Agricultural College, Eastern Liaoning University';HortScience 56(5):603-607 原文页(403 未能直读),https://journals.ashs.org/hortsci/view/journals/hortsci/56/5/article-p603.xml"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-cerana-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "同一项温室对照研究(Sun 等 2021)把东方蜜蜂列为三种对比传粉蜂之一;论文未注明试验地点……仅供参考",
+          "problem": "非否决性提示:A. cerana 确为三种对比蜂之一(Semantic Scholar 摘要复核无误);地点声明与 rel-mellifera-blueberry-china-spring 同一口径,核查结论相同,不重复展开。无反驳。",
+          "fix": "可选:与 rel-mellifera-blueberry-china-spring 同步补辽东学院供蜂锚点。",
+          "evidence": "Semantic Scholar DOI:10.21273/HORTSCI15714-21 摘要(B. terrestris、A. cerana、A. mellifera 三种,fetched 2026-08-31)"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-china-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "熊蜂能振动授粉,与蓝莓的孔裂花药匹配(附于地点声明之后)",
+          "problem": "非否决性提示:成立——Sun 2021 本身即把 B. terrestris 的高效归因于其 buzz-pollination 行为,与 buzz pollination 词条一致;地点声明口径同前两条,核查结论相同。无反驳。",
+          "fix": "可选:与前两条同步补辽东学院供蜂锚点。",
+          "evidence": "Sun et al. 2021(高效传粉归因于振动授粉);en.wikipedia Buzz pollination,https://en.wikipedia.org/wiki/Buzz_pollination"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-blueberry-ce-spring",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "德文维基百科称熊蜂等野蜂对蓝莓授粉有重要作用(泛指熊蜂属);点名到欧洲熊蜂管理蜂群的研究记载来自智利等地",
+          "problem": "复核:即 r24 通过版本的口径,属级/种级与智利出处均如实披露,未称管理熊蜂更优,与 Frontiers 2023(智利本地蜂表现不逊于 B. terrestris)不冲突。无反驳。",
+          "fix": "无需修改。",
+          "evidence": "Frontiers in Sustainable Food Systems 2023,https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2023.1142623/full"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-osmia-blueberry-na-spring",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-clover-china-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条为一般性记载……非中国的专门研究",
+          "problem": "非否决性提示:白车轴草在中国广布半自生、蜜蜂常规利用属常识级事实,note 已如实声明来源为一般性记载;未找到相左资料。不否决。",
+          "fix": "可选:补中国蜜源植物资料。",
+          "evidence": "FRPS 白车轴草(中国广泛种植并逸生、花期 5-10 月),https://www.iplant.cn/ashx/getfrps.ashx?key=Trifolium%20repens"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-bombus-clover-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "词条称白车轴草的花主要由熊蜂访问(泛指熊蜂属);点名到欧洲熊蜂的记录来自新西兰(上轮提示项复核)",
+          "problem": "复核:属级/种级口径与新西兰出处均已在 note 中如实披露,evidence 降为 editorial,处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "en.wikipedia Trifolium repens;Howlett et al. 2018(新西兰种子田 B. terrestris),https://www.tandfonline.com/doi/full/10.1080/01140671.2018.1466341"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-megachile-clover-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-mellifera-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-bombus-lavender-ce-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "英国在杂交薰衣草上的研究显示熊蜂采蜜速度远快于蜜蜂;保加利亚……terrestris/lucorum 复合组占多数——均为邻近地区记录(上轮 uncertain 项复核)",
+          "problem": "复核:上轮的双重错配已按建议处理——handling time 数字标明出自杂交薰衣草、保加利亚记录标明 terrestris/lucorum 复合组、地域如实标为邻近地区,evidence 降为 editorial。处理妥当。",
+          "fix": "无需修改。",
+          "evidence": "Sussex 新闻稿(Grosso),https://archive.sussex.ac.uk/broadcast/read/19067;Valchev/Kozuharova et al. 2022(保加利亚,terrestris/lucorum complex),https://biorisk.pensoft.net/article/77364/"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-xylocopa-lavender-ce-summer",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "observed-visit:紫木蜂访薰衣草(中欧),仅有爱好者网站记录",
+          "problem": "唯一来源为低权威爱好者网站(BuzzAboutBees),且其观察地为英国花园而非中欧;没有学术来源佐证'在中欧观察到'。木蜂访唇形科在地中海区文献常见,但本条以孤立弱源立观察记录,不足采信。",
+          "fix": "补学术来源(如地中海/北非薰衣草访花者名录中的 Xylocopa 记录)并改挂相应地域;找不到则删除本条。",
+          "evidence": "BuzzAboutBees.net(爱好者网站,子集来源表自注'低权威'),https://www.buzzaboutbees.net/violet-carpenter-bee.html"
+        }
+      ]
+    },
+    {
+      "key": "relation:rel-mellifera-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": []
+    },
+    {
+      "key": "relation:rel-megachile-alfalfa-na-summer",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "用它授粉的效果约为用蜜蜂的 2–4 倍(佛罗里达大学资料)(上轮 uncertain 项复核)",
+          "problem": "复核:上轮唯一 uncertain 已按建议处理——'单蜂'二字删去,现表述'用它授粉的效果约为用蜜蜂的 2–4 倍'与 IFAS EENY-820 原句的比较层级(在苜蓿田使用切叶蜂授粉服务的整体效果)一致,不再对来源口径做再解释;逐蜂比较已移交 McGregor 口径(见 flower-entry:flower-medicago-sativa/stamen)。处理妥当,无反驳。",
+          "fix": "无需修改。",
+          "evidence": "UF/IFAS EENY-820:'The use of the alfalfa leaf-cutter bees in alfalfa fields for pollination services is two to four times more effective than using honey bees for the same purpose',https://ask.ifas.ufl.edu/publication/IN1452"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-gather",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜂蜜最主要的原料 / boundary:少数蜜种不以花蜜为原料:欧洲市场的“甘露蜜(森林蜜)”来自蚜虫等昆虫的含糖分泌物。",
+          "problem": "r27 甘露蜜攻击点已化解:'唯一原料'改为'最主要的原料',并新增 boundary 明示甘露蜜例外,与 en.wikipedia Honey 开篇 'primarily floral nectar…or the secretions of other insects, like the honeydew of aphids' 完全对齐(本轮已实测复核)。'花朵蜜腺分泌'作为对'花蜜'一词的定义成立(花外蜜腺分泌物不叫花蜜),r27 次要点不再成立。'主要成分是蔗糖、葡萄糖、果糖和水,含糖比例随花种差别很大'无懈可击。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-carry",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜胃与消化道之间有一道阀门(前胃)把关:大部分花蜜留在蜜胃里带回巢,只有蜂自己取食的一小部分、和被滤出的花粉,经阀门进入消化道。",
+          "problem": "r27 攻击点('互不相混'的过强断言与自相矛盾)已按建议改写化解:新表述与 Snodgrass 对前胃(proventriculus)阀门与滤取花粉功能的经典描述一致,'大部分/一小部分'的量化措辞留有余地。'归巢路上加工已经开始,混入头部腺体的酶'为标准描述(转化酶来自下咽腺,位于头部)。再进攻未找到新缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-handoff",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "回巢后,外勤蜂把蜜胃里的花蜜口对口吐给内勤蜂,这种传递叫交哺。",
+          "problem": "进攻未击穿,两点说明:(1) 试图以'交哺还传递信息素、幼虫食物'攻击——但条目只说这次传递'叫交哺',未断言交哺仅用于花蜜,不构成误导;(2) 试图以'流蜜期外勤蜂有时把花蜜直接存入巢房'攻击——条目描述的是典型路径,未用'总是/必须'等全称词,勉强站得住。",
+          "suggestion": "可选优化:detail 里补半句'交哺同时也是蜂群传递气味与信息的渠道',把知识面补全并预防误读。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-transform",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "微生物才真正难以生长繁殖……蜂蜜里可能有休眠的肉毒杆菌芽孢,所以一岁以下的婴儿不能喂食蜂蜜。",
+          "problem": "r27 两个攻击点均已化解:(1)'难以存活'改为'难以生长繁殖',与 en.wikipedia Honey 'unfavorable to microbiological reproduction' 口径一致;(2) 防腐归因已改为酶促偏酸+下一步脱水共同作用,顺序正确;(3) 新增肉毒芽孢与婴儿警示——'一岁以下婴儿不能喂食蜂蜜'与 CDC/AAP/WHO 一致口径(12 个月以下)吻合,这是新引入表述中立得最稳的一条。葡萄糖氧化酶→葡萄糖酸+过氧化氢的化学无误。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-condense",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "刚采回的花蜜通常一半以上是水……水分收到大约两成以下——更严的口径要到 18% 以下……维基百科给约 15.5%–18%,不少法规与教材以 20% 为上限。",
+          "problem": "进攻未击穿:本轮实测复核 en.wikipedia Honey,原文 'Nectar…has a water content of 70 to 80%'、'evaporating continues until the honey reaches its final water content of between 15.5% and 18%'、'so long as its water concentration does not rise much above 18%',新引入的'约 15.5%–18%'与来源逐字吻合;20% 上限与 Codex 一致。r27 建议的'通常'已加入,浓花蜜反例被兜住。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-stage:honey-stage-cap",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "蜜蜂属靠它撑过缺花的季节——温带是冬天,热带则是断蜜的旱季或雨季。",
+          "problem": "r27 热带蜜蜂攻击点已按建议化解:不再对蜜蜂属做'撑过冬天'的全称断言。热带蜜蜂(大蜜蜂、小蜜蜂、热带东方蜜蜂)确以储蜜渡过旱雨季断蜜期,虽然它们也会迁飞弃巢,但条目未排除这一点。'封盖是养蜂人判断取蜜时机的依据''腹部蜡腺分泌蜂蜡'均为标准描述。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-rapeseed",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至乳黄,味微辛;极易结晶,结晶细腻呈脂状。",
+          "problem": "对恢复的“味微辛”做了辖域核对(peppery 指蜜还是指菜籽/植物?):本轮实测 en.wikipedia Rapeseed 蜂业段原文为 'Monofloral rapeseed honey has a whitish or milky yellow color, peppery taste and, due to its fast crystallization time, a soft-solid texture'——主语是 monofloral rapeseed honey,peppery taste 明确修饰蜂蜜本身,不是菜籽,张冠李戴不成立;“白色至乳黄”与 'whitish or milky yellow' 逐字对应,src-wikipedia-rapeseed 已列入 sourceIds。“极易结晶”有 3–4 周结晶、低果糖/葡萄糖比的来源支撑;“结晶细腻呈脂状”对应德文维基 Raps 'fein und schmalzartig kandierend'(r28 已核)。r27 对“味微辛”的地区差异疑虑,在恢复时补上了指向蜂蜜的明确来源,进攻未击穿。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-black-locust",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "洋槐蜜色浅至近无色,味清淡带花香,果糖比例高、久不结晶——与油菜蜜的“极易结晶”恰成对照。",
+          "problem": "我方 r28 攻击点(“尚未找到系统资料”的假稀缺声明)已按建议化解:自限定句删去,新句本轮实测逐项核对条目自引的 en.wikipedia Monofloral honey——acacia honey 明确来自 Robinia pseudoacacia(black locust),色泽 'ranges from light yellow to almost colorless'(色浅至近无色✓),风味 'a mild delicate floral taste'(味清淡带花香✓),'It lasts as a liquid due to being high in fructose'(果糖比例高、久不结晶✓)。与油菜蜜的对照亦有来源支撑:en.wikipedia Rapeseed 给出油菜蜜 3–4 周内结晶、低果糖/葡萄糖比导致快速起晶,两端都立得住。“久不结晶”留有余地、未作“永不结晶”的全称断言,找不到反例。首句“市售槐花蜜通常指洋槐而非国槐”与 0.7–1.4 公斤转引均为往轮已核点,再进攻无缺口。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-sunflower",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "浅黄,葡萄糖比例高,结晶快。",
+          "problem": "进攻未击穿:向日葵蜜葡萄糖占比高、结晶迅速是各国文献一致口径;色泽浅黄至金黄,'浅黄'在合理范围内。regionNote 措辞克制,无全称断言。",
+          "suggestion": ""
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-blueberry",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "它的色泽与风味,本馆尚未找到足以展出的系统资料。",
+          "problem": "对编辑自限定做了名实核查:检索可见的蓝莓蜜描述(浅琥珀至中琥珀色、圆润果香)几乎全部来自蜂蜜商与行业推广文案(Bee Inspired、Saratoga Tea & Honey、美国蜂蜜局一类),同行评议的系统感官/理化表征确实稀少;条目自引来源中已包含一篇标注'非权威'的农技文章,说明馆方确实检索过而非装作没找到。自限定名实相符,进攻未击穿。",
+          "suggestion": "若想充实,可写'业界通常描述为浅琥珀色、带果香(商业口径,未经系统研究证实)',把现有低权威信息带出处地展出。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-clover",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "在北美还大量来自近缘的草木樨属(sweet clover)。",
+          "problem": "r27 张冠李戴攻击点已按建议化解,并新增 MSU sweet clovers 来源背书;Melilotus 与 Trifolium 同为车轴草族,'近缘'成立。'色泽与风味尚未找到足以展出的系统资料'的自限定对三叶草蜜基本成立:三叶草蜜的描述多为商业分级口径(白至特浅琥珀、味淡),Persano Oddo 的欧洲单花蜜描述表未收录 Trifolium,系统感官表征确实薄弱——与洋槐蜜情形不同,此处自限定名实相符,进攻未击穿。",
+          "suggestion": "可选:仿蓝莓蜜写法,把'白至特浅琥珀、味淡'作为商业分级口径带出处展出。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-lavender",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "“薰衣草蜜”主产于地中海周边。/ regionNote: 地中海周边薰衣草产区。",
+          "problem": "就全球产量而言'主产于地中海周边'(法国普罗旺斯、西班牙)站得住,进攻未击穿。但存在以偏概全的尾巴:中国新疆伊犁是重要薰衣草种植区并出产薰衣草蜜,馆方源列表里甚至有伊犁薰衣草花期预报,面向中文观众却只字不提本国产区,取舍上名实略有不符。",
+          "suggestion": "regionNote 补'中国新疆伊犁亦有出产',与馆内已引用的伊犁资料呼应。"
+        }
+      ]
+    },
+    {
+      "key": "honey-variety:honey-alfalfa",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "白色至特浅琥珀色,味淡雅。",
+          "problem": "r28 指出的倒退式收窄(“色极浅(白)”丢掉琥珀端)已按建议恢复为区间写法,与 McGregor(USDA 1976)'white or extra light amber' 口径完全对齐(r28 已实测核对该来源)。regionNote“在美国西部是最重要的蜜源植物之一”与 McGregor 对西部苜蓿蜜地位的描述一致。无反例可找。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-royal-jelly",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "所有蜜蜂幼虫约头三天都吃它。",
+          "problem": "进攻未击穿:加'约'后与 en.wikipedia Royal jelly 主流口径一致;worker jelly 与 royal jelly 的成分差异在展馆粒度下不构成错误(r27 已说明)。'不是蜂蜜的原料或浓缩版'的辨析、'本馆的边界'自限定(不谈人体功效)均名实相符。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    },
+    {
+      "key": "honey-note:honey-note-who-makes-honey",
+      "verdict": "pass",
+      "issues": [
+        {
+          "claim": "在冬季温和的地区,也有欧洲熊蜂蜂群冬季仍在活动的记录。",
+          "problem": "r28 精确性提示(“可以更长寿”混淆了“同一蜂群活得更久”与“秋冬再起一代”两种机制)已用更保守的写法化解:新句只声明“有冬季仍在活动的记录”,不再断言蜂群寿命。这与条目自引的 PLoS ONE 2010(英国城市冬季活跃的 Bombus terrestris,秋冬建群、冬季采集)完全相容——无论机制是整群越冬还是秋冬新建一代,“蜂群冬季仍在活动”都为真;“欧洲熊蜂”与研究物种 B. terrestris 对应无误,“冬季温和的地区”与论文的英国城市背景相符。此写法在两种机制下均不可证伪,进攻无从下口。温带“一年一代、秋末解散、只有新蜂王越冬”、蜡罐存蜜“通常只够吃上几天”、独居蜂蜂粮描述均为往轮已核标准口径。",
+          "suggestion": "无需修改。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "lens": "refutation",
+  "round": 3,
+  "reviewedAt": "2026-08-25T03:20:00.000Z",
+  "verdicts": [
+    { "key": "focus:apis-mellifera-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-queen/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-mellifera-drone/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-queen/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:apis-cerana-drone/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:bombus-terrestris-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/whole", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:osmia-cornifrons-worker/wing", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:osmia-cornifrons-worker/abdomen",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "这种腹面携粉方式是切叶蜂科的共同特征。",
+          "problem": "\"共同特征\"是绝对化表述。切叶蜂科内的盗寄生属(如 Coelioxys 尖腹蜂、Stelis)不采粉、没有集粉毛,严格说不能称全科共同特征;准确说法是\"采粉(非寄生)切叶蜂的共同特征\"。",
+          "evidence": "Wikipedia Scopa (biology): \"kleptoparasitic bees, which do not gather their own pollen\" 缺少 scopa;同页指出腹面 scopa 见于 Megachilidae。https://en.wikipedia.org/wiki/Scopa_(biology)",
+          "fix": "改为\"这种腹面携粉方式是切叶蜂科采粉蜂类的共同特征(科内的盗寄生属不采粉、无集粉毛)\"或简写为\"是切叶蜂科的典型特征\"。"
+        }
+      ]
+    },
+    {
+      "key": "focus:osmia-cornifrons-worker/leg",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "把花粉带在腹面则是切叶蜂科的独门方式。",
+          "problem": "\"独门\"过于绝对。Wikipedia Scopa 页明确写到少数其他蜂类除后足集粉毛外,腹部腹面也有用于携粉的特化毛;切叶蜂科的独特之处是\"只靠腹面、不靠后足\",而非\"腹面携粉\"本身仅见于该科。",
+          "evidence": "Wikipedia Scopa (biology): \"A few bees have, in addition to the leg hairs, many modified hairs on the ventral surface of the abdomen which are also used in pollen transport\";\"the Megachilidae, lack modified leg hairs, but have an extensive scopa on the underside of the abdomen\"。https://en.wikipedia.org/wiki/Scopa_(biology)",
+          "fix": "改为\"几乎只靠腹面集粉毛携粉、后足没有特化集粉毛,是切叶蜂科的标志性方式\"。"
+        }
+      ]
+    },
+    {
+      "key": "focus:megachile-rotundata-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "原产欧洲,被引入北美、新西兰和澳大利亚。",
+          "problem": "多数专业文献把本种原产地记为欧洲东南部至西亚(欧亚大陆),而非单纯\"欧洲\";英文维基的\"European species\"是简化说法。",
+          "evidence": "Pitts-Singer & Cane 2011 Annual Review of Entomology 及 Animal Diversity Web:\"native to southwestern Asia and southeastern Europe\" / \"Eurasian\"。https://animaldiversity.org/accounts/Megachile_rotundata/ ; https://www.annualreviews.org/content/journals/10.1146/annurev-ento-120709-144836",
+          "fix": "改为\"原产欧亚大陆(欧洲东南部至西亚)\"。"
+        }
+      ]
+    },
+    { "key": "focus:megachile-rotundata-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:megachile-rotundata-worker/leg", "verdict": "pass", "issues": [] },
+    {
+      "key": "focus:xylocopa-violacea-worker/whole",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "成蜂夏末羽化后越冬,次年四五月才出来活动。",
+          "problem": "两份被引用的来源互相冲突:英文维基说通常四五月出现,德文维基说中欧越冬后三月至七月即活动、四五月开始筑巢。\"四五月才出来\"把开始活动的时间说晚了,且未限定地区。",
+          "evidence": "de.wikipedia Blaue Holzbiene: \"In Mitteleuropa fliegt die Art ab August und nach der Überwinterung von März bis Juli\";en.wikipedia: \"they emerge in the spring, usually around April or May\"。https://de.wikipedia.org/wiki/Blaue_Holzbiene ; https://en.wikipedia.org/wiki/Xylocopa_violacea",
+          "fix": "改为\"成蜂夏末羽化后越冬,次年早春(约三至五月,视地区而异)出来活动,四五月开始筑巢\"。"
+        }
+      ]
+    },
+    { "key": "focus:xylocopa-violacea-worker/head", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/wing", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/abdomen", "verdict": "pass", "issues": [] },
+    { "key": "focus:xylocopa-violacea-worker/leg", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-compound-eye", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-ocelli", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-antenna", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-proboscis", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-thorax", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-forewing", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-hindwing", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-abdomen", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-sting", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-foreleg-cleaner", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-fur", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-flight-muscle", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-bombus-sting", "verdict": "pass", "issues": [] },
+    {
+      "key": "organ:organ-osmia-scopa",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "这是切叶蜂科的共同特征。",
+          "problem": "与 focus:osmia-cornifrons-worker/abdomen 同一问题:切叶蜂科内的盗寄生属不采粉、无集粉毛,\"共同特征\"绝对化。",
+          "evidence": "Wikipedia Scopa (biology): 盗寄生蜂 \"do not gather their own pollen\" 且缺少 scopa。https://en.wikipedia.org/wiki/Scopa_(biology)",
+          "fix": "改为\"这是切叶蜂科采粉蜂类的典型特征\"。"
+        }
+      ]
+    },
+    { "key": "organ:organ-osmia-horns", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-osmia-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-scopa", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-megachile-hair-bands", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-integument", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-mandible", "verdict": "pass", "issues": [] },
+    { "key": "organ:organ-xylocopa-wing", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-body-length", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-sting", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-eyes", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-role", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-corbicula", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-sting", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-eyes", "verdict": "pass", "issues": [] },
+    { "key": "compare:row-cerana-colony", "verdict": "pass", "issues": [] },
+    { "key": "species:apis-mellifera", "verdict": "pass", "issues": [] },
+    { "key": "species:apis-cerana", "verdict": "pass", "issues": [] },
+    {
+      "key": "species:bombus-terrestris",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "黑底绒毛配前胸黄领、腹部黄带和白色尾端",
+          "problem": "作为物种级描述,\"白色尾端\"只对工蜂/雄蜂成立;蜂王尾端为皮黄色(buff),这正是英文名 buff-tailed 的来源。本馆自身的 focus:bombus-terrestris-worker/abdomen 已写明这一差异,物种条目与之不一致。",
+          "evidence": "Wikipedia Bombus terrestris: 蜂王 \"buff-white abdomen tip\";工蜂 \"have white-ended abdomens\"。https://en.wikipedia.org/wiki/Bombus_terrestris",
+          "fix": "改为\"尾端白色至皮黄色(工蜂近白,蜂王偏皮黄)\"。"
+        }
+      ]
+    },
+    { "key": "species:osmia-cornifrons", "verdict": "pass", "issues": [] },
+    {
+      "key": "species:megachile-rotundata",
+      "verdict": "uncertain",
+      "issues": [
+        {
+          "claim": "原产欧洲,被引入北美、新西兰、澳大利亚作为管理授粉蜂",
+          "problem": "与 focus:megachile-rotundata-worker/whole 同一问题:专业文献记原产地为欧洲东南部至西亚(欧亚大陆),\"原产欧洲\"过窄。",
+          "evidence": "Animal Diversity Web / Pitts-Singer & Cane 2011:\"native to southwestern Asia and southeastern Europe\"。https://animaldiversity.org/accounts/Megachile_rotundata/",
+          "fix": "改为\"原产欧亚大陆(欧洲东南部至西亚)\"。"
+        }
+      ]
+    },
+    { "key": "species:xylocopa-violacea", "verdict": "pass", "issues": [] }
+  ]
+}
