@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Manrope:wght@400;500;600&display=swap');
+/* 字体经 Fontsource 自托管(见 src/main.tsx),不再引用 Google Fonts CDN */
 
 /* ---- 标本工作台(浅色)主题 ----
    奶油纸面 + 白色卡片 + 蜂蜜琥珀点缀,衬线标题 */
