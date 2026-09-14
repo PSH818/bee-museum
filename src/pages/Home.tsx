@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { asset } from "../lib/asset";
 import { halls } from "../data/halls";
 import { BEE_SPECIES_IDS, beeSpecies, speciesCastes } from "../data/bees/species-index";
 import { speciesContent } from "../data/bees/species-content";
@@ -43,7 +44,7 @@ function Home() {
           </div>
           <figure className="home-hero-figure">
             <img
-              src="/images/hero-specimen-front.png"
+              src={asset("/images/hero-specimen-front.png")}
               alt="西方蜜蜂工蜂数字标本正面观:黄褐相间的腹部、透明翅膀与三对足"
               width={1280}
               height={800}

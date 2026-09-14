@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { asset } from "../../lib/asset";
 import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { Html, useGLTF } from "@react-three/drei";
@@ -8,7 +9,7 @@ import { Html, useGLTF } from "@react-three/drei";
 // 蜂 GLB 约定:头朝 +X、背朝 +Y,工蜂体长 1.17(1 单位 = 1 cm)。
 // 巢脾格口平面在 three z≈0、面法线 +Z(蜂"贴面站立"= 背对 +Z)。
 
-const BEE_URL = "/models/bee-hero.glb";
+const BEE_URL = asset("/models/bee-hero.glb");
 const PERCH_LIFT = 0.34; // 落姿身体中心离巢脾面
 const FLAP_HZ = 21;
 

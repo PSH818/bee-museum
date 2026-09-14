@@ -1,4 +1,5 @@
 import { Suspense, useEffect, useMemo, useRef } from "react";
+import { asset } from "../../lib/asset";
 import * as THREE from "three";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
@@ -11,7 +12,7 @@ import { AirFlow } from "./AirFlow";
 // 蜂蜜工坊 · 巢脾舞台(M5 第 3 步):加载竖立巢脾 GLB,按站点聚焦锚点。
 // 镜头约定沿用花朵馆的教训:首帧直接吸附目标机位(GLB 解析掉帧会耗尽插值窗口)。
 
-const MODEL_URL = "/models/hive-comb.glb";
+const MODEL_URL = asset("/models/hive-comb.glb");
 const FOV = 34;
 
 export interface HiveFocus {

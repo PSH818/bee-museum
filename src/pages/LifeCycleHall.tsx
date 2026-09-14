@@ -1,4 +1,5 @@
 import { Canvas } from "@react-three/fiber";
+import { asset } from "../lib/asset";
 import { Suspense, useEffect, useRef, useState } from "react";
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from "react-router";
 import * as THREE from "three";
@@ -154,7 +155,7 @@ function LifeCycleHall() {
                   onClick={() => navigate(`/museum/life-cycle/${id}`)}
                   aria-pressed={id === storyId}
                 >
-                  <img src={`/images/cards/${id}.png`} alt="" width={56} height={56} loading="lazy" />
+                  <img src={asset(`/images/cards/${id}.png`)} alt="" width={56} height={56} loading="lazy" />
                   <span>
                     <b>{lifeCycles[id].title}</b>
                     <i>{lifeCycles[id].subtitle}</i>

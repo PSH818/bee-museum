@@ -1,4 +1,5 @@
 import { Canvas } from "@react-three/fiber";
+import { asset } from "../lib/asset";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from "react-router";
 import * as THREE from "three";
@@ -47,9 +48,9 @@ const POLLEN_BEARING = new Set(["apis-mellifera", "apis-cerana", "bombus-terrest
 /** 独立精致标本(纯鉴赏模式;方案 2026-09-11 定):目前只有东方蜜蜂三职型 */
 const FINE_MODELS: Partial<Record<BeeSpeciesId, Partial<Record<BeeCaste, string>>>> = {
   "apis-cerana": {
-    worker: "/models/bee-fine-cerana-worker.glb",
-    queen: "/models/bee-fine-cerana-queen.glb",
-    drone: "/models/bee-fine-cerana-drone.glb",
+    worker: asset("/models/bee-fine-cerana-worker.glb"),
+    queen: asset("/models/bee-fine-cerana-queen.glb"),
+    drone: asset("/models/bee-fine-cerana-drone.glb"),
   },
 };
 
@@ -589,7 +590,7 @@ function Workbench() {
           {stageCanvas}
           {!posterGone && !fineActive && (
             <div className={`wb-poster${ready ? " out" : ""}`} aria-hidden="true">
-              {posterEligible && <img src="/images/poster-default.png" alt="" />}
+              {posterEligible && <img src={asset("/images/poster-default.png")} alt="" />}
               {!ready && <span className="wb-poster-note">正在唤醒标本…</span>}
             </div>
           )}
@@ -758,7 +759,7 @@ function WorkbenchLibrary({
             return (
               <li key={id} className={active ? "active" : ""}>
                 <button className="wb-species-row" onClick={() => onSelectSpecies(id)} aria-pressed={active}>
-                  <img src={`/images/thumbs/${id}.png`} alt="" width={56} height={56} loading="lazy" />
+                  <img src={asset(`/images/thumbs/${id}.png`)} alt="" width={56} height={56} loading="lazy" />
                   <span>
                     <b>{record.name}</b>
                     <i>{record.family.split(" ")[0]} · {record.scientificName}</i>
@@ -986,7 +987,7 @@ function ExtensionCards({
       kicker: "MICRO VIEW · 微距",
       title: "贴近看绒毛与翅钩",
       text: "把镜头推到毫米尺度,看清分叉的体毛、翅膜上的脉络与前后翅的钩连。",
-      image: species === "apis-mellifera" ? "/images/cards/macro-apis-mellifera.png" : `/images/thumbs/${species}.png`,
+      image: species === "apis-mellifera" ? asset("/images/cards/macro-apis-mellifera.png") : asset(`/images/thumbs/${species}.png`),
       action: { label: "看微距", onClick: onMacro },
     },
     ...(multiCaste
@@ -996,7 +997,7 @@ function ExtensionCards({
             kicker: "COMPARE · 三职型",
             title: "工蜂 × 蜂王 × 雄蜂",
             text: "同一群体的三种身体方案,按真实体长比例并排。",
-            image: `/images/cards/compare-${species}.png`,
+            image: asset(`/images/cards/compare-${species}.png`),
             action: { label: "打开比较台", onClick: onCompare },
             primary: true,
           } satisfies ExtensionCard,
@@ -1008,7 +1009,7 @@ function ExtensionCards({
               kicker: "SIZE RANGE · 体型差异",
               title: "同一巢里,大小相差数倍",
               text: "熊蜂工蜂的体型差异极大:胸部大小可差约 3 倍,体重可差近十倍。",
-              image: "/images/cards/size-bombus-terrestris.png",
+              image: asset("/images/cards/size-bombus-terrestris.png"),
               action: { label: "看差异", onClick: onSizeDifference },
               primary: true,
             } satisfies ExtensionCard,
@@ -1019,7 +1020,7 @@ function ExtensionCards({
       kicker: "LIFE CYCLE · 生命历程",
       title: storyCard.title,
       text: storyId ? storyCard.subtitle : `${record.name}暂无专属时间线,先看西方蜜蜂工蜂的一生。`,
-      image: `/images/cards/${storyCard.id}.png`,
+      image: asset(`/images/cards/${storyCard.id}.png`),
       action: { label: "播放一生", to: `/museum/life-cycle/${storyCard.id}` },
       primary: true,
     },

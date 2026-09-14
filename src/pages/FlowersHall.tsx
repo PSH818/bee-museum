@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { asset } from "../lib/asset";
 import { useNavigate, useParams, useSearchParams } from "react-router";
 import { flowers, FLOWER_IDS } from "../data/flowers";
 import { regions, REGION_IDS } from "../data/regions";
@@ -27,29 +28,29 @@ import type { FlightStyle, VisitPhase } from "../three/flowers/BeeVisit";
 
 /** 已完成建模的花朵 → GLB 与聚焦距离(cm);未收录的显示"建模中"占位 */
 const FLOWER_MODELS: Record<string, { url: string; near?: Record<string, number> }> = {
-  "flower-brassica-napus": { url: "/models/flower-brassica.glb" },
+  "flower-brassica-napus": { url: asset("/models/flower-brassica.glb") },
   "flower-vaccinium-corymbosum": {
-    url: "/models/flower-vaccinium.glb",
+    url: asset("/models/flower-vaccinium.glb"),
     near: { center: 7, petal: 3.5, stamen: 3.2, nectar: 4, stem: 15 },
   },
   "flower-trifolium-repens": {
-    url: "/models/flower-trifolium.glb",
+    url: asset("/models/flower-trifolium.glb"),
     near: { center: 6, petal: 3.2, stamen: 3, nectar: 3, stem: 12 },
   },
   "flower-lavandula-angustifolia": {
-    url: "/models/flower-lavandula.glb",
+    url: asset("/models/flower-lavandula.glb"),
     near: { center: 7, petal: 2.8, stamen: 2.6, nectar: 2.6, stem: 16 },
   },
   "flower-medicago-sativa": {
-    url: "/models/flower-medicago.glb",
+    url: asset("/models/flower-medicago.glb"),
     near: { center: 6, petal: 3, stamen: 2.8, nectar: 2.8, stem: 13 },
   },
   "flower-robinia-pseudoacacia": {
-    url: "/models/flower-robinia.glb",
+    url: asset("/models/flower-robinia.glb"),
     near: { center: 6.5, petal: 4.5, stamen: 4.5, nectar: 4.5, stem: 18 },
   },
   "flower-helianthus-annuus": {
-    url: "/models/flower-helianthus.glb",
+    url: asset("/models/flower-helianthus.glb"),
     // 花盘直径 ~12cm:聚焦距离要比油菜远得多
     near: { center: 22, petal: 9, stamen: 7, nectar: 7, stem: 24 },
   },
@@ -97,12 +98,12 @@ import { honeyVarieties } from "../data/honey";
 
 /** 访花演示可用的蜂精模(与标本馆同一批 GLB,尺度一致) */
 const BEE_VISIT_MODELS: Record<string, string> = {
-  "apis-mellifera": "/models/bee-hero.glb",
-  "apis-cerana": "/models/bee-hero-cerana.glb",
-  "bombus-terrestris": "/models/bee-hero-bombus.glb",
-  "osmia-cornifrons": "/models/bee-hero-osmia.glb",
-  "megachile-rotundata": "/models/bee-hero-megachile.glb",
-  "xylocopa-violacea": "/models/bee-hero-xylocopa.glb",
+  "apis-mellifera": asset("/models/bee-hero.glb"),
+  "apis-cerana": asset("/models/bee-hero-cerana.glb"),
+  "bombus-terrestris": asset("/models/bee-hero-bombus.glb"),
+  "osmia-cornifrons": asset("/models/bee-hero-osmia.glb"),
+  "megachile-rotundata": asset("/models/bee-hero-megachile.glb"),
+  "xylocopa-violacea": asset("/models/bee-hero-xylocopa.glb"),
 };
 
 const VISIT_PHASE_TEXT: Record<VisitPhase, string> = {

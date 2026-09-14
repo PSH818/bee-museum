@@ -61,9 +61,14 @@ const honeyWorkshopHall = (
   </Suspense>
 );
 
+// 子路径部署(如 GitHub Pages /bee-museum/)时路由要挂在同一前缀下;根部署为 "/"
+const BASENAME = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL.slice(0, -1) || "/"
+  : import.meta.env.BASE_URL;
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={BASENAME}>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={workbench} />

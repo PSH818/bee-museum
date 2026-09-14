@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { asset } from "../../../lib/asset";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { disposeObjectTree } from "../../core/dispose";
 import {
@@ -14,44 +15,44 @@ import type { WesternHoneyBeeSpecimen } from "./apis-mellifera-worker";
 // See beemodel/bee_gen.py + beemodel/export_hero.py.
 const HERO_URLS: Record<string, { high: string; low: string }> = {
   "apis-mellifera:worker": {
-    high: "/models/bee-hero.glb",
-    low: "/models/bee-hero-low.glb",
+    high: asset("/models/bee-hero.glb"),
+    low: asset("/models/bee-hero-low.glb"),
   },
   "apis-mellifera:queen": {
-    high: "/models/bee-hero-queen.glb",
-    low: "/models/bee-hero-queen-low.glb",
+    high: asset("/models/bee-hero-queen.glb"),
+    low: asset("/models/bee-hero-queen-low.glb"),
   },
   "apis-mellifera:drone": {
-    high: "/models/bee-hero-drone.glb",
-    low: "/models/bee-hero-drone-low.glb",
+    high: asset("/models/bee-hero-drone.glb"),
+    low: asset("/models/bee-hero-drone-low.glb"),
   },
   "apis-cerana:worker": {
-    high: "/models/bee-hero-cerana.glb",
-    low: "/models/bee-hero-cerana-low.glb",
+    high: asset("/models/bee-hero-cerana.glb"),
+    low: asset("/models/bee-hero-cerana-low.glb"),
   },
   "apis-cerana:queen": {
-    high: "/models/bee-hero-cerana-queen.glb",
-    low: "/models/bee-hero-cerana-queen-low.glb",
+    high: asset("/models/bee-hero-cerana-queen.glb"),
+    low: asset("/models/bee-hero-cerana-queen-low.glb"),
   },
   "apis-cerana:drone": {
-    high: "/models/bee-hero-cerana-drone.glb",
-    low: "/models/bee-hero-cerana-drone-low.glb",
+    high: asset("/models/bee-hero-cerana-drone.glb"),
+    low: asset("/models/bee-hero-cerana-drone-low.glb"),
   },
   "bombus-terrestris:worker": {
-    high: "/models/bee-hero-bombus.glb",
-    low: "/models/bee-hero-bombus-low.glb",
+    high: asset("/models/bee-hero-bombus.glb"),
+    low: asset("/models/bee-hero-bombus-low.glb"),
   },
   "osmia-cornifrons:worker": {
-    high: "/models/bee-hero-osmia.glb",
-    low: "/models/bee-hero-osmia-low.glb",
+    high: asset("/models/bee-hero-osmia.glb"),
+    low: asset("/models/bee-hero-osmia-low.glb"),
   },
   "megachile-rotundata:worker": {
-    high: "/models/bee-hero-megachile.glb",
-    low: "/models/bee-hero-megachile-low.glb",
+    high: asset("/models/bee-hero-megachile.glb"),
+    low: asset("/models/bee-hero-megachile-low.glb"),
   },
   "xylocopa-violacea:worker": {
-    high: "/models/bee-hero-xylocopa.glb",
-    low: "/models/bee-hero-xylocopa-low.glb",
+    high: asset("/models/bee-hero-xylocopa.glb"),
+    low: asset("/models/bee-hero-xylocopa-low.glb"),
   },
 };
 
