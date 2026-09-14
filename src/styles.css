@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Manrope:wght@400;500;600&display=swap');
+
+/* ---- 标本工作台(浅色)主题 ----
+   奶油纸面 + 白色卡片 + 蜂蜜琥珀点缀,衬线标题 */
+:root {
+  font-family: Manrope, "Microsoft YaHei", sans-serif;
+  color: #33291a;
+  background: #f6f1e6;
+  font-synthesis: none;
+  --ink: #33291a;
+  --muted: #8a7c62;
+  --faint: #b3a58a;
+  --accent: #c9861f;
+  --accent-deep: #9a6410;
+  --card: #fffdf8;
+  --card-border: rgba(96, 72, 28, .12);
+  --card-shadow: 0 14px 40px rgba(93, 68, 22, .1), 0 2px 8px rgba(93, 68, 22, .05);
+  --callout: #f8efdc;
+}
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; min-width: 320px; min-height: 100%; }
+button { font: inherit; }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.observatory-shell { position: relative; min-height: 100vh; overflow: hidden; isolation: isolate; background: radial-gradient(circle at 70% 20%, rgba(240, 199, 116, .18), transparent 34%), linear-gradient(160deg, #faf6ec 0%, #f4eddd 55%, #efe6d1 100%); }
+.ambient-field { position: absolute; inset: 0; z-index: -2; overflow: hidden; }
+.ambient-field::before { content: ""; position: absolute; inset: 0; opacity: .05; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.72' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E"); }
+.ambient-field::after { content: ""; position: absolute; left: -8%; bottom: -30%; width: 48%; height: 75%; background: radial-gradient(ellipse, rgba(238, 205, 137, .35), transparent 66%); filter: blur(35px); transform: rotate(18deg); }
+.sun-haze { position: absolute; width: 38vw; height: 38vw; right: 7vw; top: 8vh; border-radius: 50%; background: radial-gradient(circle, rgba(246, 202, 116, .22) 0%, rgba(228, 178, 92, .08) 45%, transparent 71%); filter: blur(10px); }
+.ambient-field i { --x: calc((var(--particle) * 47) % 100); position: absolute; left: calc(var(--x) * 1%); top: calc(((var(--particle) * 71) % 95) * 1%); width: 3px; height: 3px; border-radius: 50%; background: #e2ae4f; opacity: calc(.1 + (var(--particle) % 4) * .05); box-shadow: 0 0 10px rgba(226, 174, 79, .7); animation: drift calc(8s + (var(--particle) % 7) * 1s) ease-in-out infinite alternate; }
+@keyframes drift { to { transform: translate(24px, -38px); opacity: .05; } }
+
+.topbar { height: 84px; padding: 0 4.2vw; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; border-bottom: 1px solid rgba(96, 72, 28, .1); position: relative; z-index: 20; background: rgba(255, 252, 245, .6); backdrop-filter: blur(6px); }
+.wordmark { display: flex; gap: 13px; align-items: center; width: max-content; padding: 0; color: inherit; border: 0; background: none; cursor: pointer; text-align: left; text-decoration: none; }
+.wordmark svg { width: 34px; height: 34px; fill: none; stroke: var(--accent); stroke-width: 1.3; }
+.wordmark span { display: grid; gap: 2px; }
+.wordmark b { font: 600 18px "Noto Serif SC", serif; letter-spacing: .18em; color: var(--ink); }
+.wordmark small { color: var(--faint); font-size: 8px; letter-spacing: .16em; }
+.chapter-mark { display: flex; align-items: center; gap: 18px; color: var(--muted); font-size: 11px; letter-spacing: .16em; text-transform: uppercase; }
+.chapter-mark span::after { content: ""; display: inline-block; width: 40px; height: 1px; margin-left: 18px; vertical-align: middle; background: rgba(96, 72, 28, .25); }
+.chapter-mark b { color: #5e4d2e; font-weight: 500; }
+.top-actions { justify-self: end; display: flex; align-items: center; gap: 16px; }
+.top-actions button, .top-actions a { text-decoration: none; padding: 9px 16px; border: 1px solid transparent; border-radius: 999px; background: none; color: var(--muted); font-size: 11px; letter-spacing: .08em; cursor: pointer; transition: .2s ease; }
+.top-actions button:hover, .top-actions a:hover { color: var(--accent-deep); }
+.top-actions button.active { color: var(--accent-deep); background: var(--callout); }
+.top-actions .about-button { border-color: var(--card-border); background: var(--card); color: #5e4d2e; box-shadow: 0 2px 8px rgba(93, 68, 22, .06); }
+
+.hero-copy { position: absolute; z-index: 5; left: 5vw; top: 17vh; width: min(460px, 33vw); pointer-events: none; }
+.kicker { display: flex; align-items: center; gap: 10px; margin: 0 0 20px; color: var(--accent); font-size: 10px; letter-spacing: .24em; }
+.kicker span { width: 25px; height: 1px; background: var(--accent); }
+.hero-copy h1 { margin: 0; font: 600 clamp(32px, 3.3vw, 56px)/1.36 "Noto Serif SC", serif; letter-spacing: .04em; color: var(--ink); }
+.hero-copy > p:last-child { width: 88%; margin: 24px 0 0; color: var(--muted); font: 400 14px/1.9 "Noto Serif SC", serif; letter-spacing: .05em; }
+
+/* 中央标本卡片 */
+.bee-stage { position: absolute; z-index: 2; inset: 110px 27vw 84px 27vw; cursor: grab; border-radius: 28px; background: linear-gradient(175deg, #fffefa 0%, #f6eeda 70%, #f0e5cb 100%); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); overflow: hidden; }
+.bee-stage:active { cursor: grabbing; }
+.bee-stage canvas { position: relative; z-index: 2; touch-action: none; }
+.bee-stage { touch-action: none; }
+.stage-vignette { position: absolute; z-index: 3; inset: 0; pointer-events: none; border-radius: 28px; background: radial-gradient(ellipse at 50% 46%, transparent 55%, rgba(124, 96, 44, .07) 82%, rgba(124, 96, 44, .16) 100%); }
+.loading-mark { position: absolute; inset: 0; display: grid; place-items: center; color: var(--faint); font-size: 11px; letter-spacing: .16em; }
+
+/* 提示便签(致敬解剖图鉴的 Tip 黄签) */
+
+/* 左侧部位列表(器官库风格) */
+.focus-nav { position: absolute; z-index: 10; left: 4.2vw; bottom: 7vh; display: grid; gap: 4px; padding: 10px; border-radius: 18px; background: var(--card); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); }
+.focus-nav button { width: 168px; height: 42px; display: grid; grid-template-columns: 22px 24px 1fr 10px; align-items: center; gap: 6px; padding: 0 12px; border: 1px solid transparent; border-radius: 12px; background: transparent; color: var(--muted); text-align: left; cursor: pointer; transition: .22s ease; }
+.focus-glyph { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.3; stroke-linecap: round; stroke-linejoin: round; opacity: .8; }
+.focus-nav button span { font-size: 8px; letter-spacing: .12em; color: var(--faint); }
+.focus-nav button b { font: 400 13px "Noto Serif SC", serif; letter-spacing: .14em; }
+.focus-nav button i { width: 4px; height: 4px; border-radius: 50%; background: currentColor; opacity: .5; }
+.focus-nav button:hover { color: var(--accent-deep); background: rgba(248, 236, 210, .6); }
+.focus-nav button.active { color: var(--accent-deep); background: var(--callout); border-color: rgba(201, 134, 31, .3); }
+.focus-nav button.active span { color: var(--accent); }
+
+/* 右侧观察卡片 */
+.observation-card { position: absolute; z-index: 8; right: 4vw; top: 14vh; width: min(352px, 25vw); padding: 26px 26px 22px; border-radius: 22px; background: var(--card); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); animation: card-in .4s ease both; }
+@keyframes card-in { from { opacity: 0; transform: translateX(10px); } }
+.observation-index { padding-bottom: 12px; border-bottom: 1px solid rgba(96, 72, 28, .12); color: var(--faint); font-size: 9px; letter-spacing: .18em; }
+.latin { margin: 20px 0 8px; color: var(--accent); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+.observation-card h2 { margin: 0; color: var(--ink); font: 600 clamp(20px, 1.7vw, 27px)/1.5 "Noto Serif SC", serif; letter-spacing: .04em; }
+.description { margin: 15px 0 0; color: #6d5f45; font: 400 13px/1.85 "Noto Serif SC", serif; }
+.field-note { display: grid; grid-template-columns: 56px 1fr; gap: 14px; margin: 18px 0; padding: 14px 16px; border-radius: 14px; background: var(--callout); }
+.field-note span { color: var(--accent-deep); font-size: 9px; letter-spacing: .12em; }
+.field-note p { margin: 0; color: #7a6a4c; font-size: 11px; line-height: 1.7; }
+.card-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 16px; }
+.card-actions button { border: 0; background: none; cursor: pointer; }
+.motion-toggle { display: flex; align-items: center; gap: 8px; padding: 0; color: var(--muted); font-size: 10px; }
+.pause-icon, .play-icon { display: inline-block; width: 22px; height: 22px; border: 1px solid rgba(96, 72, 28, .3); border-radius: 50%; position: relative; }
+.pause-icon::after { content: "Ⅱ"; position: absolute; inset: 3px 0 0; text-align: center; font-size: 9px; }
+.play-icon::after { content: "▶"; position: absolute; inset: 4px 0 0 2px; text-align: center; font-size: 8px; }
+.next-focus { padding: 9px 14px; border-radius: 999px; background: var(--callout); color: var(--accent-deep); font-size: 10px; letter-spacing: .08em; transition: .2s ease; }
+.next-focus:hover { background: #f3e2c2; }
+.next-focus span { margin-left: 8px; color: var(--accent); }
+
+.model-label { display: flex; align-items: center; gap: 7px; color: #7c5c17; white-space: nowrap; font-size: 10px; text-shadow: 0 1px 6px rgba(255, 252, 240, .9); pointer-events: none; }
+.model-label i { width: 7px; height: 7px; border: 1px solid currentColor; border-radius: 50%; box-shadow: 0 0 0 5px rgba(201, 134, 31, .16), 0 0 14px rgba(201, 134, 31, .55); }
+.model-label span { opacity: .55; font-size: 8px; }
+.model-label b { font: 400 11px "Noto Serif SC", serif; letter-spacing: .15em; }
+
+.experience-footer { position: absolute; z-index: 10; left: 28vw; right: 28vw; bottom: 0; height: 60px; display: grid; grid-template-columns: 1fr 70px 1fr; align-items: center; color: var(--faint); font-size: 8px; letter-spacing: .2em; }
+.experience-footer i { height: 1px; background: rgba(96, 72, 28, .2); position: relative; }
+.experience-footer i::after { content: ""; position: absolute; right: 0; top: -2px; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+.experience-footer p { margin: 0 0 0 18px; font: 400 10px "Noto Serif SC", serif; letter-spacing: .12em; color: var(--muted); }
+.experience-footer a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(96, 72, 28, .25); }
+
+/* ---- 蜂种与职型切换 ---- */
+.species-switch, .caste-switch { position: absolute; z-index: 6; left: 20px; display: flex; gap: 4px; padding: 5px; border-radius: 999px; background: var(--card); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); }
+.species-switch { top: 20px; }
+.species-switch button, .caste-switch button { white-space: nowrap; }
+.species-switch button { padding: 7px 16px; border: 0; border-radius: 999px; background: none; color: var(--muted); font-size: 12px; letter-spacing: .08em; cursor: pointer; transition: .18s ease; }
+.species-switch button:hover { color: var(--accent-deep); }
+.species-switch button.active { background: var(--callout); color: var(--accent-deep); font-weight: 600; }
+.caste-switch { top: 68px; }
+.caste-switch button { padding: 7px 16px; border: 0; border-radius: 999px; background: none; color: var(--muted); font-size: 12px; letter-spacing: .08em; cursor: pointer; transition: .18s ease; }
+.caste-switch button:hover { color: var(--accent-deep); }
+.caste-switch button.active { background: var(--callout); color: var(--accent-deep); font-weight: 600; }
+
+/* ---- 器官热点(前端方案 §8.1:热点固定在模型锚点上) ---- */
+/* 小视觉大热区:按钮本体是透明点击区,可见圆点画在 ::before 上 */
+.hotspot { --hs: var(--accent); display: grid; place-items: center; width: 26px; height: 26px; padding: 0; border: 0; border-radius: 50%; background: none; cursor: pointer; transition: opacity .3s ease; }
+.hotspot::before { content: ""; grid-area: 1 / 1; width: 13px; height: 13px; border-radius: 50%; background: var(--hs); border: 1.5px solid rgba(255, 253, 248, .95); box-shadow: 0 1px 4px rgba(60, 40, 10, .3); opacity: .82; transition: transform .16s ease, box-shadow .16s ease, opacity .16s ease; }
+.hotspot i { grid-area: 1 / 1; z-index: 1; width: 3px; height: 3px; border-radius: 50%; background: #fffdf8; opacity: .9; pointer-events: none; }
+.hotspot:hover::before { transform: scale(1.3); opacity: 1; }
+.hotspot.active::before { transform: scale(1.35); opacity: 1; box-shadow: 0 1px 4px rgba(60, 40, 10, .3), 0 0 0 4px color-mix(in srgb, var(--hs) 35%, transparent); }
+.hotspot.occluded { opacity: .14; pointer-events: none; }
+@media (pointer: coarse) {
+  .hotspot { width: 34px; height: 34px; }
+  .hotspot::before { width: 16px; height: 16px; }
+  .hotspot i { width: 4px; height: 4px; }
+}
+.hotspot-head { --hs: #4a7bd0; }
+.hotspot-wing { --hs: #8a5fc9; }
+.hotspot-abdomen { --hs: #d0642f; }
+.hotspot-leg { --hs: #3f8d5e; }
+.hotspot-whole { --hs: #c9861f; }
+
+/* 器官说明卡(点击热点弹出) */
+.organ-card { position: absolute; z-index: 7; left: 20px; bottom: 20px; width: min(310px, 55%); max-height: 70%; overflow-y: auto; padding: 20px 20px 16px; border-radius: 18px; background: var(--card); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); animation: card-in .3s ease both; }
+.organ-card .latin { margin: 0 0 6px; }
+.organ-card h3 { margin: 0; color: var(--ink); font: 600 19px/1.4 "Noto Serif SC", serif; letter-spacing: .04em; }
+.organ-summary { margin: 10px 0 0; color: #6d5f45; font: 400 12px/1.8 "Noto Serif SC", serif; }
+.organ-function { display: flex; gap: 10px; align-items: baseline; margin: 12px 0 0; padding: 10px 12px; border-radius: 10px; background: var(--callout); color: #7a6a4c; font-size: 11px; line-height: 1.6; }
+.organ-function span { flex: none; color: var(--accent-deep); font-size: 9px; letter-spacing: .12em; }
+.organ-model-note { margin: 10px 0 0; padding-left: 10px; border-left: 2px solid rgba(96, 72, 28, .18); color: var(--faint); font-size: 10px; line-height: 1.6; }
+.organ-close { position: absolute; top: 10px; right: 12px; width: 26px; height: 26px; border: 0; border-radius: 50%; background: var(--callout); color: var(--accent-deep); font-size: 15px; line-height: 1; cursor: pointer; transition: .15s ease; }
+.organ-close:hover { background: #f3e2c2; }
+.organ-card .provenance { margin-top: 12px; }
+
+/* ---- 比较台(三职型对照,产品方案 §8.2) ---- */
+.compare-label { display: grid; justify-items: center; gap: 2px; padding: 8px 14px; border-radius: 12px; background: var(--card); border: 1px solid var(--card-border); box-shadow: 0 4px 14px rgba(93, 68, 22, .1); white-space: nowrap; pointer-events: none; }
+.compare-label b { font: 600 13px "Noto Serif SC", serif; letter-spacing: .1em; color: var(--ink); }
+.compare-label span { font-size: 8px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+.compare-label i { font-style: normal; font-size: 10px; color: var(--accent-deep); }
+.compare-card { max-height: 74vh; overflow-y: auto; }
+.compare-table { margin-top: 16px; border-top: 1px solid rgba(96, 72, 28, .12); font-size: 11px; }
+.compare-row { display: grid; grid-template-columns: 66px 1fr 1fr 1fr; gap: 6px; padding: 8px 0; border-bottom: 1px solid rgba(96, 72, 28, .09); color: #6d5f45; line-height: 1.5; }
+.compare-row > span:first-child { color: var(--accent-deep); font-weight: 600; }
+.compare-head { color: var(--faint); font-size: 10px; letter-spacing: .08em; }
+.compare-head > span:first-child { color: var(--faint); font-weight: 400; }
+.compare-note { margin: 12px 0 0; color: var(--faint); font-size: 10px; }
+
+/* ---- 来源与审校状态(产品方案 §9.2:未审校内容需在界面明确说明) ---- */
+.provenance { margin-top: 14px; display: flex; flex-direction: column; gap: 7px; }
+.review-badge { align-self: flex-start; font-size: 10px; letter-spacing: .12em; padding: 3px 10px; border-radius: 999px; border: 1px solid rgba(168, 121, 31, .4); }
+.review-draft { color: #a8791f; background: rgba(217, 151, 30, .08); }
+.review-ai-reviewed { color: #3f6f8d; border-color: rgba(63, 111, 141, .4); background: rgba(63, 111, 141, .08); }
+.review-reviewed { color: #5d7d3f; border-color: rgba(109, 141, 79, .4); background: rgba(109, 141, 79, .08); }
+.review-verified { color: #3f7d70; border-color: rgba(79, 141, 128, .4); background: rgba(79, 141, 128, .08); }
+.source-line { margin: 0; font-size: 11px; line-height: 1.7; color: var(--muted); }
+.source-line a, .source-line a:visited { color: #8a6b2e; text-decoration: none; border-bottom: 1px solid rgba(138, 107, 46, .35); }
+.source-line a:hover { color: var(--accent-deep); }
+
+@media (max-width: 1050px) {
+  .chapter-mark { display: none; }
+  .topbar { grid-template-columns: 1fr 1fr; }
+  .hero-copy { top: 15vh; width: 40vw; }
+  .bee-stage { inset: 100px 30vw 80px 28vw; }
+  .observation-card { width: 27vw; right: 3vw; padding: 20px; }
+  .observation-card h2 { font-size: 21px; }
+  .focus-nav button { width: 128px; }
+}
+
+@media (max-width: 760px) {
+  .observatory-shell { min-height: 100svh; overflow-y: auto; padding-bottom: 32px; }
+  .topbar { height: 66px; padding: 0 20px; }
+  .top-actions button:first-child, .top-actions .about-button { display: none; }
+  .top-actions::after { content: "CH. 01"; color: var(--faint); font-size: 9px; letter-spacing: .16em; }
+  .wordmark b { font-size: 15px; }
+  .hero-copy { position: relative; left: auto; top: auto; width: auto; padding: 40px 24px 0; }
+  .hero-copy h1 { font-size: clamp(29px, 8.5vw, 40px); line-height: 1.35; }
+  .hero-copy > p:last-child { width: 96%; margin-top: 16px; font-size: 13px; }
+  .kicker { margin-bottom: 14px; }
+  .bee-stage { position: relative; inset: auto; height: 48vh; min-height: 370px; margin: 16px 16px 0; border-radius: 22px; }
+  .stage-vignette { border-radius: 22px; }
+  .bee-stage { height: 56vh; min-height: 440px; }
+  .species-switch, .caste-switch { left: 12px; right: 12px; padding: 4px; border-radius: 14px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .species-switch::-webkit-scrollbar, .caste-switch::-webkit-scrollbar { display: none; }
+  .species-switch { top: 12px; }
+  .caste-switch { top: 58px; right: auto; }
+  .species-switch button, .caste-switch button { flex: none; padding: 6px 12px; font-size: 11px; }
+  .focus-nav { position: relative; left: auto; bottom: auto; display: flex; margin: 16px 16px 0; padding: 8px; overflow-x: auto; scrollbar-width: none; }
+  .focus-nav::-webkit-scrollbar { display: none; }
+  .focus-nav button { min-width: 78px; width: auto; grid-template-columns: 1fr; justify-items: center; height: 46px; padding: 0 10px; }
+  .focus-nav button span, .focus-nav button i { display: none; }
+  .observation-card { position: relative; right: auto; top: auto; width: auto; margin: 16px 16px 0; }
+  .observation-index { border-bottom: 0; padding: 0; }
+  .latin { margin-top: 14px; }
+  .observation-card h2 { font-size: 23px; }
+  .description { font-size: 13px; }
+  .experience-footer { position: relative; left: auto; right: auto; bottom: auto; margin: 15px 24px 0; grid-template-columns: auto 1fr; gap: 15px; }
+  .experience-footer p { display: none; }
+  .ambient-field { position: fixed; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+}
+
+/* ---- 标注点 v3(交互方案 §4.4):白描边实心点、悬停浮签、两级浮卡 ---- */
+.hotspot-wrap { position: relative; display: grid; place-items: center; }
+.hotspot::before { width: 12px; height: 12px; border: 2px solid #fffdf8; box-shadow: 0 1px 5px rgba(60, 40, 10, .35); opacity: .95; }
+.hotspot.previewing::before { transform: scale(1.35); opacity: 1; box-shadow: 0 1px 4px rgba(60, 40, 10, .3), 0 0 0 4px color-mix(in srgb, var(--hs) 35%, transparent); }
+.hotspot-tip { position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%) translateY(2px); padding: 3px 9px; border-radius: 8px; background: rgba(51, 41, 26, .88); color: #fffdf8; font-size: 10px; letter-spacing: .06em; white-space: nowrap; opacity: 0; pointer-events: none; transition: .15s ease; }
+.hotspot-wrap:hover .hotspot-tip, .hotspot:focus-visible ~ .hotspot-tip { opacity: 1; transform: translateX(-50%) translateY(0); }
+.hotspot-pop { position: absolute; bottom: calc(100% + 10px); left: 50%; transform: translateX(-50%); width: 186px; padding: 12px 14px 10px; border-radius: 14px; background: rgba(255, 253, 248, .97); border: 1px solid var(--card-border); box-shadow: var(--card-shadow); text-align: left; animation: card-in .18s ease both; }
+.hotspot-pop .latin { margin: 0 0 2px; font-size: 9px; }
+.hotspot-pop b { display: block; font: 600 14px "Noto Serif SC", serif; color: var(--ink); letter-spacing: .04em; }
+.hotspot-pop p:not(.latin) { margin: 5px 0 0; color: #6d5f45; font-size: 11px; line-height: 1.65; }
+.hotspot-pop div { display: flex; gap: 6px; justify-content: flex-end; margin-top: 9px; }
+.hotspot-pop div button { padding: 5px 11px; border: 1px solid rgba(96, 72, 28, .16); border-radius: 999px; background: none; color: var(--muted); font-size: 11px; cursor: pointer; transition: .15s ease; }
+.hotspot-pop div button:hover { color: var(--accent-deep); background: var(--callout); }
+.hotspot-pop div button.primary { background: var(--accent); border-color: var(--accent); color: #fffdf8; }
+.hotspot-pop div button.primary:hover { background: var(--accent-deep); color: #fffdf8; }
