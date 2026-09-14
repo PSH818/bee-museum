@@ -1,0 +1,47 @@
+{
+  "name": "bee-bloom-immersive-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:lan": "vite --host --port 4300 --strictPort",
+    "build": "npm run test && tsc --noEmit -p tsconfig.app.json && vite build",
+    "build:release": "npm run validate:release && npm run build",
+    "preview": "vite preview",
+    "preview:lan": "vite preview --host --port 4300 --strictPort",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "test": "vitest run",
+    "validate:content": "vitest run tests/unit/content-data.test.ts",
+    "validate:release": "vitest run --config vitest.release.config.ts",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update-snapshots",
+    "dump:content": "vite-node scripts/dump-content.ts"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "^8.3.0",
+    "three": "^0.185.1",
+    "typescript": "latest",
+    "vite": "latest",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.0",
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "@playwright/test": "^1.62.1",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "meshoptimizer": "^1.2.0",
+    "vite-node": "^6.0.0",
+    "vitest": "^4.1.11"
+  }
+}
