@@ -407,12 +407,14 @@ function HoneyBeeCycle({
   // ---- 焦点巢房内容随 t 变化 ----
   const eggScale = t < 3 ? 1 : lerp(1, 0, ramp(t, 3, 3.3));
   const larvaScale = t < 3 ? 0 : t < 10 ? lerp(0.45, 1.3, ramp(t, 3, 9)) : 0;
+  // 蜡盖:封盖淡入→剖视半透;出房时从中心被咬开(孔渐大,P3),咬剩的圈缘再淡出
   const capOpacity =
     t < 8.6 ? 0
     : t < 9.4 ? lerp(0, 0.92, ramp(t, 8.6, 9.4))
     : t < 10.2 ? lerp(0.92, 0.42, ramp(t, 9.4, 10.2))
-    : t < 20.6 ? 0.42
-    : lerp(0.42, 0, ramp(t, 20.6, 21.4));
+    : t < 21.3 ? 0.42
+    : lerp(0.42, 0, ramp(t, 21.3, 21.9));
+  const capHole = ramp(t, 20.5, 21.0) * 0.86; // 孔半径(占 CELL_R 比例);0 = 完整蜡盖走原渲染分支
   const combOpacity = t < 41 ? 1 : lerp(1, 0.32, ramp(t, 41, 43));
   const newWaxScale = t < 33 ? 0 : lerp(0, 1, ramp(t, 33, 35));
   const entranceScale = t < 37.5 ? 0 : t < 41.5 ? lerp(0, 1, ramp(t, 37.5, 38.2)) : lerp(1, 0, ramp(t, 41.5, 42.5));
@@ -438,6 +440,18 @@ function HoneyBeeCycle({
     }
     const y = feetY(specimen, ADULT_SCALE);
     const base = { scale: ADULT_SCALE, pale: 0, pollen: false, hover: false, animate: true };
+    // 出房(P3):蜡盖咬开后,从焦点巢房格口爬到巢脾面下,刚出房的蜂体色仍浅、渐转深
+    if (t < 21.7) {
+      const k = ramp(t, 21, 21.7);
+      return {
+        ...base,
+        position: [lerp(FOCAL_X, -0.2, k), lerp(FOCAL_Y - 0.05, y, k), lerp(CELL_FRONT_Z + 0.12, 0.4, k)],
+        // 目标偏航取 -2π 等价角,爬出时就近转身而不是原地转大半圈
+        rotation: [0, lerp(-Math.PI / 2, Math.PI / 2 + 1.05 - Math.PI * 2, k), lerp(0, 0.04, k)],
+        scale: lerp((CELL_DEPTH * 0.88) / length, ADULT_SCALE, k),
+        pale: 0.4 * (1 - k),
+      };
+    }
     if (t < 23) return { ...base, position: [-0.2, y, 0.4], rotation: [0, Math.PI / 2 + 1.05, 0.04], act: "groom" };
     if (t < 33) return { ...base, position: [0.3, y, 0.35], rotation: [0, Math.PI / 2 + 0.95, 0.02], act: "probe" };
     if (t < 38) return { ...base, position: [1.0, y, 0.4], rotation: [0, Math.PI / 2 + 0.8, 0], act: "build" };
@@ -556,15 +570,117 @@ function HoneyBeeCycle({
             motion={motion}
           />
         )}
-        {capOpacity > 0 && (
-          <mesh position={[0, 0, CELL_FRONT_Z + 0.02]} rotation={[Math.PI / 2, 0, 0]}>
-            <cylinderGeometry args={[CELL_R * 0.9, CELL_R * 0.9, 0.05, 6]} />
-            <meshStandardMaterial color="#d9b05e" roughness={0.7} transparent opacity={capOpacity} depthWrite={false} />
-          </mesh>
-        )}
+        {capOpacity > 0 &&
+          (capHole <= 0 ? (
+            <mesh position={[0, 0, CELL_FRONT_Z + 0.02]} rotation={[Math.PI / 2, 0, 0]}>
+              <cylinderGeometry args={[CELL_R * 0.9, CELL_R * 0.9, 0.05, 6]} />
+              <meshStandardMaterial color="#d9b05e" roughness={0.7} transparent opacity={capOpacity} depthWrite={false} />
+            </mesh>
+          ) : (
+            <RingDisc
+              position={[0, 0, CELL_FRONT_Z + 0.02]}
+              outline="hex"
+              outer={CELL_R * 0.9}
+              hole={CELL_R * capHole}
+              color="#d9b05e"
+              opacity={capOpacity}
+            />
+          ))}
       </group>
 
       {specimen && <CycleBee specimen={specimen} pose={pose} motion={motion} snap={snap} />}
+    </>
+  );
+}
+
+// ---------------------------------------------------------------- 被咬开的盖/隔(P3)
+
+/** 带圆孔的平面盘(XY 平面,面向 +z):蜡盖被咬开 / 泥隔被咬穿的通用件。
+    孔为 0 的完整态不要用它——各调用点保留原几何分支,保证既有画面逐位不变。 */
+function RingDisc({
+  position,
+  rotation,
+  outline,
+  outer,
+  hole,
+  holeOffsetY = 0,
+  color,
+  opacity,
+}: {
+  position: V3;
+  rotation?: V3;
+  outline: "hex" | "circle";
+  outer: number;
+  hole: number;
+  /** 孔心相对盘心的 y 偏移(泥隔在蜂爬行高度被咬穿) */
+  holeOffsetY?: number;
+  color: string;
+  opacity: number;
+}) {
+  const geometry = useMemo(() => {
+    const shape = new THREE.Shape();
+    if (outline === "hex") {
+      // 尖角朝上(60i+30°),与巢房格口方向一致
+      for (let i = 0; i < 6; i += 1) {
+        const a = THREE.MathUtils.degToRad(60 * i + 30);
+        const x = Math.cos(a) * outer;
+        const y = Math.sin(a) * outer;
+        if (i === 0) shape.moveTo(x, y);
+        else shape.lineTo(x, y);
+      }
+      shape.closePath();
+    } else {
+      shape.absarc(0, 0, outer, 0, Math.PI * 2, false);
+    }
+    const holePath = new THREE.Path();
+    holePath.absarc(0, holeOffsetY, hole, 0, Math.PI * 2, true);
+    shape.holes.push(holePath);
+    return new THREE.ShapeGeometry(shape, 24);
+  }, [outline, outer, hole, holeOffsetY]);
+  useEffect(() => () => geometry.dispose(), [geometry]);
+  return (
+    <mesh position={position} rotation={rotation ?? [0, 0, 0]} geometry={geometry}>
+      <meshStandardMaterial
+        color={color}
+        roughness={0.85}
+        transparent
+        opacity={opacity}
+        depthWrite={opacity >= 0.99}
+        side={THREE.DoubleSide}
+      />
+    </mesh>
+  );
+}
+
+/** 泥隔碎屑:咬穿进度 p 驱动的确定性掉落(加速下坠,落地后存留) */
+const CHIP_SPECS = [
+  { dx: -0.12, dz: 0.16, size: 0.075, spin: 0.7, drift: 0.1 },
+  { dx: 0.1, dz: 0.24, size: 0.06, spin: 2.1, drift: -0.14 },
+  { dx: 0.04, dz: -0.2, size: 0.085, spin: 4.4, drift: 0.05 },
+  { dx: -0.05, dz: 0.3, size: 0.055, spin: 1.3, drift: 0.18 },
+] as const;
+
+function MudChips({ x, progress }: { x: number; progress: number }) {
+  if (progress <= 0.05) return null;
+  const p = clamp01((progress - 0.05) / 0.95);
+  return (
+    <>
+      {CHIP_SPECS.map((chip, i) => {
+        const fall = p * p; // 加速下坠
+        const y0 = TUBE_Y - 0.18;
+        const y1 = CELL_FLOOR_Y + chip.size * 0.5;
+        return (
+          <mesh
+            key={i}
+            position={[x + chip.dx + chip.drift * p, lerp(y0, y1, fall), chip.dz * 0.6]}
+            rotation={[chip.spin, chip.spin * 1.7, chip.spin * 0.6]}
+            castShadow
+          >
+            <boxGeometry args={[chip.size, chip.size * 0.7, chip.size]} />
+            <meshStandardMaterial color="#7d5c3a" roughness={1} />
+          </mesh>
+        );
+      })}
     </>
   );
 }
@@ -604,8 +720,12 @@ function SolitaryCycle({
     const y = feetY(specimen, adultScale);
     const base = { scale: adultScale, pale: 0, pollen: false, hover: false, animate: true };
     if (t < 0.3) return { ...base, position: [2.45, y, 0.55], rotation: [0.03, Math.PI - 0.55, -0.04], act: "scan" };
-    // 筑巢:在巢管口,头朝管内(-x),身体在管底;探头动作 = 储粉/整巢
-    if (t < 1.05) return { ...base, position: [2.15, CELL_FLOOR_Y - specimen.bounds.min.y * adultScale, 0.02], rotation: [0, Math.PI, 0.02], act: "probe" };
+    // 筑巢:在巢管口,头朝管内(-x),身体在管底;探头动作 = 储粉/整巢。
+    // 封最后一道泥隔(t>0.7)时移到管口外侧作业,身体不再穿过成型中的泥隔
+    if (t < 1.05) {
+      const nestX = t > 0.7 ? 2.95 : 2.15;
+      return { ...base, position: [nestX, CELL_FLOOR_Y - specimen.bounds.min.y * adultScale, 0.02], rotation: [0, Math.PI, 0.02], act: "probe" };
+    }
     if (t < 4.9) return null;
     // 茧内成蜂:头朝巢管口(+x)
     const cocoonScale = 1.0 / length;
@@ -661,16 +781,34 @@ function SolitaryCycle({
         <meshStandardMaterial color="#c8b389" roughness={0.9} />
       </mesh>
 
-      {/* 泥隔:由后向前依次出现;次年春天前方的被咬开 */}
+      {/* 泥隔:由后向前依次出现;次年春天前方的被逐道咬穿(P3):
+          孔在爬行高度渐大、咬剩的圈缘存留、碎屑落到管底 */}
       {EDGES.map((x, k) => {
         const appear = ramp(t, 0.22 + offset(k), 0.3 + offset(k));
-        const removed = t >= 11.6 && k >= FOCAL_CELL + 1;
-        if (appear <= 0 || removed) return null;
+        if (appear <= 0) return null;
+        const chewStart = 11.5 + (k - FOCAL_CELL - 1) * 0.2;
+        const chew = k >= FOCAL_CELL + 1 ? ramp(t, chewStart, chewStart + 0.16) : 0;
         return (
-          <mesh key={`mud-${k}`} position={[x, TUBE_Y, 0]} rotation={[0, 0, Math.PI / 2]} scale={[appear, 1, appear]}>
-            <cylinderGeometry args={[TUBE_R * 0.97, TUBE_R * 0.97, 0.07, 32]} />
-            <meshStandardMaterial color="#7d5c3a" roughness={1} />
-          </mesh>
+          <group key={`mud-${k}`}>
+            {chew <= 0 ? (
+              <mesh position={[x, TUBE_Y, 0]} rotation={[0, 0, Math.PI / 2]} scale={[appear, 1, appear]}>
+                <cylinderGeometry args={[TUBE_R * 0.97, TUBE_R * 0.97, 0.07, 32]} />
+                <meshStandardMaterial color="#7d5c3a" roughness={1} />
+              </mesh>
+            ) : (
+              <RingDisc
+                position={[x, TUBE_Y, 0]}
+                rotation={[0, Math.PI / 2, 0]}
+                outline="circle"
+                outer={TUBE_R * 0.97}
+                hole={TUBE_R * 0.75 * chew}
+                holeOffsetY={-0.15}
+                color="#7d5c3a"
+                opacity={1}
+              />
+            )}
+            <MudChips x={x} progress={chew} />
+          </group>
         );
       })}
 
