@@ -31,6 +31,10 @@ const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
 
 type V3 = [number, number, number];
 
+/** 站点行为动画(P1,motion 门控;手法同蜂蜜工坊 HiveBees):
+    groom=梳理点头 / probe=探头进巢房 / build=低头抹蜡画圈 / scan=警戒扫视 / patrol=小 8 字巡飞 */
+type BeeAct = "groom" | "probe" | "build" | "scan" | "patrol";
+
 interface BeePose {
   position: V3;
   rotation: V3;
@@ -41,6 +45,7 @@ interface BeePose {
   /** 悬停轻浮(外勤飞行) */
   hover: boolean;
   animate: boolean;
+  act?: BeeAct;
 }
 
 interface CameraPreset {
@@ -124,6 +129,12 @@ function feetY(specimen: WesternHoneyBeeSpecimen, scale: number) {
 
 // ---------------------------------------------------------------- 成蜂
 
+// 行为层的模块级临时量(避免每帧分配;蜂 GLB 约定头朝 +X、背 +Y:俯仰绕 Z、偏航绕 Y、扇翅绕 X)
+const ACT_X_AXIS = new THREE.Vector3(1, 0, 0);
+const ACT_Y_AXIS = new THREE.Vector3(0, 1, 0);
+const ACT_Z_AXIS = new THREE.Vector3(0, 0, 1);
+const actTmpQuat = new THREE.Quaternion();
+
 // 蛹的着色顺序(参照真实蜜蜂蛹):体表先是乳白,复眼先变粉→紫褐→深褐,体表随后才转为琥珀褐
 const PALE_FROM = new THREE.Color("#f4ecdc");
 const PALE_TO = new THREE.Color("#a8824e");
@@ -144,6 +155,22 @@ function CycleBee({
   const group = useRef<THREE.Group>(null);
   const bob = useRef<THREE.Group>(null);
   const initialized = useRef(false);
+  // 行为层节点:头(点头/扫视)与翅(巡飞扇翅覆盖待机微颤)。
+  // rest 四元数取自加载态;行为不激活时每帧复位(motion=0 / 快照模式与旧版逐位一致)
+  const actRefs = useMemo<{
+    head: { node: THREE.Object3D; rest: THREE.Quaternion } | null;
+    wings: Array<{ node: THREE.Object3D; rest: THREE.Quaternion; sign: number }>;
+  }>(() => {
+    let head: { node: THREE.Object3D; rest: THREE.Quaternion } | null = null;
+    const wings: Array<{ node: THREE.Object3D; rest: THREE.Quaternion; sign: number }> = [];
+    specimen.root.traverse((node) => {
+      if (node.name === "head") head = { node, rest: node.quaternion.clone() };
+      if (/^(foreWing|hindWing)/.test(node.name)) {
+        wings.push({ node, rest: node.quaternion.clone(), sign: node.name.endsWith("L") ? 1 : -1 });
+      }
+    });
+    return { head, wings };
+  }, [specimen]);
   const overridden = useRef(new Map<THREE.Mesh, THREE.Material | THREE.Material[]>());
   const paleMaterial = useMemo(
     () => new THREE.MeshPhysicalMaterial({ color: PALE_FROM.clone(), roughness: 0.62, metalness: 0, sheen: 0.5, sheenColor: new THREE.Color("#fff3e0"), sheenRoughness: 0.7 }),
@@ -205,11 +232,66 @@ function CycleBee({
     g.position.lerp(target, k);
     g.quaternion.slerp(q, k);
     g.scale.setScalar(lerp(g.scale.x, pose.scale, k));
-    if (bob.current) bob.current.position.y = pose.hover ? Math.sin(elapsed * 2.2) * 0.05 : 0;
     setPale(pose.pale);
     const animate = motion && pose.animate;
     if (specimen.metadata.id.endsWith("-hero")) applyHeroIdleMotion(specimen, elapsed, animate);
     else applyHoneyBeeIdleMotion(specimen, elapsed, animate);
+
+    // ---- 行为层(P1):一切偏移只写在 bob 子组与头/翅节点上,基座 lerp 不受影响。
+    // 位移单位取蜂体长比例(len),对不同物种/缩放通用;不激活时全部归零复位。
+    const b = bob.current;
+    if (!b) return;
+    b.position.set(0, pose.hover ? Math.sin(elapsed * 2.2) * 0.05 : 0, 0);
+    b.rotation.set(0, 0, 0);
+    if (actRefs.head) actRefs.head.node.quaternion.copy(actRefs.head.rest);
+    const act = animate ? pose.act : undefined;
+    if (!act) return;
+    const len = modelLength(specimen);
+    // 平滑 0→1→0 循环脉冲(同工坊)
+    const pulse = (period: number) => 0.5 - 0.5 * Math.cos((elapsed * Math.PI * 2) / period);
+    let headPitch = 0;
+    let headYaw = 0;
+    if (act === "groom") {
+      // 梳理:低头-抬头循环 + 身体轻微前倾配合
+      const p = pulse(2.6);
+      headPitch = -0.2 * p;
+      b.rotation.z = -0.05 * p;
+      b.position.x += 0.015 * len * p;
+    } else if (act === "probe") {
+      // 探头进巢房:前移-停留-退回 + 整体俯身(同工坊转化站)
+      const p = pulse(3.6);
+      b.position.x += 0.06 * len * p;
+      b.rotation.z = -0.1 * p;
+      headPitch = -0.14 * p;
+    } else if (act === "build") {
+      // 抹蜡:头低伏,贴面缓慢画小圈
+      b.position.x += Math.cos(elapsed * 0.7) * 0.04 * len;
+      b.position.z += Math.sin(elapsed * 0.7) * 0.04 * len;
+      headPitch = -0.12;
+    } else if (act === "scan") {
+      // 警戒扫视:头部低频×低频左右转(出偶发感),身体微随
+      const sway = Math.sin(elapsed * 0.9) * Math.sin(elapsed * 0.23);
+      headYaw = 0.38 * sway;
+      b.rotation.y = 0.09 * sway;
+    } else if (act === "patrol") {
+      // 巡飞:悬停点附近的小 8 字漂移 + 侧倾,翅膀换高频扇动
+      const tau = elapsed * ((Math.PI * 2) / 10);
+      b.position.x += Math.cos(tau) * 0.16 * len;
+      b.position.z += Math.sin(tau * 2) * 0.09 * len;
+      b.position.y += Math.sin(tau * 2 + 1) * 0.03 * len;
+      b.rotation.x = Math.sin(tau) * 0.09;
+      b.rotation.y = -Math.sin(tau) * 0.14;
+      const flap = Math.sin(elapsed * Math.PI * 2 * 19) * 0.55;
+      for (const w of actRefs.wings) {
+        w.node.quaternion.setFromAxisAngle(ACT_X_AXIS, flap * w.sign).multiply(w.rest);
+      }
+    }
+    if (actRefs.head && (headPitch !== 0 || headYaw !== 0)) {
+      actRefs.head.node.quaternion
+        .setFromAxisAngle(ACT_Z_AXIS, headPitch)
+        .multiply(actTmpQuat.setFromAxisAngle(ACT_Y_AXIS, headYaw))
+        .multiply(actRefs.head.rest);
+    }
   };
 
   useEffect(() => {
@@ -356,16 +438,17 @@ function HoneyBeeCycle({
     }
     const y = feetY(specimen, ADULT_SCALE);
     const base = { scale: ADULT_SCALE, pale: 0, pollen: false, hover: false, animate: true };
-    if (t < 23) return { ...base, position: [-0.2, y, 0.4], rotation: [0, Math.PI / 2 + 1.05, 0.04] };
-    if (t < 33) return { ...base, position: [0.3, y, 0.35], rotation: [0, Math.PI / 2 + 0.95, 0.02] };
-    if (t < 38) return { ...base, position: [1.0, y, 0.4], rotation: [0, Math.PI / 2 + 0.8, 0] };
-    if (t < 41) return { ...base, position: [0.55, y, 0.45], rotation: [0.03, Math.PI - 0.15, -0.06] };
+    if (t < 23) return { ...base, position: [-0.2, y, 0.4], rotation: [0, Math.PI / 2 + 1.05, 0.04], act: "groom" };
+    if (t < 33) return { ...base, position: [0.3, y, 0.35], rotation: [0, Math.PI / 2 + 0.95, 0.02], act: "probe" };
+    if (t < 38) return { ...base, position: [1.0, y, 0.4], rotation: [0, Math.PI / 2 + 0.8, 0], act: "build" };
+    if (t < 41) return { ...base, position: [0.55, y, 0.45], rotation: [0.03, Math.PI - 0.15, -0.06], act: "scan" };
     return {
       ...base,
       position: [0.6, y + 0.75, 1.1],
       rotation: [0.1, Math.PI - 0.5, 0.12],
       pollen: true,
       hover: true,
+      act: "patrol",
     };
   }, [specimen, t]);
 
@@ -428,6 +511,8 @@ function HoneyBeeCycle({
                 rotation={[0, (i * 0.9) % Math.PI, 0]}
                 scale={0.72}
                 options={GRUB_IN_CELL}
+                motion={motion}
+                phase={i * 1.3}
               />
             )}
           </group>
@@ -468,6 +553,7 @@ function HoneyBeeCycle({
             rotation={[0, 0.9, 0]}
             scale={larvaScale}
             options={GRUB_IN_CELL}
+            motion={motion}
           />
         )}
         {capOpacity > 0 && (
@@ -517,9 +603,9 @@ function SolitaryCycle({
     const adultScale = (TUBE_R * 2 * 1.4) / length;
     const y = feetY(specimen, adultScale);
     const base = { scale: adultScale, pale: 0, pollen: false, hover: false, animate: true };
-    if (t < 0.3) return { ...base, position: [2.45, y, 0.55], rotation: [0.03, Math.PI - 0.55, -0.04] };
-    // 筑巢:在巢管口,头朝管内(-x),身体在管底
-    if (t < 1.05) return { ...base, position: [2.15, CELL_FLOOR_Y - specimen.bounds.min.y * adultScale, 0.02], rotation: [0, Math.PI, 0.02] };
+    if (t < 0.3) return { ...base, position: [2.45, y, 0.55], rotation: [0.03, Math.PI - 0.55, -0.04], act: "scan" };
+    // 筑巢:在巢管口,头朝管内(-x),身体在管底;探头动作 = 储粉/整巢
+    if (t < 1.05) return { ...base, position: [2.15, CELL_FLOOR_Y - specimen.bounds.min.y * adultScale, 0.02], rotation: [0, Math.PI, 0.02], act: "probe" };
     if (t < 4.9) return null;
     // 茧内成蜂:头朝巢管口(+x)
     const cocoonScale = 1.0 / length;
@@ -534,13 +620,14 @@ function SolitaryCycle({
         animate: false,
       };
     }
-    // 次年出巢:沿巢管爬出,落到地面
+    // 次年出巢:沿巢管爬出,落到地面;完全出巢后原地张望
     const k = ramp(t, 11.55, 11.92);
     return {
       ...base,
       position: [lerp(cellCenter(FOCAL_CELL), 2.3, k), lerp(CELL_FLOOR_Y + 0.3, y, k), lerp(0, 0.6, k)],
       rotation: [0, lerp(0, -0.45, k), 0],
       scale: lerp(cocoonScale, adultScale, k),
+      act: k >= 1 ? "scan" : undefined,
     };
   }, [specimen, t]);
 
@@ -621,6 +708,8 @@ function SolitaryCycle({
                 rotation={[0, 1.25, 0]}
                 scale={larvaScale}
                 options={GRUB_IN_TUBE}
+                motion={motion}
+                phase={k * 1.1}
               />
             )}
             {cocoonScale > 0 && (

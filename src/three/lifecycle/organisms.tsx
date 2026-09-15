@@ -1,4 +1,5 @@
-import { useMemo } from "react";
+import { useLayoutEffect, useMemo, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 /*
@@ -88,21 +89,77 @@ export function createGrubGeometry({
 
 const LARVA_COLOR = "#f1e6d2";
 
-/** 幼虫:弧形分节体 + 头端小头壳(浅褐)。放置时以腹面贴地(局部 y=0)。 */
+/** 蠕动端点:比基准卷得更紧一点(morph target,拓扑同 createGrubGeometry) */
+const WRIGGLE_CURL = 1.14;
+const WRIGGLE_BEND = 0.93;
+/** 一次蜷缩-舒张的周期(秒) */
+const WRIGGLE_PERIOD = 3.4;
+
+/** 幼虫:弧形分节体 + 头端小头壳(浅褐)。放置时以腹面贴地(局部 y=0)。
+    motion 时在基准卷曲与略紧卷曲两个几何间做 morph 插值,呈进食蠕动;
+    motion=0 时 influence 恒为 0,渲染与旧版逐位一致(基线安全)。 */
 export function Grub({
   scale = 1,
   position = [0, 0, 0],
   rotation = [0, 0, 0],
   options,
   castShadow = true,
+  motion = false,
+  phase = 0,
 }: {
   scale?: number;
   position?: [number, number, number];
   rotation?: [number, number, number];
   options?: GrubOptions;
   castShadow?: boolean;
+  /** 蠕动开关(随全局"生命动作"门控) */
+  motion?: boolean;
+  /** 蠕动相位错开,多只幼虫不同步 */
+  phase?: number;
 }) {
-  const geometry = useMemo(() => createGrubGeometry(options), [options]);
+  const bodyRef = useRef<THREE.Mesh>(null);
+  const headRef = useRef<THREE.Mesh>(null);
+  // motion=0 时不挂 morph 属性:带 morph 的着色路径即使 influence=0 也会让
+  // 阴影边缘产生亚像素漂移(t=6 基线实测),纯净几何保证基线逐位一致
+  const geometry = useMemo(() => {
+    const base = createGrubGeometry(options);
+    if (motion) {
+      const alt = createGrubGeometry({
+        ...options,
+        curl: (options?.curl ?? Math.PI * 1.15) * WRIGGLE_CURL,
+        bend: (options?.bend ?? 0.22) * WRIGGLE_BEND,
+      });
+      base.morphAttributes.position = [alt.getAttribute("position") as THREE.BufferAttribute];
+      base.morphAttributes.normal = [alt.getAttribute("normal") as THREE.BufferAttribute];
+    }
+    return base;
+  }, [options, motion]);
+  // influences 必须在渲染前就位:带 morph 的几何若在 influences 未初始化时
+  // 进入阴影/主渲染通道,three 会在读取 influences.length 处崩掉整个渲染循环
+  useLayoutEffect(() => {
+    const body = bodyRef.current;
+    if (body && geometry.morphAttributes.position && !body.morphTargetInfluences) {
+      body.morphTargetInfluences = [0];
+    }
+  }, [geometry]);
+  useFrame(({ clock }) => {
+    const body = bodyRef.current;
+    if (!body) return;
+    const k = motion
+      ? 0.5 - 0.5 * Math.cos(((clock.elapsedTime + phase) * Math.PI * 2) / WRIGGLE_PERIOD)
+      : 0;
+    if (body.geometry.morphAttributes.position && body.morphTargetInfluences) {
+      body.morphTargetInfluences[0] = k;
+    }
+    // 头壳跟随卷曲端点移动(卷得紧时头端内收)
+    const head = headRef.current;
+    if (head) {
+      const curl = (options?.curl ?? Math.PI * 1.15) * lerpN(1, WRIGGLE_CURL, k);
+      const bend = (options?.bend ?? 0.22) * lerpN(1, WRIGGLE_BEND, k);
+      const theta = -curl / 2;
+      head.position.set(bend * Math.cos(theta), head.position.y, bend * Math.sin(theta));
+    }
+  });
   const material = useMemo(
     () =>
       new THREE.MeshPhysicalMaterial({
@@ -131,13 +188,15 @@ export function Grub({
   ];
   return (
     <group position={position} rotation={rotation} scale={scale}>
-      <mesh geometry={geometry} material={material} castShadow={castShadow} />
-      <mesh position={head} material={headMaterial} castShadow={castShadow}>
+      <mesh ref={bodyRef} geometry={geometry} material={material} castShadow={castShadow} />
+      <mesh ref={headRef} position={head} material={headMaterial} castShadow={castShadow}>
         <sphereGeometry args={[radius * 0.42, 14, 12]} />
       </mesh>
     </group>
   );
 }
+
+const lerpN = (a: number, b: number, k: number) => a + (b - a) * k;
 
 // ---------------------------------------------------------------- 卵
 
